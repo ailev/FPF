@@ -1524,7 +1524,7 @@ The three cases stipulate their inputs. This method combines preserving the requ
 
 Use RHY.2 to identify relevant changes and relations, RHY.5–RHY.6 for representation and translation, and RHY.7 to compare alternatives. Use RHY.3 to check whether the articulation can coexist with the continuing carrier, RHY.9–RHY.11 for configuration and coordination, RHY.12 when capability needs development, RHY.13 for transfer or retention, and RHY.14 for a needed observation of performance or response.
 
-Use C.17 and C.18 for a broader search when variation and diversity matter to the task. Use C.11 when choosing among alternatives and C.11.DUA to assess further inquiry. Mathematical methods supply possible transformations. C.29 qualifies their application to the performance. If the variant is a specification, use E.10.D2 for its checkable claims.
+Construct performance variants through RHY.8. For a claim of novelty or diversity among them, C.17 helps identify the comparison and its grounds. Use C.18 when the work needs a record of what was generated, a reason to retain a variant for exploration or a front under stated criteria. Use C.11 when choosing among alternatives and C.11.DUA to assess further inquiry. Mathematical methods supply possible transformations. C.29 qualifies their application to the performance. If the variant is a specification, use E.10.D2 for its checkable claims.
 
 ### RHY.8:End
 

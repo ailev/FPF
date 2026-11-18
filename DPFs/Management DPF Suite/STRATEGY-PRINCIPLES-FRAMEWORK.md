@@ -1417,7 +1417,7 @@ Keep a possibility when its difference can matter to a plausible later choice, r
 
 Distinguish three questions before using an archive or front claim. What is worth retaining for exploration? Which candidates are currently non-dominated under a stated comparison? What should the chooser select? FPF C.18 governs the archive and front records when those claims matter; C.17 supports a claimed difference; C.11 governs local choice. State the retention or selection grounds if either conclusion is needed.
 
-For a small set, describe the alternatives and their retention reasons directly. A claim of non-domination requires a stated comparison. A decision to fund joint use requires its own grounds and authority.
+For a small set, describe the alternatives and their retention reasons directly. To claim that a direction is non-dominated, compare it with the eligible rivals on the characteristics chosen for this strategic decision (STR.9:4.2). A direction may merit further investigation while its standing is open. Funding joint use requires its own grounds and authority.
 
 Stop carrying a possibility when its plausible continuation no longer warrants the full burden. STR.7 can compare retention with a worthwhile experiment, but retention alone does not demand a test.
 
@@ -2136,7 +2136,7 @@ These criteria answer different questions. Worst-case comparison emphasizes the 
 
 Keep material value disagreement explicit. A scalar can help only when its trade-offs are warranted for this use. Explicitly assumed probabilities and scales yield a conditional calculation. A claim about expected outcomes under real conditions requires probabilities and scales justified for that use. Identify a changed criterion as a new comparison.
 
-For a dominance claim, specify the compared characteristics, their preferred directions, conditions and evidence. Being no worse on every relevant coordinate and better on at least one can support dominance under that rule. A weighted-score win or a higher average does not establish dominance. Where a required consequence estimate is missing, leave the coordinate comparison unresolved. If a selection is requested, the responsible chooser can use the non-dominated candidates and the conditions that distinguish them.
+For a dominance claim, specify the characteristics, their preferred directions, the conditions and the evidence. Under Pareto comparison, an eligible rival that is at least as good on each characteristic and better on one dominates the proposal. A supported advantage for the proposal on one characteristic rules out domination by that rival. Compare with every eligible rival to establish membership of the non-dominated set. Where a missing estimate still permits different orders, record which comparison is open. A chooser can use established trade-offs and state the priority behind a selection. A higher weighted average alone establishes no Pareto dominance.
 
 #### STR.9:4.3 - Compare the whole finite change with the current configuration
 

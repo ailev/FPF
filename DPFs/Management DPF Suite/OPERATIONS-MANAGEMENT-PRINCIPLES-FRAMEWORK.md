@@ -5402,7 +5402,7 @@ Increase assurance effort when its attainable contribution to a consequential ch
 
 #### OPS.16:4.8 - Compare alternatives under authority and protected conditions
 
-Compare feasible options for continuing, revising, branching or stopping. Identify any remaining uncertainty that affects the comparison. Use the same operating use, interval, result definition, and protected conditions. Carry uncertainty as an explicit interval, scenario, or missing claim. Preserve alternatives that remain non-dominated for materially different uses or conditions.
+Compare feasible options for continuing, revising, branching or stopping under the same operating use, interval, result definition and protected conditions. Carry uncertainty as an interval, scenario or missing claim. When different operating uses matter, compare the options within each use and identify which options remain non-dominated there. Keep an unresolved comparison visible if the missing information could change which variant is retained.
 
 Identify the Agent authorized to make the local operating decision and the predicate, scope, and basis of that authority. Clinical, safety, release, financial, employment, security, and other specialist decisions remain with their owners. Expertise, sponsorship, assignment, access, and a tool recommendation do not transfer authority.
 
@@ -5509,7 +5509,7 @@ The return preserves the admitted Method and its exact description while narrowi
 | “The dashboard improved after the change.” | Recover the observation population, covarying conditions, validity window, and decision that the value can support. |
 | “The new tool created a new Method.” | Test whether reusable inputs, operations, applicability, or result semantics changed; otherwise record the tool or description change directly. |
 | “The trial must continue because learning is valuable.” | Stop when protection, authority, evidence validity, or a worthwhile contribution to the decision or its grounds is unavailable. |
-| “One standard branch should replace every local variant.” | Retain non-dominated variants for materially different uses and conditions. |
+| “One standard branch should replace every local variant.” | For each material operating use, compare the variants that can serve it. Give the grounds for retaining each branch or identify the unresolved comparison. |
 | “No adverse event occurred, so reliability is established.” | State the exposure and observation window; keep broader reliability unresolved. |
 
 ### OPS.16:9 - Consequences
@@ -5641,7 +5641,7 @@ First exclude options that violate a supplied protection, authority limit or nec
 
 Use the same Work family, horizon and result definition for each option. Carry uncertainty as an interval, scenario or unresolved claim suitable for the use. Separate an observed result from a forecast or causal explanation. A method that worked in one team may still be a useful candidate elsewhere; the evidence for that receiving use must remain visible.
 
-An option is dominated when another feasible option is at least as good on all consequential comparison characteristics and better on at least one, under the stated comparison. Keep non-dominated options when the preference remains unresolved. The authorized decision maker can choose among them by an explicit priority or justified trade-off. For example, earlier service may justify a higher payment; a weighted score cannot make a breached recovery condition acceptable.
+An option is dominated when another feasible option is at least as good on all consequential comparison characteristics and better on at least one, under the stated comparison. If each option has an established advantage over the other on a different characteristic, preserve the trade-off. If evidence could still reverse a comparison, identify what remains open. An option belongs to the non-dominated set once domination by every feasible rival has been ruled out. The authorized decision maker can choose among them by an explicit priority or justified trade-off. For example, earlier service may justify a higher payment; a weighted score cannot make a breached recovery condition acceptable.
 
 Increase comparison effort when its attainable contribution warrants the burden. If every option needs the same staffing condition, a conditional comparison can show what the options would deliver. Establish that condition before relying on any option as executable; detailed scores can wait if they would add little.
 

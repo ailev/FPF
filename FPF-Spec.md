@@ -1344,7 +1344,7 @@ Ontology thus serves practical reasoning together with the writing described in 
 
 FPF's Bitter-Lesson Preference in E.2:6 uses the empirical Bitter Lesson to motivate examination of claimed advantages from more compute, data or search capacity in computational work. When that scale or generalization claim is current, or a separately declared local generality policy applies, begin with C.19.1's cheap scale-claim probe. State the receiving task, usable budget range, conditions and evidence needed for the claim.
 
-Compare admissible options by their usable performance and uncertainty over that range. A steeper improvement curve can still stay below the required performance. When neither option dominates under the applicable comparison, there is no scale-based preference; a separate local policy must state its own basis and cost if it chooses greater generality.
+Compare the usable performance of admissible candidates over the receiving range, including uncertainty in the difference between candidates. A steep improvement curve can remain below the required performance. If the comparison establishes equivalence, finds a trade-off, or leaves the ordering open, report which finding supports `no scale-based preference`. To choose greater generality on local grounds, identify the applicable project rule and the cost of using it.
 
 An ordinary bounded procedure can be used on its task-specific grounds. For example, a fixed procedure for summing a known finite list needs correct arithmetic and an adequate task budget; the existence of a general learner does not require a scale audit or an adaptation waiver. Independently applicable assurance and oversight still apply.
 
@@ -2353,10 +2353,10 @@ This glossary names the generative terms in **Plain** register and ties them to 
 | **Diversity_P (declared retained set)** | Coverage or dispersion of the declared retained set under a named measurement policy; declare **ReferencePlane**. Its change on adding one candidate is **DeltaDiversity_P**. | C.17, C.18 |
 | **E/E‑LOG**               | *Named, versioned **explore↔exploit** policy*; governs when to widen space vs refine candidates; **policy‑id is published**.                                   | C.19       |
 | **ReferencePlane**        | *Where a value lives:* **world** (system), **concept** (definition), **episteme** (about a claim). For a plane relation, retain its source/target planes and basis. Cite **CL^plane** for a used or required calibration and the **Φ_plane** policy and loss model for a used or required loss calculation; any numerical assurance penalty requires an applicable B.3 model. | F.9, G.Core:4.2.3 |
-| **Scale Variables (S)**  | *The **monotone knobs** along which improvement is expected* (e.g., parameterisation breadth, data exposure, iteration budget, resolution). **Declare S** for any generator/selector claimed to scale. | C.18.1       |
-| **Scale Elasticity (χ)** | *Qualitative class of improvement when moving along S* (e.g., **rising**, **knee**, **flat** in the declared window). Used as a **selection lens**; numeric laws live in domain contexts.              | C.18.1       |
+| **Scale Variables (S)** | Ordered settings such as iteration budget, data exposure or resolution. For a scale claim, identify which settings vary, the tasks, the response of interest and the range examined. | C.18.1 |
+| **Scale Elasticity (χ)** | A supported response class (*rising*, *knee*, *flat* or *declining*) over the tested settings, or a wider range when a model or bound justifies the extension. Leave the class open when evidence is insufficient. | C.18.1 |
 | **BLP (Bitter‑Lesson Preference)** | A preference supported by a comparable, uncertainty-qualified scale comparison; begin with a **cheap scale-claim probe**. **No scale claim yet** or **no scale-based preference** are valid results. A local generality policy is a separate declared basis. | C.19.1, C.24 |
-| **Iso‑Scale Parity**  | *Fair comparison across candidates at equalised **scale budgets** along S*; may also include **scale‑probes** (two points) to test elasticity.                                                         | G.9, C.18.1  |
+| **Iso‑Scale Parity** | A comparison of candidates at matched resource settings under a justified common basis. To assess change with scale, compare responses at distinct settings. A knee needs at least three ordered settings along one coordinate or specified path, with evidence for the change in slope. | G.9, C.18.1 |
 
 *(Use **LEX‑BUNDLE** for the applicable measurement and scope terminology.)*
 
@@ -2366,7 +2366,7 @@ This glossary names the generative terms in **Plain** register and ties them to 
 
 
 1. **UTS surface (Part F).** When a **UTS row describes a generator, selector, typed portfolio publication, or set-return publication surface**, it **MUST** surface each glossary value or policy used by the declared operation or independently required by the receiving use. Type each reported value's applicable **units, scale, polarity and ReferencePlane** under **MM‑CHR** and **CG‑Spec**, and cite its defining basis, including `DescriptorMapRef` and `DistanceDefRef` when used or required. *(Row schema: F.17; shipping via G.10.)*
-2. **Parity & edition pins (Part G).** When QD/OEE is in scope, **pin the editions and policies used by the operation or required by its receiving use**, including `DescriptorMapRef.edition`, `DistanceDefRef.edition`, the `CharacteristicSpaceRef` with its separate `characteristicSpaceDescriptionRef: U.EpistemeRef` under A.19:5.1.1.1 and `TransferRulesRef.edition` where applicable; record `PathSliceId` when required by that use. **G.9** supplies the pin requirements for a parity use. Treat **illumination/coverage as report‑only telemetry**; publish an **Illumination Map** where G‑kit mandates parity records. **Declare S** (Scale Variables) and run at least one **scale‑probe** (two points along S) when claiming **scale‑amenability**. **Dominance policy defaults to `ParetoOnly`;** including illumination in dominance **MUST** cite a CAL policy‑id.
+2. **Parity & edition pins (Part G).** When QD/OEE is in scope, **pin the editions and policies used by the operation or required by its receiving use**, including `DescriptorMapRef.edition`, `DistanceDefRef.edition`, the `CharacteristicSpaceRef` with its separate `characteristicSpaceDescriptionRef: U.EpistemeRef` under A.19:5.1.1.1 and `TransferRulesRef.edition` where applicable; record `PathSliceId` when required by that use. **G.9** supplies the pin requirements for a parity use. Treat **illumination/coverage as report‑only telemetry**; publish an **Illumination Map** where G‑kit mandates parity records. For an empirical claim about how performance changes with scale, declare **S** and use comparison evidence at distinct settings. Reuse an applicable **scale‑probe**. A theoretical prediction states the assumptions and range that support it. **Dominance policy defaults to `ParetoOnly`;** including illumination in dominance **MUST** cite a CAL policy‑id.
 3. **Tell‑Show‑Show (E.7/E.8).** Any architectural pattern that claims generative behaviour **MUST** embed **both** a **U.System** and a **U.Episteme** illustration using this glossary (manager‑first didactics).
 
 
@@ -2418,8 +2418,8 @@ Co‑evolve declared `{environment, method}` sets; publish **coverage/regret** a
 | **CC‑A0‑6** | Apply **E.7/E.8**: include a **U.System** and a **U.Episteme** illustration when claiming generative behaviour; obey **E.10** register hygiene; use the subsection title **“Archetypal Grounding.”** | Locks didactic primacy; prevents jargon drift.                                  |
 | **CC-A0-7** | **ReferencePlane declared** for every reported N/U/C/Diversity_P head. For a plane relation, retain its source/target planes and basis under **G.Core:4.2.3**; cite **CL^plane** for a used or required calibration and the **Φ_plane** policy and loss model for a used or required loss calculation. Numerical assurance penalties follow an applicable B.3 model. | Prevents plane/stance category errors while preserving applicable crossing and receiving-use grounds. |
 | **CC‑A0‑8** | **Diversity_P ≠ Illumination.** Diversity_P measures the retained set; DeltaDiversity_P measures a candidate's marginal contribution to it. Either requires a declared `PromotionPolicy` before entering dominance. **Illumination** remains **report‑only telemetry** unless explicitly promoted by a CAL-authorized policy-id.                                         | Matches QD triad semantics and parity defaults.                                 |
-| **CC‑A0‑9** | For any generator/selector **scale-behaviour claim**, declare **S (Scale Variables)**, its **ScaleWindow**, and an **E/E-LOG scale policy-id**. Mark **S = N/A** only when no scale-behaviour claim is made. | Keeps a negative scale result within its declared comparison basis. |
-| **CC‑A0‑10** | For scale-behaviour claims, execute a **scale-probe** (≥ 2 points along S within the declared ScaleWindow) and report the **supported Scale Elasticity class** (*rising/knee/flat/declining*), or leave **χ unassigned** and state what remains unresolved, under **C.18.1**. Use a UTS row only when **F.17**'s naming and reuse conditions hold. | Distinguishes supported declining response from unresolved classification and N/A. |
+| **CC‑A0‑9** | For a generator or selector scale-behaviour claim, declare the scale variables **S** and the settings or range the claim covers. Cite the **E/E-LOG scale policy-id** when the claim or its use depends on a policy, for example a knee threshold or selection by class. A prediction from a model states the assumptions of the derivation. Mark **S = N/A** when no scale-behaviour claim is made. | Identifies what varies and the grounds for the asserted response. |
+| **CC‑A0‑10** | For an empirical scale-behaviour claim, identify the compared settings, response, conditions and uncertainty. Use an applicable probe or obtain the missing evidence when the claim is needed. Report the class supported under **C.18.1**. With only one setting, report the result there and leave the trend open. Use a UTS row when **F.17** calls for one. | Makes the grounds for the scale claim recoverable, including when classification remains open. |
 | **CC‑A0‑11** | Apply **Iso‑Scale Parity** in parity runs when S is declared; where infeasible, state the **loss notes** and treat results as **non‑parity**. For a penalty calculated or required by the receiving use, cite its model and policy; numerical assurance penalties require an applicable B.3 model. | Keeps comparisons fair and auditable under scale constraints. |
 | **CC‑A0‑12** | Record a **BLP-waiver** only when overriding a declared generality preference that would otherwise decide the use. Apply **C.19.1**'s governed grounds: admissibility override, parity-supported scale-probe overturn, or non-blocking complementary bias. Bounded specialization alone requires no waiver. | Makes a policy override transparent without imposing one on ordinary bounded tactics. |
 
@@ -63200,19 +63200,19 @@ C.16.Q does not define or test articulation-state characteristics, Bridge truth,
 
 ### C.17:0 - Use this when
 
-Use C.17 when someone must say whether a design, code change, theory, policy proposal, dated Work occurrence, or finite candidate set—the bearer being discussed—is new relative to a named comparison basis and useful for a stated objective or must-criterion.
+Use C.17 to judge the novelty, usefulness or eligibility of a design, code change, theory, policy proposal, dated Work occurrence or finite candidate set. A claim about novelty names what the bearer differs from. A claim about usefulness names what it helps achieve. A claim about eligibility names the conditions it must meet.
 
 If the claim arrives as *learning progress*, *learned novelty*, or information gain described as *learning*, and the bearer or result is still hidden, apply `E.10.LRN` and the direct result owner first. Enter C.17 only after identifying the bearer and the novelty, use, surprise, creativity, or other characterization question. Stop at the direct result when there is no characterization question to answer.
 
 Begin with the smallest useful answer:
 1. identify the bearer being discussed;
-2. say what it is new compared with;
-3. say which objective, acceptance criterion, or must-constraint matters;
-4. state the supported difference, its practical consequence, the evidence used, and the limit of that support.
+2. for a claim of novelty, identify what the bearer is compared with.
+3. for a claim of usefulness or eligibility, identify the objective or applicable must-criterion.
+4. state what the evidence supports for that claim and where its support ends.
 
-Stop there when a qualitative answer is enough. A discussion does not need a score, profile, reusable record, or dated assessment merely because it uses the words *novel*, *useful*, or *creative*.
+Stop when the qualitative answer meets the intended use. Another team can reuse that answer with its evidence, comparison basis or criterion, and limits. Check that those grounds still apply to its question.
 
-Open the stronger branch only when the receiving use needs a quantified coordinate, a comparison-ready result, later reliance, or an audit trail. Then every coordinate must follow its measurement or ascription route before the coordinate claims can support a bounded aggregate result.
+Develop a coordinate when the receiver needs its value. A direct qualitative comparison can answer which features differ between two designs. Prepare profiles when the receiving use needs to compare their coordinates under a declared comparator, for example to test dominance across criteria. For later inspection, preserve the grounds for the claim actually made.
 
 **What changes in practice.** A team can replace an unqualified creativity label with the comparison basis, practical criterion, supported difference, consequence, uncertainty, and stopping point. When numbers matter, it can also reproduce the complete result chain.
 
@@ -63224,20 +63224,20 @@ Do not infer a person's or System's creative capacity from a C.17 result. Strong
 
 #### C.17:1.1 - Qualitative first move
 
-Name the bearer, comparison set, practical objective or must-criterion, observed or argued difference, supported consequence, evidence, and limitation. A useful statement can be as simple as:
+Name the bearer and the judgement the reader needs. For novelty, identify a reference set and the supported difference. For usefulness, name the objective and the evidence for the practical effect. For eligibility, check the applicable must-criteria. State the limits of each conclusion. The following discussion needs all three judgements.
 
 > Compared with the admitted five-year pump-design set, P-22's inspected split-clamp arrangement is a supported difference. The cited assembly evidence supports shorter assembly than the current shop design P-11, and the design must not require new tooling. The inspection does not support claims about other pump families.
 
 This is a C.17 result for an ordinary design discussion. It does not imply a numerical Novelty value or an overall assessment occurrence.
 
-#### C.17:1.2 - Quantified or reusable branch
+#### C.17:1.2 - Obtain a coordinate or compare profiles
 
-When a quantified, comparison-ready, or reusable result is needed:
+When the receiver needs a coordinate or a comparison of coordinate profiles under a declared comparator, use the steps that supply its grounds.
 
 1. select one A.19 CharacteristicSpace and its `A.19.ECS` specification;
-2. fix the finite comparison corpus, inclusion rule, source editions, scope, comparison window, and evidence;
-3. identify the objective, acceptance criterion, and must-constraints used;
-4. identify the similarity or measurement Method used and any model, encoder, distance definition, invariances, calibration, and uncertainty basis it needs;
+2. for a corpus-relative claim, fix the finite comparison corpus, inclusion rule, source editions, scope, comparison window and evidence.
+3. for a usefulness or eligibility claim, identify the objective, acceptance criterion or applicable must-constraints.
+4. identify how each requested value is obtained and the inputs, assumptions or observations it requires.
 5. for each coordinate, cite an existing complete `C.16` measurement result, perform and constitute the missing C.16 measurement, or state a `C.2.1` non-measurement ascription under its declared rule;
 6. form only the aggregate conclusion needed by the receiving comparison;
 7. add an optional profile payload, representation, or record only when a named receiver needs it.
@@ -63256,7 +63256,7 @@ Do not infer an A.6.1 operation application from the Method, Work, configuration
 | --- | --- |
 | Evaluation space | `CreativityCharacteristicSpace` is a local designator for one A.19 `U.CharacteristicSpace`. Its slots bind selected Characteristics to Scales and value sets. |
 | Evaluation specification | One `C.2.1` episteme specializes `A.19.ECS` for the selected bearer kind and use. It states applicability, coordinate meanings, evidence and missingness rules, calibration, result shape, protected trade-offs, stop, and reopen conditions. |
-| Comparison basis | A finite corpus or reference set, with inclusion rule, source editions, coverage boundary, and comparison window. Use a separate source-selection episteme when the selection must persist. |
+| Comparison basis | For a corpus-relative claim, a finite corpus or reference set, with inclusion rule, source editions, coverage boundary, and comparison window. Use a separate source-selection episteme when the selection must persist. |
 | Similarity or measurement procedure | One `U.Method`, with a separate MethodDescription when needed. Identify the model, encoder, distance definition, invariances, calibration, and limits used by that Method. |
 | Generative expectation | One model episteme and its separately recoverable training basis: members or selection rule, source editions, training window, preprocessing, and evidence. |
 | Evaluated bearer | The design, episteme, System, dated Work, finite set, or change under its already established kind. *Creative outcome* may remain ordinary prose; it is not another kind. When a change or Work episode has no single result episteme, identify that bearer and cite the result-and-evidence bundle used by the claim instead of wrapping the bundle in a new outcome kind. |
@@ -63275,7 +63275,7 @@ Preserve an earlier result under its original edition and evaluation basis. Rela
 
 ### C.17:3 - Evaluation configuration
 
-The configuration must make these questions answerable:
+Use the questions that govern the coordinate or comparison being made:
 
 - Which bearer is evaluated, for which use and ClaimScope, over which selected slices and window?
 - Which CharacteristicSpace and `A.19.ECS` specification supply the Characteristics, Scales, value meanings, missingness rules, and admissible comparisons?
@@ -63300,7 +63300,7 @@ Novelty describes supported difference from a finite comparison corpus under one
 
 `Novelty = 1 - max similarity(bearer, corpus member)`
 
-A declared normalization to `[0,1]` may be part of the Method; state its source Scale and transformation. If the Method uses another similarity or distance Scale, state the lawful coordinate construction and resulting Scale instead of reusing this formula. Subtracting an unrestricted result from one does not make it bounded.
+The maximum requires a nonempty set of comparable members. To report it for the whole declared corpus, establish the largest value, either directly or by bounding the remaining similarities by a value already attained. With partial coverage, report the supported bounds or identify the subset for which a value is known. An empty corpus needs a separately defined initialization convention if a value is required. A declared normalization to `[0,1]` may be part of the Method; state its source Scale and transformation. If the Method uses another similarity or distance Scale, state the lawful coordinate construction and resulting Scale instead of reusing this formula. Subtracting an unrestricted result from one does not make it bounded.
 
 When the Method compares representations or observations rather than the evaluated bearers themselves, name each bearer and the value compared, together with the describing, projection, measurement, or other stated relation that lets the comparison support the bearer-level claim. Use a compatible basis for corpus members, or state the mapping and relevant loss. A direct like-for-like comparison of epistemes needs no extra representation relation.
 
@@ -63325,7 +63325,7 @@ Novelty and Surprise answer different questions. A bearer may be unlike the sele
 
 #### C.17:4.4 - ConstraintFit: which must-criteria hold?
 
-ConstraintFit reports satisfaction of the declared must-constraints under their predicates and source epistemes. Use `E.5`, `D.1`-`D.5`, or a service-acceptance pattern only when it supplies the predicate or source for the current must-criterion. A ratio such as `passed declared must-constraints / all declared must-constraints` is allowed when the applicable set is nonempty and any criticality weights are explicit. If no must-constraint applies, omit the ratio and state that fact when the receiving use needs it; other eligibility conditions remain to be satisfied.
+ConstraintFit reports satisfaction of the declared must-constraints under their predicates and source epistemes. Use `E.5`, `D.1`-`D.5`, or a service-acceptance pattern only when it supplies the predicate or source for the current must-criterion. A ratio such as `passed applicable must-constraints / all applicable must-constraints` is allowed when the applicable set is nonempty and the count treats each condition equally. State separately which applicable conditions are unverified and which failed. A weighted result needs its own declared rule and weights. If no must-constraint applies, omit the ratio and state that fact when the receiving use needs it; other eligibility conditions remain to be satisfied.
 
 A failing must-constraint makes the bearer ineligible for the affected use unless the receiving constraint or decision pattern recognizes an independently obtaining exception or waiver effect. A waiver speech act alone does not change eligibility. If no pattern defines the needed effect, return the missing relation rather than treating communication as authorization.
 
@@ -63347,7 +63347,7 @@ EffortCost reports actual resource outlay through `A.15.1` dated Work, `B.1.6` r
 
 `Diversity_P` describes coverage or dispersion of one declared retained set under a named measurement policy. A local policy may, for example:
 
-- take the average pairwise distance among the admitted members under one declared descriptor map, distance Method, and Scale; or
+- take the average pairwise distance under one declared descriptor map, distance Method and Scale. Identify the pairs the statistic covers. The whole-set mean requires at least one pair and enough information to determine the sum over all eligible pairs. A mean calculated only over observed pairs measures that subset. Give its coverage.
 - report how much of a declared feature partition is covered, using a stated covering radius or k-cover rule.
 
 The result identifies the retained set and membership rule, measurement-policy and Scale editions, descriptor or feature source editions, distance or covering definition, comparison window, and evidence. A distance matrix or coverage map can show the calculation. When sensitivity to the kernel, distance definition, covering threshold or admitted-member set can change the receiving decision, use an adequate existing analysis or make the needed comparison and report its consequence. Keep a result on a fixed basis qualified by that basis; claim robustness only with grounds for it.
@@ -63355,6 +63355,8 @@ The result identifies the retained set and membership rule, measurement-policy a
 For a candidate `h` and retained set `S`, the same local policy may use the marginal reading `DeltaDiversity_P`, also written `ΔDiversity_P`:
 
 `DeltaDiversity_P(h | S) = Diversity_P(S plus h) - Diversity_P(S)`
+
+This difference requires both readings to be defined by the policy. For a starting set with no eligible pair, report the missing pairwise value or identify the policy’s declared initialization convention.
 
 Illumination is a report over `Diversity_P`, such as a coverage map or QD-score summary. It is telemetry, not a primitive characteristic and not part of the default dominance set. Use `C.18` to maintain an Archive or Front and `C.19` to state any pool policy that uses these readings.
 
@@ -63396,7 +63398,7 @@ For each selected characteristic, choose one route:
 
 - cite an already constituted `C.16` measurement-result episteme and its complete measurand, Characteristic, Scale, Method, dated measurement Work, measurand relation or A.6.1 binding, any further bindings required by the claim, time, uncertainty, and evidence chain;
 - if the current action measures the coordinate, constitute that complete C.16 chain before using the value;
-- if the claim applies a declared criterion without measuring, state a `C.2.1` ascription and its rule.
+- for a non-measurement result, state a `C.2.1` ascription and show how the declared rule and inputs produce the value. A model calculation and a classification by a criterion can each support such a result.
 
 A numeric model output, criterion label, dashboard cell, or formula alone is not a measurement result.
 
@@ -63404,7 +63406,7 @@ A numeric model output, criterion label, dashboard cell, or formula alone is not
 
 `CreativityEvaluationResult` is one bounded `C.2.1` episteme about the bearer. Its ClaimGraph cites the selected coordinate claims, CharacteristicSpace and specification, scope, use, window, evidence, current eligibility consequence, and any frontier or incomparability conclusion. It is not an arithmetic total and does not create a universal creativity kind.
 
-The result may say that a bearer is eligible for one comparison, incomparable on a missing coordinate, or non-dominated within one declared set. It does not choose, approve, publish, retain, or enact the bearer.
+The result may establish eligibility for one comparison or non-domination within one declared set. Two eligible bearers may each perform better on a different criterion. If a missing value could change their ordering, report which comparisons remain open. Choosing, approving, publishing, retaining or enacting a bearer requires the grounds for that action.
 
 #### C.17:6.3 - Optional payload, record, and rendering
 
@@ -63427,8 +63429,8 @@ Every quantitative result names its derivation or evidence and the calibration, 
 
 Apply these anti-Goodhart guards:
 
-- pair Novelty with Use-Value or ConstraintFit;
-- freeze the comparison corpus, encoder or model, and Scale edition for the result; a load-bearing change creates a new result basis;
+- when novelty is used to support an approval or a preference, also establish the relevant usefulness or eligibility.
+- identify the editions of the corpus, encoder, model or Scale the result actually uses. A change to those grounds can require a new calculation.
 - keep Illumination as telemetry unless an explicit policy promotes it for a named use;
 - check delayed practical consequences, such as retention, maintenance burden, or cost-to-serve, before treating a proxy improvement as a practical gain;
 - connect `DiversityOfSearch` to the declared experimentation allowance and report overspend;
@@ -63454,11 +63456,11 @@ When claims come from different source schemes or corpora, do not compare by mat
 
 #### C.17:9.1 - Pump design: stop early or open the measurement branch
 
-Identify `P-22` as the exact design episteme. Compared with the admitted five-year pump-design set, its inspected split-clamp arrangement is a supported difference. Assembly evidence supports shorter assembly than the current shop design P-11, and the candidate must not require new tooling. The cited comparison uses the same assembly task and conditions. State what was inspected and the limit of that support. Stop here when the discussion needs neither a quantified coordinate nor a reusable result.
+Identify `P-22` as the exact design episteme. Compared with the admitted five-year pump-design set, its inspected split-clamp arrangement is a supported difference. Assembly evidence supports shorter assembly than the current shop design P-11, and the candidate must not require new tooling. The cited comparison uses the same assembly task and conditions. State what was inspected and the limit of that support. A second shop asking the same question can use the supported conclusion when its assembly conditions and comparison basis match.
 
-To use Novelty value `0.42`, cite `P22-NoveltyResult-4`, an already constituted C.16 measurement-result episteme. Its chain identifies P-22 as the measurement subject, the Novelty Characteristic and Scale, exact similarity Method, the calibrated `[0,1]` CAD-graph similarity result used by the declared Novelty construction, encoder and model edition, uncertainty, dated measurement Work, actual bindings, time, and evidence. The Method compares `P22-CADGraph-7`, produced from and representing P-22 under `CADGraphProjection-2`, with graphs produced by the same projection for every corpus design; the result states that this projection omits surface finish and manufacturing tolerances. If the current action measures novelty, constitute that chain first. State the no-tooling-change coordinate as a C.2.1 ascription under its declared criterion unless it was independently measured.
+To use Novelty value `0.42`, cite `P22-NoveltyResult-4`, an already constituted C.16 measurement-result episteme. Its chain identifies P-22 as the measurement subject, the Novelty Characteristic and Scale, exact similarity Method, the calibrated `[0,1]` CAD-graph similarity result used by the declared Novelty construction, encoder and model edition, uncertainty, dated measurement Work, actual bindings, time, and evidence. The Method compares `P22-CADGraph-7`, produced from and representing P-22 under `CADGraphProjection-2`, with graphs produced by the same projection for every corpus design; the result states that this projection omits surface finish and manufacturing tolerances. If the current action measures novelty, constitute that chain first. To resolve the tooling requirement, compare the proposed operations with the available tooling and record what that comparison establishes. It remains open while only the requirement is known.
 
-One `CreativityEvaluationResult` may cite those coordinates and state only that P-22 is eligible for the current comparison and lies on the declared non-dominated set. Building that result does not assert separate overall-assessment Work.
+A `CreativityEvaluationResult` can now report the supported difference and the assembly comparison with P-11. To establish eligibility, check each applicable must-condition. To place P-22 on a non-dominated front, use the declared comparison over eligible rivals (§7). The two results about P-22 alone leave its front membership open.
 
 If an audit later asserts that an overall assessment occurred, identify the evaluator System, its exact assignment, `PumpCreativityAssessment-17` Work, and `PumpCreativityAssessmentMethod-2`; state that the Work enacts the Method. The MethodDescription explains the Method, the result states claims, and coordinate-measurement Work stays separate. Do not add an A.6.1 operation application merely because those values are recorded. If the audit separately asserts an exact operation application or binding, satisfy the current A.6.1 application account and cite that application.
 
@@ -63478,7 +63480,7 @@ For `Cardio-Readmit-H4`, the held-out AUROC is `0.79` against a `0.75` baseline 
 
 #### C.17:9.4 - Product reframing
 
-`OnboardingFrame-v1` treats onboarding as one completion task; `OnboardingFrame-v2` separates job setup from obtaining the first result. The declared ReframeDelta rule returns `BoundaryShift`, supported by the frame diff and a simpler causal map. In a four-week A/B comparison, v2 reduces median time-to-value by 22% against the control baseline, clearing the 20% objective. Exploratory Work used 9 of the 12 allowed staff-days, so the realized risk-budget ratio is `0.75` with no overrun. The frame diff, A/B report, WorkPlan, and Work records support the result. This evidence can inform the later choice; it does not make the choice.
+`OnboardingFrame-v1` treats onboarding as one completion task; `OnboardingFrame-v2` separates job setup from obtaining the first result. The declared ReframeDelta rule returns `BoundaryShift`, supported by the frame diff and a simpler causal map. Suppose a four-week A/B trial assigns users at random to the existing one-task procedure or to a revised procedure with separate job setup and first-result activities. The revised group’s median time-to-value was 22% lower on the same outcome definition, clearing the 20% objective for this trial. The frame comparison establishes what changed in the model. The trial evaluates the procedures the groups used. Exploratory Work used 9 of the 12 allowed staff-days, so the realized risk-budget ratio is `0.75` with no overrun. The frame diff, A/B report, WorkPlan, and Work records support the result. This evidence can inform the later choice; it does not make the choice.
 
 #### C.17:9.5 - Scientific and policy proposals
 
@@ -63492,10 +63494,10 @@ The corpus, neighbour report, model calibration and derivation evidence support 
 
 ### C.17:10 - Manager quick start
 
-1. Name the bearer, comparison corpus, objective, and must-criteria.
+1. Identify the bearer and what the receiver needs to judge. Name the reference for novelty, the objective for usefulness or the applicable condition for eligibility.
 2. State the smallest supported difference and consequence; stop if that answers the question.
 3. When numbers matter, select the space and specification and build each coordinate through C.16 or C.2.1.
-4. Compare with declared gates and a partial order; keep incomparability visible. When a retained set matters, report its declared `Diversity_P` or other needed set reading without turning that reading into selection policy.
+4. For a comparison of profiles, apply the declared eligibility and dominance rules. Preserve open comparisons and established incomparability. When a retained set matters, report its declared `Diversity_P` or other needed set reading.
 5. Pass generation or retention questions to C.18, pool-policy questions to C.19, selector-facing declarations to G.5, and choice questions to C.11, with the result references each needs.
 
 #### C.17:10.1 - Optional one-page comparison brief
@@ -63517,8 +63519,8 @@ This brief is a representation of the selected configuration and results. It doe
 
 | ID | Requirement |
 | --- | --- |
-| `CC-C17-1` | The result identifies the bearer, comparison basis, objective or must-criterion, supported difference or coordinate, consequence, evidence, and limit needed by its use. |
-| `CC-C17-2` | A qualitative result stops before scores, reusable objects, or Work detail when none is needed. |
+| `CC-C17-1` | The result identifies the bearer, judgement, evidence and limit of use. Novelty has a comparison basis, usefulness has an objective, and eligibility has applicable conditions. |
+| `CC-C17-2` | A reusable qualitative answer preserves the grounds and limits needed by its next reader. Quantitative coordinates and comparisons are developed when the judgement calls for them. |
 | `CC-C17-3` | Every selected characteristic has a declared Characteristic, Scale, polarity, admissible operations, missingness rule, and evidence route under one selected A.19 space and A.19.ECS specification. |
 | `CC-C17-4` | Novelty identifies the finite corpus and inclusion rule, source editions, comparison window, Method, distance definition, coordinate construction and resulting Scale, calibration, uncertainty, scope, evidence, and use. The `1 - max similarity` construction requires calibrated `[0,1]` similarity results or a declared lawful normalization to that range. When representations or observations are compared instead of the bearers, the result identifies both, the describing, projection, measurement, or other support relation, a compatible corpus basis or stated mapping, and relevant loss. When the value is load-bearing, the evidence includes an appropriate robustness diagnostic such as nearest-neighbour inspection, corpus/Method sensitivity, or an invariance ablation; the input inventory alone is not robustness evidence. |
 | `CC-C17-5` | Surprise identifies one model episteme and its separate training basis, modeled sample unit, encoding, size treatment, and discrete probability or continuous measure. A cross-bearer comparison uses a justified common extent, declared per-unit or code-length normalization, or another calibrated rule; otherwise the raw result stays basis-local. Use-Value identifies its objective or criterion; an improvement or gain also identifies its baseline and comparison or counterfactual Method. ConstraintFit identifies the must-constraints and their sources. AttributionIntegrity identifies the applicable duty set, the source or rule used to determine applicability, Scale, missingness rule, and evidence for each duty it evaluates. An empty applicable-duty set produces no numeric ratio; omit the characteristic or return explicit `not applicable`, distinct from an unresolved applicable duty. |
@@ -63554,7 +63556,7 @@ This brief is a representation of the selected configuration and results. It doe
 
 **Benefits.** Teams can discuss novelty and value before building a metric stack; stronger results remain reproducible and comparable; trade-offs and incomparability stay visible; and generation, policy, choice, Work, evidence, and publication keep their own boundaries. No particular tool or rendering is required: an implementation is suitable when it preserves the declared configuration, result chain, evidence, and limits.
 
-**Costs.** Quantified claims require a fixed corpus, explicit Scales and Methods, evidence, uncertainty, and edition discipline. Cross-source and cross-scale comparisons sometimes remain incomparable.
+**Costs.** Quantitative claims require declared Scales, the relevant methods and inputs, and the evidence and uncertainty needed for their use. A corpus-relative value also requires a fixed comparison set. Comparing results across sources or Scales may require extra evidence or a justified correspondence.
 
 **Limits.** A C.17 result does not prove that a bearer is good, authorize Work, define universal novelty, supply a selection policy, or establish assurance. It makes the bounded claims and their dependencies inspectable.
 
@@ -63564,7 +63566,7 @@ This brief is a representation of the selected configuration and results. It doe
 
 | Current practice and source | Source-use decision | Concrete C.17 consequence |
 | --- | --- | --- |
-| Judge novelty and usefulness as distinct, context-dependent questions. Harvey and Berry, `Toward a Meta-Theory of Creativity Forms: How Novelty and Usefulness Shape Creativity`, *Academy of Management Review* 48(3):504-529 (2023), DOI `10.5465/amr.2020.0110`; Sen et al., `Automated Creativity Evaluation of Language Models Across Open-Ended Tasks`, ACL 2026, DOI `10.18653/v1/2026.acl-long.1061`. | **Adopt** the separation of creative breadth from task fulfilment and the dependence of usefulness on the practical situation. **Adapt** it by using the named comparison basis, Use-Value, and ConstraintFit already defined here. **Reject** a context-free creativity score and the cited paper's particular semantic-entropy or automated-judge machinery as universal FPF measures. | The first move names both what the bearer differs from and which objective or must-criterion matters. Approval-facing use cannot substitute Novelty for Use-Value or ConstraintFit; `CC-C17-1`, `CC-C17-5`, and `CC-C17-8` test that boundary. |
+| Judge novelty and usefulness as distinct, context-dependent questions. Harvey and Berry, `Toward a Meta-Theory of Creativity Forms: How Novelty and Usefulness Shape Creativity`, *Academy of Management Review* 48(3):504-529 (2023), DOI `10.5465/amr.2020.0110`; Sen et al., `Automated Creativity Evaluation of Language Models Across Open-Ended Tasks`, ACL 2026, DOI `10.18653/v1/2026.acl-long.1061`. | **Adopt** the separation of creative breadth from task fulfilment and the dependence of usefulness on the practical situation. **Adapt** it by using the named comparison basis, Use-Value, and ConstraintFit already defined here. **Reject** a context-free creativity score and the cited paper's particular semantic-entropy or automated-judge machinery as universal FPF measures. | For a novelty claim, the first move names what the bearer differs from. For a claim of creative value it also identifies the practical objective or must-criterion. Approval-facing use cannot substitute Novelty for Use-Value or ConstraintFit; `CC-C17-1`, `CC-C17-5`, and `CC-C17-8` test that boundary. |
 | Preserve a collection of different locally strong alternatives when the question needs coverage rather than one winner. Qin et al., `A survey on Quality-Diversity optimization: Approaches, applications, and challenges`, *Swarm and Evolutionary Computation* 100:102240 (2026), DOI `10.1016/j.swevo.2025.102240`. | **Adopt** the quality-diversity and illumination insight that coverage and local quality can matter together. **Adapt** it as `Diversity_P`, Illumination, or another declared retained-set reading. **Reject** MAP-Elites, a QD score, feature descriptor, container, or quota as a default C.17 method or selection rule. | A set reading stays telemetry with its bearer, rule, Scale, and evidence. Use `C.18` for Archive and Front maintenance, `C.19` for pool treatment, and `G.5` for selector-facing declarations; `CC-C17-9` and `CC-C17-10` keep these moves separate. |
 | Test whether a result survives reasonable corpus, metric, and representation choices. Lu et al., `Rethinking Creativity Evaluation: A Critical Analysis of Existing Creativity Evaluations`, EACL 2026, DOI `10.18653/v1/2026.eacl-long.297`; Stein et al., `Exposing Flaws of Generative Model Evaluation Metrics and Their Unfair Treatment of Diffusion Models`, NeurIPS 2023, DOI `10.52202/075280-0165`. | **Adopt** sensitivity checking and comparison with evidence suited to the receiving domain. **Adapt** it by making the corpus, inclusion rule, Method, model or encoder, distance, calibration, and uncertainty part of the claim. **Reject** transfer of one metric across domains, minor prompt or implementation stability as validity, and leaderboard standing as evidence of the bearer characteristic. | For a load-bearing value, use a robustness diagnostic suited to the claim, such as neighbour inspection or corpus/Method sensitivity. Reuse an adequate result; run a further probe only when its contribution is needed. If the conclusion changes, report that dependence or incomparability instead of hiding it in one score; `CC-C17-4` and `CC-C17-11` make this visible. |
 | Check whether optimizing a proxy stops improving the result that matters. Gao, Schulman, and Hilton, `Scaling Laws for Reward Model Overoptimization`, ICML 2023, PMLR 202:10835-10866, `https://proceedings.mlr.press/v202/gao23h.html`. | **Adopt** the warning that further proxy optimization can reduce performance under a separate target judgement. **Adapt** it by retaining primitive coordinates, gates, evidence, and held-out or delayed observations and by giving the local result a stop or reopen condition. **Reject** the reward-model setting or its fitted scaling law as a universal degradation model, and reject a rising proxy score as evidence that the bearer improved. | The design and policy cases keep tooling and legal or equity gates visible even when another value improves. Scalarization never erases the primitive coordinates; later target evidence can reopen only the claims that relied on the proxy. |
@@ -63611,7 +63613,7 @@ The following are research questions, not current requirements:
 
 Use this pattern when generating or retaining variants raises a practical question: which candidates belong on the current front, which should remain available for exploration, and what changed in the basis for those decisions? A retained stepping stone can matter even when another candidate currently dominates it.
 
-**First useful move.** Name the candidate set, the comparison or retention rule needed, and the supported return. If the question asks only which candidates are non-dominated, return that front under the declared comparator. If it asks what to keep for later exploration, state the archive membership and its retention reason. Keep the two answers distinct when both are needed.
+**First useful move.** Name the candidate set, the comparison or retention rule needed, and the supported return. For a front, establish which eligible candidates are non-dominated under the declared comparator. Where a missing comparison could change membership, report the candidates whose status can already be settled and identify the open comparison. If it asks what to keep for later exploration, state the archive membership and its retention reason. Keep the two answers distinct when both are needed.
 
 When a retention reason is not yet supportable, use B.5:4.1.2 on the candidate, source or failed attempt to develop what later inquiry or action it could enable and under which conditions. Compare that attainable contribution and the retention commitment through C.11.DUA:4.2–4.2.1; use an already adequate basis directly. C.19:4.0 develops this connection when the question concerns treatment of a live pool. Return the supported archive-membership decision, or the particular retention claim still open and the attainable contribution needed to settle it.
 
@@ -63814,6 +63816,8 @@ Then state the smallest supported mode:
 
 The first result is one ordinary `C.2.1` claim naming the earlier and candidate space declarations, changed component, mode wording, counterfactual or trajectory evidence, uncertainty, blocked stronger claim, and next governing relation. Use `C.28` for a causal claim that the component change produced the new reachability. Use `C.11.CRC` when a finite space-changing intervention must be compared with the current configuration, and `C.11` for the later choice.
 
+To establish that a change opened a possibility, identify a candidate or action reachable under the new rules and explain what kept it out under the earlier rules. An earlier search may simply have missed it. If the question is whether the whole space expanded, also establish that every previously admitted possibility still has a counterpart under the new rules. A change can open some possibilities and close others.
+
 Stop at ordinary same-space exploration when no action depends on the stronger mode. Reopen only when the candidate grammar, generator, operator set, evaluator, retention/reproduction rule, goals/actions, environment, evidence, or receiving decision changes.
 
 **Worked micro-case.** A cooling-module search previously admits only fixed rectangular layouts assembled by the same connection operators and evaluated under the same thermal/maintainability comparator. A new layout far from the archive remains exploratory if those rules still admit it. For this comparison, take a validated curved-channel building block and its construction operator as supplied inputs. Adding them is expansive only when the earlier generator could not express the resulting layouts and the comparison still uses a compatible higher-order regime. If the operator itself is missing, C.39.RO and the applicable subject Methods must supply its construction before that addition can be claimed. Replacing candidate admission and retention with a context-adaptive rule that changes which successors count is transformational only when the earlier/candidate rule mapping and observed reachability support that stronger claim. A higher novelty score alone establishes none of these transitions.
@@ -63823,7 +63827,7 @@ Stop at ordinary same-space exploration when no action depends on the stronger m
 
 
 - Start from one declared candidate or eligibility set.
-- Return the non-dominated front from the relation-token set under the declared comparator or dominance set.
+- Apply the declared dominance relation to eligible candidates for the same use. One eligible rival that dominates a candidate settles its exclusion. To establish membership, rule out domination by every eligible rival, using the comparisons or a bound that covers them. Two candidates may be incomparable because each does better on a different criterion. Missing evidence about a criterion can instead leave their relation open. If the front is computed over a set of recorded comparisons, state which candidates and comparisons those records cover before using it to judge the underlying alternatives.
 - Return the exploration archive separately when the question concerns retained exploration value, coverage, novelty, diversity, stepping-stone value, or future reachability.
 - Keep tie-breakers and telemetry explicit so diversity, illumination, or popularity signals do not rewrite front semantics.
 - Before promoting telemetry or a popularity-like signal into the comparator, dominance set, or selected-set criteria, check which intended archive/front uses or values become worse or more fragile when that signal improves. State the affected uses or values, or the checked loci when none worsened, and cite the policy or decision authority that admits the promotion and any trade-off. If this basis or authority is missing, keep the signal as telemetry. Use it as a bounded tie-breaker only when a separate applicable policy already admits that use.
@@ -63972,26 +63976,26 @@ Notation independence vs useful scaling heuristics; local context vs cross‑con
 #### C.18.1:4.2 - Fields (conceptual descriptors).
 
 * **S — Scale Variables.** Minimal set of adjustable variables with a declared order for the Context: `compute` (steps/tokens/FLOPs/time/energy), `data` (size/quality), `model capacity` (params/branches), `iteration budget`, **`freedom‑of‑action (FoA)`**/**environment richness**, etc. Declare each variable’s Characteristic and Scale, with a unit when applicable under **C.16**, and bind `S` to a **ScaleWindow**. Ordering the input does not assume a monotone improvement in the outcome; do not treat qualitative data quality or freedom of action as a ratio quantity without that measurement basis. Keep planned budget values with **A.15.2**; bind dated resource-use accounts to **A.15.1**, **B.1.6**, and **A.10**. Where training/inference trade, **name the phase** the claim concerns.
-* **ScaleWindow.** Declared range of `S` values for which behaviour claims hold (editioned). This is **distinct from** **FreshnessWindow** used by parity.
+* **ScaleWindow.** The declared range of resource settings under investigation. Identify the settings actually tested and the response, statistic, task family and conditions to which the result applies. To extend a conclusion to untested settings, state the model, bound or other grounds for that extension. `FreshnessWindow` governs the age of the evidence.
 * **Scale‑Probe.** At least **two** (preferably **≥ 3**) **parity-respecting** points in `S` within the ScaleWindow, with uncertainty appropriate to the empirical claim. Use replicates, seeds and confidence intervals when the trial design and variability require them; deterministic results retain their conditions and any applicable measurement or numerical error. Pick points via a **small factorial or Latin-hypercube** when that design answers the multi-knob question.
-* **ElasticityClass** `χ ∈ {rising, knee, flat, declining}` — a **qualitative** class supported by the probe over the declared ScaleWindow. Leave `χ` unassigned when the observations and their uncertainty do not support a class, and state what remains unresolved. Numeric exponents/fits live in domain annexes, not Core.
+* **ElasticityClass** `χ ∈ {rising, knee, flat, declining}` — a **qualitative** class supported by the probe at the settings supported within the declared ScaleWindow. Leave `χ` unassigned when the observations and their uncertainty do not support a class, and state what remains unresolved. Numeric exponents/fits live in domain annexes, not Core.
 * **ParityNotes.** `iso‑scale parity?` flag and **loss notes** if not achieved, plus applicable **Bridge**, **Φ**, and **Ψ** IDs for actual crossings under **G.9**; any numerical assurance penalty follows its applicable B.3 model.
 
 #### C.18.1:4.3 - Norms (SLL).
 
 * **SLL‑1 (Declaration).** Any profile **claiming scale behaviour SHALL** declare `S` and a **ScaleWindow** for the Context.
-* **SLL‑2 (Probe).** A scale-behavior investigation **SHALL** use an applicable **scale‑probe** (≥ 2 points in `S`, with the applicable uncertainty treatment in §4.2) and record the supported **χ**, or the unresolved classification. An existing probe may supply this basis while its window, definitions and conditions remain applicable. Multi‑knob probes **SHALL** hold unspecified knobs fixed or pinned, and disclose invariants.
+* **SLL‑2 (Probe).** An empirical conclusion about a change with scale **SHALL** use an applicable **scale‑probe** (≥ 2 points in `S`, with the applicable uncertainty treatment in §4.2) and record the supported **χ**, or the unresolved classification. An existing probe may supply this basis while its window, definitions and conditions remain applicable. Multi‑knob probes **SHALL** hold unspecified knobs fixed or pinned, and disclose invariants. A result at one setting can establish what happened there. Repeat trials at that setting can improve the estimate for that setting. A change with scale remains open until the evidence covers distinct settings.
 * **SLL‑3 (Parity).** A comparison claiming matched scale **SHALL** establish **iso‑scale parity**. When heterogeneous knobs such as FLOPs and tokens require a mapping, apply a justified **UNM/NormalizationMethod** mapping **before** comparing outcomes under **G.9**; their names alone supply no conversion. Keep **FreshnessWindows/editions** equal/pinned as required by G.9. If iso-scale parity cannot be established, state the loss and restrict the comparison to what its applicable rule admits. Loss notes alone do not make an otherwise unsupported comparison admissible. Record any **seeds/replicates** used, the uncertainty basis, ComparatorSet and applicable policy ids in telemetry/SCR.
 * **SLL‑4 (Selection lens).** Within the **same Context and ScaleWindow**, if novelty, use value and constraint fit are tied, selectors **MAY** use illumination as a tie-breaker when an applicable pinned policy admits that bounded use. This **SHALL NOT** change default dominance. Promotion into dominance needs its own explicit CAL policy; otherwise illumination remains report-only telemetry.
-* **SLL‑5 (Knee test).** A **knee** is claimed only when a monotone rise is followed by a slope drop across adjacent intervals formed by at least three distinct probe points within the ScaleWindow. The slope comparison must be admissible for the declared Scales and establish a drop exceeding the **policy-defined threshold** under the uncertainty or error treatment appropriate to the probe. For stochastic probes, establish statistical significance under the cited policy using a method whose assumptions fit the trial design; report the significance level and any confidence-interval level used. For deterministic probes, establish the threshold exceedance throughout the applicable error bounds. Cite the threshold policy (E/E-LOG), comparison method and uncertainty basis. Failure to establish a knee leaves that claim unsupported. Report **rising**, **flat** or **declining** only when the probe supports that class; otherwise leave **χ** unassigned. Absence of a confirmed knee is not evidence of rising performance.
+* **SLL‑5 (Knee test).** A **knee** is claimed only when a monotone rise is followed by a slope drop across adjacent intervals formed by at least three distinct probe points within the ScaleWindow. Compare slopes along one ordered resource coordinate with other influential conditions held comparable. If several resources change together, define the path and its unit of advance, and attribute the knee to that path. The slope comparison must be admissible for the declared Scales and establish a drop exceeding the **policy-defined threshold** under the uncertainty or error treatment appropriate to the probe. For stochastic probes, establish statistical significance under the cited policy using a method whose assumptions fit the trial design; report the significance level and any confidence-interval level used. For deterministic probes, establish the threshold exceedance throughout the applicable error bounds. Cite the threshold policy (E/E-LOG), comparison method and uncertainty basis. Failure to establish a knee leaves that claim unsupported. Report **rising**, **flat** or **declining** only when the probe supports that class; otherwise leave **χ** unassigned. Absence of a confirmed knee is not evidence of rising performance.
 * **SLL‑6 (Telemetry invariants).** Probes **SHALL** export the uncertainty basis, any seeds/replicates used, edition pins, applicable policy ids and resource-account units governed by **C.16** and **B.1.6**, with dated-work and provenance links under **A.15.1** and **A.10**, to **G.11**.
 
 #### C.18.1:4.4 - Method — minimal SoTA probe recipe (notation‑agnostic; informative).
 1) **Choose ordered scale variables** `S` for the Context, such as compute, data, capacity or FoA, under their declared measurement basis.
-2) **Pick 3–5 probe points** per active knob (edge/mid/edge) under iso‑scale parity; use a **fractional factorial** if >2 knobs.
+2) Choose attainable settings that can distinguish the effects in question. Three to five settings can reveal curvature along a single ordered resource. A two-state variable permits a two-state comparison. For several resources, choose a design that can distinguish the relevant main effects and interactions.
 3) For stochastic trials, choose replication and an uncertainty method adequate to the claimed trend; bootstrap intervals are one option when their assumptions fit the data. Retain the seeds used. For deterministic trials, retain the conditions and applicable error bounds.
-4) **Estimate local slopes** on a log‑log grid only where the declared Scale operations are admissible under **A.18** and the logged values are positive; apply **piecewise/segmented regression** or a **knee detector** (e.g., L‑curve/Kneedle) to support `χ`.
-5) **Record invariants** (pinned knobs, safety envelope). Use **SLL.Card@Context** to keep the account reusable; an adequate existing account need not be recopied.
+4) Estimate the contrast needed for the claim. For a knee, use the adjacent slopes in SLL‑5. Logarithmic slopes require positive values and operations admitted by the Scales under `A.18`. A segmented fit or a knee detector can assist that comparison.
+5) Record the response and statistic, task family, settings tested and conditions held fixed. Make the evidence available through the profile or `SLL.Card@Context`. An observed run demonstrates that its outcome occurred under those conditions. A feasible solution with a verified objective value supplies a lower bound when maximizing that objective. Meeting a target with a verified amount of an ordered resource supplies an upper bound on the minimum needed under the same conditions. If several resources are tracked separately, report the feasible combination. A claim about expected performance, population coverage or a required success probability needs evidence for that statistic.
 6) **If χ changes** across the window, split the ScaleWindow and re‑classify per segment.
 
 ### C.18.1:5 - Consumer relation fields - minimal inputs and outputs (conceptual)
@@ -64019,9 +64023,9 @@ Notation independence vs useful scaling heuristics; local context vs cross‑con
 ### C.18.1:6 - Conformance Checklist (CC-SLL)
 
 1. `S` declared **or** `S = N/A` with rationale.
-2. **Scale-probe** performed; the supported **χ** or unresolved classification recorded with the applicable uncertainty treatment and any **replicates and CI** used; invariants disclosed.
-3. **iso-scale parity** or **loss notes**; any numerical assurance penalty justified by its receiving B.3 model; editions and any seeds used pinned; ComparatorSet cited.
-4. If illumination is used as a tie-breaker, the selector cites the admitting policy, **χ** and **lens id** in **E/E-LOG** provenance.
+2. For an empirical scale comparison, give the probe settings, response, task family, invariants and applicable uncertainty. Name the supported class or the remaining uncertainty. With observations at only one setting, report what is established there and leave the scale comparison open.
+3. A matched-scale claim has established iso-scale parity, with the editions, seeds when used, and comparator recoverable. If the resource regimes cannot be matched, report the individual results or a narrower comparison whose grounds hold. Any numerical assurance penalty has a basis in the receiving B.3 model.
+4. An illumination tie-break cites the policy admitting it and its **lens id** in **E/E-LOG** provenance. When that policy depends on **χ**, include the supported class or leave the dependent preference open.
 5. Knee claims cite the **policy threshold**, slope-comparison method and applicable uncertainty or error basis; include the statistical significance level and any CI level when those are used.
 
 ### C.18.1:8 - Common Anti-Patterns and How to Avoid Them
@@ -64036,13 +64040,13 @@ Hidden budget mismatches; averaging ordinals across families; **illumination in 
 **UTS row template (conceptual).**
 `SLL.Card@Context := S=(ordered variables; applicable units=…; phase when relevant=…), ScaleWindow=[LOW…HIGH], Probe=(points=…, design=…, uncertainty basis=…, seeds?=…, CI?=…), χ?=rising|knee|flat|declining, ParityNotes=(iso=true|false; invariants=…), Bridge/Φ/Ψ=(…), PolicyIds=(…), PathSliceId=(…)`.
 
-Here `χ?` means that the class is omitted when unresolved; uncertainty is not a fifth behavior class. Keep the probe account and its limitation available to the receiving comparison. An unassigned class cannot support a class-dependent preference.
+Here `χ?` means that the class is omitted when unresolved; uncertainty is not a fifth behavior class. Keep the probe account and its limitation available to the receiving comparison. An unassigned class cannot support a class-dependent preference. Use the linked profile or the probe account to recover the response statistic, task family, tested settings and conditions, and the grounds for any conclusion between or beyond those settings.
 
 ### C.18.1:11 - Consequences
 
 **Benefits.** A comparison can show which knobs were scaled, what window is covered, how much probe evidence supports the slope class, and what parity or normalization losses are declared, with any numerical assurance penalties justified by the receiving B.3 model. Dominance changes require their own admitting policy.
 
-**Trade-offs.** A supported scale claim needs observations at at least two scale points and recoverable invariants, applicable phase and uncertainty information, any seeds used, and applicable policy thresholds. Reuse of an applicable account can avoid new probing. The gain is that selectors, parity harnesses, refresh telemetry, and mathematical-lens uses can cite one bounded scale claim instead of guessing whether the observed behavior transfers.
+**Trade-offs.** An empirical comparison across resource settings needs observations at at least two scale points and recoverable invariants, applicable phase and uncertainty information, any seeds used, and applicable policy thresholds. Reuse of an applicable account can avoid new probing. The gain is that selectors, parity harnesses, refresh telemetry, and mathematical-lens uses can cite one bounded scale claim instead of guessing whether the observed behavior transfers.
 
 **Stop condition.** Stop at C.18.1 when the scale variable, ScaleWindow, probe basis, supported class or explicit classification limit, and parity notes suffice for the receiving question. An unresolved class can finish this inquiry while leaving a scale-dependent preference unsupported. Select further probing only when its attainable contribution to the decision warrants its burden; use C.11.DUA if that choice needs resolution. Move to `G.9`, `C.19`, `G.11`, `C.29`, or a domain annex when the next question concerns parity, selector policy, telemetry refresh, a mathematical lens, or a numeric fit.
 
@@ -64121,7 +64125,7 @@ If a proposed pool-policy premise is expressed as *learning progress*, informati
 
 For loop-engineering practice, use this first output only when the question is pool policy over live candidates such as loops, harnesses, workflows, method families, or framework seeds. A `C.19` record may say that the pool should widen, keep its frontier, narrow to an internal subset, or sunset a line under a declared lens. If the question leaves pool policy, retain the established result or qualified open question and use the handoff in `C.19:4.4`.
 
-The first useful output states the live pool, governing lens or policy, treatment and the event that would justify changing it. A sufficient ordinary explanation can complete that result. When recording it for reuse, use `governingLens` and one `currentTreatment` token from the closed set `widen | keep_frontier | narrow_to_subset | sunset_line`. If another question has become current, set `nextQuestionPatternLocator` from `C.19:4.4` instead of inventing another `currentTreatment`.
+When a treatment is supported, state the live pool, governing policy, treatment and the event that would justify changing it. A sufficient ordinary explanation can complete that result. To record it for reuse, use `governingLens` and one `currentTreatment` token from the closed set `widen | keep_frontier | narrow_to_subset | sunset_line`. When a missing fact or commitment can change the treatment, report what is established and identify what would settle the choice. Use `nextQuestionPatternLocator` from `C.19:4.4` when another question has become current.
 
 A claim-bearing account of the pool treatment is an episteme under `C.2.1`; identify its EntityOfConcern and claim content when that identity matters. An existing adequate account can supply it.
 
@@ -64249,7 +64253,7 @@ The following **lens profiles** are **illustrative heuristics, not norms**. Prac
 
 **Canonical record vocabulary.** A serialized `PoolPolicyResult` uses the field `governingLens` and exactly one `currentTreatment` token from `widen | keep_frontier | narrow_to_subset | sunset_line`. Reader prose may say *widen*, *keep the frontier*, *narrow to a subset*, or *sunset a line*, but those phrases are labels, not alternate serialized values. Do not use `lens` as a second field name.
 
-At the end of a C.19 use, make the treatment and its grounds explicit. A record preserves the account when later inspection or reuse needs it.
+When the policy and available evidence support a treatment, state the treatment and its grounds. A record preserves that result for later inspection or reuse. An inquiry can also establish why the choice of treatment remains open (§4.3).
 
 That result should state:
 
@@ -64282,6 +64286,8 @@ A supported pool-treatment conclusion identifies the pool and its next treatment
 - Close as `keep_frontier` when keeping the live lines is warranted under the current policy. A line retained for later reconsideration need not receive a new probe.
 - Close as `narrow_to_subset` when the continuation basis warrants a smaller internal live set, without implying that one scalar winner has already been chosen.
 - Close as `sunset_line` when a line's prospective contribution, feasible continuation or retention no longer warrants its burden under the pool policy. Failure to graduate is not enough. Its archived result may still be retained under C.18 when that separate retention remains useful.
+
+When comparing two policies, hold the candidate lines, evidence and pool question fixed and apply each policy. Identify any treatment the change permits or excludes under those conditions. Applying the same policy to newly generated candidates or newly observed performance can also change the treatment. State which input changed so the next team can tell whether to revise its policy, update the pool or use the new evidence.
 
 When the question has stopped being pool policy, carry the established result or qualified open question into the applicable handoff in `C.19:4.4`; the next pattern is recorded outside `currentTreatment`.
 
@@ -64323,7 +64329,7 @@ Retain every supporting information-acquisition, capability, novelty, objective,
 
 These inputs may support `widen`, `keep_frontier`, `narrow_to_subset`, or `sunset_line`; none becomes a generic signal or cue, default `Q`, dominance coordinate, probe choice, or selector-facing shortlist by entering the record.
 
-If a needed value is unknown, preserve the supported account and leave only the dependent treatment judgement open.
+When the available evidence leaves the treatment open, report the pool, applicable policy, remaining treatments and the premise that would decide among them. Reserve `PoolPolicyResult` and its `currentTreatment` field for a treatment that can already be justified.
 
 #### C.19:4.3a - Worked closure slice
 
@@ -64433,7 +64439,7 @@ When the retained set must be declared for downstream comparison, registry use, 
 
 When the question is which option to choose, pass the fixed option set and comparison basis to `C.11`. For planning or performed work, use the applicable A.15 pattern. Use `C.24` after the action or option is fixed and tool or service calls must be planned. When the question concerns edition, source, descriptor, policy or evidence currentness, use `G.11`. Retain the established pool-policy result or the qualified open question in each handoff.
 
-For the handoff, preserve the exact C.18 archive or front reference, the C.19 live-pool treatment and change trigger, and the evidence needed by the named next pattern. Do not duplicate selector-result declaration, publication availability, choice, work, or refresh semantics inside C.19.
+For the handoff, identify the pool question and preserve the evidence the receiver can use. For an established treatment, give the treatment and its change trigger. For an open choice, give the possible treatments and the fact or agreement that would decide between them. Include an archive or front reference when the account relies on one. The receiving pattern governs declaration, publication, choice, work or refresh.
 
 ### C.19:5 - Archetypal Grounding
 
@@ -64563,7 +64569,7 @@ Apply the pattern that defines and tests the current question: `C.30` or `C.32` 
 First examine the scale claim and its available basis before selecting a `Scale-Audit`. This cheap scale-claim probe may use an existing adequate account; it does not by itself require a new experiment or note. Identify the two candidates and their direct patterns, task family or receiving use, proposed scale predicate, objective vector, comparison basis, feasible evidence, safety boundary and stakes. Return one of four results:
 
 - `no scale claim yet`: no supported scale claim is available. State whether no such claim is needed or which claimed basis remains unresolved. A bounded use may proceed under its direct pattern only if it needs no missing scale conclusion or override of a declared preference; this result supplies neither preference nor waiver;
-- `local analogy or policy`: identify the non-computational bearer family, policy edition, available bearer-appropriate basis and any further evidence needed for the proposed use;
+- `local analogy or policy`: for an analogy, identify the bearer family, the proposed transfer and its grounds. For a local selection policy, identify the actual candidates, the policy edition and the condition under which it decides their use. This can include a policy governing two computational methods.
 - `bounded scale comparison`: state the smallest parity and uncertainty method adequate for this use;
 - `full Scale-Audit selected`: state why the claim, stakes, feasible evidence, and receiving use justify the added work.
 
@@ -64591,7 +64597,7 @@ When the scale claim is current, choose evidence proportional to the bearer, sta
 - (g) **Claim-matched tests:** use knee or budget-constrained regret tests only when the asserted advantage depends on a knee or dominance inside the audited window.
 
 **BLP-2 — Preference rule with alpha and delta tolerances.**
-Among admissible options with comparable budgets, using `alpha` when a tolerance is needed, and comparable assurance under any applicable `delta` when an assurance result is material to this use, a scale-based preference is warranted when one option’s response over the audited range Pareto-dominates the other’s, with uncertainty accounted for. Apply any required assurance condition; a comparison that consumes no assurance result does not create one merely to fill `delta`. If no option dominates within the evidence bounds, `C.19.1` returns `no scale-based preference`; it does not turn greater generality into an empirical winner. A separately declared project policy may break that tie in favor of a more general bearer, but the result shall be labeled as that local policy or analogy, not as the empirical Bitter Lesson, and its E/E-LOG tie-breaker and edition shall be cited. For an agentic use, keep any alpha and delta values in the C.19.1 comparison, local-policy or waiver result consumed by the C.24 CallPlan.
+Among admissible options at comparable budgets, evaluate the performance contrast at the points and on the objectives that matter to the receiving choice. Apply `alpha` when a tolerance is needed and `delta` when the use depends on an assurance comparison. Account for uncertainty in the contrast, including dependence when the runs are paired. A scale-based preference over the audited range requires established Pareto dominance there. If the responses are equivalent under the comparison rule, each wins on a different point or objective, or the evidence still admits materially different orderings, report `no scale-based preference` and say which of these conclusions is supported. A separately declared local policy can decide only the cases covered by its terms. Cite the policy and its E/E-LOG edition for that choice. For an agentic use, keep the applicable `alpha` and `delta` in the comparison, local-policy or waiver result consumed by the C.24 CallPlan.
 > **BLP‑2.1 — Valid waiver grounds (override transparency).**
 >
 > Overrides of a declared local generality preference are allowed **only** when:
@@ -64628,7 +64634,7 @@ When a durable `Scale-Audit` is performed, its artifacts **SHALL** be exported t
 2. The result says `no scale claim yet`, `local analogy or policy`, `bounded scale comparison`, or `full Scale-Audit selected`; it does not hide the choice of audit depth.
 3. A performed comparison uses parity, current editions, explicit uncertainty, material resource and safety accounts, and lawful Pareto or declared policy operations.
 4. The evidence method fits the bearer. Compute/data sweeps, seeds, bootstraps, and factorial or Latin-hypercube designs appear only when they answer the claim.
-5. Non-dominance returns no empirical scale preference. Any generality tie-break is identified as a separately declared local policy.
+5. A comparison that establishes equivalence or a trade-off, and a comparison whose evidence cannot yet settle dominance, each records its own conclusion. A subsequent choice by local policy names the condition that the policy covers.
 6. A waiver identifies the policy it overrides, rationale, admitted review System, responsibility relation or missing governor, and expiry or review window.
 7. A live Heuristic Debt entry meets the bounded `BLP-4` trigger; ordinary local tactics create no debt record.
 8. Prescription architecture and adaptation policy are routed through their direct patterns rather than reported as consequences of BLP.
@@ -64640,7 +64646,7 @@ When a durable `Scale-Audit` is performed, its artifacts **SHALL** be exported t
 - **Slogan as evidence.** `General`, `agentic`, or `Bitter Lesson` is treated as proof. Repair with the cheap probe and a comparison basis.
 - **Analogy as empirical result.** A module relation, organization, or episteme is assigned compute/data scaling semantics. State a local analogy or policy and use a bearer-appropriate predicate and evidence form.
 - **Universal experiment recipe.** Every claim receives seeds, FLOPs, and a multi-factor design. Select the smallest method that can answer the risk-bearing claim.
-- **General wins by non-dominance.** Error bars overlap, so the more general option is declared superior. Return no empirical scale preference or cite a separate tie-break policy.
+- **General wins by default.** Compare the actual performance contrast with its uncertainty. Marginal error bars may overlap even when paired runs establish a consistent advantage. If the contrast leaves the order open, record that uncertainty. If two options each win somewhere in the required range, record the trade-off. A generality preference requires a policy that covers the established case.
 - **Single-winner leaderboard.** Hidden budget mixing or scalarization replaces Pareto comparison. Restore comparable windows, objective coordinates, uncertainty, and policy identifiers.
 - **Debt without trigger.** A local bounded tactic is entered into Heuristic Debt. Apply the `BLP-4` trigger before creating the entry.
 - **Elegant-math override.** A specialized mathematical lens is selected because of elegance or prestige while scale advantage is live. Use the proportionate BLP comparison; otherwise keep the lens local under the `C.29` stop condition.
@@ -64664,7 +64670,7 @@ These computational examples illustrate where a scale comparison may be useful; 
 
 The specialist wins at the first probed budget, while the general method wins at the other two even after allowing for the supplied uncertainty. Neither response dominates across all three probed budgets. Return `no scale-based preference` for that whole comparison; the word general does not reverse it. The result supports the stated comparisons at those points, not an interpolated law between them or a claim outside the window.
 
-If the receiving choice is confined to 100 CPU-seconds, the specialist's bounded advantage can be used under that question's comparison rule. A separately declared prefer-general policy, if applicable, needs its own tie-break or waiver treatment. No such policy is stipulated here, so no waiver or debt entry is created merely to report these results. Changing the task family, hardware-cost account or budget window reopens the dependent comparison. This is a constructed application, not a new benchmark finding.
+If the receiving choice is confined to 100 CPU-seconds, the specialist's bounded advantage can be used under that question's comparison rule. A separately declared prefer-general policy, if applicable, needs its own tie-break or waiver treatment. No such policy is stipulated here, so no waiver or debt entry is created merely to report these results. If a tariff changes, measured CPU time can remain usable while monetary costs are recalculated. If the task mix changes, compatible results for the affected groups can sometimes be reweighted. A previously untested group needs its own evidence or justified transfer. Reuse only the conclusions supported for the new choice. This is a constructed application, not a new benchmark finding.
 
 ### C.19.1:5.1 - SoTA-Echoing
 
@@ -64744,9 +64750,9 @@ The failure is not merely excess documentation. It obscures who performs the wor
 
 ### C.19.2:4 - Solution
 
-#### C.19.2:4.1 - Keep the five positions separate
+#### C.19.2:4.1 - Identify the use, apparatus, method, performer and result
 
-Use this lens before taking a branch:
+Before choosing how to proceed, identify what the application involves.
 
 1. **Declared use:** the practical question, direct result kind, claimed guarantee, non-negotiable constraints, and horizon.
 2. **Selected or candidate direct-kind object:** the method description, model, ontology module, formal technique, or other governed object being considered.
@@ -64754,11 +64760,11 @@ Use this lens before taking a branch:
 4. **Performer and work:** when a claim identifies particular dated configuration or application `U.Work`, recover the admitted performing `U.System` through A.13 and independently admit the Work under A.15.1, including its enacted Method under A.3.1. Add F.6 afterward only when the present use needs precise assignment-bound attribution. In a short account, expose assignment identity, species, participants, or attribution detail only when the use relies on them, attribution is ambiguous, or source wording must be repaired.
 5. **Problem-facing result:** the domain, engineering, assurance, architecture, or other subject-pattern result inspected after the work.
 
-The intended reader may also be the person-system that performs the Work, but reader position and performer relation remain different.
+A person or an AI system can read these instructions and also perform the work. To attribute a particular performance, establish who actually carried it out.
 
 #### C.19.2:4.2 - Select the application branch
 
-**One current apparatus.** When one direct-kind apparatus is already selected and has a credible path to the declared result and guarantee, create no `OptionSet` and no `ChoiceResult`. Compare the smallest next adaptation/configuration work with the useful-result threshold, plan when needed, perform the work, and inspect the result.
+**One current apparatus.** For an already selected method, recover its required operations, the inputs and settings it accepts, and the result and guarantee it supports. Check the conditions of this application and supply its inputs. The existing configuration may already suffice. If extra setup is needed, establish what it will enable and whether its cost fits the budget and the expected use. The single-apparatus path needs no `OptionSet` or `ChoiceResult`.
 
 **Candidate generation or reframing.** If no adequate current object is available, use `C.39` to develop a missing explanation of how to obtain the result, or `C.40` to vary usable material and examine the difference. Use `C.18` when generation-account or archive/front claims are needed. The declared use and eligibility basis can guide that work.
 
@@ -64784,13 +64790,13 @@ These four dispositions form the complete current `C.11` result set. “Configur
 #### C.19.2:4.4 - Perform the bounded application
 
 1. State the practical use, direct result kind, claimed guarantee, constraints, horizon, and current apparatus state.
-2. If one apparatus is already selected, test its credible adaptation path without inventing choice. If candidates are missing, use `C.39` for an unexplained way to obtain the result or `C.40` for feasible variation and examination of usable material. Add `C.18` only when a generation account or archive/front claim is needed.
+2. For an already selected apparatus, check its configuration and conditions of use (§4.2). Under `A.3.1`, determine whether the original Method admits the proposed inputs, parameters, operations, required participants, result and acceptance conditions. If a defining condition changes, identify the revised way of doing the work or state what remains unresolved. Use the subject method to establish what guarantee the revised procedure supports. If candidates are missing, use `C.39` for an unexplained way to obtain the result or `C.40` for feasible variation and examination of usable material. Add `C.18` when a generation account or archive/front claim is needed.
 3. When alternatives are current, identify them by their direct kinds and apply the shared eligibility predicate.
-4. For each current path, state the smallest adaptation/configuration work and the useful-result threshold: what must be learned, evidenced, integrated, or reviewed before the path can improve the use.
+4. For each current path, identify what must be learned, supplied, integrated or checked to meet the required guarantee. Estimate the work still needed. An existing configuration that meets the requirements can be used immediately.
 5. Compare only the dimensions that can change the current path for the declared use and horizon. These may include time and budget, prior exposure, post-threshold efficiency, transfer, retention, interoperability, downside and reversibility; use their subject-pattern values when needed. Do not compress them into an undeclared scalar.
-6. If choice is current, consume one lawful `C.11 ChoiceResult`; otherwise continue on the one-apparatus path.
-7. Carry out the selected application. Use A.15.2 when a plan is needed and C.24 when tool-call planning is the question. A precise dated-Work claim uses the performer and admission conditions in §4.1.
-8. Inspect the separately governed problem-facing result. Keep an application/configuration note only when reuse, dispute, automation, or consequence makes it useful.
+6. When choice is current, use its `C.11 ChoiceResult` (§4.3). A request for another probe or a different decision identifies that next action. A rejected set leaves no selected application. A retained tie-set leaves open which member will be used.
+7. When one apparatus is selected for use, carry out its application. Use A.15.2 when a plan is needed and C.24 when tool-call planning is the question. A precise dated-Work claim uses the performer and admission conditions in §4.1.
+8. Inspect the result against the criterion for this use. For another application, check that the accepted method, inputs and assumptions cover its conditions. To establish that the recipient can apply the method with a stated degree of help, examine that recipient’s own performance under those conditions. Keep an application or configuration note when reuse, dispute, automation or consequence makes it useful.
 
 #### C.19.2:4.5 - Stop and reopen
 
@@ -64813,7 +64819,7 @@ The setup difference is 38 hours and the per-handoff saving is 8 minutes: the me
 
 An admitted maintenance-information System performs the dated configuration and application Work using the selected ontology-backed Method. The account recovers the System's A.13 core and independently admits the Work under A.15.1. Because the current question is whether setup cost is repaid across the handoffs and consumes no assignment-bound attribution, this example does not open F.6 or expose assignment identity, species, participants, or attribution detail. A later attribution-bearing claim adds F.6 through the same obtaining A.13 assignment.
 
-A separately admitted maintenance-decision System then performs decision Work using the selected Method. Its A.13 core and independent A.15.1 Work admission are recoverable; this setup-cost example consumes no assignment-bound attribution, so F.6 remains unopened. Under `A.6.1`, application `MaintenanceDecisionApplication-1` of operation `DecideMaintenance`, declared by `MaintenanceDecisionMechanism-E1`, returns `AuditedMaintenanceDecision-1` under result declaration `DecisionResult`; no Work-to-result or production claim is made. If repair or audit cost does not fall after the declared sample, reopen the apparatus application.
+A separately admitted maintenance-decision System then performs decision Work using the selected Method. Its A.13 core and independent A.15.1 Work admission are recoverable; this setup-cost example consumes no assignment-bound attribution, so F.6 remains unopened. Under `A.6.1`, application `MaintenanceDecisionApplication-1` of operation `DecideMaintenance`, declared by `MaintenanceDecisionMechanism-E1`, returns `AuditedMaintenanceDecision-1` under result declaration `DecisionResult`; no Work-to-result or production claim is made. To check the forecast, compare actual setup and effort per audited handoff on comparable work and verify that the required guarantee still holds. Reconsider the application if the revised costs, guarantee or expected number of handoffs change which path is worth using.
 
 **One-off naming repair.** A team already has the typed-relation method for one local, reversible naming decision. No rival is live and the current method has a credible small path, so no option set or choice result is created. The team performs the minimal wording and typing work and returns a scoped terminology decision. Recurrence, integration, a failed result, or a stronger guarantee may later open candidate generation and choice.
 
@@ -67973,7 +67979,7 @@ Vendor A and Vendor B both publish a route called `search`. `vendor_a_search_v2`
 
 The cheap C.19.1 probe for `BatchSearchMethod_3` and `IndexedSearchMethod_6` returns `bounded scale comparison` for the same repository-search task and `10k–100k files` window. The comparison then uses elapsed time and missed-match rate from `repo_search_benchmark_12`, including uncertainty and cost limits, and warrants a preference for `IndexedSearchMethod_6` only inside that window.
 
-If one Method is evidenced only on small text files and the other only on large mixed repositories, the comparison returns `no scale-based preference`. A project may separately cite a local policy or `BLP-waiver`; neither changes the empirical result.
+If the evidence for one Method covers only small text files and the evidence for the other covers only large mixed repositories, the task difference leaves their relative performance on the receiving workload open. Return `no scale-based preference`. A tie-break written for established equivalent performance does not apply to that finding. The project can use a local policy that covers the actual case or seek a waiver when overriding a preference that would otherwise decide the use.
 
 **Near misses.** A route label with no recovered Method remains probe material. A plan with no Work is still intent. A trace row does not prove performer, assignment, Method, or service acceptance. A satisfied `commitTrigger` with no checkpoint decision leaves the proposed route unadopted.
 
@@ -92485,7 +92491,7 @@ A path can preserve alternatives without selecting a programme. Human capability
 
 Preserve materially different candidates, including conditional directions and a useful baseline, when their retention reasons remain current. Keep a candidate ruled out for this use outside its live opportunity set, with enough explanation to avoid rediscovering the same defeated claim. Preserve other uses separately when their basis remains supported. A historical record can remain useful without being a live option.
 
-Use a comparison only for the question it answers. A result about non-domination requires a declared comparator, complete relevant coordinates, and admissibility basis. A retained candidate need not be non-dominated now. Different contribution premises or horizons may support only a partial comparison; do not invent one scalar ranking to make the portfolio look settled.
+Use a comparison for the question it answers. To establish non-domination, identify the eligible rivals and the declared comparator. For each rival, use supported values, bounds or another justified comparison to rule out its dominating the candidate. Name any rival whose unresolved comparison could change front membership. A useful stepping stone can be retained on the strength of what it enables. Different premises or horizons may support only a partial comparison.
 
 Make resource interactions visible when retention itself competes for scarce attention, expertise, access, or maintenance. If the available retention allowance cannot support the set, return the needed allocation or reduction decision to its authorized owner. Meanwhile, describe only what the available maintenance supports. Do not silently make every member “available” by naming it in the portfolio.
 
@@ -97445,7 +97451,7 @@ A pillar-impact argument can use ordinary accepted mathematical theory. Use `C.2
 | **CC‑P‑2** | Every DRR proposing a normative change **must** include a “Pillar Impact Analysis.”                                               | Makes constitutional review explicit. |
 | **CC‑P‑3** | Tooling and pedagogical artefacts **should** document which pillar(s) shape their design.                                         | Upholds P‑2 (Didactic Primacy).       |
 | **CC‑P‑4** | Assess the substance of every applicable Pillar constraint and any material conflict. Name the Pillars whose realization changes the pattern’s design or use; no minimum link count substitutes for that argument. | Grounds conformance in the obligations that matter to the pattern. |
-| **CC‑P‑5** | When a choice claims scale/generalization advantage in a computational domain, or invokes a separately declared local generality policy, authors **MUST** apply BLP to the usable response over its declared budget range and receiving conditions. Ordinary bounded specialization alone activates no scale audit, debt entry or waiver. | Keeps scale preference tied to usable performance and its claim. |
+| **CC‑P‑5** | A claim of scale or generalization advantage in computational work, or a choice invoking a local generality policy, begins with the scale-claim check in C.19.1. An empirical comparison evaluates usable performance over the declared budget range and receiving conditions. For a choice made under a project rule, identify the condition that makes the rule applicable. A bounded specialization alone calls for no audit, debt entry or waiver. | Connects the choice to its empirical or policy grounds. |
 | **CC‑P‑6** | A pillar-impact analysis that relies on mathematical structure, scale behavior, optimization, uncertainty, invariance, obstruction, or other first-principles modeling support is complete only when that support is ordinary accepted local theory, a cited `C.29` output, or a named neighboring-pattern output for evidence, causal, bridge, assurance, measurement, work, decision, publication, or admission claims. | Keeps mathematical support for pillars inspectable without letting `C.29` revise pillar authority. |
 
 ### E.2:6 - Policy — Bitter‑Lesson Preference (BLP)
@@ -97460,7 +97466,7 @@ A pillar-impact argument can use ordinary accepted mathematical theory. Use `C.2
 * (d) **Resources and assurance:** retain decision-material resource accounts through A.15.1, A.15.2, B.1.6, C.16 and A.10 as applicable. A named assurance claim uses B.3; independently applicable assurance and oversight requirements remain binding.
 * (e) **Objectives and tolerances:** declare quality, risk, cost and any illumination coordinate promoted by an explicit CAL policy. State units and the budget/assurance tolerances α/δ used by the comparison. Publish the audit's edition and policy pins through G.11.
 
-**BLP-2 — Usable-performance preference.** Among admissible options under the receiving conditions, with comparable assurance within δ and budget within α when those tolerances are used, prefer the option whose response over the usable audited range Pareto-dominates the other's, accounting for uncertainty. If neither dominates, return `no scale-based preference`. A preference for greater generality can then follow only from a separately declared project policy under E.3; label that basis and its costs instead of reporting an empirical winner.
+**BLP-2 — Usable-performance preference.** Among admissible options under the receiving conditions, with comparable assurance within δ and budgets within α when those tolerances apply, prefer the option whose usable performance is shown to Pareto-dominate across the audited range. Evaluate uncertainty in the performance contrast, including dependence between paired observations. Return `no scale-based preference` when the comparison establishes equivalence, establishes a trade-off, or leaves the ordering open. Say which outcome the evidence supports. A project policy under E.3 can decide the cases covered by its terms. Cite that policy and the cost of applying it for the resulting choice.
 
 **BLP-3 — Task-appropriate prescription.** Positive procedures and prohibitions are both available under their task or control needs. A mandated safety procedure keeps its force. Minimal prescription and autonomous sequencing need their justified policy, authority and guards; neither follows from a scale comparison. Ordinary use of a positive procedure requires no BLP waiver solely because a general search alternative exists.
 
@@ -97478,7 +97484,7 @@ BLP applies to comparisons such as prompt programming versus fine-tuning and mod
 | ------------- | --------------------------------------------------------------------------------------------------------------- | --------------------------------------------- |
 | **CC‑BLP.1** | An activated comparison declares the α/δ tolerances, units and receiving conditions it uses, directly or through a policy profile. | Makes the comparison reproducible. |
 | **CC‑BLP.2** | A Scale-Audit is required only when selected by the claim/risk or an independently applicable profile; it retains BLP-1a–e responses, uncertainty and pins. | Matches audit burden to the claimed use. |
-| **CC‑BLP.3** | A scale-based selection cites BLP-2 and the applicable precedence rules; non-dominance yields no scale preference unless a separate local policy decides it. | Separates evidence from policy preference. |
+| **CC‑BLP.3** | A scale-based comparison identifies the BLP-2 result and the applicable precedence rules. Retain `no scale-based preference` and its grounds when equivalence or a trade-off is established or the ordering remains open. If a local rule also decides the choice, record that decision and its separate basis. | Keeps the performance comparison available after the project chooses. |
 | **CC‑BLP.4** | A heuristic meeting BLP-4's activated debt conditions is logged with scope, review, expiry and de-hardening plan. | Keeps durable overrides inspectable. |
 | **CC‑BLP.5** | Prescription form follows the task/control requirement; adaptation follows its product policy, permission, change authority and guards. | Preserves warranted procedures and bounded autonomy. |
 | **CC‑BLP.6** | Decision-material resource accounts use A.15.1, A.15.2, B.1.6, C.16 and A.10; an assurance claim uses B.3. A separately activated stronger profile retains its required accounts and oversight. | Preserves applicable resource and assurance duties. |
@@ -97887,7 +97893,7 @@ For a release-schedule rule classified as Gov and a performance-tuning preferenc
 **BLP-policy precedence (high → low, for applicable rules).** Law & Regulation → **E.5 Guard-Rails** → **B.3 assurance requirements consumed by the use** → **E.3 governance decisions** → **E/E-LOG policies** (editioned) → **BLP derived policy (E.2 §6)** → Product Policies → Implementation Tactics. This scope-specific ordering implements the stated BLP safeguards; it does not place a derived policy above a pillar or create unconditional file-to-file edges.
 
 **Notes.**
-* BLP is a constitutional policy (see E.2 / “BLP”), but **does not supersede** E.5 Guard‑Rails nor B.3 assurance floors; it governs an activated scale comparison; a non-dominant result leaves any generality tie-break to a separately declared local policy.
+* BLP is a constitutional policy (E.2) governing an activated scale comparison. E.5 Guard‑Rails and applicable B.3 assurance floors retain their force. A project can apply a separate generality preference only under the conditions its policy specifies.
 * Wherever **NQD/E/E‑LOG** promotes illumination telemetry to dominance (via an explicit **CAL** policy; **policy‑id recorded in SCR**), **BLP adopts that lens** rather than overriding it (see E.2 BLP‑6).
 * Any exception to policy **MUST** include a DRR with rationale and expiry.
 * **BLP Override (Waiver).** A waiver is needed only when an applicable declared generality policy would otherwise decide the use and its exception rule is invoked. Name that policy, the rationale, responsible review System and direct responsibility basis, expiry/review, and the evidence required by the exception. Apply C.19.1's waiver and debt conditions. Ordinary bounded specialization is not an override. Add an AutonomyProfileId and GateDecision authority only when an independently applicable agentic profile governs the action.
@@ -97895,12 +97901,12 @@ For a release-schedule rule classified as Gov and a performance-tuning preferenc
 **Set-returning parity.** Activated scale comparisons preserve parity and admissible operations under A.18; use G.5/G.9 where their selector/parity contracts apply. Independently applicable stronger profiles retain those requirements. Mixed-scale scalarization without an admissible operation remains prohibited.
 
 **BLP — Bitter-Lesson Hooks into Precedence**
-1) **Comparison and tie-breaking.** Under E.2 BLP-2, compare usable responses over the declared range and receiving conditions, with uncertainty and applicable α/δ tolerances. Slope dominance alone supplies no usable-performance preference. On non-dominance, a generality preference must be a separately declared local policy allowed by higher rules.
+1) **Comparison and tie-breaking.** Under E.2 BLP-2, compare usable performance over the declared range and receiving conditions, with uncertainty in the contrast and applicable α/δ tolerances. When the comparison yields no scale-based preference, identify whether it establishes equivalence, establishes a trade-off or leaves the order open. A declared generality policy can settle the case if its terms cover that outcome and higher rules permit the choice.
 2) **Procedure and search.** Select a positive procedure or general search under the task/control requirements and applicable policy. A mandated safety procedure keeps its force. BLP adds no universal prohibition-first rule or waiver for a fixed procedure.
 3) **Publication.** A BLP precedence result retains the policy/edition and comparison basis. A performed full audit publishes its material resource and assurance accounts under E.2 BLP-1d and G.11. A bounded use with no scale claim creates no audit package.
 
 **ABL — Autonomy‑Budget & Oversight Profiles (GateProfile)**
-This section defines an **extensible family of autonomy oversight profiles** for agentic tool use: each profile specifies (i) a budget envelope, (ii) a Freedom‑of‑Action (FoA) descriptor, and (iii) the required **publication of a gate decision authorizing execution** under that envelope. The labels **L0…L4** are treated here as **profile identifiers** (not a fixed managerial ladder): projects MAY introduce additional profiles or sub‑profiles by minting new profile ids, provided they publish the same fields (budgets, FoA, decision roles, telemetry requirements) and keep profile changes explicit and auditable.
+This section defines an **extensible family of autonomy oversight profiles** for agentic tool use: each profile specifies (i) a budget envelope, (ii) a Freedom‑of‑Action (FoA) descriptor, and (iii) the required **publication of a gate decision authorizing execution** under that envelope. The labels **L0…L4** are treated here as **profile identifiers** (not a fixed managerial ladder): projects MAY introduce additional profiles or sub‑profiles by minting new profile ids, provided they publish the same fields (budgets, FoA, decision roles, telemetry requirements) and keep profile changes explicit and auditable. In documents that also use model abstraction levels, write *autonomy profile L2* for the oversight rule and *model abstraction level L2* for the modelling use in B.5.MR. A model at any abstraction level can be discussed under any applicable oversight profile.
 
 | ProfileId | Name                         | Freedom‑of‑Action (FoA)                  | Explore‑Share (default) | Typical Use                                     | GateDecision authority |
 |---------:|------------------------------|------------------------------------------|-------------------------|-------------------------------------------------|------------------------|
@@ -97941,7 +97947,7 @@ This section defines an **extensible family of autonomy oversight profiles** for
 
 | ID          | Requirement                                                                                                          | Purpose                          |
 | ----------- | -------------------------------------------------------------------------------------------------------------------- | -------------------------------- |
-| **CC‑E3.10** | Precedence list includes **BLP** **below** E/E‑LOG and **above** product tactics; conflicts handled via **BLP‑waiver** discipline. | Makes BLP’s standing auditable. |
+| **CC‑E3.10** | Place **BLP** below E/E‑LOG and above product tactics. Resolve conflicts by the applicable precedence rules. Invoke the BLP exception procedure when seeking an exception to a preference that would otherwise decide the case (§6 and CC‑E3.11). | Identifies the governing rule and any required exception. |
 | **CC‑E3.11** | A DRR invoking an exception to an applicable BLP/generality policy identifies that policy and meets its waiver, evidence and conditional debt requirements. Specialization or a fixed procedure alone creates no exception. | Keeps overrides visible without manufacturing them. |
 | **CC‑E3.12** | Each agentic plan declares an **AutonomyProfileId** (e.g., L0–L4) with explicit budgets. Add `explore_share` and the **E/E‑LOG EmitterPolicyRef** only when the plan uses that live-pool profile under C.24 ATC-4. | Aligns autonomy with assurance. |
 | **CC‑E3.13** | L1+ executions emit **CallGraphs** with editioned policy/method ids and budget deltas; L3+ include adaptation status. | Ensures replayability & audit. |

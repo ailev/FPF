@@ -2737,9 +2737,7 @@ research, realization, integration, operation, and decision Work can overlap.
 5. **Problem–option correspondences.** Every relied-on pair states the changed admission, comparison coordinate,
    protected characteristic, affected-System consequence, evidence need, or next action. A pair with no supported
    decision-bearing difference remains an unresolved mismatch.
-6. **Plural comparison.** Archives, Fronts, and the decision `OptionSet` retain their own membership rules. The
-   Agent compares several result and resource coordinates while retaining protected losses, uncertainty, and
-   non-dominated alternatives. Do not force those coordinates into one scalar objective.
+6. **Compare eligible options.** Apply the guards for the same use and operating conditions. Compare the eligible options on the declared result and resource characteristics, including protected losses and consequences for affected Systems. An eligible rival that is at least as good on every chosen characteristic and better on one excludes the option from a Pareto Front. To place an option on that Front, rule out domination by each eligible rival. A known advantage or a bound can settle a comparison even with another measurement missing. When the available evidence permits different orderings, identify which comparison remains open. An archive, a Front and the decision `OptionSet` each retain their own membership rule.
 7. **Choice or probe.** The current `OptionSet` is fixed. The deciding Agent performs comparison-and-choice
    Work, applies `C.11.CRC` when a finite configuration-relative contribution comparison is needed, and applies
    `C.11` to produce a decision result: a choice, tie-set, rejection, named probe, or reroute. The Agent selects a
@@ -2947,9 +2945,7 @@ The current problem portfolio and System-family options produce four corresponde
 The final row explains archive retention and current non-selection; it supplies no `OptionSet` member. The first
 three rows are the complete correspondence set used by the current decision.
 
-The earlier Front compared energy use and peak demand. The current comparison uses a new candidate set and the
-following complete coordinate set: continuity, recovery time, occupied-zone temperature, peak power, compressor
-cycling, processor load, calibration effort, and service burden. It is therefore a new Front with its own basis.
+The earlier Front compared energy use and peak demand. The current comparison uses a new candidate set and eight characteristics: continuity, recovery time, occupied-zone temperature, peak power, compressor cycling, processor load, calibration effort and service burden. Establish eligibility and compare the surviving options on this basis before declaring the new Front.
 
 The fixed current `OptionSet` has three members:
 
@@ -2957,10 +2953,7 @@ The fixed current `OptionSet` has three members:
 2. develop the local-fallback specification; or
 3. develop the variable-speed-control specification.
 
-Safety and occupied-zone comfort are hard guards. The remaining coordinates form a partial order. The cloud-
-schedule specification without a qualified local fallback fails the network-loss guard. The variable-speed option
-retains the incumbent local control during network loss and remains admitted, but evidence about processor load
-and cold recovery is missing for the local-fallback option. That option cannot yet be admitted or rejected.
+Safety and occupied-zone comfort are hard guards. The remaining characteristics are compared by a partial order. The cloud-schedule specification without a qualified fallback fails the network-loss guard. Variable-speed control retains the incumbent local control and is admitted in configurations with the matching output board. Local fallback still lacks evidence about processor load and cold recovery in the two configurations proposed for it.
 
 The **controller-family council** is the deciding Agent. Its current assignment authorizes it to choose the next
 engineering probe, or decline new probing on the present basis, and allocate no more than 160 engineering hours.
@@ -2974,20 +2967,15 @@ The council uses one shared comparison basis:
 - The current `BeliefState` contains the three field observations, the hard safety and comfort guards, the cloud
   option's network-loss failure, the variable-speed option's admitted local control, and the missing local-fallback
   processor-load and recovery evidence.
-- The `OutcomeModel` states how each possible probe observation changes admission and the survivor relation. A
-  local-fallback pass admits that option and leaves it non-dominated with variable-speed control; a guard failure
-  or processor overload rejects it. The current calibration uncertainty changes burden estimates for variable-
-  speed control but does not change its admission or resolve the local-fallback question.
+- The `OutcomeModel` specifies which observation changes admission. To qualify local fallback for both proposed configurations, it must pass in each. A demonstrated failure in either excludes that two-configuration proposal. Keep the observation for each configuration, including any narrower use it supports. Compare local fallback and variable-speed control for the same buildings and conditions where both are applicable. The calibration trial changes estimates of variable-speed burden while leaving the local-fallback admission question open.
 
 | Candidate next probe | Bounded burden | Distinguishing observations | Effect on the current decision |
 | --- | --- | --- | --- |
-| Scripted network-loss and cold-recovery trial | 96 engineering hours, two hardware-in-the-loop bench days, one three-day reversible building-pilot window, and about one week of decision delay. | In each of two representative building configurations: no safety violation; occupied-zone recovery inside 20 minutes; and controller processor load below 70%. The outcome is contrary if either configuration has an established safety or comfort guard failure or a processor load at or above 70%. Incomplete, uncertain or otherwise non-decisive observations remain unresolved only when no such failure has been established. | A pass admits local fallback and leaves it with variable-speed control in the survivor set while cloud-only is rejected. A contrary outcome rejects local fallback and leaves variable-speed control as the admitted next-development option. An unresolved outcome preserves the unresolved local-fallback status and requires a new bounded decision. |
-| Variable-speed calibration trial | 128 engineering hours, four calibration-rig days, the same single building-pilot allocation, and about two weeks of decision delay. | Calibration effort and service burden may fall or rise within the currently supported range; the trial does not observe network-loss recovery or local-fallback processor load. | Either bounded outcome refines the burden comparison for an already admitted option but leaves the local-fallback admission defect and survivor question unchanged. |
-| No probe | No immediate trial resource use or delay; preserves the scarce pilot allocation and engineering capacity. | No new observation. | Retain the qualified current comparison: cloud-only fails the guard, variable-speed control remains admitted, and local fallback is retained only as an unresolved candidate, not admitted for use. Later development or adoption still belongs to its competent owner. |
+| Scripted network-loss and cold-recovery trial | 96 engineering hours, two hardware-in-the-loop bench days, one three-day reversible building-pilot window, and about one week of decision delay. | In each of two representative building configurations: no safety violation; occupied-zone recovery inside 20 minutes; and controller processor load below 70%. The outcome is contrary if either configuration has an established safety or comfort guard failure or a processor load at or above 70%. Incomplete, uncertain or otherwise non-decisive observations remain unresolved only when no such failure has been established. | A pass in both admits local fallback for the two tested configurations. Where variable-speed control is also applicable, both options can now be compared and their ordering is open. A demonstrated failure rules out the joint proposal. Record which configuration failed and which claims still hold for the other. If the evidence is inconclusive, report which admission question remains open. The council can finish with that result or consider further work when the investment decision warrants it. |
+| Variable-speed calibration trial | 128 engineering hours, four calibration-rig days, the same single building-pilot allocation, and about two weeks of decision delay. | Calibration effort and service burden may fall or rise within the currently supported range; the trial does not observe network-loss recovery or local-fallback processor load. | Either bounded outcome refines the burden comparison for variable-speed control within its supported configurations. The local-fallback admission question remains open. |
+| No probe | No immediate trial resource use or delay; preserves the scarce pilot allocation and engineering capacity. | No new observation. | Retain the qualified current comparison: cloud-only fails the guard, variable-speed control remains admitted in its supported configurations, and admission of local fallback for both proposed configurations remains open. Later development or adoption still belongs to its competent owner. |
 
-The `ChoiceRule` compares obtainable probes with retaining the qualified current result. Changing admission or
-the survivor relation is a possible contribution, not an obligation to buy it. In the first resource situation of
-this case, the council's qualified judgement is that resolving the local-fallback option before the next family
+The `ChoiceRule` compares obtainable probes with using the evidence already available. The network-loss trial can settle whether the council may include local fallback in the next development comparison. In the first resource situation of this case, the council judges that resolving this question before the next family
 investment is worth the 96 hours, scarce pilot allocation and one-week delay. Assume that capable performers and
 the windows can be obtained, and that this allocation does not displace more valuable protective or development
 Work. Those benefits, costs and conditions support selection within the 160-hour ceiling. The calibration trial
@@ -3037,12 +3025,7 @@ The local-fallback option's conditional status is precise: a plausible configura
 decision lacks the load and recovery evidence that would permit its admission. The rig and occupied-building
 window in §5 explain how that uncertainty could be resolved.
 
-Now take the selected-probe branch and stipulate that the authorized trial is subsequently performed and
-passes its stated limits in both configurations. The interpretation admits local fallback on that bounded
-basis and preserves variable-speed control as a non-dominated alternative. It does not choose a release or
-extend the observation to other boards. The family owner can now compare different members for their applicable
-buildings rather than insisting on one universal controller. The problem portfolio remains the three selected
-problems; the voice-control request is unchanged.
+Now suppose the authorized trial passes in both configurations with the larger processor. Local fallback qualifies there. Variable-speed control qualifies where its matching output board is available. For a building where both options qualify, a comparison showing that each has an advantage on a different declared characteristic would keep both on the Front for this two-option comparison. The trial alone leaves that ordering open. These results support the family owner’s comparison for the applicable buildings. Release and use on other boards require their own grounds. The problem portfolio still has three selected problems, and the voice-control request remains in the archive.
 
 The next supplier-change inquiry reveals that producing and assuring more combinations with rig `R4` requires
 repeated interface work. The returned `SYSE.23` question is specific: for the named controller family and next
@@ -3086,8 +3069,7 @@ Watch for these six recurring biases:
 - [ ] Every option identifies its family architecture, membership or variant rule, and effectivity basis.
 - [ ] Exploration archive, Fronts, and current `OptionSet` retain their own candidate and admission rules.
 - [ ] Every relied-on correspondence changes a decision-bearing claim or remains visibly unresolved.
-- [ ] The comparison preserves relevant result and resource coordinates, protected losses, affected-System
-      consequences, uncertainty, and non-dominated alternatives.
+- [ ] The comparison identifies eligible options, the evidence for each claimed Front membership and any open comparison that could change it. It preserves protected losses and consequences for affected Systems.
 - [ ] The choice or probe result states its basis, rule, full burden and value when relevant, actual obtaining
       conditions, authority, and reopen condition. Retaining a supported result is not conditional on a new probe.
 - [ ] Proposal, planning, authorization, performed Work, observation, and later adoption retain separate results.
