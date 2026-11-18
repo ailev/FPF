@@ -84820,7 +84820,7 @@ After using C.33, another practitioner can recover the captured structure and th
 
 What C.33 buys in practice: the practitioner can use a partial carrier within its limits. The pattern turns "this diagram, ADR, graph, report, or observation is useful" into a reviewable statement about captured structure, missing structure, missing-structure return, and the next claim or test that needs that structure.
 
-Ordinary working move: identify the sentence, diagram, graph edges or observation being relied on; explain the structure it captures and any omission that matters; then state the use it supports.
+Read the statement, diagram or observation for the decision at hand. Identify the relation it shows and how the source established it. If the decision turns on an omission, find out which relations the source would have shown.
 
 For a reader-relative comparison of structural amount in an expressed account, use `C.2.8` with the reader's preparation, access and budget. State a qualitative comparison directly in the note, or cite an existing measurement or evaluation through `measurementOrEvalRefs?` when that separate result is needed. Then judge whether the captured structure is sufficient for the declared architecture use. The note retains its capture-and-return purpose when it uses a characteristic result.
 
@@ -84853,7 +84853,9 @@ Common failures:
 
 ### C.33:4 - Solution
 
-Assess the captured structure for the declared architecture use. Explain what the carrier supports and obtain any missing structure needed for further reliance. Use the optional note when it makes that explanation easier to retain or share.
+Start with the decision the reader must make. Which relation would settle it, and what does this view record about that relation? A confirmed entry can establish that one connection exists within the stated scope. To infer from an empty result that there is no such connection, establish that the source covered the relevant entities, relation and period and that its selection and display would have exposed a match. A filtered view can be complete for that particular inquiry.
+
+If two arrangements both fit the record, work out what each would allow the reader to do. Proceed if the same action is justified in both and in every other arrangement still possible. If the answer changes, look for the assignment, rule or observation that would settle it. It may already be in the record. Use the optional note when someone needs to retain or share the grounds for the decision.
 
 Work in this order:
 
@@ -84878,9 +84880,9 @@ A `DemonstrativeUnfoldingSlice@Context` may be the `U.Episteme` slice or present
 
 C.33 assesses what selected structure a partial carrier captures, what it leaves out, and which practical use it supports. The carrier may be a diagram, decision record, query result, eval report, code-agent map, neural-network architecture review, method handoff, or observation of the realized holon. Apply the rule or test needed by a further claim. Add C.2.1 identity only if that claim must travel independently.
 
-System case. An ADR-like record says "use event-carried integration with bounded exception." C.33 records that the carrier captures the selected integration style, exception boundary, and method expectation. It does not capture lower-level placement constraints, schema evolution burden, runtime data custody, or deployment topology. The admissible use is decision memory and method handoff; the non-admissible use is proof that the realized modules have the intended architecture.
+**An integration decision.** An approved decision record says “use event-carried integration with bounded exceptions.” A team can cite the adopted integration style. To decide whether a particular interface qualifies for an exception, the team needs the condition defining the exceptions. If the record gives that condition, the team can apply it to the interface. If the record only says “bounded,” check whether an applicable contract or policy already decides the case. If admitting and refusing the interface are both consistent with the available rules, ask the decision owner to resolve the exception before relying on it.
 
-Obtain the missing structure through the affected account: C.30.AD for the description, C.32.ADR for its decision record, C.32.PAD when the decision itself needs reconsideration, or C.32 synthesis when a structural change is needed.
+To answer which interfaces actually use event-carried integration, inspect evidence about the installed interfaces. A verified as-built inventory attached to the same record can already supply it. Use C.30.AD for the architecture description or C.32.ADR for the decision record. Reopen the decision under C.32.PAD if the rule itself needs to change.
 
 Episteme case. A code-agent relation graph finds imports, call edges, inferred module roles, and candidate invariants. C.33 records relation observation class `observed | inferred | unknownRegionPresent`, typed relation semantics, confidence class, active-passive gap when present, unexplored regions, and lost runtime or deployment structure.
 
@@ -84892,7 +84894,7 @@ C.33 separately names affected characteristics such as latency, compute, memory,
 
 Architecture narrative case. A team narrative says "we moved from candidate A to candidate B because data custody forced placement P and made latency trade-off T acceptable." C.33 records the structural content and decision context the narrative captures: the move from candidate A to candidate B, data-custody constraint, placement constraint, and trade-off.
 
-C.33 separately states the missing-structure return condition. It also records lost or hidden structure such as rejected candidate details, quantitative evals, module interfaces, and realization evidence. The narrative can help decision memory or team orientation; it is not by itself an architecture description, decision authority, or evidence of realized structure.
+The statement gives the team's reason for changing candidates. To use B under a tighter latency limit, establish that its latency meets the new limit under the intended load. An existing validated bound can settle that question. If both A and B remain eligible and the commission calls for choosing between them, compare them under the criteria that decide this choice. To establish which placement was installed, check applicable as-built evidence. Use the evidence already in the account when it settles the question.
 
 The account is sufficient when it establishes what the carrier supports for the intended use. A further claim may need an architecture description, view, evaluation, evidence, decision or authorization under its own rule; C.33 identifies the missing structural contribution and returns that question to the applicable pattern.
 
@@ -84912,7 +84914,7 @@ The account is sufficient when it establishes what the carrier supports for the 
 | --- | --- |
 | `CC-C33-1` | The account identifies the described holon, architecture concern and intended use, selected structures, carrier or observation, grounds of the adequacy or insufficiency conclusion, and any material ClaimScope or qualification window. |
 | `CC-C33-2` | Captured selected structure is stated as relations, constraints, invariants, allocations, compositions, variation classes, operations, dynamics refs, or preserved organization. |
-| `CC-C33-3` | Expected but uncaptured structure and lost or hidden structure are stated when the next use depends on them. |
+| `CC-C33-3` | The account identifies what an omission leaves open for the intended use. A conclusion drawn from the absence of an entry identifies why a matching entry would have been recorded and visible. |
 | `CC-C33-4` | Observer, access or budget conditions are stated when they limit recovery or the use of an agent-produced, learned, probed or source-derived carrier; a formal epiplexity-style estimate retains its model conditions. |
 | `CC-C33-5` | Each current mathematical-lens, measurement, eval, decision, evidence, assurance, gate, release, method, work, or publication claim uses the pattern that defines or tests it. |
 | `CC-C33-6` | The supported use and any material limits are clear. A required source return names the missing structure and the question, rule or test needed to obtain it. |
@@ -84955,6 +84957,7 @@ The source choices explain the fields. Epiplexity supplies a computational model
 
 | Source or practice line | Use of the contribution | Contribution to the assessment | Boundary of use |
 | --- | --- | --- | --- |
+| [OMG SysML 2.0, Language, Views and Viewpoints](https://www.omg.org/spec/SysML/2.0/Language/PDF) | Use the view’s selection of exposed elements and the conditions that filter them. | Tells a reader where to check whether the required model element would appear. | A complete view of selected model elements supports a claim about an installation when the interpretation and as-built evidence also support that claim. |
 | Finzi et al., `From Entropy to Epiplexity`, arXiv:2601.03220 | Adapt bounded-observer structural information through the characteristic in `C.2.8`. | Connects observer and budget conditions and captured/lost-structure comparison to the reader's preparation and access. A formal estimate retains its specified source/model correspondence and model conditions; use `C.29` for a separate unresolved choice, transfer, or reliance question. | The amount characterizes extraction from the expressed source under observer conditions. The described architecture and its adequacy for the next use retain their own questions and evidence. Reopen the note when observer conditions, source publication edition, or downstream use changes. |
 | Cao et al., `Multi-Relational Structural Entropy`, arXiv:2405.07096 | Adapt relation heterogeneity and graph structural-information pressure. | Distinguishes relation kinds when interpreting a graph and its measurements or evaluation. | For a graph entropy value, use `C.16` when measurement is claimed and `C.32.ACE` when architecture evaluation is current; it does not establish architecture adequacy. |
 | Sapunov, `Theory of Code Space`, and ToCS code-agent architecture-map practice | Adopt the partial-observability and belief-probing lessons; adapt them beyond software code agents. | Distinguishes observation class, confidence, active-passive gap and unexplored regions; an invariant claim returns to the relevant architecture source map or defining rule. | A probe, JSON output, dependency F1, invariant F1, active-passive gap, or benchmark score is not architecture adequacy, evidence sufficiency, safe-change authority, assurance, gate passage, or release authority. Reopen when the probed codebase, architecture source map, or observation budget changes. |
@@ -85024,7 +85027,7 @@ After using C.34, another practitioner can recover the claimed correspondence, p
 
 What C.34 buys in practice: the practitioner can say "same enough for this use" without implying stronger equivalence. The pattern makes sameness conditional on preserved relation, declared loss, and receiving use.
 
-Ordinary working move: put the source and target structures side by side, circle the relation or constraint that must survive, name any relation that does not survive, and choose a warranted mapping that supports the next use without seeking a stronger result unless needed.
+Name the conclusion you want to carry from one model to the other. Identify what makes it true in the first. Look for that relation, or a rule from which it follows, in the second.
 
 For a current claim limited to mathematical-lens use, generic bridge translation, measurement, structural view adequacy, architecture-description correspondence, candidate synthesis, decision, evidence, assurance, gate, release, or work authorization, use the pattern that defines or tests it. Use C.34 only for the architecture-specific preservation claim.
 
@@ -85048,7 +85051,11 @@ C.34 makes the preservation claim explicit before the result is used.
 
 ### C.34:4 - Solution
 
-Establish what must survive for the next architecture action and what the correspondence preserves. State any material loss or uncertainty. Use the optional note when it helps retain or share that account.
+State the decision that will use the correspondence. Identify the entities being matched and the relation on which the decision depends. A conclusion about the source carries over in the direction for which the mapping preserves the facts needed to reach it. To infer absence in the target from absence in the source, also show why any relevant target occurrence would have a source counterpart. Extra target connections can change the answer.
+
+For a grouping, ask how membership is determined. If both models define membership by the same rule and the correspondence preserves everything that rule uses, derive the target grouping. If membership is assigned independently, inspect the assignments or an applicable allocation rule and the facts it uses. For an assignment whose preservation is in doubt, keep the matched entities and links fixed. Could two different assignments fit them? When this changes who may act, the correspondence alone leaves that decision open. Correspondence between two disciplinary models can matter even when both are at L2. A claim of model refinement has its own test in `B.5.MR:4.3`.
+
+When reviewing a comparison someone produced, distinguish the correspondence supplied in the assignment from the choices the person or AI agent made. Applying a supplied match can establish that the comparison gave the right result. To credit someone with constructing a disciplinary model of correspondence, recover how they selected the entities, interpreted the links and justified the matching rule for further comparisons. An earlier decision record can show those choices. A new task can leave them open. Use `C.39.QR:4.3` when the attribution changes what you entrust to the agent.
 
 Work in this order:
 
@@ -85077,9 +85084,9 @@ The C.34 result says only whether the target is same enough for the declared arc
 
 C.34 is the pattern for a declared architecture preservation claim. It is used when a practitioner says that one description, view, model, generated output, or realized observation is same enough as another for a specific architecture use. The account identifies a sufficient warranted mapping, preserved structure, direction, scope and supported use, together with any material loss or uncertainty and the rule needed by further reliance.
 
-View and description case. Two architecture diagrams are edge-isomorphic. In one diagram an edge means data dependency; in the other it means control authority. C.34 records mapping mode `nearSameness`, preserved node partition, lost relation-type semantics, and non-admissible use "control separation decision."
+**What a pair of diagrams preserves.** Two diagrams show all three stations A, B and C, with links A–B and B–C. In one, a link records data dependency. In the other, it records control authority. For the question “which stations are joined by some path when link direction and meaning are ignored?”, both give the same answer. Matching all the stations and links preserves connected components under that definition.
 
-Recover the relation semantics through `C.30.ASV`, `C.30.TFS-REL` or `C.30.LCA` before relying on the mapping for control separation. Its supported node-partition use remains available.
+A planner now needs the crew responsible for each station. One crew could have A and B and another C, or one crew could have all three, with exactly the links shown. Connectivity leaves both crew assignments possible. The current allocation record can identify the responsible crew, as can a rule assigning stations by connected component together with the current assignment of each component to a crew. To dispatch a crew, use the duty rule for this shift. If it sends the responsible crew, the assignment settles whom to send. If it provides cover for an unavailable crew, also check who is on duty. If the decision concerns who may authorize a control action, inspect the control relation with its direction and meaning intact. Use `C.30.ASV` or `C.30.LCA` when that relation needs recovery.
 
 Source model and generated graph case. A code-agent dependency graph matches module names in the model used as the source, but marks several edges inferred and several regions unexplored. C.34 records the observation class and directionality, the supported dependency correspondence, and the dynamic wiring whose preservation is still unestablished.
 
@@ -85119,7 +85126,7 @@ The narrative order is not exact equivalence and does not license implementation
 | --- | --- |
 | `CC-C34-1` | Source and target structures are named before the mapping claim. |
 | `CC-C34-2` | The selected mapping is warranted and sufficient for the declared use; no stronger result is required merely to complete the assessment. |
-| `CC-C34-3` | Preserved relations or constraints and any material loss or uncertainty are stated; absence of a preservation result is distinguished from an observed loss. |
+| `CC-C34-3` | The account identifies the facts that support the intended inference in the target and the direction in which they carry over. Where independently assigned relations could change the decision, the account establishes them or identifies the decision that remains open. |
 | `CC-C34-4` | Relation-type semantics, observation class, directionality, and scope are present when they affect use. |
 | `CC-C34-5` | Each current mathematical-lens, view, description, Bridge, conformance, candidate-synthesis, measurement, eval, decision, evidence, assurance, gate, release, or work-authorization claim uses the pattern that defines or tests it. |
 | `CC-C34-6` | The supported use and its grounds are clear, with any material limitation, recovery condition and rule required by the next reliance. |
@@ -85128,7 +85135,7 @@ The narrative order is not exact equivalence and does not license implementation
 
 | Anti-pattern | Why it fails | Repair move |
 | --- | --- | --- |
-| Edge-isomorphism overread | Isomorphic graphs can preserve shape while changing edge meaning, relation observation class, or use. | Record relation-type semantics, preserved relation, lost relation, and non-admissible use. |
+| Edge-isomorphism overread | The same pattern of links can coexist with different responsibilities or directions of control. | Derive properties defined by the preserved links. For a claim about an assigned relation, match the assignments or establish the rule and facts that determine them. |
 | Semantic-loss hiding | A projection or coarsening can look clean because it drops the structure that the next decision needs. | Name lost structure and preservation-loss return condition before comparison, decision repair, or candidate admission. |
 | Exact-equivalence overclaim | Exact equivalence is stronger than most architecture uses need and is often false. | Use a warranted correspondence, projection, abstraction, coarsening, simulation relation or near-sameness when sufficient. Exact equivalence may be retained when independently justified. |
 | Generated graph proof overclaim | A generated graph can match labels or topology while hiding dynamic wiring, confidence, or unexplored regions. | Use C.34 only for the preservation claim; handle generated-carrier admission under `C.35`, and apply the rules that define evidence, assurance, gate, or release claims when those claims are current. |
@@ -85165,7 +85172,7 @@ The source families explain the safeguards. Structural-equivalence research show
 | --- | --- | --- | --- |
 | Yang et al., `Structural Equivalence in Subgraph Matching`, arXiv:2301.03161 | Adapt structural-equivalence and symmetry discipline. | Supports a warranted mapping mode and the distinction between shape and the relations needed for use. | Subgraph structural equivalence does not define holon architecture equivalence outside declared structures and use. Reopen when the source graph, target graph, or use changes. |
 | Fong and Spivak, `Seven Sketches in Compositionality`, arXiv:1803.05316 | Adapt applied category-theory preservation language; use `C.29` for an unresolved mathematical-representation choice, transfer, or reliance question. | Keeps morphism, functor, sketch, and composition vocabulary tied to preserved structure, lost structure, mapping mode, and architecture use. | Older source is lineage and still useful as applied compositional practice, but it does not become the default FPF architecture ontology. |
-| Multi-view architecture and MBSE query and view practice | Adopt the ordinary need for view correspondence, projection, query, and coarsening. | Supports view and description correspondence under `C.30.AD` and `C.30.ASV`. | View output or query output is not architecture and not realized structure. Reopen when viewpoint, query rule, model edition, or described structure changes. |
+| Multi-view architecture, MBSE and [W3C PROV-DM, responsibility](https://www.w3.org/TR/prov-dm/#term-delegation) | Distinguish views of structure and the meanings of particular relations, including delegation. | Helps a reviewer identify the relation whose preservation would justify the target inference. | A correspondence over untyped links leaves responsibility open unless a rule or an assignment determines it. Reopen when the relevant mapping, relation or declared use changes. |
 | Sapunov, ToCS, and code-agent architecture-map practice | Adapt partial-observation preservation discipline. | Makes relation observation class, inferred edges, unexplored regions, confidence and active-passive gap conditions on the warranted preservation claim. Incomplete observation can leave preservation unknown without demonstrating structural loss. | A code-agent map, JSON probe, dependency F1, invariant F1, or active-passive gap does not prove architecture equivalence, safe change, assurance, gate passage, or release readiness. |
 | GonzoML neural-network architecture intake | Adapt neural architecture operation language. | Distinguishes dataflow, routing, memory and cache placement, resource boundaries, block substitution and affected characteristics in neural structure substitution. | Use clear source-local meanings directly. Recover an unresolved selected structure or preservation relation when it changes the architecture claim; benchmark gains alone do not establish that preservation. |
 
@@ -85328,7 +85335,9 @@ Method, performed Work, attribution, bearer feasibility, and publication detail 
 
 ### C.35:4 - Solution
 
-Start with the result, the organization it concerns and its supported next use. State any unresolved condition or material limitation and how it can be resolved. A sentence or an existing account can suffice.
+Ask what decision the result can settle. One candidate checked against every applicable constraint can establish feasibility within the model. It may complete a commission to find any suitable design. A claim that no design qualifies requires grounds that cover every admissible alternative, such as an exhaustive search or a proof of incompatible constraints. A search that stops without a candidate can still tell the next designer which alternatives were examined. When one design uses less energy and another takes less time, both can be nondominated. To call a design nondominated, exclude alternatives that do at least as well on every stated criterion and better on one. State the set over which this was established. A claim that a design is best needs a ranking or trade-off rule for the commission and grounds that the design ranks at least as high as every admissible alternative. A verified bound may settle that comparison. If the leading alternatives remain incomparable under that rule, report the choice that still calls for a preference. A unique optimum also excludes ties for the best value. A unique feasible design excludes every other feasible design regardless of preference.
+
+Judge the result and its production separately. A verified design can serve the commission whoever suggested it. To credit an agent with designing the organization, identify the decisions left open by the input, the method or generator, and the evidence that the agent made them. A fixed input that already specifies the organization can support an assessment of how the agent checked it. Claims about the installed organization depend on evidence about the installation. State any material limit or next check in the existing account when possible.
 
 Use the smallest sufficient path:
 
@@ -85369,25 +85378,25 @@ When the encountered item is a narrative sequence, `A.6.3.NAR` governs only the 
 
 C.35 is the pattern for admitting or rejecting a generated or discovered result before another architecture claim relies on it. The result may come from search, clustering, query, learning, transformation, simulation, or discovery. C.35 does not search, select, decide, or realize architecture. It asks what the result is, which organization it concerns, whether the claim about that organization is established, refuted or unestablished, or instead presents a proposal, what use it supports, and which conditions or limitations affect further reliance.
 
-**Generated claim and diagram not yet architecture.** An LLM returns proposal claim `MedicalDeviceProposal-7` and diagram `MedicalDeviceDiagram-7`. The ordinary C.35 result is:
+**What a generated proposal establishes.** An LLM returns proposal `MedicalDeviceProposal-7` and diagram `MedicalDeviceDiagram-7`. An architect considering it for the candidate set records the following.
 
 ```text
 Result: MedicalDeviceProposal-7.
-Organization: a proposed device organization; its constituents and relations do not yet obtain.
-Next-use condition: C.32 may use it after the missing safety constraint and bearer question are explicit.
-Limit and return: do not read the proposal or diagram as A.22 structure or decision; return to the claim when either gap changes.
+Organization: proposed arrangement of device components. The proposal leaves open which parts of that arrangement are already installed.
+Next use: C.32 may examine the proposed arrangement as an alternative now. Its feasibility remains open.
+Limit and return: before relying on feasibility, establish the applicable constraints and that components capable of meeting them can be provided under the intended conditions. To establish what is installed, use the device's applicable as-built evidence.
 ```
 
 This is enough for the immediate candidate-use boundary. Add the generative-proposal branch only if the receiver relies on its constraints, omissions, or validation needs.
 
 Treat `MedicalDeviceDiagram-7` as a separate representation when graphical correspondence matters, using C.30.AD or C.30.ASV for its architecture description or view and C.29 when a mathematical-representation choice, transfer, or reliance question remains. A source or preservation account requires a declared baseline.
 
-**DSM and MDM clustering.** A DSM modularization returns a clustering result based on co-change and interface hints. This is the discovery branch: C.35 identifies the claim-bearing cluster result and its extraction basis and records which dependencies are observed, which modular interpretation is inferred, what remains unknown, which matrix region was covered or unexplored, the uncertainty, and the validation needed before use. The inferred modular organization remains an unestablished claim about the existing organization until the needed constituents, obtaining relations, applied constraints and use frame are supported. A proposed reorganization remains a distinct modal claim.
+**DSM and MDM clustering.** A team groups the rows of a dependency matrix using co-change observations and interface data. Check whether the reported groups satisfy the grouping rule on that matrix. If the rule allows several groupings, the saved output identifies the one returned by this run. Reproduction also suffices when the procedure and its inputs determine the same choice, including any tie-breaking or random choices that mattered. To infer that the corresponding components perform one function, the team must relate the observed dependencies to that function and check what the matrix omits. A different decision is to reorganize the components into those groups. That proposal needs a reason the new allocation would serve the design. Use the discovery or proposal branch for the claim actually made.
 
 Retain the matrix's mapping to the represented dependencies and the validity conditions of its operations; use C.29 when choosing, transferring, or relying on that representation remains unresolved. A comparison with an earlier modularization may add a declared baseline and preservation account, but clustering alone does not require one.
 
 
-**NAS result.** A multi-objective NAS run returns a modal architecture claim about a proposed neural organization together with a graph representation and Pareto result. This is the generative-proposal branch: C.35 keeps those identities separate and records the search constraints, proposed organization content, known deployment and evidence omissions, bearer boundary, and validation and eval needs.
+**NAS result.** A multi-objective neural architecture search returns a proposed neural organization and its graph. No evaluated alternative matched or improved on the proposal on every criterion and improved on it on at least one. Report that comparison over the evaluated set. To report the same conclusion over the full search space, establish coverage or a bound that excludes a dominating alternative. Keep the search constraints, hardware conditions and validation needed for deployment with the proposal.
 
 The graph represents the proposal; C.29 applies when a separate mathematical-representation choice, transfer, or reliance question remains. The graph does not prove that the proposed relation occurrences obtain. C.35 does not invent a preserved-dataflow claim unless the run explicitly transforms or compares against a declared baseline.
 
@@ -85420,7 +85429,7 @@ If the use additionally asserts an actual formal or world-side change, it cites 
 | `CC-C35-4` | A positive structure reference passes all four A.22 discriminators. An unestablished claim about existing organization remains unresolved; a refuted claim stays refuted; a proposal stays modal. C.32 may use a qualified provisional result without treating an unestablished or proposed organization as obtaining architecture. |
 | `CC-C35-5` | Bearer or realization detail appears only when the intended use relies on feasibility or realization; any such question uses the rule that defines or tests it. |
 | `CC-C35-6` | Use the pattern for each archive, front, pool, publication, eval, measurement, mathematical-lens, decision, evidence, assurance, gate, release, Method, or Work claim; an absent claim creates no C.35 field-filling duty. |
-| `CC-C35-7` | The first result states the supported next use and any condition, limit or return that changes reliance. A next-claim or rule reference is added only when the receiving action relies on reidentifying it independently. |
+| `CC-C35-7` | The first result states what it warrants for the receiving decision. Feasibility has a qualified witness or other sufficient grounds. Claims of impossibility, optimality or uniqueness identify the alternatives covered or excluded and the grounds for that conclusion. |
 
 ### C.35:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -85461,7 +85470,8 @@ The source families explain why the branches differ. MBSE query practice, DSM an
 
 | Source or practice line | Use of the contribution | Contribution to the assessment | Boundary of use |
 | --- | --- | --- | --- |
-| MBSE query and view generation | Adapt query results as discovery while separating the claim-bearing result, represented object, representation, and publication-side availability. | Identifies query or extraction basis, separate observed, inferred, and unknown content, covered and unexplored model region, uncertainty, validation, and `C.30.AD` / `C.30.ASV` exits. | Query or view output is not architecture, realized structure, or proof. Reopen when result identity, model edition, query rule, viewpoint, represented object, coverage, or relied-on availability changes. |
+| MBSE query and view generation | Identify the source, selection rule and coverage of the query. | A complete, validated query can settle a claim about the model. | Claims about the installed architecture depend on evidence connecting that model to the installation. Reopen when the model edition, represented object, query or coverage changes. |
+| [Google OR-Tools, CP-SAT solver statuses](https://developers.google.com/optimization/cp/cp_solver) | Read a feasible witness, a proof of infeasibility, an optimum or an inconclusive stop according to the stated result. | Helps decide whether a search has already fulfilled the commission or whether coverage or a bound is still needed. | Solver conclusions apply to the encoded constraints, objective and stopping conditions. |
 | Graph grammars and model transformations | Adapt rule-governed transformation as the transformation branch. | Identifies source and result objects, transformation trace, preserved structure, lost structure, and C.34 preservation exit. | Grammar or transformation output does not prove adequacy, feasibility, or realization. Reopen when transformation rules, source object, result object, trace, or constraints change. |
 | DSM, MDM, and modularization practice including Jiang and Luo, arXiv:2604.28018 | Adapt modularization and LLM-assisted DSM work as discovery. | Identifies extraction basis, observed dependencies, inferred clusters, unknown functional-bearer semantics, coverage, uncertainty, validation, and C.31 plus C.32 exits. | Cluster, partition, or MDM slice is not candidate architecture adequacy. Reopen when relation matrix, covered region, modularity objective, functional prior, validation, or solution pool changes. |
 | Multi-objective NAS and Sukthanker et al., arXiv:2402.18213 | Adapt multi-objective search as a generative-proposal source. | Identifies constraints, proposed neural organization, known omissions, validation needs, search criteria, bearer boundary, eval return, and C.32 admission condition. | A Pareto point or neural graph is not holonic architecture adequacy. Preservation is claimed only against a declared baseline. Reopen when search space, constraints, criteria, hardware target, proposal content, or eval trace changes. |
