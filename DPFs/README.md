@@ -41,7 +41,7 @@ These ten standalone frameworks have their own files here. A shared folder group
 | [Financial Domain Modeling (FDM)](https://fpf.tools/FDM) · [Markdown](FINANCIAL-DOMAIN-MODELING-PRINCIPLES-FRAMEWORK.md) | Model financial positions, rights, obligations, events and payment flows, distinguishing their effects. | 5 | 0.100 |
 | [Defense and Transmission Modeling (DTM)](https://fpf.tools/DTM) · [Markdown](DEFENSE-AND-TRANSMISSION-MODELING-DPF.md) | Explain how practices persist and spread, how they help or impair work, and how protective action changes those outcomes. | 9 | 0.158 |
 | [Embodied Rhythmics (RHY)](https://fpf.tools/RHY) · [Markdown](EMBODIED-RHYTHMICS-PRINCIPLES-FRAMEWORK.md) | Recognize, represent, alter and perform rhythmic relations; coordinate sound, movement, reference and simultaneous layers. | 14 | 0.280 |
-| [Music and Dance Practice Engineering (MDPE)](https://fpf.tools/MDPE) · [Markdown](MUSIC-AND-DANCE-PRACTICE-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | Create, configure, perform, learn and transmit music and dance practices, including changes in tools, environments and styles. | 28 | 1.100 |
+| [Music and Dance Practice Engineering (MDPE)](https://fpf.tools/MDPE) · [Markdown](MUSIC-AND-DANCE-PRACTICE-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | Create, configure, perform, learn and transmit music and dance practices, including changes in tools, environments and styles. | 28 | 1.101 |
 
 **Patterns** counts full pattern bodies. **Text, M characters** measures each complete Markdown framework, including its embedded Architectural Reference, in millions of Unicode characters with spaces and original line breaks, rounded to three decimals. Suite totals sum their constituent frameworks and exclude the separate Suite Reference.
 

@@ -5457,7 +5457,7 @@ The arranger compares:
 - change the dynamics and one voice allocation before use; or
 - keep an unrepaired branch.
 
-The answering phrase must be audible. The present arrangement fails that requirement, and keeping the unaltered version as a separate branch would retain the problem. Changing the dynamics and one voice allocation offers a low-burden repair within the instruments’ ranges. Knowing more about articulation could refine the edit, but would not remove the need to address the balance. A claim that the edit restored the audible exchange needs evidence from the changed arrangement.
+The answering phrase must be audible at the concert. The rehearsal gives the arranger a reason to address balance before that performance. Keeping the score as a separate branch preserves the version. That leaves open how the phrase would sound with a different balance in performance. Changing the dynamics and one voice allocation offers a low-burden repair within the instruments’ ranges. More evidence about articulation could guide the edit. To judge whether the answering phrase is audible in the revised arrangement, use a performance under conditions relevant to the concert.
 
 The arranger chooses **revise before use** for this concert. The decision identifies the version, the balance problem, the proposed edit and the conditions that could change the choice. To report the actual revision, later rehearsal or permission to release it, use evidence of that work or authorization. An adviser with a narrower remit could instead recommend the same treatment.
 

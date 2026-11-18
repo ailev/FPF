@@ -69,7 +69,7 @@ Repeat the comparison on varied tasks before drawing a broader conclusion. The e
 
 ## What is available
 
-**FPF Core** contains 406 patterns in 18.536 million characters. It supplies transdisciplinary concepts and methods, including methodological work, architecture construction and comparison, and open-ended development. **36 Domain Principle Frameworks (DPFs)** supply subject-specific methods: 26 belong to four Suites, and ten have their own files directly in the DPF catalogue.
+**FPF Core** contains 406 patterns in 18.541 million characters. It supplies transdisciplinary concepts and methods, including methodological work, architecture construction and comparison, and open-ended development. **36 Domain Principle Frameworks (DPFs)** supply subject-specific methods: 26 belong to four Suites, and ten have their own files directly in the DPF catalogue.
 
 A DPF describes one field through a connected pattern language. A **Suite** describes a composite discipline through its constituent fields and their relations. An **Architectural Reference** explains how the relevant language is arranged and why: within a framework, across a Suite, or across the Library.
 
