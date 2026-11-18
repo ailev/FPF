@@ -412,7 +412,7 @@ Use a qualified expression where it affects what the reader can infer or do.
 | Position under the stated system composition | system-composition level; system level when clear |
 | Position in an admitted Method composition | Method-composition level |
 | Contributions grouped by function and their connections | functional layer |
-| Modules organized through their interfaces | modular level; module/interface level |
+| Modules ordered by enclosure or by a stated dependency | modular level under that ordering. Use *module* and *interface* for peers whose exchange has no higher or lower member. |
 | Ordered comparison of models for the same inquiry | levels of model abstraction towards more abstract models; levels of model refinement towards more concrete models |
 | Detail shown or omitted in a representation | level of detail |
 | Position among narrower or broader kinds | taxonomic level; specialization |
@@ -532,7 +532,7 @@ A compact cycle can prescribe a way of acting, explain a process or remind a pre
 
 For a prescribed way, a description of the Method lets a performer recover its operations and conditions. A person, team or software system performs particular work with actual inputs, means and authority. Organizing that work makes information and coordinated action available when needed. The participants' interactions realize the control arrangement. An architecture description represents selected relationships in that arrangement and the controlled system for a particular question.
 
-An organization can precede the choice of a method, and its participants can perform work that changes the organization itself. A proposed architecture can guide construction before the arrangement exists. It remains a proposal until the relevant relationships are realized.
+An organization can precede the choice of a method, and its participants can perform work that changes the organization itself. A proposed architecture can guide a comparison. Once an authorized decision adopts it, the selected design can govern construction before the intended arrangement exists. Establish the actual arrangement from the relations that organize the identified holon at the relevant time. Where a decision itself makes a delegation effective, the applicable rule and effective act can establish that particular organizational change.
 
 For an explanatory heuristic, use its distinctions to investigate what happens, develop an explanation or design an intervention. Select the intervention's operations and conditions on their own grounds. The expansive-learning model below, for example, helps investigate transformation of collective activity; its ideal cycle does not prescribe a universal sequence for every participant.
 
