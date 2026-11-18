@@ -70293,7 +70293,7 @@ Use the least-committing result that changes the receiving action.
 
 1. Recover the temporal claim from the available account, keeping its subject, quantity or condition and relevant time explicit. Cite an exact episteme or ClaimAddress when that identity is consumed by the use.
 2. Resolve what the timing means: a dated observation, elapsed duration, order, recurring cadence, validity condition or another temporal property. Use `C.27.TA` if this is unclear; a separate temporal-aspect artifact is unnecessary when the claim already states it adequately.
-3. Classify the claim as Dyn0, Dyn1 or Dyn2.
+3. Classify the claim as Dyn0, Dyn1 or Dyn2. Compare the decision with what the observations cover. Two dated counts of the same stock under the same counting rule can establish its net change. If duplicate entries were removed between counts, establish how much of the recorded change came from the correction before crediting it to completed work. The same endpoints can follow a steady decline or a rise followed by a sharper fall. To judge the path between them, use records or a supported model of the intervening period. To attribute a change to an action, compare what the relevant quantity would do under that action and under its alternative.
 4. If it is Dyn0 or Dyn1 and no intervention-sensitive question remains, stop or use C.16 for the unresolved measurement question.
 5. For Dyn2, connect the proposed input to the claimed temporal effect. Recover the baseline, relevant window and resistance or cost; identify whether the basis is observation, a planning assumption, a model consequence or a causal result. Reuse adequate grounds. When the effect is the unresolved causal question, use C.28 and its construction or mechanism-replacement method as needed.
 6. Return the supported conclusion and only the neighboring result on which it depends. Unknown resistance or another missing premise can justify a narrower or unresolved result.
@@ -70399,16 +70399,16 @@ interventionWindow:
 resistanceOrCost:
   queue coordination and domain ramp-up
 reasonForReading:
-  planning assumption plus prior Work trace if available
+  an assumed doubling of the reduction rate under the proposed staffing change
 supportedUse:
-  local staffing discussion and plan choice
+  calculate the backlog if the assumed rate holds and judge whether that scenario would meet the target
 unsupportedUse:
   causal proof, long-term capacity model, or benchmark superiority
 reopenTrigger:
   work-mix shift, saturation, quality loss, or a measured rate after sprint N that does not match the planning estimate
 ~~~
 
-For a numerical version of this constructed case, let the backlog start at 120 comparable items, the baseline reduction rate be 20 per week, and each sprint last one week with no new incoming items. The doubling assumption gives 40 per week and leaves 40 items after the two sprints. That conditional calculation can inform local staffing discussion without establishing the assumed gain.
+Suppose the team needs at most 40 items left at the end of the second one-week sprint. It starts with 120 comparable items, has a baseline net reduction rate of 20 per week, and expects no new arrivals or reopened items. At 40 per week, exactly 40 would remain. This calculation settles whether the proposed rate would be enough. To select extra reviewers on the ground that they can achieve that rate, establish what they can complete and what the shared approval step can absorb. If every one of the 120 items still needs a new approval before it can leave, and the approver can pass only 20 per week, at most 40 can leave in the two weeks. Extra reviewers alone cannot bring the backlog down to 40. If 40 items have already been approved and await final review, that same approval limit permits 80 departures. Check which stages hold the starting backlog before deciding where to add capacity.
 
 If the measured first-sprint reduction is 20, there is progress, but the uniform 40-per-week estimate is not met in that sprint. Reassess ramp-up and the remaining estimate before relying on the second-sprint forecast; the first sprint alone does not determine the two-sprint outcome. No boundary-crossing profile is needed for this local use.
 
@@ -70448,13 +70448,13 @@ Knowing the bounds identifies what to check. To select the slower cadence on the
 
 Source claim: “Daily twenty-minute drills stabilize the learner's task rhythm.”
 
-For this case, LearnerSystem-1 is already independently identified under A.1. Its positive temporal-aspect claim is a daily task-practice cadence during the four-week training window; the example below keeps that claim separately referenceable.
+The plan for LearnerSystem-1 prescribes one twenty-minute drill daily for four weeks. The instructor wants to know whether the learner starts comparable work sessions at more regular intervals. The drill schedule and the observed starts of those work sessions concern different activities.
 
 ~~~text
 sourceTemporalClaimRef:
   exact ClaimAddress to the stabilization claim
 positiveTemporalAspectClaimRef:
-  exact C.27.TA claim about LearnerSystem-1's daily task-practice cadence
+  exact C.27.TA claim about the daily drill cadence prescribed for LearnerSystem-1
 move:
   stabilize
 claimedInterventionOrInput:
@@ -70464,16 +70464,16 @@ interventionWindow:
 resistanceOrCost:
   fatigue, attention drift, task novelty, or habit formation
 reasonForReading:
-  observed task-completion cadence and error trace, or an explicit planning assumption
+  the drill schedule for planning, actual drill times and durations for practice performed, and dated starts of comparable work sessions for observed work rhythm
 supportedUse:
-  local practice design
+  organize the proposed drills and compare regularity where session observations cover the comparison
 unsupportedUse:
-  proof that the Method improves all learning or every task family
+  attribution of a change in work rhythm to the drills from their schedule alone
 reopenTrigger:
   retention falls, task family changes, or the rhythm proxy stops matching performance
 ~~~
 
-Cross-bearer coupling is absent because the claim does not rely on synchronization between bearers. A practice intended for replication also states what timing and effort pattern must be transmitted and what error arises if only static poses or rate words are copied.
+To judge regularity, specify which sessions count, how start-to-start intervals will be compared, and what timing matters to the work. The same number of starts per week can come at evenly spaced times or in a cluster. Comparable records before and during the scheduled period can establish a change in the observed spacing even if every drill was cancelled. To assess the effect of doing the drills, establish which drills took place and for how long. Compare the observed rhythm with what the learner’s work schedule and other conditions support in the absence of those drills. A new duty roster could itself fix session starts. If all that is needed today is the drill plan, its prescribed cadence suffices. For replication, state what timing and effort the learner has to reproduce.
 
 #### C.27:4.4 - Compact Case Bank
 
@@ -70712,7 +70712,7 @@ When the claim depends on another direct relation, cite that relation's declarat
 
 **First useful move.** Identify the bearer or claim, state its temporal property, and supply the reference and extent needed to interpret it. An observed cadence needs the period observed; a general ordering rule can instead name the event types and their relative order.
 
-**First result.** `CheckoutSystem-1 had a weekly release cadence during release train R14.` This is enough when the receiving action needs no further distinction. Stop there.
+**First result.** A practitioner can state the timing claim: “CheckoutSystem-1 released at least once in each reporting week of R14.” This gives a colleague a criterion to apply. To report that it was met, check the release events against those weeks as in section 5.1.
 
 Open the fuller statement only when the receiving use also depends on measurement, a scheme or scope, a selected Structure, a source or use boundary, currentness, reopen conditions, coupling, another direct relation, or an explicit rule citation or blocked overread.
 
@@ -70832,6 +70832,8 @@ Add the remaining fields only when their values change the claim or receiving ac
 
 A rhythm or cadence claim needs its bearer, recurrence or ordering property and timing reference. An empirical assertion such as a weekly cadence observed during R14 also needs that observation window. A planned rule such as "run a review every Friday while this plan applies" can state its recurrence and applicability directly. Add phase, synchronization, entrainment or other cross-bearer relations when the claim depends on them.
 
+Choose the timing rule by what the recipient needs. An average number of occurrences per week, at least one occurrence in each calendar week, and a maximum seven-day gap answer different questions. For weekly coverage, place dated events in their reporting weeks. For a gap limit, compare elapsed times between successive events over the period the agreement covers. When a missing record is meant to establish a missed occurrence, check which events the recording procedure covers. A plan supplies the intended timing and can be used to schedule work.
+
 Optional reference-bearing form:
 
 ```text
@@ -70867,9 +70869,9 @@ Add the disturbance or starting condition, measured reading, effort, resistance,
 
 #### C.27.TA:5.1 - Release Cadence
 
-`CheckoutSystem-1 had a weekly release cadence during release train R14.`
+Suppose R14 comprises four full reporting weeks, Monday through Sunday. Operations needs at least one release in each week. Four dated release events, one in each week, establish that requirement for R14. A total of four alone establishes an average of one per week and leaves their distribution open. A week with no releases defeats the weekly requirement. A blank in a log establishes that absence when the log covers every release in the week.
 
-This result identifies the bearer, cadence, release-train timing reference and R14 observation window. It is sufficient when the receiving use needs that cadence; a claim about its quality or effect needs separate grounds.
+A support agreement might instead limit the elapsed time between releases to seven days. Consecutive releases on Monday of one week and Sunday of the next meet the one-per-week requirement for those two weeks while leaving thirteen days between releases at the same hour. Two log entries thirteen days apart leave room for intervening releases. To report a breach, establish an interval longer than seven days with no release. A series of confirmed releases spaced at most seven days apart can show coverage even if additional releases went unrecorded. Include releases on either side of R14 when the agreement covers gaps crossing those boundaries.
 
 #### C.27.TA:5.2 - Source Freshness
 
@@ -71175,6 +71177,8 @@ Potential-outcome notation alone does not select the third rung. The population 
 
 Lower-rung data may contribute to a higher-rung result only through a replayable identification, bound, or other specialist result. The rung label itself supplies no support.
 
+The rung names the *question* put to a causal model. The levels in `B.5.MR:4.3` name what a model specifies as it is abstracted or refined. A discipline can model a process and ask what was observed, what a specified intervention would produce, or what would have happened in a particular episode. Naming an intervention in a question does not establish that it was performed or reveal its effect. Even a documented action establishes an observed outcome only when the outcome itself is available.
+
 #### C.28:4.1a - Causal-Use Claim Kind
 
 ```text
@@ -71303,7 +71307,9 @@ An `identified` label without an identifying expression or derivation is incompl
 - Model M0 has an unobserved fair binary input U, `X=U` and `Y=U`. Replacing X by either constant leaves `P(Y=1)=0.5`, so the average intervention contrast is 0.
 - Model M1 has the same U and `X=U`, but `Y=X`. Replacing X by 1 gives Y=1; replacing X by 0 gives Y=0, so that contrast is 1.
 
-Thus the observed law does not identify `E[Y|do(X=1)]-E[Y|do(X=0)]` in a model class admitting both accounts. These two models and their differing answers supply `unmeasured_severity_obstruction_3`; the name alone would not be a witness. More observations of the same joint law cannot distinguish them. Additional assumptions or intervention evidence may exclude one account; a bound, if established for the admitted model class, supports its own bounded claim. Reporting an adjusted number alone does not change the nonidentification result.
+The two compatible models give different values of `E[Y|do(X=1)]-E[Y|do(X=0)]`. An exact value therefore cannot be identified in a class admitting both. More observations of that same joint law cannot settle which effect is correct.
+
+The same information does settle a weaker decision. Assume binary outcomes for the same target population under two well-defined assignments, with consistency: the outcome under the assignment actually received equals the observed outcome. In this *stipulated population law*, everyone receiving 0 had outcome 0, so switching such a person to 1 could leave the outcome unchanged or raise it to 1. Everyone receiving 1 had outcome 1, so switching such a person to 0 could leave the outcome unchanged or lower it. In both groups the contrast “outcome under 1 minus outcome under 0” lies between 0 and 1. The population mean contrast has those same bounds. M0 attains 0 and M1 attains 1. These premises rule out a negative mean effect. They leave open whether the mean improves by at least 0.25. For an empirical sample, establish what its distribution supports about the target population before using this bound there. This calculation uses the bounded outcomes for each assignment to put limits on the unobserved contrast. [Manski, 1990, pp. 319–321](https://ipcid.org/evaluation/outros_temas/Manski%20-%20Nonparametric%20Bounds.pdf).
 
 For a supplied causal model, C.28.MR derives the consequence by replacing the selected mechanism, retaining the other mechanisms and input law, and solving the relations needed by the query. The following case illustrates that operation and its difference from observation.
 
@@ -71626,8 +71632,8 @@ When only wording inside one publication unit is unclear, use the publication an
 
 | Case | Result |
 | --- | --- |
-| “Users who received X improved, so X works.” | Observational rung; association supported; intervention effect unsupported unless identification/design results close the gap. |
-| “We changed X once, so the policy works everywhere.” | Interventional result limited to its population/environment/window; transport requires exact endpoints and assumptions. |
+| “Users who received X improved, so X works.” | If comparable observations before and after show improvement among recipients, report that within-group change. A comparison by receipt of X requires a contrast in receipt. Attributing the improvement to X also requires grounds for the outcome under the relevant alternative. |
+| “We changed X once, so the policy works everywhere.” | A record of the change can establish its occurrence. An outcome record can establish what followed in that case. To credit the change, establish a warranted comparison with the alternative. To use an established effect elsewhere, identify the target conditions and what supports transfer. |
 | “The simulator shows what would have happened.” | With no causal reliance, exit to model reporting. With causal reliance, cite the simulation result, assumptions, validation, supported model use, and unsupported realized/interventional use. |
 | “The trial was randomized, therefore the estimate is valid.” | Run the common threats: interference, attrition, measurement, adherence, and analysis can still lower the result. |
 | “The observational estimand is identified.” | Cite the identifying expression/derivation for `identified`; a bound supports `bounded` wording, and a nonidentification witness supports `nonidentified` wording. The label alone is incomplete. |
@@ -71637,7 +71643,7 @@ When only wording inside one publication unit is unclear, use the publication an
 
 ### C.28:5 - Archetypal Grounding
 
-**System.** A product team observes better outcomes among recipients of X. Triage returns association support. If the team needs an effect claim, it opens identification or evidence-design work; the deployment decision still needs its own downstream basis.
+**System.** A team records higher completion among recipients of X than among other eligible users in the same period. This supports an observed group difference. If only recipients were observed, report their outcomes and any comparable within-group change. To decide whether X would improve the outcome under a proposed deployment, examine the assignment process, the comparison and the conditions of intended use.
 
 **Fairness.** A report claims counterfactual fairness after a policy change. C.28 identifies the rung and estimand, exposes the additional counterfactual-identifiability assumptions, and cites an estimate with its consistency result when the audit relies on that estimate. Missing identification or consistency lowers the support result even with more of the same data. D.5 carries the `BiasAuditReport@Context` and makes the audit conclusion.
 
@@ -71796,7 +71802,7 @@ Construct the account around the question, then challenge the relations on which
 
 State what needs explaining or changing. Name the outcome and the cases it concerns, the relevant time, and any proposed action or comparison. “Why did this queue start?”, “Why does it remain?” and “What will shorten it now?” can require different mechanisms.
 
-Distinguish an observed comparison from an intervention query. Observing X=x supplies information about the mechanisms already operating; imposing X=x replaces a mechanism. When the question concerns the same past case under another action, preserve its factual observations and the underlying conditions they constrain. C.28.MR develops the corresponding model calculation; C.28 determines what supports that use.
+Distinguish an observed comparison from an intervention query. Observing X=x supplies information about the mechanisms already operating. Imposing X=x replaces a mechanism. For a question about a past case under another action, use factual observations to constrain the underlying conditions of that case. In the alternative, recompute the quantities that depend on the changed action. An outcome observed in the factual case is evidence about that case and may take a different value under the alternative. C.28.MR develops the calculation and C.28 determines what supports its use.
 
 Keep the question small enough for a useful contrast. If two retained accounts permit the same sufficient next action under its own grounds, C.11.DUA can settle whether distinguishing them is worth the effort.
 
@@ -71855,7 +71861,7 @@ Two graphs may entail the same observed independences. Two mechanisms may produc
 
 #### C.28.CM:4.6 - Challenge the consequence with available evidence
 
-Compare the consequence with an observation, contrasting case, subject argument or feasible intervention that bears on it. First check that the observation concerns the modeled variable, cases and time. A contradiction can arise from the mechanism, measurement, implementation of a proposed action, or a changed operating condition.
+Compare the consequence with a relevant observation, contrasting case, or argument about the modeled process. An intervention that could distinguish two explanations gives the team a test it can run. To use that test as empirical evidence, obtain its result or use a suitable result already available. First check that the observation concerns the modeled variable, cases and time. A contradiction can arise from the mechanism, measurement, implementation of a proposed action, or a changed operating condition.
 
 Distinguish a contradicted implication, an untested implication and compatibility with the inspected material. A graph with no relevant testable implication cannot acquire support merely from an absence of contradiction. Conversely, failure to reject an implied independence does not establish the graph. Deterministic constraints, measurement error, missing cases and sampling uncertainty can all change the interpretation.
 
@@ -71887,7 +71893,9 @@ Let S=1 mean a report entered the incident sample, either because R=1 or because
 
 The first return is specific: determine which joining inputs were actually missing or wrong, then distinguish the two modeled failure mechanisms. If all retained accounts support a cheap temporary manual check under the decision's own conditions, using it does not establish which account caused the incident.
 
-**Onset, persistence and amplification.** Suppose a queue began during a specialist's absence. After their return, ten new items and capacity for ten items arrive each day. Under the simplified balance B(t+1)=max(0, B(t)+A(t)+R(t)−C(t)), with backlog B(0)=12, A=10, R=0 and C=10, the backlog remains 12. Two daily rework items, R=2, increase it by two per day. The absence explains the initial loss of service; the present flow balance explains persistence; rework explains growth under these premises. Restoring attendance alone need not clear the backlog. A different arrival pattern, capacity or feedback from delay to rework reopens the corresponding part of the model.
+**Onset, persistence and amplification.** A queue first appeared while a specialist was absent. This dates its onset. To decide whether the absence produced the queue, compare the service those arrivals actually received by the time the queue formed with the service they would have received by then under the dispatch rule with the specialist present. If the rule holds requests for a batch, they may have waited even with the specialist on duty. Enough capacity over the whole day could still leave work waiting when several requests arrive together.
+
+After the specialist returns, suppose the backlog is 12 comparable items. Ten items arrive each day. While enough eligible work is waiting, the service uses its capacity of ten completions per day. Under `B(t+1)=max(0,B(t)+A(t)+R(t)−C(t))`, with arrivals A=10, rework R=0 and usable capacity C=10, the backlog stays at 12. Two extra items of rework each day make it grow by two per day under the same conditions. Preventing that rework would stop the growth in this model. To reduce the total backlog to zero, cumulative completions must also cover the initial 12 on top of arrivals and rework. These conclusions about the period after the return can guide action even if the cause of onset is still open.
 
 #### C.28.CM:5.2 - Construct the measurement and device mechanisms separately
 
@@ -71996,7 +72004,7 @@ Use this pattern when a causal model is available and the working question asks 
 
 The subject is the intervention query in that model. The Method constructs the modified model and derives the requested value, distribution, contrast or bound under its assumptions. The practitioner needs the subject meaning of the variables and enough mathematical or computational help to solve the relevant equations.
 
-**First useful move.** Point to the equation that represents the proposed change. Replace that equation and re-evaluate the variables needed for the question. If a display merely reports voltage, changing its displayed number leaves the supply equation in place. Changing the supply command instead changes the voltage and the current through the retained load equation.
+**First useful move.** Point to the equation that represents the proposed change. Replace that equation and re-evaluate the variables needed for the question. If a display merely reports voltage, changing its displayed number leaves the supply equation in place. Changing the supply command replaces an input to regulation. Recalculate the delivered voltage and the current through the load. Two commands can yield the same output when the supply is at its current limit.
 
 Use an adequate existing derivation directly. Observational reporting can finish without this transformation. If only an observed joint distribution is available, recover a causal-model assumption or an identification result through C.28 before claiming a particular intervention consequence. Identifying an effect from data is a separate task from deriving it in a supplied model.
 
@@ -72096,7 +72104,9 @@ The observational probability of no alarm is `0.5*0.1 + 0.5*0.9 = 0.5`. High loa
 
 For `do(S=0)`, replace the second mechanism by `S=0`. The equation for H and the input law are retained. Therefore `P(H=1 | do(S=0))=0.5`. Forcing this indicator removes its information about H without changing H in the supplied model.
 
-The result answers a current-load question under the stated absence of an S-to-H influence. If alarm output controls subsequent cooling, a later-load query needs that later mechanism and the duration of the override. The current calculation remains usable for the current question; the new temporal question has an additional required input.
+For a particular past episode the answer uses what was observed *in that episode*. Suppose the alarm sounded and load was unobserved. The factual mechanisms give `P(H=1 | S=1)=0.45/(0.45+0.05)=0.9`. In the alternative where the alarm was silenced at that instant, its replacement leaves H unchanged for each compatible underlying input. The probability of high load in that alternative given the original alarm is therefore 0.9. Drawing a fresh episode from the population would give 0.5. Treating the imposed silence as an observation of a naturally silent alarm would give 0.1. Each number answers a different question.
+
+All three calculations concern current load under the stated absence of an S-to-H influence at that instant. If alarm output controls subsequent cooling, a later-load query needs that later mechanism and the duration of the override.
 
 #### C.28.MR:5.2 - Change a display or a supply command
 
@@ -72110,7 +72120,7 @@ Replacing the display equation by `D=6 V` leaves `V=12 V`; current and power rem
 
 Suppose the supply's current limit is now relevant. Use the revised positive-command model `V=min(C, I_max R)` with `I_max=1.5 A`. The 12 V command now gives 9 V at the load and 13.5 W. The 6 V command still gives 6 W. Relative to natural behavior, the calculated power reduction is now 7.5 W, instead of 18 W in the earlier operating-region model.
 
-This is a model comparison. Using this result for a physical supply requires an account of its regulation, load and limiting behavior. Altering a graphical interface value is a physical intervention only when the interface controls the modeled command.
+To use this comparison for a physical supply, establish its regulation, load and limiting behavior. Editing a displayed number can be a real change to the display. The calculated effect on load current applies to a change of supply command. Establish which mechanism the interface changes and whether a controller later acts on its reading.
 
 #### C.28.MR:5.3 - A definite intervention answer with an indefinite baseline
 

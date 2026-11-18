@@ -6769,7 +6769,7 @@ Consider the same failed result with no teacher and partner time left for a tria
 
 #### MDPE.22:4.2 - Algorave needs more than live-coding software
 
-A local group installs live-coding tools and publishes an open invitation. Few musicians perform because the venue lacks a suitable sound check, new performers cannot recover the event Method, curation favours polished prerecorded sets, and the audience cannot see the relation between code changes and sound.
+A local group installs live-coding tools and publishes an open invitation. Few musicians perform. The organizers identify four possible barriers to staging live-coded sets. The venue offers no suitable sound check, newcomers have trouble finding out how to perform, curators favour polished prerecorded sets, and audiences have difficulty seeing how a code change affects the sound. If the choice of remedy depends on which barrier affected participation, compare the experience of musicians who performed with that of prospective performers who declined. The guidance gives the group changes it can try.
 
 The group uses the maintained Algorave guidance and local event-production Methods to compare changes in onboarding, technical rehearsal, projection, curation, and recurring scheduling. It selects a bounded arrangement: a technical rehearsal, visible code, short first sets, a curator able to return performance-relevant feedback, and a second event date announced before the first.
 
