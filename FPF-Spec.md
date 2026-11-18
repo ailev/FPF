@@ -72270,12 +72270,12 @@ The practitioner therefore needs both construction and criticism: make the relev
 
 #### C.29:4.1 - Construct and test the correspondence
 
-1. **State the working question.** Name the quantity, relation, distinction or possibility that would change the next action. Recover the intended use and the precision or range it needs.
+1. **State the working question.** Say what the recipient will decide and which result could change that decision. Specify the quantity or condition, the relevant cases and the time at which it must hold. Output by a deadline and sustained output per hour can rank the same change differently. Recover the precision the decision needs.
 2. **Choose a concrete mathematical object.** Specify its elements, variables, relations, operations and constraints. Use the least costly adequate local theory or construction. A family name is a discovery cue; if no object is yet available, keep a candidate and name the next observation or construction.
 3. **Establish the correspondence.** Say what each relevant element or operation represents and in what direction the inference is used. Distinguish an analogy, a fitted representation, a simulation and an exact structure-preserving map. State the assumptions, scale and context that the correspondence requires.
 4. **Determine what the correspondence preserves, omits or introduces.** Identify the structure on which the intended result relies and any omitted distinction that could change it. Establish the preservation claimed for the needed operations. If the receiving domain adds objects or operations, determine which of their results answer the source question. C.29.1 constructs these comparisons, including cases with no loss of source distinctions and cases where a receiving solution has no source counterpart.
 5. **Do the mathematical work.** Calculate, derive, construct or demonstrate the obstruction. For a missing computational formulation or procedure, use C.29.2; for an unsettled connection to an executing system, use C.29.3. Return the result through the correspondence to the working question. A statement that a queue “exposes bottlenecks” is not yet the bottleneck calculation.
-6. **Choose the resulting action and its limit.** Use the result within its assumptions, collect a discriminating observation, compare a relevant rival, narrow the question or reject the representation. Test the material loss and changed premises. When another person or later use needs the account, retain the smallest sufficient record under :4.4.
+6. **Return the conclusion to the decision.** State what the calculation establishes under its premises. For a claim about an actual system, identify what supports the correspondence and those premises for this use. If several system states fit the available information, compare the decision across them. If the same decision holds throughout, an exact value may be unnecessary. If the decisions differ, identify what could distinguish the states or which action remains suitable across them. Retain the smallest sufficient account under :4.4 when another reader needs it.
 
 ##### C.29:4.1.1 - Transfer the result through the operations
 
@@ -72543,7 +72543,7 @@ d_A(−1) = d_B(−1) = 0
 
 The recurrence gives `d_A(n) = 10n + 10` and `d_B(n) = 15n + 25`: after its first arrival B remains occupied. The output spacing is 15 minutes, hence the long-run rate is 4 jobs/hour. The station-capacity bound is `min(6, 4) = 4` jobs/hour, attained in this stipulated run. Latency is `d_B(n) − a_n = 25 + 5n` minutes. It keeps growing; the calculation supplies no finite steady-state mean delay.
 
-Now halve A's service time to 5 minutes while leaving the arrivals and B unchanged. The same recurrence gives `d_A(n) = 10n + 5` and `d_B(n) = 15n + 20`. The rate is still 4 jobs/hour; each job's latency falls by 5 minutes but still grows with n. The useful distinction is between a shorter initial traversal and a higher sustained output rate. The next inquiry is therefore to observe B's service, interruptions and queue growth, and test whether its assumed restriction describes this line. An observed-output dashboard is the ordinary fallback and a complementary check; output counts alone do not derive the two station-change scenarios.
+Now halve A's service time to 5 minutes while leaving the arrivals and B unchanged. The same recurrence gives `d_A(n) = 10n + 5` and `d_B(n) = 15n + 20`. The rate is still 4 jobs/hour; each job's latency falls by 5 minutes but still grows with n. The useful distinction is between a shorter initial traversal and a higher sustained output rate. For a requirement of two finished jobs by minute 35 after an empty start, count the departures up to and including that minute. The original line has one, at minute 25. With faster A it has two, at minutes 20 and 35. For sustained output, investigate B’s service, interruptions and queue growth. For the deadline, also establish that the actual line starts and operates as modeled. An observed-output dashboard is the ordinary fallback and a complementary check; output counts alone do not derive the two station-change scenarios.
 
 **Use and return.** This is a MiniCard-level conditional derivation and comparison, reusable with the same premises. It directs observation, not a capacity commitment about an unvalidated line. Actual prediction, equipment selection or operational reliance uses :4.4's full applicable account and :4.5a's validation. Keeping A's original 10-minute service, if an omitted inspection adds 5 minutes to every B service, B's service becomes 20 minutes: `d_B(n) = 20n + 30`, the rate is 3 jobs/hour and latency is `30 + 10n`. Withdraw the 4-job/hour and `25 + 5n` results. If finite storage instead blocks A, reconstruct the blocked-service recurrence before reusing the schedule.
 
@@ -72771,12 +72771,7 @@ MathLensUse.ValidationUseOverlay@Context :=
 
 Use the validation overlay for the FullCard reliance in :4.4: prediction about the phenomenon, an operational or consequential decision, adoption of a model, benchmark/assurance input, Bridge-dependent model reliance, or transfer as a reusable phenomenon model. This includes a scientific claim of model adequacy. A published explanation of a conditional derivation needs its derivation and assumptions; it does not require a claim of empirical adequacy. `LensUseBoundaryValue` alone is insufficient for the stronger reliance.
 
-Keep the neighboring notions separate:
-
-- verification is proof or formal checking under stated assumptions;
-- validation is fit for a declared use and regime;
-- calibration aligns model parameters or readouts with observations;
-- explanation states why the lens makes a distinction intelligible.
+Use the evidence appropriate to the claim. Verification checks whether the equations, algorithm or implementation deliver the specified mathematical behavior. A proof can cover an input class. A comparison with a known solution can expose an implementation error or establish an error estimate for the conditions tested. Validation examines whether the model represents the phenomenon well enough for the proposed use. Calibration estimates parameters or aligns a readout using observations. Agreement on the observations used for calibration can establish that fit. For a prediction under changed conditions, examine evidence for predictive accuracy there. An explanation shows how the representation makes a distinction intelligible. [NASA-STD-7009B, §§4.2.3–4.2.6](https://standards.nasa.gov/sites/default/files/standards/NASA/B/1/NASA-STD-7009B-Final-3-5-2024.pdf).
 
 Recover known failures and counterexamples relevant to the proposed use, and perform the failure or robustness examination that use requires. Where no counterexample is known, do not manufacture one or treat its absence as validation.
 
@@ -73379,13 +73374,9 @@ A map that combines source cases can erase differences; equality of their images
 
 When the exact queried value is not determined, construct the values compatible with the retained information. For a represented value y, these arise from source cases satisfying F(x) = y and the stated premises. Prove a lower bound L(y), an upper bound U(y), or another relation that holds for all those cases. The resulting interval can answer a threshold question even when it cannot identify one value.
 
-For a decision q ≤ b:
+For the threshold q ≤ b, an upper bound U(y) ≤ b establishes the threshold for every compatible case. A lower bound L(y) > b excludes it for every compatible case. When L(y) ≤ b < U(y), the enclosure alone leaves the answer open for one unspecified case. Its bounds can include unattainable values. To establish that the retained information cannot decide the threshold for that case, exhibit a compatible case meeting the limit and another exceeding it, or prove both outcomes are possible. C.16.IR applies this test to quantities inferred from readings. A single permitted case above b already refutes a guarantee that every case meets it.
 
-- an upper bound U(y) ≤ b establishes the decision for every compatible case;
-- a lower bound L(y) > b rules it out for every compatible case;
-- a bound spanning b leaves the decision unresolved.
-
-These are consequences of the bound, so retain its domain, units and relevant time or parameter range. A bound for a sampled instant does not by itself answer what happened between samples.
+Preserve the domain, units and relevant time of the comparison. A bound for one sampled instant can settle the decision for that instant. To guarantee a condition throughout a period, also establish what can happen between samples.
 
 A relaxation offers another useful transfer. Let S be the allowed source solutions, let T be receiving solutions, and suppose every solution in S has an image in T with the same cost. If the receiving account permits additional solutions, minimizing there can give a lower bound on the source minimum. When the minima exist:
 
@@ -73393,7 +73384,7 @@ A relaxation offers another useful transfer. Let S be the allowed source solutio
 min over T of receiving cost ≤ min over S of source cost.
 ~~~
 
-The reason is that the receiving search includes a cost-preserving image of every source option. Maximization gives an upper bound under the analogous assumptions. An optimal receiving solution that has no source counterpart still supports the bound; it does not supply a feasible source plan. A returned plan requires an allowed source witness.
+The reason is that the receiving search includes a cost-preserving image of every source option. Maximization gives an upper bound under the analogous assumptions. An optimal receiving solution that has no source counterpart still supports the bound; it does not supply a feasible source plan. A returned plan requires an allowed source witness. A budget decision may need less than an optimum. For minimization, any feasible source plan at or below budget establishes feasibility. A proven lower bound strictly above budget excludes every plan. If a lower bound equals the budget, establish that the source permits a plan at that cost before promising delivery. Even an infimum can be approached by feasible costs without being attained.
 
 Where the comparison is approximate, derive the error relation for the needed operation and propagate it through later steps. For example, if a later scalar operation h satisfies |h(a) − h(b)| ≤ K|a − b|, with K ≥ 0, on the relevant interval, an input error at most ε contributes at most Kε at its output. Any additional error introduced by computing h is added to that contribution. Adding the errors of successive steps without accounting for amplification can understate the final error.
 
@@ -73410,7 +73401,7 @@ If the comparison fails, use the failure to choose the next construction.
 | Two representatives give different values | Change the representation or ask for a class property, such as a minimum or interval, and establish that new property's use. |
 | Agreement holds only on part of the domain | State and use that restriction if it includes the intended cases; otherwise seek another correspondence. |
 | A missing source premise prevents the comparison | Recover or establish that premise before repairing the receiving calculation. |
-| A sound bound is too broad for the decision | Find which retained uncertainty spans the threshold and obtain a discriminating premise or observation. |
+| A sound bound is too broad for the decision | Try a direct comparison or a tighter bound from the available premises. If compatible cases give different decisions, identify the observation or source condition that could separate them. |
 
 After a repair, repeat the affected comparison and the later steps that depend on it. Keep conclusions whose premises and correspondences remain applicable.
 
@@ -73470,7 +73461,7 @@ The arithmetic min(1,4)+2 = 3 still holds. Its use as the attainable minimum fai
 
 Repair the state at B by retaining whether the continuation permission remains. Let p arrive at (B,0) and q at (B,1). Only (B,1) has the r transition to C. Minimizing over the allowed complete routes in this expanded account yields 4 + 2 = 6. Returning q followed by r supplies an allowed source witness.
 
-There is also a useful result from the coarser account. If it deliberately ignores the permission restriction, its feasible route set contains all routes allowed by the source account. Costs of retained routes remain unchanged. Its minimum 3 is therefore a lower bound on the source minimum, here 6. The bound rules out a source route costing at most 2. It cannot establish that a source route costing at most 4 exists; that would need an allowed witness.
+There is also a useful result from the coarser account. With the permission restriction removed, every allowed source route remains available at the same cost. The relaxed minimum of 3 rules out a source route within a budget of 2. For a budget of 4, the lower bound alone is inconclusive. The permission rule and the stated complete list of routes show that the only permitted complete route costs 6. If the budget is 6, returning q followed by r gives the planner a route it can use.
 
 **Returned result.** Endpoint reachability, the cost of a selected route and the minimum over compatible routes are different questions. Retain history only insofar as it changes future compatibility or cost. When a coarser account is cheaper to use, its lower bound may still answer the receiving question without constructing the optimal source route.
 
@@ -73526,7 +73517,7 @@ For α = 1/4, the contrast halves each interval. Starting from (20,80) gives thi
 50 °C ≤ Mₖ ≤ 50 °C + 2⁻ᵏ × 30 K.
 ~~~
 
-Temperature differences are added to a temperature on the same scale. At k = 1 the upper bound is 65 °C, leaving the 60 °C question unresolved. At k = 2 it is 57.5 °C, so every compatible initial pair has warmer temperature at most 60 °C at that sampling instant. No choice of a representative pair is needed.
+Temperature differences are added to a temperature on the same scale. At k = 1, an initial pair of (20,80) gives a maximum of 65 °C and refutes a 60 °C guarantee covering all compatible pairs. An initial pair of (50,50) stays at 50 °C, so for one unknown pair the retained information leaves the answer open. At k = 2 the upper bound is 57.5 °C. Every compatible pair now meets the 60 °C limit at that sampling instant.
 
 If an exact maximum is wanted, retaining (m,|d|) is sufficient under this symmetric update. The sign of d is needed only for questions distinguishing which body is warmer. Retain the distinction needed by the question, rather than restoring both coordinates automatically.
 
@@ -73557,7 +73548,7 @@ The extension supports a useful approximation and an existence argument in the l
 
 **Bias toward familiar structure.** A recognized matrix, graph or algebra can make a proposed correspondence feel established. Recover the represented participants and operation conditions before applying its theorem. The route graph needs permission state when permission changes continuation.
 
-**Bias toward exact answers.** Insisting on reconstruction of every source detail can hide a cheaper sufficient answer. Derive a bound over all compatible cases and compare it with the decision threshold. Conversely, report unresolved cases when that bound spans the threshold.
+**Bias toward exact answers.** Insisting on reconstruction of every source detail can hide a cheaper sufficient answer. Derive a bound over the compatible cases and compare it with the decision threshold. If the bound crosses the threshold, a tighter argument may still settle it. Establish which threshold outcomes the compatible cases can actually attain before claiming that both are possible.
 
 **Bias from machine-generated fluency.** An AI can produce a plausible mapping and a correct algebraic simplification while omitting the premise that connects them. Ask a contributor for the domain, operation comparison and returned conclusion. Use subject expertise to assess an unfamiliar proof; a persuasive explanation does not settle its premises.
 
@@ -73769,7 +73760,7 @@ A well-defined mathematical object need not have the finite representation or un
 
 For a finite search domain with an effective test, explicit enumeration can provide a terminating baseline. It may be too expensive, but it separates an obtainable procedure from an open construction. For an unbounded search, failure to find an answer in the allotted time leaves a different result; it does not establish nonexistence.
 
-For numerical work, connect the stopping test to error in the requested output. Locate relevant errors in input representation, algorithmic approximation, arithmetic and output conversion. Allocate tolerance among them only under a justified rule for combining their effects. Physical-model and measurement uncertainty remain separate inputs from the relevant modeling and C.16 methods; numerical convergence does not settle them.
+For numerical work, connect the stopping test to the result the recipient will use. An error bound sufficient for reporting a value may still allow both answers to a threshold question. Compare the full error interval with that threshold. If it crosses the threshold, try a direct comparison, a tighter enclosure or a reformulation of the test. Locate the errors from input representation, approximation, arithmetic and output conversion and justify how they combine. To use the result for a physical decision, also account for consequential model and measurement uncertainty.
 
 If finite precision can reverse a decisive comparison, increase precision, use a justified enclosure, reformulate the test or return that comparison as unresolved. If an iteration no longer changes its stored state, a limit of the ideal iteration does not show that the implementation will reach the requested tolerance. Return to the representation or stopping rule. Narrow the claim only when the narrower answer remains useful and the change is explicit.
 
@@ -73866,6 +73857,8 @@ return (l + u)/2
 
 After nine halvings, return `1449/1024 = 1.4150390625`. Its error is at most `1/1024 = 0.0009765625`, which satisfies the requirement. The interval argument establishes the bound without requiring a previously calculated decimal expansion of the root.
 
+Now suppose the receiver asks whether the root is at most 1.415. The accepted midpoint is slightly above 1.415, and the ninth bracket contains values on both sides. In this case a single exact comparison settles the new question. On the positive half-line squaring preserves order, and `1.415² = 2.002225 > 2`, so the root is below 1.415. The midpoint remains a valid answer to the original approximation request.
+
 **Resource and accuracy consequences.** There are nine midpoint-square comparisons in this case. For finer tolerances, the dyadic numerators and denominators grow; a count of comparisons alone does not include the growing cost of exact squaring. A finite precision version must preserve the bracket decisions and avoid a midpoint that rounds to an endpoint while the tolerance remains unmet. Output rounding also consumes accuracy. These are returns to arithmetic and representation choices, not evidence that the exact rational construction failed.
 
 For a costly general continuous function, an established bracketed method using interpolation may save function evaluations. Bisection remains useful when a simple interval argument and predictable reduction are worth the extra evaluations. For a function not known to be continuous, a sign change alone does not justify this root argument. A demand for an exact finite decimal expansion of this irrational root changes the answer format to an impossible one; an exact symbolic expression or a rational approximation is a different, obtainable request.
@@ -73944,6 +73937,8 @@ P(|p_hat-p| ≥ epsilon) ≤ 1/(4*n*epsilon²).
 ~~~
 
 Taking n = 2,000 makes the bound 0.05 at epsilon = 0.05. The guarantee concerns repeated executions under the sampling model; it is not a posterior probability assigned to p after seeing one estimate. For instance, s=1,100 returns 0.55, while the guarantee still belongs to the stated procedure.
+
+Suppose the recipient will act on one fixed sample of 2,000 observations when its mean is at least 0.55. If the true probability is at most 0.50, that action requires an estimation error of at least 0.05. The derived bound therefore limits the chance of taking that action under any such p to 0.05. Repeatedly inspecting interim means and acting at the first crossing changes the rule and requires its own error argument.
 
 This construction consumes 2,000 observations and counter updates. Each counter needs 11 bits to represent values through 2,000; the output can be retained as the rational s/2,000. Include the cost of obtaining an observation when that cost matters. This conservative bound already supplies a finite construction; a sharper concentration argument can reduce the required observations when that saving is worth obtaining.
 
@@ -74166,7 +74161,7 @@ For example, a required binary sampler gives output 1 with probability 0.5. Supp
 
 When the requested result contains several random components, compare their joint behavior. Suppose the target is a pair of independent fair bits. Preparing one fair bit B and returning (B,B) gives the right distribution at each output separately. But the target assigns probability 1/2 to unequal outputs; this system assigns probability 0. Using two independent draws gives each of the four pairs probability 1/4 and restores the requested result. The realization must provide that joint sampling behavior. When its observations are dependent, use the joint law or change how the second component is obtained.
 
-Choose changed cases from consequential features of the arrangement: an endpoint of the command range, a different initial state, an overlapping action or a possible indication error. These cases help locate failures. A sampled success supports the tested case; the broader argument supplies the broader conclusion.
+Choose changed cases from consequential features of the arrangement, such as an endpoint of the command range, a different initial state, overlapping actions or indication error. A permitted input with a confirmed output outside tolerance refutes a claim that every execution meets it. Establish the input, output reading and operating conditions needed for that comparison. A pair of different draws can be entirely consistent with a probabilistic guarantee. Use the sampled outcomes and their probability law for the distributional question.
 
 Separate three possible outcomes:
 
@@ -74282,7 +74277,9 @@ Issuing a card changes Free to Reserved. Entry changes Reserved to Inside. Exit 
 
 Every operation moves one existing card between states. Entry requires its exclusive reservation. Return requires that its visitor is outside. These conditions preserve both the stock and the association between visitors inside and Inside cards. They establish the capacity bound throughout permitted histories, including overlapping admissions.
 
-After two cards have been issued, one visitor may be inside and the other waiting outside. Then F = 1, R = 1, I = 1 and E = 0. The count of unavailable cards is 2, while occupancy is 1. Reading occupancy as 3 − F would be wrong. That count is an upper bound until R = E = 0.
+After two cards have been issued, one visitor may be inside and the other waiting outside. Then F = 1, R = 1, I = 1 and E = 0. The count of unavailable cards is 2, while occupancy is 1. Reading occupancy as 3 − F would be wrong. That count is an upper bound and equals occupancy when R = E = 0.
+
+At the shared issuing point, a free card can be exclusively reserved for the next admission under this procedure. If all three cards are issued and none is free, another reservation must wait. The room itself could be empty with all three cardholders still outside, or full with all three inside. The free-stock count settles whether another card can be issued now. With all three cards free, the room is known to be empty. When several occupancies fit the available count and the exact number matters, count the visitors inside or reconcile entries and exits to the same instant.
 
 A second entrance can share the same stock or receive a partition of it, such as two cards at one entrance and one at the other. Both preserve the total of three. Giving the second entrance three copied cards instead permits six simultaneous admissions, despite each attendant following their local procedure.
 
@@ -74492,7 +74489,7 @@ Changing the parts over time can also change membership. Include that effect thr
 
 Substitute the available amounts and compute the requested consequence. If some terms are bounded, propagate the bounds through the signed sum. Preserve dependencies when independently combining endpoints would admit impossible combinations.
 
-For observed values, define the discrepancy as observed change minus the change predicted by the included terms. A nonzero discrepancy establishes disagreement between those accounts. Its cause can lie in an omitted store or transfer, incompatible timing or units, a faulty observation, or an inadequate law. Use the working situation to choose a discriminating next observation or model change.
+For observations, subtract the change predicted by the recorded transfers and internal terms from the observed change in storage. Propagate their uncertainties and shared constraints into a range for this discrepancy. If the range excludes zero, the records and balance cannot agree under those assumptions. If it contains zero, establish whether jointly admissible values actually give zero before claiming agreement is possible. Equal unrecorded inflow and outflow can cancel even when the discrepancy is exactly zero. To locate a fault, examine a term or an independent observation that could distinguish its possible causes.
 
 Resolve a remaining term only when it can change the answer enough to justify the work. A bound that settles the decision is a usable result. An unresolved cause can remain open when the decision tolerates the resulting uncertainty.
 
@@ -74526,7 +74523,9 @@ Now change the condition: the line begins empty, receives 15 L from A, delivers 
 
 The two tanks contain 43 L. Their boundary excludes the line, so 15 L leaves that boundary and 13 L re-enters. The combined tank change is 12 - 7 - 15 + 13 = 3 L. Including the line gives 45 L and recovers the five-litre increase from the external exchanges alone.
 
-If the line's increase is known only to lie between 0 and 2 L, the final tank total lies between 43 and 45 L. This bound settles a request for at least 42 L in the tanks. A request for at least 44 L needs a tighter bound or the line's content. No additional observation is required for the first request.
+If the line's increase is known only to lie between 0 and 2 L, the final tank total lies between 43 and 45 L. This bound settles a request for at least 42 L in the tanks. The admissible 2 L retained in the line leaves only 43 L in the tanks, which refutes a guarantee of 44 L for every filling allowed here. An empty line would leave 45 L. To decide whether one unknown filling delivered at least 44 L, determine whether the line retained at most 1 L. The 42 L guarantee already holds throughout.
+
+Reverse the question. Suppose the tank measurements show 43 L at the end and the net recorded external inflow was 5 L. Starting from 40 L leaves 2 L to account for outside the tanks. If the line began empty and could have retained 0 to 2 L, unrecorded net outflow from tanks and line together could be anywhere from 0 to 2 L, assuming exact amounts and no production or removal inside. These data rule out unrecorded net outflow above 2 L. They still permit all 2 L to be in the line. To diagnose leakage, distinguish storage and other unrecorded exchanges.
 
 #### C.29.BB:5.2 - Moving and reworking a job preserve one count but change its distribution
 

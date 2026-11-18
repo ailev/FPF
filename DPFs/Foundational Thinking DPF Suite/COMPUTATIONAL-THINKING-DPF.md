@@ -2091,7 +2091,9 @@ For this uniform target, accept an end-to-middle move with probability 1/2 and a
 
 Its rows and columns each sum to one, so the uniform law is stationary. The finite chain is connected and has self-transitions, hence converges from any start. Its other eigenvalues are 1/2 and -1/2; for this small matrix, powers give an explicit decreasing transient. For instance, starting at 0 gives `(1/2,1/2,0)` after one step and `(1/2,1/4,1/4)` after two, which is not uniform.
 
-If the three target weights change to `(1,2,1)`, the original uncorrected neighbor walk has that stationary law. Reusing the former uniform-target acceptance probabilities would now be wrong. In either case, adjacent states are dependent observations; an independent-draw variance formula cannot be justified by the stationary law alone.
+Now change the target weights to `(1,2,1)`. Their normalized law is `(1/4,1/2,1/4)`, which the uncorrected neighbor walk preserves. Starting at 0, however, that walk is at the middle state after every odd step and at an endpoint after every even step. No fixed number of steps from 0 gives the requested single draw. A walk initialized with the target law preserves it at every step.
+
+For this three-state problem there is also an exact readout from the stated start. Independently choose step one or step two with equal probability. Step one gives the middle state. At step two the walk chooses either end with equal probability. The readout therefore gives the three states with probabilities `(1/4,1/2,1/4)`. Reusing observations from one trajectory for an estimate still requires accounting for their dependence.
 
 ### CMP.9:6 - Bias-Annotation
 
