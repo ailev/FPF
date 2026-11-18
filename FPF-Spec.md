@@ -54492,7 +54492,7 @@ When the wording exposes a field defined elsewhere, name the `contributingPatter
 Run this check only while one C.2.P distinction remains unresolved.
 
 1. **Name the sentence function.** State what the sentence would let a reader claim or do.
-2. **Recover one blocking distinction.** Separate source expression, episteme, publication, bounded publication unit, carrier relation, source-to-use relation, or project-side use. Use A.6.P as a separate step only when the remaining problem is relation precision.
+2. **Recover the blocking distinction.** Read the expression using its governing conventions. In a filled table, use the headings, units and applicable key to recover what one row asserts. A missing convention matters if two readings would classify the item differently or change the action. Obtain that convention or the deciding fact, or retain both readings. A.6.P can resolve a remaining question about the relation. Stop here if the recovered assertion answers the reader’s question. Use C.2.P.DR when someone infers a further classification, operation or result from how the expression looks.
 3. **Select the next result.** Rewrite directly, write the compact row, perform the full check under its material conditions, or return a non-use result. If another pattern now supplies the needed definition, constraint, or test, name that contribution and stop C.2.P.
 
 Fail closed when the kind, relation, use, or remaining reader action cannot be recovered. A type-correct sentence that no longer shows the working situation or useful action is an incomplete rewrite.
@@ -54603,7 +54603,7 @@ The same local-aid rule applies to neighboring field names such as `sourceRelati
 | C.2.1 episteme constitution and neighboring relations | An exact episteme is identified through claim content, one exact EntityOfConcern, and one effective ReferenceScheme under `EpistemeConstitutionRelation`. Empirical grounding is a separate `EpistemeEmpiricalGroundingRelation`; describing-use viewpoint selection, E.17.0 conformance and same-individual `U.View` membership, representation and its explicit correspondence under the applicable pattern, with C.29 governing mathematical-lens use, and publication or carrier relations are also separate. SlotKinds occur only inside the exact reusable `RelationSignature` that declares their participant meanings. | One universal episteme-slot tuple, card, field family, or context container. |
 | `EntityOfConcern`, `EntityOfConcernRef` | The EntityOfConcern participant under `C.2.1` and its applicable reference for a claim-bearing episteme or episteme-lane `U.View`. The participant may be an entity, relation, FPF pattern, FPF publication, project episteme, project publication, a project-side entity identified by its FPF kind and reference, work or action when that work or action is itself the entity of concern, or another explicitly typed EntityOfConcern referent. Use this when the text is about what the episteme is about. In publication-unit work, `EntityOfConcernRef` is used only through a claim-bearing episteme or episteme-lane `U.View`; it does not float as a free field on the unit. | Generic topic, local table subject, file title, reviewed publication, review packet, or review record, required project-side work, decision, action invitation, authoring work, or anything someone happens to talk about by default; the episteme's constitution must identify the exact entity as its EntityOfConcern before this reference is used. |
 | wording such as `describedEntity`, `DescribedEntityRef`, `primary described entity` | Use the exact EntityOfConcern participant and its applicable reference under C.2.1 when a claim-bearing episteme is current. Use `publicationUnitPrimaryEntityOfConcern` when one bounded `PublicationUnit` carries or exposes a claim-bearing episteme or same-individual `U.View` and the primary entity of concern must be named. | A second C.2.1 slot family, a free publication-unit field, a generic topic, a second current name, or a new ontology beside `EntityOfConcern`. |
-| `publicationUnitPrimaryEntityOfConcern` | The primary entity of concern, non-claim-bearing kind named by value, topic, or subject that one bounded `PublicationUnit` is mainly about for the current use. When a claim-bearing episteme or episteme-lane `U.View` is current, this must be recoverable from the selected `EntityOfConcernRef`; otherwise name the non-claim-bearing kind named by value or keep topic and subject as plain explanatory prose. | `EntityOfConcernRef` created without a claim-bearing episteme or episteme-lane view, publication-unit title by default, authoring process, carrier identity, or reader interest. |
+| `publicationUnitPrimaryEntityOfConcern` | The primary entity of concern, non-claim-bearing kind named by value, topic, or subject that one bounded `PublicationUnit` is mainly about for the current use. When the unit carries the claims of one identified episteme or episteme-lane `U.View` and the unit’s primary subject is that episteme’s EntityOfConcern, use the episteme’s `EntityOfConcernRef`. Otherwise identify the kind, topic or subject that the unit actually addresses. Citing an episteme does not by itself give the unit that episteme’s subject. | `EntityOfConcernRef` created without a claim-bearing episteme or episteme-lane view, publication-unit title by default, authoring process, carrier identity, or reader interest. |
 | `GroundingHolon`, empirical-grounding relation | The exact grounding holon and obtaining C.2.1 `EpistemeEmpiricalGroundingRelation` that maps named empirical claims of one exact episteme to the required direct observation, intervention, measurement, or test relations. | A constituent of episteme identity, a convenient source citation, an untyped entity mention, or the declaration-local `GroundingHolonSlot` used as the world-side value. |
 | `U.View` | Same-individual dependent membership of one already identified episteme when an exact E.17.0 `EpistemeViewpointConformanceRelation` to at least one exact viewpoint episteme obtains. A.6.3 source-to-receiving construction, describing-use viewpoint selection, publication, form, and carrier remain separate. For an episteme published through an MVPK face, this membership requires the same E.17.0 conformance; the publication form remains separate under E.17. | A UI view, reader viewpoint, screen, generic publication face, projection by default, or new claim-bearing episteme by membership alone. |
 | `Viewpoint` | One exact `U.Viewpoint` episteme used as the viewpoint participant of an E.17.0 conformance relation or selected for one named describing use. Selection does not prove conformance or `U.View` membership. If source wording says “system in role,” use E.10.ROLE and recover the exact concern, object, local system-role kind, classification judgment, participant relation, or assigned System by value. | A reader opinion, episteme-identity slot, pattern-application order, publication label, carrier label, or assignment manufactured by the viewpoint phrase. |
@@ -54614,7 +54614,7 @@ The same local-aid rule applies to neighboring field names such as `sourceRelati
 | generic publication face | Reader-facing publication projection or face. Keep it distinct from the selected episteme; `U.View` membership of that episteme requires exact `E.17.0` conformance. | `U.View` by default, carrier, UI face, front-end display, MVPK face under E.17 constraints, or claim-bearing episteme. |
 | MVPK face under E.17 constraints | The reusable publication-form rules selected under E.17, with publication viewpoint, scope, pins and face kind when required. A constructed face expression follows those rules and expresses the selected source or receiving episteme; that episteme is a `U.View` only when exact E.17.0 conformance obtains. | Generic publication face, carrier, UI face, front-end display, filled expression by form identity alone, or proof of evidence, work, gate, or authority by presentation. |
 | carrier, front-end, rendering | Recover the exact bearer or display relation. For publication under E.17 and E.24.PUB, identify the physical or digital carrier under its own domain identity rule and establish that its actual state or realization yields the selected expression. Otherwise name the file, transport, rendering, front-end, access or other carrier relation by sentence function. | Episteme identity, particular expression, reusable publication form, `U.View`, proof of evidence, or authority-reference relation. |
-| `PublicationUnit` | `E.17.AUD`-cluster head for one bounded unit inside a publication that a person inspects as one unit: a pattern body, section, table, note, card, sheet, screen block, or another bounded publication unit whose boundary is named. A card, sheet, or screen block counts only when its boundary is inside a named publication or generic publication face and the sentence needs that bounded unit as the inspected publication unit. It is part of or bounded by the publication face that renders or locates it, whether that face is generic or published under E.17 and MVPK constraints. It may carry or expose a claim-bearing episteme, view, record, cue, or local rendered content when that carried value and relation are named, but it is not identical with the carried value. | Authoring process, review work, file, carrier, front-end, UI behavior, dashboard behavior or export behavior, whole publication architecture, `U.Episteme`, `U.View`, publication form, generic publication face, MVPK face under E.17 constraints, or "anything written". |
+| `PublicationUnit` | `E.17.AUD`-cluster head for one bounded unit inside a publication that a reader inspects as one unit: a pattern body, section, table, note, card, sheet, screen block, or another bounded publication unit whose boundary is named. A card, sheet, or screen block counts only when its boundary is inside a named publication or generic publication face and the sentence needs that bounded unit as the inspected publication unit. It is part of or bounded by the publication face that renders or locates it, whether that face is generic or published under E.17 and MVPK constraints. It may carry or expose a claim-bearing episteme, view, record, cue, or local rendered content when that carried value and relation are named, but it is not identical with the carried value. | Authoring process, review work, file, carrier, front-end, UI behavior, dashboard behavior or export behavior, whole publication architecture, `U.Episteme`, `U.View`, publication form, generic publication face, MVPK face under E.17 constraints, or "anything written". |
 | project-side FPF kind and reference named by value | The independently identified project object or relation, named by its FPF kind and an applicable reference: for example, a `U.Work`, `U.WorkPlan`, `GateDecisionResult`, A.10 evidence path, source `U.Episteme`, or the typed record actually referenced. Use an `EpistemePublicationRelation` occurrence reference only when availability matters. | An untyped label, carrier, or note used in place of the exact object and its reference. |
 | source document | A document named for source-use, evidence use, architecture use, or review use. Name that document use directly. | A governing source by folder proximity, the EntityOfConcern carried or exposed by that source document, or the authority-reference relation unless that relation is explicit. |
 | reviewed publication, review packet, or review record | The reviewed publication named by value, review packet, review record, or bounded publication unit sent or inspected in review. | The EntityOfConcern carried or exposed by that reviewed publication, review packet, or review record, the source relation behind it, or a packet-local summary. |
@@ -54628,7 +54628,7 @@ This pattern is applicable only when one C.2.P-specific source-expression, epist
 When this pattern is applicable, do not restart from word taste. Keep any `E.10` cue or routing result as input and recover source-expression clarification, FPF-governed use, current episteme-publication relation set, use disposition, and remaining reader use.
 
 #### C.2.P:4.3 - Current Preferred Vocabulary
-Use `PublicationUnit` when the intended entity is a bounded, human-inspected unit inside a publication.
+Use `PublicationUnit` when the reader inspects a bounded unit inside a publication. A person or an AI agent can perform that inspection.
 Do not use it for UI behavior, carrier behavior, front-end behavior, file identity, dashboard behavior, or export behavior; use `A.7`, specific carrier or front-end wording, or the applicable named FPF pattern instead.
 
 Use the current cluster names directly: `PublicationUnit Stability Discipline`, `Local Head Restoration`, and `PublicationUnit Primary-Subject Discipline`.
@@ -54640,7 +54640,7 @@ For `describedEntity`, `DescribedEntityRef`, `primary described entity`, `Entity
 
 Use `EntityOfConcernSlot` only while inspecting the exact reusable C.2.1 constitution `RelationSignature`; it is not an episteme field. If no claim-bearing episteme or same-individual `U.View` is current, use a non-claim-bearing kind named by value or plain `topic` or `subject` instead of inventing an `EntityOfConcernRef`.
 
-When the use is `E.17.AUD.OOTD`'s primary-subject question, recover its local `publicationUnitPrimarySubject`; apply the EntityOfConcern projection only when that pattern's equality condition holds.
+For a publication unit’s primary subject, use `publicationUnitPrimarySubject` under E.17.AUD.OOTD. A section about scheduling maintenance may quote a report about a pump’s pressure. The section concerns the schedule, and the cited report concerns the pump. For this technical identification, establish that the unit carries the claims of the identified report and that the unit’s primary subject is the report’s `EntityOfConcern`. An index can point to the report under the pump’s name without carrying its claims.
 
 Use ordinary `topic`, `subject`, or `local referent` when those words preserve the distinction needed by the receiving use; use the defined technical designation when episteme constitution or another direct subject rule depends on it. Preserve the applicable register requirements of E.10.
 
@@ -54648,7 +54648,7 @@ Do not mint any other reusable FPF name from this pattern alone. The `E.17.AUD` 
 
 ##### C.2.P:4.3.1 - `PublicationUnit` use and non-use boundary
 
-`PublicationUnit` means one named, bounded unit inside a publication that a person inspects as one unit: for example, one pattern body, section, table, note, card, sheet, or screen block inside that publication.
+`PublicationUnit` means one named, bounded unit inside a publication that a reader inspects as one unit: for example, one pattern body, section, table, note, card, sheet, or screen block inside that publication.
 
 Use it when the unit boundary matters to authoring, review, navigation, or a claim about what that bounded unit exposes. Do not use it for the underlying episteme, a view, publication form, whole publication, carrier, file, interface behavior, dashboard behavior, authoring Work, or review process. Name those objects and relations directly.
 
@@ -55000,7 +55000,7 @@ A reused claim may traverse more than one independently governed relation. Befor
 - `G_out = translate(r, G_in)` only when `r` is an applicable A.2.6 scope translation; otherwise `G_out = G_in`.
 - `R_out ≤ R_in` on the named ordered warrant scale for a loss-only transformation, with any numerical penalty justified by that relation's receiving model.
 
-A scope translation may narrow or re-express `G`; it never widens the claim silently. A change in formality is a new episteme or explicit ΔF move, not a transport penalty. A semantic Bridge changes neither kind nor scope by itself. A kind or plane relation supplies no semantic correspondence unless that separate relation also obtains. Evidence reuse changes warrant only through its own evidence-use or reliance claim.
+A scope translation may narrow or re-express `G`; it never widens the claim silently. Assess changes in expression under C.2.3. C.2.1 determines whether a changed expression still expresses the same episteme. A correction to a previous F assessment can leave both the expression and the episteme unchanged. A semantic Bridge changes neither kind nor scope by itself. A kind or plane relation supplies no semantic correspondence unless that separate relation also obtains. Evidence reuse changes warrant only through its own evidence-use or reliance claim.
 
 There is no implicit crossing. If a reuse depends on a changed value and its required relation or operation is absent, unresolved, or outside its applicability, the reuse is non-conformant. Each path records the relations it traverses and routes their declared losses to `R`, while every other coordinate changes only under its own rule.
 
@@ -55008,12 +55008,12 @@ There is no implicit crossing. If a reuse depends on a changed value and its req
 
 A materials-lab claim says:
 
-> `c_lab:` "Adhesive X retains ≥85% tensile strength on Al6061 for 2 h at 120–150 °C."
+> `c_lab:` "Adhesive X on Al6061 retains at least 85% of its initial tensile strength throughout exposure at 120–150 °C for up to two hours."
 
-Its declared scope is `G_lab := {substrate=Al6061, temp∈[120,150]°C, dwell≤2h, evidenceWindow=1y, rig=Calib-v3}`. A plant engineer proposes a narrower claim for Plant B. Two different moves are required.
+The claim covers Al6061, actual adhesive temperatures from 120 to 150 °C and exposures of up to two hours. Call this scope `G_lab`. The supporting tests used rig `Calib-v3`. The lab accepts results from this rig for one year after testing. A plant engineer can restrict the operating conditions covered by the claim and then judge whether the lab tests support the restricted claim at Plant B.
 
-1. **State the plant claim and its scope.** Here `temp` in `G_lab` is actual adhesive temperature. For this illustration, assume the plant calibration rule supplies a worst-case error bound `|T_actual − T_reported| ≤ 2 °C` throughout the declared use (C.16). Under A.2.6 the engineer retains `G_lab` and adds the condition `T_reported∈[122,148]°C`: under that bound, actual temperature is within `[120,150]°C`. This changes `G`; it is not an F.9 semantic Bridge and is not inferred from the words "lab" and "plant".
-2. **Judge reuse of the lab evidence.** Establish the grounds for relying on the lab evidence for the plant claim, identifying the evidence, claim, calibration edition, validity window and intended use. A declared fit `CL=2` records the relation's fit, not a probability decrement. State the actual reuse limitation. Calculate a numerical `R_eff` only if a receiving model establishes the R quantity and this loss; otherwise keep the separate support and qualified plant conclusion. This judgement does not perform the scope edit.
+1. **State the plant claim and its scope.** At Plant B, assume calibration establishes `|T_actual − T_reported| ≤ 2 °C` throughout the intended operation (C.16). Restrict the claim to Plant B operating on Al6061 for up to two hours with readings in `[122,148]°C`. Every such exposure satisfies the original temperature condition under the stated bound. A reported 149 °C could correspond to an actual 151 °C, so this plant rule excludes that reading. A.2.6 governs this restriction.
+2. **Judge reuse of the lab evidence.** Identify the tests run on `Calib-v3`, establish whether their results are still current for the intended use, and check whether the material, loading and measurement conditions support the claim for the plant exposures. The temperature bound establishes which exposures the rule covers. It supplies no tensile-strength measurement. A declared fit `CL=2` records the relation's fit, not a probability decrement. State the actual reuse limitation. Calculate a numerical `R_eff` only if a receiving model establishes the R quantity and this loss; otherwise keep the separate support and qualified plant conclusion. This judgement does not perform the scope edit.
 
 If lab and plant use distinct local meanings for a material term, F.9 separately tests a Bridge between their exact F.17 cells. Its semantic loss is not the calibration correction or the evidence-reuse result. A further safety narrowing of that reported-temperature interval to `[125,145]°C` is another explicit A.2.6 ΔG− decision.
 
@@ -55042,7 +55042,7 @@ For a loss-only interpretation on an ordered scale, worsening fit cannot by itse
 
 Use B.3.3 to select the assurance contributions needed by the claim and receiving use. In this KD-CAL account, these labels distinguish contributions when reporting them is useful:
 
-* **TA** (Typing assurance): establish the types and semantic correspondences needed for this transport or composition. For load-bearing meaning or participant differences between descriptions, B.3.3’s Concept-Bridge Assurance supplies the correspondence question.
+* **TA** (Typing assurance): establish the types and semantic correspondences needed for this transport or composition. Use B.3.3’s Concept-Bridge Assurance when the conclusion depends on whether meanings, referents or conditions correspond across descriptions. When the argument also relies on a tool, establish separately whether that tool is qualified for the operation it performed.
 * **VA** (Verification assurance): logical/algorithmic checking, proof, model checking, static guarantees.
 * **LA** (Validation assurance): empirical adequacy under declared conditions, tests, benchmarks, telemetry.
 
@@ -55357,7 +55357,7 @@ A conforming account shall not infer:
 Where operationally meaningful thresholds exist, they must be published on the relevant slots rather than being disguised as informal `F` sublevels.
 
 #### C.2.2a:4.7 - Position versus publication form
-A position claim states facet readings about the identified episteme. Witnesses provide grounds for those readings; a particular expression expresses the claim for the bounded use and may follow a selected reusable publication form, including an MVPK face. An independently identified carrier bears that same expression under E.24.PUB. Changing the expression, form, or carrier does not by itself change a facet reading. Any later publication qualified under an endpoint subject pattern still needs that pattern's conditions.
+Identify the expression or component whose properties supplied each reading, and the expression in which the assessor reports it. Reformatting the assessment table can preserve every reading about the earlier alert. Rewriting the alert can change its articulation even if the assessor uses the same table. Check the affected facet on the changed expression. The table can follow a reusable publication form, including an MVPK face, and its carrier can be identified under E.24.PUB. A subsequent publication has to satisfy the conditions of its receiving pattern.
 
 #### C.2.2a:4.8 - Threshold publication discipline
 If a threshold is used to justify a move or endpoint entry, that threshold shall be stated on explicit basis slots in the chart. Statements such as `this is now ready`, `this has matured`, or `this is still too early` are non-conformant when they substitute for undeclared slot conditions.
@@ -55377,7 +55377,7 @@ Use the position facts for the named receiving question. If the next action uses
 
 **Show (System).** A service disturbance is a system-side phenomenon. The positioned `U.Episteme` publication is the alerting episteme published from that disturbance. In `Pump-alert-21` (:13.2), its position combines declared observation terms and unit-bearing values, `CD1`, and local/sparse/symbolic readings for the defined indicator code. The account separately states the operator acknowledgement and diagnostic-check condition.
 
-**Show (Episteme).** A model-vs-observation discrepancy is a witness-level tension, not the positioned episteme publication itself. Once preserved as a cue pack, the resulting `U.Episteme` may be low in articulation, low in closure, derived from an identified trace, and only partly symbolic even when rendered into prose.
+**Show (Episteme).** The research note in :13.1 names a discrepancy and two possible causes. Its reader can compare the causes but cannot yet attribute the discrepancy to either one. To assess the internal encoding of the readings, the reader would need evidence about the meters. The typography of the note supplies no such evidence.
 
 ### C.2.2a:6 - Bias-Annotation
 The pattern favors separate facet readings over one stage adjective when a decision depends on them. Ordinary descriptions remain sufficient under the non-use boundary in :0.
@@ -55428,15 +55428,7 @@ The external comparisons below concern publication distinctions and scoped profi
 ### C.2.2a:13 - Worked Examples
 
 #### C.2.2a:13.1 - Inquiry cue before endpoint capture
-A position claim for a research cue note may state:
-
-- `F`: the terms needed for the inquiry are defined, while the proposed inferences remain in prose,
-- low articulation explicitness,
-- low closure,
-- the relevant bodily observation or trace derivation, stated as a separate claim under C.2.6,
-- and mixed representation factors.
-
-Keep these readings explicit when testing entry into `A.6.P` or `C.25`; the note should remain upstream while the relevant receiving pattern's entry conditions remain unmet, even if its prose looks polished.
+An inquiry note says that two meters gave different readings under the same recorded operating conditions. It identifies the meters and their units. It names calibration drift and a sampling-time difference as possible causes, with no observation yet to distinguish them. A reader can recover a diagnostic question and two live explanations. The display uses names and numbers. If the comparison concerns the code inside either meter, its distribution across internal units is still unknown. Use the established readings for the diagnostic inquiry. Entry to a pattern that needs a specific relation or causal conclusion depends on that pattern’s own conditions.
 
 #### C.2.2a:13.2 - Routed operator alert note
 Use `Pump-alert-21` from C.2.LS:13.1 to compare the three stated diagnostic alternatives before selecting a check. The alert names Pump P7, its indicated pressure of 70 kPa, the alarm condition `p_indicated(P7,t21) < 90 kPa`, and the contrasting implications of sensor bias, low supply, and an open bypass. Its chart readings and separate use condition are:
@@ -55452,7 +55444,7 @@ If an accepted reference-gauge reading of 72 kPa for the same sample t21 exclude
 Keep the live responses explicit in the route-bearing seam publication. Before publishing an endpoint-subject-qualified work record or reliance record, test the applicable downstream pattern's conditions; these chart readings do not decide that result.
 
 #### C.2.2a:13.3 - Viewpoint-bound adequacy note
-An adequacy note using identified assertions from an architecture description may state explicit vocabulary and predicates, articulation sufficient for the described comparisons, mid-level closure and symbolic representation. Its account names the document edition and accessible assertions needed for that judgement under C.2.6. Its position can be compared in the same chart as a bodily-observation cue when the selected Characteristics and Scales have the same meanings; source and access claims remain separate.
+A review note asks whether the architecture description specifies who acknowledges a storage fault. The cited edition names two possible responders and leaves their assignment open. A reviewer can identify the unresolved choice and the evidence still needed. Before assigning a closure level, check whether either responder has been ruled out or chosen and what would allow that choice to be reopened. Compare the note with an observation report on the same chart only for facets assessed on the same basis. Keep the source of each assessment available.
 
 #### C.2.2a:13.4 - Polished prose is not closure
 A prose rewrite may look cleaner, more compact, or more manager-readable than the source cue and still remain low in closure or articulation explicitness. If the underlying slot values, uncertainty, and route plurality remain unchanged, then publication polish changes the rendering or carrier lane, not the chart position by itself.
@@ -55546,7 +55538,7 @@ A local ordinal summary is possible when its levels have nested criteria. For ex
 - those conditions plus explicit acceptance predicates and their interpretation;
 - those conditions plus expressed derivations for a specified set of obligations.
 
-The last level includes the earlier criteria by declaration. Its proof-checking evidence is still assessed separately. State the exact scale, mapping from the profile, domain and conditions before using its levels or a threshold. Another team's levels are not comparable merely because they use the same numbers.
+The last level includes the earlier criteria by declaration. Its proof-checking evidence is still assessed separately. State the exact scale, mapping from the profile, domain and conditions before using its levels or a threshold. Another team’s levels are comparable only to the extent that their criteria support the same comparison. When the expressions are used as models, B.5.MR asks a different question. For a fixed inquiry and interpretation, which answers does each model admit? Rewriting a ceiling of thirty minutes as an equivalent predicate can make it executable while admitting exactly the same durations. Lowering the ceiling to twenty minutes can exclude a previously admissible duration in the same notation.
 
 Arithmetic, averages and numerical differences are not licensed by an ordinal scale. Where a change is described as an increase in formality, identify the strengthened property or the established order that makes that claim meaningful. A new logic, extra subsystem or larger toolchain is not such a property by itself.
 
@@ -55584,7 +55576,7 @@ The pattern favors recoverable expression properties over a universal prestige r
 - `CC-F-2` A local ordinal summary **SHALL** declare its scale and mapping. Arithmetic over its levels is invalid unless a separately justified quantitative scale is established.
 - `CC-F-3` A claim of greater formality **SHALL** name the strengthened property or declared order. It **SHALL NOT** imply greater truth, trust or scope by itself.
 - `CC-F-4` Status, maturity or tool labels **MUST NOT** substitute for the assessment of expression properties.
-- `CC-F-5` A local refinement or sublevel **SHALL** preserve its declared parent criteria; a cross-scale comparison requires an explicit meaning-preserving basis.
+- `CC-F-5` A subdivision of a local formality scale **SHALL** retain the criteria for the level it subdivides. Comparing levels on different scales requires a basis that preserves the meaning of the properties being compared.
 - `CC-F-6` A composite assessment **SHALL** cover the essential content and inferences of the named whole. It **SHALL NOT** inherit a property from constituents without the composition preserving that property.
 - `CC-F-7` Implementations **MUST NOT** average unrelated formality properties or local ranks into an undeclared score.
 - `CC-F-8` Changes in G, R or CL **SHALL NOT** change an expression assessment unless its own grounds change.
@@ -55889,14 +55881,7 @@ For this pattern, a published facet profile is reviewable when:
 A polished label, one strong facet, or one memorable route note does not by itself yield an admissible profile reading. The profile remains conformant only when the named facets stay explicit and decomposable.
 
 #### C.2.LS:4.3 - Composite readings
-A language-state judgement may be composite, but the composite shall be decomposable. For example, a cue may be:
-
-- low `AE`,
-- medium `CD`,
-- derived from an identified trace, with any evidential use separately qualified,
-- and representation-wise mixed rather than purely symbolic.
-
-A conforming profile makes this decomposition visible rather than hiding it under one stage label such as "early" or "raw".
+For a diagnostic note, ask what the wording lets a reader identify and which explanations the observations still permit. A note can name two sensors, their readings and the time window precisely while leaving both a calibration fault and a sampling delay open. Cite the trace from which the readings were derived. If the decision also depends on how the sensor encodes them, inspect that encoding. A table listing the two readings can supply the user with symbolic labels while leaving the internal code unknown.
 
 #### C.2.LS:4.4 - Corridor map note
 For a map of the related language-state patterns, see `C.2.2a:15`.
@@ -55906,7 +55891,7 @@ A team may say a draft is "still forming" for different reasons. The profile let
 
 **Operator alert.** An operator alert note can have stable alert terms and structure and low closure, while participating in an operator acknowledgement-and-check procedure.
 
-**Inquiry note.** An inquiry note can be low articulation while reporting identified exemplars and observations.
+**Inquiry note.** A station note records the service identifier, date and actual arrival time for each of three trains at the same station. The reader can identify all three events. To compare their delays, obtain each scheduled arrival from the applicable timetable and compare it with the matching actual arrival on the same time basis.
 
 ### C.2.LS:6 - Bias-Annotation
 Making selected facet readings explicit costs more than using one stage adjective. It makes their contribution to the receiving judgement inspectable, including any threshold that judgement uses; retain the ordinary wording or existing reading when that already serves the use.
@@ -55980,17 +55965,10 @@ The profile states:
 The alert has a complete question and still-open diagnostic alternatives. Its code factors and operator-loop connection answer different questions; no one facet replaces the others.
 
 #### C.2.LS:13.2 - Research cue before lexical repair
-An inquiry note reporting a mismatch noticed through bodily observation may state:
-
-- low `AE`,
-- very low `CD`,
-- the C.2.6 account of the observer, bodily observation and reported mismatch, including any exemplars or instrumental trace that contribute,
-- and any representation readings needed for the next use, assessed on the note's identified expression under C.2.7.
-
-Use the profile to identify what the next question still needs. `A.16.1` preserves the cue; `A.6.P` can recover an unclear relation, and `B.5.2` starts from an admissible `U.AbductivePrompt`. Apply the receiving pattern's conditions when choosing the move.
+An observer reports a vibration just after startup. The note identifies the machine, the observer and the occasion. It leaves open what changed and which part vibrated. The next investigator can locate the observation and seek a comparison or a trace. If a later summary proposes a cause, identify which evidence supports that claim. A.16.1 can preserve the initial cue. Use A.6.P for an unclear relation or B.5.2 when the material supplies the conditions for an abductive prompt.
 
 #### C.2.LS:13.3 - Architecture-description case
-A viewpoint-bound note about the adequacy of an architecture description may state its constraints through explicit typed predicates, be moderately high in `AE`, still mid-level in `CD` and symbolic in its representation-factor bundle. Its C.2.6 account identifies the document edition and assertions used for the adequacy judgement. The profile keeps description-side adequacy distinct from system-side engineering quality.
+A note evaluates whether a named edition of an architecture description assigns a responder to each failure mode. For one mode the description names two possible responders and gives no rule for choosing between them. The note can express this finding precisely. The assignment remains open in the description. To determine who responded in service, inspect the record of that incident.
 
 #### C.2.LS:13.4 - Same `F`, different profile
 Two notes may supply the same required expression properties and still differ sharply in articulation, closure, source and use conditions, and representation factors. One may be used in an operator's check procedure with diagnostic alternatives still open; another may assess a document's assertions with comparatively closed alternatives. The profile bundle keeps that difference visible instead of letting `F` behave like a master factor.
@@ -56226,7 +56204,7 @@ For a planning check whose required content is exactly those items, inspect them
 A row `Maintenance Team 2 | Pump P-17 | isolate | 14:00` looks slot-shaped. If it records intended action, however, it is a compact plan row rather than proof of a durable relation. Its layout does not raise `AE` until the planning meaning and conditions are recoverable, and it does not select `A.6.P`.
 
 #### C.2.4:13.4 - Threshold edge case
-A cue with a stable trigger and candidate anchors may still sit between `AE2` and `AE3` because its direct branch is unresolved. Keep the cue recoverable in `B.4.1` or `A.16.1` and state what is missing. An applicable first recognition or clarification step can help select the branch; use its required inputs and apply the receiving branch's threshold before claiming that result. There is no universal relation threshold.
+A cue that names a stable trigger and two candidate interpretations, but leaves which one is intended open, can support `AE2` for that question. If the assessor has only an excerpt and the missing passage could settle the branch, the assessor cannot yet establish whether the complete expression reaches the `AE3` threshold. The excerpt alone supplies no upper bound on the complete expression’s articulation. Recover the missing passage when the difference changes the receiving decision. If an assistant supplied the interpretation, identify what the original expression allowed the reader to recover and what the assistant added. Use the receiving branch’s own conditions for entry.
 
 #### C.2.4:13.5 - Recovering what a clearer summary lost
 
@@ -56397,7 +56375,7 @@ C.2.4 assesses how explicit this content is. Writing out the alternatives and th
 A text may be highly explicit but low-closure, or low-explicitness but already high-closure by policy. Those states shall not be collapsed.
 
 #### C.2.5:4.4 - Change discipline
-Increasing `CD` requires narrowing candidate space, route space, or frame space explicitly. When closure decreases, make the prior fixation, reason for reopening and still-binding remainder recoverable. Use `A.16.2` when a published framing, route or use claim must be revised or the applicable fixation rule requires that move; add a note only when the existing material is insufficient.
+For a higher `CD` reading, identify what the relevant scale anchor adds (:4.2). Depending on the anchor, the grounds can be different predictions for still-live alternatives, evidence excluding an alternative, a selected route, or a rule changing when a choice can be reopened. A rule can strengthen the reopening condition while the same route remains selected. Report only the change the evidence supports. When closure decreases, make the prior fixation, reason for reopening and still-binding remainder recoverable. Use `A.16.2` when a published framing, route or use claim must be revised or the applicable fixation rule requires that move; add a note only when the existing material is insufficient.
 
 An ordinary PatternID in `governingPatternRef` locates the FPF rule relevant to the closure claim. Use a separate `relationFunctionClaimRef` for its exact defining or constraining `ClaimGraph` only when admissible interpretation, comparison, migration, publication, or reuse depends on that exact rule identity (`E.10`, `E.4.PFR`). Use `authoritySourceRef` when a non-pattern source carries the relevant authority.
 
@@ -56459,7 +56437,7 @@ To assign `CD`, ask:
 - what would count as an admissible reopen trigger?
 
 #### C.2.5:14.2 - Review prompt
-An assurance reader should identify the narrowing and its source under :16.2, including a policy or protocol when it fixes the route. Confident tone or an appeal to hierarchy alone does not establish that fixity.
+An assurance reader should use the applicable anchor in :4.2: identify the contrasts that organize still-live alternatives, the alternatives excluded, the choice made, or the rule that now governs reopening. State the grounds for that reading (:16.2). Confident tone or an appeal to hierarchy alone does not establish that fixity.
 
 #### C.2.5:14.3 - Governance note
 Whenever a claim about a gate, commitment, or endpoint use depends on `CD`, the supporting guard, `governingPatternRef`, or `authoritySourceRef` should be visible.
@@ -56588,7 +56566,7 @@ The following are recurring examples of questions to resolve, not a closed taxon
 1. Identify the episteme edition, the claim or cue being used and the receiving judgement or action. Keep a source episteme and an analyst's resulting account distinct under C.2.P when their contents or concerns differ.
 2. Ask which facts the receiving work needs: for example, the source of a reading when diagnosing a calculation, the relevant observation when checking a pressure claim, or an acknowledgement condition when arranging an operator's next check. Obtain only the relations that can change that work. The table in :4.1 helps locate common questions; the subject of the work determines the answer and can require another relation.
 3. State each needed relation with its participants, applicable scope and grounds. When a trace is used as evidence, establish its relation to the target claim as well as its provenance. When an action is claimed, establish the interaction or governing condition and the relevant performer. Preserve a consequential unknown instead of filling it from a neighbouring fact.
-4. Compare the source situation with the receiving situation. Identify what remains accessible and applicable, what changed and what those changes permit or prevent. Retain supported claims and return to a missing observation, interpretation or action condition where the proposed use depends on it.
+4. Compare what the source and recipient can observe, obtain or do. Which claims or actions still have the conditions they require? For a blocked check, identify what is missing. An instrument, a calibration reference, access to a record or authority to act each calls for a different response. For an event that cannot be repeated, seek a contemporaneous record or limit the conclusion to what the surviving evidence supports. Another performer can supply a present check. If the intended result is the recipient’s ability to perform it, examine what the recipient can do on a further occasion under the stated assistance conditions.
 
 For example, an alert can be computed from a measurement, delivered in a report and acknowledged by an operator. Replacing the report file while preserving the accessible assertions can leave the derivation and evidence unchanged. Discovering that the measurement concerned another pump changes its evidential use for the pressure claim. Disabling an acknowledgement channel changes the interaction available to the operator. These changes call for different continuations, so the account must keep their predicates distinct.
 
@@ -56600,7 +56578,7 @@ This pattern organizes the source and use questions; the patterns governing thos
 When several relations matter together, name each and explain its contribution. Distinguish their established conjunction from alternatives left unresolved by the available evidence. For example, "the source was either a sensor reading or a simulation" leaves provenance uncertain; it does not establish that both sources contributed. A generic "mixed" label supplies neither the missing facts nor their conjunction.
 
 #### C.2.6:4.4 - Bridge implications
-A receiving use may need a semantic relation between local senses from different semantic contexts. The recipient's access to a report can differ from the source practitioner's bodily observation or access to model state. That difference may affect the evidence or loss account for the proposed semantic correspondence. Use F.9 to state and test the Bridge and the separate bounded-use claim, with its evidence and loss account. Use F.9.1 only for a separate optional stance note about that claim.
+A receiving use may need a semantic relation between local senses from different semantic contexts. The recipient's access to a report can differ from the source practitioner's bodily observation or access to model state. That difference may affect the evidence or loss account for the proposed semantic correspondence. Use F.9 to state and test the Bridge and the separate bounded-use claim, with the evidence for the correspondence. State which differences the receiving use can tolerate and which differences the comparison actually found. If observed loss has yet to be established, retain that uncertainty. Use F.9.1 for an optional separate stance note when needed.
 
 ### C.2.6:5 - Archetypal Grounding
 **Tell.** A felt cue, a controller-side probe score and a textual design note can all help begin an inquiry. Recover the observation, computation or reported assertions that the intended inquiry needs.
@@ -56764,8 +56742,8 @@ A local alias such as `EncodingBasis` shall identify the factors and readings it
 #### C.2.7:4.1 - Minimal factor readings
 | Factor | Question it answers | Typical values |
 |---|---|---|
-| `LocalityDistribution` | Is the representation concentrated in local units or distributed across many units? | local / mixed / distributed |
-| `Sparsity` | How concentrated are activation, representation use, or descriptive marks? | sparse / mixed / dense |
+| `LocalityDistribution` | Which units distinguish the represented value on the declared encoding basis? Does one unit suffice, or is a combination needed? | local / mixed / distributed |
+| `Sparsity` | What share of the declared units is active or used for the value being represented? | sparse / mixed / dense |
 | `Symbolicity` | How explicit are the symbolic structures and tokens? | symbolic / mixed / subsymbolic |
 
 Before comparing factors, identify the representation and the units being described. A model-side code and its written summary need not have the same factors.
@@ -57059,8 +57037,8 @@ A service account states:
 A second expression adds this diagram while retaining those four sentences:
 
 ```text
-API --write--> Store --update--> Replica --read by--> Reports
-API <--durable-write confirmation-- Store
+API returns "stored" <--only after-- Store confirms durable write
+Store --source of updates to--> Replica --read by--> Reports
 ```
 
 The reader is an engineer familiar with durable writes and replicas. Select these four relations:
@@ -57186,7 +57164,7 @@ Use this pattern when the appearance of a representation is being used to establ
 
 **First useful move.** Identify the expression and the claim being inferred from it. Recover what the expression states or represents, then apply the rule for the disputed claim. Return wording that preserves the supported use and identifies what remains unestablished. A sentence can suffice. Use a `DeclarativeRepresentationRepair` note only when the receiving use needs a separately inspectable repair.
 
-**Quick example.** A heat-flow graph in a reactor-cooling review can show preserved and lost flow relations. It does not authorize a valve change by graph shape. The repair keeps the graph path as graph structure, returns release or gate reliance to the gate, source, and evidence patterns, and blocks the hidden work-permission claim.
+**Quick example.** A heat-flow graph can express which flow paths a design retains. To decide whether someone may change a valve, check whether the applicable rule permits that person to do so under the current conditions. The graph can still answer the flow question while permission remains unknown.
 
 Use this pattern especially when:
 
@@ -57245,11 +57223,11 @@ Repair declarative-representation overread by separating the visible expression,
 
 The repair order is:
 
-1. **Identify the expression.** Quote or point to the part that prompted the unsupported inference.
+1. **Read the expression under the conventions used to produce it.** Identify the filled row, solver constraint or other construction and recover the assertion it expresses. Use the column definitions, bindings, units or interpretation that determine its meaning. If the same marks admit two readings with different consequences, obtain the convention needed to choose between them or leave that claim open.
 2. **Recover the object or relation at issue.** For example, distinguish a graph path, an evidence relation and a reported state value. Use its subject pattern when that rule is already clear; the selection table below helps when it is not.
 3. **Distinguish the direct object from any representation or correspondence use.** When the visible expression represents a separately identified object or claim, name the exact relation and target. When the direct object or relation itself is current and no separate representation claim is needed, keep that direct use; do not relabel the direct object as a representation kind. Record `none` only when the receiving use needs an inspectable account of that distinction.
 4. **Recover a source or publication relation when it matters to this claim.** Use the pattern governing that relation and its actual participants.
-5. **State the disputed operational claim.** Name the action, result or authority being inferred from the expression.
+5. **State the disputed inference.** Identify what someone would classify, conclude, plan, carry out or authorize on the strength of the expression.
 6. **Apply the claim's subject pattern.** Establish its required grounds or identify what is missing. An actual permission or gate condition comes from that rule.
 7. **Preserve the supported use.** The graph may still support a comparison, for example, while leaving action permission unresolved.
 8. **Delimit the unsupported claim.** Do not assert the stronger result from appearance alone. Distinguish that missing basis from a use blocked by an applicable rule; a separately established result remains usable under its own conditions.
@@ -57265,24 +57243,26 @@ DeclarativeRepresentationRepair:
   CurrentDirectObjectOrRelation:
   RepresentationOrCorrespondenceUse: <exact relation and represented target> | none
   SourceOrPublicationRelation:
-  TemptingStrongerActionClaim:
+  DisputedInference:
   RecoveredGoverningPattern:
   RetainedUse:
-  BlockedStrongerActionClaim:
+  ConclusionAndGrounds:
   StopOrReopenCondition:
 ```
 
-The ordinary result is the repaired statement and any unresolved condition that changes its use. In the optional note, `BlockedStrongerActionClaim` identifies the assertion that appearance does not establish; it does not by itself declare the underlying action prohibited. Name a blocked use and its governing condition separately when applicable. Reuse a suitable subject-pattern record without copying it into another repair note.
+The ordinary result is the repaired statement and any unresolved condition that changes its use. In the optional note, give the disputed inference and say what the available grounds establish. If a classification remains open, identify the missing criterion or fact. If an applicable rule prohibits an action, identify the rule and the condition that triggers it. Reuse a suitable subject-pattern record without copying it into another repair note.
 
 Use four plain questions before the claim-and-pattern table: What visible thing am I looking at? What direct object or relation is current? What, if anything, does it represent? Which stronger claim still needs grounds?
 
-| Visible expression or artifact | Direct object or relation at issue | Representation or correspondence use | Stronger action claim blocked |
+| Visible expression or artifact | Direct object or relation at issue | Representation or correspondence use | Inference the expression alone cannot establish |
 | --- | --- | --- | --- |
 | highlighted graph path | exact E.18 graph path or `PathSlice`, with any flow valuation kept separate | the graphic rendering corresponds to that path when the relation is current; otherwise `none` when the `PathSlice` itself is under inspection | no prescribed route, valve work, or release by the highlight |
 | dashboard tile | exact status or state value with its bearer and value frame, plus any current source or publication relation | the tile represents that value only through an exact current relation; otherwise `none` when the publication face itself is the direct object | no gate passage or release permission from green appearance |
 | evidence-path expression | descriptive A.10 evidence-provenance path for the named claim or bounded use, citing independently established direct relations | a diagram may represent that descriptive path through an exact current correspondence; otherwise `none` when the path itself is under inspection | no approval, permission, assurance, or release from path shape |
-| solver file | exact publication form or carrier-side object, and whichever formal substrate, claim-bearing episteme, method, mechanism declaration, plan, run, or evidence relation is independently current | the solver expression corresponds to separately identified claims or a formal object when that relation is stated; otherwise `none` | no method, mechanism, performed work, result, or evidence by file form or executability |
-| publication table | exact publication face or form and source relation, with table values or claims kept under their subject patterns | the table corresponds to a separately identified object or claim only when the exact relation is current; otherwise `none` | no evidence, approval, gate passage, or action authority from table layout |
+| solver file | the particular constraint under its variable bindings and units, e.g. `queueLength ≤ 4` | the binding identifies the queue whose length the variable represents, when that correspondence is part of the claim | The constraint alone cannot establish that the solver ran or that an observed queue stayed within the limit. |
+| publication table | the filled row read with its headings, units and key | a row reporting a failure count refers to the equipment and interval identified in the table | The count alone cannot classify the equipment as unreliable. Apply the stated reliability criterion and obtain the observations it needs. |
+
+For a question about format, inspect the formation rules used for the constraint or row. For a question about access, identify the file or other carrier bearing that particular expression.
 
 #### C.2.P.DR:4.2 - Subject pattern selection
 
@@ -57334,7 +57314,7 @@ Recover the relation the route expression conveys. Direct inspection of a graph 
 
 #### C.2.P.DR:4.4 - Method, algorithm, mechanism, plan, and work settlement
 
-For method-like wording, recover the claimed way of doing and distinguish it from its expression and any actual performance.
+For method-like wording, recover the repeatable way of doing and distinguish it from the plan for a particular job and the Work that occurred. A rule for ordering jobs can be applied to many queues. Tomorrow’s selected order can form part of a plan, and the execution record can show a different order. When two expressions serve as models, compare them for the same inquiry under B.5.MR. A change of notation can preserve every admissible answer. A newly chosen method can change the way work is done without establishing refinement between any two models.
 
 **Method-description membership.** First identify the claim-bearing episteme under C.2.1. Use A.3.2 to determine whether that same individual is a `U.MethodDescription`. Positive membership requires one admitted `U.Method` as its exact `EntityOfConcern` and at least one substantive claim about that Method as a way of doing. Such a claim can state its transformation or enactment concern, applicability, precondition, intended effect or preserved condition, bound, generic participant meaning, or internal composition.
 
@@ -57389,10 +57369,10 @@ DeclarativeRepresentationRepair:
   CurrentDirectObjectOrRelation: exact E.18 `PathSlice` and E.18.1 carry-through relation among the named records when those objects are current
   RepresentationOrCorrespondenceUse: highlighted nodes and edges render the selected E.18 `PathSlice`; the highlight adds no work ordering
   SourceOrPublicationRelation: none
-  TemptingStrongerActionClaim: ordered work route for the team
+  DisputedInference: ordered work route for the team
   RecoveredGoverningPattern: E.18.1, with A.15.2 or A.15.1 only if planned or dated work is current
   RetainedUse: selected graph path and carry-through relation for inspection
-  BlockedStrongerActionClaim: no work route or prescribed workflow by path shape alone
+  ConclusionAndGrounds: no work route or prescribed workflow by path shape alone
   StopOrReopenCondition: stop at inspection of the selected path and carry-through relation; use A.15.2 for a prescribed work sequence. If a separate mathematical transfer is proposed, establish its C.29 correspondence and limits before relying on that transfer. Reopen when the selected graph, source or intended work relation changes
 ```
 
@@ -57444,10 +57424,10 @@ DeclarativeRepresentationRepair:
   CurrentDirectObjectOrRelation: exact E.18 heat-flow path or `PathSlice`; keep boundary conditions and any flow valuation under their subject patterns
   RepresentationOrCorrespondenceUse: the rendering identifies the selected E.18 path; a proposed inference from its edges to physical heat flow lacks its correspondence and boundary conditions
   SourceOrPublicationRelation: none
-  TemptingStrongerActionClaim: graph path authorizes physical valve-change work
+  DisputedInference: graph path authorizes physical valve-change work
   RecoveredGoverningPattern: E.18 for graph inspection; C.29 for the unresolved mathematical transfer; A.10 when its source-to-use account must remain replayable; A.21, A.15.2 or A.15.1 only for a current gate, work-plan or dated-Work question
   RetainedUse: graph inspection and identification of the missing heat-flow correspondence
-  BlockedStrongerActionClaim: no release, gate passage, physical intervention, or work occurrence by highlighted path alone
+  ConclusionAndGrounds: no release, gate passage, physical intervention, or work occurrence by highlighted path alone
   StopOrReopenCondition: keep the proposed physical inference unresolved until the correspondence, material losses and boundary conditions support it under C.29; operational reliance also needs the applicable validation and gate or authority result. Reuse adequate existing domain/model documentation. Reopen when that basis or intended intervention changes
 ```
 
@@ -57463,10 +57443,10 @@ DeclarativeRepresentationRepair:
   CurrentDirectObjectOrRelation: candidate-guide comparison and exact characteristic values under C.16 or A.19; recover any direct support relation under its subject pattern, with A.2.4 for an episteme's evidence use and A.10 for a needed replayable source-to-use account
   RepresentationOrCorrespondenceUse: rows identify the compared candidate guides and columns reproduce named score values with their scales and source references; the ranking adds no approval relation
   SourceOrPublicationRelation: none
-  TemptingStrongerActionClaim: ranked row approves biological intervention
+  DisputedInference: ranked row approves biological intervention
   RecoveredGoverningPattern: C.16 or A.19 for characteristics when current; A.2.4 for an episteme's evidence use; A.10 when the source-to-use account must remain replayable; A.15.2 for experimental work plan; A.21 or authority pattern only if approval or gate claim is current
   RetainedUse: source-finding, candidate comparison, and constraint review
-  BlockedStrongerActionClaim: no edit approval, work occurrence, safety claim, or gate passage from table rank alone
+  ConclusionAndGrounds: no edit approval, work occurrence, safety claim, or gate passage from table rank alone
   StopOrReopenCondition: stop at the supported comparison under the stated score meanings and source conditions. Use C.29 when a separate mathematical-representation choice, transfer or reliance question remains. Intervention approval needs its applicable authority or gate result; resolve unclear “role authorization” through E.10.ROLE, distinguishing a missing rule from missing facts under a known rule. Reopen when the scores, protocol or intended use changes
 ```
 
@@ -57540,7 +57520,7 @@ Use this pattern when a claim needs a reusable kind, a subkind comparison, a jud
 
 **Primary EntityOfConcern.** One typed-reasoning question: the exact `U.Kind` individual, its intended candidate domain and membership distinction, any `U.SubkindOf` comparison needed by the claim, and the C.3.2 candidate question the use asks. The exact `KindSignature` edition makes its effective designation and interpretation rules recoverable; the scheme and practice/source provenance are not stored on the kind.
 
-**First useful move.** Write the ordinary conclusion first. For example: `Pump #14 counts as a cooling pump in this plant slice because it satisfies the declared cooling-pump condition.` Add a reusable declaration, admissibility detail, explicit judgment, support reference, or extension representation only when a named receiving use needs it.
+**First useful move.** Write the ordinary conclusion first. For example: For this plant’s operating report, a cooling pump is a pump circulating coolant through the heat exchanger during the reporting interval. The circuit connections and the interval’s flow reading establish that Pump #14 did so. Add a reusable declaration, admissibility detail, explicit judgment, support reference, or extension representation only when a named receiving use needs it.
 
 **Not this pattern when.** Use `E.24.UK` when the question is admission of another durable public FPF U-kind. Use the direct subject pattern when the question is whether a physical quality, relation, registration, certification, publication occurrence, Work, or other governed condition obtains. Use `A.2.6` for claim, work, or publication scope and `C.29` when a separate mathematical representation or transfer question remains.
 
@@ -57582,7 +57562,7 @@ Keep these four objects separately recoverable:
 | classification judgment | One evaluation for an admissible exact candidate, kind, signature edition, and context slice with result `true`, `false`, or `unknown`. It is not a direct relation occurrence by default. | `C.3.2` |
 | `KindExtension(k, slice)` | An optional set-valued representation of candidates whose admissible judgment is `true` for the fixed signature edition and slice. | `C.3.2`; `C.29` when a separate mathematical representation or transfer issue affects the use |
 
-Before the judgment, C.3.2 returns `admissible` or `not-applicable`. Candidate mismatch with the declared `ValueKind`, or a slice outside declared applicability, is `not-applicable` and no three-valued judgment is formed. Missing support or an unavailable dependency for an admissible candidate instead yields `unknown`.
+Before the judgment, C.3.2 returns `admissible` or `not-applicable`. Candidate mismatch with the declared `ValueKind`, or a slice outside declared applicability, is `not-applicable` and no three-valued judgment is formed. For an admissible candidate, return `unknown` when the available grounds leave the criterion unsettled.
 
 The kind does not carry scope. A `KindSignature` episteme may carry its own `U.ClaimScope`, and a separate classification assertion carries the scope of that assertion. The `U.ContextSlice` is an evaluation input.
 
@@ -57590,13 +57570,13 @@ The kind does not carry scope. A `KindSignature` episteme may carry its own `U.C
 
 Use the lightest object that answers the current typed-reasoning question.
 
-First identify what the sentence lets the recipient do. “Repair this stool” designates an item. “Which seats count as stools in this catalogue?” calls for a membership criterion. “Count the stools in the May delivery” also requires identification of the delivery and the units present. A furniture specification can concern a design used for many units. A product family groups models on a stated basis. A membership claim about a kind, identification of an individual and inclusion in such a family require their own grounds. A catalogue row or plural noun can help locate the question. Neither supplies those grounds by itself. F.19:4.3.1 explains how to retain the distinction in working prose.
+First identify what the sentence lets the recipient do. “Repair this stool” designates an item. For this catalogue, suppose a stool is a seat designed for one person, with neither back nor arms. To classify a seat, inspect those features. To count stools in the May delivery, identify its units and apply the catalogue criterion to each. A list of two confirmed stools settles the total only if the delivery inventory and classifications account for every possible member. A furniture specification can concern a design used for many units. A product family groups models on a stated basis. A membership claim about a kind, identification of an individual and inclusion in such a family require their own grounds. A catalogue row or plural noun can help locate the question. Neither supplies those grounds by itself. F.19:4.3.1 explains how to retain the distinction in working prose.
 
 1. **Recover the kind.** Name the candidate domain and the operative membership distinction: what an intended member must satisfy and what separates a relevant non-member. Record the continuity rule used when that distinction changes. Keep practice/source provenance as a cue to compare definitions, not as an automatic identity key. Do not store the current use, ClaimScope, context slice, or reference scheme on the kind.
 2. **Use C.3.1 for subkind and continuity.** A `U.SubkindOf` fact obtains through exact criterion entailment under an aligned interpretation or through exhaustive evaluation over a deliberately closed finite domain. The facts form a preorder. Opposite facts between distinct kinds may express classification equivalence for that applicability; a consumer may order the resulting equivalence groups without identifying the kinds.
 3. **Use C.3.2 for declaration and admissible judgment.** A repeated condition may justify a `KindSignature`. First check candidate `ValueKind` and applicability. Only an admissible application returns `true`, `false`, or `unknown`.
 4. **Let the governed criterion condition decide.** A direct quality, relation, construction, episteme, registration, certification, publication occurrence, legal status, or other governed condition makes the criterion hold when the criterion names it. An observation, record, or source used merely as evidence does not constitute an independently governed condition. Use each condition's direct pattern.
-5. **Keep four outcomes distinct.** `not-applicable` means the judgment should not be formed. For an admissible candidate, a satisfied criterion gives `true`, a known failed criterion gives `false`, and missing support or an unavailable required dependency gives `unknown`. A guard may decline use without rewriting any of these results.
+5. **Keep four outcomes distinct.** `not-applicable` means the judgment should not be formed. For an admissible candidate, a satisfied criterion gives `true`, a known failed criterion gives `false`, and an unsettled criterion gives `unknown`. Missing facts elsewhere in a compound criterion leave an independently settled result intact. A guard may decline use without rewriting any of these results.
 6. **Materialize an extension only for use.** A query, quantification, comparison, or review may need `KindExtension(k, slice)`. It represents admissible candidates judged `true`; notation, rows, or set membership do not create an ontic collection or classification relation.
 7. **Keep scope, formality, Work, and publication separate.** Formality characterizes the declaration episteme. Scope belongs to claims or capabilities. `U.Work` is a kind and `W : U.Work` is one independently grounded dated work occurrence. Plans, logs, cards, field bundles, carriers, and rows remain their own objects.
 
@@ -57632,7 +57612,7 @@ The account identifies the source and typed or logical target, what the passage 
 | A maintenance episteme is classified by its instruction content while PDF and HTML forms circulate. | Judge the exact episteme against the local kind criterion. | Changing only publication form or carrier leaves this content-based judgment unchanged. |
 | A temperature value is classified into an interval. | Keep the value under its unit and measurement interpretation and judge the value directly. | Do not fabricate a value-shaped entity merely to classify it. |
 | A schema labels a row `Customer`. | Treat the label as a cue to recover the candidate and criterion. | Schema spelling alone yields neither `true` nor a public U-kind. |
-| A measurement required by a criterion is unavailable. | Return `unknown`; let a safety guard decline the use separately. | Do not coerce missing information to `false`. |
+| A flow reading is missing for a criterion that requires both operation and adequate flow. | If the pump was off, return `false`. If it was running and the available facts leave its flow undecided, return `unknown`. | A guard can decline either result. Record the classification separately. |
 | A log row is labelled `inspection work`. | First identify any exact dated `W : U.Work` under `A.15.1`; only then can W be a candidate for a local kind. | The row, plan, or label is not W, and `U.Work` never occupies W's individual position. |
 
 ### C.3:8 - Bias-Annotation
@@ -57717,7 +57697,7 @@ Use this pattern when work must recover one reusable kind, decide whether one ki
 
 **Primary EntityOfConcern.** One `U.Kind` individual recovered through its candidate domain, operative membership condition, intended member/non-member distinction, and continuity rule; or one proposed `U.SubkindOf` relation between kind participants within declared applicability.
 
-**First useful move.** Write the ordinary claim first: `CoolingPumpKind is a subkind of PumpKind because every candidate that satisfies the declared cooling-pump condition also satisfies the pump condition.` Then name the criteria and applicability that make that statement true. Introduce an occurrence designator or formal equivalence grouping only when a receiver uses it.
+**First useful move.** Write the two criteria so the reader can test inclusion. If this plant defines a cooling pump as a pump that circulates coolant through a heat exchanger, anything meeting that criterion already meets the pump criterion. Establish that both uses of “pump” have the same meaning. Introduce an occurrence identifier or a formal equivalence grouping only when the receiving use needs it.
 
 **Not this pattern when.** Use C.3.2 for a declaration, admissibility result, candidate classification, or extension; C.3.3 only for a claimed correspondence between independently identified distinct kinds; and `E.24.UK` when admitting another durable public kind rather than using an already admitted `U.Kind` individual.
 
@@ -57748,7 +57728,7 @@ The sentence `cooling pump is a pump` is useful only when the membership conditi
 | --- | --- | --- |
 | `U.Kind` | The admitted meta-kind whose individuals are reusable intensional classification distinctions. One individual is recovered through its candidate domain, operative membership condition, intended member/non-member distinction, and continuity rule. | A `KindSignature`, label, source boundary, reference scheme, current extension, or receiving use is not the kind. |
 | `U.SubkindOf` | The admitted direct relation kind whose occurrences relate narrower and broader `U.Kind` participants within declared applicability. Its obtaining facts form a preorder. | It is not a predicate expression, assertion episteme, dependency, part-whole relation, construction, system-role assignment, or admission relation. |
-| `SubkindOfObtains(k1, k2)` | The relation-obtaining condition. It holds either because the exact membership criterion for `k1` entails the criterion for `k2` under an aligned interpretation and applicability, or because every candidate in a deliberately closed finite domain has been evaluated and every admissible `true` result for `k1` is also `true` for `k2`. | The first branch is criterion-based. The second is explicitly domain-bounded. Non-exhaustive observations support a separate assertion but do not make the relation obtain. |
+| `SubkindOfObtains(k1, k2)` | The relation-obtaining condition. It holds either because the exact membership criterion for `k1` entails the criterion for `k2` under an aligned interpretation and applicability, or because an exhaustive evaluation over a declared common finite domain establishes that every member of `k1` there is also a member of `k2` (§4.1). | The first branch is criterion-based. The second is explicitly domain-bounded. Non-exhaustive observations support a separate assertion but do not make the relation obtain. |
 | `R_sub : U.SubkindOf` | One obtaining relation occurrence between narrower kind `k1` and broader kind `k2`. | Use a designator only when a receiver needs it. The ordered kind participants determine occurrence identity; schemes, signatures, evidence, assertions, and publications do not. |
 | subkind assertion episteme | A C.2.1 episteme that affirms, denies, or leaves unresolved the obtaining condition and cites its interpretation, applicability, branch, and support. | The assertion does not make the relation obtain; a negative or unresolved assertion designates no obtaining occurrence. |
 | classification equivalence for an alignment | Mutual obtaining `U.SubkindOf` facts between two kinds within the same declared applicability. | It says that the two membership distinctions classify alike there. It does not identify the kinds. A consumer that needs a partial order may order these equivalence groups. |
@@ -57758,9 +57738,9 @@ The sentence `cooling pump is a pump` is useful only when the membership conditi
 
 A readable sentence such as `CoolingPumpKind is a subkind of PumpKind for this declared plant use` states that the direct relation obtains. It needs no occurrence identifier when no receiver distinguishes or refers to the occurrence.
 
-The relation obtains under the criterion-entailment branch when the exact narrower membership condition entails the broader one under the aligned interpretation and applicability. Under the closed-domain branch, it obtains only when the candidate domain is deliberately finite and closed, every candidate's admissibility has been checked, and exhaustive evaluation leaves no narrower `true` without a broader `true`.
+The criterion-entailment branch compares the two membership conditions under an aligned interpretation and applicability. For the finite-domain branch, identify the complete domain to which both declarations apply and account for each candidate using the pinned editions. Every narrower member must also satisfy the broader criterion. An unresolved classification that could conceal a counterexample leaves inclusion unestablished. If the declarations apply together only on part of the proposed domain, state that smaller domain on the conclusion.
 
-A counterexample refutes either proposal. A missing dependency or `unknown` judgment cannot establish either branch; a `not-applicable` request is outside the comparison.
+A candidate that satisfies the narrower criterion and fails the broader one refutes inclusion on the stated domain. Missing observations can leave the finite-domain test open even when the membership rules themselves suffice to prove entailment.
 
 When a receiver needs one occurrence, `R_sub` is participant-determined by the ordered pair of kind identities. The effective scheme, aligned signatures, and applicability qualify how obtaining is tested and asserted.
 
@@ -57801,8 +57781,8 @@ Compare the old and proposed declarations in this order:
 | Situation | C.3.1 move | Boundary |
 | --- | --- | --- |
 | `CoolingPumpKind` is below `PumpKind`. | Use criterion entailment: the cooling-pump condition already requires the governed pump condition. State the readable relation and its applicability. | Do not infer a public `U.CoolingPump`, and do not use current extension rows as the truth-maker. |
-| A closed inspection lot has five cabinets. | If the declared candidate domain is exactly those five cabinets, check admissibility and evaluate every candidate. The domain-bounded subkind relation from `InspectedCabinetKind` to the proposed broader kind can obtain when every narrower `true` is broader `true`. | The same observations do not establish an open-ended order over all future cabinets. |
-| `MorningShiftQualifiedOperatorKind` and `UnionRosteredOperatorKind` happen to select the same people in a closed current roster. | Mutual domain-bounded subkind facts may obtain, giving classification equivalence for this roster. | The kinds remain distinct because their operative membership conditions differ; antisymmetry does not merge them. |
+| A closed cabinet inventory contains five cabinets. Four satisfy both criteria. For the fifth, the narrower judgement is `unknown` and the broader is `false`. | Inclusion on this inventory is still open. If the fifth satisfies the narrower criterion it is a counterexample. Establish its narrower classification or use a valid criterion-entailment argument. | An unresolved narrower judgement in a cabinet already known to meet the broader criterion could not conceal that counterexample. Even a settled result for the five cabinets covers only this lot. |
+| The shift qualification register and the union register identify the same people on a complete current roster. | Check both criteria for every person in that roster to establish inclusion in both directions there. | Qualification depends on the shift credential and union membership on enrollment. A later enrollment can change the agreement while both kinds retain their criteria. |
 | A signature adds an aligned unit conversion. | Apply section 6, keep the kind, identify the new signature edition, and retain edition-specific judgments. | Do not rewrite earlier judgments as if the new edition had been used. |
 | A signature changes from physical cooling performance to a schema label. | The boundary probes expose a changed candidate domain and discriminator; identify another kind. | Do not hide the mismatch by editing the extension. |
 | Pump #14 changes state in a later plant slice. | Re-evaluate the admissible candidate and allow the extension to change. | Candidate-state change alone does not create a kind, signature, or relation occurrence. |
@@ -57852,7 +57832,7 @@ Kind identity, direct `U.SubkindOf` obtaining, assertion identity, declaration i
 
 ### C.3.1:13 - SoTA-Echoing
 
-For a subkind question restricted to a deliberately closed finite domain, the exhaustive branch in `C.3.1:4.1` can suffice: check every candidate's admissibility and evaluate those admissible under both declarations, leaving no `unknown` and no narrower `true` without a broader `true`. Requiring criterion entailment beyond that domain would demand a stronger result than this use needs. A non-exhaustive sample leaves unexamined candidates and cannot supply this warrant. Keep the domain and aligned interpretation on the conclusion; recheck it when either changes. An open-domain claim still needs criterion entailment.
+For a subkind question restricted to a deliberately closed finite domain, the exhaustive branch in `C.3.1:4.1` can suffice: check every candidate's admissibility and evaluate those admissible under both declarations, resolving every case that could conceal a narrower member falling outside the broader kind. Requiring criterion entailment beyond that domain would demand a stronger result than this use needs. A non-exhaustive sample leaves unexamined candidates and cannot supply this warrant. Keep the domain and aligned interpretation on the conclusion; recheck it when either changes. An open-domain claim still needs criterion entailment.
 
 ### C.3.1:14 - Relations
 
@@ -57879,13 +57859,13 @@ Use this pattern when repeated typed reasoning needs one explicit kind criterion
 
 **Primary EntityOfConcern.** One classification use: candidate, kind, `KindSignature` edition, context slice, pre-judgment admissibility, and—only when admissible—the judgment value.
 
-**First useful move.** Write the readable result first: `Pump #14 counts as a cooling pump in this plant slice because it satisfies the declared cooling-pump condition.` Before evaluating, confirm that a pump candidate and this slice are within the declaration's candidate domain and applicability. Cite support only when the receiving use relies on it; create a reusable signature or extension only for repeated or set-consuming use.
+**First useful move.** Write the readable result first: For this plant’s operating report, a cooling pump is a pump circulating coolant through the heat exchanger during the reporting interval. The circuit connections and the interval’s flow reading establish that Pump #14 did so. Before evaluating, confirm that a pump candidate and this slice are within the declaration's candidate domain and applicability. Cite support only when the receiving use relies on it; create a reusable signature or extension only for repeated or set-consuming use.
 
 **Not this pattern when.** Use the direct subject pattern to establish the candidate and the quality, relation, episteme, status, publication occurrence, or other condition named by the criterion; A.14 for membership in a collection; C.3.3 for a claimed correspondence between distinct kinds; C.29 for a separate mathematical representation or transfer question; and `E.24.UK` for admission of another durable public kind.
 
 ### C.3.2:1 - Problem Frame
 
-A kind can support useful typed reasoning without acquiring its own public `U.*` label. Its intent may need a reusable declaration, one candidate may need a current judgment, and a query may need a set representation. These are different objects. Before a judgment exists, the candidate must satisfy the declared candidate `ValueKind` and the slice must lie within declared applicability. Once admissible, the governed condition named by the criterion settles `true` or `false` when known; missing support or an unavailable dependency yields `unknown`.
+A kind can support useful typed reasoning without acquiring its own public `U.*` label. Its intent may need a reusable declaration, one candidate may need a current judgment, and a query may need a set representation. These are different objects. Before a judgment exists, the candidate must satisfy the declared candidate `ValueKind` and the slice must lie within declared applicability. For an admissible candidate, return `true` when the available facts establish the criterion and `false` when they establish its failure. Return `unknown` when they leave the criterion undecided.
 
 The rule about evidence is conditional, not lexical. An observation used merely to support a claim does not create an independently governed quality or relation. But a criterion may directly concern an episteme, an obtaining registration or certification relation, a publication occurrence, legal status, or another governed fact. In that case, determine whether that very condition obtains under its direct pattern; calling the same object evidence in another use does not erase its criterion role. This concept-level rule requires no particular ontology language, schema technology, rule engine, or programming type system.
 
@@ -57898,7 +57878,7 @@ The shorthand `MemberOf(e,k,slice)` is unsafe because readers can take it as an 
 | Force | Tension |
 | --- | --- |
 | Readable use vs reusable declaration | One case should stay ordinary, while repeated classification needs a stable criterion and assumptions. |
-| Admissibility vs uncertainty | Candidate or slice mismatch means no judgment; missing knowledge for an admissible request means `unknown`. |
+| Admissibility vs uncertainty | A candidate or slice outside the declaration receives no judgment. An admissible candidate receives `unknown` when the available facts leave its membership undecided. |
 | Criterion condition vs evidentiary use | The direct condition named by the criterion can be physical, relational, epistemic, institutional, or publication-dependent; use as evidence alone creates none of them. |
 | False vs unknown | Known criterion failure differs from unavailable support or dependency. |
 | Intent vs extension | A declaration can stay fixed while candidate state or selected slice changes the true-candidate set. |
@@ -57951,7 +57931,7 @@ These are local result notations, not newly admitted kinds, A.14 membership occu
 2. **Pin the inputs.** Name candidate, kind, exact signature edition, and exact slice; avoid implicit `latest` or `current`.
 3. **Check admissibility.** If the candidate does not satisfy the declared candidate `ValueKind` or interpretation, or the slice is outside declared applicability, return `not-applicable` and stop. Do not form `J`.
 4. **Evaluate the governed condition.** For an admissible candidate, a satisfied criterion gives `true`; a known failed criterion gives `false`.
-5. **Keep non-settlement visible.** Missing support or an unavailable declared dependency gives `unknown`, not `false`.
+5. **Keep non-settlement visible.** Use the evaluation rule for the criterion. If it requires two conditions and one is known to fail, the conjunction is `false` even when the other is unmeasured. Return `unknown` when the available facts leave the criterion unsettled.
 6. **Distinguish condition from evidentiary use.** A measurement result, source episteme, certification, registration, publication occurrence, legal-status relation, or record may itself be a criterion condition only when the signature says so and that condition obtains under its direct pattern. Its mere use as evidence for some other condition creates neither that condition nor membership.
 7. **Separate guard disposition.** A guard checks admissibility, scope coverage, and any judgment as separate predicates. It may decline use on `not-applicable` or `unknown` without converting either to `false`.
 
@@ -57965,7 +57945,7 @@ Materialize `KindExtension(k, slice)` only when a named query, quantification, c
 
 - Pin the signature edition even though the compact name shows only `k` and `slice`.
 - State the candidate domain without inventing `U.EntitySet`.
-- Include exactly admissible candidates whose judgment is `true`. Keep `unknown` and `not-applicable` distinct when the receiver needs those exclusions explained.
+- Include each admissible candidate whose judgement is `true`. Their count answers “how many are confirmed?” To bound how many in the population could qualify, establish the complete inventory and account for every possible member. The lower bound is the confirmed count. For the upper bound add each remaining candidate whose membership has not been ruled out, including any still unevaluated. An `unknown` judgement records an inconclusive evaluation. An unevaluated candidate has no judgement yet. An incomplete inventory by itself supplies no finite upper bound for the whole population. An inadmissible request returns `not-applicable` without a judgement.
 - Treat braces, rows, indexes, or database results as representations. They create neither a collection holon, A.14 membership occurrence, direct classification relation, nor criterion condition.
 - Use C.29 when interpretation, preservation or transfer of the represented set leaves a separate mathematical question. Otherwise finish the local calculation under the kind and query rules.
 
@@ -57990,7 +57970,7 @@ Keep these changes distinct:
 | criterion, candidate domain, applicability, `EntityOfConcern`, or scheme changes | another declaration episteme; `KindSignature` qualification and any edition relation are checked separately as in section 5; C.3.1 decides kind continuity | another kind merely by edition |
 | candidate fails ValueKind or slice applicability | `not-applicable`; no judgment | `unknown` or `false` |
 | candidate state changes | reevaluate in the relevant slice when admissible | a new signature or kind |
-| support or dependency becomes unavailable | `unknown` for an admissible request | `not-applicable` or known `false` |
+| support or a dependency becomes unavailable | retain an independently settled judgement or return `unknown` if the criterion is unsettled | `not-applicable` or automatic non-membership |
 | publication form changes | another form or carrier may express the same episteme | another signature, kind, or classification |
 
 ### C.3.2:9 - Required Worked Cases
@@ -58013,7 +57993,7 @@ A row carries label `Customer`, but the claim asks whether account holder #441 i
 
 #### C.3.2:9.5 - Unavailable measurement
 
-Pump #14 remains an admissible physical candidate in later slice `S-15`, but a required flow-measurement dependency is unavailable. The judgment is `unknown`. A safety guard may decline reliance; it does not return `false` or remove the pump from a historical `S-14` extension.
+For `S-15`, the maintenance team verifies that the edition of `CoolingPumpSignature-2` in use also applies to that slice and that Pump #14 is an admissible candidate. The required flow reading is missing and the remaining evidence leaves the criterion unsettled. The judgement is `unknown`. The safety guard may decline reliance. The result recorded for `S-14` retains its own basis.
 
 #### C.3.2:9.6 - Not-applicable request
 
@@ -58028,7 +58008,7 @@ A `KindSignature` for `RegisteredSupplierKind` declares supplier candidates and 
 | Case | Repaired use |
 | --- | --- |
 | Vehicle and PassengerCar | Check candidate admissibility and use C.3.1's obtaining branch; a registry result is an extension representation, not `U.EntitySet`. |
-| AuthenticatedRequest | Name the standard and key-validity dependency. An admissible request with unavailable key support yields `unknown`; a non-request value is `not-applicable`. |
+| AuthenticatedRequest | Name the standard and key-validity dependency. If the remaining facts do not settle authentication, an admissible request with unavailable key support yields `unknown`; a non-request value is `not-applicable`. |
 | AdultPatient | Pin jurisdictional threshold, measurement time, and candidate identity. A patient with missing birth support is `unknown`; a non-person value rejected by ValueKind is `not-applicable`. |
 
 ### C.3.2:11 - Work Boundary
@@ -58060,7 +58040,7 @@ A kind may classify an already identified W. A kind symbol, work label, plan, or
 | `CC-C32-2` | The signature's EntityOfConcern is the kind, and its content names candidate ValueKind/domain, criterion, applicability, scheme, assumptions, dependencies, formality, and any extent rule. |
 | `CC-C32-3` | Candidate mismatch or slice outside applicability yields `not-applicable` and no judgment; only admissible requests return `true`, `false`, or `unknown`. |
 | `CC-C32-4` | The directly governed condition named by the criterion decides satisfaction. Evidentiary use alone does not constitute an independently governed condition; an episteme, relation, status, or publication occurrence may be the condition when its direct pattern says so. |
-| `CC-C32-5` | Missing support or unavailable dependency for an admissible request yields `unknown`, distinct from known `false`. |
+| `CC-C32-5` | An admissible evaluation yields `unknown` when missing support or an unavailable dependency leaves the criterion unsettled. Preserve a conclusion established by the remaining facts. |
 | `CC-C32-6` | No world-side collection-belonging claim, `U.EntitySet`, collection holon, or direct classification occurrence is inferred from judgment or extension. |
 | `CC-C32-7` | A separate classification assertion is a C.2.1 episteme and creates neither candidate nor kind. |
 | `CC-C32-8` | Subkind checks compare admissible judgments and use C.3.1's criterion-entailment or exhaustive closed-domain branch; samples only support an assertion. |
@@ -58095,7 +58075,7 @@ The kind, its declaration, pre-judgment applicability, one admissible candidate 
 
 ### C.3.2:17 - SoTA-Echoing
 
-A refusal can suffice when the receiver needs only the guard decision. If the receiver needs classification or a further action, `C.3.2:6` preserves the relevant differences: an unsuitable request yields `not-applicable` and no judgment; missing grounds for an admissible request yield `unknown`; an admissible candidate's known criterion failure yields `false`. Collapsing them into `false` would assert non-membership for a mismatch or missing grounds. Correct the request or seek missing grounds only when a further answer is needed; an adequate negative or unresolved answer can finish the work.
+A refusal can suffice when the receiver needs only the guard decision. If the receiver needs classification or a further action, `C.3.2:6` preserves the relevant differences: an unsuitable request yields `not-applicable` and no judgment; an admissible request yields `unknown` when the available facts leave the criterion undecided; an admissible candidate's known criterion failure yields `false`. Collapsing them into `false` would assert non-membership for a mismatch or missing grounds. Correct the request or seek missing grounds only when a further answer is needed; an adequate negative or unresolved answer can finish the work.
 
 ### C.3.2:18 - Relations
 
@@ -58192,7 +58172,7 @@ Another assertion, mapping expression, card, signature, scheme edition, or publi
 
 #### C.3.3:6.3 - Order & Monotonicity
 
-**KB-05 (Monotone order).** If a bridge assertion states that source order fact `SubkindOfObtains(k1, k2; sourceRS)` is preserved, it SHALL designate target kinds `k1'` and `k2'`, the respective obtaining `KindBridge` relations from `k1` to `k1'` and from `k2` to `k2'`, and the basis on which `SubkindOfObtains(k1', k2'; targetRS)` holds. Identify a target `R_sub : U.SubkindOf` occurrence only when a receiving use needs occurrence identity.
+**KB-05 (Monotone order).** To claim that source fact `SubkindOfObtains(k1, k2; sourceRS)` survives transfer, identify its two target endpoints. For each endpoint that changes kind, establish the directional `KindBridge` from source to target. For an endpoint that remains the same kind, establish identity under the two declarations. Establish `SubkindOfObtains(k1', k2'; targetRS)` using the target criteria or its closed-domain test (C.3.1). If another claim relies on that order, check separately that the premises it needs survive the transfer. Identify a target `R_sub : U.SubkindOf` occurrence only when its identity matters to the receiving use.
 **KB-06 (No inversions).** A bridge assertion MUST NOT state preservation when the mapped target order is inverted. If `SubkindOfObtains(k2', k1'; targetRS)` holds for distinct mapped kinds and the required forward fact `SubkindOfObtains(k1', k2'; targetRS)` is established not to hold, state non-preservation and the loss. If the required target order cannot be settled, state `unknown`; do not turn non-settlement into either preservation or inversion.
 **KB-07 (Collapse semantics).** A bridge assertion may classify selected source subkind distinctions as collapsed when several source kinds correspond to one target kind. The assertion SHALL designate the affected obtaining `U.SubkindOf` relations and state the lost properties; the direct bridge relation does not alter either local order.
 
@@ -58298,7 +58278,7 @@ The obtaining bridge relates source kind `AdultPatient` to independently identif
 | **KB-02** | A KindBridge maps neither Scope nor sense; add A.2.6 when the receiving use needs a scope relation, and F.9 when it needs a sense relation. |
 | **KB-03** | Participants, distinctness, direction, predicate, applicability, definedness, and participant-determined identity are recoverable. Scheme/signature/assertion/card/publication editions qualify interpretation or reliance but do not reidentify the occurrence. |
 | **KB-04** | Receiving classification checks admissibility before a fresh three-valued judgment. Source truth is never copied; bridge refusal does not rewrite the receiving result. |
-| **KB-05** | An order-preservation assertion names source and target subkind facts and the two bridge relations used. |
+| **KB-05** | An order-preservation assertion names the source and target subkind facts and establishes identity or a directional bridge at each endpoint. |
 | **KB-06** | Inversion is non-preservation with loss; unsettled order remains unknown. |
 | **KB-07** | Collapse designates affected source order facts and lost distinctions without rewriting either kind order. |
 | **KB-08** | `CL^k` is an assessment in the bridge assertion and does not alter kind identity, formality, scope, or abstraction facet. |
@@ -58366,7 +58346,7 @@ The third object is a C.2.1 declaration episteme. Its effective scheme makes sou
 | --- | --- |
 | Local specialization vs common core | A use needs tailoring without forking the base kind. |
 | Expressivity vs determinism | Constraints must remain reproducibly checkable. |
-| Applicability vs uncertainty | Candidate/slice mismatch stops before the judgment; missing facts preserve `unknown`. |
+| Applicability vs uncertainty | A candidate or slice outside the declaration receives no judgment. In an admissible case, `unknown` means that the available facts do not settle the combined criterion. |
 | Scope vs candidate constraints | Conditions on ClaimScope stay under A.2.6; conditions on the candidate enter classification. |
 | Reuse vs proliferation | Stable conceptual distinctions may warrant a separately identified kind, but declaration reuse alone does not. |
 | Locality vs identity | A changed locality prompts comparison of membership distinctions, not automatic bridging. |
@@ -58397,7 +58377,7 @@ When a use moves to another practice, source, or team, compare the base-kind mem
 - if independently identified kinds are distinct and the use claims a directional correspondence, establish the C.3.3 `KindBridge`; use the receiving signature and adaptation declaration and, when the receiving use is candidate-bearing, make a fresh receiving judgment; and
 - if two adaptation declarations differ in constraints or bindings, a separate `KindUseAdaptationCorrespondenceDeclaration` may name source declaration as EntityOfConcern and state target, direction, deterministic rule, definedness, loss, and effective scheme. It creates no bridge or target truth.
 
-A stable conceptual refinement may justify another kind and an obtaining C.3.1 subkind fact. A declaration, correspondence, judgment, catalog row, or representation creates neither.
+A recurring local test can distinguish members of a narrower kind. Identify that kind by its criterion, then use C.3.1 to establish its relation to the base kind. A declaration or catalogue row can record the result.
 
 ### C.3.4:6 - Norms and Invariants
 
@@ -58405,7 +58385,7 @@ A stable conceptual refinement may justify another kind and an obtaining C.3.1 s
 
 **KUA-01 (Definition).** A `KindUseAdaptationDeclaration` SHALL be a named, versioned C.2.1 declaration episteme with exact base kind as EntityOfConcern, effective scheme, pinned base signature, receiving use, adaptation type, candidate constraints, vocabulary bindings, applicability, dependencies, intended guard use, and separate scope expectations. Its formality characterizes the episteme.
 
-**KUA-02 (Not a new kind).** A declaration MUST NOT introduce a kind or subkind fact. Stable refinement requires an independently recovered kind and C.3.1 obtaining test.
+**KUA-02 (Not a new kind).** A declaration MUST NOT introduce a kind or subkind fact. Claiming a new subkind requires an independently identified kind and the C.3.1 test for inclusion.
 
 **KUA-03 (Admissibility before judgment).** Fixed candidate, kind, base-signature edition, adaptation-declaration edition, and slice first yield `admissible` or `not-applicable`. Only an admissible request yields `true`, `false`, or `unknown`; implicit `latest` and guard-result coercion are forbidden.
 
@@ -58431,7 +58411,7 @@ A stable conceptual refinement may justify another kind and an obtaining C.3.1 s
 
 ### C.3.4:7 - Invariants and Non-goals
 
-- **No Scope leakage.** An adaptation declaration cannot widen or narrow Claim scope G; context conditions are enforced by A.2.6 guards.
+- **No Scope leakage.** A constraint adaptation adds a test of candidate features. A vocabulary-only adaptation binds a local name and preserves the base judgement. Each declaration identifies the slices in which its constraint or vocabulary binding applies. A separate claim has its own scope G under A.2.6. To use the declarations as models and claim strict refinement, compare them for the same inquiry under B.5.MR. An additional condition already implied by the base criterion can leave every answer unchanged.
 - **Identity preservation.** The base kind remains `k`; the declaration does not change its `EntityOfConcern`.
 - **Aggregation unaffected.** Adaptation and correspondence declarations do not change the applicable F rule under C.2.3 or the justified support-composition model or non-aggregate synthesis under C.2.2; guards route candidate-feature predicates to the adaptation judgment and context predicates to Scope.
 
@@ -58550,7 +58530,9 @@ Reviewer questions:
 
 Teams need a quick answer to a planning question: is this local kind intended as a curated instance-like cohort, a behavioral pattern, a formal invariant-bearing kind, or a kind considered up to structural equivalence? The answer can guide where declaration rigor and assurance effort are likely to pay off. An ordinary description of those planning needs is sufficient when a shared tag adds no useful distinction.
 
-KindAT gives that planning vocabulary while keeping the governing objects separate:
+KindAT records how one local kind is treated for catalogue and planning work. Comparing the levels of abstraction of two models requires a shared inquiry and interpretation (B.5.MR). Suppose one-day and three-day schedules both satisfy a service policy. A revised model keeps the earlier commitments and limits the interval to at most two days. If the one-day schedule is still feasible, the three-day schedule shows which previously possible answer the model excludes. The kind of service order can keep the same K tag throughout.
+
+Use the governing objects for their respective decisions:
 
 - the local kind and its order remain under C.3/C.3.1;
 - the `KindSignature` remains a declaration episteme whose expression properties may change under C.2.3;
@@ -58667,8 +58649,8 @@ These are planning cues, not default F values, R values, classification results,
 
 ### C.3.5:9 - Worked mini-examples (informative)
 
-- **K0.** `Account_US_GAAP_2025_Q1_Cohort`: use candidate judgments in the pinned quarter slice; do not infer a broad kind from one query result.
-- **K1.** `CacheableRequest`: make retry/idempotence behavior evaluable in a named signature edition and test diverse failure modes.
+- **K0.** `Account_US_GAAP_2025_Q1_Cohort`: suppose the approved quarter roster defines this cohort. Check the account identifier against that edition of the roster. Counting the confirmed entries answers a separate question.
+- **K1.** `RetrySafeRequest`: the declared criterion permits repeating a request after a lost reply without duplicating its intended effect. Check that property for the admitted failures, including a reply lost after the first execution completed.
 - **K2.** `Account`: use explicit posting and balance invariants, test relevant subkinds, and evaluate each candidate with the signature edition and slice.
 - **K3.** `UndirectedGraph` up to node relabeling: state the equivalence notion and require equivalence witnesses that preserve it. Any KindBridge use additionally needs the distinct-kind correspondence and preservation basis required by C.3.3.
 
@@ -58929,7 +58911,7 @@ When a receiving R model uses penalties `Phi(CL_scope)` and `Psi(CL_kind)`, each
 
 **E1 — Same-context braking claim.** A policy quantified over `Vehicle` pins `VehicleSignature@v4`; the receiver pins `PassengerCarSignature@v3`. Declaration admission establishes `SubkindOfObtains(PassengerCar, Vehicle; plantVehicleScheme)`.
 
-Applying the policy to VIN-17 evaluates `J(VIN-17, PassengerCar, v3, S-plant)`; on `true`, C.3.1 monotonicity supplies the Vehicle-side consequence needed by the universal claim. A missing axle dependency yields `unknown` and a separate refusal.
+Applying the policy to VIN-17 evaluates `J(VIN-17, PassengerCar, v3, S-plant)`; on `true`, C.3.1 monotonicity supplies the Vehicle-side consequence needed by the universal claim. If axle data are missing and the remaining facts do not settle this VIN’s classification, the judgement is `unknown` and the guard separately refuses the use.
 
 **E2 — Cross-plant reuse.** An obtaining KindBridge relates source `Vehicle` to target `TransportUnit`; its assertion records a collapsed EV/ICE distinction and `CL^k=2`. The target signature is independently authored.
 
@@ -58992,12 +58974,12 @@ A product-family or platform distinction belongs in Scope only when it is a cont
 **Guard_RegChange(change, impactedDeclarations, impactedScopes).**
 
 1. Decide whether the change alters criterion, reference scheme, applicability, or more than one.
-2. Author the required declaration episteme, check its signature qualification and any edition relation under C.3.2:5, and let C.3.1 settle kind continuity.
+2. If the declaration’s criterion, interpretation or applicability changes, identify the required edition under C.3.2:5 and use C.3.1 to settle kind continuity. A change confined to the policy’s jurisdiction or effective period can leave the entire classification declaration in force.
 3. Update Scope independently when jurisdiction/version/time coverage changes.
 4. Reassess whether the receiving use now requires a correspondence between distinct kinds, and, when it does, the obtaining KindBridge relation and its assertion's mapping, loss, evidence, admitted use, and any `CL^k` required by the consumed assurance or calibration account.
-5. Evaluate affected exact candidates for the new receiving use under the new declaration edition while preserving every prior judgment indexed to its prior edition and slice; do not edit a set representation or rewrite historical judgments as a substitute.
+5. For an affected candidate use, apply the declaration in force in the receiving slice. Preserve judgements already made under their own editions and slices. If the only changed decision concerns where the policy applies, reassess its coverage and reuse classification results whose inputs and grounds still hold.
 
-**Guard_RegXContextUse(P, candidate, sourceKind, targetKind, targetSignatureEdition, S_target).** Apply `Guard_XContext_Typed` with the exact candidate and use its receiving judgment. A missing target dependency yields `unknown`; it is not cured by a high bridge assessment.
+**Guard_RegXContextUse(P, candidate, sourceKind, targetKind, targetSignatureEdition, S_target).** Use `Guard_XContext_Typed` to check that the candidate and slice are admissible before evaluating the target criterion. If the admissibility test returns `not-applicable`, the guard refuses the use without a classification judgement. For an admissible request, a missing target dependency yields `unknown` if the available facts leave the criterion unsettled. The bridge assessment supplies neither the missing fact nor the judgement.
 
 
 
@@ -59008,7 +58990,7 @@ A product-family or platform distinction belongs in Scope only when it is a cont
 
 **GDPR and CCPA.** Two source kinds relate to independently identified product-context kinds through separate bridges/assertions. Each policy has its own jurisdiction/time Scope. A data item is governed by a fresh target judgment; an alias table is support, not classification.
 
-**Export control.** The shipping policy pins the target product signature edition, shipment candidate, destination/end-use slice, and date. Category correspondence and Scope translation have separate bridges. The exact product judgment and the shipping guard disposition remain separate; higher residual risk may require manual review.
+**Product classification and shipping.** Evaluate the product against its category in the target signature edition. The shipping policy uses that judgement together with the particular shipment, destination, intended use and date. Establish the kind correspondence or scope translation where each is needed. If the shipment exceeds the policy’s residual-risk threshold for automatic release, the policy may call for manual review even when the product classification is settled.
 
 **IFRS and US GAAP Lease.** Each authority kind and local corporate kind remains independently identified. The bridge assertion records the short-term-exception loss. Test planning targets boundary candidates under pinned target declarations rather than treating one shared label as truth.
 
@@ -59042,7 +59024,7 @@ A product-family or platform distinction belongs in Scope only when it is a cont
 ##### C.3.A:B.1 - What typed assurance adds [I]
 
 
-VA can prove a claim quantified over an exact declared kind; LA can exercise exact candidates and boundary cases under pinned editions and slices; TA can qualify the tools used to produce support. None of those lanes turns evidence existence into classification truth.
+Verification (VA) can establish a consequence for all members of the declared kind under the stated assumptions. Validation (LA) can test particular candidates and boundary cases. On reuse, check the types and meanings the argument connects (C.2.2:4.6). If the evidence depends on a tool, check separately whether the version used was qualified for that operation. A classification judgement still needs the candidate facts and the applicable criterion.
 
 
 
@@ -59061,7 +59043,7 @@ VA can prove a claim quantified over an exact declared kind; LA can exercise exa
 
 **EA-6 (Freshness).** Evidence windows and tool/declaration editions SHALL be explicit and tied to the governed slice. Expiry causes refusal or `unknown` at the predicate it disables; it does not widen Scope.
 
-**EA-7 (TA separation).** Tool qualification SHALL remain distinct from content proof, candidate facts, classification judgment, and receiving disposition.
+**EA-7 (Tool qualification).** Tool qualification SHALL remain distinct from checking the types and meanings used in an inference, proving a claim, establishing candidate facts, classifying a candidate and deciding whether to rely on the result.
 
 **EA-8 (No scope-by-wording).** More general wording, more matching candidates, or additional evidence-matrix rows SHALL NOT widen G. A `ΔG+` change requires the new support or sufficiently congruent bridge basis required by A.2.6; otherwise retain or narrow the declared Scope.
 
@@ -59085,7 +59067,7 @@ Rows plan declared distinctions; they do not classify every candidate. A proof-o
 - **VA-1.** A proof carrier SHALL cite the exact claim, quantified kind, `KindSignature` edition, and assumed scope slices.
 - **VA-2.** A proof of a universal claim need not invent a candidate; application to an actual candidate uses `Guard_CandidateUse` separately.
 - **VA-3.** Cross-context proof reliance SHALL recover the target declaration and any required bridge channels, with their loss and R consequences.
-- **VA-4.** Tool-kernel qualification belongs to TA and does not raise the declaration's F or candidate truth.
+- **VA-4.** If the proof check relies on a particular kernel, establish that the kernel used is qualified for this check. The declaration retains its expression properties, and classifying a candidate still requires the applicable criterion.
 
 Example: a proof over `PassengerCarSignature@v4` assumes a dry-road slice. Reuse at Plant-B requires kind-identity and scope settlement, with bridges only where required. Application to VIN-17 then uses the Plant-B target signature and target judgment.
 
@@ -59099,24 +59081,24 @@ Example: a proof over `PassengerCarSignature@v4` assumes a dry-road slice. Reuse
 - **LA-3.** A KindBridge assertion that records collapsed distinctions SHALL prompt assessment of their effect on the intended claim and use. Where those distinctions matter, repair coverage, restrict the supported use or refuse reliance. The bridge assertion does not alter target truth.
 - **LA-4.** Freshness and SpanUnion independence SHALL remain explicit.
 
-Example: rows `PassengerCar` and `LightTruck` use pinned signature editions; columns cover dry/wet slices. The tested VINs are exact candidates. A missing sensor dependency for one VIN yields `unknown`, not a negative vehicle classification.
+Example: rows `PassengerCar` and `LightTruck` use pinned signature editions; columns cover dry/wet slices. The tested VINs are exact candidates. If the missing sensor reading leaves one VIN’s classification unsettled, record `unknown` for that VIN.
 
 
 
-##### C.3.A:B.6 - TA lane [A/I]
+##### C.3.A:B.6 - Qualify a tool for its intended use [A/I]
 
 
 Qualify provers, checkers, measurement pipelines, and classifiers separately. A classifier output can support an assertion about `J`; the tool neither becomes the candidate nor makes the governed criterion hold. Version drift may make the support unavailable and hence produce `unknown` for a candidate-bearing use.
 
-- **TA-1.** Every tool whose qualification is relied on by VA or LA SHALL identify its exact version and qualification status, and the receiving guard SHALL recover that declaration when the receiving use relies on that qualification.
-- **TA-2.** Missing or weaker tool qualification MUST NOT be hidden by lowering the owning episteme's F or widening G. The receiving policy may require additional independent support, reduce or condition R, or refuse the use while preserving the exact unavailable-support reason.
+- **B.6-1.** When a relied-on proof, observation or correspondence between meanings depends on tool qualification, the receiving guard SHALL recover the tool version used, the operations and conditions its qualification covers, and its qualification status at the time that matters for this use.
+- **B.6-2.** Missing or weaker tool qualification MUST NOT be hidden by lowering the owning episteme's F or widening G. The receiving policy may require additional independent support, reduce or condition R, or refuse the use while preserving the exact unavailable-support reason.
 
 
 
 ##### C.3.A:B.7 - Evidence guards
 
 
-**Guard_EvidencePlan_Typed** SHALL check the plan's exact declaration editions and context slices, its bridge/assertion needs, and the candidate-selection, freshness, independence, and TA conditions required by the planned use. These inputs may be supplied directly or through accessible exact returns. A planned classification does not count as a candidate judgment.
+**Guard_EvidencePlan_Typed** SHALL check the plan's exact declaration editions and context slices, its bridge/assertion needs, and the candidate-selection, freshness, independence, and tool qualification required by the planned use. These inputs may be supplied directly or through accessible exact returns. A planned classification does not count as a candidate judgment.
 
 **Guard_EvidenceAttach_Typed** SHALL make every evidence unit's binding to its exact claim/use, declaration edition, slice, candidate and judgment for candidate-specific evidence or a candidate-bearing receiving use, support relation, freshness, and bridge consequences recoverable, directly or through accessible exact returns. It SHALL preserve `unknown` and the separate attach/refuse disposition.
 
@@ -59130,7 +59112,7 @@ Qualify provers, checkers, measurement pipelines, and classifiers separately. A 
 | one golden case stands for a kind | state the declaration-level claim and plan explicit subkind/boundary coverage |
 | a matrix row is treated as classification | name exact candidates and judgments in candidate-bearing cells |
 | “latest data” | pin freshness and time policy |
-| trusted tool substitutes for content support | keep TA separate and recover the governed candidate facts/support |
+| trusted tool substitutes for content support | recover the proof and premises or other support for the claim, including candidate facts when the claim concerns an individual candidate |
 | bridge presence substitutes for target evaluation | use the independent target declaration and, for a candidate-bearing use, a fresh target judgment |
 
 
@@ -59138,7 +59120,7 @@ Qualify provers, checkers, measurement pipelines, and classifiers separately. A 
 ##### C.3.A:B.9 - End-to-end example [I]
 
 
-A two-plant braking claim pins the `PassengerCar` declaration and Plant-A scope. VA proves the quantified claim over that declaration. LA tests exact VINs in dry/wet slices and records their judgments. TA identifies tool versions.
+A two-plant braking claim pins the `PassengerCar` declaration and Plant-A scope. VA proves the quantified claim over that declaration. LA tests exact VINs in dry/wet slices and records their judgments. The test record identifies the tool version used and which measurements its qualification covers. Comparing the meanings of the measured quantities at the two plants requires its own evidence.
 
 Plant-B reuse recovers the target declaration and any required bridges with their loss and R consequences; each Plant-B candidate is evaluated afresh before evidence is attached.
 
@@ -59169,7 +59151,7 @@ ESG MUST NOT widen G to hide incompatibility, treat a label as a candidate judgm
 
 Open this Method–Work guard when capability, method and WorkPlan are part of the prospective or actual Work use. A transformation identified under A.3/A.3.4 may already be a sufficient result: natural, spontaneous or formal change, for example, can be described without claiming Work.
 
-If a broader scale-free-agency or Work claim matters, apply A.13 and then independent A.15.1 admission. Reflexive cases require separately grounded acting and affected positions. Joint or non-separable cases keep their direct dynamics, interaction or causality governors without an arbitrary actor-target split.
+Apply A.13 when the claim concerns scale-free agency. If the receiving use also claims that particular Work occurred, establish that occurrence under A.15.1. Identify who acts and what changes. For A.12:4.2 Reflexive Split, establish two distinct participants and the part relation of each to their common containing holon. Where the work instead concerns joint dynamics without separable acting and affected participants, use the applicable dynamics, interaction or causality account.
 
 Method–Work use has two different boundaries.
 
@@ -59208,7 +59190,7 @@ A conforming Method–Work check SHALL:
 
 **ESG braking policy.** The claim pins `VehicleSignature@v4` and the dry/wet TargetSlice. The consumer is restricted to `PassengerCar`, and `SubkindOfObtains(PassengerCar, Vehicle; plantVehicleScheme)` holds under the paired exact declaration editions.
 
-For VIN-17, evaluate `J(VIN-17, PassengerCar, passengerCarEdition, TargetSlice)=true`; C.3.1 monotonicity then supplies the Vehicle-side classification needed by the universal claim. An unavailable brake-configuration dependency would yield `unknown`, and the transition would refuse separately.
+For VIN-17, evaluate `J(VIN-17, PassengerCar, passengerCarEdition, TargetSlice)=true`; C.3.1 monotonicity then supplies the Vehicle-side classification needed by the universal claim. If the unavailable brake-configuration data leave this classification unsettled, the judgement is `unknown` and the transition guard separately refuses the use.
 
 **Risk-score Work entry and occurrence.** `ComputeRiskScore` capability is considered for request `req-884` in JobSlice `api-v2.3/eu-west/t-204`. The entry guard evaluates the request under the pinned `AuthenticatedRequest` signature. If true, it may admit execution; no Work occurrence yet follows.
 
@@ -65132,7 +65114,7 @@ The examples distinguish the field candidate from a system, episteme and the rel
 | **Concept contribution** | Acceptance clauses and evaluation templates bound to exact rigs and windows are epistemes used by the plant system and its Work, not concepts owned by the system. | Canon content can include causality models, design rules, proofs, benchmarks, formal knowledge bases, proof carriers, and concept schemas under their direct episteme, form, or representation patterns. | Ask which exact claim-bearing contribution is constitutive and which whole-forming claim states how it connects to the assembly; conceptual relevance alone creates no part. |
 | **Symbolic representation** | Local SOP and checklist notation can express plant procedures for one bounded use. | CLIF, RDF/TriG, proof scripts, diagrams, and other notation packages can express or represent canon content. | E.17/E.24.PUB and C.29 govern form, carrier, publication, and representation; symbolic appearance identifies none of System, Episteme, or Discipline. |
 | **Assembly contrast** | A line-specific standard, plant procedures, and a certifying unit are exact epistemes, Methods, systems, system-role kinds or assignments, or Work inputs around a possible `Safety-Plant-A` field candidate. | Canon papers, formal models, a journal or committee, and system-safety or resilience-engineering tradition claims are likewise separately governed around `SafetyEngineering-SE`. | A list or formula alone establishes neither candidate's construction. For either scene, recover exact parts, obtaining `disciplinePartOf` occurrences, whole-forming couplings, assembly, reidentification, whole characteristic, and larger-assembly compatibility. |
-| **Evidence-lane contrast** | LA test campaigns with freshness windows, VA design proofs, and TA tool qualifications can support exact plant-side claims. | VA proofs over kinds, LA replications or meta-analyses, and TA evidence for checkers can support exact canon or construction claims. | A.10 keeps the exact source, currentness, and reliance needed by the use. When an actual named assurance claim is current, B.3 adds only the characteristics and result fields that its argument consumes. Evidence changes no System, Episteme, or Discipline identity and creates no part relation. |
+| **Evidence-lane contrast** | Plant tests can supply validation evidence (LA). A design proof can supply verification evidence (VA). Check that the quantities used by the tests and proof correspond when the argument connects them, and check any tool qualification on which the argument relies. | A proof over kinds can establish a formal consequence. Replications or a meta-analysis can support an empirical claim. If a checker produced a relied-on result, establish its qualification for that check. | A.10 keeps the exact source, currentness, and reliance needed by the use. When an actual named assurance claim is current, B.3 adds only the characteristics and result fields that its argument consumes. Evidence changes no System, Episteme, or Discipline identity and creates no part relation. |
 
 #### C.20:5.1 - Safety engineering as a positive construction
 
@@ -65255,7 +65237,7 @@ A discipline is durable because a governed practice-and-knowledge assembly can c
 
 Keeping organizations, Work, methods, epistemes, structures, Bridges, comparisons, publications, evidence, and health readings separate lets each object affect the discipline claim through its actual relation, without making it an automatic part or identity discriminator.
 
-This separation keeps every discipline-related claim local to an exact EntityOfConcern and effective ReferenceScheme, comparison admissible only under its current Scale and comparator declarations, and ordinary evidence-bearing reliance explicit under A.10 and any actual named assurance claim explicit under B.3. It also lets plural traditions, obtaining directed Bridges with use-specific tolerated loss and any material observed loss kept visible, typed health readings, and TA/VA/LA evidence lanes remain inspectable together.
+This separation keeps every discipline-related claim local to an exact EntityOfConcern and effective ReferenceScheme, comparison admissible only under its current Scale and comparator declarations, and ordinary evidence-bearing reliance explicit under A.10 and any actual named assurance claim explicit under B.3. It also lets plural traditions, obtaining directed Bridges with use-specific tolerated loss and any material observed loss kept visible, typed health readings, and the grounds for verification, validation and correspondence of meanings remain inspectable together.
 
 Scale compliance, B.3's requirement for an applicable domain model and stated assumptions, and Bridge hygiene stay with their subject patterns: C.20 adopts their constraints for a named use but defines no universal field score or reliability fold. Charisma, prestige, institutional reach, or a field name cannot substitute for the required construction, Characteristics, and source evidence.
 
