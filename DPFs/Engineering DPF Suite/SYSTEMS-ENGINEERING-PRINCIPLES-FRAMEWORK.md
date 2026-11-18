@@ -3428,11 +3428,7 @@ silently collapsing the candidate set or restarting the whole project.
 
 ### SYSE.5:5 - Worked Case: Heat-Pump Plant Control and Protection
 
-An occupied building has a heat-pump plant whose controller must respond to electricity-price and grid-flexibility
-signals while maintaining room comfort and protecting compressors. The engineering team must choose a control
-architecture for plant configuration `HP-2` that remains useful for the next three heating seasons. Earlier
-concept-development Work produced two viable use/System concepts and one unresolved mismatch: centralized
-optimization improves plant coordination, but communication loss must not remove local protection.
+An occupied building has a heat-pump plant whose controller must respond to electricity-price and grid-flexibility signals while maintaining room comfort and protecting compressors. The engineering team must choose a control architecture for plant configuration `HP-2` for the next three heating seasons. Earlier concept work identified two viable use/System concepts. A supervisor could use shared plant and tariff information to coordinate unit set-points. Any proposal using that connection must retain the required local protection during communication loss. The team still needs a comparison to establish whether central coordination improves the building result under the specified conditions.
 
 During allocation Work, the engineers restore four contribution families as claims whose bearer arrangements
 remain to be chosen:

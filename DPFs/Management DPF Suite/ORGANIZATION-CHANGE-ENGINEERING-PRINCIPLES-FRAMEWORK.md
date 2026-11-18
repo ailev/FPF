@@ -1352,9 +1352,9 @@ Practitioners design the contribution path before finalizing boxes. Every stable
 
 ### OCE.4:5 - Archetypal Grounding -- PumpWorks Contribution Architecture
 
-PumpWorks continues from the `OC-PW-STREAM-ENABLING` concept. The current decision concerns weekly evidenced AI-inspection releases while field service continues. `PumpWorks-EngineeringOrg` is the organization; the proposed stream configuration and its relations remain possible-future content.
+PumpWorks takes the revised `OC-PW-STREAM-ENABLING` option from OCE.3 into detailed design. It needs weekly evidenced AI-inspection releases alongside protected field service. `PumpWorks-EngineeringOrg` is the organization. Its first proposed Electrical interval is already occupied by service diagnostics. A different qualified interval, recognition of the specialist's cross-group contribution and an available exception route are conditions of this design. The owners can work out its interfaces now.
 
-The selected design describes several proposed structures: contribution relations for supplying results to receiving decisions; decision relations that separate safety-evidence acceptance from release authorization; access relations for the test rig and model artifacts; provider-support service relations; and field-information relations for returning operating observations.
+For that option, specify how each result reaches the person who needs it, who may accept safety evidence, who may authorize release, who has access to the test rig and model artifacts, and how field observations and provider support reach the group.
 
 | Proposed crossing | Contribution-relation specification | Acceptance, exception, and evidence need |
 | --- | --- | --- |
@@ -1371,7 +1371,7 @@ For the wider weekly-release decision, however, moving package assembly into Ele
 
 Now suppose the product team asks for C8 after Electrical has committed to C7. Electrical’s declaration that C7 is ready does not satisfy the C8 request. Integration identifies the missing C8 condition, and the affected participants can negotiate a different package and review time through `LDR.2`. Use `OPS.13` to establish whether the promise holder has accepted any change. The C7 obligation continues on its existing terms until an authorized change takes effect. The C7 evidence remains useful for that configuration. A proposed new interval still needs rig access and the appropriate safety acceptance. Reconsider other boundaries where the revised burden would affect them.
 
-The design groups recurring release-integration contribution without dissolving Electrical, Safety, platform, provider, or field-service specialization. Its specifications return a position-design need for stable release-evidence integration to `OCE.5`, a holder/access question for `OCE.6`, and a product-module/organization-boundary question for `OCE.7`.
+The proposed arrangement groups recurring release integration while retaining Electrical, Safety, platform, provider and field-service specialization. Send the design of the integration position to `OCE.5`, its holder and access conditions to `OCE.6`, and the product-module and organization boundary question to `OCE.7`. Before promising weekly releases, obtain the replacement specialist interval, protected service coverage, recognized cross-group work and fallback from their owners. If these cannot be supplied, the smaller repair to the Electrical–Integration handoff remains available for comparison. A narrower service promise requires its owner's decision.
 
 The table describes proposed relations. In later realization, use `OCE.9` to compare actual Work and independently evidenced relation occurrences with the design and determine whether a bounded organization-capability increment is supported.
 
