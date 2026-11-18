@@ -1070,7 +1070,7 @@ When a bounded choice is requested, establish or use the inputs and conditions r
 
 | `C.11` input or condition | HCD.4 use |
 | --- | --- |
-| `DecisionSubject` and `DecisionSubjectGranularity` | The person, team or other system making this choice and the level at which it makes it. Use `A.13` when it is unclear which person, team or other agent made or can make the choice. |
+| `DecisionSubject` and `DecisionSubjectGranularity` | Identify the system to which this choice is attributed. A person can choose within a delegated budget, or a team can choose under its collective rule. State separately what each participant contributed and who holds the relevant authority. Use A.13 when attribution is unclear. |
 | `OptionSet` | Concrete options already on the table. HCD.4 does not generate a missing programme alternative. |
 | `PreferenceOrder` or `EvaluativeMeasure` | The explicit comparison basis, including protected claims and unacceptable critical errors. |
 | `BeliefState` | Current uncertainty, evidence limits, and live rivals shared across the options. |
@@ -1113,12 +1113,12 @@ The human holder is Engineer-P14. The later-Work demand is independent review of
 
 For Engineer-P14, preserve the three supported contributions. In unfamiliar cases, investigate whether the engineer generates and tests an alternative before accepting the AI’s claim. Prompt design remains a plausible alternative explanation for the missed errors. The comparison leaves the programme choice open.
 
-Engineer-P14 faces one person-level self-development-focus choice within a separately pre-authorized twelve-hour allocation. The constructed decision record captures the chooser's inputs and application of `C.11`:
+Engineer-P14 can choose a self-development focus within a separately authorized twelve-hour allocation. The constructed record shows how Engineer-P14 compares the options using C.11.
 
 | Decision value | Constructed case value |
 | --- | --- |
 | `DecisionSubject` | Engineer-P14. |
-| `DecisionSubjectGranularity` | Person-level; Engineer-P14 participates directly in the comparison. |
+| `DecisionSubjectGranularity` | Individual. The allocation delegates this choice of focus to Engineer-P14. Other participants may advise. |
 | `OptionSet` | `O1` preserve the profile without selecting a change; `O2` make independent AI-output challenge the priority for later programme comparison while preserving the three supported claims; `O3` defer a human profile-change priority and return the live prompt-design question to the Method/tool owner. |
 | `EvaluativeMeasure` | Prefer fewer accepted seeded safety-critical omissions while preserving source/configuration trace, specialist authority, auditable evidence, the forty-five-minute case limit, and reversibility. |
 | `BeliefState` | Two unfamiliar misses, a small sample, and a live prompt-design rival remain. |

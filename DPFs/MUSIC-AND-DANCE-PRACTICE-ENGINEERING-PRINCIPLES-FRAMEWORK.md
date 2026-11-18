@@ -8927,7 +8927,7 @@ For a present choice, identify the finite options addressing one music or dance 
 
 Identify what the claim about the choice requires.
 
-- The `DecisionSubject` and scope of its decision, including `DecisionSubjectGranularity` for a formal comparison.
+- Identify the `DecisionSubject`. In a formal comparison, `DecisionSubjectGranularity` identifies the unit making the choice, such as a solo performer or an ensemble deciding together. State separately which decisions its mandate covers.
 - Who performed or would perform the development work, and any assignment needed for its attribution.
 - The music or dance practice and its configuration at the time in question.
 - The intended consequence and affected participants or systems.

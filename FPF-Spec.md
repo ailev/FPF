@@ -59222,7 +59222,7 @@ After execution, actual `W = RiskScoreRun-2026-07-22T10:03Z-884 : U.Work` is ind
 
 **At a glance.** `C.11` is the choice-calculus pattern for the moment when options exist and the working question is which option to choose, including whether another probe is worth its cost before commitment.
 
-This is a bounded choice use of decision theory, not a claim that all decision problems have one level, a fixed purpose or discrete alternatives. **C.43** connects such a choice to construction of alternatives, conditional future responses, realization and revision in ongoing control. One option here may itself be a policy or trajectory whose construction and qualification belong to the relevant Method.
+The alternatives may include a policy or a trajectory. Use C.43 when the practitioner must also construct alternatives, connect a choice to later observations and actions, or revise the course during execution.
 
 ### C.11:1 - Problem frame
 
@@ -59231,23 +59231,23 @@ This is a bounded choice use of decision theory, not a claim that all decision p
 
 **Use this when.** Use this pattern when one `DecisionSubject` already has an `OptionSet` in hand and the question is how to choose among those already-available options under uncertainty, preference, causal or subjunctive dependence, and bounded probing or computation.
 
-**First output.** The first useful output explicitly identifies one `DecisionSubject`, one `OptionSet`, the comparison basis and `ChoiceRule`, and the resulting `ChoiceResult`. That result states whether the lawful choice is to choose now, reject the current set, probe more, or move to a neighboring question.
+**First useful result.** Identify who makes this choice, the alternatives, what each could lead to, and the rule used to compare them. State which option or options the rule supports, why all fail, what further inquiry is worth doing, or where the remaining question belongs. When another party decides, that comparison can serve as advice. To report an actual decision, establish who made it or which authorized procedure put its result into effect.
 
-If that first output still cannot be stated, the local comparison is unfinished or the question belongs to a neighboring pattern.
+When a choice is still open, give the recipient the comparison available now, the missing grounds and who can settle it. A supported recommendation or an unfinished comparison can be delivered before the holder decides.
 
 **First-minute questions.**
 
-- Who or what is actually choosing here, and at what chooser-bearing level?
+- Who or what makes this choice? If several participants contributed, to whom is the decision attributed?
 - What options are already on the table now?
 - What current basis is being used to compare them?
-- What next probe could still change the choice, if any?
+- What could a further observation or calculation change about the choice or what the recipient can rely on?
 - Is this still local choice, or has the question moved to a neighboring problem—for example, search, pool policy, selector-result declaration, publication availability, or enactment?
 
 **When advice still hides the decision.** Use `C.11.DUA` when a recommendation or evidence demand still needs its receiving question, demanded work or requirement merits recovered. Return here when a current chooser and options support a local choice. An already adequate choice uses this pattern directly.
 
 **Typical reroutes.** For candidate construction or development, use `C.38`–`C.40` as specified in §4.4; that section also distinguishes pool policy, selected-set publication and enactment. Use `A.13` when agency itself is at issue, or `A.18`/`A.19` when Scale bindings or a declared CharacteristicSpace or reusable predicate are the unresolved question.
 
-**What this pattern buys.** This pattern gives one stable place to compare classical, causal, success-first or subjunctive, bounded-resource, active-inference-adjacent, and quantum-like decision lines while keeping search, selection, and planning doctrine with their respective questions. In practice it buys one explicit answer to four questions: choose now, reject the current set, probe again, or reroute.
+**What the chooser gets.** The same options can yield different recommendations if they indicate an outcome, bring it about, or depend on what another chooser will do. Identify the dependence that matters, then check which alternatives the current facts support and what further inquiry could change.
 
 **Not this pattern when.** Do not start here when the current question is still generating candidate options, setting exploration or exploitation policy over a candidate pool, declaring selector-facing set-result content, making that result available to an audience, or sequencing execution under an operational plan.
 
@@ -59268,7 +59268,7 @@ Without an explicit place for choice calculus, search, candidate-pool policy, an
 | Choice doctrine versus candidate formation and generation | `C.11` must govern choice among already-available options without taking over their formation or development. |
 | Evidential, causal, and subjunctive dependence | The pattern must stay usable with classical decision language while making room for causal and success-first repairs where correlation is not enough. |
 | Decide now versus probe more | The chooser may need to stop and choose now, or spend more effort on information and computation first. The theory must make that trade legible. |
-| Decision subject versus narrower agent language | The chooser may be one person, one team, one organization, or another collectivity-bearing system. The pattern must not silently force all cases into one narrow `Agent` reading. |
+| Individual and collective choice | A person, a technical system or a body acting jointly can make a choice. Participation in the comparison does not by itself establish who made the decision. |
 | Minimal mathematical floor versus premature heavy formalism | The pattern needs a stable object stack for disciplined reasoning and inspection, but it should not treat a full quantum-like or geometry-heavy package as already settled. |
 
 ### C.11:4 - Solution
@@ -59299,20 +59299,20 @@ The OptionSet choice question begins only after an option set already exists. It
 
 #### C.11:4.2 - Decision discipline over a live option set
 
-A conforming `C.11` pass applies a choice discipline to an `OptionSet` and ends with one explicit `ChoiceResult` under one explicit `ChoiceRule`. Naming schools of decision theory does not complete the comparison.
+Apply the `ChoiceRule` to the available `OptionSet`. A completed comparison yields one explicit `ChoiceResult` under that rule. If the basis still leaves the requested single choice open, §4.2.4 explains what to return to the holder now.
 
-1. **Fix the chooser and the choice-bearing level.**
-   State one `DecisionSubject` and one `DecisionSubjectGranularity`.
-   If who or what carries the choice is disputed, recover the applicable basis for that attribution. Use `A.13` when the unresolved claim concerns precise agency.
+1. **Identify the chooser.**
+   Name the `DecisionSubject`. Use `DecisionSubjectGranularity` to identify the unit to which the choice is attributed in this arrangement, for example a controller, a committee or an organization acting through a delegate. If attribution to a component or its containing system changes the result, establish their actual relation and which decision each makes.
+   Distinguish the chooser from participants who provide evidence, advice or execution. Use `A.13` for a disputed claim about agency and the applicable assignment or mandate for a claim about who can decide.
 
 2. **Freeze the current option set.**
    State the already-available options being compared now as one `OptionSet`.
    If the rows are only labels or fragments and the question is several complete ways to obtain the same result, stop here and apply `C.38`. Use `C.39` when a way to obtain the result still needs explanation, or `C.40` when usable material needs feasible variation and examination. Use `C.18` when generation-account or archive/front claims are needed.
 
 3. **Make the comparison basis explicit.**
-   State one `PreferenceOrder` or one `EvaluativeMeasure`, plus one `BeliefState` and one `OutcomeModel`.
+   State the preference or measure, current facts and uncertainty, and the `OutcomeModel` used to estimate each option’s consequences. Identify the use for which the options must qualify and any condition that excludes an option regardless of its score. Apply the same interpretation, horizon and material assumptions across options.
    The comparison is not usable if some options are being judged under one belief state and other options under one later, unmarked update.
-   If two options are only comparable after one further probe or one model revision that changes the belief state or outcome model before comparison, say that the current comparison is unfinished and apply step 5; an unmarked basis shift does not complete the comparison.
+   If rival outcome models give different rankings, compare all relevant options under each credible model. Show which conclusions hold across them and which depend on an unresolved assumption. A new measurement may update a parameter or the model. A disputed preference or mandate requires its own decision.
 
 4. **Choose the dependence layer that governs the case.**
    Start from the evidential baseline when the choice is being compared through likely outcomes under the current `BeliefState`.
@@ -59321,19 +59321,19 @@ A conforming `C.11` pass applies a choice discipline to an `OptionSet` and ends 
    Use the least-committing dependence layer that still covers the live case, and do not switch layers across options without saying so explicitly.
 
 5. **Compare a live inquiry alternative before commitment.**
-   An inquiry alternative is live when a current proposal, consequential uncertainty, anomaly or applicable requirement supplies a plausible way for further information or computation to change this choice or its warranted use.
+   Consider another observation or computation when a plausible outcome could change the choice, the claim supporting it or the use for which it is admissible. Identify whose time or other resources the inquiry consumes. A mandatory check has the force and scope of its governing rule.
    Apply the probe-worthiness test to that alternative, stating the feasible probe, budget, cost and relevant information or computation value at the precision the choice needs. Otherwise this step adds no investigation or recording requirement. An empty form field does not activate inquiry, and no new search is required to certify that no other inquiry exists.
-   This rule is local or myopic: it judges the best next feasible probe over the current `OptionSet` and current comparison basis, not one full sequential or non-myopic experimental program. Richer `OED` lines may strengthen this doctrine, but the local `C.11` closure rule already has to decide whether the next feasible probe can still change the current choice.
-   If no feasible further probe fits the remaining `ProbeBudget`, or if the best available probe no longer justifies its `CostToProbe`, close under the current comparison basis.
-   If a feasible probe is still worth its cost, and that probe could still change which option survives or whether the current `OptionSet` should be rejected, run it, update the `BeliefState` and `OutcomeModel`, and return to step 3.
+   Compare the best attainable next probe for this choice. A longer sequential experiment design can be a separate question. If an inquiry is binding, apply its governing terms to eligibility or use.
+   When no worthwhile feasible probe remains, apply the choice rule to the evidence available. The cost of more inquiry can justify stopping. Selecting an option still needs grounds for its eligibility and preference. If a binding prerequisite remains unmet, keep the affected choice or use open, narrow it where the rule permits, or select an eligible alternative.
+   If the expected gain warrants a feasible probe, return `probe again` and name it. After someone performs the probe, use its actual result to update the comparison. An inconclusive observation can leave the ranking unchanged.
    If one choice result is already fixed and the remaining probe would change only execution-path description, call-plan ordering, enactment budget, or checkpointing of that chosen option, stop treating the probe as local choice doctrine and apply `C.24`.
 
-6. **Apply one `ChoiceRule` and emit one `ChoiceResult` plus the next question.**
-   End with one explicit result: `choose now`, `reject current set`, `probe again`, or `reroute because this is no longer local choice`.
-   If the result is `choose now`, name the selected option or retained tie-set and the comparison basis supporting it; add the outcome of a live inquiry comparison or a limitation needed by the decision or its recipient.
+6. **Apply the `ChoiceRule` and report what it supports.**
+   A completed comparison has one result form: `choose now`, `reject current set`, `probe again`, or `reroute because this is no longer local choice`. An open comparison can still inform the holder under §4.2.4.
+   For `choose now`, give the option or retained set and its grounds. State whether the alternatives in a retained set are equally preferred or incomparable, and which further decision, if any, remains.
    If the result is `reject current set`, name the reason no current option survives under the present basis and, when more work follows, the neighboring question that now takes over.
    If the result is `probe again`, name the next probe and the exact comparison defect it is supposed to repair.
-   A `C.11` pass is done only when it names the lawful choice result and the reason that result is lawful.
+   State the conditions under which the result follows from the rule. If another person or system must adopt the recommendation, the result can go to them now.
 
 ##### C.11:4.2a - Receive heterogeneous premises without relabeling them as signals
 
@@ -59360,23 +59360,23 @@ An inactive inquiry item requires no empty value, no no-probe statement and no w
 
 The comparison is still unfinished, not yet wrong but not yet closeable, when any of the following remains true:
 
-- the chooser is still shifting between person, team, organization, or another collectivity-bearing level;
+- the comparison moves between a participant’s preference and the collective decision without establishing whose rule applies;
 - the option set is still changing while the record also claims to rank the options;
 - one option is being judged under one belief state and another under one later update that is not itself declared as the next probe result;
 - one heavier dependence layer is invoked for rhetorical force, but the record never states what defect of the lighter comparison it repairs;
-- the record says more information would help, but never says which probe could still change the choice and why.
+- the record asks for more information without identifying a feasible inquiry and a plausible result that would change which option qualifies, the preference between options, or the claim on which the recipient could rely.
 
 ##### C.11:4.2.1a - Minimal admissible decision semantics
 
 This minimal choice doctrine does not settle every decision-theory dispute, but it already supports some semantic distinctions by value and rules out others.
 
-The following are lawful in this `C.11` body when they are stated explicitly:
+The comparison can use the following when their basis is explicit:
 
 - an incomplete or partially ordered `PreferenceOrder`, with unresolved alternatives retained explicitly, a worthwhile further probe, or an unfinished comparison; incomparability alone does not justify `reject current set`, which requires the current rule to exclude every option;
 - one `EvaluativeMeasure` for magnitude, threshold, or trade-off-sensitive cases, so long as the measure being used now is explicit enough to explain why the current result follows under it;
 - one temporary unresolved criterion conflict, so long as the record says whether the present comparison is using one priority order, one threshold, one explicit trade-off measure, or one unfinished state that still blocks closure;
 - one explicit `BeliefState` revision, so long as it enters the comparison as one named probe result or one named model repair rather than as one silent basis shift;
-- one widened `DecisionSubject` at person, team, organization, or other collectivity-bearing level, so long as the current subject-bearing level is explicit and the record does not hide unresolved cross-scale or cross-collective conflict behind one generic chooser label.
+- a collective `DecisionSubject` when the decision is attributed to that body under its actual decision arrangement. If members disagree, establish the aggregation or delegation rule needed for the collective result.
 
 The following are not admissible in this `C.11` body:
 
@@ -59385,21 +59385,21 @@ The following are not admissible in this `C.11` body:
 - treating unresolved cross-scale or cross-collectivity conflict as a settled local ranking before the aggregation question has been resolved;
 - using a record's form as a substitute for a stated comparison doctrine.
 
-These distinctions change the result: a partial order can leave alternatives unresolved, a trade-off measure can settle a comparison, and conflicting collective objectives can leave it unfinished. When using the `retainedTieSet` field for unresolved alternatives, state whether they are equally preferred or incomparable. A partial order does not turn incomparability into equality.
+A partial order can leave alternatives incomparable. Equal preference means that the rule treats two alternatives as tied. If the receiving task accepts a set, the `retainedTieSet` field can list the retained alternatives and state which of these conditions holds. If the task needs one course, identify the applicable tie-break or the decision still needed.
 
 ##### C.11:4.2.2 - Probe-worthiness rule
 
-Another probe is worth doing only when all three conditions hold together:
+Use the following three conditions to appraise an optional next probe for this choice. An independently binding condition continues to govern the affected option or use.
 
 - the probe fits inside the remaining `ProbeBudget`;
-- the expected gain from the probe, through `ValueOfInformation` or `ValueOfComputation`, is large enough to justify its `CostToProbe`;
-- the probe can change the local choice result by changing the ranking, breaking or creating a tie, showing that no current option survives, repairing one missing comparison, or showing that the question should reroute.
+- the expected improvement in the decision or its warranted use from the information or computation justifies the full `CostToProbe`, including delay and work displaced;
+- a plausible result could change which option qualifies or is preferred, resolve a tie, reveal that the current set fails, change what use is warranted, or move the question elsewhere.
 
 This is the local or myopic probe-worthiness rule for `C.11`: judge the best next feasible probe over the current `OptionSet`, not one whole non-myopic experiment design over longer horizons. Later sequential or non-myopic `OED` may strengthen this doctrine, but they do not relocate the local-choice question outside `C.11`.
 
-Do not keep probing merely because uncertainty remains. Uncertainty is ordinary. What matters is whether one feasible next probe can still change what should be chosen, or whether the current `OptionSet` should be rejected, from the current local choice question.
+Remaining uncertainty alone gives no reason to probe. State what plausible outcomes would change for the chooser. If every attainable result leaves the decision and its warranted use unchanged, this decision supplies no gain from that optional inquiry. An independently required check still follows its own rule.
 
-If the best available next probe cannot change the local choice result, or its expected gain cannot justify its cost, state one explicit `ChoiceResult` under the current basis and current `ChoiceRule`.
+If no worthwhile probe is available, state what the current basis and `ChoiceRule` support. If they leave the choice unresolved, name the missing premise or authority.
 
 If the next probe would no longer change which option survives but would only change how one already-chosen option gets enacted, budgeted, or checkpointed, the question has already crossed to `C.24`.
 
@@ -59408,11 +59408,11 @@ If the next probe would no longer change which option survives but would only ch
 `ChoiceRule` and `ChoiceResult` are not the same kind of thing.
 
 - `ChoiceRule` is the doctrine or operator that says how the current comparison basis, dependence layer, and any applicable probe-worthiness value support one `ChoiceResult`.
-- `ChoiceResult` is the emitted record stating which choice result is lawful now under that rule.
+- `ChoiceResult` records the conclusion reached by applying that rule to the present comparison.
 
-The operational answer of this pattern is therefore one emitted `ChoiceResult` under one explicit `ChoiceRule`. The result is complete only when it states the choice result and the condition that makes that result lawful.
+A usable `ChoiceResult` gives the selected disposition and the grounds for it. It can inform a later decision or take effect directly under a delegated decision procedure. To establish which occurred, use the record of that decision or procedure.
 
-Only four result forms are lawful here:
+The record has four result forms:
 
 - `choose now`
 - `reject current set`
@@ -59429,7 +59429,7 @@ For `choose now`, the emitted `ChoiceResult` should show:
 For `reject current set`, the emitted `ChoiceResult` should show:
 
 - that no member of the current `OptionSet` survives under the present comparison basis;
-- the shared defect, threshold failure, or dominated-outcome reason that defeats the current set;
+- the reason each option fails the stated conditions. Some options may fail for different reasons;
 - the next neighboring question only when more work now follows, such as new option generation or one explicit escalation path.
 
 For `probe again`, the emitted `ChoiceResult` should show:
@@ -59448,15 +59448,15 @@ For `reroute`, the emitted `ChoiceResult` should show:
 The comparison may close as `choose now` only when all of the following are true together:
 
 - the current `OptionSet` is stable enough that no further options are being invented for this comparison;
-- the current comparison basis is explicit enough to state why one option survives or why one tie-set remains;
-- no still-feasible next probe is expected to change the survivor relation with enough expected value to justify its cost;
+- the common basis and rule identify an eligible preferred option, or a set that the receiving task accepts. State whether the retained alternatives tie or remain incomparable;
+- no feasible optional probe offers enough expected improvement in the selection or its warranted use to justify its full cost, and the selection meets the applicable prerequisites;
 - the record still concerns local choice rather than pool policy, selector-result declaration, publication availability, or enactment.
 
 The comparison may close as `reject current set` only when all of the following are true together:
 
 - the current `OptionSet` is explicit and stable enough to reject as the present choice set;
 - the current comparison basis is explicit enough to show why no member survives under the present basis;
-- no still-feasible next probe is expected to rescue one member with enough expected value to justify its cost;
+- no feasible optional probe offers enough expected improvement to justify its cost in reconsidering that rejection or its warranted use;
 - the result is still one local choice conclusion rather than a pool-policy, selector-result declaration, publication-availability, or enactment result.
 
 Assess the probe conditions above from the current basis and any live inquiry alternative. They are conditions of a warranted choice, not a requirement to produce a separate account of omitted checking.
@@ -59466,8 +59466,7 @@ The comparison should close as `probe again` only when all of the following are 
 - one next probe is named by value;
 - that probe fits the remaining `ProbeBudget`;
 - its expected contribution to the choice justifies its `CostToProbe`;
-- that probe is expected to repair one named comparison defect;
-- that repaired defect could still change which option survives, whether the current set should be rejected, or whether the question should reroute.
+- at least one attainable result could change which option qualifies or is preferred, which claim or use is warranted, or where the question belongs. State what an inconclusive result would leave open when that matters.
 
 The comparison should close as `reroute` when the record shows that the decision question has changed:
 
@@ -59479,7 +59478,7 @@ The comparison should close as `reroute` when the record shows that the decision
 - to `C.24` when one choice result already exists and the next task is now sequencing, enactment, or execution-path probe work;
 - to `G.5` when the next task is declaring or naming selector-facing selected-set content; when that result already exists, use `E.17` for its source-backed publication face and return to source and `E.24.PUB` for the publication occurrence and audience availability.
 
-If none of those closure conditions can yet be satisfied, the record is still unfinished. Richer terminology alone does not satisfy those conditions.
+If no closure condition holds, send the comparison the available basis supports. Identify the eligible alternatives, the missing comparison or priority, and who can settle it. For a requested single choice, retaining several candidates can inform the decision holder while their choice remains open. Record a `ChoiceResult` when the rule supports one of the four forms.
 
 ##### C.11:4.2.5 - Minimal decision-record form
 
@@ -59507,7 +59506,7 @@ ProbeDecisionValue(  # conditional as described above
 ChoiceResult(
   choiceDisposition = choose_now | reject_current_set | probe_again | reroute,
   selectedOption or retainedTieSet or rejectedCurrentSet or nextProbe or rerouteOwner,
-  reason this result is lawful now
+  grounds for this disposition under the current rule
 )
 ```
 
@@ -59553,7 +59552,7 @@ The comparative question changes: the working question is no longer only what th
 Typical choice results are:
 
 - `choose now` because, under the declared intervention structure, one option now causally dominates or remains the survivor and no remaining feasible probe can change that comparison with enough expected gain to justify its cost;
-- `probe again` because one intervention-relevant uncertainty still blocks a lawful causal comparison and one named next probe could still change which option causally survives;
+- `probe again` because an uncertainty about the effect of an intervention prevents the current comparison and the proposed probe could change which option is preferred;
 - `reroute` because the intervention-use question has already moved from local choice into enactment planning, protocol design, or one neighboring question.
 
 The causal repair is incomplete if the comparison still treats options only as evidence after invoking causal language, or if an `InterventionModel` is named without stating what defect of the lighter evidential comparison it repairs.
@@ -59583,7 +59582,7 @@ This minimal choice doctrine makes that social-expectation pressure explicit, bu
 Typical choice results are:
 
 - `probe again` because one further embodied observation, coupled update, or explicit role-expectation clarification can still change the state estimate enough to reverse the current survivor relation;
-- `choose now` because delay itself now worsens the state being managed, closes the window in which the preferred option remains feasible, or leaves no lawful time for one more socially mediated check;
+- `choose now` when further delay would close the window for an eligible option and the current comparison supports choosing it;
 - `reroute` because the question has already become enactment sequencing or agent-characterization work rather than local choice.
 
 `C.11` keeps the choice question visible there, but `A.13` still governs the narrower question of what kind of agent or agential system is in play. For measured characteristic and evidence claims, use `A.17` for Characteristic identity and arity, `A.18` for Scale and Coordinate bindings, `A.19` for the declared space and reusable predicate, `C.16` for the measurement account, and `A.10` for bounded reliance on the evidence. `C.24` still governs sequencing and enactment once a choice result has already been fixed.
@@ -59608,9 +59607,9 @@ Do not promote this line to the unmarked default unless those repaired limitatio
 
 Do not invoke this line merely because a case feels psychologically subtle. Invoke it when one changed order, framing, response pattern, or incompatible-question structure changes the comparison state or the survivor relation in the live choice.
 
-If no causal, subjunctive, active-inference, or quantum-like refinement is needed for a live limitation, stay with the classical evidential baseline.
+Use the evidential comparison when its dependence assumptions suffice for the decision. If two approaches recommend different options, identify the assumption responsible and what could decide between their uses.
 
-The family map is a set of refinements over the same choice question, with neighboring questions kept distinct.
+These approaches can model the same choice under different assumptions. A causal or order-sensitive model may reverse a recommendation. To claim that one model strictly refines another, compare their feasible possibilities for the same inquiry and interpretation under B.5.MR. Establish what the second preserves and which previously possible answer it excludes.
 #### C.11:4.4 - Reroute as soon as the question stops being local choice
 
 Use `C.11` while the question remains: from this current `OptionSet`, what should the `DecisionSubject` choose, and is another probe worth its cost before commitment?
@@ -59627,9 +59626,7 @@ Reroute immediately when the question changes:
 
   If that result already exists and the current question is presentation or availability to an audience, use `E.17` for the source-backed publication face and return to source and `E.24.PUB` for the publication occurrence and availability.
 
-`ProbeBudget` stays here while it means the epistemic or deliberative budget for one more probe before choice and while that probe can still change which option survives or whether the current set should be rejected. When the same word now means execution budget, call budget, enactment budget, or execution-path scouting after one choice result already exists, the question has moved to `C.24`.
-
-`ValueOfInformation` and `ValueOfComputation` also stay theory-side here as comparative criteria while the question is still local choice among the current options. If one more probe could still change which option survives or whether the current set should be rejected, stay in `C.11`. If the choice result is already fixed and those criteria now govern only execution-path sequencing, call-plan ordering, or enactment of the chosen option, the question has crossed to `C.24`. `C.19` and `C.24` may consume the criteria, but they do not become the doctrine authorities for them.
+`ProbeBudget` covers the resources available for further observation or deliberation while the choice or reliance on it can still change. `ValueOfInformation` and `ValueOfComputation` express the expected improvement compared with deciding now. Once the choice and its permitted use are settled, the budget for performing or sequencing the selected work belongs to C.24. C.19 and C.24 may use these measures in their own decisions.
 
 Outside this pattern remain candidate generation, pool-wide exploration policy, selector-facing set-result declaration, publication availability, and execution planning.
 
@@ -59646,7 +59643,7 @@ The applicable objects from this inventory are required because the decision rec
 
 ##### C.11:4.5.1 - Always explicit versus conditionally activated objects
 
-The following objects should be explicit in every usable `C.11` decision record:
+A completed `C.11` decision record makes the following objects explicit. For a comparison sent while the decision is open, identify the usable premises and the missing basis under §4.2.4.
 
 - `DecisionSubject` and `DecisionSubjectGranularity`;
 - `OptionSet`;
@@ -59660,20 +59657,20 @@ The following objects activate when the case needs them:
 
 - `InterventionModel` for causal repair;
 - `CounterfactualModel` plus `SubjunctiveDependenceRelation` for success-first or predictor-coupled repair;
-- `ProbeActionSet`, `ProbeBudget`, `CostToProbe`, `ValueOfInformation`, and `ValueOfComputation` when one more probe or one more computation pass is still live.
+- For a live inquiry, identify its `ProbeActionSet`, `ProbeBudget` and `CostToProbe`. Use `ValueOfInformation` for new observations, `ValueOfComputation` for additional reasoning over available evidence, or both when the inquiry needs both.
 
 Use these names or ordinary wording that makes the applicable objects and their roles in the comparison recoverable.
 
 Immediate lexical commitments:
 
 - the default chooser term is `DecisionSubject`, not `Agent`;
-- `DecisionSubjectGranularity` names the chooser-bearing level when the question is about whether the chooser is one person, team, organization, or another collectivity-bearing system rather than one generic scalar or coordinate;
+- `DecisionSubjectGranularity` identifies the unit to which the decision is attributed. A committee may decide for itself or on behalf of an organization under a mandate. Where scale matters, identify the actual part and whole. B.5.MR compares the levels of abstraction or refinement of two models for a given inquiry; the same chooser can use both models.
 - use `A.6.P` if a relation's predicate or participants remain unclear, and `A.6.5` when its argument or slot structure needs clarification.
 
 Local plain glosses for the load-bearing inventory:
 
-- `DecisionSubject`: who or what is carrying this choice now, whether that is one person, one team, one committee, one organization, or another collectivity-bearing system;
-- `DecisionSubjectGranularity`: the level at which the choice is being attributed, such as person-level, team-level, or organization-level; an "agent" label alone does not specify that level;
+- `DecisionSubject`: the system making the decision, which can be a person, an automated controller, a committee or another organized body;
+- `DecisionSubjectGranularity`: the unit to which the choice is attributed in this arrangement. A committee member can submit an individual ranking and the committee can decide by vote;
 - `OptionSet`: the concrete options already on the table now;
 - `PreferenceOrder`: the current better-than / worse-than ordering over those options for this decision subject;
 - `EvaluativeMeasure`: the explicit utility-style or desirability-style scoring measure used when the case needs magnitudes, thresholds, or trade-offs rather than only one ordering;
@@ -59682,30 +59679,26 @@ Local plain glosses for the load-bearing inventory:
 - `InterventionModel`: the part of the model that says how the world changes because one option is actually taken;
 - `CounterfactualModel`: the model used to compare relevant non-actual alternatives or alternate decision procedures;
 - `SubjunctiveDependenceRelation`: the dependence between this choice and one predictor, one linked chooser, or one structurally similar decision procedure when intervention talk alone is not enough;
-- `ChoiceRule`: the current choice doctrine or operator that says what conditions make `choose now`, `reject current set`, `probe again`, or `reroute` lawful in this case;
-- `ChoiceResult`: the emitted result record saying which of those lawful choice results follows now under the current `ChoiceRule`;
-- `ProbeActionSet`: the further checks, measurements, simulations, or questions that can still be run before commitment;
-- `ProbeBudget`: the remaining time, money, attention, or tolerated delay available for those pre-choice probes;
-- `CostToProbe`: the cost of another measurement, question, simulation, trial, or delay before commitment;
-- `ValueOfInformation`: the expected gain from learning more before choosing;
-- `ValueOfComputation`: the expected gain from spending more reasoning or compute before choosing.
+- `ChoiceRule`: the rule for evaluating the current alternatives and any worthwhile probe, and for reaching one of the four result forms;
+- `ChoiceResult`: the disposition that follows from applying that rule, with the grounds the receiving use needs;
+- `ProbeActionSet`: checks, measurements, simulations or questions available while the choice or its warranted use can still change;
+- `ProbeBudget`: the money, time, attention or delay available for those inquiries;
+- `CostToProbe`: the resources an inquiry would consume, including the work or benefit displaced by its delay;
+- `ValueOfInformation`: the expected improvement in the decision from using the possible observation results, compared with choosing on what is known now;
+- `ValueOfComputation`: the expected improvement in the decision from performing the proposed additional computation. Compare either gain with the inquiry’s cost on the same basis and count that cost once.
 
-What follows from `DecisionSubject` being wider than `Agent`:
-
-- the chooser in `C.11` need not be one person-like agent;
-- a team, committee, organization, or coupled human-tool system may be the `DecisionSubject` when that is the level at which the choice is being made;
-- the pattern therefore does not force agency characterization to do the job of naming who or what is currently choosing.
+A person may make a decision, an organization may decide by an agreed procedure, or an automated controller may choose under delegated limits. An analyst, AI assistant or tool can also supply comparisons while another party decides. Identify the actual arrangement before attributing the decision.
 
 This floor is enough to keep choice doctrine inspectable and stable. It does not yet assume one full branch-specific quantum-like package or one cross-scale geometry-heavy package.
 
 ##### C.11:4.5.2 - Boundary on multilevel and social-expectation doctrine
 
-`DecisionSubject` and `DecisionSubjectGranularity` are the local answer to human-only and individual-only narrowing. They keep the chooser explicit at person, team, organization, or other collectivity-bearing level so the doctrine does not silently collapse back into one generic individual agent.
+`DecisionSubject` and `DecisionSubjectGranularity` identify who makes the choice and whether it is an individual or collective decision. Several participants can contribute evidence or carry out the chosen course. Attribution to a larger system requires grounds for its decision, such as a collective rule or an authorized delegate acting within a mandate.
 
 This minimal choice doctrine does not fully settle the broader questions that can accompany that chooser-bearing scope, including:
 
 - collective aggregation doctrine over conflicting preferences or criteria;
-- cross-scale or cross-collective conflict between person-, team-, organization-, or broader system-level objectives;
+- conflicts between the objectives of a participant, a group and a containing organization whose decisions are linked in this case;
 - one full `ROE` or social-expectation structure for socially scaffolded choice;
 - one full multilevel or geometry-heavy formal package for those cross-scale or cross-collective questions.
 
@@ -59734,7 +59727,7 @@ A `C.11` pass is finished enough for practical use when all three conditions hol
 
 An inactive inquiry item adds no placeholder or omission account to this tuple or finish condition.
 
-If the case remains tied or underdetermined under the current basis, say that directly and keep the tie-set explicit. A lawful `ChoiceResult` may still be `probe again` or `reroute`, but it must not assert a winner that the current basis does not support.
+If the current rule leaves alternatives tied or incomparable, report which and what that means for the receiving task. A result that retains several eligible options can supply a request for a set. Choosing one of them requires a rule or a decision by the designated chooser.
 
 If those conditions are missing, retain the unfinished comparison and identify the premise or decision still needed.
 
@@ -59744,23 +59737,30 @@ If those conditions are missing, retain the unfinished comparison and identify t
 
 **Tell.** A research team already has three experiment plans on the table. The option set exists. The question is to decide which plan to run and whether one more measurement is worth the delay.
 
-**Show.** The `DecisionSubject` is the team, the `DecisionSubjectGranularity` is team-level, the `OptionSet` is the three current plans, the team's `PreferenceOrder` puts risk reduction ahead of schedule convenience, and the current `OutcomeModel` still carries calibration uncertainty. The extra calibration run belongs in the `ProbeActionSet`, its one-day delay is part of the `ProbeBudget`, and the practical question is whether its `ValueOfInformation` exceeds its `CostToProbe` by enough to change the emitted `ChoiceResult` under the current `ChoiceRule`.
+**Comparison.** The team can choose among three feasible plans. It first minimizes the predicted number of missed defects per 100 reference cases. It breaks ties by schedule. Its current estimates use two equally likely calibration states.
 
-**Show.** If the extra calibration run could still change which plan survives, the one-day delay fits the remaining `ProbeBudget`, and the expected gain justifies its `CostToProbe`, the right `ChoiceResult` is `probe again` with that calibration run named. If the measurement can no longer overturn the ranking, the right `ChoiceResult` is `choose now` with the winning plan and the reason further probing is no longer worth its cost.
+| Calibration state | Plan A | Plan B | Plan C |
+| --- | ---: | ---: | ---: |
+| First | 4 | 2 | 5 |
+| Second | 6 | 5 | 3 |
 
-**Show.** A finished result here should therefore read like one decision record: "Team-level chooser; three current plans; risk reduction preferred; calibration uncertainty still live; one extra calibration run remains feasible and could still overturn the current ranking; its expected gain justifies `CostToProbe`, including the one-day delay; `ChoiceResult = probe again with calibration run`." Or, after that probe is no longer worth doing: "`ChoiceResult = choose plan B now because the remaining calibration gain no longer justifies one more day of delay`."
+On this basis, A averages 5 misses, B averages 3.5 and C averages 4. If the team must choose now, its rule selects B.
+
+**Probe.** A one-day calibration run can identify the state before the plan is fixed. The team could then choose B in the first state and C in the second, for 2.5 expected misses per 100. The improvement over choosing B now is one expected miss per 100. The day fits the budget, and the team judges that avoiding this loss is worth the delay.
+
+**Result.** The current `ChoiceResult` is `probe again`. Once the run identifies a state, apply the comparison in that row. If the run becomes unavailable while the estimates and rule still hold, B remains the supported choice on the present evidence.
 
 **Show.** Use `C.38` if the team must turn labels or fragments into complete ways of obtaining one result. Use `C.39` if a plan still lacks an explanation of how to obtain that result, or `C.40` if the team can vary a plan and needs to examine the difference. Use `C.18` when the team needs a generation account or archive/front claim; `C.19` for exploration policy over the plan pool; and `C.24` for the run sheet and execution order after choice.
 
 #### C.11:5.2 - Episteme grounding
 
-**Tell.** A model-selection comparison takes three already-articulated explanations and asks whether one more observation or one more comparison pass is rational before preferring one explanation over the others.
+**Tell.** A planning team has three models for predicting restart delays. It needs one forecast for the staffing decision due tomorrow. For this use the team judges a model by its mean absolute timing error on comparable held-out shifts.
 
-**Show.** `C.11` governs the decision doctrine over the current explanation set: one `BeliefState`, one `OutcomeModel`, and one explicit `PreferenceOrder` or `EvaluativeMeasure`. When the case needs a further dependence layer, the comparison uses either one `InterventionModel` or one `CounterfactualModel` plus one `SubjunctiveDependenceRelation` to address the limitation of the evidential comparison. When another model comparison pass is on the table, `ValueOfComputation` belongs here as part of the current choice doctrine; later execution planning is a separate question.
+**Comparison.** Under the agreed mix of shifts the three models miss restart time by 6, 3 and 5 minutes on average. All three can supply the forecast in time. The current comparison supports model 2. Choosing it for staffing does not establish which mechanism caused the delays.
 
-**Show.** If one more comparison pass cannot realistically change which explanation survives, the decision record should not end with "more analysis may help." It should end with one `ChoiceResult` that prefers the current explanation now. If one more pass could still reverse the ordering and is cheap enough to justify, the decision record should say which pass is worth doing and what ambiguity it is expected to resolve.
+**When another comparison matters.** Suppose tomorrow’s roster includes a previously unrepresented shift. Applying all three models to the same set of comparable logged shifts could change their order. Check whether those logs can be obtained before the roster is fixed and whether the resulting change in staffing would justify the effort.
 
-**Show.** A lawful closing line here is therefore something like: "`ChoiceResult = choose model 2 now because the surviving uncertainty no longer changes the ordering under the current evidence`" or "`ChoiceResult = run one additional comparison pass on models 1 and 2 because the current outcome model still cannot distinguish their failure costs`." Anything vaguer leaves the decision question unfinished.
+**Result.** For the original mix, choose model 2 on its lower error. For the changed mix, return `probe again` if the log comparison is feasible and worth doing. If the logs are unavailable and the previous order cannot be supported for the new mix, report that limit to the planner.
 
 **Show.** This pattern governs neither open-ended hypothesis generation nor operational rollout. Those questions stay outside this pattern even when the decision later feeds them.
 
@@ -59780,7 +59780,7 @@ If those conditions are missing, retain the unfinished comparison and identify t
 - `ChoiceResult = choose now and escalate because the receiving decision accepts the declared risk-first comparison, and no further feasible test offers enough expected decision gain to justify the harmful delay`;
 - `ChoiceResult = reroute to C.24 because the board has already chosen escalation and the next task is now treatment sequencing rather than local choice`.
 
-**Show.** The output still has to be one actionable record. If the current result cannot say which of those three forms is now lawful, then the contextual pressure has been noticed but not yet carried into one usable decision result.
+**Show.** Record which comparison the board used, its conclusion and whether the board acted on it. When the ranking still depends on an unresolved framing choice, retain that uncertainty.
 
 ### C.11:6 - Bias-Annotation
 
@@ -59797,15 +59797,15 @@ The family map also remains plural: causal, success-first, active-inference, and
 | ID | Requirement | Purpose |
 | --- | --- | --- |
 | `CC-C11.1` | A comparison **SHALL** use already-available options; when complete ways or new candidates still need construction, use their governing pattern first. | Keeps candidate construction and development outside local choice. |
-| `CC-C11.2` | Identify the `DecisionSubject` and its choice-bearing level. A precise agency claim **SHALL** be governed by `A.13`; measured characteristic and evidence claims retain their `A.17`–`A.19`, `C.16` and `A.10` grounds. | Prevents unwanted narrowing of the chooser. |
+| `CC-C11.2` | Identify who makes the choice and whether it is attributed to an individual or to an organized whole. A precise agency claim **SHALL** be governed by `A.13`. Measured characteristic and evidence claims retain their `A.17`–`A.19`, `C.16` and `A.10` grounds. | Makes the attribution of the choice inspectable. |
 | `CC-C11.3` | When the question leaves local choice, the result **SHALL** identify the receiving question under §4.4, including candidate construction/development, pool policy, enactment or selector-facing result declaration when applicable. | Separates choice from candidate construction and development, the generation or archive/front account, pool policy, planning, and selector-facing result declaration. |
-| `CC-C11.4` | The comparison **SHALL** make the chooser, options, comparison basis, applicable dependence layer, live probe decision, `ChoiceRule` and resulting choice recoverable. | Keeps `C.11` as one operational answer to the choice question rather than one survey of schools. |
+| `CC-C11.4` | A completed comparison **SHALL** identify the chooser, options, comparison basis, applicable dependence assumptions, any live probe decision, `ChoiceRule` and the `ChoiceResult` it supports. An open comparison identifies what the holder can use now and what still prevents closure (§4.2.4). | The recipient can use the result at the strength the available grounds support. |
 | `CC-C11.5` | The comparison **SHALL** identify the applicable objects in §4.5.1, preserving its always-required versus conditionally activated distinction. | Keeps the objects of the calculus explicit. |
 | `CC-C11.6` | Load-bearing terms in a decision record **SHALL** have recoverable meanings, using the local glosses or an explicit equivalent interpretation. | Prevents the core terminology from remaining implicit or displaced into outside basis carriers. |
 | `CC-C11.7` | When a relation predicate or participant remains unclear, use `A.6.P`; when argument or slot structure remains unclear, use `A.6.5`. An already clear relation uses its governing rule directly. | Keeps dependence language inspectable and deconflicted. |
 | `CC-C11.8` | An active-inference or quantum-like branch **SHALL** address a stated limitation of the current comparison; the branch name alone supplies no support. | Preserves practical meaning and avoids branch-name citation without operational load. |
 | `CC-C11.9` | A local choice result **SHALL** remain distinct from any separately needed quantum-like, aggregation or multilevel formal support. | Keeps the pattern usable now while leaving heavier support work typed and explicit. |
-| `CC-C11.10` | `ProbeBudget` **SHALL** denote pre-choice probing resources here. Information/computation value remains a comparative decision criterion; resources for enactment of an already chosen option belong to the separate execution question. | Preserves the bounded-resource bridge while keeping the criteria governed by C.11. |
+| `CC-C11.10` | Use `ProbeBudget` for inquiry while the choice or reliance on it can still change. Apply the relevant information or computation value. Once the choice and its use are settled, resources for performing the chosen work belong to execution planning. | Identifies which decision the inquiry informs. |
 | `CC-C11.11` | When the question shifts to declaring selector-facing set content, use `G.5`. For presentation or availability of an existing result, use `E.17` for its publication face and source return, and `E.24.PUB` for the publication occurrence and availability. | Preserves the boundary among local choice, selector-result declaration, and publication availability. |
 | `CC-C11.12` | When a further dependence layer or neighboring family is used, the comparison **SHALL** state the limitation it addresses and the resulting change in the comparison. | Prevents branch-name citation from replacing use-time doctrine. |
 | `CC-C11.13` | The result **SHALL** justify `choose now`, `reject current set`, `probe again` or `reroute` under the closure conditions; an unresolved comparison **SHALL** remain explicit. | Prevents the decision record from ending without a justified choice result. |
@@ -59823,11 +59823,11 @@ A result is usable when its recipient can recover the choice and the grounds on 
 | Planning collapse | Sequencing, replanning, and enactment budgeting are written as if they were already part of the choice calculus. | Planning-side question moves out of `C.24` by accident. | Execution order and operational budgeting remain in `C.24`, even when `C.11` says more probing is rational. |
 | Inventory without decision rule | The current comparison names many objects and schools but never shows how to move from a live option set through one `ChoiceRule` to one `ChoiceResult`. | The pattern becomes a survey rather than one decision discipline. | State one explicit decision-record shape: chooser, option set, comparison basis, dependence layer, applicable probe-worthiness test, one explicit doctrine, and one emitted result. |
 | Hidden basis shift | Different options are compared under different belief states, outcome models, or dependence layers without one explicit statement that the basis changed. | The comparison looks precise, but its choice rule cannot be audited. | Keep one shared comparison basis until one named probe or model change updates it, and state explicitly when the dependence layer changes. |
-| No closure rule | The text sounds careful but never says what makes `choose now`, `reject current set`, `probe again`, or `reroute` lawful. | The record never closes into one explicit decision result. | State the closure conditions explicitly and show why the current case satisfies exactly one of them. |
+| Missing grounds for closure | The record ends the comparison or selects an option without showing why. | The recipient cannot distinguish a justified choice from the exhaustion of time or budget. | Show which disposition follows from the rule. For a selected option, give the comparison that supports it. |
 | Undefined load-bearing terms | Terms such as `PreferenceOrder`, `BeliefState`, or `OutcomeModel` appear without local operational clarification. | Core comparison objects stay implicit and the decision question depends on outside theory or undocumented assumptions. | Give one local plain gloss or equivalent operational clarification for each load-bearing term used in the pattern text. |
 | Bounded-resource bridge loss | `ProbeBudget`, `ValueOfInformation`, or `ValueOfComputation` are mentioned, but the text silently lets `C.19` or `C.24` own them. | The theory-side doctrine disappears into neighboring policy or planning prose. | Keep those objects theory-side in `C.11`; let neighboring patterns consume their outputs without minting the concepts. |
 | Result-boundary collapse | The text treats declaring selector-facing set content, or later making it available, as if either were identical with deciding. | Choice doctrine silently absorbs the `G.5` result question or the publication question. | Keep both outside `C.11`: use `G.5` to declare the selector-facing result, `E.17` for its publication face and return to source, and `E.24.PUB` for the publication occurrence and availability. |
-| Agent-default narrowing | Every chooser is described as one `Agent` even when the subject is really one team, organization, or other collectivity-bearing system. | The governed chooser is narrowed before the doctrine even starts. | `DecisionSubject` remains the default, and `DecisionSubjectGranularity` types the chooser-bearing level. |
+| Mistaken attribution | An adviser, implementer or tool that supplied a ranking is treated as the chooser. | Participation alone leaves the decision arrangement open. | Identify the actual `DecisionSubject` and use `DecisionSubjectGranularity` for the individual or collective attribution. |
 | Prestige-branch citation | Active inference or quantum-like work is cited only as one fashionable name. | The text sounds current without stating what limitation is being repaired. | The repaired limitation is stated directly: embodied online updating for active inference, and context or order effects for quantum-like lines. |
 | Cost-free deliberation | The text speaks as if probing and computation are free. | Bounded-resource doctrine disappears behind one idealized choice moment. | `ProbeBudget`, `CostToProbe`, `ValueOfInformation`, and `ValueOfComputation` stay visible in the calculus. |
 
@@ -59839,7 +59839,7 @@ A result is usable when its recipient can recover the choice and the grounds on 
 | Makes evidential, causal, and subjunctive branches comparable in one place. | The pattern becomes more explicit about dependence language and therefore needs tighter lexical discipline. |
 | Keeps bounded-resource probing inside the doctrine rather than as one afterthought. | Fast-path use now carries a slightly richer inventory before the doctrine feels natural under pressure. |
 | Keeps active-inference and quantum-like repairs visible without letting them silently replace the whole core. | Those lines stay load-bearing only when they change the actual `ChoiceResult`, unfinished state, or reroute logic; heavier formal packages still remain outside this body. |
-| Makes the choice result explicit through one `ChoiceResult` record instead of one general statement that the case is complex. | Each decision record has to show why `choose now`, `reject current set`, `probe again`, or `reroute` is lawful, which removes rhetorical room to sound informed without committing to one result. |
+| Gives the recipient the choice and its basis. | A decision record must distinguish the reason to select an option from the reason to stop investigating it. |
 | Makes downstream work cleaner because search, pool policy, publication, and enactment can receive one explicit output instead of one blurred upstream "decision happened" claim. | Reroutes now require one named next subject pattern and one reusable part of the record instead of one vague upstream claim that deliberation happened somewhere. |
 | Keeps an unfinished comparison explicit through a tie-set or `probe again` result instead of forcing an unsupported winner. | Some outcomes will look less decisive because they state that the comparison is unfinished. |
 
@@ -59847,7 +59847,7 @@ A result is usable when its recipient can recover the choice and the grounds on 
 
 A live option set and a live choice among that set are not the same question as generating options, governing a candidate pool, or sequencing execution. Keeping that distinction explicit is what makes the doctrine usable rather than ceremonial.
 
-`DecisionSubject` is the better default chooser term because decision theory often applies to persons, teams, organizations, and other system-bearing collectivities. `Agent` remains useful, but only when an explicit agency claim is being made.
+`DecisionSubject` covers a person, a technical system or an organized body for the particular decision. Use `A.13` when a claim about agency itself needs examination.
 
 A minimal mathematical floor is necessary because choice doctrine without one stable object stack quickly turns into verbal drift. But a pattern also fails if it keeps only the object names and never shows how those objects discipline an actual choice. That is why `Solution` here is procedural: it must carry the path from `OptionSet` through one `ChoiceRule` to one `ChoiceResult`, including the stop-or-probe decision, rather than only one survey of neighboring theories.
 
@@ -59951,7 +59951,7 @@ C.11 may cite `C.26` as the common quantum-like modeling lens only for the resid
 
 Use this pattern when a proposed finite change is being justified by “what it adds,” but its contribution has not been compared with the current configuration under the conditions that matter to the receiving decision. The change may add, replace or remove something; it may also acquire information before a later commitment.
 
-**First useful result.** Return one `C.2.1` episteme that compares a realizable finite changed configuration with the current configuration under a declared basis. State the result coordinates and resource coordinates, interactions, uncertainty, option effects, unsupported overreads, and the named receiving question that can consume the claim. It can supply local choice under `C.11`, construction of a continuation under `C.43`, or a subject Method that compares proposed changes. The comparison does not choose the option.
+**First useful result.** Tell the decision maker what would change with the proposal over the period they care about, compared with continuing without it. Include who gains or loses, the resources needed and any later choice it opens or closes. State which findings are estimates and what would change the comparison. This account is a `C.2.1` episteme. It supplies a premise for a choice (C.11), for planning later actions (C.43), or for the receiving design Method.
 
 **Cheap exit.** If an existing domain calculation or `A.19`/`C.11` account already states the same finite baseline and change with the material comparison conditions and reopen condition, use it directly.
 
@@ -59991,9 +59991,9 @@ Without an explicit configuration-relative comparison, practitioners make at lea
 Construct the smallest finite counterfactual comparison that can change the answer to one named choice or construction question.
 
 1. **Name the receiving question.** State who needs the comparison, the choice or construction it informs, when the result must be available, and which consequence could change that work. For a local `C.11` choice, identify its deciding System, `DecisionSubject` and current `OptionSet` or option-set question. For ongoing control, policy design or development, identify the continuation, rule, direction or means being compared and its receiving Method; a local option set need not already exist.
-2. **Freeze the current configuration.** Name the actual or currently relied-on configuration `S0`, system boundary, affected Systems, the holder or beneficiary and what it holds or benefits from, relevant environment, and what is held fixed only for this comparison. If the affected-System coordinate is missing and could change the comparison, use `A.1.CSD` first; bring back only consequence claims compatible with this `S0`/`Δ`/`S1`, horizon, evidence window, and receiving decision. A historical, empty, or ideal configuration is not the default baseline.
+2. **Establish the baseline.** Identify the actual or currently relied-on configuration `S0`. Describe how it would operate without the proposed change over the comparison period, including changes already expected. Set the system boundary, identify the affected Systems, who holds or benefits from what, and what is held fixed. When an omitted affected System could change the answer, use A.1.CSD and bring back consequences applicable to this configuration, change, period and evidence window. Give the grounds for using a historical, empty or ideal baseline if the question calls for one.
 3. **Name the finite change.** State the addition, replacement, removal, intervention, or probe `Δ`, the realizable candidate configuration `S1`, admissibility conditions, implementation capability, planned transition work, reversibility, and excluded variants.
-4. **Fix horizon and scenarios.** State the interval, relevant states or scenarios, timing assumptions, and any decision or evidence window. Do not combine results from incompatible horizons without an explicit mapping.
+4. **Fix the horizon and scenarios.** Compare both configurations over the same interval under the same external scenarios. Preserve differences in timing or later conditions caused by the proposed change. Where the evidence covers different intervals, explain how it supports that comparison or leave the affected consequence unresolved.
 5. **Declare result coordinates.** Name the result vector whose coordinates can change the decision and the protected coordinates that may not be silently scalarized. Include affected-System consequences and distributional differences when they matter to the comparison.
 6. **Declare resource coordinates.** For the action, transition, information acquisition, and computation, name the attention, capital, time, material, energy, and other resources consumed or expected to be consumed in this field case. State required authority separately as an admissibility condition. Keep costs of evaluating and realizing the change distinct.
 7. **Recover constraints and interactions.** State active and potentially activated constraints, complements, substitutes, thresholds, congestion, downstream effects, common causes, overlaps, and double-counting risks.
@@ -60053,15 +60053,15 @@ This is why calculus of variations matters without becoming the default interpre
 
 #### C.11.CRC:5.1 - Flood-pump modernization
 
-The current station configuration `FPS7-C19` supports bounded discharge use. A candidate bearing-temperature sensor is not compared with “no pump” or by its isolated diagnostic accuracy. The finite comparison uses `FPS7-C19` as `S0`; sensor, placement, cabling, controller, maintenance access, calibration, and operating procedure changes as `Δ`; and the installed candidate as `S1`.
+Station `FPS7-C19` currently supports bounded discharge use. Compare two ways of operating it over the coming service interval. In `S0` the station continues with its existing diagnostics and scheduled maintenance. In the proposed `S1` it uses an additional bearing-temperature sensor. The change `Δ` includes placement, cabling, controller changes, access for maintenance, calibration and operating procedure. Both forecasts use the same loading scenarios. Neither forecast establishes that the sensor has been installed.
 
 Result coordinates include discharge continuity, failure detection, maintenance access, recoverability, and evidence continuity. Resource coordinates include outage time and maintenance burden plus the resource costs of installation work, calibration, and observation.
 
-The current result is indeterminate because placement and maintenance evidence are missing; another observed-load window can change the decision. The chooser may return `probe again` under `C.11` if that window supplies a feasible, worthwhile probe that could change the choice.
+Two gaps affect this proposal. Establish whether the proposed location can be reached during an allowed maintenance window. To assess earlier warning, compare the proposed signal with the existing diagnostics under the loads where their indications might differ. A load observation alone cannot establish access. Price each attainable check against the choice it can change (C.11.DUA). If access is impossible at this location, compare a feasible placement or retain the current configuration.
 
 #### C.11.CRC:5.2 - Capability-development programme
 
-Adding one pattern to a programme is compared with the person's current mastered and externally supported set, not with an empty curriculum. The comparison names target later Work, prerequisite complementarity, time to competent use, support dependence, critical-error detection, transfer and retention evidence, and future option value. A newly produced artifact or recent exercise-score gain can be evidence for a bounded claim, but neither is automatically the candidate element's capability contribution.
+For the same later assignment, compare continuing with the present programme and normally available support against adding the proposed practice. Include prerequisites, practice time, the support provider's time and work displaced elsewhere, and the expected time to competent use. Determine what the participant did and what an assistant supplied. A jointly completed artifact can meet the immediate need. To judge a gain in the participant's capability, compare earlier performance with performance on a later comparable task under the support conditions promised for later work. Transfer, retention and detection of critical errors need observations suited to those claims.
 
 #### C.11.CRC:5.3 - Operations constraint intervention
 
@@ -60069,14 +60069,14 @@ A positive shadow price for one bottleneck supports a local statement about rela
 
 #### C.11.CRC:5.4 - Capital allocation
 
-A project is compared with the current portfolio and financing/operating configuration. The comparison includes cannibalization, shared resources, risk concentration, financing constraints, irreversibility, staging, information gained before later commitments, and displaced options. NPV, real-options, scenario, and portfolio Methods remain Corporate Finance practice; this pattern supplies the finite comparison returned to that practice or to `C.11` when a local choice is the receiving question.
+Compare the portfolio over the decision horizon with and without the proposed project. If it would displace another investment, include what that investment would have produced in the feasible alternative. Compare shared resources, cannibalization, risk concentration, financing constraints, staging, irreversibility and information available before later commitments. Corporate Finance supplies the NPV, real-options, scenario and portfolio Methods. Return the finite comparison to that practice or to C.11 when it informs a local choice.
 
 ### C.11.CRC:6 - Bias Annotation
 
 - **Scalar bias:** do not hide protected coordinates or distributional effects inside one score.
 - **Smoothness bias:** do not replace a realizable finite change with a derivative outside its validity region.
 - **Additivity bias:** inspect complements, substitutes, overlap, thresholds, congestion, and common causes.
-- **Empty-baseline bias:** start from the actual current configuration unless another baseline is explicitly the decision subject.
+- **Baseline bias:** compare what would happen with and without the change over the same horizon. A current snapshot can establish the starting configuration.
 - **Physics-prestige bias:** a variational or thermodynamic form does not establish a physical mechanism or decision authority.
 - **Information-as-result bias:** expected information and option value are inputs to choice, not already realized benefit for the intended recipient System.
 
@@ -60197,7 +60197,7 @@ The comparison has three useful outcomes:
 | Material difference | Identify the lost, changed or newly relevant premise and prepare the affected current choice. The observation does not itself select the response. |
 | Comparison unresolved | Name the missing premise, interpretation or alignment and the useful conclusion still available. Consider a smaller answer, an attainable inquiry or a stop through C.11.DUA. |
 
-These are findings, not universal decision statuses. A large numerical difference may be irrelevant to the named choice, while a small change crossing its constraint may be decisive. An unknown cause need not prevent acting on a supported consequence. A costly investigation is unwarranted when its attainable answers would not change this use.
+These are findings about the named use. A large numerical difference can leave a choice intact while a small one crosses its constraint. An unknown cause need not prevent acting on a supported consequence. End an optional investigation for this choice when its attainable answers cannot improve what the recipient can decide or rely on. A separately binding investigation remains due under its governing terms.
 
 #### C.11.DBR:4.3 - Bound what changes and preserve the rest
 
@@ -60218,11 +60218,11 @@ Choose the continuation by what is now missing:
 - Use A.15.7 for a next-action question in ongoing Work. Use the applicable problem-framing or construction Method when the question or means must change before options can be compared.
 - State which decision or authority is missing when only an analyst's recommendation is available. A recommendation can be the useful completed contribution while the authority holder's decision remains outstanding.
 
-The receiving Method makes its own decision and returns that result directly to its consumers. Only afterward, if the receiving work needs an overview, complete the reconsideration account by citing the returned result. Thus the input does not depend on a decision it already contains. No common vocabulary of continue, stop or revise replaces the subject's result.
+The person, controller or authorized body that holds the decision uses the receiving Method. Return its decision to those who depend on it. An analyst who has only made a recommendation can deliver that recommendation now and identify the decision still outstanding. If an overview is needed, cite the decision once made, using the terms of the receiving practice.
 
 #### C.11.DBR:4.5 - Carry the result to its next use and stop
 
-Explain what remains usable, what current result has been obtained and which next contribution is still missing. If the current choice calls for intended work or a revised plan, A.15.2 separately supplies that WorkPlan. Permission, an available performer and actual performance still require their own grounds. Updating a reconsideration account performs none of that work.
+Explain what remains usable, what current result has been obtained and which contribution is missing. If the decision calls for planned work, the responsible planner can use A.15.2 to prepare or revise the WorkPlan. Establish separately who may carry it out, who is available and what was actually performed.
 
 Stop when the included uses have a supported preservation answer, an obtained current decision, or a precise unresolved contribution. Stop earlier when a narrower answer completes the receiving question. Preserve a reason and a condition for another return only where later reliance needs them. A new observation, changed use or newly discovered dependency can reopen the comparison it could materially change; independently preserved results remain usable.
 
@@ -60236,7 +60236,7 @@ Recovering the basis separates the expected saving from the Friday obligation an
 
 **Change the evidence.** A corrected, qualified observation now establishes five hours for the same content and volume. The current decision rule requires at least two hours of total effort saving relative to B, including A's support burden; all other relevant conditions are stipulated unchanged. A now requires six hours in total and supplies no saving, so it fails that condition. This challenges continued reliance on the expected saving, but does not establish why the shortfall occurred.
 
-The reconsideration statement names that difference, preserves Friday delivery and the rollout history, and supplies the responsible manager with the available alternatives. Suppose a supported adjustment C is available at three preparation hours plus one support hour, and satisfies the unchanged delivery and quality constraints. Its total is four hours; A and B now each require six. Under the stipulated preference for lower total effort, C.11 can choose C without another study of A's cause.
+The responsible manager receives the comparison, with Friday delivery and rollout history preserved. A supported adjustment C takes three preparation hours plus one support hour and meets the unchanged delivery and quality constraints. C takes four hours in total against six each for A and B. On the stipulated preference for lower total effort, the analyst can recommend C. The manager can choose it on those grounds without another study of A's cause.
 
 The manager's actual choice, any necessary plan revision and the later performance of C are separate results. If the manager has not decided, the analyst returns the comparison and recommendation, not an implemented change.
 
@@ -60246,9 +60246,9 @@ If C was already an available improvement, comparing it would be a separate live
 
 #### C.11.DBR:5.2 - A model remains valid for one use
 
-A laboratory used a linear calibration over readings 0 to 10, with an established maximum conversion error of 0.2 in that interval. A new observation at 15 has error 0.6. The current task still concerns readings 0 to 10. This observation alone does not refute the bounded qualification or justify replacing the conversion there; it does show that extending the same claim to 15 is unsupported.
+A laboratory qualified a linear calibration for readings from 0 to 10, with a maximum conversion error of 0.2. A qualified observation at 15 under the same operating conditions has error 0.6. That observation refutes the proposed bound of 0.2 over the entire interval from 0 to 15. The qualification and earlier converted results in the interval from 0 to 10 still stand.
 
-Now the receiving task changes to readings up to 15. The old qualification and old converted results remain what they were, but they no longer supply the required range. The useful reconsideration statement carries the missing range qualification to the measurement and model-selection work. If no adequate replacement or further qualification is available, it ends with that gap rather than fabricated new coefficients. If a qualified candidate and the old method under its narrower use are available, their comparison belongs to the current chooser.
+Now the task needs readings up to 15 at the same error bound. The old calibration cannot cover that task by itself. Seek a qualified alternative for the full range or justify two calibrations whose combined coverage and behavior at the join meet the task. A proposal to narrow the task needs a decision by its holder. Changing a coefficient or extending the range alone establishes neither the error bound nor model refinement (B.5.MR). If coverage remains missing, state which readings can still be used.
 
 The model file need not have changed. A.10.1 would be appropriate for a different situation: a corrected calibration source whose actual consumers must be discovered.
 
@@ -60258,7 +60258,7 @@ The model file need not have changed. A.10.1 would be appropriate for a differen
 | --- | --- |
 | A market observation weakens a growth assumption but leaves a separately grounded commitment intact. | A strategic follow-up Method can localize the affected premise, preserve independently grounded commitments and connect the signal to a strategic continuation or reconsideration, using the choice or commitment and its required evidence and authority. An analyst's recommendation remains distinct from the Board's choice. Use this direct continuation when sufficient; a common overview can cite its results without repeating or replacing it. |
 | A retrofit is complete but the expected service outcome is absent. | Use the asset-management Method to compare the realized outcome with the asset-decision premises; the completed intervention remains history. For organization change, use the applicable Methods for the consequence account and any authorized revision. Use these direct Methods when they already supply the needed whole. |
-| Practice evidence changes an explanation of development or transfer. | Use the capability-development revision Method to obtain a bounded development hypothesis. A continuing-arrangement choice uses that input under its own Method; a hypothesis alone does not change the arrangement. |
+| A participant and an assistant completed an assignment. On a comparable later assignment the participant cannot perform the relevant operation with the support normally available. | Preserve the achieved joint result. Reconsider reliance on the participant's ability to perform under the later conditions. A development Method can investigate the difficulty and propose a change. The holder of the arrangement decides whether to adopt it. |
 | A follow-up analyst recommends adjustment. | A decision-follow-up Method can supply the complete affordable return. Keep the absent authority-held decision explicit; the sufficient Method needs no second account. |
 | A current robotic-maintenance cue already determines the next-action question under the enacted Method. | Use A.15.7 directly. Reconstruct an older recommendation only if a distinct reliance question remains. |
 | A changed source has partly unknown engineering or finance consumers. | Use A.10.1 with the applicable engineering or finance Method to discover the affected consumers and reconsider their reliance. A sufficient subject result needs no further C.11.DBR pass. |
@@ -60278,7 +60278,7 @@ The shared preparation stops before these domain consequences and decisions. It 
 - The later result is qualified and compared at a commensurate scope and horizon, or the decisive mismatch is explicit.
 - Materiality follows the use's constraint, comparison or applicability condition; a no-material finding can finish without a new choice.
 - Affected uses follow established reliance; preserved results retain their grounds, and uninspected branches remain outside the conclusion.
-- A material branch supplies a bounded current question. The subject Method returns its own result before any completed overview cites it.
+- A material change identifies a decision to reconsider. An overview may cite the holder's recorded decision or report the available recommendation and identify the choice still open.
 - Recommendations, causal claims, authority, planning and performed work keep their own grounds and limits.
 - The method stops at the useful result or precise gap and adds no duplicate pass to an adequate direct subject Method.
 
@@ -60341,7 +60341,7 @@ For the working question in §5.1, a decision log preserves why A was selected b
 
 **Use this when** a report, expert answer, review comment, rule or checklist asks somebody to act, wait, investigate or supply evidence, but it is unclear how that demand helps their present question or whether they can carry it out.
 
-An engineer reports that a discharge criterion was below the incoming background level. A colleague wants help examining the criterion. A useful answer can attribute the report and distinguish total level from the operation's contribution. Requiring an archive search before making that distinction spends effort without improving that answer. If the colleague later wants to publish who imposed the criterion, the receiving question changes: a contemporary record may now be worth obtaining. The method below reaches a completed answer in both situations.
+An engineer reports that a discharge criterion was below the incoming background level. A colleague examining the criterion can use an attributed report and the distinction between total level and the operation's contribution. An archive search would add work without improving that answer. If the colleague intends to publish who imposed the criterion, a contemporary record may be worth seeking. An answer about which inquiry is worth making can be complete while the authorship of the criterion is still unknown.
 
 The broad activity is decision support through advice. This pattern addresses the branch in which advice turns uncertainty or a requirement into consequential work for its recipient. Its subject is the **advice statement or requirement being composed or examined**, including the action or inquiry it demands. An empirical claim, recommendation, method instruction and binding requirement retain their different meanings and force. The method recovers the demand, appraises it and returns a usable continuation.
 
@@ -60376,7 +60376,7 @@ Start from what the recipient is trying to settle. Recover the work hidden in th
 
 Identify the question the recipient needs answered and the horizon at which an improvement matters. Read an existing instruction as something somebody would have to perform: what would they believe, do, stop doing, postpone or spend if they followed it?
 
-Recover a missing performer, resource, access, time condition or authority when it can change feasibility or the recommendation. An unavailable data set or a study that finishes after the decision window is a different option from an available timely check. Do not turn a simple answer into a universal plan form.
+Recover the performer, resources, access, time or authority that affects feasibility. A study ending after the decision window serves a different use. For a request for help, establish whose result is wanted. For a shared deliverable, identify the work each participant can supply. If the recipient is to acquire an ability, identify what they must later do under the support conditions intended for that use and what performance would show it. Successful joint work alone warrants the claim about the deliverable (Library Reference §9.3.1).
 
 For a text review, examine the connected passage that creates the demand, including its steps, mandatory fields and completion clauses. “Consider further evidence” and “obtain it before proceeding” impose different work. A final template can impose work that the preceding prose made optional.
 
@@ -60394,7 +60394,7 @@ Resolve these questions when relevant to the receiving use; they are not three m
 
 If the relevant distinction or possible result is not yet expressible, use B.5:4.1.2 to develop grounds from an accessible episode, source or attempt. The immediate comparison can concern a bounded exploration likely to improve the description or reveal a dependency. It need not promise a particular discovery. Return with the basis obtained before demanding a specific action-changing answer. Appraising an already formulated inquiry and constructing its missing basis are different contributions.
 
-When an inquiry is proposed or a consequential uncertainty, anomaly or applicable requirement makes one live, identify a plausible result that would change the conclusion, choice or warranted use. Compare obtaining that result with the feasible alternatives. These may include using present knowledge, a smaller reversible step, a different source, a narrower claim, deferral or stopping.
+For an optional inquiry, identify a plausible result that would change the conclusion, choice or warranted use. Compare it with using present knowledge, taking a smaller reversible step, using a different source, narrowing the claim, deferring or stopping. For a binding inquiry, identify the work due, its recipient and the evidence or report owed under the governing rule. Compare permitted ways of meeting it. A duty to measure and report can hold whatever the reading is.
 
 Include the attainable inquiry's cost, delay, displaced work and downside. Compare what it adds to the present configuration and horizon; `C.11.CRC` supplies that missing comparison when needed. A large uncertainty is not sufficient reason for a large study. Ask how resolving it could improve this use. A cheap probe that can change an irreversible commitment deserves a different answer from an expensive check whose plausible results leave the useful answer unchanged.
 
@@ -60504,20 +60504,20 @@ A successful rehearsal makes the revised materials available and saves four hour
 
 **Completed advice.** “Run the half-hour setup rehearsal to settle compatibility with this room's tools. If the revised materials work, use them for the four sessions; otherwise retain the current exercise. Under our stated estimates, that information saves an expected ninety minutes of instructor time after its cost. Keep the learning-effect claim open.”
 
-The team next performs the rehearsal and uses its result to select materials for these sessions. The rehearsal tests compatibility with the stated room and tools. If domain review finds unacceptable participant risk or a binding evidence prerequisite, the proposed use must satisfy that condition before it enters the available set.
+The advice gives the team a decision it can now make about the rehearsal. Compatibility with the stated room and tools becomes known only after the rehearsal is performed. If domain review identifies an unacceptable participant risk or a binding evidence prerequisite, meet the governing condition before using the materials.
 
 **Opposed cost condition.** Suppose the same discriminating rehearsal now requires three hours of instructor time, still within the available preparation window. Its expected gross preparation saving remains two hours. The completed advice changes: “Retain the current exercise for these four sessions. The proposed rehearsal would cost an expected hour more than it saves. The current materials meet the course requirements; the comparative learning-effect claim remains unresolved.” A longer study remains a separate research proposal whose attainable contribution and burden must be justified for its own receiving use.
 
 
 #### C.11.DUA:5.4 - Earn a long research horizon
 
-A research group has two rival explanations of a recurrent anomaly. Neither currently supports an intervention. Suppose an available instrument and four-week allocation can discriminate a prediction on which the models differ; a much broader survey would exhaust the year's allocation without separating them.
+A research group has two rival explanations of a recurrent anomaly. Neither yet supports an intervention. For one instrument setting their predicted ranges overlap in the middle and differ at the ends, even after allowing for measurement error. The instrument is available for four weeks. A broader survey would exhaust the year's allocation without separating the predictions.
 
-The receiving use is model discrimination within the year's research program. Compare the attainable contrast and broader survey against retaining both models and spending the allocation elsewhere.
+The group must choose a design for its next instrument. A result compatible with only one model would change that design. The group judges the chance and value of resolving this design choice worth the four weeks, after comparing the best other use of that time. A result in the overlap would leave both models in contention.
 
-**Completed advice.** “Run the four-week discriminating measurement. Under the stated model predictions, its result will eliminate or revise one explanation and inform the next instrument design. The broader survey does not presently distinguish those predictions and consumes the remaining allocation. Reconsider the measurement if instrument sensitivity cannot separate them.”
+**Completed advice.** “Use the four weeks for the measurement. Compare the observed result, including its uncertainty, with both prediction ranges. If only one accommodates it, use that finding in the design choice. If both do, retain both explanations. If neither does, check the measurement and reconsider both models. The broader survey offers no comparable basis for the design choice.”
 
-The useful result sought is explanatory progress and a better basis for later research. No immediate operational intervention is needed to justify that contribution. If the sensitivity condition fails, the proposed measurement cannot distinguish the model predictions; revise the design or retain the unresolved models.
+The attainable gain is a better basis for instrument design. No immediate operational intervention is required. If instrument uncertainty makes every attainable result compatible with both predictions, or a more valuable use of the four weeks becomes available, reconsider the allocation.
 
 ### C.11.DUA:6 - Bias-Annotation
 
@@ -60533,7 +60533,7 @@ The following conditions concern the advice being composed or examined. They req
 | --- | --- |
 | CC-C11DUA.1 | The receiving question and the action, delay, expenditure or inquiry demanded by the advice are clear enough to judge their contribution. |
 | CC-C11DUA.2 | The answer preserves what present evidence supports and its use boundary. Infeasible acquisition does not strengthen the claim. |
-| CC-C11DUA.3 | A live inquiry is judged by its attainable contribution and relevant cost, delay, opportunity cost and downside. Useful qualitative comparison suffices. |
+| CC-C11DUA.3 | Appraise an optional inquiry by its attainable gain, cost, delay, displaced work and downside. For a binding inquiry, preserve what must be done and compare the permissible means when the choice matters. Qualitative comparison can suffice. |
 | CC-C11DUA.4 | When a requirement's merits are disputed, the appraisal addresses its governed quantity or activity, purpose, contribution and burden while keeping present force separate. |
 | CC-C11DUA.5 | The result reaches the first useful completion for this recipient. Its decision and useful basis remain; inactive inquiry adds no placeholder, waiver or omission account. |
 | CC-C11DUA.6 | Any reason or limitation needed by the decision or a later recipient remains in the same result. Changed use can make previously unnecessary inquiry worthwhile. |
@@ -60615,8 +60615,8 @@ Conformance, familiarity, one favourable occurrence or Method popularity alone d
 | domain result | The result in the receiving practice that the Method-related Work is intended to help produce or protect. | A Method task pass, conformance result, or positive report is not automatically the domain result. |
 | burden | Time, cognitive, coordination, resource, maintenance, transition, or evidence burden observed or credibly estimated for the alternative. | Burden is not one scalar unless an explicitly defined aggregation is justified for the decision. |
 | capability demand | The holder, Work family or result class, operating envelope, measures, qualification window, and evidence required for reliance. | Training completion, title, assignment, permission, authority, or one success does not establish capability. |
-| side effect | A result outside the primary intended result that may help or harm the decision. | An unobserved possibility remains a risk or gap, not an effect. |
-| opportunity cost | The named alternative Work, investment, learning, evidence, or receiving result displaced by the choice. | “Cost” without the forgone course is not yet an opportunity-cost claim. |
+| side effect | A consequence beyond the primary intended result. Identify who may benefit or be harmed. | Distinguish an observed effect from a forecast, with the grounds and uncertainty of the forecast. |
+| opportunity cost | The benefit forgone from the best feasible alternative use of the scarce resource. State whose work or benefit is displaced. | Time spent is a burden. Its opportunity cost depends on what else could have been achieved in that time. |
 | reversibility | The conditions, time, information, and retained alternatives needed to undo or branch the choice. | A reversible tool setting does not make changed Method semantics, lost evidence, or organizational commitment reversible. |
 | evidence strength | The qualified reach of observations, reports, comparisons, contribution or causal claims for this cell and window. | It is not a confidence adjective detached from source, use, and missing basis. |
 | practical-worth decision | A bounded `keep`, `revise`, `replace`, `branch`, or `stop` result with reasons, unresolved trade-offs, and what that action preserves, creates, or changes. | It transfers neither as universal Method rank nor as authority to implement the decision. |
@@ -60649,7 +60649,7 @@ The resulting decision is hard to challenge and harder to revise. Later evidence
 
 C.11 and C.11.DUA supply choice and the appraisal of demanded work. The comparison here constructs their Method-option input: the attainable receiving contribution, all relevant bearers of learning, transition and recurring burden, feasible alternatives and the condition under which keeping the current way is preferable.
 
-Compare feasible current alternatives in the named decision situation using separate consequence and evidence positions, preserve incomparability and branch conditions, and return one bounded action with its result-specific follow-up: no repair return for `keep`, a named decision or maintained result to create or change for `revise`, `replace`, or `branch`, and the stopped use plus any unresolved trade-off for `stop`.
+Compare the feasible alternatives for the same receiving decision. Identify who would obtain each result and who would carry each burden. If the decision rule settles the trade-off, give the supported action and the follow-up in §4.1. If deciding between alternatives requires a preference or authority the evaluator lacks, return the alternatives that remain and identify whose decision is needed.
 
 #### C.11.MV:4.1 - Pattern-Use Unfolding
 
@@ -60659,7 +60659,7 @@ Compare feasible current alternatives in the named decision situation using sepa
 4. **Assemble the available basis by alternative.** Use current A.3.1.QM qualification, credible domain estimates or judgement, and structural constraints alongside A.3.1.WT actual Work, A.3.1.CC corrections and A.3.1.FT fit or transfer results where available and relevant. Distinguish observed results from estimates, recover the source and conditions of each relied-on claim, and retain the missing basis that limits the decision. Absence of evidence for one alternative is not evidence of its inferiority.
 5. **Preserve the receiving result and Method contribution boundary.** Record the domain result separately from Method task completion, support use, report, or self-assessment. Distinguish direct observation, association, contribution, and causal claim. If contribution is unknown, compare the observed or estimated bundle at its supported strength and carry the attribution limit where it matters to the recipient.
 6. **Compare capability, System, Work, and relation demands explicitly.** For every alternative, name holder-capability inputs, participating Systems, Agent-performed Work, direct relations, assignments, permissions, authority, access, provider and confidentiality boundaries, maintenance, recovery, and evidence Work that changes the decision. Do not let availability or assignment substitute for capability.
-7. **Keep trade-offs visible.** Show where one alternative improves a domain result but increases burden, side effect, exposure, or opportunity cost. Use `A.19.CPM` for non-trivial multi-criteria comparison and `A.19.SelectorMechanism` when a set-valued selection is needed. Do not invent a total order or scalar winner.
+7. **Keep trade-offs visible.** Identify gains and burdens for each affected party. If improving one party's result increases another's burden, apply the agreed priority or return the non-dominated alternatives to the holder of that decision. A recommendation can be complete before the holder decides. Use A.19.CPM when the trade-off calls for comparing multi-criteria profiles under a declared rule and A.19.SelectorMechanism when the receiving work calls for a set-valued selection.
 8. **Compare branch and further-inquiry options where they matter.** Ask whether alternatives serve different situation families and what information, retained material, capability, support or rollback a branch needs. Name its situation discriminator. Select a further trial or inquiry through C.11.DUA only when its obtainable result could change the choice enough to warrant its full burden, including displaced Work and the available window. An adequate current choice can finish directly.
 9. **Return the strongest supported action.** `keep` retains the present course for the named window; `revise` names the decision or maintained result to reconsider under step 10; `replace` names the selected alternative and transition conditions; `branch` names the situation discriminator and retained alternatives; `stop` names the stopped use or change, what happens to current Work, and any unresolved trade-off. If the available basis cannot distinguish the possible actions, return the retained set and the limitation, together with any supported present course. Select a further probe only under step 8. A stronger choice can remain unresolved when no worthwhile inquiry is feasible.
 10. **Route each action according to its kind.** For `revise`, `replace`, or `branch`, name the receiving C.39.RP repertoire choice, C.39.RQ requirement, C.32.MWA.PP architecture decision, B.1.5.CM construction result, or A.3.1.MV entry and the change needed there. If an existing claim is contradicted, identify that claim and reopen only its owning result. If this is a first situated choice or a new applicability distinction, create the needed decision or entry through its owner; do not invent an earlier claim or contradiction. `keep` adds no repair return. `stop` preserves any unresolved trade-off and stopped use without inventing a correction owner.
@@ -60692,23 +60692,23 @@ This also makes stopping constructive. A `stop` can protect scarce Work or avoid
 
 #### C.11.MV:4.4 - Minimal Constructed Worth Replay
 
-Continue the constructed temperature-sensor review case. The decision is how `Calibration-Team-A` should review reports through day D30. Alternative `ALT-M` retains admitted `M-Unit-Review-1`, description edition 4, and the manual conversion table; for the present review decision it uses the representation repaired in A.3.1.CC. Alternative `ALT-L` uses the current lightweight checklist that verifies tolerance but has no explicit unit-normalization step. `ALT-S` stops the proposed Method change and keeps the present release hold until a supported permissible continuation is available.
+`Calibration-Team-A` is choosing how to review reports through day D30. Until now, reviewers have used a lightweight tolerance checklist (`ALT-L`) for both uniform-unit and mixed-source reports. Their current procedure permits a tolerance decision on the displayed numbers without first establishing common units. An admitted alternative, `M-Unit-Review-1` (`ALT-M`), requires the reviewer to establish common units, compare the normalized values against the declared tolerance and stop release if a mismatch remains unresolved. A manual conversion table is available. Use description edition 4 with the representation repair from A.3.1.CC. `ALT-S` keeps release on hold when neither review can support it. A difference in checklist wording alone would not establish a difference in the permitted review actions.
 
 The evidence for `ALT-M` includes the two earlier admitted A.3.1.WT occurrences of `M-Unit-Review-1` performed by the same qualified `Reviewer-17`: seven minutes on the ordinary same-unit report and twelve minutes plus one table lookup on the mixed-unit report; both decisions were correct and the mixed-unit release was stopped. A separate constructed matched replay of `ALT-L`, admitted as `W-L-Rep-1` and `W-L-Disc-1` under the same holder, team, report pair, and window, took five and six minutes. It accepted the ordinary report but failed to expose the mixed-unit mismatch.
 
 The replay supplies no causal claim beyond these occurrences and no evidence about another holder or automated support route. The two earlier A.3.1.WT observations are not trials of the later representation repair in A.3.1.CC.
 
-| Position | `ALT-M` | `ALT-L` | `ALT-S` |
+| What is compared | `ALT-M` | `ALT-L` | `ALT-S` |
 | --- | --- | --- | --- |
 | domain result | Correct decisions in both observed reports; mixed-unit release stopped. | Correct ordinary decision; mixed-unit mismatch not exposed. | No additional report released; mixed-unit risk remains contained but current release Work stops. |
 | burden | Seven and twelve minutes; one lookup; current capability and table required. | Five and six minutes; lower observed burden. | Delay and missing release result; no new review burden. |
 | side effect and opportunity | More explicit trace and stop; consumes review time. | Faster but leaves the named unit hazard exposed. | Preserves safety while displacing release and comparison Work. |
-| reversibility | Checklist and representation can be reverted while evidence is retained. | Already current; reverting loses no transition Work but retains the exposed hazard. | Reopen after the missing comparison or support basis is supplied. |
+| reversibility | The team can revert the rule for choosing a review procedure while retaining earlier review records. | Already in use. Continuing with it for mixed-source reports retains the exposed hazard. | Reopen when the comparison or support needed for release is available. |
 | evidence strength | Two constructed teaching occurrences, not field evidence. | Two constructed teaching occurrences, not field evidence. | Consequence follows from the stated stop; downstream cost is unmeasured. |
 
-Return `branch`: require `ALT-M` for reports whose sources can use different unit systems; retain `ALT-L` for the bounded same-unit situation. The discriminator is recoverable source-unit variability, not reviewer preference. Retain `ALT-S` as the stop when that variability cannot be recovered.
+Recommend a `branch` through D30. Where source units may vary, use `ALT-M` so that the release decision depends on establishing common units. Where the input source guarantees common units, retain `ALT-L`. If the source units cannot be established and the formal review cannot resolve them, retain `ALT-S`. The two matched reports support the observed differences in review decisions and effort. Use of the repaired representation has yet to be observed.
 
-No earlier decision about this unit-variability branch is supplied in the constructed case. Return the branch to A.3.1.MV as new applicability entry `APP-UnitReview-TeamA-D30`, recording the three alternatives, the source-unit discriminator and the D30 window. It records when to use the existing alternatives; it changes no Method identity and claims no contradicted predecessor.
+In this constructed case the team holds the review decision, has the reviewer and table available, and adopts that recommendation for the D30 window. Record the new applicability entry `APP-UnitReview-TeamA-D30` through A.3.1.MV, including the three alternatives and the source-unit condition. The team changed when reviewers use each procedure. The earlier observations still concern the procedures used on those reports.
 
 This result covers the stated conditions through D30. For a later reliance, use A.10.1 to identify which premises remain applicable and which qualification, condition or evidence gap needs renewal. A real expiry still limits use; new field investigation is selected for its useful obtainable answer, not merely because the date advanced.
 
@@ -60740,7 +60740,7 @@ The sustainable-design study supplies three families of separate workshop observ
 
 The source reports immediate participant-perceived value of activities and mindsets and warns against theoretical-only recommendations. It does not itself supply one named receiver's feasible current-alternative set, a common decision, matched alternative Work, or a counterfactual basis.
 
-For a C.11.MV use, establish those positions locally, preserve explicit incomparability and the missing counterfactual basis, and retain voluntary-participation selection bias, unmatched timing, immediate self-report, long-term, causal, transfer, and recombination limits before returning a worth action.
+Use those observations for the participant experiences they document. For a present choice, identify the feasible options, recipient and decision rule. A binding constraint or an already established difference can settle that choice. If it depends on a comparative effect on later work, account for voluntary participation, unmatched timing and participants, immediate self-report and any missing basis for transfer, causation or combining workshops. Return what can be decided with those limits.
 
 The Halogen case can supply evidence about project demands, practitioner skill sets, organization, and cyclic adaptation. It can justify a `branch` or variant question when conditions differ, but one firm's history does not make its repertoire universally preferable.
 
@@ -60759,11 +60759,11 @@ In the constructed EC-417 case, the team must release a controller firmware and 
 | B2 | Use B's integration and reconciliation order and retain the same evidence history, but allocate `1.60 h` of that preparation to the supplier-configuration role and `0.40 h` to the safety engineer. | Estimated peak safety demand is `2.80 h`, within the same limit; the supplier's preparation remains part of the total burden. |
 | Stop or next slot | Stop the proposed change or defer the release to an authorized later slot when the required conditions cannot be met. | State the delay or foregone result and the condition needed to reconsider. |
 
-Keep the comparison tied to this decision and make burden, confidentiality, holder capabilities, project, user, provider, repository, PLM and CI Systems, Agent-performed Work, direct relations, recovery, side effects, reversibility, and evidence limits explicit. The three A.15.8.MS support tasks establish their bounded task observations only; the three-release WorkPlan supplies no release-worth evidence.
+B2 moves preparation work to another role. Verify that its holder can absorb the 1.60 hours in the required window, is qualified to prepare the difference, and can access the relevant evidence under the supplier's confidentiality conditions. Include the work that allocation displaces and how project, user and provider Systems exchange, check and recover the records through the repository, PLM and CI systems. Three A.15.8.MS support tasks establish only the results observed on those tasks. A three-release WorkPlan describes intended work.
 
 Keep `C-EC-Release-v2` as a candidate. Preserve the missing A.22 selection basis, untested AI-provider and feedback branches, and unsupported `CUR-EC417-CadenceEffect-1`.
 
-The timing and capacity estimates support rejecting B's overloaded safety allocation and retaining B2 as a proposal for at most three trials under its entry conditions. If those conditions cannot be met, return stop/next-slot or the signed-first A alternative with its timing consequence.
+With evidence at D−8, A misses the original slot. B exceeds the safety engineer's limit. B2 reduces the estimated demand on that engineer from 4.40 to 2.80 hours, within 3.20 hours. Recommend at most three trials if B2 also meets the supplier and trial-entry conditions. The responsible holder can select a trial on those grounds. If it cannot proceed, defer or stop, or seek a decision to change the slot for A. Arrival of signed evidence by D−21 would reopen A for the original slot.
 
 An actual release or trial entry still needs every applicable capability, assignment, permission and authority condition. If the question is demonstrated release worth, return the missing performed-release and alternative evidence. The observed support-task results, with the tailoring operation still undefined and its permission/authority stop untested, do not establish that stronger result.
 

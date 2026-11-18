@@ -1960,7 +1960,7 @@ For the numerical branch, **adopt** Higham's separation of [conditioning](https:
 - **CMP.3:** constructs shared computation and storage for finite stages; **CMP.5** supplies relaxation and recovery; **CMP.6** supplies iterative updates.
 - **C.29.2:** fixes the computational answer, representation and resource conditions.
 - **C.29 and MMP.9:** preserve the separate subject correspondence and model-reduction question when this algorithm computes a model's consequence.
-- **C.11.DUA:** compares the value of further refinement with its cost and remaining uncertainty.
+- **C.11.DUA:** compare the cost of another computation with what a tighter error bound could let the recipient decide or guarantee. If the present bound already settles that use, stop unless another obligation applies.
 
 ### CMP.8:End
 

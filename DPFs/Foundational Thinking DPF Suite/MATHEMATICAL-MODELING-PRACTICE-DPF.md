@@ -327,7 +327,7 @@ Several choices therefore shape the construction:
 | An uncertainty label and the claim it supports | Is the needed result a coverage guarantee, a posterior probability or a prediction for a new outcome? |
 | Agreement in one use and a changed use | Which premise, mechanism or interpretation must be reconsidered? |
 
-The requested answer determines how far to develop the model. A bound can settle a threshold question while leaving parameters unresolved. A proposal for a new working method can instead require distinctions that an earlier prediction ignored. C.11.DUA helps decide whether another calculation, observation or refinement is worth its possible contribution.
+The requested answer determines how far to develop the model. A bound can settle a threshold question while leaving parameters unresolved. Designing a new working method may require representing effects the prediction could omit. For another observation or calculation, ask what each plausible result would allow the recipient to conclude or do, and whether that gain is worth the time and work displaced (C.11.DUA).
 
 ## MMP.Reference:3 - Solution - Connect the contributions the question needs
 
