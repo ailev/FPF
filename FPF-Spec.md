@@ -60905,7 +60905,7 @@ A bare list of `ComponentOf`, collection-specific belongs-to, or `AspectOf` clai
 
 #### C.13:4.1 - Solution sketch
 
-Use the coarsest of three construction narratives that fits the object being described. In each case, write the shorthand only after the required facts are recoverable.
+Choose the form by the relation you need to explain. Use `sum` for an assembly, `set` for membership in a collection, and the appropriate `slice` for an aspect or a bounded portion. An installed pump can belong to a fleet and be a component of a skid. Each claim needs its own facts.
 
 | Form | Practical reading | Facts required before the trace is truthful | What the form does not establish |
 | --- | --- | --- | --- |
@@ -60926,6 +60926,8 @@ Do not add a fourth constructor merely to carry time, execution order, paralleli
 Use the portion profile of `slice` when the receiving work needs to inspect a `PortionOf` claim. First identify the portion x and whole y under A.14:5.1. State what delimits x within y, why they are the same kind of stuff or content, the extensive measure μ and its unit or declared conversion, and the conditions under which both identities and the relation hold. An amount alone leaves the particular portion unidentified. These facts support the ordinary sentence “x is a portion of y under this measure and boundary rule.”
 
 `Γ_m.slice(y, portionBoundary)` is optional shorthand for that account. Its second argument identifies the delimiting rule; it is not the aspect profile's facet argument. The result describes x and its already established PortionOf relation. For `ProperPortionOf`, also check `0 < μ(x) < μ(y)` under A.14:5.1; additivity alone does not establish it. For a joined portion, apply A.14's disjointness and admitted-join conditions before adding measures. A boundary, unit or measure change reopens the affected account; the direct identity rule decides whether the portion or whole continues.
+
+To infer a value for the whole from observations of its parts, say how the characteristic of the whole depends on those parts under the observation conditions. To obtain total mass by adding the portion masses directly, the portions must cover the whole without overlap and their masses must be comparable. A local temperature reading with its uncertainty can establish that a limit was exceeded at one spot at the time of measurement. To establish that the whole stayed below the limit, cover the unobserved material and times with observations or a justified bound. C.16 gives the measurement method for the chosen characteristic.
 
 In this constructed example, Billet-20 is an identified 20 kg stock. EndPortion-5 is the same material between its left end face and a specified cross-section inside that billet; its mass is 5 kg under the same measurement conditions. The account names both objects, those boundaries and the identity conditions of the stock and portion, so it supports `ProperPortionOf(EndPortion-5, Billet-20)` and the ratio 5/20 = 25%. An AspectOf or integrated ComponentOf claim requires its own relation grounds. If the indicated cross-section is unknown, “5 kg of Billet-20” gives an amount but leaves this particular portion unresolved. After physical separation, inspect the new boundaries and stock identity before carrying the earlier relation into the new state.
 
@@ -60980,6 +60982,8 @@ Use this split especially when a readable relation label such as ComponentOf, a 
 PumpSkid #7 is assembled from identified Pump, Motor, Baseframe, Manifold, enclosure, pipe, cable, and connector entities. The direct mechanical, electrical, and fluid part-relation patterns identify the fastening, coupling, enclosure, terminal, flange, and seal occurrences. The skid assembly method or rule states how those facts form the candidate, and the skid reidentification rule says which replacements preserve PumpSkid #7.
 
 The shorthand `Γ_m.sum{Pump, Motor, Baseframe, Manifold, ...}` is truthful only with those facts beside it. It records an integrated-assembly construction; it does not make the relations obtain. The composition sustains skid-level boundary, interface, load-envelope, and operating characteristics not attributable to one constituent alone.
+
+A more detailed account can establish more about the same motor, such as the torque it can deliver. To compare two models of **skid performance**, use the same question about the skid in both. State how the model of the coupled parts predicts the whole's performance. Under B.5.MR:4.2 a strict refinement preserves the earlier assertions in every admissible configuration, admits at least one configuration, and rules out a previously possible performance answer.
 
 The same parts unconnected on a pallet do not form the skid. A bill of materials and drawing are epistemes about intended or possible assembly. They do not substitute for actual part relations, assembly, or identity. The same part set connected in a different assembly may constitute another whole.
 
@@ -61150,7 +61154,7 @@ The forms are intentionally small, but their inputs do not determine ontology by
 
 C.16 covers construction and use of measurement models. For a performed measurement, it keeps the following parts of the result account recoverable:
 
-- one measurand or otherwise identified measurement subject;
+- the entity or ordered tuple being measured and the quantity or other Characteristic attributed to it under the stated conditions;
 - one Characteristic and one Scale, with Level or Coordinate and Unit when applicable;
 - the reusable measurement specification, `U.Method`, measurement model, calibration requirements, and uncertainty treatment;
 - dated measurement work with performer, actual bindings, resources, and time stance;
@@ -61185,7 +61189,7 @@ If a fact needed for that interpretation is unavailable, state which conclusion 
 
 #### C.16:5.1 - Name the measurand and measurement subject
 
-**M‑SUB‑1.** Name the measurand: the quantity or characteristic intended to be measured. When FPF uses a non-quantity Characteristic, name the subject and the Characteristic whose Scale position is being attributed.
+**M‑SUB‑1.** Identify the measurement subject and what you intend to determine about it. For a quantity, the measurand specifies which quantity of that subject under which conditions. A pressure at one port and the maximum pressure anywhere in a vessel are different measurands. For a non-quantity Characteristic, identify the subject, the Characteristic and the Scale on which a value is attributed.
 
 **M‑SUB‑2.** Preserve arity. An entity Characteristic has one subject; a relation Characteristic has the exact ordered tuple required by A.17. A relation reading is not silently rewritten as a unary property of one participant.
 
@@ -61226,6 +61230,8 @@ Start writing before every choice is settled: identify the wanted distinction, p
 5. **Choose the useful return.** Supply the interpreted value, interval or conditional result when it answers the question. Otherwise identify which change could resolve the remaining ambiguity: refine the relation, change the measurement arrangement, obtain an applicable calibration or narrow the conclusion. Choose further observation by the distinction it can resolve and the work it demands, using C.11.DUA when that choice needs deliberation. C.16.RM compares changes to models, arrangements and calculation, then carries the selected repair through the interpretation while retaining the wanted quantity.
 
 When an observed discrepancy matters, compare its plausible sources in the subject account, measurement relation and actual arrangement. Change the contribution that can alter the answer; sometimes removing an unwanted influence from the arrangement is more useful than modeling it in greater detail. A model-development result states the relation and what it would establish. A claim about a performed measurement also identifies the work and obtained result under §§5.3-5.5.
+
+Instrument resolution describes how small a change in the measured quantity can produce a perceptible change in indication. Extra display digits alone establish neither that capability nor a smaller uncertainty in the result. When comparing two measurement models, hold the question, subject and conditions fixed or establish how the observations bear on the same quantity. Apply B.5.MR:4.2 if the claim is that the second model strictly refines the first. A change of instrument may supply new evidence for that comparison.
 
 #### C.16:5.4 - Recover input quantities, output quantity, and uncertainty
 
@@ -61366,11 +61372,13 @@ Now allow hints during the assessment. The earlier a and b may no longer describ
 
 ### C.16:12 - Carry a reading into a calculation and revise its basis
 
-A retained account attributes temperature `20 °C ± 1 °C` to Pump P over window W under a named specification and model; the interval is a bound for this example. Its content is a `ReadingContent` member. Relying on it as a measurement result still needs the performed-measurement and uncertainty grounds above. The Coordinate 20 on the Celsius Scale, the interval, the reading content and an episteme stating that content answer different questions.
+A retained account attributes temperature `20 °C ± 1 °C` to Pump P over window W under a named specification and model; this example admits every additive error from −1 to +1 °C and has no further constraint on temperature. Its content is a `ReadingContent` member. Relying on it as a measurement result still needs the performed-measurement and uncertainty grounds above. The Coordinate 20 on the Celsius Scale, the interval, the reading content and an episteme stating that content answer different questions.
 
 A declared scoring rule reads that Celsius position and assigns `g(c)=c/40` on `[0,40]`, with higher temperature preferred in this illustrative use. With the required admission grounds, it returns score content for P at W: `0.5`, bounded by `[0.475,0.525]` under this interval-propagation rule. That content can pass to a comparator accepting this score Scale and bound. The scoring calculation supplies no second temperature measurement. If an upstream UNM instead supplies `293.15 K`, the number cannot fill the Celsius argument. Apply the declared inverse conversion, or select a kelvin-input scoring rule whose correspondence is established.
 
-Now comparison of the written model and calibration record reveals that the measurement needs a `+2 °C` correction not included before. The corrected account attributes `[21,23] °C`, and this same scoring rule gives `[0.525,0.575]`. Recover whether the specification already permitted this calibrated correction or must itself change. Preserve the earlier assertion and its basis, then reconsider the scores and comparisons that relied on it. A new window W2 instead needs a new attribution for W2; it can leave the Characteristic, Scale, specification and scoring rule unchanged. These returns follow from the general identity and replacement rules, not from the displayed numbers alone.
+Now comparison of the written model and calibration record reveals that the measurement needs an exact `+2 °C` correction not included before. With the same admitted reading errors, the corrected account attributes `[21,23] °C`, and this same scoring rule gives `[0.525,0.575]`. Recover whether the specification already permitted this calibrated correction or must itself change. Preserve the earlier assertion and its basis, then reconsider the scores and comparisons that relied on it. A new window W2 instead needs a new attribution for W2; it can leave the Characteristic, Scale, specification and scoring rule unchanged. These returns follow from the general identity and replacement rules, not from the displayed numbers alone.
+
+For the question “which temperatures are compatible with this account at W?”, 19 °C was admitted only by the earlier bound and 23 °C only by the corrected one. The correction revises the model-based attribution. A further observation at W, justified under the corrected model, could instead exclude some of its previously compatible temperatures while preserving its other assertions.
 
 ### C.16:9 - Bias-Annotation
 
@@ -61386,7 +61394,7 @@ Now comparison of the written model and calibration record reveals that the meas
 
 For a proposed model, apply the subject, scale, model and applicable calibration checks. Apply work and result checks when asserting a performed measurement, and later-use checks when making that later claim.
 
-1. **Subject:** one measurand or measurement subject is named, with correct entity or relation arity.
+1. **Subject:** identify the entity or ordered tuple, then the quantity or other Characteristic sought under the stated conditions.
 2. **CSLC:** Characteristic, Scale, Level or Coordinate, applicable Unit and time stance are interpretable. Add a preference rule only for a use that judges which values are preferable.
 3. **Method/model:** the method, model version, inputs, output quantity, assumptions and validity domain are recoverable. When the relation had to be constructed, §5.3.1 explains how the procedure produces the indication and what sought values it can distinguish. Keep a proposed model separate from a claim of performed measurement.
 4. **Calibration:** applicable calibration work/result, reference basis, coefficients or corrections, validity interval, and uncertainty contribution are cited when required.
@@ -61431,7 +61439,7 @@ These sources contribute different parts of measurement interpretation. Their qu
 | [QUDT Schema 3.4.0, June 2026 catalogue](https://www.qudt.org/catalog/qudt-catalog.html) | Citable identifiers distinguish quantity kinds, units, dimensions and datatypes. Source-local citation needs no additional semantic mapping; a different intended local sense does. | A shared URI does not establish the same measurand, Scale, model, calibration regime or direct comparability. |
 | [W3C/OGC SOSA/SSN Recommendation, 19 October 2017](https://www.w3.org/TR/vocab-ssn/), and [2023 Edition First Public Working Draft, 16 September 2025](https://www.w3.org/TR/vocab-ssn-2023/) | Observation and procedure accounts can supply relevant subject, property and measurement information. Interpret each claim under its cited edition; a draft proposal carries its stated draft status. | An observation graph does not by itself establish FPF Work identity, actual bindings, a measurement result, its episteme or a later use. A correspondence claim needs its own basis. |
 
-**Value and result distinctions.** [VIM3 entry 1.1](https://jcgm.bipm.org/vim/en/1.1.html), [entry 1.9](https://jcgm.bipm.org/vim/en/1.9.html) and [entry 1.27](https://jcgm.bipm.org/vim/en/1.27.html) distinguish a quantity, its adopted unit reference and a quantity-value scale; [entry 2.9](https://jcgm.bipm.org/vim/en/2.9.html) includes attributed values and the information needed to interpret a measurement result. These distinctions support the separation used here. FPF also uses nominal Scales and non-measurement evaluations; VIM terminology does not classify all such readings or admit an FPF kind. `ReadingContent` is the bounded FPF interface construction in :5.5.1.
+**Value and result distinctions.** [VIM3 entry 1.1](https://jcgm.bipm.org/vim/en/1.1.html), [entry 1.9](https://jcgm.bipm.org/vim/en/1.9.html) and [entry 1.27](https://jcgm.bipm.org/vim/en/1.27.html) distinguish a quantity, its adopted unit reference and a quantity-value scale; [entry 2.9](https://jcgm.bipm.org/vim/en/2.9.html) includes attributed values and the information needed to interpret a measurement result. The [measurand (entry 2.3)](https://jcgm.bipm.org/vim/en/2.3.html), [indication (entry 4.1)](https://jcgm.bipm.org/vim/en/4.1.html) and [resolution (entry 4.14)](https://jcgm.bipm.org/vim/en/4.14.html) locate three different questions in the measurement. FPF also uses nominal Scales and non-measurement evaluations; VIM terminology does not classify all such readings or admit an FPF kind. `ReadingContent` is the bounded FPF interface construction in :5.5.1.
 
 **Constructing and revising the model.** GUM-6:2020, §§7, 9-10 and 12, supplies the distinction between the measurement principle, effects of implementation and adequacy for use. Section :5.3.1 turns that distinction into a construction and an ambiguity test. The circuit and assessment cases work this instruction using their stated subject models.
 
@@ -61474,7 +61482,7 @@ Use C.16 first when the object is a sensor reading, survey response, dashboard v
 
 Recover the ordinary measurement chain first:
 
-1. name the measurand or subject, Characteristic, Scale, value or Level, applicable Unit and time stance; identify preference only when the use evaluates the result;
+1. identify the subject and the quantity or other Characteristic measured, then the Scale, value or Level, applicable Unit and time stance. State a preference when the use evaluates the result;
 2. separate reusable method and model from dated work and actual bindings;
 3. name input quantities, output quantity, calibration basis, uncertainty propagation, and one measurement-result episteme;
 4. distinguish emitted output, indication, actual subject state, measurement result, result episteme, diagnosis, criterion verdict, and decision; and
@@ -61568,7 +61576,7 @@ Describe a consequential effect where it enters the relation. An offset at an in
 
 Retain an unknown influential value as unknown. Available bounds or a justified probability model can support a useful conditional answer. Do not assign zero solely because the influence has not been measured.
 
-Compare omission with inclusion at the needed result. A simple limiting case or a bound can show that an influence is negligible for this question. Keep the condition under which that conclusion holds, so a tighter requirement can reopen it.
+Compare omission with inclusion for the conclusion the user needs. An ideal limit can check the relation. To omit an influence under the actual operating conditions, show why including it leaves the required conclusion intact. For a value estimate, a bound on the change over the operating range can show that the change fits the accuracy needed. Retain the conditions and any tolerance used.
 
 #### C.16.MR:4.4 - Compose the relation and obtain a first result
 
@@ -61802,7 +61810,7 @@ Use a validated enclosure method when the conclusion depends on retaining every 
 
 For a point-value question, test whether all compatible cases agree on that value. For a threshold or other condition, test whether it holds throughout the compatible set or a sufficient outer bound. Establish that the premises admit a case before using such a bound as the interpretation of a measurement; substitution of an available feasible case may suffice.
 
-If the question remains unresolved, construct two compatible cases with different answers. Check both against all readings, shared parameters and domain conditions. These witnesses identify what an additional relation or observation would have to distinguish.
+To establish that the readings leave two answers possible, find two cases that satisfy all the readings, shared parameters and domain conditions and give different answers. If the calculation has only produced a bound spanning both answers, try to find such cases or sharpen the bound. Report which possibility is still untested when neither calculation succeeds.
 
 Separate a proved empty compatible set from a search that has not found a case. An empty set shows that the combined readings, model and conditions are inconsistent. Locate a consequential conflict; the cause may be a recording error, a changed subject, an unsuitable error bound or an inadequate measurement relation. A failed search instead limits the computational result.
 
@@ -61812,7 +61820,7 @@ A point result under ideal data can broaden when input uncertainty is restored. 
 
 Return the value, range or comparison with the conditions that support it. Stop when it is sufficient for the intended use. A lower bound can be more useful than an unnecessarily precise estimate.
 
-For an unresolved decision, use the differing cases to choose a potentially useful next contribution: an available second reading, a different operating range, a better bound, a changed instrument or a narrower conclusion. Examine what that contribution could distinguish before obtaining it. In :5.3, another counter using a different modulus distinguishes alternatives that repeating the same remainder preserves.
+When two compatible cases give different answers, choose a further observation or relation by what it could distinguish. In :5.3 another counter with a different modulus distinguishes possibilities that repeating the same remainder preserves. When the remaining obstacle is an unfinished calculation, first see whether solving the existing relations or tightening a bound will settle the decision.
 
 Use C.11.DUA when the value and effort of reducing the ambiguity need comparison. It can be reasonable to act with the remaining uncertainty or leave the question unresolved. B.5.MPC.R coordinates a needed revision across the physical, mathematical and computational contributions.
 
@@ -62006,7 +62014,7 @@ For each available repair, change the corresponding part of the relation and det
 
 A difference measurement is useful when the target changes between two observations in a known way while the influences being cancelled remain sufficiently stable. A larger input resistance is useful when the loading relation shows how much it reduces the consequential error. Repeating an unchanged observation needs its own error or dynamics account to support a narrower conclusion.
 
-Prefer an already available comparison or a small reversible change when it can settle the repair choice. If several explanations predict the same result of a proposed test, that test cannot select among them. Use C.11.DUA to compare the gain from an attainable further observation with its effort and delay.
+Prefer an available comparison or a small reversible change when it can settle the repair choice. If two explanations predict the same indication under every condition of the proposed test, a deterministic reading cannot distinguish them. For probabilistic predictions compare likelihoods for the recorded value, or the probabilities assigned to its reported interval or category, as appropriate. A result possible under both explanations can still favor one. Use C.11.DUA to compare the gain from an attainable observation with its effort and delay.
 
 The needed conclusion sets the reach of diagnosis. Replacing a defective assembly and obtaining the required response may restore the measurement without identifying which internal component failed. Retain the unresolved cause if later reliability, maintenance or causal explanation depends on it. Use C.28 when the required result is a causal attribution.
 
@@ -62078,17 +62086,17 @@ A source has open-circuit voltage E and internal resistance Rs between 0.8 and 1
 
 With Rm = 1 MΩ and an ideal reading V = 5 V, the compatible bound is 9 ≤ E ≤ 11 V. It leaves the question E ≤ 10.5 V unresolved.
 
-One option is to determine Rs more closely and correct the loaded reading. Another is to reduce loading. The second option is available here: change to a meter with Rm = 100 MΩ. Assume the same passive-source model and resistance range apply to the new measurement. If its ideal reading is 9.9 V, then:
+One option is to bound Rs more closely and correct the first reading. Another is to reduce loading in a new measurement. Use a meter with Rm = 100 MΩ. Suppose the same passive-source law and resistance range hold at the new reading. If its ideal indication is 9.9 V, the open-circuit voltage **at that reading** satisfies:
 
 `9.9*(1 + 0.8/100) ≤ E ≤ 9.9*(1 + 1.2/100),`
 
-so 9.9792 ≤ E ≤ 10.0188 V. The bound settles E ≤ 10.5 V while Rs remains unresolved. The repair reduces the unknown resistance's influence on this conclusion.
+so 9.9792 ≤ E ≤ 10.0188 V. The new reading alone settles E ≤ 10.5 V at that time without determining Rs. To answer the question about the earlier time as well, establish that E stayed the same or bound its change tightly enough for the threshold. If both E and Rs stayed the same, the two ideal readings can also be solved jointly by C.16.IR:5.1.
 
 Restore a supplied reading-error bound of ±0.1 V for the new meter. The positive factors give:
 
 `9.8*1.008 ≤ E ≤ 10.0*1.012,`
 
-or 9.8784 ≤ E ≤ 10.12 V. The same decision remains settled. A more demanding threshold could make the error bound consequential again. Meter range, voltage stability and the loading model belong to the physical premises supporting this use.
+or 9.8784 ≤ E ≤ 10.12 V at the new reading. The threshold is still met. For a lower threshold the stated reading error could change the decision. The conclusion depends on the meter's operating range and the loading model.
 
 #### C.16.RM:5.3 - Recompute a rate from retained observations
 
@@ -62223,7 +62231,7 @@ Rewrite the claim so the reader can recover its subject, the relevant characteri
 2. **Recover the bearer.** Name the subject being characterized. For a relational Characteristic, retain the tuple required by its definition.
 3. **Recover the construction.** Use §5 to identify what the wording means. A trigger can be ordinary prose; its appearance does not create an FPF kind.
 4. **Use a recovered subject rule directly.** Once the construction is clear, apply its subject pattern from §6 or the relevant domain practice.
-5. **Repair what remains hidden.** Recover the contributions needed by this claim: for a measurement, its Characteristic, Scale and interpretation; for a comparison, its reference or comparator set; for a threshold, its predicate and applicability; for an indicator, the indicated property or claim and the direct relation, including distortion risk when it is a proxy. Keep necessary use and stop conditions. If an indicator relation is required but no governing rule can state or test it, return `missing-governor` rather than storing an `indicatorRole` label. Use A.6.RCD:0.1 to distinguish that absent rule from missing case facts or a failed positive test. Add explanatory non-use guards only under the F.19:4 test.
+5. **Repair what remains hidden.** Recover the contributions needed by this claim: for a proposed measurement, its Characteristic, Scale and method; for an observed value, its observation and interpretation; for a computed or assigned value, the model or rule and the inputs it uses; for a calculation, the operations that the Scale admits; for a comparison, its reference or comparator set; for a threshold, its predicate and applicability; for an indicator, the indicated property or claim and the direct relation, including distortion risk when it is a proxy. Keep necessary use and stop conditions. If an indicator relation is required but no governing rule can state or test it, return `missing-governor` rather than storing an `indicatorRole` label. Use A.6.RCD:0.1 to distinguish that absent rule from missing case facts or a failed positive test. Add explanatory non-use guards only under the F.19:4 test.
 6. **Separate further claims.** A measurement or score may contribute to evidence, a decision or another use. Apply the governing conditions for that additional claim; repairing the characterization alone does not establish it.
 7. **Return a useful statement.** Say what the reader can now recognize, compare or conclude, or which missing contribution leaves the claim unresolved. Type-correct wording with no useful interpretation is insufficient.
 
@@ -62262,12 +62270,12 @@ A local rewrite is sufficient when the sentence conveys the needed meaning and c
 | Trigger wording | First recovery question | Not enough |
 | --- | --- | --- |
 | `metric` | Is there a declared `Characteristic` and `Scale`, with the measure, unit when applicable, scoring method when used, and admissible use required by the claim? | Saying "metric" as a synonym for evidence, quality, performance, or success. |
-| `score` | What value on which scale, computed how, and used for what comparison or threshold? | Score as proof, gate passage, readiness, or release. |
+| `score` | Which inputs and rule produce the score? Where it reports an observation, how was that observation obtained? Does the scale support the proposed operation on the scores? | A score or an average taken as proof, gate passage, readiness, or release. |
 | `axis` or `dimension` | Is this a `Characteristic`, coordinate in a characteristic space, mathematical factor, latent coordinate, structural aspect, or ordinary explanatory direction? | `Axis` or `dimension` as self-evident ontology. |
 | `feature` or `property` | Is this an observed feature, characteristic, model feature, entity property, relation property, or ordinary prose? | `Feature` or `property` as automatic characteristic. |
 | `strong` or `weak` | Does it state a degree of a characteristic or another claim? For a degree, on which scale and under which comparison reference or comparator set? | A degree of a characteristic without its scale. |
 | `robust` | Robust to what perturbation, under which scale, comparison, loss, or preserved-structure and lost-structure? | Robust as general praise. |
-| `level` | Level on which declared scale or abstraction? | Level as undefined scale or maturity status. |
+| `level` | For a rating, which named category on which scale? For a level of model abstraction or refinement, which models answer the same question, and which answer does the more abstract model admit that the more concrete model excludes if the step is strict (B.5.MR:4.2–4.3)? | A category, maturity label or L-number used as proof that the model became more concrete. |
 | `indicator` | Indicator of what characteristic or claim, through which direct relation? If it is a proxy, what is the proxy relation and distortion risk? | Indicator as the indicated property. |
 | `threshold` | What predicate is applied to which characteristic space coordinates? Identify the applicable comparison operator, cut value, band, region or dominance condition; any scalarization policy; the comparison reference or comparator set; any gate or acceptance relation used by the claim; and necessary applicability or stop conditions. Add an explanatory non-use guard only under F.19:4. | Threshold as characteristic, measure, scalar score, decision, or proof by itself. |
 | `benchmark` | Benchmark for which characteristic, comparison set, front, archive, or harness? | Benchmark result as proof or release. |
@@ -62439,7 +62447,7 @@ How can a reader retain the convenience of “quality” while recovering its in
 * **Distributed substrate vs local publication.** Some evaluative signals arise in distributed or embodied substrates but must later be published in explicit local forms.
 * **Comparability vs non-reduction.** Engineering and selection settings need comparability, but not every evaluative signal is an admissible metric.
 * **Cross-tradition dialogue vs false unification.** The framework should permit parallels without asserting identity.
-* **Progressive articulation.** A term may begin as a felt signal and later become a bundle, proxy set, or objective.
+* **Progressive articulation.** A person can notice a mismatch before being able to name a criterion. An account of what they noticed can guide a choice of measure or objective. To claim a measured value, establish how the measure bears on the characteristic and obtain the observation.
 
 ### C.16.Q:4 - Solution
 
@@ -62465,7 +62473,7 @@ A transitional ascription makes an unresolved quality interpretation explicit un
 
 `qualityTermAscription(...)` is the canonical transitional quality-term repair form when the endpoint choice is not yet fixed. The form is not a relation kind by default and does not replace the endpoint source.
 
-Use of `qualityTermAscription(...)` presupposes enough articulation explicitness to name the bearer, effective scheme, probe/model frame, comparison frame or explicit `none`, ClaimScope, and at least one candidate quality-sense family. Closure degree may remain low while `qualityTermAscription(...)` is transitional, but content that is still only a cue pack, forwarded cue, or open explanatory probe stays in `A.16.1`, `B.4.1`, or `B.5.2.0`. If a published record later loses an interpretation-bearing scheme, frame, scope, or direct source relation required for its stated use, retreat via `A.16.2`; changed witnesses, evidence use, or grounding reopen only the neighboring result or reliance claim they bear on.
+Use of `qualityTermAscription(...)` presupposes enough articulation explicitness to name the bearer, effective scheme, probe/model frame, A.19.CPM profile comparison frame or explicit `none`, ClaimScope, and at least one candidate quality-sense family. Closure degree may remain low while `qualityTermAscription(...)` is transitional, but content that is still only a cue pack, forwarded cue, or open explanatory probe stays in `A.16.1`, `B.4.1`, or `B.5.2.0`. If a published record later loses an interpretation-bearing scheme, frame, scope, or direct source relation required for its stated use, retreat via `A.16.2`; changed witnesses, evidence use, or grounding reopen only the neighboring result or reliance claim they bear on.
 
 The transitional form is:
 
@@ -62501,7 +62509,7 @@ qualityTermAscription :=
 }
 ```
 
-`effectiveReferenceScheme`, `probeOrModelFrameRef`, `comparisonFrameRef`, and `claimScope` are explicit even when the comparison value is `none`; no generic `context` or `frame` slot defines their semantics. A probe or model frame remains the exact domain-local probe/model configuration. A comparison frame resolves the applicable `CG-Spec`, comparator edition, comparison scope, reference plane, and interval under A.19.CPM; it is not a universal `Frame` kind.
+`effectiveReferenceScheme`, `probeOrModelFrameRef`, `comparisonFrameRef`, and `claimScope` are explicit. Use the probe or model frame for the domain procedure, including any qualitative comparison it makes. Reserve `comparisonFrameRef` for a comparison of admitted profiles under A.19.CPM. It identifies the `CG-Spec`, comparator edition, comparison scope, reference plane and interval. Set it to `none` when the claim uses no such profile comparison.
 
 The record designates, but does not embed, a viewpoint. A non-`none` `viewpointRef` is one `U.ViewpointRef` whose governed resolution yields an exact viewpoint episteme; the reference, the viewpoint episteme, and the evaluator remain different objects.
 
@@ -62575,7 +62583,7 @@ Where:
 * **`defaultNormalForm`** ∈
   `{ SignalPack, Characteristic, Bundle, Objective }`
 * **`admissibleNormalForms`** is the explicitly declared set of admissible normal forms for the sense.
-  `defaultNormalForm` names the primary normal form; any additional endpoint forms MUST be declared here rather than inferred ad hoc. `probeOrModelFrameKind` constrains only the domain-local probe/model configuration, while `comparisonFrameRequired` states whether a separate A.19.CPM comparison configuration must be named. `bridgePolicy` can require F.9 recovery or forbid silent reuse, but it cannot establish a Bridge. If the quality ascription is published, handle publication face, form, unit, carrier, and rendering questions under E.17, E.8, or the applicable publication pattern.
+  `defaultNormalForm` names the primary normal form; any additional endpoint forms MUST be declared here rather than inferred ad hoc. `probeOrModelFrameKind` constrains only the domain-local probe/model configuration, while `comparisonFrameRequired` states whether the endpoint calls for two admitted profiles and their A.19.CPM comparator. `bridgePolicy` can require F.9 recovery or forbid silent reuse, but it cannot establish a Bridge. If the quality ascription is published, handle publication face, form, unit, carrier, and rendering questions under E.17, E.8, or the applicable publication pattern.
 
 #### C.16.Q:4.3 - Normative starter set of sense families
 
@@ -62622,7 +62630,7 @@ A conforming `qualityTermAscription` SHALL make explicit:
    Name the exact domain-local exemplar pack, probe pack, test or criticism pack, Q-bundle definition, CG-frame, acceptance specification, control horizon, or other governed probe/model configuration.
 
 5. **Comparison frame.**
-   Name the exact A.19.CPM-governed comparison configuration separately, including the effective comparator and comparison scope when a comparison is made. Publish `none` when the ascription proposes no comparison; do not let the probe/model frame silently select one.
+   For a comparison of profiles under A.19.CPM, name the admitted profiles and the applicable comparator and comparison scope. If the claim needs such a comparison and an input is missing, say which conclusion is still open. For a domain comparison that uses a different operation, describe what was compared and on what grounds in the probe or model frame and in the claim. Use `comparisonFrameRef = none` whenever the claim uses no CPM comparison. When both operations are used, identify the grounds for each.
 
 6. **Evaluator and viewpoint reference.**
    State the evaluator or policy and, independently, either one `U.ViewpointRef` or `none`. A non-`none` reference SHALL resolve to one exact viewpoint episteme under E.17.0; neither the reference nor its resolution is the evaluator.
@@ -62698,7 +62706,7 @@ A conforming objective contains:
 C.16.Q SHALL prevent the collapse of **function or capability** claims into **quality-family** claims.
 
 * A statement about **what a system does** uses `A.6.F` first when function-like wording hides the FPF kind, relation, or claim, then applies the pattern for the recovered capability, Method, Work, system-role kind or assignment, `A.6.M` module-interface, architecture, mathematical, evidence, assurance, gate, decision, or release claim.
-* A statement about **how well, how safely, how robustly, or how maintainably** it does so belongs to `QS.EngineeringQualityFamily`.
+* Choose the sense of **how well** by the bearer and the evaluation. Maintaining the controlled quantity under a stated class of disturbances over a given horizon uses `QS.ControlAdequacy`. Evaluating a system's maintainability under stated service conditions uses `QS.EngineeringQualityFamily`.
 * “Quality characteristic” and “functional characteristic” SHALL NOT be used as interchangeable labels.
 * In engineering contexts, `-ility` names are **quality-family labels**, not automatically Characteristics.
   They become admissible only as one explicit `U.Characteristic` or one explicit `Bundle` (preferably expressed through `Q-Bundle` when composite).
@@ -62786,7 +62794,7 @@ In **Tech and normative prose**:
   * a family label immediately rewritten into one explicit `U.Characteristic` or `Q-Bundle`;
 * a claim using **quality requirement or quality requirements** SHALL make the required head and its requirement or acceptance relation recoverable. Use the applicable rule for that claim; a named Characteristic, Q-Bundle head or objective can supply the evaluated content. The phrase itself establishes no requirement or acceptance result;
 * **architecture quality or architectural quality** MUST NOT appear without an explicit bearer lane (`EntityOfConcern being described`, `description` or another `episteme`, publication face, or carrier when the carrier itself is described or evaluated) and, when omission changes meaning, an explicit `referencePlane`;
-* in QD and NQD contexts, bare **quality** MUST default to **`QS.UseValue`**;
+* when **quality** denotes a QD or NQD selector's Q head, use **`QS.UseValue`** by default. For wording about the reliability of a recorded input, recover what the recording procedure established;
 * preconceptual uses MUST NOT be presented as if they were already Characteristics;
 * latent and distributed fit MUST NOT be presented as if it were automatically explanatory merit;
 * if the occurrence is primarily **action-invitation** talk, the text MUST NOT assign a `QualitySense`; use the recovered subject rule directly, or `A.6.A` while the action meaning remains unclear, with source-tradition `affordance` wording retaining its cited meaning when used;
@@ -62799,7 +62807,7 @@ A transitional ascription can be elaborated as its interpretation becomes cleare
 
 1. Select a **`QualitySense`** and retain rival candidates while the intended sense remains unresolved.
 2. Name the exact bearer, effective ReferenceScheme, `U.ClaimScope`, and any meaning-changing `Γ_time`, reference plane, language of the selected expression, or substrate.
-3. Name the probe or model frame and the separate comparison frame or explicit `none`; then name evaluator and `U.ViewpointRef` independently.
+3. Name the probe or model frame and record any comparison it makes. Give the separate A.19.CPM frame when comparing admitted profiles under a declared comparator, or `none` otherwise; then name evaluator and `U.ViewpointRef` independently.
 4. Choose an admissible **normal form** and identify any separately constituted quality-result claim.
 5. Add exemplars, probes, characteristic heads, bundle members, objective pins, witness refs, and exact A.10 evidence-provenance paths as needed. Cite empirical grounding only through an independently obtaining relation.
 6. If the use depends on cross-local correspondence, resolve exact F.17 cells, the obtaining F.9 Bridge, and the separate bounded-use claim. Add a Card only as optional packaging and an F.9.1 stance note only as optional reader help about that claim.
@@ -62813,13 +62821,13 @@ A transitional ascription can be elaborated as its interpretation becomes cleare
 If a draft uses *quality* for an FPF-governed claim without a recoverable sense, make that sense explicit.
 
 **A completed ordinary repair.** A report says “architecture quality improved,” but its supplied comparison concerns two editions of an architecture description. Both describe the same system and serve the same three decision questions. AD1 supplies the required dependency information for two questions; AD2 supplies it for all three. The same coverage rule is applied to both descriptions. The supported statement is: “AD2 supplies the dependency information for all three declared decision questions; AD1 supplied it for two.” This can finish the wording repair. It asserts no change to the system's availability or security. If the decision questions change, compare both descriptions against the new question set before repeating the improvement claim.
-A conforming rewrite publishes either the form for one known endpoint or one explicit `qualityTermAscription(...)` transitional record with bearer, one `QualitySense`, effective ReferenceScheme, separate probe/model and comparison frames, evaluator and `U.ViewpointRef`, ClaimScope, admissible normal form, `endpointPatternLocator` or endpoint source relation, and explicit boundaries among result claim, witnesses, evidence use, empirical grounding, Bridge, bounded-use claim, optional Card, and optional stance note.
+A conforming rewrite publishes either the form for one known endpoint or one explicit `qualityTermAscription(...)` transitional record with bearer, one `QualitySense`, effective ReferenceScheme, its probe/model frame and its A.19.CPM frame or `none`, evaluator and `U.ViewpointRef`, ClaimScope, admissible normal form, `endpointPatternLocator` or endpoint source relation, and explicit boundaries among result claim, witnesses, evidence use, empirical grounding, Bridge, bounded-use claim, optional Card, and optional stance note.
 
 #### C.16.Q:5.2 - Show (Latent fit and control adequacy)
 
 The following pairs make alternative interpretations of each draft inspectable. Use these transitional ascriptions only while selecting the intended reading; once it is known, publish its endpoint form directly.
 
-The examples stipulate the named objects and source relations. The identifiers below denote distinct objects. Each `comparisonFrameRef` resolves its exact A.19.CPM configuration; each non-`none` `viewpointRef` resolves one E.17.0 viewpoint episteme.
+The examples stipulate their named objects and source relations. Each non-`none` `comparisonFrameRef` identifies an A.19.CPM comparison of two admitted profiles under an applicable comparator. Each non-`none` `viewpointRef` resolves one E.17.0 viewpoint episteme.
 
 A named result claim is not assessment work, witness refs do not establish an A.10 evidence-provenance path, and neither witnesses nor a result label establish the grounding relation cited beside them. In the model and architecture improvement examples, the cited result claim asserts the improvement under its named comparison frame; the ascription record refers to that claim.
 
@@ -62866,10 +62874,12 @@ qualityTermAscription(
   witnessRefs = {ClosedLoopTraceSet_41},
   evidenceProvenancePathRefs = {ControlEvidencePath_41},
   empiricalGroundingRelationRef = EGR_ControlAdequacyResult_41,
-  endpointPatternLocator = C.25,
+  endpointSourceRelationRef = ClosedLoopCriterionBundleDefinition_5,
   admissibleUse = interpret the supplied control-adequacy result within Horizon_H and EnvClass_E
 )
 ```
+
+`ClosedLoopCriterionBundleDefinition_5` identifies the control criteria applied over Horizon_H in EnvClass_E. The comparison with the baseline uses the admitted controller profiles and comparator identified by ControlBaselineComparison_CF5.
 
 #### C.16.Q:5.3 - Show (Preconceptual fit and explanatory merit)
 
@@ -62884,7 +62894,7 @@ qualityTermAscription(
   qualitySense = QS.PreconceptualFit,
   effectiveReferenceScheme = FeltFitArticulationScheme_3,
   probeOrModelFrameRef = ExemplarPack_EP3,
-  comparisonFrameRef = ExemplarContrastFrame_ECF3,
+  comparisonFrameRef = none,
   evaluatorRef = ReviewerGroup_A,
   viewpointRef = none,
   normalForm = SignalPack,
@@ -62899,7 +62909,7 @@ qualityTermAscription(
 )
 ```
 
-The explicit `none` values matter: episode notes are witnesses to articulation, not automatic provenance or empirical grounding.
+Here ExemplarPack_EP3 records the episodes the participants compared and what felt different to them. That is enough to discuss the change in problem framing. The episode notes witness the articulation. No profile comparison or empirical measurement was made.
 
 **Partial interpretation B — explanatory merit**
 ```text
@@ -62908,7 +62918,7 @@ qualityTermAscription(
   qualitySense = QS.ExplanatoryMerit,
   effectiveReferenceScheme = ExplanationCriticismScheme_5,
   probeOrModelFrameRef = CriticismBundle_CB4,
-  comparisonFrameRef = RivalExplanationComparison_CF4,
+  comparisonFrameRef = none,
   evaluatorRef = TheoryReviewPanel,
   viewpointRef = none,
   referencePlane = episteme,
@@ -62923,7 +62933,7 @@ qualityTermAscription(
 )
 ```
 
-`CriticismBundleDefinitionSource_CB4` cites the supplied definition of the explanatory-merit Bundle. Its criticism criteria determine that endpoint; the shared word “Bundle” does not make C.25 the governor of explanatory merit.
+In CritiqueSheet_14 the panel compares explanations N5 and N4 against the counterexamples. N5 accounts for the response after the input was removed, which N4 predicts should end immediately. This finding concerns that response under the stated conditions. `CriticismBundleDefinitionSource_CB4` cites the supplied definition of the explanatory-merit Bundle. Its criticism criteria determine that endpoint; the shared word “Bundle” does not make C.25 the governor of explanatory merit.
 
 This record identifies an explanatory-merit reading. What is to be defined, how that merit affects the work, and in what sense it precedes the definition remain unresolved until the criticism account supplies them. Preserve those parts of the draft; the sense ascription alone does not complete its repair.
 
@@ -62992,7 +63002,7 @@ qualityTermAscription(
   qualitySense = QS.UseValue,
   effectiveReferenceScheme = QDUseValueScheme_9,
   probeOrModelFrameRef = CG_Frame_9,
-  comparisonFrameRef = ArchiveComparatorFrame_9,
+  comparisonFrameRef = none,
   evaluatorRef = SelectorPolicy_P4,
   viewpointRef = none,
   normalForm = Objective,
@@ -63028,7 +63038,7 @@ Apply the following conditions to the branch used. A known endpoint follows its 
 2. **CC-C16Q-2 - Exact bearer and arity.**
    The bearer designator or tuple is explicit; description, carrier, evaluator, viewpoint, work, and result are not substituted for it.
 3. **CC-C16Q-3 - Exact probe/model and comparison frames.**
-   The domain-local probe or model frame and the separately governed comparison frame or explicit `none` are stated and reviewable; no generic field silently selects either frame.
+   Identify the domain procedure and the basis for any comparison made there. Give the A.19.CPM frame for a comparison of admitted profiles under its comparator, and `none` when that operation is absent. A missing profile or comparator leaves a claim that requires the operation unresolved.
 4. **CC-C16Q-4 - Effective scheme, evaluator, and viewpoint reference.**
    The effective reference scheme is explicit. Evaluator and `U.ViewpointRef` are separate; a non-`none` reference resolves one exact viewpoint episteme and grants no conformance, membership, authority, or result.
 5. **CC-C16Q-5 - Substrate and referencePlane are declared when relevant.**
@@ -63042,7 +63052,7 @@ Apply the following conditions to the branch used. A known endpoint follows its 
 9. **CC-C16Q-9 - No silent sense rewrite.**
    Any semantic change preserves the distinctions of the declared change lexicon; changing sense, scheme, frame, scope, or neighboring relation silently is forbidden.
 10. **CC-C16Q-10 - QD default.**
-    In search, selection, or NQD practice, *quality* resolves to `QS.UseValue` unless overridden explicitly.
+    When *quality* denotes the selector's Q head, use `QS.UseValue` unless an explicit interpretation applies. Identify the bearer of a claim about the quality of an input, a search procedure or its record.
 11. **CC-C16Q-11 - Engineering family discipline.**
     Engineering `-ility` uses resolve to one explicit `U.Characteristic` or one explicit `Bundle`, preferably a `Q-Bundle` when composite; they do not remain free-floating adjectives.
 12. **CC-C16Q-12 - Functional separation.**
@@ -63067,13 +63077,13 @@ Apply the following conditions to the branch used. A known endpoint follows its 
 | Anti-pattern | Symptom | Why it fails | How to avoid or repair |
 | --- | --- | --- | --- |
 | **Magic scalar quality** | one number silently stands for several evaluative families | conflates senses and bearers and ignores scoring legality | publish the known endpoint or an explicit transitional `QualitySense` with an admissible normal form |
-| **Preconceptual-as-metric** | felt fit is presented as if it were already a measured characteristic | erases articulation stage and overstates evidence | keep it as `SignalPack` until an admissible proxy is declared |
+| **Preconceptual-as-metric** | felt fit is presented as if it were already a measured characteristic | erases articulation stage and overstates evidence | report the felt mismatch when that answers the question. If a measured indicator is needed, formulate its criterion, justify the proxy and obtain the observation |
 | **Engineering adjective drift** | *reliable, maintainable, or high-quality* appear with no explicit Characteristic or Q-Bundle | hides measurement shape and scope | rewrite to one `U.Characteristic` or one `Q-Bundle` |
 | **Selector ambiguity** | *quality in QD and NQD* is left undefined | breaks comparability and selection semantics | default to `QS.UseValue` unless another objective head is declared explicitly |
 | **Model-quality collapse** | latent fit, explanatory merit, and control adequacy are merged under one phrase | destroys bearer and frame distinctions | state the distinct claims under their endpoints; use separate transitional ascriptions only while the meanings remain unresolved |
 | **Architecture-vs-description collapse** | *architecture quality* is used with no explicit bearer lane | collapses the system-side bearer into its description, carrier, or publication face | publish the bearer lane explicitly and select `QS.EngineeringQualityFamily` or `QS.ArchitecturalDescriptionFitness` |
 | **Action-invitation-as-quality** | action invitations are narrated as if they were evaluations | the rewrite hides action semantics instead of clarifying them | stop the Q-rewrite and use the subject rule for the recovered claim or question; use `A.6.A` only while the action meaning remains unclear; state the claim or question and the participants and conditions its use needs; retain the cited source meaning of `affordance` when that source-local term is used |
-| **Generic-frame collapse** | one `evaluationFrame` or context label is expected to supply probe, model, comparison, scope, and scheme semantics | hides independently governed choices and makes a changed comparison look like the same claim | name the effective ReferenceScheme, probe/model frame, A.19.CPM comparison frame, and ClaimScope separately |
+| **Generic-frame collapse** | one `evaluationFrame` or context label is expected to supply probe, model, comparison, scope, and scheme semantics | hides independently governed choices and makes a changed comparison look like the same claim | name the effective ReferenceScheme, probe/model frame, A.19.CPM frame if used, and ClaimScope separately |
 | **Embedded viewpoint** | the record stores a viewpoint-looking value as evaluator or generic context | collapses reference, viewpoint episteme, evaluator, and result | store one governed `U.ViewpointRef` or `none`; resolve it under E.17.0 and keep evaluator separate |
 | **Witness-is-grounding** | a test report, trace, score, or filled record is cited as empirical grounding | presence of a carrier or result label establishes no direct relation | name witness refs and A.10 path separately; cite an exact obtaining `EpistemeEmpiricalGroundingRelation` or `none` |
 | **Bridge-by-label or stance note** | shared *quality* wording or an F.9.1 stance word is treated as the cross-local relation or use authority | creates false identity, silent loss, and unauthorized substitution | resolve exact F.17 cells, test and cite the F.9 Bridge, then state the separate bounded-use claim; add a Card only as optional packaging and a stance note only when its `EntityOfConcern` is that claim |
@@ -63154,7 +63164,7 @@ Earlier touchstones such as Pirsig, Popper and Deutsch remain useful for histori
   * **C.2.LS, C.2.4, C.2.5, C.2.6, and C.2.7** for language-state facets;
   * **C.2.1** for effective ReferenceScheme, exact result-episteme identity, and optional `EpistemeEmpiricalGroundingRelation`;
   * **A.2.6** for `U.ClaimScope` and `U.ContextSlice`;
-  * **A.19.CPM** for comparison;
+  * **A.19.CPM** for a comparison of admitted profiles under its comparator;
   * **A.10** for evidence-provenance and bounded reliance;
   * **C.17, C.18, and C.19** for selector value, novelty, diversity, and policy;
   * **E.17.0** and **E.17.2** for exact viewpoint epistemes and `U.ViewpointRef`; **C.30.AD** and **C.30.ASV** for architecture-description and structural-view use;
@@ -63178,7 +63188,7 @@ Admissible endpoints after repair include:
 Quality wording whose intended claim is already recoverable can use the applicable endpoint directly. A known endpoint needs no additional `qualityTermAscription(...)` record.
 
 #### C.16.Q:12.3 - What C.16.Q leaves to other patterns
-C.16.Q does not define or test articulation-state characteristics, Bridge truth, bounded-use claims, stance-note identity, evidence-provenance, empirical grounding, comparison operations, viewpoint resolution, or representation factors. Use `A.16`, `C.2.LS`, `C.2.4`, `C.2.5`, `C.2.6`, `C.2.7`, `F.9`, `F.9.1`, `A.10`, `C.2.1`, `A.19.CPM`, `E.17.0`, or the applicable representation pattern for those questions.
+C.16.Q does not define or test articulation-state characteristics, Bridge truth, bounded-use claims, stance-note identity, evidence-provenance, empirical grounding, profile comparison operations, viewpoint resolution, or representation factors. Use `A.16`, `C.2.LS`, `C.2.4`, `C.2.5`, `C.2.6`, `C.2.7`, `F.9`, `F.9.1`, `A.10`, `C.2.1`, `A.19.CPM`, `E.17.0`, or the applicable representation pattern for those questions.
 
 ### C.16.Q:End
 

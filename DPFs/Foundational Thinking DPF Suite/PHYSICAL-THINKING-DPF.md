@@ -2039,7 +2039,7 @@ A nondestructive or non-demolition measurement protects a specified property und
 
 Compose the physical response with the actual recording procedure through C.16.MR. Use MMP.7 when the conclusion requires a probability law for those records. Retain common influences, saturation, timing and finite resolution when they affect the conclusion.
 
-Determine whether different target values remain compatible with the same possible records. If they do, identify which interaction, preparation or readout could separate the relevant alternatives. A local slope measures a local response; it does not resolve a periodic ambiguity or a shared unknown parameter.
+Ask whether different target values can actually produce the same record under the stated preparation. With bounded errors, two feasible cases can demonstrate ambiguity. If only an outer bound crosses the decision limit, sharpen the calculation before concluding that a new instrument is needed. For random records, consider how likely each observation is under the competing accounts. A local slope describes the response near one setting and can leave a periodic ambiguity or a shared unknown unresolved.
 
 Use the uncertainty or error model appropriate to the inference. Strongly nonlinear conversion can change both an estimate and its uncertainty; do not assume that converting an average is equivalent to averaging the converted quantity. Apply the necessary mathematical propagation or inference method, rather than treating a sensitivity coefficient as a complete answer.
 

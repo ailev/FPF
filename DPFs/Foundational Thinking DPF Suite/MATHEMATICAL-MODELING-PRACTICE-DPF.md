@@ -1660,7 +1660,7 @@ Include consequential uncertainty in calibration and in the forward approximatio
 
 #### MMP.12:4.2 - Locate the part that needs regularization
 
-Use C.16.IR's compatible cases or sufficient bounds to establish what the current records and premises resolve. Reuse that result. This pattern adds the construction of a recovery rule and analysis of the rule's sensitivity.
+Use C.16.IR to establish what the records resolve before choosing a regularizer. If the computed enclosure crosses a decision limit, look for feasible inputs on both sides. A tighter calculation using the existing data can sometimes settle the question. If two admissible inputs fit the same records and give different answers, say what additional assumption, observation or preference a reconstruction would use. Then assess the recovery rule's sensitivity.
 
 For a linear relation y=A\*x, a change h with A\*h=0 is invisible to the records. If both x and x+h are admitted and T(x+h) differs from T(x), full recovery of that target needs another premise. If T is unchanged, the invisible direction may be irrelevant to the current use. For unknown influences, vary x and z jointly.
 
