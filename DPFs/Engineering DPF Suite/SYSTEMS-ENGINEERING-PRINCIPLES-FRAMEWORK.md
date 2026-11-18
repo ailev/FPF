@@ -11456,7 +11456,7 @@ the evidence and the condition that reopens the choice.
    platform constraints, and protected characteristics.
 8. **Make the repertoire decision.** The authorized Agent records which Methods are retained now, retained as
    alternatives, replaced, excluded for this use, proposed for development, or unresolved. Explain the selected
-   disposition from the criterion and grounds, including the accepted burden or loss. If a retained Method
+   disposition from the criterion and grounds, including the accepted burden or loss. For a partial repertoire, name the configurations it covers and those still awaiting a suitable Method. To claim coverage for a whole set, establish a suitable Method for each configuration. If Method choice depends on the configuration, show how the team can recognize it in time to choose. If the team can use any retained Method interchangeably, show the evidence or engineering rationale for each allowed substitution. If a retained Method
    lacks a capable Agent, provider, platform, or assignment, record that separate gap and send it to the appropriate
    capability, provider, platform, or obtaining-arrangement decision.
 9. **State evidence, currentness, and return conditions.** Give each relied-on claim its epistemic status—
