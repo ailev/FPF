@@ -1208,7 +1208,7 @@ Compare eligible combinations using the applicable value criteria. When required
 #### EAM.10:4.4 - Explain the choice and the condition that could change it
 
 
-Show the preferred combination and the consequential alternatives it displaces. Test a changed funding limit, engineering qualification, demand driver, shared-work condition or resource date when it could alter the answer. Use coherent conditions across the combination; a common disruption cannot be favorable for one component and absent for another without grounds.
+Show the preferred combination and the consequential alternatives it displaces. Test a changed funding limit, engineering qualification, demand driver, shared-work condition or resource date when it could alter the answer. Use coherent conditions across the combination; a common disruption cannot be favorable for one component and absent for another without grounds. When two interventions can share a visit, include the joint cost in the estimate. Credit a single visit to the works actually performed only when their records establish that they shared it.
 
 Return the recommendation, the whole consequence account, feasibility conditions and the decision-changing uncertainty to [EAM.11](#eam11---time-asset-interventions-and-manage-dependencies) and EAM.12. [EAM.13](#eam13---track-realized-outcomes-and-reconsider-asset-plans) later returns observations to the premise they affect. If a missing shared-work fact can change the choice, obtain it only when its attainable answer warrants the inquiry's full burden. A project that remains locally useful can be deferred for a qualified portfolio reason without being relabelled technically poor.
 
@@ -1228,7 +1228,7 @@ P costs 2.0, including 0.2 mobilization, and Q also costs 2.0 including 0.2. Z c
 | P and Q with one mobilization | 4.0 | −0.2 | 3.8 |
 | Complete solution Z | 3.9 | 0 | 3.9 |
 
-The whole P+Q account is `1.8 + 1.8 + 0.2 = 3.8`. Adding the separate estimates would prefer Z at 3.9; the supported joint account prefers P+Q by 0.1. That result concerns one actual payment saved through a feasible work arrangement.
+The whole P+Q estimate is `1.8 + 1.8 + 0.2 = 3.8`. Sharing a mobilization removes 0.2 from the estimate for doing P and Q separately. Compared with Z at 3.9, the feasible joint plan saves an estimated 0.1 and can be chosen on that basis. To report the eventual expenditure, recover the work and charges incurred. To report a realized saving, also establish what the relevant alternative would have cost for the same service.
 
 Suppose incompatible access windows require two visits and two mobilizations. P+Q returns to 4.0 and Z becomes cheaper at 3.9. If instead the proposed shared visit fails the service condition, remove that arrangement as ineligible and compare any qualified two-visit arrangement with Z. Reducing its price cannot repair the lost service. [EAM.11](#eam11---time-asset-interventions-and-manage-dependencies) establishes which visit arrangement is feasible; [EAM.10](#eam10---compare-engineered-asset-portfolio-combinations) uses its consequences.
 

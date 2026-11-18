@@ -78766,7 +78766,7 @@ C.31 defines and constrains modularity and reusable-structure characteristic ass
 
 #### C.31:4.1 - Ordinary output: `ModularityVectorLite`
 
-The ordinary output is a small account of the characteristics that explain the difficulty and what follows from them. `ModularityVectorLite` can retain it. Extend the account when the receiving question requires another characteristic.
+Start with the change someone has to make, such as replacing a module, qualifying an interface or servicing a variant. Identify the characteristics that could alter that action. For a substitution, specify what the replacement has to do with the receiving equipment under its operating conditions. Compare the proposed replacements against those conditions. A shared interface name can help find candidates. A check that covers the required fit and behavior can admit one directly. To claim that changing the interface would save work, compare the installation, migration and qualification work under the alternatives over the same planned uses. `ModularityVectorLite` can retain the account.
 
 ```text
 ModularityVectorLite:
@@ -78810,26 +78810,26 @@ ModularityVectorLite:
   structureKindRefs: ModuleInterfaceStructure, EvidencePackageStructure
   liveCharacteristics:
     - characteristicRef: InterfaceStandardizationShare
-      currentCue: controller ports are named by the same API family, but three field variants still require adapter-specific wiring.
-      repairDirection: narrow the interface grammar and name the allowed variation before counting the interface as standardized.
+      currentCue: three field variants need different wiring adapters behind ports with the same API name.
+      repairDirection: identify the electrical differences the adapters accommodate and which variants must remain in service before changing the shared interface.
       claimUseClass: local repair cue
       forbiddenOverread: the public API label is not substitutability or procurement suitability.
     - characteristicRef: SubstitutabilityWidth
-      currentCue: two alternate controller boards pass the bench test, but only one has the required thermal envelope and connector constraints.
-      repairDirection: state the substitution conditions and the exception before using the alternative count.
-      claimUseClass: report-only proxy until C.16 or selection use is being made
+      currentCue: both candidate boards fit the connector and passed a bench signal test. A is qualified for the required signal, rate and wiring throughout this enclosure's operating temperature range. B's rating excludes the required maximum.
+      repairDirection: admit A and exclude B from this pair for the specified enclosure. Establish the operating range for another enclosure before carrying the judgement there.
+      claimUseClass: eligibility of the two boards for this signal and wiring throughout the specified operating range
       forbiddenOverread: the alternate-board count is not a selection result.
     - characteristicRef: EvidenceReuseShare
-      currentCue: electrical-safety evidence is reused, while environmental evidence is recreated per enclosure variant.
-      repairDirection: split reusable evidence package from variant-specific evidence and add source-return condition.
+      currentCue: the electrical result covers A in this wiring and operating range. A different enclosure can expose the board to a higher temperature.
+      repairDirection: use the electrical result within its qualification. Compare the field enclosure against the qualified thermal conditions before commissioning any further test.
       claimUseClass: local repair cue with possible evidence-package use
       forbiddenOverread: reused evidence is not assurance sufficiency.
   observedProblem: the team says the platform is modular because interfaces are public and evidence is reusable, but field replacement and certification still create variant-specific work.
   relatedClaimPatternLocatorsIfClaimed: A.6.M for the module-interface relation; C.31.RSA if report-only share becomes reusable-structure accounting; A.10 or B.3 only if an evidence-use or assurance-use assertion is being made.
-  stopCondition: stop at local repair until measurement basis, comparability basis, and any selection or assurance use are declared under their subject patterns.
+  stopCondition: the service engineer can use A for the stated fit, signal and temperature requirements. Assess other procurement requirements or a proposed platform change when the decision calls for them.
 ```
 
-Near miss: a high interface-standardization count alone is not a C.31 improvement. If field-service work, source-return events, or variant-specific evidence increase, the vector records that proxy divergence and returns to repair rather than treating the count as architecture quality.
+The engineer can now name the eligible board among the two examined. To decide whether an interface change would reduce the cost of field service, compare the adapter and qualification work for the installed variants with the migration and service work after the change. An increased standardization share can coexist with higher service cost.
 
 #### C.31:4.2 - Characteristic classes
 
@@ -78931,7 +78931,7 @@ These heads are seeds, not an exhaustive taxonomy. Use only the heads that chang
 | `HiddenCouplingDiscoveryRate` | Hidden dependencies discovered after integration or change. | rate | defect and change records | dependencies appear late | expose side channel, revise interface spec, add sentinel, or reopen boundary | integration risk, repeated release, or assurance claim |
 | `CrossBoundaryChangeReach` | How many modules, views, or work items a local change touches. | distribution | change-impact records | local change travels farther than claimed | split relation, add interface grammar, revise allocation, or source return | release, decision, or comparison claim |
 | `WorkRepeatabilityShare` | Delivery, operation, or test work under repeatable method descriptions. | ratio | work records and method descriptions | work repeats as bespoke effort | describe the repeatable Method in a `MethodDescription` under A.3.2 or accept exception | work planning, evidence reuse, or scale use |
-| `EvidenceReuseShare` | Evidence package items reused across instances or contexts. | ratio | evidence graph and validity context | evidence is recreated or mis-scoped | move repeated evidence into reusable evidence or assurance package | certification, safety-case, or assurance claim |
+| `EvidenceReuseShare` | Previously obtained evidence used again for a specified claim on another instance or in another use of the same instance. | ratio | evidence records and qualification conditions | a result is credited outside its qualified use, or a covered result is needlessly obtained again | reuse the earlier result when it covers the claim. When an instance needs its own observation, reuse the procedure and obtain that observation. | certification, safety-case, or assurance claim |
 | `RegulatoryBespokeResidue` | One-off regulatory or acceptance content not covered by reusable structures. | ratio or ordinal | safety, approval, or regulatory records | each instance needs new regulatory argument | isolate residue, add reusable evidence package, or keep bounded exception | safety case, approval, or publication claim |
 | `LearningTransferCoefficient` | Improvement transfer from one instance or run to subsequent instances. | slope or elasticity | repeated work data and learning curve records | improvement claim hides time or causal assumptions | apply C.27 for temporal adequacy and C.28 for causal use | causal, benchmark, or scale-preference use |
 | `BespokeResidueShare` | Share of structure not covered by reusable templates or rules. | report-only share unless C.16 measurement basis is declared | RSA description and exception register | residue is hidden under reuse score | use C.31.RSA and source-return condition | accounting, comparison, or decision claim |
@@ -79115,7 +79115,7 @@ Reopen only the dependent characteristic, comparison or repair when its source m
 
 ### C.31.RSA:1 - Problem frame
 
-Use this pattern when a practitioner needs to locate where reusable structure lives, where bespoke residue grows, which accounting basis is being used, what can be refactored, and what remains a bounded exception or source-return condition. A report-only share supports a separate use only when that use meets the conditions defined by its applicable pattern.
+Use this pattern when planning another delivery or reviewing a claim of reuse. Work out which part came from a shared design, procedure or physical article, which work was specific to the delivery, and what the next use requires. A team can use the same procedure twice and still need new measurements each time.
 
 Claim-use boundary: any use that relies on the RSA account to make a claim beyond reusable-structure accounting is outside RSA. Examples include comparison, publication, evidence validity, assurance or safety-case reliance, gate use, architecture scale preference, causal use, selected-set result declaration, candidate synthesis, and local decision.
 
@@ -79138,7 +79138,7 @@ ReusableStructureTriage:
   evidenceRefs:
   whereReusableStructureCurrentlyLives:
   whereBespokeResidueCurrentlyGrows:
-  residueRefactoredInto:
+  residueRefactoredInto?:
     template | interfaceSpecification | methodDescription |
     workStructure | evidencePackage | assuranceArgumentStructure | otherDeclared
   residueAcceptedAsBoundedException:
@@ -79190,12 +79190,16 @@ C.31.RSA governs reusable-structure accounting over declared structures and stru
 
 #### C.31.RSA:4.0 - Recover reuse and residue from instances
 
-Begin with the result for which reuse matters: for example, delivering another product variant, repeating a review, or applying an evidence package to another case. Select the instances that can answer that question, including a differing or failed instance when it can expose the limit of the apparent common rule. A known template-instance count can be reported directly; this construction is for an unresolved reuse claim.
+Start with the decision. To establish past use, trace what an identified delivery took from the shared design, procedure, evidence or physical article. Name what was carried over and which changes the delivery team made. Two independently made products can both fit the same specification. That can establish conformity even when the origin of one product is unknown. To identify the design choices a person or team made, compare the instructions, designs, parameter settings and help available with the choices made during the work. A worker can produce the correct adapter from a supplier's drawing or choose and justify its geometry independently. A cutting or assembly record can establish execution in either case. Credit design of the part when the record or the person's account establishes which choices that person or team made and why. Work completed before one particular template arrived rules out the use of that template but can still have followed another drawing. To commission a further design, compare the choices it requires and the help that will be available with those the person actually made under comparable conditions. One independently designed flange can support a further flange assignment while leaving design of an entire adapter open.
+
+For a proposed use, compare what the recipient needs with what the shared design or procedure supplies in the intended conditions. Check that the chosen settings work **together**, including their interfaces and any local adaptation. A supported design rule, qualification or test that already covers this combination can answer the question before the first delivery there. If a necessary condition fails, identify what has to change or which alternative fits. If its value is unknown and it could change the answer, identify what would settle it. Actual use at the new site will have its own production or work history.
+
+For a claim about a whole family, explain why the common rule covers all the admitted combinations. One admitted combination that needs an extra operation defeats a promise of use without that operation throughout the family. Preserve the supported uses elsewhere. A known count of template uses can finish a request for that count.
 
 1. **Follow the same required result through the instances.** Use the available products, configurations, instructions, test and approval material, or actual work records to recover what supplies that result, what it receives, and the conditions of each connection. C.30.ASV helps recover the selected structure; C.32.MWA.PP:4.1 and :4.4 help trace performance and provision when those relations matter. Compare the relation or way of doing.
-2. **Explain the differences that matter.** For each consequential difference, find the requirement, input, environmental condition or arrangement that it responds to. Inspect a contrasting instance and the relevant instruction or requirement; ask its provider what would fail if the difference were removed. If that answer is unknown, name the document, participant, observation or justified bounded replay that could distinguish the possibilities. Keep the dependent part unresolved while using the supported common parts.
+2. **Explain the differences that matter.** Identify the requirement, input, environment or local arrangement that accounts for each consequential difference. A contract can already settle whether the customer needs an on-site witness. When the reason is unclear, use a contrasting delivery, a work record, the provider's account or a bounded trial that can distinguish the plausible explanations. Preserve an established shared part while investigating a difference that could change its use.
 3. **State the reusable rule and its permitted variation.** Identify what can remain the same, which values or steps change, and under which conditions the resulting instance still supplies the required result. A necessary customer-specific approval or local adaptation may remain bespoke. A repeated workaround may instead expose a missing parameter, interface condition or Method step. Actual substitution, evidence validity and assurance claims retain their subject rules; resemblance between instances does not establish those claims.
-4. **Choose the next sufficient result.** The common rule, its reusable locus, necessary exceptions and any unresolved dependency may finish a qualitative account. If a repair is needed, use :4.5 to consider where to place the common structure, then follow the affected instance through to its receiving result to check the change and any new burden. A proposed refactoring is a C.32 candidate; the account can also support retaining the present arrangement.
+4. **Choose the next sufficient result.** The shared rule, its permitted changes and the remaining local work may finish the account. When considering a repair under :4.5, trace its consequences through an affected delivery, including who would take on the work moved elsewhere. C.32 can use the proposed change as a candidate. Record a relocation as accomplished when it has taken effect.
 5. **Count only when the question needs a share.** Select the population, unit and reuse test from that question, then apply :4.1–:4.4. A count of template uses, a claim of valid evidence reuse and a claim that whole deliveries can share a Method answer different questions. Preserve the conditions and uncertainty of the one counted.
 
 #### C.31.RSA:4.1 - Typed accounting description
@@ -79281,9 +79285,9 @@ RSA is useful because it points to relocation and repair actions:
 | Situation | Repair direction |
 | --- | --- |
 | Repeated delivery work contains structure that is not explicit in the work or method description being used. | Move repeated structure into `MethodDescription`, work structure, or reusable work relation. |
-| Repeated interface exceptions are handled one by one. | Add or revise interface grammar, variability slots, or substitution policy; use A.6.M when this is a module-interface claim. |
+| Repeated interface exceptions are handled one by one. | Identify the operating condition that requires the exception. Keep a local adapter when it accommodates that condition economically. Consider a shared interface change when it would serve the affected configurations and its migration and conformance costs are justified. A.6.M governs the module-interface relation. |
 | An undocumented dependency crosses module or view boundaries. | Expose the dependency, revise boundary, add correspondence, or add source-return condition. |
-| Evidence is recreated for each instance. | Move repeatable evidence into an evidence package, assurance argument record, or validity-context note. |
+| Evidence is recreated for each instance. | Identify which claim, configuration and conditions the earlier evidence covers. Reuse the result where it still answers the question. For an uncovered condition, the same procedure may generate new evidence. |
 | Regulatory or safety-case residue remains one-off. | Split reusable argument structure from context-specific exception; apply B.3 to the assurance claim, including a claim about safety-case support, and G.6 when a citable provenance path is needed. |
 | Compression hides needed distinctions. | Recover the omitted distinctions or reduce compression. Use C.29 when choosing or transferring the mathematical representation, or relying on its result, leaves an unresolved question. |
 | Bespoke residue protects necessary local variation. | Keep it as a bounded exception with its use conditions and any action-changing limit. |
@@ -79358,7 +79362,7 @@ Where the record does not explain a difference, recover that condition from the 
 
 The next account can therefore retain the common test and approval preparation, preserve the contractual witness, and propose an interface or adapter change for the recurring format exception. Replaying that proposed change through input, integration and test shows whether it preserves the required result and whether it merely relocates work.
 
-Evidence validity for a new deployment still depends on that deployment's conditions; a reused procedure or file alone does not settle it. If the existing bounded account answers the receiving question, no refactoring or numeric share is needed.
+For the next delivery, the contract requires an on-site witness. A prior test may cover the unchanged component, while the witness clause still calls for work at this site. If the new adapter changes a signal used in the component test, inspect the qualification boundary. Evidence covering that adapter and signal can be used directly. Otherwise qualify the affected path or choose an already covered configuration. The purchase or acceptance decision can use these findings under its own rule.
 
 `ReusableStructureTriage`:
 
@@ -79387,10 +79391,8 @@ whereBespokeResidueCurrentlyGrows:
   customer-specific approval work
   integration exceptions outside interface grammar
   local evidence witnesses not covered by reusable package
-residueRefactoredInto:
-  workStructure + evidencePackage + interfaceSpecification
 residueAcceptedAsBoundedException:
-  customer-specific regulatory clause with declared non-admissible reuse
+  on-site witness required by this customer’s contract
 sourceReturnCondition:
   return to deployment evidence and regulatory exception record before assurance or gate use
 relatedClaimPatternsIfClaimed:
@@ -79399,26 +79401,26 @@ stopCondition:
   report-only accounting; establish comparison, evidence-validity or assurance grounds when that further use is made
 ```
 
-Admissible move: publish the local report-only RSA note and refactor the repeated organization of delivery approval work into reusable work structure and reusable evidence structure. Non-admissible move: claim that the reusable evidence package proves every deployment or that a high reusable share makes the architecture better.
+Publish the account of shared and local work. The interface change is available for design and testing. Once it is implemented, use the affected deliveries to establish where the adapter work now occurs and what its cost is.
 
 #### C.31.RSA:5.2 - Anti-case: high share hides a bad architecture move
 
 Situation:
 
 ```text
-A team reports that 85 percent of its architecture is reusable because most screens use one shared template.
-The template makes many local exceptions necessary for product teams and side-channel integrations.
+A product line released 20 screens. Build records trace 17 to a shared template. Two were built from independent designs without the template and meet the same visual specification. The origin of the last screen is unknown.
+Teams report local work on input and integration exceptions.
 ```
 
-This is not a successful RSA result. The accounting basis counts template instances but hides interface relation cost, lost variation, hidden bespoke work, and evidence decay. The repair is to mark the share as report-only, add the missing bespoke-residue slots, and apply A.6.M, C.31, or a characteristic pattern governing the claim to the interface relation cost before any comparison or decision use.
+For an agreement requiring at least 85 percent of the released screens to use the template, the 17 traced uses suffice. Between 17 and 18 screens used it. An exact percentage, or a decision at a 90 percent threshold, depends on the origin of the remaining screen. Comparing screen appearance could establish conformity with a visual specification. It cannot recover that missing build history.
 
-Lowering replay: the team tries to use the 85 percent share to rank this template architecture above another product-line variant and approve the template program. The use is lowered to local report-only accounting because the comparator set, accounting-basis alignment, interface-cost measure, source-return condition, and decision record are absent.
+The same account leaves open whether to fund the template for the next release. Compare the cost of maintaining and adapting it with the cost of developing and maintaining the independent designs for the planned assortment. Include the local work on both alternatives. A common template can save production work while moving more work into integration.
 
-Recover the interface claim and actual costs, using A.6.M for unresolved module-interface meaning and C.16 for the cost measurement. A.19.CPM governs comparison of admitted profiles; A.19 applies to a CharacteristicSpace or reusable space predicate when one is used, and C.11 to local choice.
+Compare applicable offers, engineering estimates or work records for the planned assortment, including interface maintenance and local adaptations. Use observed costs when reporting work already done. An offer covering the full intended service can settle its quoted price while actual future expenditure is still open. Use A.6.M for a disputed interface interpretation, C.16 for a cost measure and C.11 for the local funding decision.
 
 These grounds can support comparison of the existing variants before any interface is changed. A chosen repair changes the candidate and reopens the affected accounting and comparison.
 
-Stop condition: do not use the 85 percent share for outside-RSA ranking, gate, assurance, or decision. Reopen the RSA note when the interface grammar, exception register, or comparator set changes.
+Keep the release count when the next release changes the planned assortment or the cost comparison. Reopen only the answer that depends on the changed facts.
 
 #### C.31.RSA:5.3 - Transfer case: neural-network block replacement
 
@@ -79431,8 +79433,8 @@ The benchmark improves, but cache placement, memory access, and ablation evidenc
 
 To transfer RSA from product-line architecture to neural-network architecture, use the already recovered reusable locus or first apply `C.30.STRAT` to treat `block`, `cache`, and related terms as source labels. Then RSA names the declared structures and accounting basis:
 
-- reusable structure may be located in recovered repeated-block topology, dataflow pattern, cache-placement rule, or evaluation harness;
-- bespoke residue may be located in model-specific tuning, data distribution dependence, memory-layout exception, or ablation gap;
+- trace which earlier topology, dataflow, cache rule or evaluation harness the team used. To credit a new design, establish which choice the team made beyond implementing the supplied architecture;
+- check the target's memory layout, input distribution and tuning needs before offering the same change for another model;
 - benchmark gain is not reusable-structure accounting by itself;
 - establish evidence and causal claims under their direct rules; use `A.10` for a needed replayable source-to-use account, `G.6` for a needed citable provenance path, and `C.28` for causal-use recovery. Use `C.29` for an unresolved mathematical representation choice, transfer or reliance question.
 
@@ -79558,9 +79560,9 @@ ScaleClaimTriage:
   scaleVariableRef:
   scaleWindowRef:
   claimedPreferenceUnderScale:
-  slopeEvidenceRef, scaleProbeEvidenceRef, or noProbeReason:
-  expectedStableOrImprovingStructure:
-  exceptionGrowthRisk:
+  slopeEvidenceRef, scaleProbeEvidenceRef, comparisonBasisRef, or noProbeReason:
+  expectedStableOrImprovingStructure?:
+  exceptionGrowthRisk?:
   sourceReturnCondition?:
   relatedClaimGovernanceIfClaimed:
   stopCondition:
@@ -79572,9 +79574,8 @@ Ordinary use starts by naming:
 - the `U.ClaimScope` and relevant A.2.6 `U.ContextSlice` membership;
 - the scale variable and scale window;
 - the claimed preference under scale;
-- the available slope or scale-probe evidence or no-probe reason;
-- the expected stable or improving structure; and
-- the exception-growth risk.
+- the observations or derivation supporting the proposed scale behavior, or what remains open in their absence;
+- the structural feature or exception behavior on which that preference depends, when it calls for either.
 
 Name `modelUseStructureRef` only when one independently selected `BoundedModelUseStructure` changes this receiving interpretation; it never replaces the claim scope.
 
@@ -79587,7 +79588,7 @@ What goes wrong if C.31.ASAP is missed:
 - exception growth is hidden until the architecture is already expensive to change; and
 - coarse descriptions keep losing lower-scope safety or semantic distinctions without a source-return condition.
 
-What C.31.ASAP buys in practice: the practitioner can say what is being scaled, where the scale claim holds, what structure is expected to remain stable or improve, what exceptions are allowed, what evidence or no-probe reason exists, which scale-preference claim stays in C.31.ASAP, and which pattern defines or tests any lens-use, evidence, assurance, selection, or decision claim being made.
+A practitioner can use the resulting account to say which architecture is preferable for the planned scale and criterion, which conditions support that judgement, and what could reverse it.
 
 For questions limited to the following concerns, use the corresponding patterns instead of C.31.ASAP:
 
@@ -79611,7 +79612,7 @@ Architecture work often asks whether one structure will scale better than anothe
 
 These claims are useful only after the scale relation is declared. "Scales better" can mean fewer interface grammar variants, lower exception growth, better learning transfer, more reusable templates, more stable control relations, less source-return cost, fewer regulatory exceptions, or more freedom of action. Those are not the same claim.
 
-C.31.ASAP connects a declared scale variable and window to a preference claim, its evidence or no-probe reason, expected structural behavior, exception-growth risk and any needed source return. It does not turn scale preference into proof, selection, assurance, causal use, or a universal law.
+C.31.ASAP connects a declared scale variable and window to a preference claim, its evidence or no-probe reason, the behavior or exception risk on which it depends, and any needed source return. It does not turn scale preference into proof, selection, assurance, causal use, or a universal law.
 
 ### C.31.ASAP:3 - Forces
 
@@ -79635,8 +79636,8 @@ C.31.ASAP applies only when all of the following are present:
 1. a declared architecture alternative set, described holon, `U.ClaimScope`, and relevant A.2.6 `U.ContextSlice` membership;
 2. a declared scale variable and its window;
 3. a claimed preference under scale;
-4. slope evidence, scale-probe evidence, or a no-probe reason;
-5. an expected stable or improving structure, exception-growth risk, or source-return condition that changes the next architecture move.
+4. the observed scale behavior, a derivation from applicable conditions, evidence from a scale probe, or a reason why the claim remains hypothetical;
+5. the grounds relating the architecture alternatives to that comparison. These may include an applicable quotation for the required service, or differences in structure and local exceptions where those affect the claimed advantage.
 
 If those fields are absent, keep the claim in `C.31` as a temporal or scale-sensitive characteristic cue, in `C.31.RSA` as report-only accounting, in `C.29` as a bounded lens-use output, or in ordinary architecture prose.
 
@@ -79657,9 +79658,10 @@ ScaleClaimTriage:
   claimedPreferenceUnderScale:
   slopeEvidenceRef?:
   scaleProbeEvidenceRef?:
+  comparisonBasisRef?:
   noProbeReason?:
-  expectedStableOrImprovingStructure:
-  exceptionGrowthRisk:
+  expectedStableOrImprovingStructure?:
+  exceptionGrowthRisk?:
   sourceReturnCondition?:
   admissibleUse:
   nonAdmissibleUse?:
@@ -79681,11 +79683,13 @@ Retaining or publishing the bounded answer preserves its limits. A stronger comp
 
 When architecture alternatives satisfy the same safety, law-domain and assurance boundaries, prefer the alternative whose relevant reusable structure remains stable or improves over the declared scale window, unless a stated bounded exception justifies another choice. Select the functional, flow, control, interface, work-template or evidence structure and any learning-transfer characteristic on which this architecture question depends.
 
-This is a declared structural preference policy. Its application needs grounds for the claimed behavior; it does not establish a scaling law. When the relevant profiles conflict, tie or remain uncertain, retain those limits and use the declared comparator or decision rule to resolve the question. A no-probe reason can justify a bounded provisional use or further inquiry, but supplies no observed slope.
+Define the advantage that would change the recommendation. Compare both alternatives for the same deliveries under the conditions that affect that advantage. Separate a one-time investment from work repeated at each installation or each new interface type. When deciding whether to commission a shared design, count the preparation it requires. When deciding whether to keep using one already built, compare future costs and commitments that the choice can still change. The original expense remains part of the investment history. More deployments at an established site may require none of the qualification work that a first deployment in a new jurisdiction requires. Check where the two alternatives tie or change order. When different admissible mixes of sites give different recommendations, state which mix supports each and what is known about the proposed rollout.
+
+Observations can support a comparison for the conditions examined. A binding rate, an engineering bound or a supported construction can also establish an answer for the entire stated range under its assumptions. Record the observations or the applicable derivation and its assumptions. A quotation or bound that orders the alternatives throughout a window can be cited in `comparisonBasisRef` even when neither slope is known. An advantage in price throughout a window establishes which quote is cheaper. To claim its price grows more slowly, compare the changes in price. When an untested premise could reverse the preference, state what depends on it. A reason for skipping a probe supplies no evidence about its outcome. An applicable derivation can already settle the question. Conflicting characteristics need the preference or decision rule for the work in question.
 
 C.31.ASAP defines the scale-preference claim and its boundary. Use `G.9` for a parity claim and `A.21` for a gate claim; the candidate, comparison, set-declaration, and choice uses are distinguished below.
 
-A scale-preference claim may inform `C.32` candidate generation or supply one input to an `A.19.CPM` comparison by naming the scale variable, scale window, expected stable or improving structure, exception-growth risk, and any source-return condition needed for candidate alternatives.
+A scale-preference claim may inform `C.32` candidate generation or supply one input to an `A.19.CPM` comparison by naming the scale variable and window, the grounds for ordering the alternatives, and any structural uncertainty or exception that could reverse that order.
 
 Use:
 
@@ -79709,7 +79713,7 @@ Typical architecture scale variables include:
 | --- | --- |
 | `N_units` | repeated units or instances |
 | `N_scopeCount` | aggregation scopes, coarse-graining scopes, or typed LCA control scopes |
-| `N_sites` | deployments, sites, markets, or jurisdictions |
+| `N_sites` | Distinct deployment sites. Deployment events, markets and jurisdictions can have different counts and costs. Name and count the one that drives the work in question. |
 | `N_interfaceTypes` | distinct interface grammar variants |
 | `N_requiredTransformationKinds` | distinct transformation kinds in the selected functional-structure view |
 | `N_flowRelationKinds` | flow-relation or crossing variants in the selected flow-structure view |
@@ -79719,7 +79723,7 @@ Typical architecture scale variables include:
 | `N_regulatoryInstances` | approval, safety, or certification repeats |
 | `freedomOfAction` | allowed design, search, or control variation |
 
-The claim needs the scale variable with its window, the expected structural behavior and exception-growth risk. Add a source-return condition when omitted distinctions could change the receiving action.
+Name the scale variable, its window and the characteristic whose behavior matters to the comparison. Add a source-return condition when omitted distinctions could change the receiving action. Increasing the number of sites changes a quantity in the model. Abstracting the model can leave the jurisdiction of a site open. The same disciplinary model can compare five and forty sites. Use B.5.MR:4.2 when asking which conclusions still follow after leaving a distinction open.
 
 #### C.31.ASAP:4.5 - Scale audit outputs
 
@@ -79735,7 +79739,8 @@ ArchitectureScaleAuditRecord@Project:
   modelUseStructureRef?:
   scaleVariableRefs:
   scaleWindowRef:
-  ArchitectureSlopeVector:
+  ArchitectureSlopeVector?:
+  comparisonBasisRef?:
   IsoScaleParityNote?:
   ASAPWaiverReason?:
   ArchitectureHeuristicDebt?:
@@ -79795,13 +79800,13 @@ Name at least one possible repair or stop before using the scale preference to g
 
 A scale preference may use an RG, coarse-graining, epiplexity, graph, multilevel-learning or frustration model. Establish the assumptions and correspondence needed by that inference; an adequate domain treatment can suffice. Use `C.29` when choosing or transferring the representation, or relying on its result, leaves an unresolved question. Keep the architecture scale-preference claim in C.31.ASAP and use C.18.1 for a scale-law claim.
 
-The C.31.ASAP account retains its scale variable, scale window, slope or scale-probe grounds, exception-growth risk and any material source-return condition. When a C.29 account is needed, it can use `MLU.Description@RGArchitecture`, `MLU.Description@MultilevelLearningFrustration` or another local account to explain the representation, correspondence, preserved and lost distinctions, payoff and limits. A separately named output is needed only when the receiving use requires it.
+The account retains its scale variable, window and the basis for the comparison, including any variation in exceptions that can change the answer. State where to recover an omitted fact when the answer depends on it. When a C.29 account is needed, it can use `MLU.Description@RGArchitecture`, `MLU.Description@MultilevelLearningFrustration` or another local account to explain the representation, correspondence, preserved and lost distinctions, payoff and limits. A separately named output is needed only when the receiving use requires it.
 
 ### C.31.ASAP:5 - Archetypal Grounding
 
 | Archetype | Without C.31.ASAP | With C.31.ASAP |
 | --- | --- | --- |
-| Product-line platform | Platform name is treated as scale-preference evidence. | Variability slots, extension rules, exception curve, and refactor triggers are declared before preference use. |
+| Product-line platform | A team treats a platform name as grounds for lower rollout cost. | Compare the work or price for the planned varieties and volumes. Investigate a variation or exception when it can change that comparison. |
 | Neural architecture block library | Reusing blocks is treated as reusable architecture by itself. | The alternative set names scale variable, interface grammar variants, exception growth, and source-return condition. |
 | Safety or certification reuse | Reusable evidence package is counted without validation boundary. | Evidence reuse remains tied to source-return. An evidence-validity or safety claim is tested under its applicable domain rule. Establish the relied-on source grounds; use `A.10` for a needed replayable source-to-use account, `G.6` for needed addressable provenance, and `B.3` when a named assurance claim is current. |
 | Cross-scope residual | A frustration or complexity label is treated as scale mathematics. | C.31.ASAP names the scale window and residual slope; establish the mathematical basis of the interpretation; use C.29 if representation choice, transfer or reliance is unresolved. |
@@ -79818,7 +79823,7 @@ ScaleClaimTriage:
   scaleVariableRef: N_sites
   scaleWindowRef: 5 to 40 regulated deployment sites inside the current qualification window
   claimedPreferenceUnderScale: platform alternative is preferred if interface variants and approval exceptions grow slower than bespoke variants
-  slopeEvidenceRef, scaleProbeEvidenceRef, or noProbeReason: evidence from six deployments; behavior outside the tested conditions remains a hypothesis unless an extrapolation basis is supplied
+  scaleProbeEvidenceRef: six platform deployments using the ordinary interface within one qualification regime. The records identify the interface, local exceptions and work completed at those sites.
   expectedStableOrImprovingStructure: interface grammar, reusable test package, deployment work template
   exceptionGrowthRisk: jurisdiction-specific clauses and side-channel integrations may grow faster than sites
   sourceReturnCondition: return to exception register, interface variant log and deployment evidence when a wider window or stronger use needs distinctions omitted from this account
@@ -79826,7 +79831,11 @@ ScaleClaimTriage:
   stopCondition: retain the supported local guidance and the untested-window hypothesis; establish comparison, evidence-validity or decision grounds for that further use
 ```
 
-Admissible move: use the supported local comparison to consider the platform and its interface-grammar repair. The six-deployment probe alone does not establish the whole 5–40-site window. Retain the wider preference as a hypothesis until a warranted extrapolation or further probe supports it; if exceptions accelerate, narrow or split the window and revise the preference. A separate selected-set, evidence, assurance, gate or decision use retains its own grounds.
+The six platform deliveries show which interfaces and exceptions occurred there. Predicting a lower growth rate than the bespoke alternative calls for comparable grounds for that alternative and for the future mix of sites. Identify the change in configuration or jurisdiction that could reverse the preference.
+
+Suppose both suppliers offer the same required service for five to forty sites during the quotation period. The shared platform costs 18 units to prepare the common interface and 2 per ordinary site. The bespoke offer costs 5 per site. At five ordinary sites the quoted totals are 28 and 25. At six they tie. From seven through forty ordinary sites the platform costs less. This follows from the two binding offers for that range. The six installations alone would not establish those prices.
+
+At eight sites the ordinary prices are 34 and 40. Under the same offers one site needing a different connector adds a one-time charge of 12 to the platform total and is included in the bespoke price. The comparison then favors the bespoke offer at 40 against 46. If the eighth site's connector is unknown and the other seven are ordinary, its interface specification settles which offer is less expensive. An assertion about actual expenditure still needs the charges incurred. An architecture choice can also depend on service or assurance conditions beyond price. At twelve sites with at most one such surcharge, the platform quote is either 42 or 54 against 60. Its price advantage then holds with either connector.
 
 #### C.31.ASAP:5.2 - Near-miss lowering slice
 
@@ -79834,18 +79843,18 @@ Near-miss: a team says the platform architecture should win because it has an 82
 
 Lowering replay:
 
-- The platform label is a source cue, not scale-preference evidence; recover variability slots, extension rules, exception curve, and source-return condition first.
-- The 82 percent reusable-structure share stays report-only under C.31.RSA until the scale variable, scale window, accounting basis, comparator admission, and admissible comparison relation are declared.
+- Identify the feature of the proposed platform on which the preference depends. For a preference based on exception-handling effort, recover which variants require an exception and how much work it adds.
+- The team's reported 82 percent gives a starting point for checking the claim. Recover the counting unit, population and records to establish the share. Even an established share can correspond to 41 of 50 or 82 of 100. It supplies an absolute count only with an adequate denominator and precision. For a scale preference, establish how the counted reuse affects the characteristic compared over the proposed deployments.
 - An RG-like phrase alone supplies no mathematical correspondence or scale-preference evidence. Recover the model and its relevant preservation and loss; use C.29 if representation choice, transfer or reliance remains unresolved.
 - The "bespoke debt" label is lowered to waiver review when safety, law-domain, mission, assurance, or scale-probe overturn reasons may justify the local variant.
 
-Stop the dependent C.31.ASAP use when its scale window, probe evidence or no-probe reason, required comparator admission, or action-changing source-return condition is absent. Reopen it only after the fields required by that use are recoverable and the platform-label, share, lens, and waiver claims have their governing patterns.
+Report the 82 percent as the team's statement until its basis is established. Preserve a verified accounting result within that basis. If compatible rollout plans favor different alternatives, identify the conditions for each preference and what the present decision requires.
 
 ### C.31.ASAP:6 - Bias-Annotation
 
 | Bias risk | C.31.ASAP correction |
 | --- | --- |
-| **Platform label bias** | Platform or product-line wording names a possible source context, not scale-preference evidence. Recover variability slots, extension rules, exception curve, refactor triggers, and source-return condition. |
+| **Platform label bias** | Identify what would give the platform its claimed advantage. Recover the interface variations, exception costs or coverage limits on which that advantage depends. |
 | **Modularity-means-scalability bias** | A count or reusable share alone does not establish scale preference. Use C.31 or C.31.RSA when the characteristic or accounting meaning remains unresolved; proceed directly to C.31.ASAP when the alternatives, variable, window and relevant grounds are recoverable. |
 | **Debt inflation bias** | A locally hand-engineered solution is called debt without checking deontic, safety, law-domain, mission, assurance, or scale-probe waiver reasons. |
 | **RG proof bias** | RG, coarse-graining, fixed-point, or universality wording is treated as scale-preference proof. Establish the mathematical inference and the distinct scale preference; use C.29 when its representation or reliance question is unresolved. |
@@ -79856,8 +79865,8 @@ Stop the dependent C.31.ASAP use when its scale window, probe evidence or no-pro
 | ID | Requirement | Purpose |
 | --- | --- | --- |
 | `CC-C31.ASAP-1` | A C.31.ASAP use being made names the architecture alternative set, described holon, `U.ClaimScope`, relevant A.2.6 `U.ContextSlice` membership, scale variable and its window, and claimed preference under scale. | Prevents generic "scales better" and generic-context wording. |
-| `CC-C31.ASAP-2` | The account names slope/probe evidence or a no-probe reason and retains its reach. An untested window remains hypothetical without an extrapolation basis; a no-probe reason is not observed evidence. | Keeps the strength of the preference proportionate to its grounds. |
-| `CC-C31.ASAP-3` | Expected stable or improving structure and exception-growth risk are stated. | Keeps the pattern about architecture structure rather than scale vocabulary. |
+| `CC-C31.ASAP-2` | Identify what the observations or applicable derivation establish for the stated alternatives and scale window. State an unsupported extension as a hypothesis. | A price schedule can settle a quoted cost over the whole window. A reason for skipping a test supplies no measured slope. |
+| `CC-C31.ASAP-3` | Identify the structure expected to remain stable or change, and the relevant exceptions, when the preference depends on that behavior. | Applicable price bounds can order two offers while leaving their internal engineering effort unknown. |
 | `CC-C31.ASAP-4` | Source-return condition is present when a compressed, coarse, extracted, indexed or accounting representation drops distinctions on which the receiving action depends. | Prevents unsafe coarse descriptions. |
 | `CC-C31.ASAP-5` | Waiver reason is one of deontic constraint, safety or law-domain boundary, scale-probe overturn, assurance infeasibility, or context-specific bounded exception. | Prevents false debt labels. |
 | `CC-C31.ASAP-6` | `ArchitectureHeuristicDebt` remains report-only unless a decision, risk, work, evidence, assurance, or selected-set record is being used under its governing pattern. | Prevents shadow project authority. |
@@ -79872,7 +79881,7 @@ Stop the dependent C.31.ASAP use when its scale window, probe evidence or no-pro
 
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |
-| `ModularThereforeScalable` | The text says modular or platform architecture scales without scale variable, window, slope evidence, or exception curve. | Add `ScaleClaimTriage` or downgrade to C.31 characteristic cue. |
+| `ModularThereforeScalable` | The text claims an advantage without saying what changes as use grows. | Identify the alternatives, relevant quantity, range and grounds for the advantage. Retain an untested hypothesis where the comparison is open. |
 | `GenericScaleAudit` | Audit fields appear with no architecture alternative set or preference use. | Recover the architecture question and retain only the content needed to answer it. |
 | `AllExceptionsAreDebt` | Any non-scale-amenable choice becomes debt. | Test waiver reasons and keep justified bounded exceptions out of `ArchitectureHeuristicDebt`. |
 | `RGAsScaleProof` | Coarse-graining or RG wording is used as a scale-preference claim. | Establish the mathematical grounds and C.31.ASAP preference conditions. Use C.29 for an unresolved representation or reliance question; retain source return when the inference depends on omitted distinctions. |
@@ -79883,7 +79892,7 @@ Stop the dependent C.31.ASAP use when its scale window, probe evidence or no-pro
 | Positive consequence | Cost or trade-off |
 | --- | --- |
 | Scale preference becomes inspectable before selection or decision. | The practitioner must name a scale variable and window instead of relying on a label. |
-| Platform and product-line claims gain usable refactor triggers. | Some source language becomes only a recognition cue until variability slots and exception curves are declared. |
+| Product-line comparisons expose which changes in the customer mix could reverse the preference. | The effect of an unfamiliar variation can remain uncertain until its cost or technical consequence is established. |
 | C.29 lens use stays useful without turning into scale proof. | RG and coarsening inferences need their relevant preservation and loss grounds, with source return when omitted distinctions can change the use. |
 | Report-only debt notes remain bounded. | Decisions or risk records must use their governing patterns when reliance use is being made. |
 
@@ -79891,14 +79900,14 @@ Stop the dependent C.31.ASAP use when its scale window, probe evidence or no-pro
 
 `C.31` and `C.31.RSA` can expose scale-sensitive characteristics and reusable-structure residue, but they should not themselves decide which architecture alternative is preferable under scale. C.31.ASAP governs this architecture scale-preference claim family; it is narrower than general BLP and broader than one measurement card.
 
-The pattern adapts BLP-style scale-amenability to architecture: prefer the alternative that preserves or improves reusable structure over a declared scale window when safety, law-domain, and assurance boundaries are comparable. Treat modularity, reuse, platform practice, and mathematical coarse-graining as candidate cues. Base the preference on the named scale variable and window, relevant structural behavior, exception-growth risk and the reach of available evidence. A no-probe reason retains the provisional-use limit in section 4.3.
+The pattern adapts BLP-style scale-amenability to architecture: prefer the alternative that preserves or improves reusable structure over a declared scale window when safety, law-domain, and assurance boundaries are comparable. Treat modularity, reuse, platform practice, and mathematical coarse-graining as candidate cues. Base the preference on the named scale variable and window, relevant structural behavior, exception-growth risk and the reach of available evidence. A comparison can follow from applicable rates or constraints throughout a range. A preference that still depends on an untested extrapolation remains provisional.
 
 ### C.31.ASAP:11 - SoTA-Echoing
 
 | Source family | Source-use relation | C.31.ASAP contribution | Practitioner use |
 | --- | --- | --- | --- |
-| Software product-line and variability-management practice (`https://www.sei.cmu.edu/library/variability-in-software-product-lines/`; `https://arxiv.org/abs/2605.21353`) | Variability lineage and SPLE-review cues. | Adopt variability slots, product-line reuse, exception inventory, and refactor triggers as architecture scale-preference fields. | Treat a product-line label, shared code base, feature model, or platform name as a cue. Before preferring the product-line alternative, name the scale window, variability slots, exception curve, and source-return condition. |
-| Product-platform and modular product-architecture practice (`https://link.springer.com/article/10.1007/s00163-023-00427-1`; `https://arxiv.org/abs/2510.11089`) | Engineering-design source line for modular product architecture, assembly orientation, product-family reuse, and manufacturing-aware modularity. | Adopt the product-family commonality and variety trade-off as an architecture scale-preference pressure: reusable structure needs declared variation points, interface rules, assembly or realization constraints, exception curve, and source-return condition. | Treat a product-platform name, common-module count, or modular-product label as a cue; establish any module-interface or manufacturing claim separately. Before preferring a product-platform alternative, state which product-family variation is scaled, which structure remains stable, and which assembly, safety, law-domain, or mission exception is allowed. |
+| Software product-line and variability-management practice (`https://www.sei.cmu.edu/library/variability-in-software-product-lines/`; `https://arxiv.org/abs/2605.21353`) | Variability lineage and SPLE-review cues. | Adopt variability slots, product-line reuse, exception inventory, and refactor triggers as architecture scale-preference fields. | Treat a product-line label, shared code base, feature model, or platform name as a cue. Recover the variation and exception behavior that matters to the proposed preference in its scale window. A comparative quotation can settle acquisition price while leaving future integration effort open. |
+| Product-platform and modular product-architecture practice (`https://link.springer.com/article/10.1007/s00163-023-00427-1`; `https://arxiv.org/abs/2510.11089`) | Engineering-design source line for modular product architecture, assembly orientation, product-family reuse, and manufacturing-aware modularity. | Product-family commonality and variety can change assembly and qualification work as deployment grows. | If the preference depends on assembly or qualification, identify the variations, interfaces and operating constraints that affect it. A covered price comparison can settle the purchaser's cost without settling who does the engineering work. |
 | Platform-engineering maturity practice (`https://tag-app-delivery.cncf.io/fr/whitepapers/platform-eng-maturity-model/`) | Platform-practice source for platform service set, extension-rule, substitution-policy, and maturity-pressure claims. | Adapt platform practice into extension-rule, substitution-policy, conformance-expectation, and exception-growth checks. | Treat platform maturity as a source cue until the architecture scale variable and exception behavior are declared. Establish any architecture selection or reusable-structure claim through its own pattern. |
 | C.19.1 BLP in FPF | FPF-local preference discipline for general scale-amenable methods. | Specialize the preference idea to architecture alternatives, selected structures, scale variables, and architecture slope vector. | Use C.19.1 for method-family policy and C.31.ASAP for architecture scale preference; selector policy and decision records remain with their governing patterns. |
 | C.29 RG and coarse-graining lens use in FPF | FPF-local mathematical-lens discipline. | Establish the scale window, coarse-graining rule and relevant preservation or loss for the inference; retain source return when needed. | Use C.29 when representation choice, transfer or reliance is unresolved; its local account can use `MLU.Description@RGArchitecture` or `MLU.Description@MultilevelLearningFrustration` when that form serves the receiving use. Establish any physical-RG, scale-proof, causal-proof, assurance, or selected-architecture claim through its own source basis and governing pattern. |
