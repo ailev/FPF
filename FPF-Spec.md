@@ -87187,9 +87187,13 @@ Keep an unavailable domain operation visible. General guidance can identify a re
 
 #### C.39:4.4 - Refine only what can change the answer
 
-Follow a constituent contribution further when its unresolved obtaining way could change the whole's result, feasibility or burden. State that effect before opening another search. A qualified existing operation can remain intact while one missing connection is developed.
+**Which constituent operation needs further work?**
 
-Choose the next level by the decision it enables, not by a fixed decomposition depth. Stop when the explanation is sufficient for that decision. If it is not, name the missing operation or support question and what observation would allow reconsideration.
+Start from the decision about the Method as a whole. Which result must one operation supply to another? A known bound on that result may already settle the decision even while the exact value or the way of obtaining it remains unknown. When the decision is still open, identify what is missing. If a suitable operation exists, its performer may need an input, access or an assignment. If the available operations cannot produce the required result under the stated conditions, develop the missing operation or change how they are connected.
+
+To explain a composite Method, identify the repeatable action of the whole and the result it obtains. Show how the constituent operations together obtain that result under their operating conditions. Where one Method supplies an input to another and each has its own result, describing that exchange may be all the receiver needs.
+
+To compare two models of a Method, name the question both must answer. What ways of carrying out the Method does the proposed model allow? Show that at least one is possible and that each satisfies the earlier model's assertions when read in its terms. A strict refinement also rules out an answer the earlier model allowed. Explaining the parts can leave the allowed answers unchanged. B.5.MR:4.1–4.2 gives the comparison for other modeled entities and inquiries.
 
 Compare further inquiry with using the adequate current answer, narrowing the sought result and stopping. Include the effort and displaced work. A technically interesting uncertainty need not be resolved when none of its attainable answers would change the current decision.
 
@@ -87979,7 +87983,7 @@ Keep the conclusion at that supported scope. Choose further proof, model develop
 
 #### C.39.RO:4.5 - Examine a changed use
 
-Instantiate the operation on the selected changed input. Perform its steps and interpret the output. Choose a change that exercises what was generalized: more inputs, a different arrangement, a boundary condition or a changed constituent.
+Choose a changed input that tests the proposed generalization, such as a larger input set, a different arrangement, a boundary condition or a changed constituent. Apply the operation and interpret what you obtain. With stipulated physical conditions, a calculation can give a required setting, a bound or a prediction. To report what an apparatus actually delivered, use evidence from that run, such as a calibrated measurement of the delivery.
 
 Compare the obtained result with the receiving question. If the operation returns a failure witness, use it to change the proposed action or question. If an assumption fails, repair the dependent part or narrow the application conditions.
 
@@ -87987,9 +87991,9 @@ A worked changed case can expose a defect in the proposed operation. The scope o
 
 #### C.39.RO:4.6 - Make the operation usable at the receiving point
 
-Give the next practitioner the input meanings, the operation, its result and the conditions needed for that use. Keep the reason or worked construction accessible where adaptation will depend on it. A concise name helps retrieval when it reflects what the operation does.
+What will the next practitioner do with the operation? To apply it, the practitioner needs to know what the inputs mean, which conditions to check, how to obtain the output and what decision the output supports. Sometimes a justified bound or an impossibility result already settles that decision. Give the practitioner the grounds and the conditions under which they hold.
 
-Stop when the receiving use can instantiate the operation or understand its supported limit.
+To adapt the operation, the practitioner also needs to know why it works, which assumptions the new use affects and which parts can still be used. If the assignment is to develop a reusable operation independently, identify which construction choices the practitioner made and what was already supplied by the example, a tool or a colleague. Observing the practitioner correctly apply a supplied operation supports a claim about that performance. A claim about independent construction needs evidence of the practitioner's own choices and their grounds.
 
 ### C.39.RO:5 - Archetypal Grounding
 
@@ -88127,7 +88131,7 @@ The source synthesis supports constructive reuse without requiring the whole aut
 
 Use this pattern when a project says that its “methodology”, “process”, “workflow”, or “way of working” must change, but the decision subject is ambiguous. The concern may be one Method, several related Methods, an established Method family, a temporary comparison grouping, or something else such as a tool, capability, support arrangement, description, resource, or project System.
 
-Begin with the result that is missing, late, unsafe, or too costly and the representative Work in which that result matters. Recover the Methods and candidate accounts already visible there before choosing the level of focus.
+Begin with the result that is missing, late, unsafe, or too costly and the Work in which it matters. Identify the Methods already used there and any accounts that still need examination. What could change the decision about that result: improving one Method, changing how Methods work together, or securing the tool, capability or service the work requires?
 
 The first useful move is to compare the plausible focus options: one Method, an established family or project-local grouping, named Method relations, or a non-Method return. This gives later repertoire, qualification, or architecture Work a supported subject and the relations it needs to address, without inventing a Method or a composite.
 
@@ -88910,7 +88914,7 @@ Reopen when a relied-on source contribution, its support or its applicability ch
 
 Use this pattern when a Method, an established-family or project-local grouping choice, or a proposed Method/Work/support structure may fail in the project's situation. Enter when the practical question concerns the receiving result, performer capabilities, technical or organizational conditions, variability, evidence, authority, or acceptable burden and those conditions are not yet explicit enough for individual qualification or architecture comparison.
 
-Begin with the situation family, intended or current Work, receiving professional result, and the level of the Method decision. State the contributions that a Method or several Methods must make without preselecting which candidate supplies them. Place every resulting criterion with the Method, description, performer capability, covering Work assignment, permission relation, decision-authority relation, performed Work, decision result, support/access relation, responsibility, cultural subject, or receiving result it concerns.
+Begin with the recurring situation, the intended or actual Work and the result its recipient needs. Identify the decision that the criteria will serve. Selecting one Method and arranging several Methods to run together can impose different conditions on the same work. State what must be achieved before selecting a candidate. Attach each criterion to what it constrains, such as the Method, a performer's capability, an assignment, permission to act, the authority to decide, the support available or the result delivered.
 
 The first useful result is a bounded set of criteria with subjects, allowed variation, evidence needs, satisfaction observations, and stops. A criterion can be ready for later use even when no candidate currently meets it. Enter also when the present question concerns the justification of a criterion. That use can finish with a supported requirement recommendation and the criterion's current force or amendment limit, without selecting a Method.
 
@@ -88981,10 +88985,10 @@ Recognition is cheap: recurring Work, a changed constraint, or one plausible cap
 5. **Separate variation from invariants.** Name lawful branches, substitutions, timing ranges, and local adaptations. Mark non-negotiable result, safety, confidentiality, authority, or evidence conditions.
 
    If a criterion's justification is the question, use §4.4 to appraise it while retaining its current force. An already justified criterion needs no new appraisal.
-6. **Set burdens at the right level.** Attach time, attention, capacity, delay, meeting, or cost limits to a participant, Work scope, and window. Keep individual burden distinguishable from combined peak demand and burden transferred to another participant or period.
+6. **Identify who bears each burden and when.** Attach time, attention, capacity, delay, meeting, or cost limits to a participant, Work scope, and window. Keep individual burden distinguishable from combined peak demand and burden transferred to another participant or period.
 7. **Name evidence and observations.** For every decision-changing criterion, state what record or observation a later evaluation needs, its edition or window when material, and what would count as satisfied, failed, or unknown. Do not turn the requested evidence into a fit verdict.
 8. **State acceptance, stop, and reopen rules.** Say when the criteria set is adequate for its next use, which missing fact stops that route, and which situation or source change requires rebuilding it. A stop may route to capability, support, authority, product, or Work redesign rather than Method selection.
-9. **Return without selecting.** Make the criteria available by subject and decision level; an adequate existing account can carry them. Send individual subject questions to A.3.1.QM and combined structure questions to C.32.MWA.PP only when their entry conditions hold.
+9. **Return without selecting.** For each criterion, state what it constrains and which decision depends on it. An adequate existing account can carry the criteria. Use A.3.1.QM to qualify one identified Method, retain or exclude a candidate account, or examine a connection that can be assessed on its own. Use C.32.MWA.PP when combined work, provision or shared constraints can change the decision.
 
 #### C.39.RQ:4.2 - Record the Result
 
@@ -88992,9 +88996,9 @@ Use the rows that carry the present result. For a disputed criterion, retain the
 
 | Result position | Content for the present use |
 | --- | --- |
-| use and situation family | Receiving Work/result, decision level, scope, window, representative variations, and exclusions. |
+| use and situation family | Receiving Work and result, decision to be made, scope, window, representative variations, and exclusions. |
 | required contributions | Candidate-neutral Method contributions and the result or preserved condition each must support. |
-| criterion rows | Criterion ID, subject/relation, requirement or bound, allowed variation, non-negotiable status, and decision level. |
+| criterion rows | Criterion ID, subject/relation, requirement or bound, allowed variation, non-negotiable status, and decision that uses the criterion. |
 | capability, assignment, permission, and authority | Required performer capabilities; separate responsibility and access conditions; covering Work assignments; permission and decision-authority relations; and evidence for each. |
 | technical and organizational conditions | Inputs, support/provider conditions, evidence timing, reversibility, coordination, and other situated constraints. |
 | burden limits | Participant, Work scope, applicable time window, bound and its basis, how satisfaction can be determined, and any material transfer of burden. |
@@ -89022,7 +89026,7 @@ Carry the useful reason and limit in the same criteria or recommendation result.
 
 The situation family is a safety-relevant controller change combining firmware and supplier-originated harness geometry under a fixed release calendar. The intended Work produces one released change with traceable affected requirements, implementation revisions, verification results, evidence status, and human release authority. Some cases have signed supplier evidence before integration; others have only versioned provisional evidence until later. AI support may suggest trace links but may not receive confidential geometry or decide release.
 
-Three views describe the same release Work. The project view exposes dates, allocations, and authority; the process view exposes recurring supplier-evidence, integration, verification, and release-result correspondences; the case view exposes how new evidence changes the next decision for one release. These views help find criteria. They create neither additional Work nor a Method.
+Three accounts inform the release decision. The project plan gives dates, allocations and decision authority. The process account shows how supplier evidence, integration and verification support a release decision across changes. The case record shows which evidence is available for this release and how it affects the next decision. Use each account to identify criteria for what it describes.
 
 Required Method contributions are stated without selecting an architecture: produce the affected hardware verification result; integrate the implementation against a versioned evidence state; produce signed supplier approval or a missing-approval stop; and return release, withhold, or next-slot authorization under named human authority. Evidence reconciliation and trace review are additional candidate contributions, not pre-admitted Methods.
 
@@ -89042,7 +89046,7 @@ F.6 tests precise assignment-bound attribution when that claim is needed; a fail
 
 Responsibility, access, capability, assignment, permission, authority, performed Work, and decision result therefore remain separately testable. The AI provider is a separate System and is holder or subject of none of these assignments or relations.
 
-| Criterion | Subject and decision level | Requirement, variation, and bound | Evidence needed and stop |
+| Criterion | Subject of the criterion and decision it affects | Requirement, variation, and bound | Evidence needed and stop |
 | --- | --- | --- | --- |
 | `SC-TRACE-01` | EC-417 receiving result and its requirement/implementation/verification correspondence | every affected safety requirement links to one or more named current implementation revisions and one or more named verification results; every correspondence link remains inspectable, while representation format may vary | versioned trace record; an affected requirement with no current implementation-revision link or no verification-result link is `failed` and stops safety closure |
 | `SC-CONF-01` | supplier-geometry information and AI-provider access relation | confidential supplier geometry stays outside the AI provider; using no AI is allowable | access configuration and handling record; any provider exposure is `failed` and stops the AI-supported route |
@@ -89090,14 +89094,14 @@ If timely amendment is unavailable, the rule remains in force and the release ar
 | candidate-shaped criteria | Requirements restate the familiar candidate's procedure. | State the contribution or protected condition before assigning a candidate. |
 | description-reification bias | Goal, rationale, framing, or mindset text becomes a world-side Method part or capability fact. | Place each answer with the description, account, capability, or cultural subject it concerns. |
 | capability-assignment-authority collapse | A capable System is assumed assigned and authorized, or an authority holder is assumed capable and assigned. | Record capability, responsibility, access, assignment, permission, authority, performed Work, and decision result separately. |
-| scalar-fit bias | Unlike safety, evidence, burden, and authority rows collapse into one score. | Preserve non-negotiable stops, unknowns, and decision levels. |
+| scalar-fit bias | Unlike safety, evidence, burden, and authority rows collapse into one score. | Keep each binding stop or unresolved criterion with the decision it affects. |
 | local-burden blindness | A passing individual estimate hides a combined peak or burden moved to another participant. | Attach burden to participant, scope, and window; route combined structures to C.32.MWA.PP. |
 
 ### C.39.RQ:7 - Conformance Checklist
 
 Apply these questions to the criteria being established or appraised and to the present use of the result. Existing relevant context can supply the answer.
 
-- [ ] The criteria name a situation family, receiving Work/result, decision level, scope, window, variations, and exclusions.
+- [ ] The criteria name a situation family, receiving Work and result, decision to be made, scope, window, variations, and exclusions.
 - [ ] Required Method contributions are stated before candidate assignment.
 - [ ] Every criterion names its subject or relation rather than hiding it under “method fit”.
 - [ ] Method/account content, MethodDescription, performer capability, responsibility, support/access, covering Work assignment, permission relation, decision-authority relation, performed Work, decision result, culture, and receiving-result claims remain distinct.
@@ -89140,7 +89144,7 @@ Method Content Theory and the design-method ecosystem line are complementary bec
 | Tsai, Zdravkovic, and Söder, [situational Method Engineering in a digital business ecosystem](https://doi.org/10.1007/s10270-022-01068-z) | Empirical action-research evidence for situational requirements, construction, and selection in an ecosystem. | One action-research setting does not establish a universal criterion set or cross-domain fit. |
 | Bender, [context-specific embedded-analytics process selection](https://doi.org/10.1007/s10257-024-00675-1) | Context-specific requirement and selection questions with practical constraints. | The application population and source-local process terms do not determine Method identity or general applicability. |
 
-Reopen when a source model changes a decision-bearing prompt, a later evaluation exposes a criterion whose subject or decision level was wrong, a recurring architecture failure can be prevented by one affordable criterion, or the situation family, receiving result, variation, evidence window, performer, support, authority, or burden regime changes.
+Reopen when a source model changes a decision-bearing prompt, a later evaluation exposes a criterion applied to the wrong subject or used for the wrong decision, a recurring architecture failure can be prevented by one affordable criterion, or the situation family, receiving result, variation, evidence window, performer, support, authority, or burden regime changes.
 
 ### C.39.RQ:12 - Relations
 

@@ -96,9 +96,9 @@ You can ask an assisting agent: “Explain this and comment on my proposal witho
 
 - **Situation:** Something in the work is unexplained or fails, and you do not yet know whether another observation, a new model, a mathematical construction or a different computation is needed.
 - **Question:** What must become distinguishable or possible for the next answer to be useful?
-- **First useful result or blocker:** A mathematical task with a stated use. For example, a cart's travel log gives total distance, but that total cannot tell whether the cart returned to its start. Identify the position question first. With straight-line motion and known displacements, a sequence of signed displacements supplies an account that can answer it. MATH.1 constructs the sequences and their composition; MATH.5 derives the accumulated displacement from the elementary displacements. A sensor report must first be interpreted as the movement it measures.
+- **First useful result or blocker:** Identify what would settle the working question. A reliable record that the cart arrived back at the start can settle a return-to-start question. Two unit moves along a line cover the same total distance whether the second continues forward or returns to the start. For motion along a line, add the signed displacements if they are known. Seek evidence for a missing displacement when its value could change the answer. When the problem is how to represent and combine the movements, MATH.1 constructs sequences of movements and MATH.5 derives their accumulated displacement. An instrument reading needs an interpretation that relates it to the cart's movement.
 - **Start with:** FPF B.5.FM. State the working question, identify the participants and relations that may change its answer, and build a small account that yields a consequence. If an unfamiliar theory supplies the account, B.5.TU helps construct its application. B.5.MPC connects the physical, mathematical and computational contributions when the difficulty lies between them. Their bodies are in the FPF publication linked above. If the problem is deciding what an object must let you form or recover, use MATH.16. If it is deciding which distinctions can be forgotten, use MATH.2. If an implication is doubtful, use MATH.6. The question determines the construction; an available formula may settle only part of it. C.29 supplies the interpretation through which a mathematical result answers the original question. C.29.2/.3 develop a needed procedure and its execution.
-- **Stop or return:** After the question changes, test whether the summary still determines the answer. If two runs have the same final position but differ in a requested visit, recover the information that separates them. MATH.2 helps locate the failed identification; B.5.QD develops the next useful question. For a working method changed by the result, B.1.5.CM helps describe the proposed operations and their relations; A.3.1.CC checks the claims in that account and its description. The Architectural Reference's worked use follows these choices in detail.
+- **Stop or return:** Stop when the available observations and their interpretation settle the original question. If the question changes, test whether the summary still determines the answer. If two runs have the same final position but differ in a requested visit, recover the information that separates them. MATH.2 helps locate the failed identification; B.5.QD develops the next useful question. For a working method changed by the result, B.1.5.CM helps describe the proposed operations and their relations; A.3.1.CC checks the claims in that account and its description. The Architectural Reference's worked use follows these choices in detail.
 
 ### MP-COMBINE-RESULTS - Change a rule so that separately obtained results can be combined
 
@@ -850,7 +850,7 @@ Construct only the paths needed for the immediate question, or describe a family
 
 For paths `p:x→y` and `q:y→z`, write `p;q` for the path obtained by putting the list of `q` after the list of `p`. Here the semicolon is read in execution order: first `p`, then `q`.
 
-Composition is defined when the full intermediate object agrees. Its source is `x` and its target is `z`. If the endpoints disagree, repair the proposed sequence, supply a connecting arrow that the rules permit, or return the failed connection.
+Composition is defined when the full intermediate object agrees. Its source is `x` and its target is `z`. If the endpoints disagree, the two paths cannot be joined as given. When the receiver needs to reach a target, examine another permitted path or find a connecting arrow that the rules permit.
 
 Concatenation gives two laws:
 
@@ -861,6 +861,8 @@ These arguments establish identity and associativity for this construction. They
 
 #### MATH.1:4.4 - Use the path at the needed level
 
+**Does the recipient need one permitted path, or the rule for constructing paths?**
+
 Return the path that answers the immediate composition question, or the formation and composition rules when the receiving work needs a reusable family.
 
 If each generator has a supplied additive cost, obtain a path's cost by adding the costs of its generators; the empty path has cost zero. Keep the path as well when the receiver needs to execute it or inspect why it is available. Two paths with the same cost can contain different generators.
@@ -869,7 +871,7 @@ If a representation hides an intermediate object, test the attempted composition
 
 An interpretation can associate generators with transformations in another setting. The mathematical path then specifies their composition. Whether those transformations are available and adequate in that setting is the application's question, using such common methods as FPF C.29 and B.5.MPC.
 
-Stop when the receiving question has a permitted path, a reusable construction, or a specific failed connection. Constructing every possible path or proving an unchanged concatenation law again adds no result to that use.
+One permitted path settles reachability. A failed join settles whether those particular paths compose. To conclude that the target is unreachable, give a reason covering every permitted route. If the available rules leave an essential connection undecided, identify it and say which conclusion is still open. When the recipient needs a rule for constructing paths, give the formation and composition rules with their conditions. Reuse an established concatenation law while its definitions hold.
 
 ### MATH.1:5 - Archetypal Grounding
 

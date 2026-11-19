@@ -371,7 +371,7 @@ A stable standard service with agreed rights and inputs can answer the request. 
 
 Use IS.2 where a receiving difficulty remains unexplained and IS.3 when support still needs to be designed or adapted. A.3.1.MI helps establish what happened during introduction or later use and which conclusions follow. Use IS.5 for continued provision, transfer or closure.
 
-Use MKT.11 to establish whether a commercial service promise can be met, [OCE.6 (OCE.6:4)](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce64---solution) for organizational assignments and enabling relations, and [LDR.4 (LDR.4:4)](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/LEADERSHIP-PRINCIPLES-FRAMEWORK.md#ldr44---solution) when a decision or first use requires preparation. Use HCD when personal acquisition is promised. Use C.39 when construction or qualification of a target or support Method remains open.
+Use MKT.11 to establish whether a commercial service promise can be met, [OCE.6 (OCE.6:4)](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce64---solution) for organizational assignments and enabling relations, and [LDR.4 (LDR.4:4)](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/LEADERSHIP-PRINCIPLES-FRAMEWORK.md#ldr44---solution) when a decision or first use requires preparation. Use HCD when personal acquisition is promised. Use A.3.1.FT with evidence from the practice when the question is whether a known target or support Method fits the receiving setting. Use C.39 when an operation or a connection needed in that setting must still be developed.
 
 ### IS.1:End
 
@@ -482,7 +482,7 @@ Observe a subsequent use when the task or proposed claim calls for it. Distingui
 
 A support investigation can reveal that the target is no longer appropriate, that a new possible result is more valuable, or that a needed Method does not exist. State the discovery and the grounds for reconsidering the target.
 
-Where a target decision is needed, use the evidence, existing results and receiving consequence to decide within your authority or return the question to its holder. C.39 and the subject practice can construct or qualify a way. C.40.OD can help compare development directions; B.5.PI/C.40.CD can help form a question when the initial interpretation fails. Implementation support can continue independent useful work while the dependent branch remains open or stopped.
+Where a target decision is needed, use the evidence, existing results and receiving consequence to decide within your authority or return the question to its holder. Use the relevant professional evidence and A.3.1.FT to qualify a known way for this use. If an operation is missing, develop it using C.39 and the subject practice. C.40.OD can help compare development directions; B.5.PI/C.40.CD can help form a question when the initial interpretation fails. Implementation support can continue independent useful work while the dependent branch remains open or stopped.
 
 Return the supported finding or response. State its conditions, any unresolved question and the next action when the receiving work requires one. If no permissible contribution can meet the current promise, identify that limit.
 
