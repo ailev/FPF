@@ -1831,7 +1831,7 @@ Start from one direction or option and its recipient, horizon and acceptance con
 
 For a commercial direction, connect the customer contribution to willingness and ability to pay, delivery cost, support and the means of sustaining the arrangement. For a public or personal direction, identify the subject’s purpose, funding and time conditions and the result the recipient needs. A business-model description is a set of claims about this logic, not proof that demand, money or capability is available.
 
-Reuse an adequate existing model or professional result. If the ways need comparison and seek different results or omit material burdens, STR.6 and FPF C.38 can restore their comparability before this dependence question proceeds.
+Reuse an adequate existing model or professional result. When ways of supplying the same strategic contribution hide costs, work or dependence that could change the choice, use STR.6 and FPF C.38 to complete the comparison. When the intended ends differ, keep them visible as separate strategic options under STR.6:4.1. Compare the ends and their consequences under that strategic question. Within each family, examine ways to its end where their feasibility or cost can change the strategic decision.
 
 When the strategic choice depends on growth in a continuing customer or participant base, use a suitable account of one period or construct it as follows.
 

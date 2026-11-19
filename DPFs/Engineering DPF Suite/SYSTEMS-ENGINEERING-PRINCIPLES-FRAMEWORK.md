@@ -6109,7 +6109,7 @@ yet the other ways of obtaining the same result have not been described on a com
 Start by naming the result and its kind. It may be, for example, an engineered System, one usable System
 configuration, a reusable Method or `MethodDescription`, access to a capability, performed provider Work, or an
 engineering episteme. State who will use or rely on the result, what acceptance means for that use, and when the
-result must exist or the Work must occur.
+result must exist or the Work must occur. If the receiver can use a result already held or obtain it on existing terms within the required period, use that provision and complete any remaining acceptance or receiving work. Compare sourcing arrangements when a choice is still due.
 
 The first useful comparative result is a written comparison of at least two complete arrangements that would produce,
 perform, transfer, or make the same result available. One `C.11` `ChoiceResult` then says: choose one arrangement
@@ -6218,10 +6218,7 @@ These tensions recur when projects compare ways to obtain the same result.
 
 State the result being sought and its kind; the receiving use and affected
 Systems; the configuration, operating conditions, horizon, and acceptance claims; the deciding Agent and the
-commitment it may authorize; and the latest useful decision date. If the proposed result alternates among owning a
-product, accessing it, performing Work, developing capability, and possessing an account, select the result
-that changes this commitment. The other objects may be needed inside an arrangement, but they are not
-interchangeable success conditions.
+commitment it may authorize; and the latest useful decision date. Determine whether the project needs ownership, access, performed work, a reusable account, or continuing capability. If the commission includes delivery of a working configuration now and the maintenance team’s ability to adapt it after a change, compare ways that provide both. The commissioning test can establish that the configuration works. For the second commitment, use a representative changed configuration to establish which adaptation work the maintenance team can decide, carry out and verify with the support it will have. Identify any part the supplier must still perform.
 
 Make acceptance operational enough to work backwards from it. Identify what the receiver must be able to do
 with the result, which important conditions it must cover, and what would show that the received subject is the
