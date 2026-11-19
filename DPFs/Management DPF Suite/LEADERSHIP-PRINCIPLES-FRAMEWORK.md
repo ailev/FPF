@@ -778,7 +778,7 @@ Where an effective rule permits starting despite a retained objection, state tha
 
 Put the actual product, access, means and capable help in place. Perform the work through its domain method and follow the result to the receiver's action. Opening a form, completing a briefing or marking a checklist is insufficient if the receiver still cannot use the contribution.
 
-A checklist can help attention when its questions are tied to the occasion and change what the performer does. C.41.OF supplies that fit. The performer still needs the method and competence to answer the questions. If “configuration checked” exposes an unsupported old test, obtain the needed applicability judgement or corrected contribution; a tick does not repair the ground.
+A checklist can direct the performer's attention to a condition that changes the handover. C.41.OF helps fit the questions to that occasion. If an old test concerns another configuration, a qualified reviewer can determine whether it supports the present calculation. An explanation of why the test cannot support release completes an assignment to judge that evidence. An assignment to supply a calculation fit for release still calls for the missing calculation or other adequate grounds.
 
 Retain assistance that the first use needs. If a colleague supplies the decisive interpretation, report an assisted result and arrange the next use accordingly. The first result can be useful without establishing independent capability.
 
@@ -826,11 +826,11 @@ In a shared brief, participants confirm the same configuration, scope, contribut
 
 On the first attempt, the checklist draws attention to a test from C6 cited in the C7 calculation package. The engineer can state the mismatch but needs help judging it. A qualified colleague identifies a changed parameter whose effect the old test did not cover. Under the stipulated review rule, applicability to C7 is unsupported.
 
-The engineer returns the gap to the specialist; the reviewer receives the unresolved claim and withholds the dependent conclusion. The twenty-minute handover did not promise a new calculation within that interval. The first attempt has exposed the next necessary work but has not completed the intended reviewed contribution.
+The reviewer receives the unresolved claim and withholds release on the existing evidence. The engineer has handed over the calculation and its open question within the agreed interval. The reviewer has answered whether the old test supports C7. Its failure to cover the changed parameter leaves C7's actual performance open.
 
-The specialist estimates the correction and its checking. The lead obtains a feasible allocation with the people whose work would move, and the reviewer accepts a later receiving window. If those conditions cannot be arranged, the dependent release waits. In the successful continuation stipulated here, the specialist supplies the C7 calculation and grounds. The engineer completes the assisted handover; the reviewer examines the result and makes the review decision.
+If the lead also needs a calculation on which release can proceed, the specialist estimates the correction and its checking. The lead arranges time with the people whose work would move. Without a feasible allocation the release waits. In this case the reviewer accepts a later window, the specialist supplies the C7 calculation and its grounds, and the engineer hands them over with assistance. The reviewer can now judge release on the new evidence.
 
-This is the first completed contribution for this use. The case establishes no measured effect of the checklist or independent mastery by the engineer. It illustrates why preparation, authority, performance and evidence are separate results that must connect.
+The first handover let the reviewer withhold an unsupported release. The second supplied evidence for a new release decision. To judge the effect of the checklist or the engineer’s ability to make the applicability judgement independently, the lead would need evidence about those outcomes.
 
 #### LDR.4:5.3 - Changed conditions select different repairs
 
@@ -1170,7 +1170,10 @@ A participant raises that concern through LDR.1; B.5.SD can help formulate and e
 
 Leadership then helps obtain the contributions for whichever next move is warranted. The useful first service continues if worth its cost. It can also be narrowed or discontinued. Keeping an offer alive and continuing the subject's development are related decisions with different results.
 
+## LDR.Use:End
+
 # Source, dependency and edition notes
+
 
 ## LDR.Source:1 - What this text depends on
 
@@ -1254,3 +1257,5 @@ Reopen the affected contribution when a direct supplier changes a relied-on meth
 Useful feedback identifies the receiving question, what the text enabled, the operation the practitioner still had to invent, the conditions of the attempted use and the consequence of that gap. A successful example does not settle unrelated settings; a failed prerequisite does not by itself refute a method used outside its conditions.
 
 The Readme contains six ordinary practical entries: OWN-ACTION, NO-SHARED-DIRECTION, MISSING-HELP, WHOLE-AGREEMENT, UNANSWERED-QUESTION and the extended joint-use example JOINT-START. Use their situation and missing contribution to choose an entry; return to the complete Method for the explanation needed to adapt it.
+
+## LDR.Source:End
