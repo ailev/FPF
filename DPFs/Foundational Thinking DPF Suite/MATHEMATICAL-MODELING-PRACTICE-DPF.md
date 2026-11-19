@@ -3332,7 +3332,9 @@ Return the reduced law, sufficient bound or located obstacle with the assumption
 
 If a bound settles the working question, use it. If the result is too weak, locate why: uncertain initial influence, unresolved higher moment, long memory, error amplification, or information unavailable to an action. Improve that contribution or retain more of the source model. A mathematical construction can also show that the proposed simplification offers no saving.
 
-Reopen the affected construction when the source law, initial class, inputs, observation, horizon or required output changes. Keep conclusions whose conditions still hold. When modeling a working method, you can use the comparison in MMP.22 if a different working rule is needed. Use C.37 if the work calls for a different representation. The work must supply the quantities and relations the model assumes.
+Reopen the mathematical construction when the source law, initial class, inputs, observations, time horizon or required output changes. Keep conclusions whose conditions still hold. If a validated bound gives the same decision for every admissible value under the stated threshold rule, use it for that decision. If the bound allows both decisions, identify which missing quantity or estimate of error could settle the choice. Tighten the bound where the work warrants it, or report what remains open. A different way of displaying the same bound can make it easier to read without narrowing it.
+
+When the entity being modeled is a working method and a different working rule is needed, use the comparison in MMP.22. Use C.37 when a choice remains about which representation supports a needed reading or calculation and what information its use loses. The work must supply the quantities and relations the model assumes.
 
 ### MMP.9:5 - Archetypal Grounding
 

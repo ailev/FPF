@@ -2253,7 +2253,7 @@ Default narrative rendering quality characteristics:
 | `SourceReturnReadiness` | Does the narrative tell readers when and where to return to the source basis or relevant method? | Add the missing return condition or destination, or narrow the supported use. |
 | `LearningRouteReconstructionFit` | What can the learner reconstruct under the intended support, and when must they return to a source? | Use `NSTD.8` to address an inadequate source contribution, support or next task. In a design, assess what the exercise affords. In a claim about a learner, use their response. |
 
-Use the ordinal meanings above and the adjacent-value examples below for `LearningRouteReconstructionFit` in teaching applications.
+Use the ordinal meanings above and the adjacent examples below for `LearningRouteReconstructionFit` when learners are meant to reconstruct and use a route. State the decision the learner must make and what the assignment already supplies. An author can assess the design of an exercise before anyone attempts it. To credit a learner with a decision, examine their work under the help actually available. If a course also promises that learners can construct a disciplinary rule, establish which criteria or relations they chose and justified themselves. A rating for reconstructing a route answers a different question.
 
 ### NSTD.6:5 - Archetypal Grounding
 
@@ -2322,8 +2322,8 @@ The other characteristics use their own ordinal quality meanings:
 | `EventMechanismSupport` | Events are coherent, but support strength is partly inferred from wording. | Relation strength and reconstruction target are explicit. | A wording or viewpoint change does not change recovered support strength. |
 | `ViewpointAgencyDiscipline` | Viewpoint is useful, but agency or responsibility repair is incomplete. | Viewpoint function and the source of a consequential attribution are recoverable. | Reader can remove or swap viewpoint without losing source structure. |
 | `EngagementBoundedness` | Interest exists, but a needed source relation or condition for informed choice is missing. | Interest supports the declared use while preserving the needed relations and conditions. | A more engaging variant improves attention without lowering source recovery, with the comparison supported under the stated conditions. |
-| `SourceStructureSelectionFit` | Selected content partly serves the purpose, but a needed relation is omitted. | Selected relations support the intended use and meaningful omissions are recoverable. | A relevant changed case confirms the selection's stated reach and limits. |
-| `LearningRouteReconstructionFit` | Learners retell the route and recover some source relations, but miss a relation needed for reliably applying it at a change of conditions. | Learners reconstruct the essential relations and identify when to return to the source. | Learners apply the route in a new case and identify the appropriate neighbouring method or responsible party. |
+| `SourceStructureSelectionFit` | Selected content partly serves the purpose, but a needed relation is omitted. | Selected relations support the intended use and meaningful omissions are recoverable. | The grounds cover the claimed range of use. A changed case can establish a use within that range, reveal a limit or refute a broader claim. Coverage of several conditions requires grounds that address those conditions. |
+| `LearningRouteReconstructionFit` | Learners retell the route and recover some source relations, but miss a relation needed for reliably applying it at a change of conditions. | Learners reconstruct the essential relations and identify when to return to the source. | Learners reconstruct the route and make the decision left to them in a changed case. If the task includes deciding when to involve another method or responsible party, learners recognize the condition and make that choice when needed. |
 
 
 

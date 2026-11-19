@@ -85984,7 +85984,7 @@ This is the one-use selection branch of representation work. Decide how the rece
 
 **Primary working reader.** A practitioner who has more than one plausible way of seeing or carrying information into an action and needs a selection without building a universal representation taxonomy.
 
-**First useful move.** Name the receiving System and action or decision in one sentence. For each candidate, name the result it already has, the claim this use would rely on, what the candidate exposes and withholds, and the result that permits, declines, or leaves that use unresolved. Stop after one row if one row is enough.
+**First useful move.** Name the receiver and what they must decide or do. Which fact permits the next action or rules an alternative out? Find a source for that fact. A second source may resolve a question the first leaves open or supply corroboration required by the governing rule.
 
 **First useful result.** One complete use-bounded representation-selection account: one or more candidate claims with their material loss, basis and receiving action supported, declined or unresolved. It can be the immediate working answer; the row form and persistent record are not required when no later use needs them. Its use boundary is `<receiving System, action or decision>`.
 
@@ -86032,7 +86032,7 @@ Use one action spine:
 5. mark the row `select`, `decline`, or `unresolved` for the named use and give its return trigger;
 6. co-record only rows that support the same receiver and action or decision.
 
-**Local mantra.** *One receiver, one action. Recover each candidate under its direct pattern. Name the claim, reliance, loss, receiving conditions, disposition, and return. Put rows together only for that action.*
+**Local mantra.** *Who must decide or act? Which fact settles what they can do? Where does that fact come from? What remains open? Which change would make us decide again?*
 
 The mantra is a recall aid, not a decision rule. The receiving pattern still emits the choice, gate, permission, authorization, or domain result.
 
@@ -86044,7 +86044,11 @@ Write one sentence:
 <receiving System> must <take this action or make this decision>.
 ```
 
-Every row in the account uses that same receiver and action. A diagram used to select a proposed Method edition and the same diagram used later to tailor that Method have different use accounts. Reuse unaffected candidate and source results; reconsider the claims, losses and conditions that change with the action. Adjacent actions, one project, one carrier or one meeting do not merge their use boundaries.
+Start with the rule for the decision. State which alternatives it admits, rules out or leaves for comparison. Connect each fact you use to the part of the rule it satisfies. A source can reliably establish a fact that explains why someone proposed an option. The decision may still turn entirely on another fact. Apply the rule with the first fact unknown or changed, holding the other grounds fixed. If the answer could change, identify the check that would settle it. If the answer holds across the remaining possibilities, you can give it now.
+
+A second source may independently support the same premise. Losing one source then leaves the other available. If the governing rule requires two independent observations or a particular authorization, that condition is itself a premise. Where it matters for action or review, say which sources supported the decision, which the rule required and which answer a different question.
+
+Every row in an account concerns the same receiver and action. A diagram used to select a proposed Method edition and the same diagram used later to tailor that Method have different use accounts. Reuse the supported facts that carry over and reconsider the ones on which the new action depends.
 
 If one direct pattern already returns the complete representation–operation choice and limits for this use, take that direct exit. Do not add C.37 merely to rename its result.
 
@@ -86066,7 +86070,7 @@ Use ready qualified inputs in the receiving comparison or construction; an unfin
 
 #### C.37:4.3 - State exposure, loss, and the row disposition
 
-For each candidate, state only distinctions that change the receiving action:
+For each candidate, record what the receiver can establish with it. Keep the facts that affect the choice, its grounds or the permission to act.
 
 - what it exposes, foregrounds, or preserves;
 - what it withholds, omits, loses, transforms, or leaves uncertain;
@@ -86079,7 +86083,7 @@ Use exactly these ordinary row dispositions:
 | Disposition | Use |
 | --- | --- |
 | `select` | The required subject identity and relations are established, the reliance basis supports the bounded claim, and the conditions imposed on its use by the receiving rule hold. Use the claim in the receiving operation; obtain its eventual result there. An A.10 `degrade` disposition narrows the selected claim. |
-| `decline` | A required result is negative, the applicable receiving rule excludes the stated contribution, or the candidate's loss makes the attempted use inadmissible. State the retained weaker use, if any. |
+| `decline` | The fact has no part in this decision, the receiving rule excludes its use, or the candidate cannot support the claim attempted. State another use the fact supports when that matters to a recipient. |
 | `unresolved` | A required identity, relation, currentness fact, reliance path, disposition, or receiving result is missing or ambiguous. Name what would reopen the row. |
 
 Selection is use-bounded. It does not make the candidate true, complete, current, published, conforming, relied on, assured, or authorized outside the claim and action stated in the row.
@@ -86124,7 +86128,7 @@ Retention preserves the needed separation: direct subject result, optional A.2.4
 
 #### C.37:4.6 - Keep co-use local to one action
 
-`Co-use` means only that the same receiver relies on two or more completed rows for one action or decision. Each row keeps its own direct result, premise, reliance boundary, loss, and return trigger. One positive row cannot repair another row's missing subject result or reliance path.
+A receiver **co-uses** representations when they rely on claims from two or more of them for one action. Show how those claims work together. They can establish different premises or independently corroborate the same one. A list of documents that the receiver consulted leaves this question unanswered. Each source keeps its own limits and the conditions under which it must be checked again.
 
 Co-use does not establish:
 
@@ -86155,27 +86159,24 @@ Use an already adequate source-to-use account. A new A.10 path or disposition is
 | A candidate is called a view but `EpistemeViewpointConformanceRelation(E,P)` fails or cannot be evaluated. | Decline it for the view-dependent use or mark that row unresolved. C.37 cannot grant `U.View` membership. Another independently positive direct basis may support a different row and claim. |
 | A candidate is a mathematical graph or other mathematical object. | Identify the object and the subject relations on which the claim depends. Use an adequate domain result; use `C.29` when a separate mathematical representation, transfer, or reliance question remains. C.37 neither admits the object nor makes the mapping obtain. |
 | A candidate is an ordinary non-graph diagram. | Identify its episteme and subject. Require the conformance, representation, correspondence or domain grounds needed for the selected claim. Preserve its evidence and reliance basis; use A.10 for a still-implicit or required replayable source-to-use account. Publication, carrier, provenance or C.2.P.DR repair supplies no missing subject or action ground. |
-| Several project, process, or case viewpoints concern one Work. | Co-record them only when each can change the same action about that independently identified Work. A viewpoint for another action starts another account. |
+| Several project, process or case viewpoints concern one Work. | Co-use their claims when each supplies or corroborates grounds for the same action about that Work. A view for another action has its own use account. |
 
 ### C.37:5 - Archetypal Grounding
 
 #### C.37:5.1 - Qualified premises for a bounded-trial decision
 
-`MethodEngineer-ME1` must select or decline `MethodChange-MC7` as the proposed Method edition for one bounded trial in planned Work item `WP4`. This one decision is the receiving use for all three rows.
+`MethodEngineer-ME1` must choose between keeping the current Method edition for Work item `WP4` and preparing and running a one-hour trial of `MethodChange-MC7`. The commissioning rule admits a proposal only when its estimated total time fits a three-hour budget. The current edition fits. MC7 requires an estimated four hours of preparation before the one-hour trial. Both figures charge the same time budget.
 
-In this constructed case, the options are to prepare and run the MC7 trial or retain the current Method edition. WP4 provides a one-hour trial slot. The stipulated setup estimate for MC7 is four additional hours, while the applicable total setup-and-trial ceiling is three hours. Retaining the current edition is feasible within that ceiling. These case facts are additional planning inputs; WorkRecord-W19 does not establish the setup estimate or predict the benefit of MC7.
+Under C.11 the result `CR7` is `choose now`: retain the current edition for WP4. The preparation estimate alone exceeds the ceiling. The planned hour gives the fuller estimate of five hours. This calculation settles eligibility under the stated planning rule. How long preparation would actually take remains unmeasured.
 
-C.11 result CR7 is `choose now`: ME1 selects retaining the current edition and declines MC7 for this WP4 use because 4 + 1 hours exceeds the three-hour ceiling. The selected comparison criterion is compliance with that total budget; the earlier rework record supplies motivation, not permission to exceed it. Reopen CR7 if the setup estimate, budget, options or trial conditions materially change. The decision makes no claim that the planned trial occurred.
+| Source considered | What the source supports | Use in this decision |
+| --- | --- | --- |
+| The commissioning rule, the setup estimate for MC7 and the estimate for retaining the current edition | The applicable ceiling and the estimated time required by each option under the trial conditions. | `select` for the budget comparison. Reopen it if the rule, estimate, alternatives or trial conditions change. |
+| Trial item in `WorkPlan-WP4` | A.15.2 identifies a planned one-hour slot. A.10 path `P-WP4` supports that limited claim (`pass`). | `select` for estimating the full trial time. The four-hour setup estimate is already sufficient to exclude MC7. A claim that the trial took place would require a record of the Work. |
+| Workflow diagram in `MethodDescription-MD5`, edition 5 | A.3.2 identifies the MethodDescription and its proposed order of work. Path `P-MD5` supports reading that order (`pass`). | `decline` as a premise for choosing on budget. The engineer can use the diagram to prepare an eligible trial. Revisit the estimate if a change of order changes the work it covers. |
+| `WorkRecord-W19` about the earlier `Work-W19` | A.13 and A.15.1 establish the earlier assignments and Work. The record identified under C.2.1 reports rework in those conditions. Path `P-W19` supports that observation within its comparability limit (`degrade`). | `decline` for the budget comparison. The record explains why the change was proposed. It supplies neither the new setup estimate nor evidence that MC7 prevents the old breakdown. |
 
-| Candidate | Direct result, reliance, and receiving result | Exposed and withheld | Disposition and return |
-| --- | --- | --- | --- |
-| Workflow diagram in `MethodDescription-MD5`, edition 5 | A.3.2 identifies the episteme as a MethodDescription about `Method-M2`. A.2.4 may classify its intended evidence use. A.10 path `P-MD5` carries the premise “edition 5 states the proposed MC7 action order,” its source/currentness window, direct decision-use relation, and `RelianceDisposition=pass`. Receiving result: CR7, defined above. | Exposes proposed sequence and handoff; withholds actual effort, achieved result, and future performer availability. | `select` for proposed-way claims only; return if the edition, intended Method, path, or reliance window changes. |
-| `WorkPlan-WP4` trial item | A.15.2 identifies the schedule-of-intent episteme and its planned performer, interval, and capability conditions. A.2.4 may classify the intended use. A.10 path `P-WP4` carries the premise “WP4 currently provides the named trial slot and conditions,” source/currentness, direct decision-use relation, and `RelianceDisposition=pass`. Receiving result: CR7, defined above. | Exposes a bounded trial slot and intended conditions; withholds actual occurrence, performance, and result. | `select` for the stated trial-slot availability and intended conditions only; return if the plan, performer, interval, capability condition, path, or disposition changes. |
-| `WorkRecord-W19` about actual `Work-W19` | A.13 establishes the performers' assignment bases; A.15.1 admits the dated Work independently. C.2.1 identifies the record episteme. A.2.4 may classify its intended use. A.10 path `P-W19` carries the premise “WorkRecord-W19 reports the stated rework and effort under the named earlier conditions,” its provenance and decision-use relation, and `RelianceDisposition=degrade` to that comparability-limited premise. Receiving result: CR7, defined above. | Exposes observed breakdown and effort under the earlier edition and conditions; withholds proof that MC7 fixes the breakdown or that the trial planned in WP4 will reproduce those observations. | `select` only for the narrowed comparability-qualified premise; return if the observed conditions, path, currentness, disposition, or relevance to MC7 changes. |
-
-The completed account retains two pass premises and the comparability-limited degrade premise as inputs to CR7. Declining MC7 for WP4 does not make those representations unusable as decision premises; it states the result obtained using them and the additional budget facts.
-
-None of the three rows proves that MC7 improves the Method. If the same diagram is later used for a tailoring choice or WorkRecord-W19 for a learning decision, establish that different use account, reusing unaffected premises and reconsidering changed dependencies.
+Raise the ceiling to five hours with the estimates unchanged. MC7 now meets the budget rule. If the engineer was asked only whether the trial fits, they can answer yes on the estimates. Choosing it over the current edition would require a reason to prefer it among the eligible options. To guarantee completion by the deadline, establish that every admissible duration meets it. To rule out timely completion, establish that every admissible duration exceeds it. A reliable upper bound at or below the deadline establishes the first claim. A lower bound strictly above it establishes the second. A five-hour upper bound against a three-hour limit leaves open the possibility of finishing sooner. An estimate alone settles neither claim.
 
 #### C.37:5.2 - Failed diagram use
 
@@ -86187,9 +86188,9 @@ If the direct release gate or permission pattern instead returns a negative resu
 
 #### C.37:5.3 - One decision now and a later reader's need
 
-In section 5.1, the engineer completes the current comparison using the three independently qualified inputs and the stated budget facts. The direct receiving result and material limits are already clear: the description supplies proposed order, the plan supplies intent rather than performed Work, and the earlier record supplies only its comparability-limited observation. If no later use needs another account of this comparison, the answer is complete without a standalone C.37 record. The rules for those claims still govern required source and receiving-result evidence.
+The engineer can finish the current comparison by giving the planning rule, the estimates and the resulting choice. The source of the four-hour estimate matters even though the workflow diagram and the earlier work record have identifiable editions. Neither supplies that estimate.
 
-Now suppose a later trial reviewer must reconstruct why those inputs were usable for WP4. That use needs the claims, source and reliance boundaries, losses, dispositions and receiving result—not merely “MC7 declined.” Retain the complete basis in the existing same-use decision account if it can carry it, otherwise in one identifiable account. A new receiving decision still requires its own use-bounded selection; the retained earlier basis is not authority for the new action.
+A later reviewer may need to reconstruct the choice. Give them the estimates used, what each covered, the budget in force and the alternatives compared. If they also need to reconstruct why MC7 was proposed, give them the earlier rework record and its comparability limit. Keep this basis once in the existing decision account when it can serve those uses.
 
 ### C.37:6 - Bias-Annotation  *(informative)*
 
@@ -86210,7 +86211,7 @@ Now suppose a later trial reviewer must reconstruct why those inputs were usable
 | `CC-C37.3` Direct subject result | Each row identifies the candidate, subject, rule governing the subject claim, and every positive relation required by the selected claim. |
 | `CC-C37.4` A.2.4 bounded | First evidence-use or status-use classification is optional and never substitutes for provenance, reliance, or action authority. |
 | `CC-C37.5` Reliance bounded | A relied-on claim has the source, support and actual use conditions it needs. Use A.10 when the source-to-use account remains implicit or must be replayable; then preserve its path, use relation and current `RelianceDisposition`, with the currentness, challenge, unsupported-use boundary and return conditions material to that reliance. |
-| `CC-C37.6` Receiving result separate | The choice, gate, permission, authorization, acceptance, or domain pattern supplies the action result. |
+| `CC-C37.6` Receiving result | The governing rule and the premises relied on account for the choice, gate, permission, acceptance or other action result. The account identifies what remains open when those premises decide only eligibility. |
 | `CC-C37.7` Exposure and loss | Each selected or declined claim states what is exposed or preserved and what is withheld, lost, transformed, or uncertain. |
 | `CC-C37.8` Row disposition | Each row is `select`, `decline`, or `unresolved`; `degrade` narrows the selected claim rather than creating another row vocabulary. |
 | `CC-C37.9` Return visible | Every row names the source or governing pattern and the condition that reopens selection. |
@@ -86223,9 +86224,10 @@ Now suppose a later trial reviewer must reconstruct why those inputs were usable
 
 | Anti-pattern | Failure | Repair |
 | --- | --- | --- |
-| Best representation overall | A candidate is ranked without a receiver, action, claim, or tolerated loss. | Start a one-use account and compare only claims that can change that action. |
+| Best representation overall | A candidate is ranked without a receiver, action, claim or tolerated loss. | Compare what each candidate lets this receiver establish for the decision or action. |
 | Evidence-use classification as warrant | A.2.4 is treated as a positive reliance or authorization result. | Establish the support and conditions needed for the actual use. Use A.10 for a still-implicit or required replayable account and keep the receiving action result separate. |
 | Provenance as decision | A current source or authentic carrier is treated as a positive choice or permission result. | Use provenance for the claim it supports; obtain the direct choice, gate, permission or domain result when the receiving work requires it. |
+| Every credible source is credited with the choice | The account lists what the sources show but leaves the decisive premise unstated. | Apply the receiving rule to the supported facts. Keep context for a later question and preserve any independent corroboration the rule requires. |
 | Publication as representation authority | A published diagram is accepted because it is available and readable. | Recover the direct subject result, any conformance or correspondence, and the relied-on claim; E.24.PUB supplies availability only. |
 | Co-use as composition | Several rows become a collection, structure, integrated view, or graph by adjacency. | Keep independent rows; open C.13, A.22, E.17.0, C.29, or a domain integration pattern only for an additional named claim. |
 | Duplicate account | A completed immediate choice is made to create an unused record, or an owning result and standalone episteme repeat the same claims. | Retain the complete basis only for a use that needs it; embed once in the same-use owner when available, otherwise use one identifiable account. |
@@ -86251,6 +86253,7 @@ The receiving use is the smallest stable boundary shared across domains. Represe
 | Dutilh Novaes, *Formal Languages in Logic* (2012), and Krämer, “Why notational iconicity is a form of operational iconicity” (2017), conceptual and diagrammatic-reasoning lineage already used by C.2.1 | Representation and notation can change what users can inspect, compare, calculate, or infer; each row therefore states exposure, loss, and bounded use. | Reasoning affordance does not identify the represented subject, make a direct relation obtain, or authorize the receiving action. |
 | [W3C PROV-O Recommendation](https://www.w3.org/TR/prov-o/), 2013, stable provenance lineage used by A.10 and C.2.1 | Preserve source, entity, activity, and derivation distinctions when they are material to bounded reliance. | Provenance alone is not truth, currentness, permission, assurance, decision, or evidence of actual use. |
 | [Decision Theory, Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/archives/fall2023/entries/decision-theory/), stable baseline used by C.11 | Fix the chooser, option or action question, comparison basis, and explicit receiving result rather than ending with an informed-looking inventory. | C.37 does not replace C.11 or turn every representation-selection question into one universal decision calculus. |
+| [NASA Systems Engineering Handbook, §6.8, Decision Analysis](https://www.nasa.gov/reference/6-8-decision-analysis/) | Use mandatory criteria to determine eligibility, compare the eligible alternatives against the other criteria, and examine uncertainty where it could change the recommendation. | Meeting an entry criterion by itself gives no preference between eligible alternatives. |
 
 Reopen this source use when newer representation, provenance, view, or decision practice supplies a lower-effort way to keep the same direct-result and receiving-action boundaries, or when interoperability requires a common standalone account kind that cannot preserve them through ordinary C.2.1 identity and direct references.
 
@@ -86295,7 +86298,7 @@ Use `C.37` or the applicable direct pattern and stop when only one action is cur
 
 ### C.37.MP:1 - Problem Frame
 
-Method material serves unlike actions. A performer needs actions, inputs, results, guards, and stops. A method engineer compares contribution and variation. A support builder needs tool, resource, permission, and feedback positions. An assessor needs evidence and the qualifications, uncertainty and return conditions that affect the assessment. Project, process, and case viewpoints may expose different claims about the same independently admitted Method-related Work when each viewpoint can change the same action.
+Method material serves unlike actions. A performer needs actions, inputs, results, guards, and stops. A method engineer compares contribution and variation. A support builder needs tool, resource, permission, and feedback positions. An assessor needs evidence and the qualifications, uncertainty and return conditions that affect the assessment. Project, process, and case viewpoints may expose different claims about the same independently admitted Method-related Work when the corresponding views supply or corroborate grounds for the same action.
 
 One representation rarely serves every action without hiding something. The problem is to relate several use-specific selections while preserving Method identity, candidate status, description currentness, WorkPlan versus Work, the direct authority of every selected result, and the limits of every carried claim.
 
@@ -86371,7 +86374,7 @@ Begin with a claim that two uses must interpret together: an input identity, an 
 
 1. **Recover what each expression asks its user to do or conclude.** Read the expression with its legend, surrounding instructions and source edition. Identify the subject, input or result, operation, condition and stop that affect this use. A table cell such as “ready” may abbreviate several conditions; a diagram edge may assert that one condition is sufficient. Recover those meanings before matching words or shapes.
 2. **Establish the common referents and interpretation.** Determine which Method claim, input or result each expression concerns. Use the applicable naming, measurement or domain rule to resolve different labels, units, reference times or levels of detail. State the mapping and the evidence or definition that supports it. When an essential meaning cannot be recovered, name the missing interpretation and return to its source or responsible practitioner. Keep the other supported correspondences.
-3. **Compare the claims under the conditions that matter.** Substitute the recovered meanings into the two instructions. Check whether they require the same relevant action or permit the same conclusion, where one is narrower, and where one introduces or omits a condition. Try a positive case and a case at the boundary that could distinguish them. This establishes the bounded content comparison; observing a user or testing an implementation answers a further question. A documented mapping does not establish a different direct relation merely by naming it; use that relation's defining or testing method when the receiving action requires it.
+3. **Compare what the two instructions let their users do.** Recover the action, reference time and conditions in each instruction. For one pending job, apply both to the established facts and compare the decisions. To replace one instruction with the other for future jobs, check the rules across the conditions in which the replacement will be used, including every exception that can change the decision. One admissible disagreement defeats that claim. Selected trials can reveal a disagreement. Equivalence needs a reason the comparison covers every relevant input or class of inputs. Observing a user or testing an implementation answers a further question.
 4. **Separate correspondence from dependence.** Two accounts may agree without one being derived from the other. For each result that could need refreshing, identify the source claim used and how it contributes: for example, a readiness cell abbreviates two conditions jointly, while a performer instruction states the actions needed to satisfy them. An independently maintained rule needs its own basis. A tool's label or a person's correct answer does not show which rule its calculation implements.
 5. **Return a usable cross-use result.** Relate the shared claim and its supported interpretation to each affected use row. Preserve useful omissions: a supervisor may need the readiness condition without the operator's detailed steps, provided that omitted detail is not needed for the supervisor's action. Record an unresolved correspondence and name its missing input rather than treating every row as equivalent or unusable.
 6. **Follow a substantive change through the result it changes.** Replace the changed premise in each known dependent explanation or calculation and determine which action, result or stop changes. Revise that owned result and reconsider the use that consumes it. F.0.2.RC:4.4 develops this refresh and the return when dependency reach is unknown; A.3.1.CC handles a contradicted maintained claim. Repeat the affected boundary case after repair. Preserve another result only because its own basis still supports its declared use, not because it is in another file.
@@ -86402,7 +86405,7 @@ C.37.MP relates these use-specific selections in cross-use profile `MRP-EC417-Cr
 | keep-separate decisions | The decision table, action-and-guard episteme, support-task episteme, three candidate readings, their viewpoint editions, each direct conformance judgment, and the receiving decision retain their own governors and statuses. The profile creates no integrated super-view, collection, selected structure, or new MethodDescription edition. |
 | cross-use return | A changed candidate status, source edition, B2 alternative, evidence-entry boundary, or recovery/stop claim reopens every affected row and this profile relation. A changed support task reopens the support row. The unresolved reopen row returns only when Work identity, the three direct `E.17.0` judgments, their claims, and the A.10 disposition needed by that premise use are available; later change to any of those bases reopens it. |
 
-The fourth row asks about one completed trial, so its three proposed readings concern that independently admitted Work. This case does not select the subject of every project, process, or case account. Each becomes a `U.View` only through its own positive `E.17.0` judgment against a viewpoint edition, and co-recording them is useful only when each can change the same reopen decision. The profile does not make an integrated super-view.
+The fourth row asks about one completed trial, so its three proposed readings concern that independently admitted Work. This case does not select the subject of every project, process, or case account. Each becomes a `U.View` only through its own positive `E.17.0` judgment against a viewpoint edition, and their claims belong in the same decision account when each supplies or corroborates grounds for deciding whether to reopen the trial. The profile does not make an integrated super-view.
 
 A timeline, dependency network, state-transition drawing, or other node-link material supports a mathematical use through its identified formal object, correspondence, preserved and lost structure, and inference conditions. Use an adequate domain result directly; use `C.29` when a separate representation, transfer, or reliance question remains. Appearance or vocabulary alone does not establish that mathematical basis.
 
@@ -86430,11 +86433,11 @@ The current instruction says: “At the planned inspection time, use a calibrati
 
 To relate the accounts, the method engineer first expands “calibration current” into the age condition and compares its subject and reference time with the instruction. Both concern the certificate for this equipment at this planned inspection time. The supervisor's two-column conjunction corresponds to the two preparation conditions, although the table omits the operator's recovery steps. That omission is acceptable for deciding preparation readiness; it would be insufficient as the operator's only instruction.
 
-A certificate aged 20 days with the fixture checked gives a positive preparation result in both accounts. A certificate aged 31 days does not. An unknown date cannot be treated as age zero or as a satisfied condition. These cases check the recovered meaning, including the rare stop; they do not prove that an operator will apply the instruction correctly.
+With the fixture checked, a certificate aged 20 days permits preparation under both accounts. That settles today's preparation if those facts hold. For future use, compare the definitions themselves. Both include day 30, exclude day 31, and withhold readiness when the age is unknown or the fixture check is incomplete. The shared definition and conjunction explain why the two accounts agree for readiness across those conditions. An operator learning how to proceed after a stop needs the recovery instruction as well.
 
 The maintenance question needs one more distinction. The table's age test depends on the glossary definition, which points to the current instruction. Its fixture condition has a separate source.
 
-A prototype's green “ready” display has no available rule definition or inspected implementation. Matching that label to the supervisor's word cannot establish that it checks certificate age and the fixture jointly. Return the missing implementation basis to the support builder; retain the established instruction/table correspondence.
+The prototype displays green for today's 20-day certificate and completed fixture check. That is an observation about this run. A program that always displays green would give the same result. Before relying on the display for other inspections, inspect its rule or establish its behavior over the intended conditions with adequate coverage. Until then the supervisor can determine readiness from the instruction and the established job facts. The prototype's behavior on other inputs remains open.
 
 Now the Method owner changes the allowed age to 14 days for future inspections. The changed reusable entry condition belongs to the A.3.1.MV variant or revision question; the new document alone supplies no effectiveness evidence. A 20-day certificate now distinguishes the two rules.
 
@@ -86523,7 +86526,7 @@ Reopen when a representative Method user cannot perform the named action without
 
 ### C.37.CF:1 - Problem frame
 
-**Use this when.** A Method description appears more useful after revision, but its content and its form both changed. You need to decide which revision to retain without crediting new instructions to a new layout, or treating a readable description as evidence that the described Method works.
+**Use this when.** You must choose between two versions of a Method description or establish why one works better for its reader. The change may concern instructions, the form in which they are expressed, or both. When a revision changes both, a better answer can follow from the new instruction even if its presentation adds nothing. A reading result can support a choice of description. A claim about the Method's effectiveness needs evidence from its use.
 
 The working reader is a Method engineer comparing descriptions, pattern languages or other inspectable representations for a named reader and action. Start by asking: **what answer or action should improve, and what changed in the material available to that reader?**
 
@@ -86588,9 +86591,11 @@ Ask the reader to obtain the first useful result, not to rate which document loo
 
 When the question is how much selected structure the reader can extract, use [`C.2.8 ExtractableStructuralInformation`](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28---extractablestructuralinformation--structure-this-reader-can-recover). Identify the expressed account, the expression being tested and the reader, with selected relations, correctness criterion, prior knowledge, operations, help, access and budget qualified for this comparison. A qualitative account of recovered and missing relations often suffices. A number needs a declared structural scale and fixed units or denominator, not counts of words or arrows.
 
-Keep a design estimate separate from an actual recovery observation or a mapped formal estimate. A response establishes recovery in that trial, not a maximum or population reliability.
+Keep a design estimate separate from an actual recovery observation or a mapped formal estimate. A response establishes what was returned in that trial. Attribute recovery or application to the reader when their observed work and the help available support that inference. A correct answer of unknown origin can still serve its intended use while authorship stays open. One response cannot establish maximum performance or reliability across a population.
 
-State what changed in content, what changed in expression, and what preparation, help or a source return supplied. Familiar relations can count; a reader's independent correction of false or absent instruction is not credited to the expression.
+Before interpreting a correct answer, reconstruct what each reader received. The text, prompt, examples, available tools or another participant may already have chosen the unit of comparison, the rule for matching two entries, or the action to take. Credit the reader with the choice they made. Following a supplied rule can be exactly the intended use.
+
+A stronger claim may be that the reader can turn a general method into a rule for work in a discipline. Give the reader the general method and material from that discipline. Leave the consequential modeling choices open. Ask them to construct and justify a rule that another practitioner could apply. Use it on a change for which plausible rules would give different answers. An illustration of the principle or a fresh set of numbers for an already specified calculation provides different evidence. B.5.MR:4.3 explains how to test a claim that someone used a transdisciplinary principle (L3) to construct a repeatable rule for a discipline (L2).
 
 Missing basis is not zero. A successful changed-condition return supports its own condition rather than increasing the original amount.
 
@@ -86638,7 +86643,7 @@ The receiving action is deciding whether an earlier review may support a current
 
 Initially, the facts say that the change is display-only, the claims and question are unchanged, and the qualification window is current. All variants can support reuse. The later condition says that a new recheck needs an argument outside the available excerpts and that the retained dossier contains only its locator.
 
-B and C state the local stop and preservation instructions; A does not contain that distinction. This establishes a content-coverage difference in the constructed texts. It does not show that an actual reader preferred or used C more effectively than B. A reader comparison would still be needed for that form claim.
+B and C state the local stop and preservation instructions; A does not contain that distinction. This establishes a content-coverage difference in the constructed texts. It does not show that an actual reader preferred or used C more effectively than B. A reader comparison would still be needed for that form claim. The first task lets the reader use a stated review rule. To find out whether they can devise a review rule for their own discipline, give them records from that practice and leave the criteria for reusing work for them to choose and justify.
 
 For the revision, retain the missing stop information and withhold the table-superiority claim.
 
@@ -86711,7 +86716,7 @@ The constructed examples expose content and inference boundaries. They contain n
 - The receiving reader, subject, action, result and stop are fixed sufficiently for the comparison.
 - Content changes and representation changes are stated, including added or lost relations.
 - Every claimed contrast is supported by the available variants and conditions.
-- Reader learning, tool differences and other material confounds remain visible.
+- The account identifies the consequential choices the reader made and those already supplied by the text, task, tools or help. Credit for constructing a rule requires evidence from work in which that choice was open.
 - When a changed-condition return is tested, an initial answer precedes disclosure of that condition.
 - Observed burden is distinguished from estimated or unmeasured burden.
 - The result returns to the content, selection, trial or worth decision it informs.
@@ -86788,7 +86793,9 @@ When several models concern the same entity, establish its identity across them.
 
 State how the claims from the models are to be read together. Align such matters as units, conditions, time, configuration and whether a value was stipulated, observed or predicted when the conclusion depends on them. Check whether the commitments can all hold in the same case. Pairwise compatibility can leave the whole set inconsistent. If no case satisfies all the commitments, trace the conflict to the models or their interpretation. If information is missing, identify the premise or correspondence needed to settle compatibility.
 
-To establish that an outcome is possible under these models, exhibit one jointly admissible case with that outcome. To guarantee the outcome under the stated conditions, establish that at least one case is admissible and that every jointly admissible case has that outcome. One admissible exception defeats the guarantee.
+To establish that an outcome is possible under these models, show that at least one jointly admissible case has that outcome. You can exhibit such a case or prove that it exists. If the recipient needs a setting they can actually use, recover one and check it against the conditions. To guarantee the outcome under the stated conditions, establish that at least one case is admissible and that every jointly admissible case has that outcome. One admissible exception defeats the guarantee.
+
+Ask whether the outstanding uncertainty affects the decision you owe. Two interpretations can yield different estimates and still put every admissible result on the same side of a decision threshold. That can settle the choice while the estimate remains open. If admissible interpretations give different choices, recover the convention, observation or model relation that separates them. When the set of possible interpretations is itself open, qualify the answer to the ones examined.
 
 A claim about a candidate is distinct from a claim about how an actual system performed. To use a test result from an observed system, state what was observed and which target claim it supports under which conditions. B.5.MR supplies the test for a further claim that joint use strictly refines the earlier model. A gain in interpretation can occur while the set of eligible candidates stays the same.
 
@@ -86808,7 +86815,7 @@ When an observation, model edition or interpretation changes, follow the consequ
 
 Two accounts bear on the same stipulated preference relation over three alternatives. The first reports that A is preferred to B, the second that B and C are tied. With a shared population, comparison conditions and the premise that these judgments are readings of one complete and transitive weak order, the two claims imply that A is preferred to C. If a blank in the second table means “uncompared”, the tie is missing and the conclusion is open. The two files can remain as they are. A recipient needs the applicable interpretation of that entry and the grounds for the common relation. Observed human choices require evidence for any claim that this weak-order interpretation fits them.
 
-An engineering team receives a design and a table of life-cycle cost estimates. It can read the units and still be unable to adapt the estimate to a new maintenance interval. Field observations of failures and a fixed catalogue replacement schedule can yield the same sum for the original interval. Ask which method produced the estimate and recover its inputs before revising it. Under SYSE.7 a narrowly defined decision may need just one of these descriptions. A commission for a whole-system account can require additional engineering coverage.
+An engineering team receives a design and an annual maintenance estimate of €12,000 for one service visit. The contract file identifies two possible charging arrangements. One charges €12,000 per visit. The other charges €12,000 per year for up to two visits. The signed schedule that selects the arrangement is missing. Both account for the old figure. For two visits next year the estimates are €24,000 and €12,000. The team can confirm that the service charge fits a €25,000 annual allowance under either arrangement, provided those are the only possible terms and the allowance covers that charge alone. With an €18,000 allowance, one arrangement fits and the other exceeds the budget. The team needs to establish which arrangement applies. Reconstructing the original estimate or pricing a third visit would also require further information. A wider commission to account for the system throughout its life may require additional engineering coverage under SYSE.7.
 
 ### C.37.MM:6 - Bias-Annotation
 
@@ -86817,7 +86824,7 @@ Readers commonly give precedence to the most precise-looking model. A model prec
 ### C.37.MM:7 - Conformance Checklist
 
 - The intended result, the modeled entities, each model's contribution and the indispensable relations are recoverable.
-- The joint inference has the support its conclusion needs. A claim of possibility has a jointly admissible case with that outcome. A guarantee covers every jointly admissible case and the models admit at least one. A conflict or gap leads back to the affected premise.
+- The account tests whether the models admit a joint case. A possibility claim has an example satisfying the joint conditions or a sound argument that such a case exists. A guarantee covers every jointly admissible case and at least one such case exists. An unresolved value can still settle the receiving decision if every admissible value yields the same choice. An inconsistent set is reported as a conflict.
 - Material supplied at handover is sufficient for the recipient's actual use, including the production method for repeating, adapting or checking its derivation, and the grounds of comparison for an independent check.
 
 ### C.37.MM:8 - Common Anti-Patterns and How to Avoid Them
@@ -86838,7 +86845,7 @@ Megamodeling in model-driven engineering makes models and typed relations, inclu
 
 ### C.37.MM:12 - Relations
 
-C.37 governs co-use for one action. C.37.MP governs several actions that depend on one method representation. C.2.1 supplies the identity of each model episteme, E.17.0 governs viewpoint and view when asserted, B.5.MR compares model commitments, and SYSE.7 applies this method in engineering.
+C.37 governs co-use for one action. C.37.MP relates different uses of representations of the same Method description or candidate account. C.2.1 supplies the identity of each model episteme, E.17.0 governs viewpoint and view when asserted, B.5.MR compares model commitments, and SYSE.7 applies this method in engineering.
 
 ### C.37.MM:End
 
