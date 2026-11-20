@@ -462,7 +462,7 @@ Use Part and cluster headings to locate content. E.4 explains how Kernel, broade
 | E.1 | **Vision & Mission** | Stable | *Keywords:* vision, mission, first principles, shared grounds, reusable methods, purpose, scope, goals, non-goals. *Queries:* "What is FPF?", "What is the purpose of the First Principles Framework?", "What problem does FPF solve?". | **Prerequisite for:** All other patterns, especially E.2. |
 | E.2 | **FPF's Eleven Pillars and Bitter-Lesson Preference (BLP)** | Stable | *Keywords:* principles, constitution, eleven pillars, invariants, P-1 to P-11, Bitter-Lesson Preference, BLP, scalable methods, scale audit. *Queries:* "What are the governing principles of FPF?", "What is the Bitter-Lesson Preference and when does it apply?", "What must a BLP scale audit establish?" | **Builds on:** E.1. **Prerequisite for:** E.3 and all normative patterns. |
 | E.2.DA | **Evaluate How FPF Realizes Its Pillars (Pillar-Adequacy CharacteristicSpace)** | Stable | Evaluate one declared FPF edition, corpus slice, family or publication/access change against all eleven E.2 Pillars. Return justified ordinal values, affected-use findings, a local stop or first repair, and a reopen condition. E.2 defines the Pillars; E.21 evaluates one pattern, and E.9.DA one DRR. | **Builds on:** E.2, A.19.ECS. **Coordinates with:** E.21, E.9.DA, E.22, E.23, E.11, E.10, F.18, F.19. |
-| E.3 | **Principle Taxonomy, Precedence and Agent Autonomy Profiles (ABL)** | Stable | *Keywords:* principle taxonomy, precedence, conflict resolution, Gov, Arch, Epist, Prag, Did, autonomy budget, oversight, ABL, profile change, BLP waiver. *Queries:* "Which rule takes precedence in this conflict?", "Which autonomy and oversight profile is declared for these agent calls?", "What must a profile change or policy exception retain?" | **Builds on:** E.2. **Constrains:** All patterns and DRRs. |
+| E.3 | **Principle Taxonomy, Precedence and Agent Autonomy Profiles (ABL)** | Stable | *Keywords:* principle taxonomy, precedence, conflict resolution, Gov, Arch, Epist, Prag, Did, autonomy budget, oversight, ABL, profile change, BLP waiver. *Queries:* "Which rule governs this decision?", "Who may settle this case or change the rule for future cases?", "Which autonomy and oversight profile is declared for these agent calls?", "What must a profile change or policy exception retain?" | **Builds on:** E.2. **Applies to:** Precedence for principles in FPF patterns and DRRs, and oversight profiles for agentic tool use. |
 | E.4 | **FPF Ecosystem Architecture: Framework Families, Products and DPF Suites** | Stable | Choose the next pattern for an FPF ecosystem question, distinguish FPF Core content from an FPF edition, separate support units from independently used products, or constitute a DPF product series and Suite. When available methods cannot supply the needed result, use C.39. Use E.4.CM to explain methods and their connections for framework reuse. Publication, access, maintenance and Suite membership keep their separate meanings. | **Builds on:** E.1, E.2/P-5, E.5.3. **Coordinates with:** C.39, E.4.CM, E.4.FPF, E.4.PFAD, E.4.DPF, E.4.DPF.DA, E.4.PFR, E.11, E.17, G.2, G.5, G.11, C.33, C.34, C.35, F.18, E.21, E.23, E.19. |
 | E.4.CM | **Develop Connected Methods as Framework Contributions** | Stable | Use as an FPF or DPF author when relevant patterns leave readers to invent connections within one composite Method or among independent Methods. Apply C.39's general construction, explanation and change; compare the available framework supply, choose a public owner, apply the pattern content functions and form, and preserve direct uses before deriving a short entry. | **Builds on:** E.4, E.8. **Uses:** C.39, C.39.RO, A.3.1, B.1.5, B.1.5.EW, B.1.5.RS and direct subject Methods. **Coordinates with:** C.32.MWA, E.11, E.11.PFP, E.19, E.21, F.0.2, F.19. |
 | E.4.FPF | **FPF Edition Assembly: Publication Forms, Carriers and Access Routes** | Stable | Rebuild and expose one First Principles Framework edition from its selected Core sources. Keep publication units, forms, presentation carriers and access routes distinct; derive the index and bodies from one selection and stop on a source, boundary or preservation mismatch. E.11.PFP supplies the common reader-facing form; E.4.PFIP checks integration and predecessor preservation; E.2.DA owns whole-FPF adequacy. | **Builds on:** E.4, E.2.DA, E.11, E.17, E.21. **Coordinates with:** E.4.PFAD, E.4.PFR, E.4.DPF, E.4.DPF.DA, G.11, F.18, F.19. |
@@ -97469,7 +97469,7 @@ FPF expresses these shared grounds and reusable contributions through:
 1. a **Kernel** of admitted universal meta-concepts and the rules that define their meanings and relations;
 2. **patterns** that explain reusable methods, state their conditions and grounds, and apply or extend shared distinctions without replacing their governing meanings;
 3. a **pattern language** (*Architectural* ► why/ how; *Definitional* ► what) with embedded **Conformance Checklist (CC)**;
-4. **Design Rationale Records (DRRs)** that govern safe, auditable evolution;
+4. **Design Rationale Records (DRRs)** that preserve the grounds for changes to FPF and make them available for audit;
 5. three **core invariants** that every artefact must honour
 
    * **Evolvability** — change is expected and governed;
@@ -97516,7 +97516,7 @@ R1 supports **Didactic Transparency** by making the reason for reuse or reopenin
 
 There is one invalid reuse under the label-only rule and none under R1 in these two cases. This supports the stated failure-prevention argument; it is not an observation of reader behavior or proof that review is faster. The added comparison has a cost. If a receiver claims “R1 makes all reviews 20% faster” without observations, remove that outcome claim and retain the bounded aim, or select a task-matched inquiry before making it. If the proposed rule merely requires a new label and says “supports Evolvability,” return the missing continuity or change-handling contribution; the label alone does not satisfy CC-Vision.2.
 
-Therefore, use the supported instruction for this bounded concern, investigate a claimed reader benefit through E.12 when worthwhile, or repair the unsupported invariant argument. New evidence about the source population reopens applicability; new evidence about reading cost reopens the benefit claim.
+R1 can guide the stipulated reuse decision. Admission to FPF requires the charter argument; a team adopting R1 uses its own decision authority. New evidence about the source population reopens applicability. A claim about actual reading cost or invalid reuse decisions can be investigated through E.12. A proposal whose contribution to a core invariant is still unclear needs that argument before admission.
 
 ### E.1:6 - Consequences
 
@@ -97534,7 +97534,7 @@ The [GOV.UK Service Standard's success-definition guidance](https://www.gov.uk/s
 At the same proposal and two-case scope, §5.2's substantive replay detects the unsafe label-only reuse that a complete traceability field would leave unanswered. It costs a small comparison; wider reader or performance claims cost separately justified inquiry. Reuse an already adequate argument when its conditions match, and justify an omitted benefit where CC-Vision.4 permits it. Reopen only when the intended task, invariant contribution, benefit evidence or cheaper alternative changes enough to affect adoption.
 
 ### E.1:7 - Relations & Precedence
-Pattern E.1 governs **E.2 Eleven Pillars** and the Guard‑Rail set **E.5**; any later pattern that conflicts with E.1 **MUST** be revised via a DRR before entering the Canon.
+E.1 supplies the charter commitments for **E.2 Eleven Pillars** and **E.5 Guard-Rails**. If a proposed FPF rule contradicts an applicable charter commitment, identify the conflicting provisions. The proposal **MUST** be revised through E.9 before admission under the current charter. For a team using the method, its own governing terms determine who may adopt a local rule.
 
 
 
@@ -97564,7 +97564,7 @@ Without binding first principles, contributors cannot distinguish commitments th
 | **Pragmatic Grounding**        | Abstract invariants ↔ measurable, falsifiable outcomes |
 
 ### E.2:4 - Solution
-FPF rests on **eleven binding pillars**. Every artefact, pattern, and design-rationale record (DRR) must honour the applicable constraints and explain material conflicts. Together the pillars guide evolvability, cross-scale coherence and didactic clarity; their realization must be established for the use.
+FPF rests on **eleven binding pillars**. For an FPF proposal or artifact to conform, it must satisfy the pillar constraints applicable to its use. Identify those constraints and explain any material conflict. A DRR proposing a normative change records the impact on the pillars. Together the pillars guide evolvability, cross-scale coherence and didactic clarity; their realization must be established for the use.
 
 | ID       | Pillar                         | Essence                                                                                                                   |
 | -------- | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------- |
@@ -97582,7 +97582,7 @@ FPF rests on **eleven binding pillars**. Every artefact, pattern, and design-rat
 
 A pillar-impact argument can use ordinary accepted mathematical theory. Use `C.29` when a separate question remains about choosing a mathematical representation, transferring a result, or relying on the represented structure. State the correspondence, preserved and lost structure, and limits needed for that use; `E.2` continues to govern the pillar claim.
 
-> Any DRR that contradicts a pillar must first amend this constitutional pattern.
+> A proposed FPF rule that conflicts with a pillar can be revised to respect it. To proceed with the conflicting proposal, the body empowered to change the constitution must enact the pillar amendment first. The DRR states the grounds and Pillar Impact Analysis.
 
 ### E.2:5 - Conformance Checklist
 
@@ -97669,9 +97669,9 @@ The pillars interlock: *Cognitive Elegance* (P‑1) enables *Didactic Primacy* (
 ### E.2:12 - Relations
 
 * **Depends on:** `E.1` – pillars operationalise the mission.
-* **Refined by:** All subsequent patterns in the Core Specification.
+* **Applied by:** Later Core patterns use the pillars relevant to their decisions. When a pattern also claims strict model refinement, compare the two models for the same inquiry. The proposed model must admit a feasible completion, preserve the earlier commitments in every completion and exclude a formerly admissible answer. [B.5.MR:4.2](#b5mr42---test-preservation-and-strictness) gives the test when the models use different languages.
 * **Mathematical support path:** `C.29` supports pillar-impact arguments only for adequacy of mathematical lenses used to express first-principles structure. It does not amend pillar content, priority, or conformance.
-* **Governs:** Every DRR, tool, and pedagogical artefact linked to FPF.
+* **Governs:** FPF proposals and artifacts where a pillar sets a condition of conformance. A team using an FPF publication can identify which provisions it has adopted for its own work.
 
 
 
@@ -97959,7 +97959,7 @@ The result uses short rationales and evidence loci named by value. Obtaining the
 > **Status:** Stable
 
 ### E.3:1 - Problem frame
-Use §4 when applicable principles conflict: identify the rules and their scope, then determine precedence or hold the unresolved action. Use §6 to declare and apply an autonomy oversight profile for agentic tool use, binding it to the action, budget and permission window. E.2 supplies the eleven constitutional pillars; their names alone do not settle a conflict.
+When several provisions govern a decision, start with [the decision and the applicable provisions in §4.2](#e342---precedence-stack). Establish whether you can meet them together, which rule takes priority if they conflict, and who can settle an outstanding case or change the standing rule. Use §6 to declare and apply an autonomy oversight profile for agentic tool use, binding it to the action, budget and permission window. E.2 supplies the eleven constitutional pillars; their names alone do not settle a conflict.
 
 ### E.3:2 - Problem
 
@@ -97989,26 +97989,30 @@ When applicable pillars or derived principles prescribe incompatible actions, pa
 
  #### E.3:4.2 - **Precedence Stack**
 
-Each precedence node is an applicable pillar, derived principle, guard or assurance requirement, or local policy. The table identifies its source level; it does not rank every sentence in one file above every sentence in another. In particular, level 1 is the Eleven Pillars, not the entire E.2 file.
+Identify who would do what, for whom or to what, and when. Which provisions govern that decision? Can a course of action meet them together? A rule can require an action, forbid it, reserve a choice to a participant, or let another decision maker choose. A team can select a common format if the governing rule delegates that choice to the team. If the rule reserves the choice to each sender, a team instruction that removes the sender’s choice conflicts with it. Apply compatible provisions together. If applicability turns on a missing fact, compare what each possible rule would allow or require. When all support the same action on the same terms, it can proceed. Obtain the fact if it changes the decision or the required procedure, or if the task asks which rule applies.
 
-   | Level | Governing Artefact                    | Overrides        |
-   | ----- | ------------------------------------- | ---------------- |
-   | 0     | **Vision & Mission** (E.1)            | everything       |
-   | 1     | **Eleven Pillars** (E.2)              | all below        |
-   | 2     | **Principles** (this pattern)         | patterns & DRRs  |
-   | 3     | Architectural / Definitional patterns | local rules      |
-   | 4     | Tooling & Pedagogy                    | informative only |
+The **FPF precedence rank** orders applicable provisions in the FPF constitution. A smaller number gives the provision priority where the two conflict. Rank 1 belongs to the eleven pillars themselves. The derived BLP policy also printed in E.2 has its own terms in §6. A passage that quotes a binding rule takes its force from that rule. When an organization adopts guidance for its own work, the terms of adoption establish where it binds.
 
-**Default class order.** Identify the applicable rules and their source levels. Within the higher-rule boundaries, apply any explicit priority governing this pair. Only an otherwise unresolved conflict uses the default class order:
+| FPF precedence rank | Source | Effect for an FPF decision |
+| --- | --- | --- |
+| 0 | Vision & Mission (E.1) | Charter commitments govern what FPF may admit. |
+| 1 | The Eleven Pillars (E.2:4) | Their applicable constraints bind principles and patterns within the charter. |
+| 2 | Derived principles, including the precedence rules in E.3 | They govern pattern choices and proposals for change within the pillars. |
+| 3 | Architectural and definitional patterns | Their applicable provisions constrain choices left to local rules in a conforming use. |
+| 4 | Tooling and pedagogy | Their own suggestions guide implementation and teaching. |
+
+**Apply the priority that governs the conflict.** Within higher-ranking constraints, first use an explicit priority for the provisions in conflict. For a remaining conflict between classified principles, use the default class order:
 `Gov ≫ Arch ≫ Epist ≫ Prag ≫ Did`
 
-**Unresolved conflict.** These relations form a partial order. Two incompatible applicable rules may remain tied or incomparable after the source-level, explicit-priority and class comparisons. Return that pair, the shared action and applicability conditions, and **hold the dependent action**. Unrelated actions remain governed by their applicable rules. Acyclicity does not guarantee a winner.
+Apply the priority to the disputed choice and retain the other obligations. Several provisions can leave an obligation with no permitted way to satisfy it even when every pair is compatible. To establish that conflict, show how the provisions close every permitted alternative. If the alternatives are still unknown, identify what would establish them. After resolving a conflict, check the proposed course against the provisions together. Separately establish whether the people and resources needed for that course are available.
 
-To resolve the hold, refer the pair to the authority empowered to amend the affected rules or their priority under their governing change process. That authority may adopt a priority or amend a rule's scope. Record the rationale, affected scope, Pillar Impact Analysis and edge effects under E.9; an exception also retains its required expiry. The DRR records the decision and does not itself authorize the change. Apply the resolution only after the necessary authorization, retaining higher-rule constraints and the graph rule below.
+**When a conflict remains**, identify the provisions responsible, the affected action and the conditions that make them apply. Hold the dependent action. Independent permitted work can proceed. An existing ruling may already settle this case. If a holder is empowered to resolve this conflict, apply their actual decision within its scope and effective period. Until they decide, a known decision maker gives the parties someone to ask.
+
+When the case would need an exception, use only an exception the governing terms authorize for these circumstances. If the mandate does not cover the conflict, keep the affected action on hold. To change a rule or priority for future cases, obtain the decision of the body or bodies empowered to change it. Record the rationale, affected scope, Pillar Impact Analysis and edge effects of an FPF change under E.9. For an exception governed by the FPF policy in §6, its DRR, rationale and expiry are required. An organization’s own policy sets the terms for exceptions within its authority. An earlier ruling governs a later case only when the governing terms give it that reach.
 
  **Graph Rule** — The precedence graph MUST be acyclic; any new edge that would form a cycle is **rejected**.
 
-For a release-schedule rule classified as Gov and a performance-tuning preference classified as Prag, the default order gives the schedule rule priority only if source-level constraints and explicit priorities leave the conflict unresolved.
+A release-schedule rule classified as Gov takes priority over a conflicting performance-tuning preference classified as Prag when the ranks and applicable explicit priorities leave the choice to the class order.
 
 ### E.3:5 - Conformance Checklist
 
@@ -98017,15 +98021,17 @@ For a release-schedule rule classified as Gov and a performance-tuning preferenc
 | **CC‑PT.1** | Every principle record **MUST** state `class` and may list `precedence_over[]`.                                      | Makes declared priorities inspectable. |
 | **CC‑PT.2** | Precedence graph **MUST** be acyclic.    | Prevents circular law.           |
 | **CC‑PT.3** | Any DRR introducing/modifying a principle **MUST** include a *Pillar Impact Analysis* and the impact of proposed precedence edges on each affected Pillar (P‑1… P‑11). | Aligns evolution with Pillars.   |
-| **CC‑PT.4** | Incompatible applicable rules without a winner **MUST** return the unresolved pair and hold the dependent action until an authorized resolution under §4.2. | Prevents an arbitrary tie-break from acting as authority. |
+| **CC‑PT.4** | When applicable provisions leave a conflict unresolved, identify the provisions and conditions that block the action. The dependent action **MUST** wait for an authorized resolution under §4.2. | Keeps the outstanding duty visible while other permitted work proceeds. |
 
 ### E.3:6 - Illustrative Conflict Resolution
 
 **Same-kind wording.** First recover the intended kind under A.1. For an identified U.System, compare the plain name System with its technical expression U.System; both name the same kind. P-1 supports a precise, economical expression, while P-2 expressly gives human comprehension priority over theoretical or tooling purity. Use the familiar wording where it preserves the required meaning and make the technical designation recoverable where needed. The default Arch-over-Did order does not reverse that explicit P-2 priority. U.System is a proper subtype of U.Holon: replacing a non-System Holon with System would change the subject’s extension before any legitimate wording comparison.
 
-**Two Gov rules with no priority.** Suppose two rules at the same source level apply to publishing report R to audience A at noon: rule G1 requires that action and G2 forbids it. Both are Gov and neither has priority over the other. Return G1/G2, R, A and the noon window as the unresolved conflict; hold publication. Merely listing the class and an acyclic graph does not settle it. The rule-governing authority can authorize an applicable priority or scope amendment with the §4.2 rationale. A proposed priority has no effect before the required authorization; an authorized amendment outside this action's scope leaves this conflict unresolved.
+**Two Gov rules with no priority.** G1 requires publishing report R to audience A at noon. G2 forbids the same publication. Both are Gov and have the same FPF precedence rank. Hold the report. Suppose the charter gives a duty officer power to decide individual report disputes. Naming the officer leaves today's decision open. If the officer rules that R must be withheld from A today, apply that ruling. Tomorrow's report still falls under the standing rules. A proposed change to their priority needs a decision from the authority empowered to change it.
 
 **Changed case.** Suppose an authorized G2-over-G1 priority is in force for R, A and the noon window. G2 governs, so publication is forbidden; this pair needs no further priority resolution. A proposed G1-over-G2 edge would create a cycle and is rejected. The existing priority and G2's prohibition remain in force.
+
+**Three provisions, two notice channels.** A service must send a notice today through either channel A or channel B. One provision closes A and another closes B. Both channels are working, yet there is no permitted way to send the required notice. Any two of these provisions could be met together. Report all three and the outstanding duty. If an authorized, effective exception opens A for this notice, send it through A. The restriction on B and the terms for tomorrow’s notices still apply.
 
 **BLP and a guard.** If an applicable E.5 guard excludes a proposed implementation dependency, BLP-6 gives that guard priority over BLP. Compare those rules in their current scope, not the E.2 and E.5 files as whole nodes. B.3 enters the policy ordering for an assurance requirement consumed by the use.
 
@@ -98097,14 +98103,14 @@ This section defines an **extensible family of autonomy oversight profiles** for
 ### E.3:8 - Consequences
 *Positive* — Makes priorities and unresolved conflicts inspectable before the dependent action.
 
-*Cost* — A conflict outside the declared ordering needs an authorized governance decision. Holding that action can delay work, but avoids silently giving a new priority to whichever rule happens to be encountered first.
+*Cost* — A conflict can delay the dependent work until a competent holder decides the case. Changing the priority for future uses can take longer and calls for the authority to amend the governing terms.
 
 ### E.3:9 - Rationale
-The taxonomy groups principles according to what they govern: change (**Gov**), framework structure (**Arch**), meaning, evidence and trust (**Epist**), practical value (**Prag**), or comprehension (**Did**). Explicit override edges and the default hierarchy determine a winner where the declared ordering suffices. Where it does not, the explicit hold preserves the boundary between applying a rule and acquiring authority to change it. The taxonomy supports that decision; it does not make every pair comparable.
+The taxonomy groups principles according to what they govern: change (**Gov**), framework structure (**Arch**), meaning, evidence and trust (**Epist**), practical value (**Prag**), or comprehension (**Did**). Explicit override edges and the default hierarchy determine a winner where the declared ordering suffices. Where it does not, the hold leaves the decision with the holder empowered to settle this conflict. That mandate determines whether the ruling covers this case or changes future decisions. The taxonomy supports that decision; it does not make every pair comparable.
 
 ### E.3:10 - Relations
 * **Depends on:** `E.1`, `E.2`
-* **Governs:** All subsequent patterns and DRRs; Guard‑Rail patterns reference CC‑PT.
+* **Governs:** Classification and precedence when an FPF pattern or DRR introduces, changes or compares principles. Guard‑Rail patterns reference CC‑PT. Section 6 also governs the oversight profile for agentic tool use.
 
 
 
@@ -98114,13 +98120,15 @@ The taxonomy groups principles according to what they govern: change (**Gov**), 
 
 Under [Cedar's authorization algorithm](https://docs.cedarpolicy.com/auth/authorization.html), an applicable forbid overrides permits, otherwise an applicable permit allows the request, and the default is denial. **Adopt** explicit request scope and a declared combination rule where that permission policy is intended. **Reject** treating it as a universal ordering of obligations: a requirement to publish and a prohibition of publication can remain normatively inconsistent even when access is denied. Cedar does not claim to repair that inconsistency. Its policy-error handling also does not replace A.21's treatment of required check results. The source defines an authorization language, not FPF rule-change authority.
 
+Engineering configuration management gives a practical test for the reach of an exception. After an authorized waiver for one item, a team inspecting the next item still works from the effective baseline. Apply that distinction to case rulings and standing amendments. The mandate governing the actual decision determines who can grant either and what the ruling covers. [NASA Systems Engineering Handbook, §6.5.1.2.3](https://www.nasa.gov/reference/6-5-configuration-management/)
+
 For oversight, §6 draws on [NIST AI RMF 1.0 §6, pp.33–34](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf). Its profiles depend on the use, requirements, risk tolerance and resources; they can distinguish current and target conditions. **Adapt** that contextual treatment to §6's budgets, signers, checks and effective window. The source does not prescribe ABL's L0–L4 labels, numeric defaults or FPF permission semantics. A project's defaults need a basis appropriate to its use; an ordinal-looking label alone supplies none. This comparison uses the published 1.0 method.
 
 At the same action and input scope, the two cases expose the chosen trade-off:
 
 | Case | Simpler default | Selected move and cost |
 | --- | --- | --- |
-| G1 requires noon publication and G2 forbids it; same source level and class, no priority. | A forbid-overrides permission rule denies publication. It is a complete access decision if that combination is already authorized, but leaves the competing obligation to be resolved. | §4.2 returns the unresolved obligation pair and holds its action. The extra cost is obtaining an authorized priority or scope amendment; the gain is a visible unresolved duty instead of an invented governance winner. |
+| G1 requires noon publication and G2 forbids it. Both have the same rank and class, with no priority between them. | A forbid-overrides policy can settle access when that policy governs the request. The duty to publish still needs a resolution. | Under §4.2 the report waits. A duly empowered officer can decide one report at the cost of referring that case. Changing the standing priority requires its own authority and rationale. |
 | A plan keeps the label L2 while its requested ceiling changes from twenty to thirty minutes. | A stable profile table works if it already resolves the correct edition, checks and window. Looking only at an unchanged label cannot decide the new request. | §6 binds the new ceiling and permission before minute twenty-five. Maintaining those conditions costs more than checking a label; an existing table or policy system can carry them without another store. No E.18 or F.9 event is inferred from the budget change. |
 
 The taxonomy groups principles for the declared fallback order; its five classes are not a claim that all governing duties reduce to permission predicates. Use the simpler default when its scope and maintained inputs suffice. Reopen only the affected priority or profile comparison when a new incompatible rule, changed permission condition, or equally adequate cheaper policy changes the action. BLP comparisons remain conditional on a scale claim or declared generality policy.

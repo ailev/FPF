@@ -409,6 +409,8 @@ Choose the explanation by the decision the reader faces. Does each unit followin
 
 In an ethical decision, distinguish the people a proposal reaches from the conditions under which a claim about them holds. A department can adopt a decision under its mandate even when a member disagrees. A benefit measured over the whole department can coexist with a loss for some members. [D.2](FPF-Spec.md#d22---solution) traces the effect to those who bear it. [D.3](FPF-Spec.md#d321---first-result) describes the claims in tension. Use [D.4](FPF-Spec.md#d421---develop-and-compare-a-continuation) to compare feasible options, identify who may decide and state which burdens remain. [D.5](FPF-Spec.md#d52---solution) checks what the evidence covers.
 
+A project may adopt a Core rule unchanged. That act gives the rule local force within the adopting authority's mandate. To claim strict model refinement, compare the models for the same inquiry. Show a feasible completion of the local model, how every local completion satisfies the earlier commitments under the chosen interpretation, and an earlier admissible answer the local model excludes. To claim a new priority, identify the terms that make one provision prevail for the decision.
+
 Use a qualified expression where it affects what the reader can infer or do.
 
 | Meaning needed here | Wording for the reader |
@@ -422,6 +424,7 @@ Use a qualified expression where it affects what the reader can infer or do.
 | Position among narrower or broader kinds | taxonomic level; specialization |
 | The temporal quantity being compared | timescale; update period; planning horizon |
 | Who may change an identified choice or commitment | decision authority |
+| Which applicable provision governs a disputed choice in FPF | FPF precedence rank and any applicable priority. Use [E.3:4.2](FPF-Spec.md#e342---precedence-stack) to decide the case or identify who can resolve it. |
 
 Keep a source's well-defined term. For example, the ISA-95 account in [OPC 10030 §4.2.3](https://reference.opcfoundation.org/specs/OPC-10030/4.2.3) uses *activity levels*. Recover that activity relation rather than automatically replacing *levels* with *layers*. [FPF C.30.STRAT:4.2](FPF-Spec.md#c30strat42---recovered-meanings-and-patterns-to-use) gives the local functional-layer/modular-level distinction and the other meanings to recover. A spatial or temporal “scale” does not automatically identify a *Scale* in a measurement model. State the quantity, unit and comparison required by the present measurement claim.
 
