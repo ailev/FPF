@@ -449,8 +449,8 @@ Use Part and cluster headings to locate content. E.4 explains how Kernel, broade
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
 | D.1 | **Clarify an Ethical Claim's Value Basis (Value Plurality)** | Stable | Makes the ethical claim or question, affected EntityOfConcern, value concern, and intended use explicit. Qualifies the basis of an ethical judgement and uses a frame or evidence return for the reasoning or reliance that needs it. | **Builds on:** E.2, A.1, A.7. **Coordinates with:** D.2, D.3, D.4, D.5, A.10, B.3, C.11, C.11.DUA. |
-| D.2 | **Recognize Ethical Concerns Across Levels and Scopes (Multilevel Ethics)** | Stable | Entry pattern for ethical questions where a system, holon, method, work, policy, recommendation, or architecture move may improve one declared level or scope while harming another. | **Builds on:** D.1, A.1, B.1, C.30.ILC. **Coordinates with:** D.3, D.4, D.5, A.15, A.3.4, C.16. |
-| D.3 | **Describe an Ethical Conflict Across Levels or Scopes** | Stable | Use when ethical claims at different levels or scopes raise an incompatibility, trade-off or unresolved value tension that needs explanation. Connect each side's claim, affected entity, value frame, consequence and horizon; state the tension and next use. Stop at a short note when it suffices; identify a reusable conflict-description episteme only when needed. Keywords: interlevel ethical conflict. | **Builds on:** D.1, D.2, A.1, A.14, C.13. **Coordinates with:** E.10.ROLE, D.4, C.2.1, E.17, C.30.ILC, C.16, A.10, B.3. |
+| D.2 | **Recognize Ethical Concerns Across Levels and Scopes (Multilevel Ethics)** | Stable | Use when an action, policy or change to a system or method may affect who benefits, who bears a cost or risk, or who is responsible. Trace how the change reaches the parties concerned, including through a shared service or membership in overlapping groups. | **Builds on:** D.1, A.1, B.1, C.30.ILC. **Coordinates with:** D.3, D.4, D.5, A.15, A.3.4, C.16. |
+| D.3 | **Describe an Ethical Conflict Across Levels or Scopes** | Stable | Use when ethical claims conflict, require a trade-off or leave a priority unresolved. The claims can concern the same people under the same conditions. Relate each claim to the affected entity, its value premise, the consequences and their timing. A brief note can suffice. Identify the account when another reader needs to cite, compare or revise it. Keywords: interlevel ethical conflict. | **Builds on:** D.1, D.2, A.1, A.14, C.13. **Coordinates with:** E.10.ROLE, D.4, C.2.1, E.17, C.30.ILC, C.16, A.10, B.3. |
 | D.4 | **Ethical Mediation and Decision Use** | Stable | Use an already described ethical conflict to develop feasible alternatives and compare them under the stated value premises. Return a supported recommendation, conditional continuation, refusal or impasse, with any inquiry or neighboring-pattern return that the decision needs. | **Builds on:** D.3, C.11. **Coordinates with:** D.5, A.10, B.3, C.28, C.30.ILC, A.20, A.21. |
 | D.5 | **Bias Audit and Ethical Assurance** | Stable | Start from the bias, fairness or impact question and intended use. A qualified metric comparison or bounded finding can suffice. Choose audit depth and further inquiry from the claim that will rely on the result; causal and assurance conclusions retain their own support requirements. | **Builds on:** D.1, D.4, E.5.4. **Coordinates with:** A.10, B.3, C.16, C.28, E.13. |
 
@@ -96366,7 +96366,7 @@ Reopen the pattern when a field case supplies decision-changing evidence for ano
 
 **Use this when.** The value basis of an ethical claim or proposed action is unclear.
 
-If that ethical claim is current but a possibly consequence-bearing System has not yet been identified, or the affected-System set is not adequate, use `A.1.CSD` first. Return to D.1 with the bounded discovery account or the reason identification remains unresolved. Use that account to clarify the value concern.
+Use `A.1.CSD` when the judgement depends on who could bear a consequence and the affected systems are still unclear. A conditional value premise can be examined for a class of participants. To apply it to a proposed action, establish whom the action reaches and which conditions of the premise hold. Retain a missing participant or consequence as an open question when it could change the judgement.
 
 
 **Not this pattern when.** If the question is already a conflict across declared levels or scopes, use `D.3`. If the question is how to mediate that conflict or use it in a decision, use `D.4`. If the question is bias, fairness, human or group impact audit, causal-fairness audit consumption, or ethical assurance, use `D.5`.
@@ -96436,6 +96436,8 @@ This frame makes the value premises inspectable; the ethical judgement needs rea
 A value label identifies a concern; a reason explains why that concern supports the proposed judgement. State the value premise, the relevant facts and the step joining them. For example, a prediction of greater aggregate benefit can support a recommendation only under a premise giving that benefit the relevant priority. A right can constrain the recommendation under a different premise even when the prediction is correct. Use `B.5.RA` when the argument must be recovered from a source, including a rhetorical question or an analogy.
 
 Keep the grounds of acceptance distinct. Evidence can support a claim about consequences or the conditions in which a person agreed. A normative premise states what ought to count, what may be required or which treatment is permissible. Explaining a tradition's history can help interpret its premise; neither that history nor a model of a system establishes the premise's moral authority. When the premise is contested, preserve the conditional conclusion and identify what accepting another premise would change.
+
+Attribute the premise at the level at which it has grounds. A member can report their own objection. To say that an organization adopted a rule, identify the decision that gave the rule force and the matters it covers. That decision may bind members who disagree. A claim that all members endorse it needs evidence about their views. An analyst can identify an unreported risk to a member and give the reasons for considering it, while leaving that member’s assessment open.
 
 The following argument develops one such conditional basis for decisions about people's participation. It supplies reasons that can be examined and applied; FPF does not select this basis as its final ethical doctrine.
 
@@ -96588,19 +96590,19 @@ These sources supply developed treatments in medicine and research; their requir
 > **Status:** Stable
 
 
-**Use this when.** An action or arrangement may benefit one affected entity while harming another across levels or scopes, or responsibility is assigned across levels.
+**Use this when.** A proposed action may benefit one party and impose a cost or risk on another, or it may change who is responsible for the consequences. The parties can be parts of one system, members of overlapping groups or users affected through a shared service.
 
 **Not this pattern when.** If only the value frame is missing, use `D.1`. If `D.3` has already described the conflict, use that result. If the conflict has to be mediated or used in a decision, use `D.4`. If the concern is bias, fairness, impact audit, causal-fairness audit consumption, or ethical assurance, use `D.5`.
 
-**What goes wrong if missed.** A local improvement is treated as ethically sufficient while another declared level, scope, or affected holon carries the harm.
+**What goes wrong if missed.** A team sees the improvement it sought and recommends the change while somebody else loses access, takes on work or bears a new risk.
 
-**What this buys.** Identify who or what may bear a loss, explain how the affected scopes are related, and choose the question to examine next.
+**What this buys.** Identify who or what may bear a consequence, explain how the action could reach them, and choose the ethical question that needs an answer.
 
 ### D.2:1 - Problem Frame
 
-Ethical trouble in system-holon work often appears because the action is good for one level and bad for another. A person may benefit while a team is damaged. A project may benefit while a community pays the cost. A standard may improve coordination while excluding a minority case. A model may improve one metric while moving harm to a less visible scope.
+An organization can save work by moving it to its members. A project can meet its target while people outside the project lose access to a service. A standard can improve coordination for some users while excluding a device on which others rely. In each case, follow the change from the decision to those who may gain or lose.
 
-Do not force these cases into a fixed ladder such as local, group, ecosystem, planetary. Declare the levels and scopes present in the situation and explain who or what may be affected, including where the scopes overlap or one contains another.
+Use a level of composition when the concern depends on what a constituent does within an identified whole. Two groups can share members, or rely on the same service, without either group being a constituent of the other. Identify the relation that carries the effect. Someone can bear a consequence without taking part in the decision.
 
 ### D.2:1.0 - Problem
 
@@ -96611,18 +96613,18 @@ A change can benefit one affected entity while imposing harm, exclusion or risk 
 | Force | Tension |
 | --- | --- |
 | Local benefit vs. cross-level harm | A change can improve one declared scope while imposing cost, risk, or exclusion elsewhere. |
-| Situation-defined levels vs. fixed ladders | Multilevel ethics needs declared levels and scopes from the case, not a universal moral hierarchy. |
+| Situation-defined levels vs. fixed ladders | Identify the relevant composition, membership or exposure in the situation and the conditions assumed in the claim. |
 | Affected entities and their descriptions | Identify the affected entity, whether a system or an episteme such as a standard, and explain whose use or interests make the change an ethical concern. |
 | Early recognition vs. premature mediation | Use D.2 to make the conflict visible, D.3 to describe its sides and tension, and D.4 for mediation. |
 | Ethical concern vs. architecture residual | Cross-scope residuals can be architectural, ethical, or both; choose the method for the question that needs answering. |
 
 ### D.2:2 - Solution
 
-Start with the proposed action or arrangement and the local gain. If an adequate account of affected parties and consequences already exists, use it. Otherwise follow the changed work, use or dependency from the proposal to the entities that may bear its effects; use `A.1.CSD` when a consequential bearer or effect path remains unclear. Keep an obtaining relation distinct from a possible consequence and retain an unresolved bearer or path as unresolved.
+Start with the proposed action or arrangement and the gain it promises. Use an existing account if it identifies the affected parties and explains the consequences that matter here. Otherwise trace the changes in work, use or dependency to the entities that may experience their effects. Say which connections already exist, which the proposal would create, and which effects are observed or predicted. If you cannot tell who might experience an effect or how it would reach them, use `A.1.CSD` to investigate and state what remains unknown.
 
-Name the possible loss and the levels or scopes that make it an ethical concern, then state the next question to settle. Recognition is complete when the affected sides and next use are sufficiently clear; an already qualified `D.3` conflict or `D.4` decision question can be used.
+Connect each material consequence to the party or entity affected, the value premise that makes it matter and the conditions under which the change could produce it. If the claim concerns a whole, establish how the effects on its constituents bear on the property in question. A saving for one office may be extra work for another. If the claim concerns other settings, establish which conditions of that explanation hold there. State the next question. Use D.3 when the sides and their tension need describing. When an adequate account of the conflict already exists, it can go directly into the D.4 comparison.
 
-Use `MultilevelEthicsEntry@Context` when the practitioner or a recipient needs to recover these connections for comparison or revision. Keep its content in the existing answer or working note when that suffices. Add evidence, value-frame editions, and supporting relations where the stated concern relies on them:
+Use `MultilevelEthicsEntry@Context` when the practitioner or a recipient needs to recover these connections for comparison or revision. Keep its content in the existing answer or working note when that suffices. If an existing note says only “level or scope”, recover which relation, affected population or applicability condition the note identified. Retain a reference to a `U.WorkScope` with the capability it qualifies, or to a `U.PublicationScope` with the publication view or form it qualifies. If the meaning of the old label is still unclear, keep the original wording and identify that uncertainty. Add the evidence, value-frame editions and supporting relations on which the stated concern relies.
 
 ```text
 MultilevelEthicsEntry@Context:
@@ -96631,8 +96633,9 @@ MultilevelEthicsEntry@Context:
   valueFrameEditionRefs?
   claimScopeRef?: U.ClaimScope
   qualificationWindowRef?
-  declaredLevelOrScopeRefs
-  affectedHolonRefs
+  compositionRelationRefs?  // identified whole and constituent, when their relation matters
+  affectedPopulationOrAreaRefs?  // who is included or where exposure occurs
+  affectedHolonRefs?
   affectedEpistemeRefs?
   roleWordRecoveryRefs?: E.10.ROLE results when the relevant role meaning needed clarification
   localSystemRoleKindRefs?: FinSet(U.KindRef)
@@ -96671,16 +96674,16 @@ Material systems and epistemes can be affected EntitiesOfConcern. For an epistem
 | Working situation | What to recover | Next pattern to apply |
 | --- | --- | --- |
 | A Method helps one team meet its target while increasing risk for another team or for users. | Affected holons, any independently current assignment, Method, actual Work when present, expected consequences, evidence, and each responsibility, commitment, permission, authority, or participation relation that the concern relies on. | `D.3` conflict description |
-| A public policy helps a city-level goal while making one neighborhood or profession worse off. | Declared scopes, value concerns, responsibility claims, evidence, uncertainty. | `D.3` conflict description |
+| A city service gains capacity while access for night-shift workers in one district may worsen. | Identify the service, who can use it at the relevant hours, how the proposed change affects access, and whose responsibilities or value claims it engages. | `D.3` conflict description |
 | A technical standard improves interoperability but excludes a minority device, language, publication form, or data source. | Standard or episteme whole, affected systems, publication and use relations, consequence horizon. | `D.3`, with `C.2.1` and `E.17` as needed |
-| A model or metric looks fair at one aggregate level but hides subgroup harm. | Metric, affected groups, causal claim, evidence set, audit condition. | `D.5`, with `C.28` when causal fairness is claimed |
+| An overall result meets its target while the outcome for a particular group is unknown. | Recover who entered the count, which outcome was measured, and whether the result supports the claim about that group. | `D.5`, with `C.28` when a causal claim matters |
 | An architecture move reduces residual at one holon level while creating cross-scope residual elsewhere. | Architecture structure, selected scopes, residual, affected value concerns. | `C.30.ILC`; use `D.3` if ethical conflict is live |
 
 ### D.2:4 - Boundaries
 
 D.2 recognizes ethical concerns across levels and scopes. Use the corresponding subject method to judge a conflict, mediate it or conduct an audit.
 
-Levels and scopes are declared relations in the situation. If a mathematical lens is needed for scale, frustration, optimization, Pareto comparison, or renormalization-like reasoning, use `C.29` and the applicable pattern for the object.
+An affected population identifies who may experience a change. A composition relation identifies a whole and its constituent. A claim’s scope identifies the conditions under which the assertion applies (`A.2.6`). A proposed use can fall within the stated scope while evidence for its predicted effect is still missing. The same fact can matter to more than one of these questions. A change to a service can affect an entire organization on one occasion. To use that explanation for future decisions, identify what would carry the effect again. `B.5.MR` compares what models fix or leave open. Use `C.29` when a mathematical representation is needed to examine scale, a trade-off or an allocation.
 
 ### D.2:5 - Archetypal Grounding (Worked Slice)
 
@@ -96696,8 +96699,8 @@ Use `C.11.DUA` to compare the restriction's protective contribution with access 
 
 | Bias risk | Failure | Mitigation |
 | --- | --- | --- |
-| Local optimum becomes ethical sufficiency | A benefit at one level is treated as enough while another scope carries harm. | Declare affected levels, scopes, holons, value concerns, and next subject pattern. |
-| Fixed ladder bias | A generic hierarchy such as individual, team, and society replaces the levels present in the case. | Derive levels and scopes from the affected EntityOfConcern, named holons and Work, value frames, and responsibility relations that are current. |
+| Local improvement treated as sufficient | A proposal benefits one party while imposing costs elsewhere. | Trace where the work, risk or loss goes and why it matters to those affected. |
+| Fixed ladder bias | A hierarchy such as individual, team and society is imposed on an affected population. | Identify actual composition, membership, use or exposure. Establish responsibility where the judgement relies on it. |
 | System-only bias | Multilevel ethics is limited to material systems and misses epistemes, standards, publications, or descriptions. | Treat affected systems and epistemes as admitted holons when the case makes them current. |
 | Architecture absorbs ethics | A cross-scope residual is treated only as architecture because it has a structural shape. | Use `C.30.ILC` for architecture residual and `D.3` and `D.4` when value, harm, responsibility, or admissible sacrifice is live. |
 
@@ -96705,7 +96708,7 @@ Use `C.11.DUA` to compare the restriction's protective contribution with access 
 
 | ID | Requirement | Purpose |
 | --- | --- | --- |
-| CC-D2-1 | Declared levels or scopes come from the situation and are named by value. | Keeps the ethical comparison grounded in the relations rather than a fixed moral ladder. |
+| CC-D2-1 | Identify the whole and constituent when composition matters, the membership or exposure that locates the affected parties, and the conditions on which the consequence claim depends. Use the distinctions needed for the next decision. | Makes clear whose gain or loss is at issue and where the explanation applies. |
 | CC-D2-2 | Name the affected entities, Methods, actual Work and consequences needed for the concern. Clarify unclear role wording with `E.10.ROLE`; keep any local kind and C.2.1 classification assertion distinct. For an assignment, use its declared species and support the claim; an asserted occurrence needs its participants and applicability. Establish participation, responsibility, commitment, permission and authority separately when relied on, retaining a supported negative or conditional result, or the missing fact or rule. | Keeps the entry usable without making assignment imply participation or responsibility. |
 | CC-D2-3 | The result identifies the next live question and `D.3`, `D.4`, `D.5`, `C.30.ILC`, or another subject pattern that answers it. The entry record is used only when its recoverable content contributes to that use. | Keeps D.2 as entry recognition, not conflict solver. |
 | CC-D2-4 | Mathematical reasoning retains its subject, interpretation and applicable conditions. Use `C.29` when representation choice, transfer or supported use remains unresolved, and the measurement pattern when a measurement claim is current. | Keeps mathematical support distinct from ethical priority. |
@@ -96736,7 +96739,7 @@ This construction makes the traced concern available for the next question witho
 ### D.2:11 - Relations
 
 - Builds on `D.1` for ethical value frame boundary.
-- Builds on `A.1`, `B.1`, and `C.13` for holon, level, scope, and part-whole grounding.
+- Use `A.1`, `B.1` and `C.13` to recover holons and composition, and `A.2.6` to establish where a claim applies.
 - Coordinates with `D.3` for the interlevel ethical conflict description and with `D.4` for mediation or decision use.
 - Coordinates with `D.5` for bias, fairness, impact audit, causal-fairness audit consumption, and ethical assurance.
 - Coordinates with `C.11.DUA` when a proposed inquiry or disputed protective requirement needs contribution, feasibility, and burden appraisal.
@@ -96750,7 +96753,7 @@ This construction makes the traced concern available for the next question witho
 > **Status:** Stable
 
 
-**Use this when.** Ethical claims at different declared levels or scopes raise an incompatibility, trade-off or unresolved value tension that needs explaining. State each ethical concern as a claim about the case.
+**Use this when.** A decision puts ethical claims about affected parties, activities or uses in tension and their incompatibility, trade-off or unresolved priority needs explaining. The claims can concern different constituents, overlapping populations or different uses of the same arrangement. State each concern in ordinary language.
 
 **Not this pattern when.** If only the ethical value frame is missing, use `D.1`. If only entry recognition is needed, use `D.2`. If D.3 has already described the conflict and the question is mediation or decision use, use `D.4`. If the question is bias, fairness, impact audit, causal-fairness audit consumption, or ethical assurance, use `D.5`.
 
@@ -96789,18 +96792,18 @@ Identify the sides needed to explain the conflict. At least two claims are invol
 
 1. the ethical claim that states the concern in ordinary language;
 2. the affected entity;
-3. the declared level relation, claim scope, or Work extent that locates the concern;
+3. how the proposed action reaches that entity. Identify the whole and constituent if composition matters, the people or work covered if their extent matters, and the conditions on which this side’s claim relies;
 4. the value premise under which the consequence matters, with a frame-edition reference when the reasoning uses one;
 5. the expected benefit, harm, or constraint and its consequence horizon; and
 6. the evidence use or uncertainty only when the side relies on it.
 
-Then explain why the claims cannot all be met as stated, what would be traded, or why they remain in unresolved tension. Three or more claims may be jointly incompatible even when every pair is compatible. Name the intended use of this description and any question that remains to be settled. Stop when this makes the conflict inspectable for its intended use.
+Then explain why the claims cannot all be met as stated, what would be traded, or why they remain in unresolved tension. Three or more claims may be jointly incompatible even when every pair is compatible. To establish that all the claims can be met together, give a feasible arrangement or other sufficient grounds. To establish that they cannot, show why every arrangement meeting those claims would violate a constraint that applies. When an attempted arrangement fails, ask which alternatives its reason for failure also rules out. Name the intended use of this description and any question that remains to be settled. Stop when this makes the conflict inspectable for its intended use.
 
 A short working note can be sufficient. Develop a more elaborate description only when its intended use requires the additional content.
 
 #### D.3:2.2 - Reusable conflict description
 
-When another reader or later use must cite, compare, revise, or publish the result, identify one `InterlevelEthicalConflictDescription`. This is an ordinary local name for one C.2.1 `U.Episteme`.
+Identify the account of the conflict when another reader needs to cite, compare, revise or publish that account. A short note can serve. The account is one C.2.1 `U.Episteme`, here called an `InterlevelEthicalConflictDescription`. If a publication reports one observation, identify the source for that observation.
 
 Apply the C.2.1 identity test:
 
@@ -96841,6 +96844,8 @@ InterlevelEthicalConflictDescription — C.2.1 identity:
 ```
 
 When a restriction on the whole description matters, `descriptionClaimScopeRef` identifies the conditions under which its claims apply. Identify any subsystem affected on one side. The subject of the whole description can still be a fleet-wide decision. Change that subject only if the claim is now about the subsystem itself. Each side can also have its own ClaimScope or refer to a particular Work and its extent. Give the whole description its own scope when that further restriction matters.
+
+For another setting, carry over the reasoning that connects the action to a consequence under a value premise. Check whether the same dependency, value premise and relevant constraints apply there. One affected party may belong to several groups. Count distinct people once for a headcount. For a claim about burdens, establish whether that person experiences one burden reported twice or distinct burdens. State what can be concluded about the whole under the relevant counting or composition rule.
 
 The `plainStatement` must name the incompatibility, trade-off, parity, or other tension claimed among the sides. In an ordinary case, it remains claim content in the description. If a receiving use relies on a separately obtaining direct relation, cite the relation definition and occurrence with its participants, applicability, and identity. If no adequate governor exists, record the `A.6.RCD` missing-governor result. Merely filling a reference field never makes a direct relation obtain.
 
@@ -96903,7 +96908,7 @@ If consulting Work later occurs, use A.13 to identify its performer and A.15.1 t
 
 If the consulting agreement explicitly excludes deployment decisions, it grants no authority for those decisions. If the agreement's scope is unavailable, leave that authority claim unresolved and identify the missing agreement. D.4 can use either result: a justified denial concerns this agreement, while an unavailable premise leaves a question to settle.
 
-**Joint incompatibility.** Three neighborhoods each claim at least one hour of a mobile clinic's service under a declared equal-access requirement. Only two service hours are available in the relevant window. Any pair of claims could be met; all three together cannot. Describe all three sides and the shared capacity condition before asking D.4 to examine continuations. No pairwise description captures this whole conflict.
+**Joint incompatibility.** Three neighborhoods each have a claim to a separate hour-long visit from the same mobile clinic at their own site, under a stated equal-access rule. One crew has 150 minutes, including travel and setup. Each two-site itinerary needs at most 30 minutes for travel and setup, so the crew can serve any pair. The three visits alone require 180 minutes. No itinerary can provide them all within the window. Choosing which visit to defer needs an ethical and decision basis. If a common session is proposed, establish whether it would count under the rule and whether residents from the affected sites could use it.
 
 **Conditional collection record.** A fleet-wide maintenance change lowers cost but may raise failure risk for a small subfleet operating in harsh conditions. The description has a fleet-cost side and a harsh-service safety side, each with its affected entity, scope, value premise and any frame edition used, consequence, and horizon. Add the exact fleet-membership relation because it locates the subfleet. Identify the reliability evidence and its grounds for this safety claim; use A.10 if the source-to-use relation is implicit or needs a replayable account. Return the causal question to C.28 if the risk claim depends on the proposed change.
 
@@ -97051,6 +97056,8 @@ Recover the conflict, develop feasible alternatives, compare their consequences 
 
 Use the same reasoning when the option is advice, publication, a technical change or a change to a method. Identify how its possible use can affect other participants; describing one's contribution as analysis leaves that question open. The relevant causal and responsibility relations need their basis.
 
+Decide the reach of the proposed action. For a decision on behalf of a group, establish which procedure gives the decision force, whose work or rights it covers, and who can carry it out. Record a member’s dissent when it matters to the decision or its consequences. If the recipient wants a standing rule, examine the cases the rule would permit. A change in exposure, access, authority or available means can reverse the comparison. Where the same premises support the recommendation throughout the proposed use, the existing reasoning can cover those cases.
+
 #### D.4:2.2 - Retain the decision basis when the work needs it
 
 Use an `EthicalMediationDecisionUse` account when another participant needs to inspect, compare, authorize or later revise the result. The necessary content can remain in the existing answer or decision record. The following form groups that content; use only the optional detail needed for this decision:
@@ -97142,6 +97149,8 @@ For this constructed decision, the participants' stated orderings are:
 Both orderings prefer the voluntary option to either original alternative. The team can recommend it on this basis without adding the ordinal ranks or deciding how much privacy one unit of access is worth. The judgement concerns these supplied preferences and feature conditions. The technical feature, the permitted voluntary arrangement and each participant's choice are separate contributions to its use.
 
 Now suppose the team instead needs guaranteed coverage of a required shift. Voluntary windows do not guarantee that contribution. The previous recommendation remains an answer to finding a willing specialist, but does not answer the changed staffing question. Return to the staffing arrangement and its affected commitments. A new assignment, another resource or a changed service promise may be needed.
+
+If a second team asks only how to find a willing specialist, it can use the same recommendation when the feature is available, the applicable permission covers that use and the affected participants’ privacy and access judgements still support that option. A decision to offer the feature across the organization can authorize making it available to both teams. Each disclosure still depends on the choice or other authority governing that disclosure.
 
 #### D.4:4.2 - Keep a useful decision when a stronger claim is unavailable
 
@@ -97256,6 +97265,8 @@ The failure is to treat technical verification as sufficient for a fairness or e
 
 Identify the object, the bias or fairness concern, and the use the answer must support. Give the result warranted by the available basis, with the affected groups and limitations that change that use. A metric comparison can finish at its qualified measurement result; recognizing a value conflict returns to `D.3` or `D.4`.
 
+For a claim about a group, state what the conclusion attributes to whom. An eligibility rule can establish who is entitled to a service under its stated conditions. Whether people received the service depends on what happened. For a measured rate, identify the unit counted, the numerator and denominator, the period and which eligible units entered the evidence. An overall rate can meet its target while a subgroup misses it. Rates for two overlapping groups can each meet the target while their intersection falls short. Subtracting a subgroup’s numerator and denominator from the corresponding population counts gives the counts outside that subgroup. Use them for another named group only if it covers exactly the remaining records. If the evidence already establishes the required outcome for every member of the covered population, the same member-by-member finding holds within each subgroup. A verified violation can refute such an all-member claim without establishing how frequent the violation is. For a different population or period, establish which conditions of the rule or of the empirical comparison still apply.
+
 An intended audit, fairness, or assurance conclusion must satisfy its evidence conditions. A missing basis leaves that conclusion unsupported. Select further investigation and the record it needs for that claim or decision, using §3.1.
 
 Use `BiasAuditAssuranceFrame@Context` to organize an audit whose recipient needs to inspect the connection among claims, evidence, constraints, and residuals. The applicable content may already be present in the result being used:
@@ -97356,7 +97367,7 @@ Use `B.3` for the assurance relation. Establish the needed evidence and its curr
 
 ### D.5:6 - Archetypal Grounding (Worked Slice)
 
-A hiring-screening model has high aggregate accuracy and an internal note says it is "fair." D.5 first asks what fairness claim is being made. If the claim is only a metric disparity comparison, give the metric or evaluation result with its affected groups, intended use, and material limits, then stop. A recipient can reuse or publish that bounded comparison without treating it as a conclusion that hiring is fair. An intended stronger conclusion reopens its missing basis.
+Suppose a hiring-screening model agreed with a reviewed reference decision on 90 of 100 applications. Each applicant in the comparison submitted one application, and ten of the applicants belong to the group under review. All ten discrepancies could fall inside that group or all ten could fall outside it. A reliable subtotal of agreements for those ten applications, or a count from the corresponding decisions, can establish the observed group rate. If applicants can submit repeatedly, a rate per person also needs a rule for counting their decisions. An estimate for a wider population needs grounds for extending the comparison and an account of its uncertainty. A judgement about fair treatment also needs a criterion for what counts as fair in that use. People unable to submit an application are outside this calculation. A claim about access must account for them.
 
 If the team claims counterfactual fairness, C.28 must expose the causal estimand, additional counterfactual-identifiability assumptions, and an estimate with its consistency result when that estimate is relied on. Missing conditions lower the C.28 support result before D.5 decides its audit use. If the audit exposes a conflict between company efficiency and applicant harm across declared scopes, D.3 describes that conflict and D.4 guides its decision use.
 
@@ -97399,6 +97410,8 @@ Audit depth follows what a claim or decision needs from the result. A compact ac
 ### D.5:10 - SoTA-Echoing
 
 For deciding what a fairness result supports, **adapt** C.16’s measurement interpretation and C.28:4.6’s claim-specific identification and estimation conditions. Against the aggregate-accuracy inference in :6, :2–4 retain the qualified metric result and obtain the additional causal basis only for a conclusion that needs it. Section :3.1 reuses an adequate audit account and selects further work from the reliance, while a missing required basis leaves the stronger conclusion unsupported. B.3 supplies any assurance relation and D.4 its ethical decision use. Reopen the affected basis when the population, intended use, claimed effect, evidence conditions or binding requirement changes.
+
+Kearns, Neel, Roth and Wu show how a classifier can meet a parity condition for each of several predefined groups while violating it for a subgroup defined by a combination of attributes. Section 2 uses that distinction to select the group a claim concerns. Which criterion matters and which population it covers still come from the receiving use. [Preventing Fairness Gerrymandering (2018)](https://proceedings.mlr.press/v80/kearns18a.html)
 
 ### D.5:11 - Relations
 

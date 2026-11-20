@@ -407,6 +407,8 @@ This gives a qualified answer to “are management levels functional layers?” 
 
 Choose the explanation by the decision the reader faces. Does each unit following its rule suffice for the whole organization to deliver? Trace the handovers and any shared limits. Does one completed delivery justify adopting the same rule across a discipline? Establish which conditions remain true when the case changes. A Core pattern often owes a transdisciplinary explanation, a DPF its disciplinary interpretation, and an LPF a decision usable in local practice. Each can also describe the same individual delivery. Name the claim in the passage when that difference matters. [Developing the account at the required scales](FPF-Spec.md#c39wa42---construct-the-organization-the-account-must-explain) and [comparing models for refinement](FPF-Spec.md#b5mr43---read-the-levels-of-model-abstraction-and-refinement).
 
+In an ethical decision, distinguish the people a proposal reaches from the conditions under which a claim about them holds. A department can adopt a decision under its mandate even when a member disagrees. A benefit measured over the whole department can coexist with a loss for some members. [D.2](FPF-Spec.md#d22---solution) traces the effect to those who bear it. [D.3](FPF-Spec.md#d321---first-result) describes the claims in tension. Use [D.4](FPF-Spec.md#d421---develop-and-compare-a-continuation) to compare feasible options, identify who may decide and state which burdens remain. [D.5](FPF-Spec.md#d52---solution) checks what the evidence covers.
+
 Use a qualified expression where it affects what the reader can infer or do.
 
 | Meaning needed here | Wording for the reader |
