@@ -476,7 +476,7 @@ Use Part and cluster headings to locate content. E.4 explains how Kernel, broade
 | E.5.2 | **Notational Independence** | Stable | Explain how to read a table, diagram or formula and use it for the intended work. When replacing another expression, compare what the recipient can still determine or choose and what information that takes. Check a required delivery form against its convention. Use A.6.3.RT to change representations, A.6.3.RT.OE to construct an operative expression and B.5.MR to compare changed model assertions. | **Refines:** E.5. **Constrains:** All Core patterns. |
 | E.5.2.L | **Languages, Expressions and Interpretation** | Stable | Establish how a language forms expressions. For a representation language, recover the permissible readings. For a language of designations, recover how an entry identifies an entity under the applicable rules and bindings. | E.5.2, C.2.1, A.6.3.RT and F.18. |
 | E.5.3 | **Unidirectional Dependency between FPF Families** | Stable | Which family may supply a rule to another? May a guide rely directly on Core? Check permitted directions and cycles, including imports within a family. E.4.PFR identifies the claim another edition needs for a particular use. | **Part of:** E.5. **Constrains:** Imports in the family architecture of E.4. |
-| E.5.4 | **Cross-Disciplinary Bias Audit** | Stable | Inspect a normative pattern through Gov, Arch, Epist, Prag and Did lenses for a source-discipline bias or an unjustified imbalance. Repair the explanation or state the intended scope, and retain the useful Bias-Annotation. Use D.5 for bias, fairness or human-impact audit; use A.8 only for universal-core placement of a durable U-kind candidate governed by E.24.UK. | **Refines:** E.5. **Constrains:** All Core patterns. **Links to:** Part D. |
+| E.5.4 | **Cross-Disciplinary Bias Audit** | Stable | Examine a normative pattern through Gov, Arch, Epist, Prag and Did. For use in another discipline, state what the rule lets its practitioner conclude or do, then establish its conditions there. When plausible readings differ in their consequences, test a case that distinguishes them. Report the material result in the Bias-Annotation. D.5 addresses fairness and human impact. A.8 governs projections for universal-core placement under E.24.UK. | **Refines:** E.5. **Constrains:** All Core patterns. **Links to:** Part D. |
 | **Cluster E.II — The Author’s Handbook** | | | | |
 | E.6 | **Didactic Architecture of the FPF Specification** | Stable | *Keywords:* didactic, pedagogy, structure, narrative flow, on-ramp, learning. *Queries:* "How is the FPF specification structured for learning?", "What is the 'On-Ramp first' principle?". | **Builds on:** E.2 (P-2 Didactic Primacy). |
 | E.7 | **Archetypal Grounding: Explain Rules of FPF Architectural Patterns through Cases** | Stable | Make an architectural rule and its applicability concrete through System and Episteme cases. Use both where the rule spans both; state and justify a single-substrate boundary. The cases show application and expose limits; universality needs its own warranted basis. E.8 supplies the section form, E.5.4 the bias lenses, and A.8 the distinct universal-core U-kind test. | **Builds on:** E.6. **Constrains:** All architectural patterns. |
@@ -102052,7 +102052,7 @@ For the detailed rule behind each guard-rail, see **E.5.1 – E.5.4**.
 | GR‑1 | Definition of `U.System` never cites file formats or build scripts. | Definition of `U.Episteme` avoids naming specific proof engines. |
 | GR‑2 | A meaning-preserving mapping between text and diagram retains the pump boundary invariant. | A meaning-preserving mapping between algebraic and graph expressions retains F‑G‑R semantics. |
 | GR‑3 | A sizing helper imports Core invariants. Core supplies their meaning independently of the helper. | A learning guide uses the Core definition of R‑score. A Core reader may follow a return link for an illustration and can interpret the definition without it. |
-| GR‑4 | Bias audit removes thermo‑mechanical jargon from a “universal” pattern. | Audit replaces physics‑centric metaphors in a trust pattern. |
+| GR‑4 | The author limits “the earlier check settles acceptance” to the diameter criterion and the shaft state the measurement covers. A bound on one side can be combined with a check on the other. | The author establishes what the register’s date field records and limits the conclusion to that date until there are grounds for using it as the date of the event. |
 
 ### E.5:6 - Conformance Checklist
 
@@ -102494,7 +102494,7 @@ Under P‑5 FPF Layering, an author can replace a tool or a teaching example whi
 > **Status:** Stable
 
 ### E.5.4:1 - Problem frame
-Use this pattern when authoring or reviewing a normative pattern's assumptions, examples and claimed scope. Wording and metaphors drawn from one domain can hide assumptions that readers in another domain need to recognize.
+Use this pattern when you write or review a normative pattern and need to check its assumptions, explain an established rule to its readers, or decide where the rule applies. A familiar example can conceal who makes a decision, which parts have to work together or what a record actually establishes. The audit helps you find such assumptions. To recommend the rule in another discipline, establish what entitles a practitioner there to take the proposed action or draw the proposed conclusion.
 
 ### E.5.4:2 - Problem
 Bias in wording, examples, unit choices or principle weighting can make a rule appear applicable where its assumptions do not hold. This undermines **P-2 Didactic Primacy** and **P-8 Cross-Scale Consistency**. The author needs to justify the emphasis, repair the imbalance or state a narrower scope.
@@ -102510,33 +102510,25 @@ Bias in wording, examples, unit choices or principle weighting can make a rule a
 
 ### E.5.4:4 - Solution — Principle‑Taxonomy‑Guided Bias Audit
 
-1. **Bias‑Lens set**
-   Every normative pattern is assessed through **five lenses** that match the
-   Principle classes from **E.3**:
-   `Gov`, `Arch`, `Epist` (epistemological and ontological), `Prag`, `Did`.
+**Examine the rule from all five classes in E.3.** Gov asks who can decide or change what the rule relies on. Arch asks which parts, interfaces or invariants the result depends on. Epist asks what the terms refer to and what supports the inference. Prag asks whether the work is feasible and worth doing for its intended use. Did asks what the reader needs to recognize and do in their role, with the help available for the intended use. If independent performance is promised, check which choices the reader must make. For each, ask whether the emphasis is justified and whether an omission would change how someone uses the rule. E.3:4.1 assigns a principle to one class for precedence. Here the same rule is examined from all five. Give each concern the weight its effect on use warrants.
 
-2. **Equilibrium question**
-   For each lens ask:
-   *“Does the pattern give this class more weight than its use justifies, or omit a concern from this class that changes use?”*
-   *Examples:*
-   *   Over‑reliance on `Epist` precision may ignore `Prag` cost.
-   *   An `Arch` metaphor may hide meaning the `Did` audience needs.
+**State what carries across disciplines.** Express the rule without its example. Name the action or conclusion it licenses and the conditions it relies on. For each discipline in which you claim it applies, explain what plays the relevant parts there and how its practice supplies the conditions. One argument can cover several disciplines when their definitions or work arrangements establish the same relation. A case can illustrate how to use that argument. A shared word, an attractive analogy or successful joint work can suggest a transfer to investigate.
 
-3. **Scope‑or‑Balance rule**
-   * If an unjustified imbalance is found and universality is intended, revise the claims or explanation to correct the weighting or address the neglected concern.
-   * If a domain‑specific pattern has an intentional imbalance, state its scope. For example, *“Applies primarily to thermodynamic systems.”*
+Match the grounds to the conclusion. A derivation together with a warranted interpretation can establish what follows under specified conditions. For a predicted change in performance, use an adequate comparison in the receiving practice or explain why evidence from elsewhere bears on the effect under the receiving conditions. Account for material differences such as workload or case mix. To say who may act, recover the decision or rule that gives that authority. Where a condition is unknown, state what the recipient can already conclude and what they would have to establish for the further use.
 
-4. **Bias annotation**
-   The pattern carries a short **Bias-Annotation** reporting the result of the five-lens examination, including any material weighting, its justification, and the scope or correction needed for the intended use.
+**Test the boundary.** If a plausible alternative gives a different conclusion, try a case that decides between the two. A derivation can already settle the claim throughout the stated scope. If an instance meets the stated conditions and contradicts a factual conclusion asserted for every such instance, revise that claim. For a normative rule, distinguish breaking the rule from a valid exception to it. An unauthorized release can show a violation. An authorized exception can disprove the claim that every release requires the same approval. To retain a narrower rule, name a condition the practitioner can establish independently of the promised result and show why the conclusion follows within it. A case outside the conditions can expose a limit to use. It can also defeat a separate promise that every intended recipient will meet those conditions. For a claim about frequency or average effect, examine what the observations support about that frequency or effect.
 
-   Keep workflow checklists, reviewer metadata and other data outside the Core, along with tips on data formats and data governance.
+**Report the material result.** The Bias-Annotation records the justified emphasis and any repair or scope limit that changes use. If a local rule is intended for one practice, explain the local condition that matters. For universal-core placement of a durable U-kind, A.8:3 and E.24.UK govern the projections into at least three foundationally different domain families and the other admission conditions. Workflow checklists, reviewer metadata and data-format advice belong outside Core.
 
 ### E.5.4:5 - Archetypal Grounding (System / Episteme)
 
-| Bias lens | Example imbalance | Conceptual correction |
-|-----------|------------------|-----------------------|
-| `Arch` vs `Did` | A pump pattern uses abstract terms from category theory. | Add a plain-language account of the boundary or move the abstraction to an appendix. |
-| `Epist` vs `Prag` | The definition of an episteme trust score uses complex logic but gives no guidance on empirical cost. | Add a note on the cost of collecting evidence or limit the pattern's scope. |
+When can an earlier check help settle a later acceptance criterion? Combine what it established with the other evidence available for the relevant item and state. First check that at least one situation fits the evidence. Conflicting records may need reconciliation. If all the possibilities that fit meet the criterion, the receiver can accept that aspect. If they all fail it, the receiver can reject it. If both remain possible, report the established part or obtain the observation that decides between them. An applicable risk rule may also authorize action on incomplete evidence. Other acceptance criteria and the authority to release the item keep their own force.
+
+In mechanical inspection, the gauge reads 20.01 mm on an identified shaft. For this check the inspection procedure warrants an absolute error bound of 0.01 mm. The whole interval fits a receiving tolerance of 19.95–20.05 mm. If the measurement is valid for the shaft in its present state, the inspector can accept its diameter. A reading of 20.20 mm with the same bound settles rejection. Two checks can also settle acceptance together, one establishing the lower limit and the other the upper limit for that shaft in the same state. A requirement for performance under load still calls for evidence about the loaded assembly. Suppose the shaft passes the diameter check but a damaged keyway lets the assembly slip during its rated-load test. That outcome defeats the stronger rule that passing the diameter check guarantees performance under load. The diameter finding still holds.
+
+In archival description, the receiving question might be which date the accession register gives for a photograph. A verified link from the photograph's identifier to its register entry and a legible entry giving the date settle that question. Dating the exposure itself requires grounds for interpreting the entry as a reliable record of the exposure date. An accession date can be entirely correct and still answer a different question. These two disciplines support the same conditional principle. Whether either team saves time by reusing checks is a further empirical question.
+
+A reader who can follow the inspection example may still need help recognizing which archival date matters. Explain the receiving criterion in the archivist's vocabulary. The distinction between what the record establishes and what the next decision requires survives that change of wording.
 
 ### E.5.4:6 - Conformance Checklist
 
@@ -102544,7 +102536,7 @@ Bias in wording, examples, unit choices or principle weighting can make a rule a
 |----|-------------|---------|
 | **CC‑BA.1** | Each Core pattern **SHALL** include a *Bias-Annotation* stating the material result of the five-lens examination and any justified scope limitation. | Makes the audit’s conclusion usable. |
 | **CC‑BA.2** | A pattern labelled “universal” **MUST NOT** privilege a single lens without justification or scoping note. | Preserves trans‑disciplinary integrity. |
-| **CC‑BA.3** | If scope is declared, the pattern **SHALL** state its rationale. When cross-domain translation is claimed or required, it **SHALL** reference the mapping or rationale supporting that translation and state its limits. | Keeps pathways open for other calculi. |
+| **CC‑BA.3** | The pattern **SHALL** justify its declared scope, give or cite the correspondence and its limits for any claimed or required translation between domains, and give the interpretation and grounds for the receiving action or inference for any claimed or required use in another discipline. | A reader can check an identifier translated between two collections in one discipline as well as a rule applied across disciplines. |
 | **CC‑BA.4 Universality claim and applicable evidence** | A pattern labelled **“universal”** identifies the ClaimScope for that claim, the population or bearer it covers, its qualification window, and its intended use. When the claim is universal-core placement for a durable U-kind candidate governed by **E.24.UK**, apply **A.8:3**'s complete cross-domain projection test. `Diversity_P` or `IlluminationSummary` supports that test only through its governing C.17, C.19, or direct pattern. Neither is a standalone gate. | Keeps the claimed scope and its applicable evidence explicit. |
 
 ### E.5.4:7 - Consequences
@@ -102696,7 +102688,7 @@ The cases make application and limits inspectable. A claim of wider applicabilit
 |----|-------------|---------|
 | **CC‑AG.1** | Every architectural pattern **SHALL** contain a section headed *“Archetypal Grounding”* under E.8's heading rules. | Keeps grounding findable across all Parts. |
 | **CC‑AG.2** | The Archetypal Grounding section **MUST** illustrate the rule with both `U.System` and `U.Episteme` when it applies to both. A single-substrate rule follows CC‑AG.3. | Makes the claimed application and scope inspectable. |
-| **CC‑AG.3** | If a rule intentionally applies to only one substrate, the subsection **SHALL** state the scope limitation and justify it against the five Principle‑Taxonomy lenses (`Gov`, `Arch`, `Epist` (epistemological and ontological), `Prag`, `Did`). | Prevents bias from passing unnoticed. The five lenses connect the justification to the Bias‑Audit guard‑rail. |
+| **CC‑AG.3** | For a rule specific to one substrate, the subsection **SHALL** identify what its application requires of that substrate and justify the scope. Use the five Principle-Taxonomy lenses in E.5.4 to find assumptions that could change that judgement. | A reader can distinguish a limit of the rule from a limit of the examples supplied. |
 | **CC‑AG.4** | Patterns lacking a compliant Archetypal Grounding subsection **MAY NOT** progress to “Accepted” status. | Keeps grounding a condition of acceptance. |
 
 ### E.7:7 - Consequences
@@ -102704,7 +102696,7 @@ Applicable, contrasting cases let readers inspect how the rule works and where a
 
 
 ### E.7:8 - Rationale
-Tell-Show-Show places the rule next to applicable cases and makes their shared conditions and differences inspectable. Making that connection explicit implements **P‑2 Didactic Primacy** while **P‑1 Cognitive Elegance** keeps the grounding proportionate to the rule’s scope. The five Principle lenses connect scope justification to the **Taxonomy-Guided Bias Audit** in E.5.4.
+Tell-Show-Show places the rule next to applicable cases and makes their shared conditions and differences inspectable. Making that connection explicit implements **P‑2 Didactic Primacy** while **P‑1 Cognitive Elegance** keeps the grounding proportionate to the rule’s scope. The five classes in E.5.4 can expose an assumption about a substrate. Establish which property the operation requires and where it is available. A case can show that the operation works for a system. To claim that only systems support it, establish why an episteme cannot supply the required property. When evidence covers only the system application, state that limit on the evidence.
 
 ### E.7:9 - Relations
 
@@ -103198,7 +103190,7 @@ If the recognition text says “this pattern helps with a bounded working situat
 
 If a pattern claims **universal** or **transdisciplinary** status, that claim must already be visible in the recognition text.
 It is not enough for universality to appear only later in a guidance or check sheet, declaration block, or `SoTA-Echoing` rationale.
-A broad claim should therefore be demonstrated in the recognition text through **heterogeneous reader or domain situations adequate to the claimed breadth**. The separate three-domain minimum in `A.8` applies to universal-core U-kind admission.
+Make a broad claim recognizable through **heterogeneous reader or domain situations adequate to the claimed breadth**. Vary the reader when the claim concerns who can use the explanation. For a claim across disciplines, explain what enables the same operation or inference in the receiving disciplines. One argument can cover all disciplines that meet its premises. Where that depends on a disciplinary premise, show what establishes it in the receiving practice. The separate three-domain minimum in `A.8` applies to universal-core U-kind admission.
 When a compact matrix helps, `F.16` is the preferred template for showing that breadth.
 If `SoTA-Echoing` carries an FPF-governed claim, the practical implication of those rows should be recoverable from the recognition text and case bank rather than remaining a late-only justification layer.
 
@@ -103650,7 +103642,7 @@ For boundary/interface/protocol/declaration patterns, prefer A.6.B-scoped claim 
 | **CC-SG.1** | Every new pattern **SHALL** follow the section order defined in the Canonical Template (Title block -> … -> Footer marker). | Guarantees structural comparability. |
 | **CC-SG.1a (Initial pattern draft shape).** | The first non-empty authored version of a pattern **SHALL** use the canonical section frame (Title block -> Footer marker). Authors **MUST NOT** start from a pre-template opening memo and promise to backfill canonical sections later. | Prevents large late-stage structural rewrites and keeps drafting aligned with `E.8` from the first substantive pass. |
 | **CC-SG.2 (Grounding required).** | Every pattern **MUST** include content-bearing *Archetypal Grounding*. Apply §4.2.1.3 to connect its cases or demonstrations to the explained relations and to supply the material variation required by the declared use. A reduced case or ordinary/non-use boundary can serve a bounded grounding question; the complete explanation still supplies its common grounds and the correspondences needed for its promised scope. An omission placeholder is nonconforming. | Makes the subject and its applications inspectable without treating a section or fixed example count as sufficient grounding. |
-| **CC-SG.3** | The *Bias-Annotation* section **SHALL** state the material result of the five-lens examination under `E.5.4`, including any justified weighting or scope limitation. | States the cross-disciplinary conclusion. |
+| **CC-SG.3** | The *Bias-Annotation* section **SHALL** state the material result of the five-lens examination under E.5.4, including any justified weighting or scope limitation. For an intended use in another discipline, give or refer to the grounds for applying the rule there. | Lets the recipient decide which conclusion holds in their practice. |
 | **CC-SG.4** | Deontic normative sentences **MUST** use only RFC-style keywords (see **H-8**); RFC keywords **MUST NOT** appear inside `Definition:`/`Invariant:`/`Well-formedness constraint:` blocks. When enforceable, admissibility/validity predicates **SHOULD** be referenced by id from the Conformance Checklist (rather than duplicated as “X MUST …”). Informal deontic verbs are prohibited in normative clauses. | Prevents ambiguity between obligation language and model validity; improves auditability. |
 | **CC-SG.5** | Pattern prose **SHOULD** demonstrate adherence to Style Principles **S-0 … S-19**; reviewers are empowered to request revision when clarity or didactic quality suffers. | Embeds common narrative voice without rigid policing. |
 | **CC-SG.6 (SoTA-Echo required).** | Every pattern **SHALL** include a **SoTA-Echoing** section. It names the practice question and either gives the smallest adequate best-known comparison or states the source gap. Architectural patterns **SHALL** use the full comparison contract below. A definitional pattern may use a reduced comparison, but it still names the ambiguity or terminology question, the best-known current line, the serious default it improves or rejects, and the pattern locus changed. Internal coherence, official status, or a current edition is not a substitute. | Keeps source use tied to the pattern's working problem and prevents an empty mandatory section from becoming a prestige shelf. |

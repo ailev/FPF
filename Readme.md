@@ -69,14 +69,14 @@ Repeat the comparison on varied tasks before drawing a broader conclusion. The e
 
 ## What is available
 
-**FPF Core** contains 406 patterns in 18.646 million characters. It supplies transdisciplinary concepts and methods, including methodological work, architecture construction and comparison, and open-ended development. **36 Domain Principle Frameworks (DPFs)** supply subject-specific methods: 26 belong to four Suites, and ten have their own files directly in the DPF catalogue.
+**FPF Core** contains 406 patterns in 18.651 million characters. It supplies transdisciplinary concepts and methods, including methodological work, architecture construction and comparison, and open-ended development. **36 Domain Principle Frameworks (DPFs)** supply subject-specific methods: 26 belong to four Suites, and ten have their own files directly in the DPF catalogue.
 
 A DPF describes one field through a connected pattern language. A **Suite** describes a composite discipline through its constituent fields and their relations. An **Architectural Reference** explains how the relevant language is arranged and why: within a framework, across a Suite, or across the Library.
 
 | DPF Suite | Working subject | DPFs | Patterns | Text, M characters |
 | --- | --- | ---: | ---: | ---: |
 | [Engineering](DPFs/Engineering%20DPF%20Suite/) | Designing, realizing, changing and maintaining systems; knowledge access, semantic integration and control architecture design. | 5 | 99 | 2.854 |
-| [Management](DPFs/Management%20DPF%20Suite/) | Direction, goals, commitments, operations, resources, markets, communities and organizational change. | 14 | 201 | 5.610 |
+| [Management](DPFs/Management%20DPF%20Suite/) | Direction, goals, commitments, operations, resources, markets, communities and organizational change. | 14 | 201 | 5.611 |
 | [Foundational Thinking](DPFs/Foundational%20Thinking%20DPF%20Suite/) | Mathematical and physical accounts, models, algorithms and usable notation. | 5 | 71 | 2.008 |
 | [Human Capability Engineering](DPFs/Human%20Capability%20Engineering%20DPF%20Suite/) | Human learning and somatic change, connected to capability in later work. | 2 | 34 | 1.251 |
 
