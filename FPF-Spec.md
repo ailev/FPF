@@ -473,7 +473,7 @@ Use Part and cluster headings to locate content. E.4 explains how Kernel, broade
 | E.4.PFIP | **Principle-Framework Publication Integration and Preservation** | Stable | Compares accepted source contributions and predecessor publication content with one candidate publication, keeping one-to-one expression and split-or-merge allocation cases distinct. | **Builds on:** C.2.1, E.24.PUB. **Coordinates with:** E.17, E.11, C.33, C.34, E.8. **Used by:** E.4.FPF, E.4.DPF, E.4.DPF.DA. |
 | E.5 | **Four Guard-Rails of FPF** | Stable | Umbrella for four FPF architectural constraints: the DevOps Lexical Firewall, Notational Independence, Unidirectional Dependency and Cross-Disciplinary Bias Audit. Use it to identify which guard-rail governs a Core, Tooling or Pedagogy change, then use E.5.1–E.5.4 for the applicable rule. These constraints do not select a lint tool or supply a domain safety decision. | **Builds on:** E.2, E.3. **Prerequisite for:** E.5.1, E.5.2, E.5.3, E.5.4. |
 | E.5.1 | **DevOps Lexical Firewall** | Stable | Keep incidental implementation paths, commands and runnable teaching code outside normative Core, citing executable illustrations by conceptual name. Retain the exact syntax needed by a governed publication form, protocol or grammar, and operative mathematics under E.5.2. Use this lexical rule with E.5.2 for notation and E.5.3 for semantic dependency; an optional linter is not the rule. | **Refines:** E.5. **Constrains:** All Core patterns. |
-| E.5.2 | **Notational Independence** | Stable | Keep FPF meaning recoverable while choosing a useful expression. Explain interpretation and any reasoning or construction operation; state correspondences and losses when translating, comparing or substituting expressions. A semantic mapping preserves only its named claims and conditions, not equal reader preparation, capability or effort. Use A.6.3.RT for a representation transition and A.6.3.RT.OE for an operative expression. | **Refines:** E.5. **Constrains:** All Core patterns. |
+| E.5.2 | **Notational Independence** | Stable | Explain how to read a table, diagram or formula and use it for the intended work. When replacing another expression, compare what the recipient can still determine or choose and what information that takes. Check a required delivery form against its convention. Use A.6.3.RT to change representations, A.6.3.RT.OE to construct an operative expression and B.5.MR to compare changed model assertions. | **Refines:** E.5. **Constrains:** All Core patterns. |
 | E.5.2.L | **Languages, Expressions and Interpretation** | Stable | Establish how a language forms expressions. For a representation language, recover the permissible readings. For a language of designations, recover how an entry identifies an entity under the applicable rules and bindings. | E.5.2, C.2.1, A.6.3.RT and F.18. |
 | E.5.3 | **Unidirectional Dependency between FPF Families** | Stable | Which family may supply a rule to another? May a guide rely directly on Core? Check permitted directions and cycles, including imports within a family. E.4.PFR identifies the claim another edition needs for a particular use. | **Part of:** E.5. **Constrains:** Imports in the family architecture of E.4. |
 | E.5.4 | **Cross-Disciplinary Bias Audit** | Stable | Inspect a normative pattern through Gov, Arch, Epist, Prag and Did lenses for a source-discipline bias or an unjustified imbalance. Repair the explanation or state the intended scope, and retain the useful Bias-Annotation. Use D.5 for bias, fairness or human-impact audit; use A.8 only for universal-core placement of a durable U-kind candidate governed by E.24.UK. | **Refines:** E.5. **Constrains:** All Core patterns. **Links to:** Part D. |
@@ -19605,6 +19605,8 @@ Check each target-side connective against the source or same-EntityOfConcern cor
 ##### A.6.3.RT:4.5.b - Loss and recoverability
 
 State which distinctions, inspection possibilities, uncertainty cues, or local qualifiers are lost, foregrounded, rearranged, or harder to recover. The target may remain useful under a reliability claim bounded by the source or with an explicitly narrowed admissible use. If the target is admissible only for a declared narrower use with source return, A.6.3.CSC is primary.
+
+If the target omits a condition, establish how the recipient is to interpret the omission. An extract that says nothing about joint operation may leave the reader to consult the source. A replacement model that expressly permits the settings of two controllers to be chosen independently can admit a combination the source ruled out, even when each controller still has exactly the same settings. Compare the permitted combinations for the same inquiry under B.5.MR. For a strict abstraction, establish a feasible source answer, show that every source answer remains permitted and identify an additional answer permitted by the replacement. When the target provides no answer to that inquiry, report the limit of the extract's use.
 
 ##### A.6.3.RT:4.5.c - Decode-mediated entry
 
@@ -102120,7 +102122,7 @@ Apply the **Lexical Firewall** to the subject the text governs:
 2. **Retain the syntax needed to test conformance of a concrete subject.**
    When a rule governs a publication form, protocol or grammar, it **MAY** state the exact syntax needed to apply that subject's conformance condition. Name the subject and its edition or use boundary. The exception applies only where replacing the syntax with a conceptual alias would remove an operative condition.
 
-   A heading marker in a heading grammar qualifies. An unrelated build command does not. Calling executable code a grammar example supplies no exception.
+   E.8 H-2 specifies the characters that separate a heading identifier from its title. An editor can explain the separator in prose. To decide whether a submitted heading conforms, inspect the characters in that heading. A correct explanation of the rule can accompany a heading that fails it. An unrelated build command belongs with the tool that uses it.
 
 3. **Keep executable teaching in its teaching or Tooling source.**
    A Core concept needing a runnable illustration cites the teaching or Tooling artifact by conceptual name. Runnable teaching programs, concrete execution paths and commands remain there. A subject-defining syntax fragment under item 2 is not a runnable illustration merely because it appears in a code span or block.
@@ -102213,7 +102215,11 @@ A definition can depend on unstated conventions of one glyph set or diagram gram
 
    Name the source expression and the expression being compared with it. Name their representation languages when the rules matter to interpretation. State the correspondences for the claims and conditions needed by the intended use. If a relevant distinction is lost, state the loss and limit the equivalence claim accordingly.
 
-   A meaning-preserving mapping leaves open what operations a reader can perform with each expression, with what preparation and effort.
+   First check that the display, its conventions and the other information available to the recipient fit at least one possible situation. If they conflict, resolve the conflict before relying on the display. For a value or a yes-or-no decision, start with the answer the recipient needs. Could two situations consistent with everything the recipient gets yield the same display and different answers to that question? If so, locate the missing information or limit the use. A display can determine whether a limit was exceeded even when it gives only a range for the value. To rely on it, show that every value still possible gives the same decision. Count any independent information used in that argument among the prerequisites.
+
+   The recipient may instead need any one acceptable choice. A choice that works in every situation still consistent with the display can be made now, even when the complete lists of acceptable choices differ. If every situation has a solution but they share none, another observation may show which one to choose.
+
+   Show how the intended reader obtains the determined answer or makes the supported choice with the preparation and resources available. Use A.6.3.RT.OE when the expression needs to support a calculation, comparison or edit. Use B.5.MR to compare models when the substitution also changes what they say is possible about the same subject.
 
 3. **Reference the conceptual role.**
    If the Core cites a diagram, refer to its conceptual role, such as a boundary schematic, rather than making a file or syntax name part of the concept.
@@ -102221,10 +102227,8 @@ A definition can depend on unstated conventions of one glyph set or diagram gram
 4. **Keep conceptual prefixes neutral.**
    Use E.10.P for the prefix registry and required anchors. A conceptual label's meaning **MUST NOT** depend on its expansion into a serialized name or URI. If a tool supplies such an expansion, describe the relation between the conceptual label and the tool's name or URI in Tooling or Pedagogy, and mark it informative.
 
-5. **Keep conceptual forms distinct from tooling formats.**
-   Cards, tables, conformance checklists and guards in the Core specify conceptual content and relations.
-
-   Their data models, machine-checking formats and linters belong in Tooling. Core forms require no data-related or lint-specific notation. Ease of machine checking does not justify a Core concept or rule.
+5. **Identify what the form governs.**
+   A Core card or table can identify what the reader needs to record and how the entries relate. Another expression can carry those same claims. When the work calls for a file, publication or message in a specified form, check the submitted expression against the convention for that form. E.5.1:4 permits the exact syntax needed for this judgement. A correctly formed submission can still contain an incorrect claim. An independently specified tool or delivery procedure has its own conditions. When proposing a new syntax rule, explain what the users of the governed form need it for. A restriction needed solely by one validator belongs in Tooling with that validator. Put the implementation of the automated check there as well.
 
 The first result is an expression whose meaning can be recovered, with an explanation of any reasoning or construction step it supports. Include a semantic mapping when the use compares it with another expression or depends on the content it carries from that expression.
 
@@ -102242,7 +102246,7 @@ The diagram can help the user examine connections across the boundary. That oper
 
 In the episteme case, F-G-R assurance components can be described in prose and represented in a diagram. Explain which elements denote the assurance components and which relations denote their connections. A triple-store serialization stores this content using tooling conventions. Its storage names do not define the components.
 
-An R-score table can also be rendered as a heatmap. State which score or interval each colour denotes. If several scores share a colour, retain the values or limit the equivalence claim to the displayed intervals.
+An R-score table can also be rendered as a heatmap. State which score or interval each colour denotes and how the review threshold treats equality. For a cell that represents several scores, apply the review rule to every score still possible. If all would be flagged, flag the cell. If all would pass, the cell passes this threshold check. If some would be flagged and others would pass, consult the values or other available evidence for that decision. For an order requiring the numeric table itself, deliver the table even if the heatmap settles every flag.
 
 A project instruction permits a motor to start only while both the clamp-closed and pressure-present signals are true. A local sketch replaces this with `clamp closes -> pressure arrives -> motor starts`, where each arrow means only that one event precedes the next.
 
@@ -102254,7 +102258,7 @@ Compare the source condition with the sketch's timing relations. Show that motor
 
 | ID | Requirement |
 |----|-------------|
-| **CC‑NI.1** | A Core pattern **MUST** make its concepts, claims and conditions recoverable without depending on any one notation. The interpretation of meaning-bearing signs and relations is stated. |
+| **CC‑NI.1** | A Core pattern **MUST** make its concepts, claims and conditions intelligible independently of the notation used to present them and explain how to interpret meaning-bearing signs and relations. Where the claim concerns conformance to a particular form, the explanation identifies the governing convention and retains the syntax needed to test the submitted expression (E.5.1:4). |
 | **CC‑NI.2** | An illustrative expression **SHALL** be marked “informative”. When an expression carries a reasoning or construction step, explain that operation and its prerequisites locally or refer to the guidance that defines them. |
 | **CC‑NI.3** | When expressions are compared, translated, substituted or relied on as carrying the same content, the semantic mapping **MUST** identify the compared expressions, their interpretation rules where needed, the claims and conditions preserved, and any use-relevant loss or limit. The mapping claim does not assert equal user capability or effort. |
 | **CC‑NI.4** | A conceptual prefix follows E.10.P's registry and anchor rules. If its expansion into a serialized name or URI is shown, that expansion **SHALL** be marked *informative* and **MUST NOT** be required to interpret the concept. |
@@ -102274,7 +102278,7 @@ A notation can preserve meaning while changing which operations a reader can per
 
 A prose-first alternative treats diagrams and written calculi as secondary illustrations. It keeps verbal definitions accessible, but can exclude an operation from the normative account when the operation is performed through the expression. Reject that blanket restriction.
 
-For example, in the Euclidean construction in A.6.3.RT.OE:5.1, the same segment participates as a radius and as a triangle side. The prepared expression helps the reader combine those relations. Its role needs an explanation of that operation, beyond a caption describing the picture.
+For example, in the Euclidean construction in A.6.3.RT.OE:5.1, the same segment participates as a radius and as a triangle side. The prepared expression helps the reader combine those relations. Its role needs an explanation of that operation, beyond a caption describing the picture. Either intersection of the two circles yields a valid triangle on the given segment. A request for the triangle on a specified side adds a condition to that construction.
 
 A second alternative is to require one canonical notation. This can provide shared interpretation and manipulation rules within a practice whose readers have learned them. Retain that option for such a practice. Extending it across FPF would also require readers in other practices to acquire those conventions, even when another expression supports their task.
 
@@ -102370,7 +102374,7 @@ The added criteria entail the preceding criteria for the same individual: Refere
 
 **A system and its designation.** A maintenance planner finds equipment code P-17 on a drawing. The drawing and maintenance register use the same form. The designated pump depends on the issuing plant and the date of assignment. A later reassignment can change which pump a job concerns within the same code language. To route the job, resolve the assignment in force when the work is to be done. To establish what happened to the pump, consult the work evidence.
 
-**An episteme and its reading.** Two teams accept exactly the same measurement table. On ordinary numeric entries they calculate the same totals. One report explicitly instructs its reader to treat an empty cell as zero. The other uses it for a missing observation. The teams can share the table language and still obtain different counts of observed values under the reports' effective rules. If a new edition of the table language mandates one reading for every report, the change now concerns that edition. Neither report by itself establishes the counterfactual readings of every conforming report.
+**An episteme and its reading.** Two reports use the same table language. Each lists two scheduled gauge readings, 8 in the morning and a blank at noon. One report instructs the reader to use zero for a blank when calculating the daily mean. The other omits blanks and gives the number of readings used. With these entries the first report gives a mean of 4. The second gives 8 from one reading. To report that the gauge actually read zero, establish that the noon measurement took place and yielded zero. A reliable witness can establish this. So can a record of that reading, including a blank when there are grounds that the recorder used it to record a measured zero on this occasion. An arithmetic default supplies no such observation. If a new edition of the table language prescribes a calculation for every report, the scope of the convention changes. A rule in one report governs that report.
 
 ### E.5.2.L:6 - Bias-Annotation
 
@@ -102385,7 +102389,7 @@ A published grammar makes formal conventions easy to inspect. In a workplace, pe
 
 ### E.5.2.L:8 - Common Anti-Patterns and How to Avoid Them
 
-Routing a job because the printed code matches can send it to the wrong equipment. Resolve the designation under the applicable assignment. Treating a more formal wording as a stricter rule can also change a decision without warrant. Identify a previously permitted case that the revised rule excludes before claiming it is stricter.
+Routing a job because the printed code matches can send it to the wrong equipment. Resolve the designation under the applicable assignment. Treating a more formal wording as a stricter rule can also change a decision without warrant. Apply B.5.MR:4.2 to the rules as models of the same inquiry. Establish that the revision has a feasible answer, preserves the earlier conditions for every answer it permits and excludes a formerly possible answer.
 
 ### E.5.2.L:9 - Consequences
 

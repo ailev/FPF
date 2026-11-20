@@ -86,7 +86,7 @@ These selected connections show how results pass between methods. Enter where th
 
 2. **Use the interpretation to justify a useful change of expression.** [NOT.4 - Construct Transformations of Expressions That Preserve Their Use](#not4---construct-transformations-of-expressions-that-preserve-their-use) can replace the formula by `2*q + b`. Real arithmetic establishes the same output for every admitted q and b. The graph exposes the dependence; the compact formula makes the shared parameter easy to locate.
 
-3. **Give a translation only the work it can support.** [NOT.5 - Translate between Notations while Tracking Lost Distinctions](#not5---translate-between-notations-while-tracking-lost-distinctions) produces the table `(0,1), (1,3), (2,5)` at b=1. This supports lookup at the listed inputs. The table alone does not determine the output at q=3: `2*q + 1` and `2*q + 1 + q*(q-1)*(q-2)` agree on all three rows but give 7 and 13 there. Keep the generating rule with the table when the receiver needs other inputs or a rule change. If only the three listed answers are required, stop with the table.
+3. **Give a translation only the work it can support.** [NOT.5 - Translate between Notations while Tracking Lost Distinctions](#not5---translate-between-notations-while-tracking-lost-distinctions) produces the table `(0,1), (1,3), (2,5)` at b=1. This supports lookup at the listed inputs. The table alone does not determine the output at q=3: `2*q + 1` and `2*q + 1 + q*(q-1)*(q-2)` agree on all three rows but give 7 and 13 there. At b=1, an independently established constant slope in q supplies the missing premise for other q values (NOT.Reference:4.2). For another b, a known direction of change may settle a limit. The edit in step 4 uses the dependence on b in the supplied rule. If only the three listed answers are required, stop with the table.
 
 4. **Interpret the request before propagating it.** The group asks for r(1,b)=4 while retaining the coefficient 2. NOT.6 uses the correspondence between that table row and the formula to obtain `2*1 + b = 4`, hence b=2. Set the graph parameter to 2 and recalculate the table as `(0,2), (1,4), (2,6)`. The unedited old cells were derived values, not instructions to hold them fixed. If the request also keeps r(0,b)=1, it requires b=1 and conflicts with b=2. Return the two requirements to the group for a decision. If a separate record says that an output of 3 was observed at q=1, keep that observation beside the new prediction of 4. A parameter change does not revise the past event.
 
@@ -187,11 +187,15 @@ NOT.4 permits the transformation `q + q + b` to `2*q + b` under that interpretat
 
 NOT.5 translates the rule at b=1 into the table `(0,1), (1,3), (2,5)`. Lookup at those three inputs survives. The table alone does not determine the value at q=3: both `2*q + 1` and `2*q + 1 + q*(q-1)*(q-2)` agree on its rows, but give 7 and 13 respectively at q=3.
 
-If the receiving work needs the general rule, retain that rule or a sufficient construction of it alongside the table. If it only needs the three listed values, the table can suffice.
+Suppose the team has independently established that at b=1 the output has a constant slope over all the q values under consideration. With exact values, the rise from 1 to 3 between inputs 0 and 1 fixes the slope at 2. The intercept is 1, the third pair fits, and the output at q=3 is 7 for b=1. The table together with that constant-slope premise determines the rule in q at this setting. Joining the points by straight segments supplies no premise about the slope beyond the plotted inputs.
+
+To change b, consider what is known about the new setting. Both `2*q + b` and `2*q + 2*b - 1` give the same values for every q at b=1. Suppose the output at q=3 is known to be nondecreasing in b between 1 and 2. At b=2, the reader can then certify an output of at least 7. For an exact prediction, check whether the rules still possible agree at the new input. The two rules above give 8 and 9 at q=3, b=2. For a requested setting, check whether the proposed b reaches the requested output under every rule still possible.
+
+For lookup at the three listed inputs, the table alone suffices. When the order calls for the generating rule itself, supply it in the agreed form.
 
 ### NOT.Reference:4.3 - Interpret an edit before propagating it
 
-Now a participant asks that the output at q=1 become 4 while the coefficient 2 remains fixed. NOT.6 treats this as a constraint on the rule, not as an isolated replacement of a displayed cell. It gives `2*1 + b = 4`, hence b=2. The graph receives the new parameter; the table becomes `(0,2), (1,4), (2,6)`. Its former values were derived outputs, so they are recalculated.
+Now a participant asks that the output at q=1 become 4 while the coefficient 2 remains fixed. NOT.6 treats this as a constraint on the rule, not as an isolated replacement of a displayed cell. Here the supplied rule in :4.1 gives `2*1 + b = 4`, hence b=2. The alternative rule in :4.2 would require b=1.5. Its agreement at b=1 cannot justify the same edit. The graph receives the new parameter; the table becomes `(0,2), (1,4), (2,6)`. Its former values were derived outputs, so they are recalculated.
 
 If another participant also requires the old output at q=0 to remain 1, that requirement gives b=1. It conflicts with b=2 under the retained rule. The useful result is the conflicting pair of requirements and the assumption on which it depends. Silently choosing one edit would conceal the decision that the group must make.
 
@@ -1132,15 +1136,15 @@ Translate a small source expression, perform the intended operation in the targe
 
 Compare this result with what follows from the source under its declared interpretation. A mismatch locates a failed translation rule, a missing premise or a target operation that answers a different question. Repair the affected correspondence before relying on that answer.
 
-A target-side answer can be spurious for the source if the target admits additional possibilities. Retain the source restriction or construct the needed reflection argument. For example, allowing arbitrary real values does not preserve a source question that admits only whole counts.
+A target column can store real numbers and still carry whole counts exactly. Check which values the translated model admits and which result the recipient needs. Suppose the source permits counts from zero through three. A calculation over all real numbers from zero through three can establish that every admissible count is below four, because the bound holds throughout the larger range. Finding a value of one and a half in that range supplies no feasible count. To return a feasible choice, show that the proposed value belongs to the source and satisfies its other conditions.
 
 One successful expression establishes that case. A reusable translation needs an argument for its admitted family, such as a rule-by-rule construction over expressions. A separating example can refute a proposed general claim. Additional checking is warranted when its result can change the use or repair of the translation.
 
 #### NOT.5:4.4 - Expose distinctions the target collapses
 
-Look for different admitted source expressions with the same target expression. Ask whether the required operation gives different answers on them. If it does, the target alone cannot determine that answer: the translation has removed something the work needs. Section :5.2 makes this failure visible through cue order.
+Look for different admitted source expressions with the same target expression. When the recipient needs an exact value or verdict, two such originals with different correct answers show that the target alone cannot determine that answer. Section :5.2 makes this failure visible through cue order.
 
-If every collapsed pair gives the same needed answer, the loss need not obstruct that question. For a claim about the whole admitted family, justify that independence throughout it. MATH.2 supplies the mathematical construction through equivalence classes when that form is useful.
+If no admitted original fits the target under the supplied conventions, investigate the mismatch. For a value or verdict, show that the answer is the same within each group of source expressions that the recipient cannot tell apart. MATH.2 supplies the construction through equivalence classes when that form is useful. For a request to construct any admissible solution, return one that works for every source possibility in the group. Two originals may allow different sets of solutions with an option in common. Across three or more possible originals, each pair can have a solution in common while no solution works for the entire group. A request for all solutions would require recovering the full set. Establish the necessary property for each group covered by the translation.
 
 Include differences in assumptions, unfinished choices, references and reading context when they can change the answer. Equal visible strings can have different interpretations under different contexts. Conversely, two differently laid out diagrams can express the same directed structure when position has no role in their interpretation.
 
@@ -1217,7 +1221,7 @@ When the translation needs checking, use the questions relevant to its declared 
 
 - Can the recipient construct the target from the source parts, connections and required context?
 - Can a target result be returned as an answer to the source question at the stated strength?
-- Do two collapsed source cases require different answers for any promised operation?
+- For an exact value or verdict, could two source cases give the same target and require different answers? For a request to supply any one acceptable solution, does the offered solution work in every source case that the recipient cannot distinguish here?
 - Does a necessary supplement have a usable recovery rule and remain associated with the right source?
 - Is the round-trip claim about expressions, interpreted structures or selected consequences?
 - For an edited target, is the backward policy explicit, including incompatible edits?
