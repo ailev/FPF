@@ -15277,7 +15277,7 @@ For a selected intervention, use applicable observations of ordinary, exceptiona
 
 Observe comparable use after the intervention, including maintenance and newly created tasks. Compare the proposed mechanism with the changes observed in use. A shorter ticket queue can result from users abandoning the path; that is not evidence of reduced task burden.
 
-Return the bounded result and remaining uncertainty. Continue, revise or retire the intervention according to that evidence. If only a desk calculation or pilot exists, say so; it cannot establish lasting production benefit.
+Before retiring a platform procedure, distinguish work that disappears at its source from requests that callers still need served. If the change prevents the trigger, establish where the trigger can no longer recur and what users still need from the platform. For continuing requests, identify the results and permissions callers depend on. Establish where the supported interface preserves them and how it returns an exception to someone who can resolve it. One eligible request that appears to succeed with the wrong result can rule out retiring the old procedure for all requests. Retain the old procedure for exceptions that callers can identify in time. If callers would accept a wrong answer as a success, repair or restrict the interface before relying on it. A cost calculation can establish which alternative wins for a specified workload. A claim of savings in production also depends on the work and exceptions that actually occur. Use the observed result, remaining burden and uncertainty to decide whether to continue, revise or retire the intervention.
 
 #### SYSE.39:4.6 - Design the intervention around recurrence, exceptions and continued support
 
@@ -15330,6 +15330,8 @@ Before construction, with recurrence, task mix and costs held fixed, one week co
 The team selects a bounded B probe. It uses the provider's qualified same-attempt result lookup and existing authorization. An ordinary request returns the original runtime/configuration observation and test outcome. A lost result observation returns uncertainty and support; the lookup does not create a replacement deployment.
 
 A request to see another user's restricted result fails the applicable access check. A request for new deployment permission is outside this retrieval activity and goes to the holder of the deployment decision. The lookup trial supplies evidence about retrieving a result under an existing permission.
+
+A retry can have the same job name as the original attempt. If the first attempt failed and the retry succeeded, returning the latest success would give the wrong answer to an authorized caller asking about the first attempt. The two stored outcomes and the provider’s binding of each to its attempt identifier can establish which answer the lookup returns. Where that binding has been lost, support can return a verified observation if one survives, or report that the original outcome cannot be established. How often that route is needed affects the saving.
 
 The probe exercises ordinary lookup, missing provider observation and unauthorized access. The subsequent comparison must measure real recurrence, user/provider effort, maintenance, error and support effects over the same task conditions. If exceptions dominate or a provider change makes the lookup expensive to maintain, the anticipated gain can disappear.
 
