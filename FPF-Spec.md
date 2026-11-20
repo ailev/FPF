@@ -475,7 +475,7 @@ Use Part and cluster headings to locate content. E.4 explains how Kernel, broade
 | E.5.1 | **DevOps Lexical Firewall** | Stable | Keep incidental implementation paths, commands and runnable teaching code outside normative Core, citing executable illustrations by conceptual name. Retain the exact syntax needed by a governed publication form, protocol or grammar, and operative mathematics under E.5.2. Use this lexical rule with E.5.2 for notation and E.5.3 for semantic dependency; an optional linter is not the rule. | **Refines:** E.5. **Constrains:** All Core patterns. |
 | E.5.2 | **Notational Independence** | Stable | Keep FPF meaning recoverable while choosing a useful expression. Explain interpretation and any reasoning or construction operation; state correspondences and losses when translating, comparing or substituting expressions. A semantic mapping preserves only its named claims and conditions, not equal reader preparation, capability or effort. Use A.6.3.RT for a representation transition and A.6.3.RT.OE for an operative expression. | **Refines:** E.5. **Constrains:** All Core patterns. |
 | E.5.2.L | **Languages, Expressions and Interpretation** | Stable | Establish how a language forms expressions. For a representation language, recover the permissible readings. For a language of designations, recover how an entry identifies an entity under the applicable rules and bindings. | E.5.2, C.2.1, A.6.3.RT and F.18. |
-| E.5.3 | **Unidirectional Dependency between FPF Families** | Stable | Constrain an already identified framework-family dependency: imports must form an acyclic graph and point toward greater semantic stability. Pedagogy may use Tooling and Core; Tooling may use Core; Core imports neither. Keep specialization separate. E.4.PFR determines whether a framework-edition dependency exists. | **Refines:** E.5. **Constrains:** E.4. |
+| E.5.3 | **Unidirectional Dependency between FPF Families** | Stable | Which family may supply a rule to another? May a guide rely directly on Core? Check permitted directions and cycles, including imports within a family. E.4.PFR identifies the claim another edition needs for a particular use. | **Part of:** E.5. **Constrains:** Imports in the family architecture of E.4. |
 | E.5.4 | **Cross-Disciplinary Bias Audit** | Stable | Inspect a normative pattern through Gov, Arch, Epist, Prag and Did lenses for a source-discipline bias or an unjustified imbalance. Repair the explanation or state the intended scope, and retain the useful Bias-Annotation. Use D.5 for bias, fairness or human-impact audit; use A.8 only for universal-core placement of a durable U-kind candidate governed by E.24.UK. | **Refines:** E.5. **Constrains:** All Core patterns. **Links to:** Part D. |
 | **Cluster E.II — The Author’s Handbook** | | | | |
 | E.6 | **Didactic Architecture of the FPF Specification** | Stable | *Keywords:* didactic, pedagogy, structure, narrative flow, on-ramp, learning. *Queries:* "How is the FPF specification structured for learning?", "What is the 'On-Ramp first' principle?". | **Builds on:** E.2 (P-2 Didactic Primacy). |
@@ -98383,7 +98383,7 @@ For a durable ecosystem-architecture answer, use the following operations as the
 2. Name the family member being created, used, or changed.
 3. Name only the fields from `FPFEcosystemArchitectureRecord@Context` that this architecture claim uses. For PF work, the pattern-language publication carrier exposes a reader-facing expression of the selected problem-and-solution architecture.
 4. If the family member is FPF itself as a framework edition, open `E.4.FPF` for form, presentation carriers, access routes, and whole-FPF adequacy routing.
-5. Apply `E.5.3`: dependencies point toward more stable framework editions. FPF Core does not depend on domain or local frameworks.
+5. Identify the content another edition supplies and the work that needs it. For Conceptual Core, Tooling and Pedagogy, check the permitted import directions in `E.5.3`. For framework editions, apply `E.4.PFR:3.4`. An LPF may rely on a DPF, and either may rely directly on Core. Core must supply its transdisciplinary rule and grounds independently of those domain and local frameworks.
 6. State publication and first-entry claims using `E.11` and `E.17`; state framework-carrier structure-account assertions using `E.4.FPF` for FPF itself or `E.4.DPF`/`E.4.DPF.DA` for domain and local frameworks.
 7. State pattern-use recommendation claims using `E.11.PUR`.
 8. When a framework-architecture question is open, record the selected answer in one `E.9` DRR and use `E.4.PFAD` to profile its framework-specific content. Use `C.32.PAD` only for a project architecture decision and `C.32.ADR` only to project such a decision into an ADR-like publication.
@@ -98459,7 +98459,7 @@ Mini-example:
 
 The recurrent drift is publication-first architecture: the visible file, all-in-one carrier, card deck, table of contents, or graph is treated as the architecture because it is what a reader sees first. The repair is to name the selected structures and dependency direction first, then use publication patterns to expose them.
 
-Another recurrent drift is Core absorption: useful domain or local material is pulled into the Core because it is well written or broadly reusable. The repair is to ask which domain or local situation the claim addresses and which framework edition should depend on which more stable edition.
+A useful local rule may suggest a Core amendment. Identify what makes the rule hold across the domains where readers would apply it. If its conclusions still depend on one practice's convention or authority, publish those conclusions with that practice. Credit the local source for the discovery when a transdisciplinary argument can stand on its own.
 
 | Lens | Declared bias and counter-check |
 | --- | --- |
@@ -98475,7 +98475,7 @@ Another recurrent drift is Core absorption: useful domain or local material is p
 | --- | --- |
 | CC-E4.1 First route and family case | The work names the ecosystem question, classifies the likely case, points to the pattern that addresses the case or states what is missing, and opens a complete ecosystem-architecture record only when durable architecture or later reliance needs it. When a record is needed, it names whether the family member is Core, Tooling Reference, Pedagogical Companion, a foundational principle pattern set, a First Principles Framework edition, FPF Core, a domain principle framework, or a local practice framework. |
 | CC-E4.2 Selected structures named | The ecosystem-architecture record names its intended use and every field from `FPFEcosystemArchitectureRecord@Context` that the claim uses. Cite a source, pattern host, publication relation, or bounded model-use structure only when the record uses that independently established value. |
-| CC-E4.3 E.5.3 respected | Dependency direction points toward more stable framework editions, and Core does not depend on domain or local frameworks. |
+| CC-E4.3 E.5.3 respected | For each claimed dependency, identify the required content and its use. The direction must be permitted for those families and the imports must remain acyclic. Core must remain usable independently of domain and local frameworks. |
 | CC-E4.4 Publication and access separated | Each publication form or unit, presentation carrier, access route, access occurrence, and view keeps its subject and predicate. Apply the pattern that defines each claim. |
 | CC-E4.5 Exact predicate and assertion named | Each architecture-adjacent claim names its exact subject and predicate; a pattern identifier is only the locator for the next question's defining or constraining ClaimGraph. |
 | CC-E4.6 Source-return present | Any carrier used as architecture evidence states captured structure, lost structure, admissible use, and the source to return to. |
@@ -101404,7 +101404,7 @@ When earlier prose says that one pattern contains the defining content for or go
 
 #### E.4.PFR:3.4 - Edition and package discipline
 
-Domain and local frameworks depend toward more stable editions. A local practice framework may depend on a domain principle framework and on Core content in an FPF edition. A domain principle framework may depend on Core content in an FPF edition.
+A local practice framework may depend directly on a domain framework, on Core claims in an FPF edition, or on both. A domain framework may depend on Core claims. Identify each supplier for the work that actually uses it.
 
 Identify that FPF edition and its required Core claims separately, as E.4 specifies. E.4.FPF governs the FPF edition.
 
@@ -101412,11 +101412,13 @@ Core does not depend on domain or local frameworks. Incorporate an accepted tran
 
 Framework-edition dependency obtains for one dependent edition, one relied-on edition, exact content in the relied-on edition, and one named use only when the dependent edition's current content or result for that use requires the relied-on content. Removing it or changing it in a way relevant to the use would invalidate the dependent content/result or require that use to be reopened.
 
-State that case fact and why the content is required. Edition labels, joint publication, joint-use membership, and an allowed direction do not establish dependency.
+Name the decision, calculation or other use that requires the supplying claim. In a chain of editions, trace the particular content through each use. If an intermediate edition uses the changed rule only for a different operation, the chain alone gives no reason to revise the final user's operation. If the intermediate result needed by that user relies on the rule, check whether the result still serves that use. Honor any separate commitment to check a new edition when adopting it.
+
+Several grounds may support the same decision. Establish which grounds must hold together and which can each support the decision on their own. If either of two accepted routes suffices, losing one leaves the result available through the other. Losing both reopens it. Trace any premise they share. A proposed substitute becomes a ground for the decision once it is qualified for this use and in effect. A separate promise of conformance to a named edition still requires checking that edition.
 
 > `Domain@D` uses selected Core relation semantics in `FPF@C` as required constraints on framework review. Without those semantics, or after a relevant change to them, the affected review guidance cannot remain current without recheck. `Domain@D` therefore depends on `FPF@C` for that content and use. The edition labels are illustrative. An actual assertion identifies the claims used, as in §4.2.
 
-E.5.3 constrains the allowed dependency direction and Core acyclicity after the relation has been identified. G.11 governs the edition pin, currentness, and refresh condition. Neither supplies the dependency predicate or makes the case fact obtain.
+E.5.3 tests the permitted direction and acyclicity of the identified imports. G.11 governs the edition pin, currentness and refresh condition. A permitted direction, joint publication or a shared use of two editions is insufficient to establish a dependency.
 
 Compatibility answers whether the two editions in the pair can support an overlapping use despite a stated difference or interface. State it separately and only when current:
 
@@ -101520,6 +101522,10 @@ If a later Core relation-function maintenance replay must enumerate every CGUS p
 Start with the readable dependency assertion. The edition labels below are illustrative. `FPF@C1` contains the cited Core claims:
 
 > `CodexProcessFramework@L1` depends on `FPF@C1` for local process authoring: its revision guidance applies E.8:4.1.2, item 6, which requires repair of stale direct consumers in the same authoring increment; its evaluation guidance applies E.21:4.3's rule for an adjacent-value rationale in each coordinate result. Removing or materially changing either claim reopens the corresponding local guidance. Changing the selected FPF edition also requires checking these dependencies.
+
+A local review manual uses the evaluation guidance to judge scores. If the direct-consumer repair rule changes, revisit the local revision guidance. The manual's score judgement can still use the adjacent-value rule if its grounds hold. If that rule changes, trace the change through the local evaluation guidance to the manual. Adopting a different pinned Core edition still calls for the edition checks specified above.
+
+Suppose the manual accepts either a signed assessment under the named edition or an independently validated repeat assessment on the same scale. Either can support the score decision while it remains valid. Withdrawal of the signed assessment matters immediately if the repeat is only planned. If both assessments use the same faulty scale, agreement between them cannot rescue the score. A request specifically for the signed assessment under that edition still needs the signed assessment.
 
 Choose the representation from the receiver's job. A cross-relation comparison may use one generic PFR row. An edition-impact or refresh receiver may use one dependency-specific record. This receiver needs the relied-on content and refresh fields, so it uses only the dependency record:
 
@@ -102016,7 +102022,7 @@ Core definitions can become tied to transient tools or one notation, acquire dep
 |-------|---------|
 | **Abstraction vs Concrete Use** | Keep concept definitions stable while illustrating them with useful examples from real situations. |
 | **Universality vs Convention** | A familiar notation can be convenient, but tying a cross-domain rule to that notation limits its use elsewhere. |
-| **Modularity vs Integration** | Keep layers independent despite the temptation to cross-link them for speed. |
+| **Modularity vs Integration** | Authors want readers to find related work in either direction while keeping Core meanings independent of tools and teaching material. |
 | **Cross-Domain Use vs Perspective** | Claims intended for several domains can reflect contributors’ disciplinary and cultural assumptions. |
 
 ### E.5:4 - Solution — the Four Guard‑Rails
@@ -102032,7 +102038,7 @@ Linting and automation remain outside Core and are optional unless a separate op
 |---|------------|------------------|
 | **GR‑1** | **DevOps Lexical Firewall** | Pull of implementation, governance, automation, and DevOps concerns |
 | **GR‑2** | **Notational Independence** | Notation lock‑in |
-| **GR‑3** | **Unidirectional Dependency** | Convenience cycles |
+| **GR‑3** | **Unidirectional Dependency** | A claim relies on a family that may not supply it, or imports form a cycle. |
 | **GR‑4** | **Cross‑Disciplinary Bias Audit** | Disciplinary monoculture |
 
 For the detailed rule behind each guard-rail, see **E.5.1 – E.5.4**.
@@ -102043,7 +102049,7 @@ For the detailed rule behind each guard-rail, see **E.5.1 – E.5.4**.
 |------------|-------------------|----------------------|
 | GR‑1 | Definition of `U.System` never cites file formats or build scripts. | Definition of `U.Episteme` avoids naming specific proof engines. |
 | GR‑2 | A meaning-preserving mapping between text and diagram retains the pump boundary invariant. | A meaning-preserving mapping between algebraic and graph expressions retains F‑G‑R semantics. |
-| GR‑3 | A sizing helper imports Core invariants. Core never imports helper tutorials. | A learning guide cites the R‑score. Core does not derive its semantics from the guide. |
+| GR‑3 | A sizing helper imports Core invariants. Core supplies their meaning independently of the helper. | A learning guide uses the Core definition of R‑score. A Core reader may follow a return link for an illustration and can interpret the definition without it. |
 | GR‑4 | Bias audit removes thermo‑mechanical jargon from a “universal” pattern. | Audit replaces physics‑centric metaphors in a trust pattern. |
 
 ### E.5:6 - Conformance Checklist
@@ -102404,74 +102410,78 @@ E.5.2 governs notational independence. A.6.2 uses language correspondence in com
 > **Status:** Stable
 
 ### E.5.3:1 - Problem frame
-Use this pattern when an FPF artefact imports or otherwise depends on another artefact. FPF separates the Conceptual Core, Tooling Reference and Pedagogical Companion under E.4. The dependency direction must preserve that separation while allowing the outer families to change.
+Use this pattern to decide whether one FPF member may rely on another member, in the same family or a different one, for a definition, rule or procedure. Name the work that needs the supplier and what that work takes from it. A reader who follows a link for an optional illustration can use the original rule independently. For an assertion about two framework editions, establish the dependency under E.4.PFR:3.4.
 
 ### E.5.3:2 - Problem
-A Core pattern can become dependent on a tutorial or helper feature introduced for a local need. Changes to that feature then require reconsidering Core content even when its conceptual subject is unchanged. A cycle prevents the layers from being revised independently and violates **P-5 FPF Layering**.
+A tutorial may teach a Core term using a helper. If the helper's output becomes the only way to tell what the Core term means, changing the helper can change the term for every Core reader. A cycle of imports also prevents an author from supplying one member on the declared basis independently of the others in the cycle. Pillar P-5 governs this separation.
 
 
 ### E.5.3:3 - Forces
 
 | Force | Tension |
 |-------|---------|
-| **Agility vs Stability** | Tooling must iterate quickly, while changes to Core must remain slow and deliberate. |
-| **Reuse vs Isolation** | Authors want to reuse helper concepts, but Core cannot depend on volatile code. |
-| **Simplicity** | The rule must be testable and unambiguous and must allow legitimate upward imports. |
+| **Independent revision** | Tool authors need room to change an implementation while Core readers can still interpret the rule it checks. Either publication may be revised frequently. |
+| **Reuse** | A guide can teach a Core rule directly or teach a procedure that also uses a tool. The two uses rely on different suppliers. |
+| **Assurance** | An import list makes cycles visible. Establishing which claims a user needs takes a reading of the content. |
 
 ### E.5.3:4 - Solution — One‑Way, Acyclic Imports
-Define a strict **partial order** over FPF ecosystem families. Imports between families point only **upward** in stability. Also protect the direction of meaning flow under **E.10 V-1**: **no Core semantics** may derive from Tooling or Pedagogy. The Conceptual Core excludes linters and machine checking.
+Read a dependency arrow from the member that needs content for a stated use to the member that supplies it. The **strict partial order** on distinct families constrains the permitted direction of cross-family imports. The actual imports connect particular members. A family may have several permitted suppliers and need only one for the work at hand.
 
 **`imports` expresses dependency. Specialisation is a separate relation (normative).** When an artefact exposes an `imports : [...]` list (e.g., `SignatureManifest.imports` in A.6.0), treat each dependency claim in the list as an edge of its `imports` graph. The graph MUST be **acyclic** (a DAG) and MUST respect the declared direction.
 
 `imports` MUST NOT be used to encode *specialisation* (e.g., `⊑` / `⊑⁺` between mechanisms). Specialisation relations and any specialisation-chain claims are declared separately under their defining rules. For mechanism declarations, apply A.6.1:4.8 to the comparison claim. Use C.29 when a separate mathematical-representation choice, transfer or reliance question remains.
 
-Pedagogical Companion  ⟶  Tooling Reference  ⟶  Conceptual Core
+**Permitted suppliers for Core, Tooling and Pedagogy**
 
-1. **Allowed edges**
-   Dependencies between families **MAY** point **only upward** (toward greater semantic
-   stability). Cycles are forbidden.
+| Family of the receiving member | That member may import directly from members of these families |
+| --- | --- |
+| Conceptual Core | Conceptual Core |
+| Tooling Reference | Tooling Reference, Conceptual Core |
+| Pedagogical Companion | Pedagogical Companion, Tooling Reference, Conceptual Core |
 
-2. **No downward import**
-   Conceptual Core patterns **SHALL NOT** import Tooling Reference or Pedagogical Companion family members.
-   Tooling Reference family members **SHALL NOT** import Pedagogical Companion family members.
+Each row lists permitted suppliers. Use the ones needed for the member’s stated work. A guide can take a definition directly from Core. An intermediary is needed when its contribution is required for that use.
 
-3. **Future layers**
-   Any new family is inserted below an existing one or becomes part of
-   the Tooling or Pedagogy strata. The ordering extends accordingly.
+The acyclicity rule applies within each family as well as across families. Before adding an import, follow the existing imports from the proposed supplier. If a path reaches the receiving member, the new import would close a cycle. Keep Core meanings independent of Tooling, Pedagogy and domain or local frameworks (E.10 V-1, E.4). Linters and other executable checks of Core conformance belong in Tooling. Core states the conditions they check. For Core, DPF and LPF editions, apply the edition rules in E.4.PFR:3.4. An LPF may depend directly on a DPF, and either may depend directly on Core. E.4.DPF also permits a DPF to rely on a contribution from another DPF when it fits the receiving use. The discipline to which a Method belongs, the order of chapters and the level of abstraction of a model each need their own grounds (E.4:4.2.2, B.5.MR).
+
+**Extending the order.** Classify a proposed tool or teaching publication by the use it supplies. It can join an existing family under that family's rules. For a genuinely new family, use E.4.PFAD and E.9 to decide both who may supply it and who may import from it. Under the current extension rule, place it on the receiving side of at least one existing family. Follow the proposed directions through the existing order. Reject a loop even if nobody has yet exercised any of the permissions. Specify any change in what existing families may obtain from one another and seek the amendment needed before an existing prohibition can change. Families without a direct or transitive ordering relation can remain incomparable. A permitted direction need not yet have an actual import. A proposal outside the extension rule requires a change to that rule before admission.
+
+**When a needed import would be forbidden**, keep the contingent claim with the family that can warrant it. If Core readers need a transdisciplinary rule, supply the rule and grounds they can use independently. A guide can receive credit for the discovery. Copying a guide's convention leaves Core dependent on that convention whenever the argument still requires it. If two members would have to import one another, look for a common definition they can both use from a permitted supplier. Where two definitions must be given together, consider one defining account and check its imports. Printing two mutually dependent members in one file leaves their cycle intact.
 
 ### E.5.3:5 - Archetypal Grounding (System / Episteme)
 
-| Layer | `U.System` illustration | `U.Episteme` illustration |
+| Family | `U.System` illustration | `U.Episteme` illustration |
 |-------|------------------------|---------------------------|
 | Core | Definition of `U.System` and boundary invariant. | Definition of F‑G‑R assurance components. |
 | Tooling | The “Reference system‑profile” checks boundary flow and *imports* Core invariants. | The “Episteme‑scoring routine” calculates R‑score and *imports* Core characteristics. |
 | Pedagogy | A tutorial uses the system‑profile to model a pump and *imports* the profile and Core term. | A case study explains R‑score evolution and *imports* the scoring routine and Core term. |
 | **Forbidden** | Core pattern importing measurement script. | Core pattern importing R‑score web dashboard. |
 
+A guide teaches the boundary invariant from Core and links to a profile checker for practice. Readers can establish a boundary from the published rule with the checker unavailable. One exercise accepts any report satisfying a separately published format. Another generator can supply it if its report meets the acceptance conditions. A separate exercise requires a report signed by the named checker in the agreed format. This exercise relies on the checker as well as the Core rule. If the available checker can no longer produce an acceptable signed report, use a compatible edition whose signature the recipient accepts for the named checker. If none can supply an acceptable report, revise that exercise. Readers can continue to work from the Core definition. Recheck their explanation if its definition or the argument used to teach it changes.
+
 ### E.5.3:6 - Conformance Checklist
 
 | ID | Requirement |
 |----|-------------|
-| **CC-UD.1** | Dependency graph among all FPF ecosystem family members **MUST** be acyclic. |
-| **CC-UD.2** | A family member **SHALL** import only from its own family or any family above it in the order. |
-| **CC‑UD.3** | A DRR that introduces a downward edge **SHALL** be automatically rejected. |
+| **CC-UD.1** | The graph of actual imports among FPF ecosystem family members **MUST** be acyclic, including imports within a family. |
+| **CC-UD.2** | The permitted directions for distinct families **SHALL** form a strict partial order, including after an extension. Each cross-family import must follow that order. A same-family import must satisfy CC-UD.1. |
+| **CC‑UD.3** | Reject an import forbidden by the governing order. A DRR can resolve the design without that import or propose an amendment under E.3 and E.9. The amendment must take effect before the import can be admitted. |
 
 ### E.5.3:7 - Consequences
 
 | Benefits | Trade‑offs / Mitigations |
 |----------|-------------------------|
-| Core stays free of tool churn and tutorial bias. | Authors must create abstraction layers in Tooling instead of inserting hooks into Core. |
-| Tooling and Pedagogy can change without a Core release. | Slight duplication occurs when several tools target the same concept. Shared Core definitions mitigate it. |
+| Core can supply meanings independently as tools change. | A tool-specific convention may still be useful in the tooling or teaching material that relies on it. |
+| Different families can revise their contributions independently where the uses allow it. | A change to a shared claim may reach several readers. Follow that claim to each affected use under E.4.PFR:3.4. |
 
 ### E.5.3:8 - Rationale
-One-way dependencies keep changes in Tooling or Pedagogy from becoming prerequisites for interpreting Core claims. The rule implements **P-4 Open-Ended Kernel** and **P-5 FPF Layering** while allowing those families to evolve under the Core semantics they use.
+Under P‑5 FPF Layering, an author can replace a tool or a teaching example while readers continue to use the Core claim on its own grounds. P‑4 Open‑Ended Kernel keeps a convention that depends on a particular practice with its proper supplier. P‑10 Open‑Ended Evolution allows a warranted proposal to change the family order. Until the competent authority enacts such a change, the current order governs every import.
 
 
 ### E.5.3:9 - Relations
 * **Parent umbrella:** `pat:constitution/guard‑rails` (E.5)
 * **References family definition:** `pat:constitution/fpf-ecosystem-family-architecture` (E.4)
-* **Instantiates pillars:** P‑4, P‑5
-* **Constrains:** All artefact imports recorded in DRRs or SCRs
+* **Instantiates pillars:** P‑4, P‑5 and P‑10
+* **Constrains:** Actual imports between FPF ecosystem members. A manifest, DRR or SCR may record an import. A required claim can still create a dependency when its source is unacknowledged.
 
 ### E.5.3:End
 
