@@ -423,6 +423,8 @@ Observer, controller, plant, supervisor, observation, actuation, feedback, and r
 
 A controller product, loop diagram, feedback label, or control room does not make every operation a control loop. For a control decision, establish any feedback path, timing, stability, protection, authority and evidence it relies on. The operating question determines which Method can use that result.
 
+A depot sends a backlog report and a relief clerk starts work there the same morning. A standing roster and an assignment made in response to the report can both explain that sequence. Establish which information the dispatcher actually used and what the dispatcher could change. For a decision about service across two depots, establish where the relief clerk can work and which promised deliveries can still be completed. A smaller queue at the first depot can mean that work was finished or transferred to the second. A transfer record and the recipients’ completion records answer different parts of that decision.
+
 ## OPS.Reference:8 - Pattern relations do not prescribe an operating lifecycle
 
 
@@ -3472,6 +3474,8 @@ State the result that must be available, its deadline and its waiting origin. An
 Separate hard requirements from preferences. "Meet all three dates" asks for feasibility. "Finish the last order as early as possible" minimizes the last completion. "Obtain the first result sooner" can prefer a different order. If competing recipients cannot all receive their earliest possible result, OPS.7 supplies the priority and commitment choice.
 
 For each remaining operation, recover its readiness event, required predecessors, duration or bounded scenario, eligible resources, and whether it can be interrupted. Include setups, transfers and known return work when they consume relevant time. Retain completed operations and work already under way as facts; estimate only their remaining requirements.
+
+Two orders can require the result of one inspection. Reserve the inspection once when one execution meets both orders’ acceptance conditions and the result will be ready for each. If each order requires an inspection of its own unit, reserve both visits. An execution that requires two people together occupies time on both calendars. Carry these occupations into the schedule below.
 
 Qualify the duration before calculating a schedule. Recover the execution conditions and whether the quoted time includes waiting or deliberate protection against overruns. A protected task commitment is not, by itself, a measure of the time the work takes. Keep work and required waiting in the timing model, and identify protection already included before reserving more time for the same delays. If that split is unknown, obtain a supported estimate or compare explicit duration scenarios; cutting every quotation by the same percentage does not recover the missing basis.
 

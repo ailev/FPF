@@ -77627,7 +77627,7 @@ ControlStructureViewNote:
   stopCondition:
 ```
 
-Use `rateBandRef?`, `controlLayerRelationRef?`, and `externalityBoundaryRef?` only when that object or relation changes the control-structure use. Otherwise one control relation and its feedback-closure state can answer the question; name a further pattern only if its contribution is needed. Generic stratification labels stay with `C.30.STRAT` until a control-specific relation is recovered.
+Use `rateBandRef?`, `controlLayerRelationRef?`, and `externalityBoundaryRef?` only when that object or relation changes the control-structure use. Read the feedback-closure state for the selected return path, operating configuration and interval. One control relation and its feedback-closure state can answer a bounded question; name a further pattern only if its contribution is needed. Generic stratification labels stay with `C.30.STRAT` until a control-specific relation is recovered.
 
 When a recovered control-layer relation is used to justify decomposition, substitution, or design reliance, recover the inter-layer assumption-guarantee relation or mark the control-layer relation as orientation only. `interLayerControlRelationRefs?` is used only when the relation is already control-specific and is used for decomposition, substitution, design reliance, safety, or stability claims.
 
@@ -77751,6 +77751,8 @@ SafetyLossControlStructureNote:
 
 The note gives a safety-triggered architecture move: find the loss-control structure, controlled process or plant, constraint, foreseeable misuse, operational design scope, and action-relevant boundary. It does not replace the generic control-structure view and does not replace evidence, assurance, gate, causal, dynamics, or temporal claims.
 
+#### C.30.LCA:4.1 - Interpret control relations and the claims they support
+
 **Control-participant interpretation.**
 
 | Source label | FPF recovery |
@@ -77771,9 +77773,9 @@ If a dated Work occurrence involving an episteme is claimed, recover the perform
 
 **Use of a mathematical model.** A proof can settle the response of the modeled loop for all disturbances and operating conditions covered by its assumptions. To apply that proof to the installed loop, identify the operating mode and check the feedback path, plant response and timing on which the conclusion depends. A successful trial can establish the response in that trial. C.29 handles the transfer, A.3.3 the dynamics, C.27.TA and C.27 the temporal claims, and C.28 a claim about the effect of changing the controller.
 
-**Nesting and scale rule.** When nested control affects latency, stability, observability, accountability or assurance, recover the affected relation and the bounds needed for that use. Retain a scale-audit reference only when the receiving rule calls for it; nesting alone requires no additional record.
+**Nesting and scale.** Identify the property at issue and which control relations could produce it. A regulator can use feedback while a supervisor supplies a fixed reference. For a claim of supervisory control, show how the reference, limit or operating mode set by the supervisor governs the regulator’s action. For supervisory feedback, also trace the observation returned to the supervisor and how it can affect that setting. Several regulators can produce a joint response through their interactions and shared limits. Trace these when they account for the behavior of the whole. Recover the bounds needed to judge latency, stability, observability, accountability or assurance, and keep a scale-audit reference when the receiving rule calls for it.
 
-**Worked slice A — a diagram used as proof.** A safety note claims that a plant is safe because the supervisor monitors the lower controller. Recover what the diagram specifies about the observation path. A display may show measurements even when commands run on a timer. To establish feedback in one episode, trace a measurement used in choosing a command, the applied command, and the observation of its effect. That trace can confirm feedback for the episode. To assess safety, name the hazard and operating conditions and establish how the response addresses them.
+**Worked slice A — a diagram used as proof.** A safety note claims that a plant is safe because the supervisor monitors the lower controller. A display can show measurements even while commands run on a timer. For feedback between the supervisor and the lower controller in one episode, establish what the supervisor observed about the lower controller, how the rule or judgement in use depended on that observation, and which resulting influence reached the lower controller. A timestamp can fit both a fixed schedule and an observation-dependent rule. Records of the input and decision can distinguish them even when both would issue the same command. A claim about the physical effect of that command needs evidence of the plant response. To extend the feedback claim to another operating mode, check the signals available in time, the rule enabled in that mode and the return to the controller. To assess safety, identify the hazard and establish how the response addresses it under the conditions at issue.
 
 Use the applicable safety pattern for the safety claim, `B.3` only for a named assurance claim, `A.10` for bounded source-to-use reliance, `G.6` for citable provenance paths, `C.27.TA` for temporal aspects and rate bands, `C.27` for authored temporal-claim adequacy, and `A.3.3` or the applicable dynamics pattern for dynamics or stability.
 
@@ -80470,7 +80472,7 @@ State what is meant to change, for whom, by when, and within which protected con
 
 Identify the acting participants, the subject affected, the available interventions, and the observations that can inform their selection. Recover what an existing arrangement does from an actual consequential episode or an adequate model. For a proposed arrangement, explain the intended dependence without describing it as already operating.
 
-A feedback claim needs an observation, an influence returned to the subject, and a rule and case facts coupling that influence to the observation. **B.2.5** supplies this recovery. Use the result here to find which dependence must be constructed or changed. A dashboard that nobody uses to change action supplies information but not that control dependence.
+For a proposed feedback arrangement, specify which later intervention can depend on an observation returned from the controlled system, and how the intervention can affect that system. For an operating arrangement, establish when that dependence was in use. **B.2.5** develops the supervisor–subholon claim when an acting system supervises identified holons. It recovers the observation, the influence returned to each holon and the facts coupling that return to its observation. A dashboard can supply a useful reading before anyone has decided how to act on it.
 
 Keep the selected structure and its representation distinct. **C.30.LCA** helps recover the observation, command, reference, feedback and timing relations represented in a view. Use those relations as inputs, then examine their consequences below. An organizational chart may omit an external supplier who controls a needed release; including that relationship does not make the supplier part of the enterprise.
 
@@ -80526,7 +80528,7 @@ Then follow a consequential demand forward from the available observations and i
 
 **C.32.MWA.PP:4.3–4.7** supplies the general construction across Method, Work, performer, means and allocation structures, including their joint demands. Use that account where the proposed division leaves performance or support unresolved.
 
-Here the additional connection is control-specific: explain how the joined contributions turn an observation into a permitted influence on the subject, and how the resulting observation can change the next decision. Change the division or its possible realization when that connection fails; preserve already adequate contributions.
+For control, connect the source of the reference or input to the decision, the permitted influence and the means by which it reaches the subject. For a proposed feedback path, also trace how an observation returned from the subject can affect the next decision. Change the division or its realization where it leaves a needed connection open.
 
 For each candidate, explain how a local result becomes usable by the next participant and how a consequential limitation returns. The result is a candidate arrangement with an operating mechanism, not a collection of independently desirable boxes.
 
@@ -80616,7 +80618,7 @@ For each relied-on component or participant result, state its inputs, operating 
 
 Begin with a jointly possible situation. Two controllers can each require the other to have already restored the shared condition. Two teams can each promise to start when the other releases the only specialist. Such mutual expectations supply neither an initial action nor a continuation. Construct an initial allocation, a compatible joint condition or another arrangement.
 
-Next follow a consequential action or change through the whole. Establish what remains true, what must be updated and what is available next. A successful isolated execution does not establish repeated continuation.
+Next follow a consequential action or change through the whole. Establish what remains true, what must be updated and what is available next. For a promise about recurring work, start the next job from a state in which the preceding job can leave the shared means. A rule or bound can establish continued feasibility if the work can start under its stated conditions and every permitted transition leaves the next job with what it needs. A record of one execution can settle what happened on that occasion.
 
 For a modeled controller interconnection, derive or obtain the joint dynamics rather than combining separate stability labels. Include reference changes, state estimation, hold rules, actuator limits and computational delay. A technical result can establish an admissible region, an error bound, recursive feasibility, stability or goal attainment; retain the property established. These results are not interchangeable.
 
@@ -80738,6 +80740,8 @@ A forecast of a likely change can allow reversible preparation before approval. 
 The installer checks the panel in place and reports completion or a problem to the coordinator. The table bounds physical installation. If the venue also needs confirmation by 16:00, include time for this check and report or establish that the approved release already covers them. A missing report leaves the installation status open. One person may perform several contributions when the demands still fit. Their number does not determine a management hierarchy.
 
 The timing implication is mathematical under its premises. The premises about people, authority, resources and duration need organizational support and observation; they are not supplied by the equation. In actual use, distinguish a committed service bound, an empirical estimate and a planning assumption.
+
+The same hour-long bound can cover another panel presented on its own if the path from the content change to physical installation includes all its work and waiting, with the same upper bounds, authority and available capacity. An added wait for material to set can break the bound even if the four operations take the same time. A promise to confirm completion needs a bound through confirmation. To promise two installations with overlapping windows, account for the shared editor and printer across both. One approval can serve both panels only when it covers both and arrives in time for each. Place the shared work and the remaining work on the joint schedule.
 
 #### C.32.LCA:5.3 - The smaller sufficient result
 
@@ -95164,9 +95168,11 @@ In an explanatory inquiry, the proposed regulated characteristic and its relatio
 
 Keep three questions available. **Description** recovers the relations that obtain, their participants and the consequential gaps. **Explanation** derives what those relations do under the stated conditions, including an unwanted result. **Design** compares changes that could make the continuation more suitable. A descriptive or explanatory inquiry can finish without prescribing a new arrangement. In design, an intelligible description of the incumbent supplies a comparison basis, not a reason to retain it.
 
-Control can be open over a selected interval. An input is selected or set from the initial situation and then executed without using later observations to correct it within that interval. Establish the conditions under which that choice remains adequate. A later decision can close a wider loop by using the resulting observation.
+Control can be open over the interval being examined. A controller may follow a fixed schedule or adjust its input to a measured incoming disturbance before the disturbance affects the process. Trace how it sets the input and how the input reaches the controlled system. If the controller also uses an observation of the resulting state to select a later intervention, that return supplies a feedback path. Both paths can operate in one arrangement.
 
-Feedback exists where a subsequent influence depends on returned observations; that dependence can remain operative while the observed value and the resulting input stay unchanged. Whether the response is timely and beneficial requires an explanation. Use **C.30.LCA** to recover these obtaining relations and **C.32.LCA** when changing their organization is the needed result.
+Feedback operates when an observation returned from the controlled system can affect a subsequent intervention on that system. Identify the decision and the interval. Which different reading could change the action, its timing or the decision to continue it? Several readings can call for the same action. To establish what happened on a particular occasion, recover the rule or judgement actually used and the information that reached it. A fixed schedule and an observation-dependent rule can produce the same recorded command. Evidence of how the decision was made can distinguish them even when the command stayed the same.
+
+For a claim about the whole arrangement, state the property at issue and how it follows from what the parts do. If two loads account for the entire circuit load, their active powers add. Readings taken at the same instant give the total at that instant. Limits that apply to both loads in the same operating mode give an upper bound on the total. Whether both loads can reach their limits together is a further question. Where regulators share capacity or change one another’s inputs, follow the connections that affect the claimed response. A unit can correct its own backlog while its allocation follows a fixed schedule. Several units can also produce a common response through their interactions. To extend a conclusion to other operating conditions, establish which limits, decision rules and connections still apply. Use **C.30.LCA** to describe the control relations and **C.32.LCA** when their organization needs to change.
 
 The subject of the decision, the information and interventions available to each participant, and the physical realization can have different boundaries. One device can estimate, choose, act and modify its means. Several participants can jointly supply one influence, and each can be influenced by the others. Recover the contributions and how they are connected before allocating them to parts.
 
@@ -95277,7 +95283,7 @@ Keep feasibility, outcome preference and assurance distinct in the comparison. A
 
 Follow the chosen continuation through the participants and means that must realize it. Establish what action is needed, who or what can perform it, what resources and permissions it uses, and when the effect is needed. The calculation, communication, agreement and execution consume time and capacity. Include them when they can change the option's availability or result.
 
-Check coupled uses of scarce means. Two independently feasible actions can compete for the same machine, specialist, energy reserve or decision authority. An action that meets the immediate objective can exhaust the reserve required to respond later. Resolve those interactions in the whole continuation, rather than assuming that local feasibility composes.
+Check what each action needs from a shared machine, specialist, reserve or decision maker. When one performance serves both commitments, count the time it occupies each required resource once. Work that must be done separately consumes time for each performance. Allow for the reserve needed for later action. A lower bound that exceeds capacity can rule out a deadline. To promise completion, fit attainable durations, eligible performers and dependencies into the available windows.
 
 Choose the organization of decisions where it is unresolved. One rapid feedback response may protect the system while a slower plan is revised. Alternatively, the relevant decisions may need to be made together. Different timescales do not by themselves require layers, and organizational titles do not establish update rates. Use **C.32.LCA** to construct or change the observation, decision and intervention arrangement when those relations are the limiting condition.
 
@@ -95334,7 +95340,7 @@ These returns can also change the means of further action. When the receiving wo
 
 The common account makes theories comparable through the questions they answer. To use a specialization, identify its representation of the system and information, available actions, outcome criterion, execution assumptions and warranted conclusion. Preserve what its additional assumptions make possible and what it leaves to another contribution.
 
-**Compact improvement, decision and learning cycles.** First establish whether the source prescribes a way, offers an explanatory heuristic or reminds a prepared practitioner of a known way. Relate a prescription to its operations, actual or proposed performance, provision and authority. Use a heuristic to investigate the relationships it explains before selecting an intervention. One performer may supply several control contributions, and several performers may share one; recover the relationship before assigning a level.
+**Compact improvement, decision and learning cycles.** First establish whether the source prescribes a way, offers an explanatory heuristic or reminds a prepared practitioner of a known way. Relate a prescription to its operations, actual or proposed performance, provision and authority. Use a heuristic to investigate the relationships it explains before selecting an intervention. One performer may supply several control contributions, and several performers may share one. For a claimed control layer, identify the reference, limit or rule it sets and how this can affect the other controller’s action. For a feedback claim, also identify the returned observation and how it can change that setting. B.5.MR compares what models of those decisions specify or leave open.
 
 [Library.Reference:6.5](FPF-LIBRARY-REFERENCE.md#libraryreference65---compact-cycles-in-working-control-arrangements) develops the family connections, a sufficient short choice and the returns caused by changed conditions. Use an already adequate method; expand the arrangement where a missing dependency requires it.
 
@@ -95380,7 +95386,7 @@ A record of training or a recommender's estimate can inform this inquiry; the re
 
 For instance, additional practice can develop an absent judgement; a changed division of work can instead obtain that judgement from someone already capable. The two interventions can deliver the same immediate answer while leaving different capabilities and dependencies.
 
-The method stack contains several relations. Recover the relation that makes a proposed change consequential:
+To decide how to develop a Method or capability, identify the relation through which the proposed change could affect the agent’s subsequent work.
 
 | Related structure | Connection to recover | How it guides an intervention |
 | --- | --- | --- |
@@ -95391,7 +95397,7 @@ The method stack contains several relations. Recover the relation that makes a p
 | Observation and decision at different scopes | Which local differences matter to an encompassing choice, and which aggregate hides them | Change the observation or its use; apply **C.30.ILC** and **C.32.MLAO** when the conflict crosses the identified scopes. |
 | Changes on different timescales | How long an effect takes to become observable, usable and retained | Coordinate practice, feedback, deployment and reconsideration by those delays rather than by organizational rank. |
 
-One organization can remain the developing subject while it changes a working Method, the preparation of its performers and its way of choosing further development. These changes do not require one universal hierarchy. A service provider can affect an encompassing result without becoming part of its recipient. A Method that improves another can have that Method as its subject rather than its constituent. Explain the relation before using a change at one position to predict another.
+One organization can remain the developing subject while it changes a working Method, the preparation of its performers and its way of choosing further development. These changes do not require one universal hierarchy. A service provider can affect an encompassing result without becoming part of its recipient. A Method that improves another can have that Method as its subject rather than its constituent. Before claiming an improvement in the receiving Method, explain what the development work changes in that Method and how this affects its use.
 
 **Construct a complete intervention.** Explain the causal and constructive connections: the proposed work changes a named subject; that change makes a contribution obtainable; the contribution enables receiving work; the receiving result changes further possibilities. Include the preparation, assistance and transition that make those connections feasible.
 
@@ -95457,9 +95463,11 @@ During use, the operator checks the assumption that test delay leaves both actio
 
 #### C.43:5.2 - A feasible local correction can defeat the next commitment
 
-A service team has six specialist-hours available before the next deadline. A repair requires four hours; an already accepted obligation requires three. Separate forecasts that assign all six hours to each task make both look feasible. The joint continuation needs seven.
+A service team has one qualified specialist available from 09:00 to 15:00. Under the stated conditions the repair takes four hours and the team’s other accepted obligation takes three. Each is ready to start and can be completed on its own in that window. If their work is distinct and the specialist is needed throughout, seven hours are required. The team cannot deliver both by 15:00.
 
-The common Method connects the obligations to the same capacity and time window. It prompts a substantive choice: obtain an additional qualified hour that can be used in time, change one scope or deadline with the relevant participant, or choose which consequence to accept under legitimate authority.
+Now suppose both durations include the same one-hour inspection. Its result meets both recipients’ acceptance conditions, and the remaining work is distinct. The specialist can inspect from 09:00 to 10:00, complete the repair from 10:00 to 13:00 and use the last two hours for the other obligation. If material for those last two hours arrives only at 14:00, six hours of capacity in total no longer secures both deliveries. If four and three hours are only lower bounds, subtracting the shared hour gives a six-hour minimum. A promise still needs attainable durations and a schedule.
+
+When the distinct work requires seven hours, possible changes include obtaining another qualified hour usable on the work in time, agreeing with the affected recipient on a different scope or deadline, or asking the authorized participant to choose which consequence to accept.
 
 If another qualified specialist becomes available, the resource conflict can close without changing the goal. If the client withdraws the obligation, the goal and commitment basis changes even with no forecasting error. If neither remedy can be arranged inside the decision window, the team may need a different standing allocation or authority arrangement. The changed dependency selects the different return.
 
@@ -95492,9 +95500,9 @@ The common Method has supplied a connected research result: two proposed observa
 
 Consider a constructed case. A team produces sound diagnoses with one expert's help. Its other members can calculate candidate explanations, but cannot yet recognize when an important modeling assumption has failed. The current work is successful; the wanted development is the team's ability to handle that judgement when the expert is unavailable.
 
-The recommender recovers the connection: calculation is available, assumption recognition is not, and the expert currently supplies it. It constructs three feasible proposals. Continue buying qualified diagnosis as a service; practise contrasting cases and receive feedback on the missing judgement; or change the working Method so ordinary cases are handled locally and exceptional cases obtain a reserved expert contribution.
+The recommender recovers the connection: calculation is available, assumption recognition is not, and the expert currently supplies it. It constructs three proposals to examine against the team’s aims and commitments. Continue buying qualified diagnosis as a service; practise contrasting cases and receive feedback on the missing judgement; or change the working Method so ordinary cases are handled locally and exceptional cases obtain a reserved expert contribution.
 
-The first can be sufficient if the only retained aim is delivery. The second develops a local capability. The third changes the encompassing Method and its provision. A combination can protect current delivery while development proceeds.
+The first can be sufficient if the only retained aim is delivery. The second aims to develop local judgement. The third proposes a different Method for handling ordinary cases and securing help with exceptions. A combination can protect current delivery while development proceeds.
 
 Compare the alternatives from the team's present repertoire and commitments. Practice consumes time that could deliver existing work; the expert must have time to give the proposed feedback; continuing external help remains part of the result where required. Choose the combination only if its additional attainable capability and future uses warrant that burden. An AI assistant can supply contrasts or perform calculation, but the comparison asks which consequential judgement the resulting team can obtain and under what continuing help.
 
@@ -95598,6 +95606,7 @@ It is an authored methodological synthesis. Its conditional calculations support
 
 | Question and alternative | Selected contribution, source role and limit | Consequence and reconsideration |
 | --- | --- | --- |
+| Can a controller adjust an input before it observes the controlled outcome? | Åström and Murray show how a measured disturbance can drive feedforward action alongside feedback from the controlled output. [Feedback Systems, §3.6](https://www.cds.caltech.edu/~murray/books/AM08/pdf/fbs-public_04Sep12.pdf) | §4.1.1 identifies the source of the observation and the action it can change. The two paths can operate together. |
 | Can informative action be evaluated as a fixed future action sequence? | Adapt Nuijten and de Vries, *Sophisticated Policies from Epistemic Priors*, arXiv:2607.19518v1, §§2–6. The controlled computational comparison separates information incentive from future state-contingent action; neither alone solves its benchmark. It is a current constructive comparator, not a universal ranking of inference algorithms. | §§4.3–4.4 and §5.1 retain both information and the future response it enables. Reconsider the representation when a receiving problem does not need future conditional action or a cheaper adequate representation is available. [Paper](https://arxiv.org/html/2607.19518v1) |
 | Can information sources be ranked independently of what is already known? | Adopt the dependence on joint information from Brooks, Frankel and Kamenica, *Comparisons of Signals*, AER 114(9), 2024, §§2–3.2, DOI 10.1257/aer.20230430. Their comparison is about instrumental decision value; it does not price acquisition or other uses of knowledge. | §4.4 compares additional information with the current information and actions. Reopen a ranking when the accompanying information or receiving decision changes. [Author text](https://benjaminbrooks.net/downloads/bfk_comparisons.pdf) |
 | Is tracking a fixed target the only adequate economic-control construction? | Adapt Degner and colleagues, *Adaptive Economic Model Predictive Control*, arXiv:2412.13046v3, §§II–IV. The method jointly uses an economic objective, online parameter adaptation and robust constraints under stated model and feasibility assumptions. | §4.7 distinguishes outcome optimization, adaptation and assured feasibility. Retain its technical guarantees only where their assumptions hold; new dynamics or observability conditions require a different construction. [Paper](https://arxiv.org/html/2412.13046v3) |

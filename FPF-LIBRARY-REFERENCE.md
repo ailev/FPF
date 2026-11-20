@@ -544,7 +544,7 @@ For an explanatory heuristic, use its distinctions to investigate what happens, 
 
 One Method can be performed by one person or several departments. One organization can use several Methods. One participant can observe, choose, act and reconsider the way of working; several participants can also share these contributions. Four labels on a diagram establish neither four components nor four occurrences of Work. Where a formal identity claim about a Method, its description or actual Work is needed, use the defining rules for that claim.
 
-[C.32.MWA.PP](FPF-Spec.md#c32mwapp---construct-and-compare-method-performance-and-provision-arrangements) supplies the connection of performance and provision. C.30.LCA guides the description of a control architecture.
+[C.32.MWA.PP](FPF-Spec.md#c32mwapp---construct-and-compare-method-performance-and-provision-arrangements) supplies the connection of performance and provision. [C.30.LCA:4.1](FPF-Spec.md#c30lca41---interpret-control-relations-and-the-claims-they-support) explains which control relations can support a claim about a component or the whole.
 
 #### Library.Reference:6.5.2 - Follow the relationships that make the next action possible
 
@@ -564,9 +564,9 @@ When recurrence threatens the required result and its cause is unresolved, inves
 
 **Timing and joint action connect the relationships.** Observation frequency, decision time, action duration and the goal's horizon differ. Several locally permissible choices can together exceed a shared resource. The useful repair changes the information, choice, authority, allocation or work on which the joint result depends. C.43:4.1–4.6 develops these general dependencies.
 
-A level has meaning relative to a relationship and a selected whole. System composition, organizational authority, control of a controller, timescale, Method generality and description detail answer different questions, as Library.Reference:6.2 explains. Functional explanation groups operations by their contributions and connects their results. One person or module can supply several contributions; one contribution can require several participants.
+Name the relation that orders what the working account calls *levels*. For composition, identify the whole and how its parts work together. For control, identify which decision can change a reference, limit or rule used by another controller. A comparison of model abstraction asks what a model allows and what a more concrete model fixes for the same inquiry. A field can supply a rule for one constituent or for a whole organization. Library.Reference:6.2 also distinguishes authority, timing and functional grouping. One person or module can supply several functions, and one function can require several participants.
 
-To establish control of a controller, show the additional working relationship: observations about its performance, a criterion for selecting changes to its goal, rule or provision, an action that makes the selected change effective, and a return from the resulting performance. One control activity then becomes the subject of another. An organizational rank needs separate grounds in the actual allocation of authority or composition.
+To establish control of a controller, identify who or what sets a reference, limit or mode, how the setting reaches the controller, and which action it governs. A dispatcher can change a setpoint on a fixed schedule while the local controller responds to its own sensor. To establish feedback at the dispatcher, also trace an observation of the controlled operation back to the dispatcher and show how it can affect a later setting. If the conclusion concerns organizational authority, identify who may make that change.
 
 Consider two constructed arrangements. In the first, a dispatcher receives a reliable queue state, selects the next job by an adequate urgency rule, assigns a capable performer and receives completion information. The goal, rule, capacity and authority remain adequate over the relevant interval. This observation–choice–action–return relationship is sufficient for selecting the next job.
 
