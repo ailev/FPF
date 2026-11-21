@@ -86,7 +86,7 @@ The CityWater amounts and conditions are constructed teaching inputs. The two fu
 - **Question:** Which policy should the infrastructure committee choose for the required service and horizon?
 - **First useful result or blocker:** A supported recommendation, or the service, engineering or economic uncertainty preventing it.
 - **Start with:** [EAM.8](#eam8---generate-maintenance-renewal-and-retirement-alternatives) for the policies; [EAM.1](#eam1---frame-the-engineered-assets-and-required-outcomes) if the comparison is unclear.
-- **Stop or return:** Sufficient advice can finish the inquiry. A shared resource constraint sends the policies to the programme comparison.
+- **Stop or return:** Sufficient advice can finish the inquiry. Return to the programme comparison when other permitted choices could change the local choice or its justification. A supported bound on their demand can establish that the local comparison already suffices.
 
 The committee's value question differs from the maintenance question of which intervention supports continued functioning. If only a repair estimate is available, [EAM.8](#eam8---generate-maintenance-renewal-and-retirement-alternatives) first constructs the service policy: supported intervals, recurring duties, later work and ending. Its separate four-year example shows how an omitted year-three overhaul can reverse the comparison. A complete qualified policy can go directly to comparison.
 
@@ -138,7 +138,7 @@ In [EAM.14](#eam14---decide-whether-and-how-to-change-the-asset-management-syste
 
 If the information is adequate but the selection rule fails, [EAM.15](#eam15---decide-whether-and-how-to-change-engineering-asset-management-methods) addresses the method instead. Funding D, C and A in condition-priority order exhausts CityWater's capital before B, whereas combination comparison supplies the required programme. This admissible failure also defeats a promise that condition priority always finds a feasible programme when one exists. For the explicitly finite choices, comparing every eligible combination under the common criterion yields a best value. To conclude that planners can use the method with their actual information and time, examine evidence of their work.
 
-[EAM.16](#eam16---deliberately-continue-and-change-engineering-asset-management-culture) helps practitioners examine how the proposed instruction is passed on and whether others use or retain it. Distribution and teaching establish different facts from later appraisals using the method. Its existing branch example retains programme comparison for central planners with shared constraints and single-asset comparison for depot cases whose independence is established. A shared constraint returns a depot case to the programme comparison.
+[EAM.16](#eam16---deliberately-continue-and-change-engineering-asset-management-culture) helps practitioners examine how the proposed instruction is passed on and whether others use or retain it. Distribution and teaching establish different facts from later appraisals using the method. Its existing branch example retains programme comparison for central planners with shared constraints and single-asset comparison for depot cases whose independence is established. For a depot decision, establish whether another permitted use of the shared resource could change the answer. A qualified bound may settle that locally. Where competing choices can change the decision, compare the relevant combinations.
 
 ## How to read and apply the framework
 
@@ -300,7 +300,7 @@ Consider CityWater's pump D. The maintenance practitioner can recommend an initi
 
 A useful framing is: compare D's supported five-year continued-use policy with replacement for its contribution to East's water delivery, using the stated cost perspective, technical qualification and actual funding and outage conditions. This is enough to compare continued use and replacement of D in [EAM.8](#eam8---generate-maintenance-renewal-and-retirement-alternatives) and EAM.9. Assess other assets where their service, funding or outage conditions affect that choice.
 
-If D competes with A, B and C for the same funding, extend the comparison to that combination under EAM.10. The other eight stations matter through their continuing service contribution; their inclusion in the utility's register does not require eight additional investment analyses. The common CityWater applications provide the complete constructed premises.
+If the other commitments leave enough funding for either local option under every permitted allocation, the funding test can be settled for D alone. If the options for A, B and C can change which choice for D is eligible or preferred, extend the comparison to the relevant combination under EAM.10. The other eight stations matter through their continuing service contribution; their inclusion in the utility's register does not require eight additional investment analyses. The common CityWater applications provide the complete constructed premises.
 
 ### EAM.1:6 - Bias-Annotation
 
@@ -383,7 +383,7 @@ Internal objectives can omit losses experienced by customers or another service 
 
 ### EAM.2:7 - Conformance Checklist
 
-Is the service requirement recoverable from its source? Does each relied-on asset contribution have the right quantity and conditions? Can the reader distinguish a demonstrated gap, a forecast and an alternative proposal?
+Is the service requirement recoverable from its source? What establishes the promised service, including the contributions required together? Identify individual contributions where the decision depends on them. A verified joint service test can suffice for an order about the service as a whole. Can the reader distinguish a demonstrated gap, a forecast and a proposed change?
 
 ### EAM.2:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -442,7 +442,7 @@ Match the condition and performance observations to the actual unit, duty and me
 
 Resolve conflicting records at their sources. A later timestamp alone does not make a record more applicable. An inspection, installation record or responsible specialist's reconciliation may settle the conflict. Preserve a known mismatch rather than averaging incompatible values.
 
-Consider the consequence of each gap. If every plausible value leaves the requested answer unchanged, qualify the answer and continue. If the value changes technical eligibility, cost or service, obtain the smallest worthwhile applicable result or keep the affected option conditional.
+Consider the admissible configurations of the asset. Uncertainties that make little difference separately can change price or eligibility in combination, for instance when replacing two components together requires a different interface. Do the grounds for each remaining configuration give the same answer to the commissioned question? Distinct prices can all meet the specified budget. Return that supported decision. Only a question whose answer still depends on the configuration requires another distinction or a conditional answer.
 
 Return the information needed for the choice in a form its recipient can inspect. A small table can suffice. Identify the configuration, duty or source change that would reopen it. An enterprise data-model redesign belongs in [EAM.14](#eam14---decide-whether-and-how-to-change-the-asset-management-system) only when that arrangement is the recurring problem being addressed.
 
@@ -482,7 +482,7 @@ Well-maintained records tend to make their assets easier to compare, which can d
 
 ### EAM.3:7 - Conformance Checklist
 
-Can each material observation, price and intervention be matched to the right asset, configuration and use? Are actual and proposed states distinct? Does every unresolved match have a stated consequence for the receiving decision?
+Can observations, price and intervention be matched to the relevant configurations, including combinations still permitted by the records? What follows for the actual or proposed use, and what remains uncertain?
 
 ### EAM.3:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -655,7 +655,7 @@ Identify the asset, installed configuration, required functioning and decision h
 
 Keep observed, inferred and forecast claims separate. State what changed in the observations, what the applicable diagnostic evidence supports and what future-duty assumptions a forecast requires. If the decision depends on the mechanism, obtain a specialist’s diagnosis. An alarm can trigger the inquiry.
 
-Recover the relevant service-performance evidence. The useful content from [OPS.18](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops18---control-operating-quality-and-reliability) might be an affected population, observed loss, quality result or reliability evidence, with its requirement and window. Check the condition evidence separately before drawing a conclusion about the asset’s condition.
+Recover the relevant service-performance evidence. The useful content from [OPS.18](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops18---control-operating-quality-and-reliability) might be an affected population, observed loss, quality result or reliability evidence, with its requirement and window. Check the condition evidence separately before drawing a conclusion about the asset’s condition. Locate each reading in the service system. The district meter may establish the service delivered to the district when the contribution of a particular unit is unknown. If the decision concerns that unit, determine what links its operation to the reading: a branch measurement, a known isolation of the standby unit or a qualified account of the flows can supply the missing relation.
 
 Relate condition and performance to the proposed options. Identify what contribution is at risk, the consequence of delay and the supported intervention effect. Distinguish a condition ranking from risk: risk additionally depends on the exposure, uncertainty and consequence needed for this decision.
 
@@ -677,7 +677,7 @@ Easily measured signals can dominate attention while poorly observed failure mec
 
 ### EAM.5:7 - Conformance Checklist
 
-Do the records concern the same asset and duty? Are observation, diagnosis, forecast and service result distinguishable? Does the inferred consequence follow from applicable evidence, and is the option's qualification still valid?
+What do the records establish about the unit, its configured duty or the service supplied by the enclosing system? Where the decision uses their connection, what establishes it for this configuration and period? Does the supported consequence change the proposed option or its qualification?
 
 ### EAM.5:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -881,7 +881,7 @@ A procurement channel can narrow the set before the asset question is answered. 
 
 ### EAM.7:7 - Conformance Checklist
 
-Are the alternatives materially different ways to provide the same needed contribution? Are their realization conditions and continuing consequences visible? Can the recipient distinguish a supported candidate from a concept awaiting a decisive result?
+Do the alternatives give genuinely different ways to meet the service obligation? If a change in demand allows the service to be supplied with a different asset contribution, establish how the change can be made and whether the original obligation still holds. A contractual capacity requirement continues to apply until it is effectively changed. Can the reader identify what could make each proposed option feasible or ineligible? Are the continuing consequences visible, and which candidates are still awaiting a decisive result?
 
 ### EAM.7:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -1316,7 +1316,7 @@ Represent the dependencies that determine timing. Some activities must precede o
 
 Place the complete demands in actual windows. A necessary resource bound is total exclusive demand no greater than available time. Passing it is not sufficient when release dates, simultaneous resources or service dependencies prevent a schedule. Use a finite schedule for a small known set.
 
-If the arrangement fails, compare a real change: another window, another supported option, a qualified provider, a service-preserving fallback or justified deferral. Include its cost and moved burden.
+If the arrangement fails, return that finding to the decision maker. If the commission includes choosing another arrangement, compare a different window, supported option, qualified provider, service-preserving fallback or justified deferral, including the burden moved to other work.
 
 State what happens if an important condition changes during the window. Identify the time, personnel, access or fallback needed to return this asset to a supported operating state, and keep those resources available. Agree with those authorized to control maintenance and operation on the latest time to decide on a supported hold or return. Obtain the required allocation or operating decision before relying on reassigned resources, an extended window or changed service.
 
@@ -1466,7 +1466,7 @@ Recover the selected asset plan and the assumptions whose truth matters now. Nam
 
 Obtain the applicable observations. Match the actual configuration, duty, measurement and reporting window to the claim. Use MNT or OPS results already available when they answer the question. A work-completion record can establish what was done without establishing the resulting service.
 
-Compare observed and expected quantities on the same basis. Explain changes in exposure, demand, prices or accounting boundaries before treating a difference as an intervention effect. Keep a descriptive variance separate from a causal conclusion that needs more evidence.
+Compare observed and expected quantities on the same basis. Explain changes in exposure, demand, prices or accounting boundaries before treating a difference as an intervention effect. Keep a descriptive variance separate from a causal conclusion that needs more evidence. Preserve the service relation specified in the requirement. If each district is owed a quantity in each period, separate totals by district and by period can conceal a shortfall in a particular district during a particular period. A verified finding covering the required district-period pairs can settle compliance. A total for the service as a whole can be sufficient when that is the commissioned result.
 
 Determine which decision changes. Continuing the current policy can be justified even when an explanation remains uncertain. A service failure or invalid engineering qualification can require a supported immediate response while its cause is investigated. A changed cost assumption can reopen the option comparison without erasing evidence of functioning.
 
@@ -1488,7 +1488,7 @@ Reports can favor easily counted expenditure and completed jobs over difficult s
 
 ### EAM.13:7 - Conformance Checklist
 
-Are work completion, resulting configuration and realized outcomes distinct? Is the comparison basis compatible? Does the proposed action follow from the observed difference, and is any stronger causal claim supported? Is further inquiry worth its attainable contribution?
+Are work completion, resulting configuration and realized outcomes distinct? Does the comparison preserve the links between recipients, service and periods on which this requirement depends? Does the proposed action follow from the observed difference, and is any stronger causal claim supported? Is further inquiry worth its attainable contribution?
 
 ### EAM.13:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -1723,7 +1723,7 @@ Suppose two later appraisal records are then available. One uses the stated hori
 
 If a decision about continuation needs more evidence, the investigator considers later comparable appraisals and committee decisions whose interpretation is attainable and useful. If change is selected, the practice leader can propose a worked example or a changed appraisal instruction within their authority. The committee's actual choice of the FFMK programme remains separate from any decision to retain the combination-comparison rule for future work.
 
-A separate constructed case shows a branch. At another utility, central planners prepare programmes whose assets share funding and outage constraints. Depot planners also appraise isolated assets where the stated service, funding and calendar conditions do not couple that choice to other assets. Available appraisal records show the central group comparing combinations and the depot group comparing the eligible options for one asset, with a stated horizon and whole-life costs. Requiring a programme table for every isolated choice adds preparation without introducing another eligible combination. The practice owner is authorized to set these groups' appraisal instructions and decides to retain both forms: central planners use the combination comparison; depot planners may use the single-asset comparison only while the independence conditions hold. Both retain the service requirements and actual decision authorities. A shared constraint sends a depot appraisal to the programme comparison. The result is a qualified instruction for each group, supported by those working conditions and records. It establishes neither later compliance with the instructions nor retention throughout either group. A later case revealing a missed shared constraint reopens the selection condition and the affected appraisal.
+A separate constructed case shows a branch. At another utility, central planners prepare programmes whose assets share funding and outage constraints. Depot planners also appraise isolated assets where the stated service, funding and calendar conditions do not couple that choice to other assets. Available appraisal records show the central group comparing combinations and the depot group comparing the eligible options for one asset, with a stated horizon and whole-life costs. Requiring a programme table for every isolated choice adds preparation without introducing another eligible combination. The practice owner is authorized to set these groups' appraisal instructions and decides to retain both forms: central planners use the combination comparison; depot planners may use the single-asset comparison when the effects of other permitted work cannot change the choice or its grounds. Both retain the service requirements and actual decision authorities. For example, if the programme has ten units of funding, all other work that may draw on that budget alongside the local choice can use at most four and either local option costs at most three, the common funding limit cannot rule out either option. A different limit that makes eligibility depend on which other work is selected requires a programme comparison if the choices can be revised. The result is a qualified instruction for each group, supported by those working conditions and records. It establishes neither later compliance with the instructions nor retention throughout either group. A later case revealing a missed shared constraint reopens the selection condition and the affected appraisal.
 
 ### EAM.16:6 - Bias-Annotation
 
@@ -1731,7 +1731,7 @@ Visible participants and formal documents can dominate the account while informa
 
 ### EAM.16:7 - Conformance Checklist
 
-Are the practice content, population and interval clear? Does the evidence support the particular transmission, use, recognition or retention claim? For a branch, can each group identify its rule and the conditions under which it applies, with a reason for maintaining the difference? Is a proposed intervention directed at that process under actual authority, and is additional inquiry worthwhile for the requested answer?
+Are the practice content, population and interval clear? Does the evidence support the particular transmission, use, recognition or retention claim? For a branch, can each group identify its rule and the conditions under which it applies, with a reason for maintaining the difference? Can they recognise when a bound permits local choice and when interactions require comparison of a wider programme? Is a proposed intervention directed at that process under actual authority, and is additional inquiry worthwhile for the requested answer?
 
 ### EAM.16:8 - Common Anti-Patterns and How to Avoid Them
 

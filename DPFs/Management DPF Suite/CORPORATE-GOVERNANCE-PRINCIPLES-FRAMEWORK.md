@@ -279,7 +279,7 @@ Return a proposed transdisciplinary correction to FPF for consideration.
 
 Use this pattern when a request such as “get the owners' approval”, “the group will guarantee it”, or “improve governance” leaves unclear whose act is needed and which rules make it effective. It helps a director, company secretary, owner, executive or adviser turn that request into a corporate matter that the relevant participants can decide or investigate.
 
-Begin with the action being considered or examined and the corporation whose rights, obligations or arrangements it affects. An existing, adequate account can be used directly. The first result is a question such as “Who may authorize this subsidiary's guarantee, under its constitution and the applicable law, before the proposed signing?” A familiar routine purchase within an established delegation can go straight to its ordinary operating method.
+When the action is already specified, start with it and the corporation whose rights, obligations or arrangements it affects. For a request such as “improve governance”, first establish what decision or use the participants need to enable or repair. Who needs to do what, and what could prevent it? A missing corporate decision, a missing operational arrangement and a decision already taken can call for different work. Use the information that distinguishes those situations to select the matter. A purchase covered by an effective delegation may need only ordinary execution.
 
 ### CGOV.1:2 - Problem
 
@@ -295,7 +295,7 @@ The practitioner needs a usable question quickly, while differences between enti
 
 #### CGOV.1:4.1 - Recover the act and the corporation
 
-Name the action being proposed or examined in a verb phrase, for example: appoint a director, enter a guarantee, issue shares, approve a distribution, disclose information, challenge a decision, or amend the constitution. If the request combines several acts, separate only those with different participants, authority, conditions or effects.
+Starting with the needed outcome, ask whose act could give it effect. If a board ruling, a shareholder’s consent and an operational correction could give different answers, trace who holds the relevant power and what must happen for this matter. This selects the corporation, organ or operation to examine. Name the resulting act, for instance appointing a director or authorising a guarantee. Separate acts where their participants, authority, conditions or effects differ.
 
 Identify the corporation for each act. Use its legal identity and form rather than a trading name alone. In a group, ask which entity owns the asset, incurs the obligation or has the organ being asked to decide. Include other entities only where a relation between them matters to the proposed act.
 
@@ -960,7 +960,7 @@ Establish who may commission the work, receive findings and decide. Recover comp
 
 #### CGOV.7:4.3 - Provide access and obtain a usable review
 
-Give the reviewer the question, relevant materials, assumptions, alternatives and known limitations. Make their access sufficient for the required contribution. Where an interested participant controls the information, provide a way to request clarification or report a material limitation to the eligible recipient.
+Give the reviewer the question, relevant material, binding assumptions, proposed alternatives and known limitations. If the board commissions the reviewer to choose which parts of a transaction belong in the valuation or which alternatives to compare, give access to the underlying transactions and leave that judgement to the reviewer. A valuation under a stipulated loading or price can instead use those fixed terms directly. Where an interested participant controls the information, provide a way to seek clarification or report a limitation to the eligible recipient.
 
 Specify what the review will return: its answer, reasons, scope, material assumptions and unresolved issues. The substantive analysis follows the relevant domain method. A financial valuation and a technical assessment may be needed for the same matter without either answering the other's question.
 
@@ -1087,7 +1087,7 @@ Where disclosure must reach several recipients equally or simultaneously, coordi
 
 Assign preparation and release to participants with the necessary capability and authority. Use an existing provision channel when it works. Repair delivery or access under the established right without restarting the entitlement inquiry.
 
-Check completion at the level the duty and use require. Publication, availability, receipt and understanding may be different claims. A public filing duty can require a successful filing; a director trying to interpret a conditional forecast may need an explanation as well. Choose an observation that shows whether the requirement was met or what remains missing. For a claim about all entitled recipients, a certified count can suffice if it counts distinct eligible recipients for whom the required provision occurred by the deadline, and the count covers the entire eligible set. Counting messages can count one recipient twice. Name-by-name evidence is needed when the particular claim or delivery terms require it.
+Check completion at the level the duty and use require. Publication, availability, receipt and understanding may be different claims. A public filing duty can require a successful filing; a director trying to interpret a conditional forecast may need an explanation as well. Choose an observation that shows whether the requirement was met or what remains missing. For a claim about all entitled recipients, a certified count can suffice if it counts distinct eligible recipients for whom the required provision occurred by the deadline, and the count covers the entire eligible set. Counting messages can count one recipient twice. If the duty also requires simultaneous disclosure, preserve the timing relation between the deliveries. Two receipts before noon can be an hour apart. A certified single release that counts as disclosure to all entitled recipients under the applicable rule can establish the joint condition without reconstructing every receipt. Name-by-name evidence is needed when the claim or terms require it.
 
 Return what was supplied, the material limits and any remaining gap through the normal corporate communication. Keep a record when the applicable duty or later reliance needs one.
 
@@ -1119,7 +1119,7 @@ Volume can be mistaken for transparency, while confidentiality can become a habi
 
 ### CGOV.8:7 - Conformance Checklist
 
-Can the practitioner establish who is entitled to which information, under what conditions and by when? An answer about entitlement can finish an advisory assignment. If provision was due, did the required act occur for the entitled recipients in time? Can they tell whether the material they received answers the required question?
+Can the practitioner establish who is entitled to which information, under what conditions and by when? An answer about entitlement can finish an advisory assignment. If provision was due, did the required act occur for the entitled recipients in time? Can they tell whether the material they received answers the required question? Where the duty concerns the releases together, does the evidence preserve the required relation between them, including simultaneity where specified?
 
 ### CGOV.8:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -1596,11 +1596,11 @@ Use CGOV.8 when missing information prevents an informed choice. Provide what th
 
 #### CGOV.12:4.3 - Compare the available protection, contest and exit routes
 
-Identify the available routes and who can take each action: correct the process, obtain a required consent, exercise a purchase or participation right, negotiate a permitted resolution, use a dispute procedure, or exercise a sale or exit right.
+When asked to identify alternatives or recommend a route, identify the available routes and who can take each action: correct the process, obtain a required consent, exercise a purchase or participation right, negotiate a permitted resolution, use a dispute procedure, or exercise a sale or exit right.
 
-Compare them by the holder's purpose, attainability, time, total burden and consequences for the company and affected parties. Include preserving the current holding or accepting a legitimate outcome when those are live choices. Distinguish a substantive rights defect, uncertainty about its legal treatment and disagreement about commercial merits.
+Where the holder asks to exercise a selected right, establish the act its terms require and whether it can be performed in time. For a comparison of routes, judge them by the holder's purpose, attainability, time, total burden and consequences for the company and affected parties. Include preserving the current holding or accepting a legitimate outcome when those are live choices. Distinguish a substantive rights defect, uncertainty about its legal treatment and disagreement about commercial merits.
 
-A right can require resources to exercise. Determine whether the holder can make the required payment, give notice, obtain advice or provide another contribution needed for the chosen action. If not, compare available alternatives rather than reporting an unusable entitlement as a complete solution.
+A right can require resources to exercise. Determine whether the holder can make the required payment, give notice, obtain advice or provide another contribution needed for the chosen action. If the conditions for exercise cannot be supplied, report the limitation. Compare alternatives where the holder also asks what to do instead.
 
 #### CGOV.12:4.4 - Perform the selected action through the competent participant
 
@@ -1648,7 +1648,7 @@ Public-company protections, private shareholder agreements and family-company ar
 
 - The affected holder, act, right, obligated participant and applicable basis are identified.
 - The relevant deadline and the effect of the protective action are recoverable.
-- Available routes are compared with their resources, costs and attainable results.
+- When a choice or recommendation was commissioned, has the holder received the necessary comparison of routes, resources and attainable results?
 - When advice was requested, the holder can tell whether the right can still be exercised, what terms apply or what prevents its exercise. When exercise of the right was commissioned, the result establishes the event the rule requires or what prevents it.
 - Exercise, dispute, remedy and completed transfer are not conflated.
 - The resulting conditions reach the corporate decision or implementation they affect.
@@ -1901,7 +1901,7 @@ If retaining the current arrangement or repairing its operation answers the diff
 
 For the selected change, explain the new powers or contributions, protected conditions, required means and affected pending matters. Determine how current delegations, unfinished decisions and relevant records will be treated. Preserve obligations whose discharge or alteration needs a separate act.
 
-Make the transition feasible: those who will perform the new contribution need to understand it, have the necessary capability and be able to obtain the information and services it requires. A legal power and the ability to exercise it are separate prerequisites. If the intended arrangement cannot yet operate, choose a permitted interim arrangement, delay the change where allowed, or limit its initial use.
+Make the transition feasible: those who will perform the new contribution need to understand it, have the necessary capability and be able to obtain the information and services it requires. A legal power and the ability to exercise it are separate prerequisites. If the intended arrangement cannot yet operate, choose a permitted interim arrangement, delay the change where allowed, or limit its initial use. If several organs may independently call on the same adviser, determine whether their permitted calls can coincide and which require separate work. One joint opinion can serve several decisions when their rules allow it. Distinct hearings can require the adviser’s time separately.
 
 #### CGOV.14:4.4 - Obtain the corporate acts and establish effectivity
 
@@ -1915,7 +1915,7 @@ If a condition remains unsatisfied, return the achieved result and the next need
 
 Provide the operative wording and its practical consequences to those who rely on it. Update the affected instructions, assignments, permissions, services and records. Explain how a pending matter should proceed and who answers a remaining authority question.
 
-Try a representative action under the changed arrangement where that is useful and permitted. Follow the connection between constituent capabilities and the corporate act: reading a changed limit, identifying the eligible participant, using the required information and performing the authorized action can each affect whether the whole is accomplished.
+To assess the arrangement before use, establish which capabilities the organ needs and whether the participants can draw on them together on the terms promised. An authoritative record can establish that the corporate act took effect. When the conclusion depends on its constituent operations or they are themselves under review, trace those required by the procedure, such as casting and counting votes in the matter. An earlier explanation of a limit may inform the vote. A secretary’s ability to give that explanation can remain available on a day when the vote is cancelled. A representative trial can resolve a remaining question about the arrangement.
 
 Correct an operating defect through the appropriate method. Do not treat an unchanged software limit as the law, or a changed software limit as a grant of authority.
 
@@ -1958,7 +1958,7 @@ A dominant participant can describe a rights-reducing change as an efficiency im
 - The proposed text is not used as authority for its own adoption.
 - Approval, effectivity and functioning are distinguished where they occur separately.
 - Continuing obligations and affected pending matters have usable treatment.
-- Where operating capability is required, the necessary people, information and services are available for that work.
+- Where operating capability is required, the necessary people, information and services are available for the work the bodies are entitled to call for, including any separate contributions required together.
 - Any claimed improvement is supported by consequences beyond the amendment itself.
 
 ### CGOV.14:8 - Common Anti-Patterns and How to Avoid Them
@@ -2381,7 +2381,7 @@ Recover the applicable responsibilities, powers and information conditions. Use 
 
 #### CGOV.17:4.2 - Recover the practice that participants actually use
 
-Use available cases, explanations and observations to recover the operations and their results. Identify how participants encountered the method, which aspects they learned or obtained from others, and what they used in the receiving matter. For a commission about a team’s performance, establish how its participants contributed to the result. For a commission about an individual’s capability, identify the decisions that person made with the help available.
+Start with what the commission asks about the practice. An acknowledgement identifying the case, receiving committee and time can establish timely receipt. It can also establish the team’s escalation if it identifies the team as the sender or other grounds connect the transfer to that team. To find where escalation broke down, trace the preparation and transfer of the notice for that same case. A record of preparation in one case and receipt in another can leave both histories incomplete. For a claim about an individual’s capability, establish the work that person carried out under the help conditions in question, including their own choices where the assignment requires them.
 
 Keep the cultural claims distinct. Distribution shows that material was sent. A demonstrated receiving use can show a transferred operation. Continued use within an observed period supports a claim about that period. Selection or rejection of a method needs its own basis. C.36 supplies these distinctions.
 
@@ -2413,7 +2413,7 @@ C.11.DUA governs additional inquiry. Include the effort of access, confidentiali
 
 For an assignment to provide support, establish that the participants can obtain the appropriate help when they need it. For an assignment to put the practice into use, trace its use in the receiving matter. Give participants the information and participation conditions needed for that work.
 
-Observe the contribution relevant to the original difficulty. Can newcomers recover the assumption and use it in deliberation? Does an exception reach a participant able to respond? Does an eligible participant take part in the collective act?
+Observe the contribution relevant to the original difficulty. Can newcomers recover the assumption and use it in deliberation? Does an exception reach a participant able to respond? Does an eligible participant take part in the collective act? For a claim about the whole course of a matter, link the contributions to that matter. If an authenticated outcome already settles the commission, stop at that outcome.
 
 Distinguish performance with assistance from unaided performance when that difference matters. Assistance can remain part of the intended arrangement. A useful distributed practice does not require every participant to perform every specialist operation.
 
@@ -2462,7 +2462,7 @@ Continuity can protect valuable practice or exclusionary habits. Compare whose c
 ### CGOV.17:7 - Conformance Checklist
 
 - The practice, participants, receiving work and relevant period are identified.
-- The account distinguishes available material, capability, receiving use and any stronger cultural claim.
+- Does the account establish the team result, the connection between its component operations, or a participant’s own choice, according to the commission?
 - The repair answers a consequential gap in operation or its conditions.
 - Responsibility, decision power, information access and confidentiality remain respected under their applicable basis.
 - The selected learning, support or change reaches the result the assignment requires.
