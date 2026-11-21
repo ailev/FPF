@@ -405,7 +405,7 @@ FPF B.1.5.EW helps recover these constituent–whole connections; B.1.5.RS exami
 
 When the proposed operations are already known, MMP.21 compares the consequences of their order, combination and allocation. Select the observation used by the next action and represent a shared resource only once. A mathematical bound can reject an arrangement before implementation, while a construction demonstrating existence establishes the arrangement it exhibits. C.32.MWA.PP receives the result together with its practical assumptions and moved burden.
 
-When the mathematics instead suggests a new way of working, MMP.22 reconstructs the candidate rule. Sharing a deterministic preparation can preserve results; replacing independent measurements by copies cannot preserve the same uncertainty. Reordering first-failure checks can save expected effort; it no longer serves a requirement to report every failed condition. The transformation must therefore retain the full required result and yield operations whose inputs and support are attainable. A.3.1.MV retains a reusable variant, while a changed description or one Work schedule keeps its own subject.
+When the mathematics instead suggests a new way of working, MMP.22 reconstructs the candidate rule. Sharing a deterministic preparation can preserve results; replacing independent measurements by copies cannot preserve the same uncertainty. Reordering first-failure checks can save expected effort. To report every failed condition, an early result must also determine the status of the conditions that would be skipped. The transformation must therefore retain the full required result and yield operations whose inputs and support are attainable. A.3.1.MV retains a reusable variant, while a changed description or one Work schedule keeps its own subject.
 
 Use the existing way or a cheaper direct construction when it already supplies the needed consequence. Mathematical construction can establish a needed dependency, identify a preserved result or reveal a new possibility.
 
@@ -1515,7 +1515,7 @@ A simulation can check whether the formula reproduces the behavior of the record
 
 #### MMP.7:5.1 - Infer a success rate from a selectively submitted log
 
-A team asks what fraction of attempts succeed. In a proposed model, each attempt succeeds with probability p. Every success is logged; each failure is logged independently with probability 1/4. Initially the team has a fixed-size sample of independently drawn log entries, with no information about how many attempts produced the source log.
+A team wants to estimate the probability that an attempt succeeds under current conditions. In a proposed model, each attempt succeeds with probability p. Every success is logged; each failure is logged independently with probability 1/4. Initially the team has a fixed-size sample of independent draws from the distribution of logged attempts, with no information about how many attempts produced the source log.
 
 The event variable Y is success or failure. The recording flag R says whether the attempt enters the log. Their joint probabilities are:
 
@@ -1527,11 +1527,11 @@ The event variable Y is success or failure. The recording flag R says whether th
 
 The included-case success probability is `q = p / [p + (1-p)/4] = 4p/(1+3p)`. If the observed fraction of successes is 1/2, the likelihood estimate of q is 1/2, and transforming it gives `p_hat = q_hat/(4-3q_hat) = 1/5`. Sampling uncertainty remains; this calculation corrects which rate is being estimated.
 
-The first useful result is the distinction between a 50% rate among reports and the estimated 20% rate among attempts under the supplied reporting assumptions. If the failure-reporting probability is unknown, several combinations of that probability and p can produce the same q. The log alone then leaves the population rate unresolved.
+Exactly half of the sampled entries report success. Under this sampling and reporting model, that fraction estimates the success probability among logged attempts. The corresponding estimate among all attempts is one fifth. If the failure-reporting probability is unknown, several combinations of that probability and p can produce the same q. The log alone then leaves the population rate unresolved.
 
-Now the procedure changes: a register names a fixed cohort of N attempts and links each submitted report to its attempt. Model those attempts as independent, each with the same success probability p, retaining the stated reporting rule. Since every success is reported, an unreported attempt is a failure. If there are k success reports, the likelihood for p is proportional to `p^k (1-p)^(N-k)`; the failure-reporting factors do not depend on p. The estimate becomes k/N. Conditioning only on reported entries would throw away information the revised procedure provides.
+Now the procedure changes: a register names a fixed cohort of N attempts and links each submitted report to its attempt. Model those attempts as independent, each with the same success probability p, retaining the stated reporting rule. Since every success is reported, an unreported attempt is a failure. If there are k success reports, the likelihood for p is proportional to `p^k (1-p)^(N-k)`; the failure-reporting factors do not depend on p. For a nonempty registered cohort, k/N is the exact fraction of successful attempts. It is also the likelihood estimate of the common success probability p. Conditioning only on reported entries would throw away information the revised procedure provides.
 
-This is a change in the team's observing method. A.3.2.DE explains the changed recording rule; C.32.MWA.PP connects that contribution to the performers and support available to carry it out. Whether to introduce it depends on what resolving the population rate would change in the team's work.
+This is a change in the team's observing method. A.3.2.DE explains the changed recording rule; C.32.MWA.PP connects that contribution to the performers and support available to carry it out. To decide whether to introduce the register, consider what knowing the cohort fraction and improving the estimate of p would change in the team's work.
 
 #### MMP.7:5.2 - Preserve a common influence across readings
 
@@ -3823,7 +3823,7 @@ For components sharing z, one possible factorization is:
 p(z,u1,u2) = p(z) * p(u1 | z) * p(u2 | z).
 ~~~
 
-It assumes conditional independence of u1 and u2 given z. If that assumption is unavailable, construct their joint conditional law or retain the unresolved dependence. A common random quantity is sampled or integrated once as that same quantity; two independent draws would describe a different model.
+It assumes conditional independence of u1 and u2 given z. If independence is unavailable, use a joint conditional law where the calculation needs it. For a given pair of observed outcomes, the relative likelihoods may suffice. Bounds on them can already settle a decision. A common random quantity is sampled or integrated once as that same quantity; two independent draws would describe a different model.
 
 For two analyses using the same positive prior pi(z) and conditionally independent data D1,D2, their posteriors satisfy q1(z) proportional to pi(z)\*L1(z) and q2(z) proportional to pi(z)\*L2(z). The combined posterior is proportional to q1(z)\*q2(z)/pi(z) on the common prior support. Multiplication without the division counts the prior twice.
 
@@ -3893,7 +3893,7 @@ P(z=1 | two positives)
 
 The same result is recoverable from the separate posteriors by dividing their product by the common prior before normalizing. That operation preserves their intended contributions under the supplied conditional independence.
 
-Now discover that the two reports contain the same observation, copied into two analyses. There is only one likelihood factor. The correct result under the original observation model is again 3/7; the 9/13 calculation is no longer supported. If there are two dependent observations instead, their joint conditional law is needed.
+Now discover that the two reports contain the same observation, copied into two analyses. There is only one likelihood factor. The correct result under the original observation model is again 3/7; the 9/13 calculation is no longer supported. For two distinct reports with unknown dependence, let a and b be the probabilities that both are positive given z=1 and z=0, respectively. For the observed pair the posterior is `a/(a+4b)`. With each positive marginal equal to 3/4 when z=1, at least 1/2 and at most 3/4 of the probability can lie in their intersection. For the two 1/4 marginals when z=0 the intersection can range from 0 to 1/4. Thus the posterior can range from 1/3 to 1. To attain the whole interval, take disjoint negative events when z=1, giving a=1/2, and vary the overlap of the positive events when z=0 from 1/4 down to zero. Even without a point estimate, a decision requiring at least 1/3 is supported under these assumptions.
 
 The exchange therefore includes the identity and dependence of the contributing information, not just two numbers labeled “probability.” In a method assessment, the same problem appears when two models of performance use overlapping case records.
 
@@ -4781,7 +4781,7 @@ equivalently c_i*(1-p_j) <= c_j*(1-p_i).
 
 For this two-check comparison, independence of their outcomes is unnecessary: the second check is incurred exactly when the first passes. Extending one fixed ordering rule to many checks needs the conditional probabilities among cases reaching each position; marginal ratios alone can fail when those probabilities change.
 
-Now require the procedure to report every failed condition so that the applicant can correct the case in one return. Stopping after the first failure no longer supplies the required result. Both checks must then be completed, taking 8 minutes of summed effort under the same assumptions. A changed order may still affect the time of an early indication, but it no longer produces the claimed effort saving.
+Now require a report of every failed condition. Without a dependency that determines the other outcome, run both checks, taking 8 minutes. Suppose instead that a known rule guarantees that passing B implies passing A. Run B first. If B passes, neither condition failed. If B fails, run A to finish the list. With the given costs and proportions the complete report costs 2+0.5\*6=5 minutes on average. If the applicant also ordered both actual tests, their performance still takes 8 minutes. Keep the requested report and any separately required performances in the comparison.
 
 If the requirement instead remains the first-failure decision but A supplies information needed to perform B, the proposed order is unavailable. Add the preparation that would make B independently executable and recompute its cost, or retain A first. A lower algebraic value is not a usable method while its required input is unavailable.
 

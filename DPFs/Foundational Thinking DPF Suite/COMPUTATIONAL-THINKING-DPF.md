@@ -1630,7 +1630,7 @@ State whether the recipient needs one rule, a set of alternatives, an uncertaint
 
 #### CMP.7:4.2 - Recover the examples and feedback actually available
 
-Identify the supplied inputs, labels, rewards, demonstrations or other observations and how they were obtained. For missing labels, delayed feedback, selection effects or dependence between examples, state what the learning procedure can observe. MMP.7 supplies the probability model of recorded data when such a model is needed.
+Identify the supplied inputs, labels, rewards, demonstrations or other observations and how they were obtained. For missing labels, delayed feedback, selection effects or dependence between examples, state what the learning procedure can observe. Distinguish information available when the prediction is due from feedback for later predictions. MMP.7 supplies the probability model of recorded data when such a model is needed.
 
 Choose the feedback regime before deriving the update. In supervised learning, the supplied target response can evaluate a candidate prediction directly. In bandit feedback, only the consequence of a chosen action is observed; an update requiring all unchosen consequences is unavailable. A self-produced label remains the output of another rule and can propagate its errors.
 
@@ -1712,9 +1712,9 @@ On nonnegative integer inputs, consider the two rules `f(x)=x` and `g(x)=x mod 2
 
 A learner can evaluate both rules and return the minimizing set `{f,g}`. The returned set retains the ambiguity. It can also return one rule under a declared preference, but the zero training loss alone gives no reason to prefer f over g at input 2. Their predictions there are 2 and 0.
 
-Suppose the receiving task needs a prediction at 2 and an additional observed response is available for a cost that could be justified. If that response is 2, the same selection procedure prefers f; if it is 0, it prefers g. If the observation is not worth obtaining, use a selected rule under the remaining assumption or retain both possible responses for the downstream decision. Better minimization of the original two-example loss cannot distinguish them.
+Suppose a prediction at 2 is due before its response is revealed. The two original examples leave both 2 and 0 possible. Give a point prediction under a stated selection rule, or return both if the recipient can use that answer. With a fixed noiseless target in {f, g}, an earlier observation at 3 can settle the prediction. A response of 3 selects f and predicts 2 at input 2. A response of 1 selects g and predicts 0 there. Once the response at 2 arrives, it can answer a request for the observed value and update the rule for later inputs. To evaluate the prediction, compare the answer recorded before the deadline with the response subsequently observed at input 2.
 
-**Changed response:** suppose the response at 2 is 1. Neither rule fits all three observations. Revisit the two-rule family or the assumption of deterministic noiseless responses. Repeatedly fitting the original family more accurately cannot create the absent continuation.
+**Changed response:** consider only the original two observations and a response of 1 at input 2. Each rule has mean squared loss 1/3 on these three observations. If an exact fit is required, revisit the two-rule family or the noiseless-target assumption.
 
 #### CMP.7:5.2 - Construct an online learner and derive its mistake bound
 
@@ -2057,9 +2057,9 @@ A changed inclusion rule, target statistic, proposal, random source or stopping 
 
 #### CMP.9:5.1 - Keep one uniform record from a stream of unknown length
 
-Store the first record. At record t, replace the stored record with probability `1/t`; otherwise retain it. Use a uniform integer in 1 through t to make this decision.
+Store the first record. At record t, use a fresh uniform integer in 1 through t to replace the stored record with probability `1/t`. The guarantee below concerns each fixed input prefix. It also applies conditional on a completed stream when the input and its endpoint are independent of the sampler's random choices.
 
-After t records, the new record has probability `1/t`. Every earlier record had probability `1/(t-1)` before this step and survives with probability `(t-1)/t`, giving `1/t` as well. This establishes the invariant inductively. The procedure needs one record, a counter, and one update decision per arrival; counter and record representation costs remain visible.
+After t records, the new record has probability `1/t`. Every earlier record had probability `1/(t-1)` before this step and survives with probability `(t-1)/t`, giving `1/t` as well. This establishes the invariant inductively for each fixed prefix. If a sender ends a stream of distinct records A, B immediately after the second record whenever A is retained, and otherwise sends C, every observed stream of length two ends with A retained. Uniformity at a fixed prefix alone cannot establish uniformity conditional on this stopping event. A different stopping policy can preserve uniformity if its effect is accounted for. The procedure needs one record, a counter and one update decision per arrival. Counter and record representation costs remain visible.
 
 For the stream A, A, B, the resulting value is A with probability 2/3 and B with probability 1/3. This is correct uniform sampling of record positions. If the new request is uniform sampling of distinct values, the old invariant answers a different question. One construction keeps a set of already seen values and applies the same update only on a first occurrence. That requires storage for the distinct-value set or another algorithm with its own access and error assumptions.
 
@@ -2429,7 +2429,7 @@ A practical consequence is to compare representations and access before spending
 
 One agent has an n-bit string x and sends one fixed-length binary message to another agent holding y. The receiver must decide whether x=y with no error. If two different strings x and x' produce the same message, take the common receiver input y=x. The receiver sees identical information in both cases but must answer differently. All `2^n` strings therefore need distinct messages, requiring at least n bits. Sending x achieves it.
 
-If public independent random masks and an error probability are admitted, the task changes. For each mask r, send the parity of the positions where both x and r are one; the receiver compares with its parity from y. Equal strings always match. For unequal strings, choose one differing position: toggling its independent mask bit pairs masks with opposite comparison outcomes, so the parities match with probability 1/2. After k independent masks, falsely accepting equality has probability `2^-k` and the message has k bits. The shared random masks and local parity-computation cost are explicit resources, not information transmitted by the message.
+If a one-sided error is allowed, fix the two inputs independently of the public random choices. In each of k rounds the agents share a fresh uniform n-bit mask with independent fair bits. The sender transmits the parity of x on the selected positions. The receiver compares it with the parity of y on those positions. A mismatch certifies inequality. For a fixed unequal pair, condition on all mask bits except one where the strings differ. The remaining fair bit makes the parities agree with probability 1/2. Equal strings always pass. An unequal pair passes all k independent rounds with probability `2^-k`. This protocol uses k message bits, kn shared random bits and local parity computations. If inputs may be chosen after seeing the masks, the per-pair bound no longer follows. If sending x itself fits the budget, the agents can obtain an exact answer without random choices.
 
 ### CMP.11:6 - Bias-Annotation
 

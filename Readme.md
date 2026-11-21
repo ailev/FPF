@@ -63,13 +63,13 @@ A person working with an AI, several collaborating teams and a company with a de
 
 ## Check whether it helps your work
 
-Compare your usual workflow with and without the selected FPF methods on tasks you can judge. Keep the agent, tools, starting information and task conditions comparable. Decide beforehand which mistakes would change the result or decision; then count those still present and record your time spent checking and correcting the answer. Include time spent selecting and reading FPF material, or preparing it for the agent.
+Choose a task for which you can judge whether the answer lets someone do the work they asked for. Compare your usual workflow with and without the selected FPF methods. Keep the agent, tools, starting information and task conditions comparable and account for what the first attempt could teach the second. Before reading the answers, decide which mistakes would prevent the recipient from doing the commissioned work or change the decision. Count those still present and record your time spent selecting, reading, supplying and applying the methods, checking the answers and making corrections. When judging the team’s total effort, include the other participants’ work.
 
-Repeat the comparison on varied tasks before drawing a broader conclusion. The examples here explain possible uses; they do not establish a measured advantage over your current workflow.
+Use the result for the question the comparison can answer. To estimate what would change across your workload, use comparisons or justified bounds for the task conditions that could affect the outcome. Weight the contributions by how often those tasks occur and what their errors or corrections cost. If the unexamined work could reverse the decision, the overall advantage remains open. A single comparison can already expose an important failure or show how to finish the task in hand.
 
 ## What is available
 
-**FPF Core** contains 408 patterns in 18.781 million characters. It supplies transdisciplinary concepts and methods, including methodological work, architecture construction and comparison, and open-ended development. **36 Domain Principle Frameworks (DPFs)** supply subject-specific methods: 26 belong to four Suites, and ten have their own files directly in the DPF catalogue.
+**FPF Core** contains 408 patterns in 18.790 million characters. It supplies transdisciplinary concepts and methods, including methodological work, architecture construction and comparison, and open-ended development. **36 Domain Principle Frameworks (DPFs)** supply subject-specific methods: 26 belong to four Suites, and ten have their own files directly in the DPF catalogue.
 
 A DPF describes one field through a connected pattern language. A **Suite** describes a composite discipline through its constituent fields and their relations. An **Architectural Reference** explains how the relevant language is arranged and why: within a framework, across a Suite, or across the Library.
 
@@ -77,7 +77,7 @@ A DPF describes one field through a connected pattern language. A **Suite** desc
 | --- | --- | ---: | ---: | ---: |
 | [Engineering](DPFs/Engineering%20DPF%20Suite/) | Designing, realizing, changing and maintaining systems; knowledge access, semantic integration and control architecture design. | 5 | 99 | 2.896 |
 | [Management](DPFs/Management%20DPF%20Suite/) | Direction, goals, commitments, operations, resources, markets, communities and organizational change. | 14 | 201 | 5.623 |
-| [Foundational Thinking](DPFs/Foundational%20Thinking%20DPF%20Suite/) | Mathematical and physical accounts, models, algorithms and usable notation. | 5 | 71 | 2.014 |
+| [Foundational Thinking](DPFs/Foundational%20Thinking%20DPF%20Suite/) | Mathematical and physical accounts, models, algorithms and usable notation. | 5 | 71 | 2.019 |
 | [Human Capability Engineering](DPFs/Human%20Capability%20Engineering%20DPF%20Suite/) | Human learning and somatic change, connected to capability in later work. | 2 | 34 | 1.274 |
 
 The [DPF catalogue](DPFs/) lists the ten further frameworks and opens each Suite's files. Suite totals sum their constituent framework texts; separate Suite References and README pages are excluded. Character counts include spaces and original line breaks.
