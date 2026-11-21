@@ -235,6 +235,7 @@ The constructed cases show how to arrange the work. To measure time saved, compa
 
 ## HRM.Reference:End
 
+# Human resource management methods
 
 ## HRM.1 - Construct and revise a coherent HR arrangement
 
@@ -408,7 +409,7 @@ HRM.2–HRM.5 supply the distinct personnel results. STR supplies direction; OPS
 
 ### HRM.2:1 - Problem frame
 
-**Use this when** recruitment, promotion, allocation or another personnel choice relies on a claim about a person's suitability for actual work. Begin with the decision and the contribution it needs, not an available test or candidate score. The first useful result is a warranted comparison and recommendation, or the uncertainty that prevents that comparison or recommendation. The object is the assessment and selection inference; an appointment remains a separate act.
+**Use this when** hiring, promotion or allocation calls for a recommendation about one person or a group of people who must cover specified work. Identify the personnel decision, whose work is needed and what would make the recommendation sufficient. Return the supported recommendation or the part still open. The appointment takes effect through the authorized act.
 
 Use a sufficient established procedure directly when its work, population, support conditions and decision remain applicable. A formative learning conversation need not become a selection exercise.
 
@@ -430,6 +431,8 @@ Evidence gathered for one purpose can acquire an unjustified second meaning. Cou
 #### HRM.2:4.1 - Define the decision and investigate the work
 
 Name what is being decided, who may decide, the candidate population, applicable eligibility conditions and the proposed terms. Separate an entry requirement from something learnable after appointment with available support. Recover the actual work through documents, observation and knowledgeable participants. Include consequential uncommon situations, coordination and recovery where they matter; frequency alone does not establish importance. Identify which variations in work, location, tools and support the role must cover.
+
+For several posts, establish what the people must deliver between them. Which actions require a particular person's judgement, when can one result serve several users, and who may substitute? Include existing assignments and the support people would draw on together. This defines the work to which their assessment evidence must apply.
 
 Translate this analysis into claims needed for the decision: for example, the ability to turn a client's ambiguous concern into a bounded advisory question using the provided agent, explain the resulting recommendation, and recognize when a required professional conclusion is unavailable. Distinguish this from the obsolete ability to type a report unaided. If adequate work analysis is missing, obtain it before selecting the instrument. OPM's job-analysis practice and qualified industrial/organizational assessment are useful suppliers; specify the personnel decision these findings will inform.
 
@@ -468,7 +471,9 @@ Apply the supported procedure to the eligible population. Separate missing evide
 
 Distinguish minimum conditions from compensable preferences. A required professional permission cannot be compensated by a high interview score. Among candidates who meet binding conditions, use the explained comparison relevant to the work. Do not construct weights retrospectively to select a favored person. When candidates are not distinguishable on the evidence, use the applicable tie or further-evidence procedure and state what the evidence leaves unresolved.
 
-Construct the recommendation with the proposed work and terms, evidence and uncertainty, applicable conditions, and any learning or support on which it depends. The authorized decision maker may accept it, request a defined missing contribution or make another supported choice within the actual rules. Communicate the decision and available correction or challenge route through HRM.4. Use ADM and the relevant organizational process to make an appointment or assignment effective; selection itself does not provide access, remuneration or authority.
+Construct the recommendation for the work actually commissioned. For one post, a supported choice of one person can finish the assessment. For a group, check that its members can supply the required coverage under the proposed terms. For example, several first appointments can depend on the same supervisor. Determine whether that supervisor can provide the help each needs at the permitted times. Report a supported partial recommendation when another post remains open. State the evidence, uncertainties and conditions that would change the choice.
+
+Use HRM.4 to communicate the decision and the applicable correction or challenge route. An authorized manager may assess and appoint in the same meeting. Establish what constituted the appointment under ADM and what OCE still needs to provide for the work to take place.
 
 #### HRM.2:4.5 - Revisit the inference when its grounds change
 
@@ -478,7 +483,7 @@ Follow the receiving work and appropriate assessment evidence. A failure can con
 
 A reporting service needs two advisers. Its old test ranks unaided spreadsheet speed. Work analysis now shows that agents prepare the tables; advisers must frame client questions, identify unsupported conclusions and negotiate an actionable response. The owner constructs two representative cases with the provided agent and criteria covering those operations. A qualified assessor examines the work coverage, scoring and limits. One case contains missing client evidence; a warranted refusal to recommend is a successful response, not an incomplete answer.
 
-Candidate A produces a polished recommendation but misses that absence. Candidate B identifies it, obtains the permitted clarification and supplies a usable bounded answer. Under the established critical condition, fluency does not compensate for the unsupported recommendation. The comparison favors B for this role, subject to the remaining eligibility and employment conditions. The assessment concerns assisted advisory work. B’s unaided spreadsheet performance would need other evidence.
+Candidate A produces a polished recommendation but misses that absence. Candidate B identifies it, obtains the permitted clarification and supplies a usable bounded answer. Under the established critical condition, fluency does not compensate for the unsupported recommendation. This result supports B on the missing-information requirement and rules out A under the stated critical condition. Suppose the assessor also has a comparable previous assignment showing B can frame the advisory question and negotiate a usable resolution with the permitted help. Taken together, the evidence covers the required operations and supports recommending B for one post, subject to the remaining eligibility and employment conditions. The second post still needs a supported candidate. To recommend the pair for the service, the assessor must also establish how their work and any shared assistance cover the clients they are to serve. The assessment concerns assisted advisory work. B’s unaided spreadsheet performance would need other evidence.
 
 Now the proposed service must continue during agent outages. The owner may obtain fallback provision or require an additional human operation. Only after that choice should the assessment change. A blanket ban on tools would have tested a different job; a blanket promise that tools remove all human requirements would have missed the changed dependency.
 
@@ -493,6 +498,7 @@ The incumbent population, historical ratings and recruitment channels can encode
 - Are administration, access and scoring sufficient for the intended comparison?
 - Are missing evidence, unmet requirements and preference differences distinguished?
 - Are recommendation, authorized act, actual provision and further challenge kept separate?
+- If the decision concerns a group, does the recommendation establish the coverage the work requires from its members together?
 - Can a change reopen the affected inference without rewriting unrelated findings?
 
 Recognizing a plausible work sample does not assure its validity. That conclusion requires the evidence appropriate to the actual claim.
@@ -562,7 +568,7 @@ For **individual progression**, specify the rule and evidence: for example, an a
 
 For **variable reward**, establish what outcome or contribution qualifies, the period, attribution, thresholds or other rule, uncertainty and limits of participant control. An OPS.22 finding becomes a reward input only when its interpretation fits that rule. Output from an agent or a team does not automatically identify the individual contribution. Do not reward apparent speed by creating an incentive to conceal defects, move work to colleagues or exceed protected hours.
 
-#### HRM.3:4.2.1 - Obtain a comparative evaluation of changed work
+##### HRM.3:4.2.1 - Obtain a comparative evaluation of changed work
 
 Use this operation when the job-value basis remains unsettled. A sufficient current evaluation can be used directly when it covers the actual work, relevant comparison jobs and intended decision, explains its judgement, and leaves no unresolved condition that could change that decision. A changed title alone need not reopen it. A material change in duties, an omitted demand or an unsupported comparison does.
 
@@ -572,9 +578,9 @@ Choose the comparison scope from the decision. A revised job may be assessed aga
 
 **Obtain a complete evaluation approach and evaluators who can apply it.** A professional service can supply the evaluation, or a prepared internal team can perform it using an applicable scheme. One accessible route for a detailed point-factor approach is the EC/EIGE [job-evaluation toolkit](https://eige.europa.eu/sites/default/files/documents/eu-wide-guidelines-on-gender-neutral-job-evaluation-and-classification-step-by-step-toolkit.pdf): Tools 0–2 prepare the people and job information; Tool 5 and the complete factor and subfactor plan in §5.1 explain the evaluation; Tools 6–7 connect corrected descriptions and subsequent changes. Use those complete instructions and any calculation support on which the chosen approach depends. Before using calculated results, check that the aid implements the chosen factor-specific levels, point allocation and grouping rules. Resolve an inconsistency with the evaluation provider. Another established approach can be sufficient when it supports the same required comparison.
 
-Evaluators need to understand the chosen factors, distinguish adjacent levels, examine job evidence and recognize systematic omissions or double counting. Practice on relevant jobs before relying on the comparison; discuss why the descriptions warrant particular levels. Bring in people who know the work and provide the required worker participation. Obtain training or professional help where the evaluation capability is missing. Position in management or familiarity with present salaries does not supply these abilities. Agree who will resolve a contested evaluation under the applicable arrangement.
+Evaluators need to apply the distinctions their chosen scheme uses and recognize consequential omissions. In a factor scheme, this includes distinguishing levels and recognizing double counting. In whole-job classification, compare the material duties with the group descriptions and explain which description fits the work. Use relevant prior judgements or practice to establish that the evaluators can apply the scheme. Bring in people who know the work and provide the required worker participation. Obtain training or professional help where the evaluation capability is missing. Position in management or familiarity with present salaries does not supply these abilities. Agree who will resolve a contested evaluation under the applicable arrangement.
 
-**Apply the same declared scheme to the job profiles.** A factor identifies a demand being compared; its subfactors distinguish aspects that need separate judgement. The EC/EIGE approach covers skills, responsibility, effort and working conditions, including demands easily missed in care, coordination and helping work. Its level descriptors explain the differences to judge. Read a profile against each applicable descriptor and record the work facts that support the assigned level. Different evaluators can first make their judgements separately, then examine disagreements against the evidence and definitions.
+**Apply the same declared scheme to the job profiles.** For a whole-job comparison, retain the job evidence that supports the classification. For the factor method, identify each demand and the subfactors that need separate judgement. The EC/EIGE approach covers skills, responsibility, effort and working conditions, including demands easily missed in care, coordination and helping work. Its level descriptors explain the differences to judge. Read a profile against each applicable descriptor and record the work facts that support the assigned level. Different evaluators can first make their judgements separately, then examine disagreements against the evidence and definitions.
 
 When the facts are insufficient, obtain the missing information or retain the alternative judgements and their consequences. Averaging disputed level labels would hide the unresolved question. A missing description is not evidence that a demand is absent. Likewise, an employee's additional qualification counts only insofar as the job requires the corresponding knowledge. Follow the scheme's distinctions between overlapping demands: for example, the communication skill needed to help colleagues and responsibility for their development concern different aspects of that work.
 
@@ -598,7 +604,7 @@ Examine the behaviors the combined terms make attractive. If advisers must mento
 
 #### HRM.3:4.4 - Test comparisons and provide challenge
 
-Apply the proposed arrangement to materially different jobs and cases, including a changed job, a new entrant, an established contributor, a person with an applicable adjustment and a relevant boundary case. Trace a difference to its stated basis. Identify unexplained, unsupported or impermissible differences and inconsistent treatment under the chosen rule.
+Identify whose pay or progression the proposal covers, what work and periods count, and which differences can change an entitlement. A change of job and its effective date can matter together. For one payment, the applicable rate and date may settle the question. For a rule covering a workforce, establish its treatment throughout the required range by its terms or by considering the material branches. A new entrant, a continuing contributor or a person with an agreed adjustment can reveal a distinction to check. Trace a difference to its stated basis. Identify unexplained, unsupported or impermissible differences and inconsistent treatment under the chosen rule.
 
 Where a difference raises an equality or other institutional question, obtain the applicable qualified judgement and remedy. A statistical gap, a market story and a job-evaluation result have different evidential roles. Do not use one as a universal exoneration or verdict. Use HRM.4 for required participation, negotiation or contest. Allow correction of the work description and evidence, not merely appeals against an opaque final score.
 
@@ -727,7 +733,7 @@ Translate the remedy into work. Assign correction of pay to ADM, reassessment to
 
 #### HRM.4:4.5 - Examine recurrence without suppressing voice
 
-Check whether the participation opportunity, determination and remedy actually occurred. Obtain relevant participant response and examine recurrence or adverse treatment under the applicable protections. Where a concern reveals a shared defective premise, return it to HRM.1 or the owning Method. Do not treat fewer complaints as proof of improvement: access may have deteriorated. Likewise, one substantiated error does not justify discarding every adequate decision from the same practice.
+Match the check to the requested result. For an opportunity to raise a concern by a deadline, establish the effective procedure, an available channel, a competent recipient and the remaining time. For a decision or remedy already due, establish which acts occurred and what the employee received. Obtain relevant participant response and examine recurrence or adverse treatment under the applicable protections. Where a concern reveals a shared defective premise, return it to HRM.1 or the owning Method. Do not treat fewer complaints as proof of improvement: access may have deteriorated. Likewise, one substantiated error does not justify discarding every adequate decision from the same practice.
 
 ### HRM.4:5 - Archetypal Grounding
 
@@ -745,12 +751,12 @@ Power, dependency, language, access and fear of consequences can influence what 
 
 - Is the desired result distinguished from the channel: information, influence, negotiation, determination, appeal or remedy?
 - Is the selected process applicable and reachable, with required representation, authority and independence?
-- Can participant input still change the relevant decision?
-- Does inquiry distinguish facts, interpretations and uncertainty and provide the required opportunity to respond?
-- Are the decision, challenge route and remedy usable and appropriately communicated?
-- Does follow-through examine actual provision and recurring conditions rather than only complaint counts?
+- For consultation, can participants supply their views while these can still influence the decision?
+- For an inquiry, are facts, interpretations and uncertainty distinguished, and is the required opportunity to respond provided?
+- For a decision, can the employee obtain the outcome and use any applicable challenge route? If a remedy is due, can the employee obtain it?
+- When follow-through is requested, what establishes whether the action due took effect? If recurrence is at issue, which conditions recur?
 
-The presence of a grievance policy is recognition evidence only. Assurance requires its applicability and actual performance for the matter at hand.
+To advise an employee how to raise a concern, establish that the route applies and is usable for that employee in time. To report how a case was handled, establish the actual involvement, determination or remedy that the report covers.
 
 ### HRM.4:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -869,7 +875,7 @@ The employer's preference for continuity can dominate the person's aims, and app
 - Is the proposed transition grounded in the actual relation, circumstances, aims and obligations?
 - Are clinical or safety assessments obtained from qualified suppliers? Does serious functional difficulty prompt an appropriate response even when output remains satisfactory?
 - Are required constraints distinguished from discretionary preferences and respected in actual work and terms?
-- Does the arrangement have obtainable tasks, support, coverage, access and effective provision?
+- Does each affected party receive what the transition requires? On return, establish suitable work, support and access. During agreed leave, establish relief from the duties and provision for work that must continue. On departure, establish the required transfers or closure of duties and access.
 - Are private information and personal/corporate agent mandates bounded by the actual purpose and permissions?
 - Can change reopen the affected conditions, and can a supported exit remain a legitimate result?
 

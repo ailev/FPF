@@ -106,9 +106,9 @@ After a decision, use [CGOV.13](#cgov13---monitor-corporate-performance-and-requ
 
 - **Situation:** New directors have attended induction, but an important assumption still fails to enter the board's decision.
 - **Question:** What prevents the contribution from being obtained and used in deliberation?
-- **First useful result or blocker:** A correction directed at the missing contribution, carried into receiving work when implementation is the assignment.
+- **First useful result or blocker:** A correction that restores what the assignment requires, including effective access or the actual contribution to a decision.
 - **Start with:** [CGOV.16](#cgov16---reconcile-constituent-and-encompassing-corporate-governance-work) when the connection between the failed contribution and the larger work is unclear. Use [CGOV.17](#cgov17---deliberately-continue-and-change-corporate-governance-culture) to establish how participants can obtain and use the contribution, distinguishing reasoning, access and transmission difficulties. [CGOV.8](#cgov8---provide-corporate-information-under-applicable-rights-and-duties) supplies information provision; [CGOV.15](#cgov15---decide-whether-and-how-to-change-corporate-governance-methods) helps when the way of preparing or discussing matters must change.
-- **Stop or return:** Close a request for diagnosis with the supported diagnosis. For implementation, continue to the contribution's use under the applicable conditions. Return to the failed connection when timely access, assistance or changed preparation still leaves the work unusable.
+- **Stop or return:** Close a request for diagnosis with the supported diagnosis. For an assignment to restore access, establish that the required person can use the provision in time. For actual participation or delivery, follow the contribution into the relevant work. Return to the failed connection when timely access, assistance or changed preparation still leaves the work unusable.
 
 A new director can interpret a forecast when given the papers, but a portal change delivers them after the vote. Restore timely access under the existing powers. More instruction does not repair that access failure.
 
@@ -180,10 +180,10 @@ An operational rule additionally requires a technical release before live plant 
 1. [CGOV.1](#cgov1---frame-the-corporate-matter-and-its-governing-rules) separates the preparatory commitment from live deployment. Existing rights and delegation information answers the relevant [CGOV.2](#cgov2---distinguish-shareholding-voting-power-and-control)–[CGOV.3](#cgov3---establish-authority-for-corporate-appointments-removals-and-decisions) questions.
 2. [CGOV.6](#cgov6---expose-conflicts-and-related-party-interests) helps determine the director's disclosure and participation conditions. [CGOV.7](#cgov7---arrange-independent-review-and-a-disinterested-corporate-decision) connects any warranted independent contribution with eligible decision participants; the relationship alone creates no requirement for a further supplier report in this case.
 3. Use [CGOV.8](#cgov8---provide-corporate-information-under-applicable-rights-and-duties) to provide the required summary to its recipients, preserving its material content and confidentiality conditions. The financial account retains its preparation-only scope. An audit question, if one arises, returns to [CGOV.10](#cgov10---obtain-and-use-a-scoped-audit-or-assurance-conclusion-for-corporate-governance).
-4. With these conditions met, the two eligible directors deliberate and approve the preparatory commitment through [CGOV.11](#cgov11---make-and-record-a-corporate-decision). They preserve the outcome in the form required by the supplied procedure. Live deployment remains conditional on the technical release.
+4. With these conditions met, the two eligible directors deliberate and approve the preparatory commitment through [CGOV.11](#cgov11---make-and-record-a-corporate-decision). They record the authorization for preparation on the terms the board approved.
 5. Use [CGOV.13](#cgov13---monitor-corporate-performance-and-require-an-account) to follow the authorized undertaking and the condition that can change its continuation. The responsible participant can require an account and perform a permitted response when performance diverges.
 
-The eligible directors’ approval in step 4 authorizes preparation only. Live deployment requires a technical release. If a required director cannot participate, the corporate decision waits for a permitted arrangement; the usable financial analysis and permitted preparation of materials remain. If the assignment was only to identify the conflict conditions, its result can stop after step 2.
+The board can proceed with preparation. Before live deployment, establish both the technical release and corporate authority for deployment. An earlier corporate decision may already authorize deployment when the release arrives. The preparation-only approval in step 4 leaves that corporate decision open. If a required director cannot participate, the corporate decision waits for a permitted arrangement; the usable financial analysis and permitted preparation of materials remain. If the assignment was only to identify the conflict conditions, its result can stop after step 2.
 
 A shareholder's protected challenge can proceed through [CGOV.12](#cgov12---protect-corporate-minority-holders-rights-and-enable-contest-or-exit) without treating every challenge as a veto. A genuine arrangement defect can require [CGOV.14](#cgov14---decide-whether-and-how-to-change-corporate-governing-instruments-and-arrangements).
 
@@ -1411,7 +1411,7 @@ B.3 supports claim-specific assurance reasoning and C.11.DUA the choice of furth
 
 Use this pattern when a corporation needs an act by a board, shareholders or another authorized holder, and preparation must become a decision made under the applicable rules. It also applies when a discussion or written approval leaves unclear what was decided, by whom and with which conditions.
 
-Start from the proposed act and use a sufficient current authority answer. Prepare the matter and eligible participation, make the decision through the permitted procedure, and preserve its conditions in the required record and communication. The decision may approve, refuse, limit or defer the proposal. If a necessary condition is unresolved, identify the affected act and the useful work that can continue.
+For a question about an earlier decision, start with the act that could have made it effective and the rules then in force. A signed resolution or certified outcome may establish the authorized choice and its limits. Where a consent or condition still matters, reconstruct the missing part of the decision from its records. For a new act, start from the proposal and use a sufficient current authority answer. Prepare the matter and eligible participation, make the decision through the permitted procedure, and preserve its conditions in the required record and communication. The decision may approve, refuse, limit or defer the proposal. If a necessary condition is unresolved, identify the affected act and the useful work that can continue.
 
 This method concerns the corporate institutional act. Financial appraisal, technical judgement and implementation retain their own methods. An ordinary act within effective delegation need not be returned to the board merely because this pattern is available.
 
@@ -1429,15 +1429,15 @@ Time, uncertainty and the cost of further inquiry constrain deliberation. A bind
 
 ### CGOV.11:4 - Solution
 
-Connect the proposed act, the applicable decision procedure and the judgement actually made.
+First establish whether the recipient needs to recover an existing act or bring about a new one. The applicable procedure determines how to establish or make the decision.
 
 #### CGOV.11:4.1 - Establish the act and its decision route
 
-Name what the corporation is being asked to do, including the amount, subject, timing and limits that affect authority. Distinguish approval of a proposal, entry into a contract, signing, filing and subsequent performance when they are different acts.
+For an earlier decision, identify what the authorized holder actually did under the procedure then in force, the date, the scope and any conditions on the outcome. A current vote can settle a new proposal or make an authorized correction. Its result alone cannot establish the earlier decision. An authenticated decision can settle what was authorized on that date. Recover how it was reached or communicated when the question or the conditions of validity require those facts. For a proposed act, name what the corporation is being asked to do, including the amount, subject, timing and limits that affect authority. Distinguish approval of a proposal, entry into a contract, signing, filing and subsequent performance when they are different acts.
 
 Use CGOV.3 when the power or its holder is unclear. Otherwise use the adequate existing answer. Establish the applicable procedure and cumulative conditions: for example, a board decision plus a class consent, rather than treating either as sufficient. A delegation may settle the route for a routine act.
 
-Where several procedures are permitted, compare their participation, information and agreement conditions before selecting one. For example, a written route may avoid convening a meeting but require unanimity; a meeting route may permit a majority but require notice and real participation. Choose a route that can meet this matter's conditions without unnecessary coordination.
+When a new decision is required and several procedures are permitted, compare their participation, information and agreement conditions before selecting one. For example, a written route may avoid convening a meeting but require unanimity; a meeting route may permit a majority but require notice and real participation. Choose a route that can meet this matter's conditions without unnecessary coordination.
 
 Identify how this procedure produces an effective decision. In one setting, votes at a meeting make the decision and minutes record it. In another, completion of a written resolution constitutes the decision.
 
@@ -1499,11 +1499,11 @@ A well-supported proposal can make procedural defects less noticeable. Conversel
 
 ### CGOV.11:7 - Conformance Checklist
 
-- The proposed act, holder, authority and cumulative conditions are recoverable.
-- Participants and required consents are determined for this matter.
-- Material premises, alternatives and limits remain usable in deliberation.
-- The actual procedure produces the stated outcome, with its conditions.
-- The record and communication preserve that outcome and the distinction from later execution.
+- For a new act, the proposed decision, holder, authority and applicable conditions are recoverable.
+- For a new decision, the participants and required consents are determined for this matter.
+- The participants in a new deliberation can use the material premises, alternatives and limits.
+- For an existing decision, the evidence establishes the outcome and conditions of the act at the relevant date, or identifies what remains unresolved. For a new decision, the authorized procedure produces and preserves its outcome.
+- Where the assignment includes recording or communicating the outcome, the record or communication preserves the decision and distinguishes it from later execution.
 - An unresolved condition limits the dependent act without forcing unrelated preparation to stop.
 
 ### CGOV.11:8 - Common Anti-Patterns and How to Avoid Them
@@ -1767,7 +1767,7 @@ Communicate the required action, responsible participant, relevant deadline or r
 
 At the next useful observation, establish whether the correction happened and whether it achieved the required result. A promise to repair, a revised procedure and an operating correction are different findings. Escalate an unresolved condition through the applicable authority; revise the action when its premise changes.
 
-Close the exception when its resolution is established. Continue the ordinary oversight required by the decision or duty. State what result would resolve any exception that remains open.
+Identify which obligation the correction discharges. A late delivery may settle what the recipient is still owed while the original deadline and any consequences of missing it remain in the account. Continue the oversight required by the decision or duty. State what result would resolve any exception that remains open.
 
 ### CGOV.13:5 - Archetypal Grounding
 
@@ -1779,7 +1779,7 @@ At quarter end, thirty-six sites have the service. Four were deferred because th
 
 The governing comparison retains the original undertaking: 36/40, or 90%, with four deliveries still outstanding. The chief executive's account identifies the conflicting assignments and a feasible rescheduling costing three within the existing budget and delegation. The board requires the four deliveries and an account at the next weekly review; the executive performs the allocation. No change to the corporation's powers is needed.
 
-At that review, installation and customer-acceptance records show that all four services are available. The board closes the delivery exception. The corrected report retains forty as its population.
+At the weekly review, installation and customer-acceptance records establish service at all forty sites. The board closes the four outstanding deliveries. The quarter-end report records 36 of 40 served on time. The weekly report can record 40 of 40 now served and address any further obligation arising from the delay.
 
 Now vary one condition: before that completion, forecast free cash falls to thirty-eight. The standing rule bars new commitments. The executive applies it, reports the changed forecast and prepares permitted alternatives. Successful rescheduling does not waive the cash condition. A proposal to change that condition must reach whoever has the power to decide it.
 
@@ -2349,7 +2349,7 @@ Use this pattern when corporate participants need to preserve, transmit or chang
 
 Start with the corporate contribution that must remain obtainable and the participants who need it. Recover how participants perform it, locate a consequential gap, and choose how to sustain or renew the practice.
 
-The first result can be a qualified account of the practice, a supported decision to continue it, or a proposed change. When implementation is assigned, continue through the receiving participants' use. Claims that a practice persists or improves governance need observations of those further consequences.
+The first result can be a qualified account of the practice, a supported decision to continue it, or a proposed change. When implementation is assigned, establish which change must take effect. Restoring access can be complete when the recipient can use it in time. Restoring actual participation requires evidence of the participant’s contribution. Claims that a practice persists or improves governance need observations of those further consequences.
 
 Here, governance culture concerns shared ways of working and the processes through which participants transmit, recognize, select, retain or lose them. Use an adequate available practice directly. A single person's difficulty within a stable arrangement can use the relevant development method without a wider cultural-change project.
 
@@ -2411,7 +2411,7 @@ C.11.DUA governs additional inquiry. Include the effort of access, confidentiali
 
 #### CGOV.17:4.5 - Carry the contribution into receiving work
 
-When implementation is assigned, make the selected support or learning available and use the method in the receiving matter. Give participants the information and participation conditions needed for that work.
+For an assignment to provide support, establish that the participants can obtain the appropriate help when they need it. For an assignment to put the practice into use, trace its use in the receiving matter. Give participants the information and participation conditions needed for that work.
 
 Observe the contribution relevant to the original difficulty. Can newcomers recover the assumption and use it in deliberation? Does an exception reach a participant able to respond? Does an eligible participant take part in the collective act?
 
@@ -2449,7 +2449,7 @@ In this constructed case, a professional association distributes a revised proce
 
 In the first company, an exception reaches the audit committee through an existing authorized channel and changes the requested follow-up. In the second, the supplied rules require this type of exception to reach the audit committee. Staff complete the form but send it only to the executive whose activity is questioned. An independent reporting channel is already authorized but staff cannot access it.
 
-The immediate repair in the second company is access to the authorized channel, followed by its use. Adopting another code or repeating the form-filling lesson does not supply that access.
+In the second company an exception is already due for consideration. Repairing access gives the employee a usable channel. Completing the report also requires the exception to reach the committee in time. Adopting another code or repeating the form-filling lesson does not supply that access.
 
 The association can describe distribution to eight companies and the observed uses in two. It cannot infer the other six companies' practice or an improvement in their performance. A company seeking local adoption still applies its own governing conditions.
 

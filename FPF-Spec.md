@@ -136,10 +136,10 @@ Use Part and cluster headings to locate content. E.4 explains how Kernel, broade
 | A.1.STM | **Connect Project Reasoning (System-Thinking Long Mantra)** | Stable | Connect project reasoning from receiving use to the larger functioning whole and the joint contribution of its parts at the operating time, then to the system's construction, obtaining Methods and creator cooperation. Recover the product SoI, extended enterprise, agreements and agents' objectives while engineering its creators, connecting needed capability, provision and finite local acceptance. Enter from a noticed difficulty or use the mantra to expose an unexamined dependency, then obtain a supported continuation. Use and wider functioning give the grounds for construction and creation choices; actual Work follows its own conditions. A narrower mode locates one gap. *Queries:* "Which product uses constrain this decision?", "What capability and finite result must this creator provide?", "Which premise or dependency needs work next?" | **Builds on:** A.1, A.1.SCR, A.15.6. **Coordinates with:** B.5.PI, C.22.2, C.32.P2S, the C.30 family, A.2, A.2.1, the A.3 and A.15 families, E.18, E.18.NET, A.10, B.3, C.28 and A.22.CGUS. |
 | A.2 | **System-Role Kinds and Assignments** | Stable | *Keywords:* system-role kind, local System classification, `U.SystemRoleAssignment`, holder System, assignment, work-facing contribution, ambiguous role wording. *Queries:* "Which local system-role kind classifies this System?", "Does an assignment obtain, or is this only classification?", "Does role wording instead name participation, a slot, responsibility, capability, Work, or ordinary language?" | **Builds on:** A.1, C.3, C.3.1, C.3.2, A.6.REL. **Leads to:** A.2.1, A.2.5, A.2.7, A.15, F.4-F.6. **Coordinates with:** E.10.ROLE, A.6.RSIR. |
 | A.2.1 | **`U.SystemRoleAssignment` - Contextual System-Role Assignment** | Stable | *Keywords:* direct assignment species, holder System, system-role kind, assignment predicate, identity, maximal interval, `performedUnderAssignment`. *Queries:* "Does this exact System hold this system-role assignment?", "Which direct assignment species and predicate make it obtain?", "Did the assignment persist, or did a participant or predicate change?" | **Builds on:** A.2, A.6.REL, A.6.5, C.2.1. **Coordinates with:** A.2.2, A.2.5, A.2.7, A.15.1, F.6. |
-| A.2.2 | **System Capability: Conditions, Measures and Fit** | Stable | *Keywords:* holder ability, work conditions, attained bounds, support, qualification, currentness, capability fit, Method-relative capability, usable Method structure. *Queries:* "Can this System do the required work?", "Which parts of this Method can the holder use with the available help?", "Did ability, its support or the receiving demand change?" | **Builds on:** A.1, C.2.1, A.2.6. **Informs:** A.15, A.2.3, E.23.CDI. |
+| A.2.2 | **System Capability: Conditions, Measures and Fit** | Stable | *Keywords:* holder ability, work conditions, attained bounds, support, qualification, currentness, capability fit, Method-relative capability, usable Method structure. *Queries:* "Can this System do the required work?", "Which parts of this Method can the holder use with the available help?", "Which work can we entrust to the holders together with the support available?", "Did ability, its support or the receiving demand change?" | **Builds on:** A.1, C.2.1, A.2.6. **Informs:** A.15, A.2.3, E.23.CDI. **Coordinates with:** C.32.MWA.PP. |
 | A.2.3 | **`U.PromiseContent` — Promised Outcomes and Acceptance Criteria** | Stable | *Keywords:* promise content, promised outcome, access specification, acceptance specification, SLO, SLA, claim scope, Work evidence, provider and consumer system-role kinds. *Queries:* "What is promise content in FPF?", "How is promise content distinct from Work and MethodDescription?", "How do access and acceptance differ?", "Which provider or consumer kind, assignment, Work, and evidence claims remain separate?" | **Builds on:** A.2.2. **Prerequisite for:** F.12. **Used by:** A.2.8, A.6.C, A.6.P. |
 | A.2.4 | **Episteme Evidence-Use and Status-Use Relations** | Stable | *Keywords:* first-use classification, evidence-use relation, status-use relation, source-use wording, episteme, claim, provenance, role-shaped source phrase. *Queries:* "How is an episteme used as evidence?", "Is first-use classification enough, or does this use need A.10 provenance and bounded reliance?", "How do I keep evidence use from becoming a system-role kind or assignment?", "Which direct use relation does role-shaped source wording mean?" | **Builds on:** A.2. **Informs:** A.10, B.3. **Coordinates with:** E.10.ROLE, A.6.RSIR. |
-| A.2.5 | **SystemRoleAssignmentStateRelation - Assignment-State Recognition for Work Admission** | Stable | *Keywords:* assignment-state predicate, assignment-state relation, state condition, time window, Work admission, evidence boundary. *Queries:* "Does this assignment satisfy this state condition throughout the relevant window?", "Is the displayed status evidence about the relation, or the relation itself?" | **Builds on:** A.2.1, A.2, C.3, A.6.REL, A.6.5. **Coordinates with:** A.2.2, A.2.7, A.15, A.15.1, A.21. |
+| A.2.5 | **SystemRoleAssignmentStateRelation - Assignment-State Recognition for Work Admission** | Stable | *Keywords:* assignment-state predicate, assignment-state relation, state condition, time window, Work admission, evidence boundary. *Queries:* "When must this assignment or its state hold, and does the available evidence cover those times?", "Is the displayed status evidence about the relation, or the relation itself?" | **Builds on:** A.2.1, A.2, C.3, A.6.REL, A.6.5. **Coordinates with:** A.2.2, A.2.7, A.15, A.15.1, A.21. |
 | A.2.6 | **Unified Scope Mechanism (USM): Test Scope Membership and Combine Scopes** | Stable | Tests one `U.ContextSlice` against one set-valued `U.Scope` and gives the receiving action one evaluation result: `true`, `false`, or `unknown`. Keeps claim, work, and publication scopes distinct from evaluation work, result epistemes, representations, model-applicability occurrences, and selected structures. *Queries:* "Does this slice belong to this scope?", "What follows from true, false, or unknown?", "When does local-sense translation require an F.9 Bridge occurrence?" | **Builds on:** C.3, A.6.0, A.6.1, C.2.1, A.7. **Coordinates with:** C.2.2, C.2.3, A.2.2, A.15.1, F.9, A.22, A.1.1, E.24.UK, C.29. |
 | A.2.7 | **SystemRoleKindRelationStructure - Relations among System-Role Kinds** | Stable | *Keywords:* relations among system-role kinds, `U.SubkindOf`, substitution, incompatibility, joint assignment requirement, selected structure. *Queries:* "May an assignment to one system-role kind satisfy a condition written for another?", "Are these kinds incompatible or required together for this Work and interval?", "Is the narrowing a subkind relation or another direct relation?" | **Builds on:** A.2, C.3, C.3.1, A.2.1, A.22. **Coordinates with:** A.2.5, A.6.REL, E.10.ROLE. |
 | A.2.8 | **`U.Commitment` — Individual Duties to Act or Refrain** | Stable | *Keywords:* individual duty, actual bearer, obligation, recommendation-as-duty, prohibition, constitutive rule, instituting basis, validity interval. *Queries:* "Does this actual bearer have this duty now?", "Which rule and actual basis institute the individual commitment?", "Is this only generic policy content, permission, responsibility, or evidence?" | **Builds on:** A.2, C.3, A.2.9, A.6.RCD, A.7. **Coordinates with:** A.2.3, A.2.8.PER, F.6, A.6.B, A.6.C, A.10. |
@@ -5438,7 +5438,7 @@ Predicate obtaining, assertion, explicit individuation, identifier assignment, e
 ## A.2.2 - System Capability: Conditions, Measures and Fit
 > **Status:** Stable
 
-Capability is a System's ability to perform a work family or produce a result class under stated conditions and measured bounds.
+Capability is a System's ability to perform a work family or produce a result class under stated conditions, to a stated criterion of performance. Give attained bounds when the criterion calls for a measure.
 
 **Use this when** planning, promising or admitting work requires a justified answer to “can this holder do what is needed here?” The holder may be a person, team, machine, deployed software System, organization or composite cell. Identify that System independently under A.1, then state its qualified ability. The claim needs no separate capability individual.
 
@@ -5446,9 +5446,9 @@ Capability is a System's ability to perform a work family or produce a result cl
 
 **Working reader.** A practitioner deciding whether a holder can meet a Work, Method-step, service-promise or architecture need.
 
-**First useful move.** Name the holder, work or result, conditions and attained bounds. Then compare the receiving demand with that qualified claim, using the support and currentness required for this use. An adequate existing claim and fit result may be reused without another record. When a whole-result claim hides a consequential difference in how the holder uses a Method, use :2.1 to expose that difference.
+**First useful move.** What must the recipient obtain, and which part must this particular holder decide or perform? Identify the holder, its conditions of work and the evidence that it can meet the criterion with the help allowed. An existing assessment can settle that question. To assign several contributions, establish how they can be supplied together alongside work already promised. Section 2.1 distinguishes what the holder can do with help from what the helper supplies.
 
-**What goes wrong if missed.** Assignment, a MethodDescription, one successful run or a promise is mistaken for measured ability. Conversely, an expired report is treated as if it physically removed the holder's ability. Both errors conceal which fact needs attention.
+**What goes wrong if missed.** A practitioner may infer ability from an assignment, a MethodDescription, one successful run or a promise. An expired report can change reliance on the assessment while the holder retains its ability. Individually capable holders can depend on the same help at the same time.
 
 **What this buys.** Planning can separate ability from its warrant and fit: change the demand without inventing a new capability, or reopen an actual ability claim when the holder's configuration changes. Independently required authority, assignment state, Method-side conditions and assurance remain separate receiving checks.
 
@@ -5486,7 +5486,7 @@ Only the second sentence asserts the robot's ability. Its holder, work family, c
 
 ### A.2.2:2 - Qualified Ability and Its Use Basis
 
-The positive claim is that a named holder can perform the named work or produce the named result under the stated conditions and attained bounds. If its truth depends on time, include that time in the claim. A reference to the holder identifies its subject; the other values qualify the proposition rather than identify another individual.
+The positive claim is that a named holder can perform the named work or produce the named result under the stated conditions and declared criterion of performance. If its truth depends on time, include that time in the claim. A reference to the holder identifies its subject; the other values qualify the proposition rather than identify another individual.
 
 Use these values when the receiving comparison needs them:
 
@@ -5495,11 +5495,11 @@ Use these values when the receiving comparison needs them:
 | `capabilityHolderRef` | The independently admitted `U.System` whose ability is claimed. |
 | `WorkFamilyOrResultClassRef` | What the holder can do or produce. A particular Method or independently admitted MethodDescription may constrain this claim when the use requires it. |
 | `CapabilityEnvelope` | The inputs, environment, resources, configuration, version, calibration state, staffing and other conditions under which the ability is claimed. Its set-valued work-condition basis is `U.WorkScope` under A.2.6. |
-| `CapabilityMeasureSet` | The attained bounds claimed for the holder, with units, scales, tolerances and success predicates. Keep the demanded bounds on the other side of the fit comparison. A Characteristic, Q-Bundle slot or architecture criterion can supply a measure without becoming the ability. |
+| `CapabilityMeasureSet` | The claimed attainment on the criteria used for the holder. Give the success predicate or grade and, for a quantitative criterion, the bounds, units, scale and tolerances. Compare this with the performance the recipient requires. A Characteristic, Q-Bundle slot or architecture criterion can supply a measure. |
 | Capability statement | An assertion of that proposition; use a C.2.1 episteme when the account itself needs identity. Recording it does not make it true. |
 | Evidence and source-use relations | The tests, prior work, simulations, standards or other sources that warrant the assertion or constrain its use under their direct governors. |
 | Qualification policy and currentness assessment | The rule for relying on that support now, and its dated assessment. A qualification window may expire while actual ability remains unchanged. |
-| Capability-fit predicate | The receiving comparison of demanded work conditions and bounds with the qualified holder claim. This is distinct from the ability proposition and its support. |
+| Capability-fit predicate | The comparison of the required conditions and performance criterion with the qualified claim about this holder. This is distinct from the ability proposition and its support. |
 
 WorkScope describes work conditions, even when an episteme states them. That episteme's ClaimScope concerns its claims; the two scopes do not become interchangeable. Quantitative bounds and qualification policy remain separate from WorkScope membership. A time condition belongs in WorkScope only when it changes which work slices are covered; an evidence-age rule belongs in qualification.
 
@@ -5523,12 +5523,13 @@ Current usable structure says what the holder can do now. **Acquired structure**
 
 ### A.2.2:3 - Positive Solution
 
-1. **Identify the holder and demanded result.** Recover the System and the work family or result class. Keep a desired development target distinct from what the holder can currently achieve.
-2. **State the qualified ability.** Give the conditions and attained bounds claimed for that holder. Include relevant actual time or configuration. A useful sentence is “RobotArm_A can weld seam family W under conditions C at the stated precision and rate.”
-3. **Recover sufficient support.** Reuse or obtain the evidence and source-use relations required by the receiving claim. Assess their currency under the applicable qualification policy. When sampled measurements support a bound, retain the uncertainty needed for the receiving decision; a point estimate close to its limit may leave the comparison unresolved. Missing support leaves reliance unresolved; it is not proof of inability.
-4. **Compare with the receiving demand.** Under A.2.6, test whether the declared WorkScope covers the intended `JobSlice`, whether the claimed attained bounds meet the required bounds, and whether qualification holds at the evaluation time. If a necessary condition or translation is missing, name it instead of returning a positive fit.
-5. **Apply the remaining entry conditions only when required.** Authority, assignment and assignment state, resources, interfaces, Method-side conditions and assurance retain their direct governors. Passing the capability comparison supplies only its part of the receiving decision.
-6. **Return the bounded answer.** State the supported ability and fit, the mismatch, or the unresolved premise. Stop when that answer suffices. A described check does not assert that Work occurred or that a proposed intervention achieved its target.
+1. **Identify the required work and whose ability matters.** Start with the proposed or required result for each recipient. Include any work already promised. Which operations, decisions or performances are entrusted to a particular holder? Which may be supplied by someone else? An organized team or a configured machine can be the holder when the required result depends on its parts working together. A claim about what one participant can do needs grounds for that participant's own part.
+2. **State the qualified ability.** Name the work family, the criterion the holder meets and the configuration, tools, assistance and other conditions on which this depends. Use :2.1 if it matters who chose the Method or adapted it. A holder can carry out a decision supplied by a helper. Entrusting the decision itself to that holder requires grounds for its ability to choose.
+3. **Recover sufficient grounds for this use.** Comparable earlier work, an applicable qualification, or an argument from how the System is organized may already establish what the holder can do. Check its relevance to the required action and the help that will actually be available. A first assignment under permitted supervision can be justified on those terms. Apply the receiving use's evidence and currency requirements. Preserve uncertainty when it could change the result.
+4. **Compare the claim with the demand.** Use A.2.6 to test whether the declared WorkScope covers the proposed `JobSlice` and whether the holder meets the required performance criterion there. Apply any required units, bounds, translations and qualification policy. If the commission ends with this assessment, return the supported fit, the mismatch or the specific question still open.
+5. **Establish what can be assigned together.** Recover the terms for the whole service. A result made once can serve several recipients if each can obtain it in time and the terms permit reuse. Separate performances, independent judgements or continuous coverage require their own provision. If the terms specify a minimum number or share, use the specified population, period and counting rule and preserve any promises to named recipients. A justified bound can settle the threshold.
+6. **Test the arrangement against the conditions the promise covers.** Include existing obligations, shared help and other resources when the same means could be needed more than once. Who may allocate them, what will each decision maker know at the moment of choice, and can the required actions still finish in time? One feasible allocation can settle a choice entrusted to the planner. For a guarantee, establish that the same arrangement covers all combinations of demand, input conditions and availability allowed by the terms, including choices the recipients retain. Use the dependencies that make combinations possible. The arrangement may fix the allocation or choose later from information then available. If two situations are indistinguishable at an irreversible choice, the action taken then must work in both, possibly with different later actions. A risk allowance calls for grounds for the specified risk over its stated population and horizon. Use C.32.MWA.PP:4.7 to construct and compare arrangements when that work is needed.
+7. **Return the decision its grounds warrant.** Identify the work the authorized party can assign now, or the conditions on which a later assignment depends. An allowed combination that defeats the proposed arrangement refutes its guarantee. To rule out every permitted arrangement, give grounds covering those alternatives. A shortage of shared provision can leave each holder's qualified ability intact. Use :5 for role, authority and admission, and A.15.1 for a claim about work that actually took place.
 
 One possible statement-and-use record is shown below. It is a way to preserve the claims needed by this use, not a mandatory new entity or classification.
 
@@ -5537,7 +5538,9 @@ CapabilityStatementRecord:
   capabilityHolderRef: U.System
   canDo: WorkFamilyOrResultClass
   workConditionBasis: U.WorkScope
-  attainedMeasureBounds:
+  supportedPerformance: result criterion or grade met
+  attainedMeasureBounds?:
+
   actualTimeOrConfiguration?:
   capabilityStatementRef?: C.2.1 episteme
   evidenceOrSourceUseRefs:
@@ -5547,10 +5550,14 @@ CapabilityStatementRecord:
 CapabilityFitCheck:
   holderAbilityClaim: the qualified proposition above
   receivingJobSlice:
-  requiredMeasureBounds:
+  requiredPerformance: receiving criterion
+  requiredMeasureBounds?:
+
   evaluationTime:
   scopeCoverage:
-  measureComparison:
+  criterionSatisfied:
+  measureComparison?:
+
   qualificationResult:
   result: fit, mismatch, or named unresolved premise
 ```
@@ -5561,17 +5568,17 @@ The record separates what is claimed about the System from the grounds for belie
 
 | Source wording | Recovered FPF values |
 |---|---|
-| “Engineer role can approve the design.” | Treat bare *role* as an E.10.ROLE trigger. If it means classification, recover local kind `EngineerSystemRole` and a C.3.2 judgment for an admitted System. If assignment identity matters, name the assignment occurrence and its declared `U.SystemRoleAssignment` species. Do not infer permission, capability, action, responsibility, or approval Work from either claim; add a capability claim only for the measured and qualified ability of the holder System, and use the permission and performed-Work relations when those claims are made. |
+| “Engineer role can approve the design.” | Treat bare *role* as an E.10.ROLE trigger. If it means classification, recover local kind `EngineerSystemRole` and a C.3.2 judgment for an admitted System. If assignment identity matters, name the assignment occurrence and its declared `U.SystemRoleAssignment` species. Do not infer permission, capability, action, responsibility, or approval Work from either claim; add a capability claim only for the ability of the holder System to meet the stated criterion under the qualified conditions, and use the permission and performed-Work relations when those claims are made. |
 | “The robot is assigned as welder.” | Name an assignment occurrence with the robot as holder and its declared `U.SystemRoleAssignment` species, whose assigned-kind position has local domain `WelderSystemRoleKindDomain`; the occurrence supplies `WelderSystemRole` as the value admitted by that domain. Add a capability claim only if the claim also says that the robot can meet a welding envelope and measures. |
 | "The solver has the scheduling algorithm." | First identify what the possession phrase claims: a deployed-software relation, a capability statement about the solver system, a reference to a `U.Method`, or a candidate claim-bearing episteme. Apply `A.3.2` only to the last candidate; it is `U.MethodDescription` only when its exact `EntityOfConcern` is one admitted Method and at least one substantive claim says how that Method is done. The phrase alone establishes none of these. |
 | "The report has evidence capability." | Recover the report's evidence-use relation. A separate capability claim needs a system that can perform evidential work. |
-| "The team did one successful run." | `U.Work` occurrence; a broader capability claim needs justified conditions, attained measures and current support. |
+| "The team did one successful run." | `U.Work` occurrence; a broader capability claim needs grounds for the required performance under the proposed conditions. |
 | "We promise five-day close." | Promise content and commitment; the provider's qualified ability and its fit to the promised result need separate support. |
 | "The architecture provides resilience capability." | Architecture-characteristic or Q-Bundle material under `C.30`, `C.32.HCS`, `C.32.ACS`, and `C.25`; add a capability claim only when it states a named holder System's ability to produce or maintain a result class within declared conditions and bounds. Resilience characteristics may constrain a capability-fit condition; they are not capability by name. |
 
 ### A.2.2:5 - Work-Admission Use
 
-A Method step or Work claim may require both an exact system-role assignment and capability conditions.
+A Method step or a proposed performance can require an exact system-role assignment as well as a qualified ability. Decide which authority is needed to allocate work today and when each holder's assignment and state must obtain for performance. A.2.1 and A.2.5 govern those facts. When different local role kinds must be filled together, apply the holder rule in A.2.7:4.5. When the same kind is needed for several performances, use the required performances, times and allowed substitutions. A.15.2 can express that plan and its shared means. A personnel recommendation can finish an assessment commission. An appointment takes effect under the rule and authority that establish it.
 
 ```text
 WorkAdmissionCheck:
@@ -5579,7 +5586,7 @@ WorkAdmissionCheck:
   systemRoleAssignmentStateAdmitsWork: A.2.5
   methodStepRequires: A.3.1 or A.3.2
   holderAbilityClaim: A.2.2 qualified claim about the assignment holder
-  capabilityFitCondition: admission predicate over declared capability measures and any named characteristic, Q-Bundle, or architecture-characteristic inputs
+  capabilityFitCondition: admission predicate on the required performance and any declared measure, characteristic, Q-Bundle or architecture criterion the decision uses
   performedWorkRef?: A.15.1, only for a separately asserted dated Work occurrence
 ```
 
@@ -5588,8 +5595,8 @@ The checks are separate:
 - one `U.SystemRoleAssignment` species defines the holder and assigned-kind participant meanings, the local system-role-kind domain, and any other participant meaning that changes the assignment predicate or occurrence identity; an occurrence supplies the holder System and other values for the case, and neither species nor occurrence establishes capability or Work;
 - `SystemRoleAssignmentStateRelation` says whether that assignment satisfies the selected state predicate over the required window;
 - one exact `U.Method` supplies the method-side condition, while an independently admitted `U.MethodDescription` or work-admission episteme may state the capability threshold used by the check;
-- the ability claim states what the holder can achieve under the declared conditions and attained bounds;
-- the capability-fit condition compares that qualified claim with the current work conditions and required bounds;
+- the ability claim states the result the holder can achieve under the declared conditions and to what standard;
+- the capability-fit condition compares that qualified claim with the work conditions and the criterion the recipient requires;
 - after execution, A.13 first recovers the actual performer and A.15.1 independently admits the dated Work occurrence.
 
   F.6 `performedUnderAssignment(W, RA)` is added only when this capability account or its receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment, while actual `enactsMethod(W, M)` separately relates the Work to the exact Method.
@@ -5642,6 +5649,8 @@ The deployed System is the holder; the algorithm paper and MethodDescription are
 `FinanceDept` can close books for eight legal entities under IFRS with ERP v12, staffing at or above six qualified people, and close duration below five business days. That is a capability of the organizational system.
 
 The monthly-close service promise is a promise-content claim. The actual close for March 2026 is performed Work. Staff assignments and their `SystemRoleAssignmentStateRelation` occurrences are neighboring claims. The capability statement keeps the department's ability measurable; a management report asserting it is an episteme about the department.
+
+Suppose two divisions ask the department to close eight separate entities each in the same five-day period. Its established ability covers eight. If both requests are allowed to fall due together, accepting each on that basis leaves the promise of sixteen open. If the documented ability covers any permitted mix of up to eight, a binding common limit of eight can make a joint promise possible. The allocation must follow an authorized rule and reach the department in time to act. Its staff must be available under the conditions of the assessment. If the evidence covers only the original eight entities, coverage of a different mix remains open. If the divisions instead need copies of the same close for the same eight entities, one close can serve both once the terms permit reuse and each can receive its copy by its deadline.
 
 #### A.2.2:6.4 - Episteme Anti-Case
 
@@ -5697,7 +5706,7 @@ The claim is about `Cell_3`. Justify its attained bounds under the stated compon
 | `CC-A2.2-01` | Is the holder an admitted `U.System` under A.1 for this claim? |
 | `CC-A2.2-02` | Does the capability claim name the work family or result class? |
 | `CC-A2.2-03` | Does the capability claim name the envelope: inputs, environment, configuration, resources, constraints, or conditions? |
-| `CC-A2.2-04` | Does the measure set bind measurable bounds to units, scales, thresholds, predicates, declared `U.Characteristic` values, Q-Bundle slots, or architecture-characteristic rows without making those inputs the capability? |
+| `CC-A2.2-04` | Does the comparison apply the required performance criterion? Where the criterion is quantitative, are attained bounds, units and scale recoverable from the appropriate measure or characteristic? |
 | `CC-A2.2-05` | Are the claim's actual time and conditions distinguished from its qualification policy, support window and dated currentness assessment? |
 | `CC-A2.2-06` | Are statements, evidence, source-use relations, certifications, reports, dashboards, and currentness assessments expressed as neighboring support records or relations, without treating the records as holders or their existence as proof of ability? |
 | `CC-A2.2-07` | Are the exact system-role assignment, `SystemRoleAssignmentStateRelation`, Method-side admission or fit condition, performed Work, and promise content kept separate? |
@@ -5706,6 +5715,7 @@ The claim is about `Cell_3`. Justify its attained bounds under the stated compon
 | `CC-A2.2-10` | When conditions change, is it clear which ability proposition, assertion, evidence relation, currentness assessment or fit predicate needs reconsideration? |
 | `CC-A2.2-11` | When wording says that a holder possesses an algorithm, did the use dispatch separately to capability, exact Method, deployed-software or possession relation, or candidate episteme, and apply A.3.2's exact-Method `EntityOfConcern` plus substantive-claim threshold before admitting `U.MethodDescription`? For a dated Work claim, are the actual performer and Work independently established through A.13 and A.15.1, with F.6 added only when precise assignment-bound attribution is needed and Method enactment kept separate? |
 | `CC-A2.2-12` | When a Method-relative profile is used, are the selected Method relations, holder, help, comparison conditions and supported claims explicit, with unresolved evidence and acquisition history kept distinct from current ability? |
+| `CC-A2.2-13` | When work is entrusted to one or several holders, what do the grounds for each one's capability establish about the result due to the recipients under the permitted choices, help and obligations? |
 
 ### A.2.2:10 - Anti-Patterns and Repairs
 
@@ -5715,8 +5725,8 @@ The claim is about `Cell_3`. Justify its attained bounds under the stated compon
 | Assignment-as-capability | "Assigned, therefore able." | Use A.2.1 for assignment and A.2.2 for the qualified holder ability. |
 | Capability attributed to a procedure | "The procedure has capability" | Keep capability with the holder system. |
 | Unjustified `U.MethodDescription` admission | Treating "the solver has the algorithm" as sufficient for `U.MethodDescription` admission. | Treat procedure or algorithm wording as a cue to one candidate episteme only when that is the object; admit it as `U.MethodDescription` through A.3.2 only after its exact `EntityOfConcern` is an admitted Method and a substantive claim says how that Method is done. |
-| Work-as-capability | "We did it once, so we can." | Keep the work occurrence; add a separate capability claim only when envelope, measures, and currentness are justified. |
-| Promise-as-capability | "The SLA is our capability." | Use promise content or commitment for what is offered; capability is the internal measured ability that makes the promise credible. |
+| Work-as-capability | "We did it once, so we can." | Record the work occurrence. For a capability claim, establish what the holder can deliver, with which help and under which conditions, using grounds applicable to this work. |
+| Promise-as-capability | "The SLA is our capability." | Recover what was promised. Establish the holder’s ability separately, then check how the proposed arrangement can supply the promised work. |
 | Episteme-as-holder | "The report has assessment capability." | Use evidence, source, status, or assessment relation for the episteme; capability holder remains a system. |
 | Unbounded capability | "The tool can machine titanium." | State the material grade and performance bounds needed by the receiving use, with the operating conditions and qualification basis that support them. |
 | Capability threshold in system-role-kind name | `HighPrecisionWelderSystemRole` hides a measured threshold. | Keep the system-role-kind name free of the threshold; put precision in the Method-side admission or fit condition and the holder capability claim. |
@@ -5731,12 +5741,12 @@ The claim is about `Cell_3`. Justify its attained bounds under the stated compon
 - Planning separates "can do" from "is assigned now".
 - Method steps can name capability thresholds without putting extra meaning into system-role-kind names.
 - Work records can be judged against the capability claim and fit predicate current at the time of work.
-- The internal ability and measured envelope supporting a promise are explicit.
+- The holder, operating conditions and grounds for each contribution to the promise are explicit.
 - Composite-system ability can be stated at the right holder instead of scattered across parts.
 
 **Costs.**
 
-- A relied-on ability claim must make its relevant envelope, attained bounds and qualification basis recoverable.
+- A relied-on ability claim must make its operating conditions, supported performance and qualification basis recoverable, including attained bounds for a quantitative criterion.
 - Teams need to stop using system-role labels or assignments as shortcuts for ability.
 - Some old "function", "service", "process", and "algorithm" sentences need kind recovery before they can be used in FPF.
 
@@ -6660,7 +6670,7 @@ Reconsider the classification when the episteme, target claim, grounding holon, 
 
 Use this pattern when one assignment to a system role already obtains, but a method step, Work occurrence, incompatibility check, or operational gate depends on that assignment satisfying a particular condition during a particular window.
 
-Start with the practical question: **Does this assignment satisfy this state condition throughout the window that matters now?** The first useful result identifies an obtaining `SystemRoleAssignmentStateRelation` occurrence or establishes its absence; if neither is established, keep that determination unresolved. Add an assertion and evidence-use relation only when a later decision must rely on that result.
+Start with the practical question. **Which assignment must satisfy which state condition, and when does the receiving work require it?** The first useful result identifies an obtaining `SystemRoleAssignmentStateRelation` occurrence or establishes its absence. An unresolved determination can be returned with the evidence still needed. Add an assertion and evidence-use relation when a later decision must rely on that result.
 
 Typical working moments include these:
 
@@ -6804,15 +6814,14 @@ The actual state extent, target evaluation window, and evidence-relevance interv
 
 A.2.5 defines the assignment-state relation and guides recognition of its occurrences and formulation of assertions. Use the direct subject patterns when Method selection, a gate decision, authority, or a claim that Work occurred is needed.
 
-For a consequence-bearing admission use, apply the consumer's direct pattern and check:
+Start from the decision or operation that uses the state. Separate the authority needed to reserve or assign work now from the condition a performer must satisfy when the operation takes place. A warranted conditional reservation can leave that later condition open.
 
-1. the exact `U.SystemRoleAssignment` obtains throughout the receiving decision or Work window;
-2. the consumer selects one exact `SystemRoleAssignmentStatePredicate`, whose truth condition may be an explicit conjunction;
-3. each relevant assignment has an obtaining `SystemRoleAssignmentStateRelation` whose actual extent covers the receiving-use window;
-4. the assertion has the evidence relation and currentness that this consumer requires; and
-5. every other admission condition is separately established under its subject pattern.
+1. Identify the holder and the exact `U.SystemRoleAssignment` required for each operation. Establish when that assignment must obtain. The same holder may be required at two distinct actions even when the intervening period is free.
+2. Select the exact `SystemRoleAssignmentStatePredicate` and use its temporal reading. Does the rule require truth at one instant, at several actions, throughout an interval or for a stated portion of it? For a proportion, use the receiving rule's measure and interval.
+3. For an account of actual performance, establish coverage from the extents of the relevant state occurrences. For a proposed assignment, establish what can be assured for the required times or make admission conditional on the outstanding state check. Each occurrence retains its own assignment, predicate and uninterrupted extent. For continuous service, cover the required interval. If service relies on a handover, establish who takes over, what must reach them and whether service is maintained across the transition. A permitted substitution can remain unused.
+4. Use the evidence and currency required for the decision and establish the other admission conditions under their direct patterns. An adequate ground for a decision about future work can support admission on stated terms. A later claim that the predicate actually held at the required times needs grounds for those times.
 
-The consumer's direct pattern defines any admit, deny, defer, or unresolved outcome. This pattern supplies the state-recognition and assertion rules used in that decision.
+The consumer's direct pattern defines any admit, deny, defer or unresolved outcome. Return the assignment-state claim at the times its decision uses.
 
 #### A.2.5:4.6 - System-Role-Kind Relation Use
 
@@ -6842,7 +6851,7 @@ When a `KindSignature`, reference scheme, bridge, or `BoundedModelUseStructure` 
 
 1. Write the readable sentence naming the current assignment and state condition; name the receiving-use window only when the current check selects one.
 2. Recover the predicate by value: system-role kind, normalized truth-condition clauses, temporal reading, applicability, and only meaning-bearing semantic-basis editions.
-3. Derive the maximal continuous extent from assignment obtaining and predicate truth; separately check any receiving-use window against that extent.
+3. For a receiving decision, test the instants, interval or share of time it requires against the available evidence for this assignment and state predicate. When the identity of a state occurrence matters, §4.3 determines its maximal uninterrupted extent.
 4. Ask whether the receiving use needs occurrence identity and whether it relies on the state claim. If both answers are no, keep the readable assertion and stop.
 5. For relied-on use, make the assertion episteme, polarity, direct claim-family reference, and required evidence-use relation explicit. Record supported, refuted, or unresolved reliance separately; absent evidence is neither negative polarity nor world-side non-obtaining.
 6. Leave capability fit, Method selection, gate outcome, authority, assurance, and performed Work with their subject patterns.
@@ -6927,7 +6936,7 @@ The main bias risk is label-first reasoning. A familiar state word invites the r
 | `CC-A2.5-01` | Does the claim concern whether the exact assignment satisfies the identified state predicate, with an occurrence named only when obtaining is established? |
 | `CC-A2.5-02` | Does `SystemRoleAssignmentSlot` use a `U.RelationRef` constrained to `U.SystemRoleAssignment` and resolve to the exact assignment occurrence being evaluated, with its declared species, holder, and extent established under A.2.1? |
 | `CC-A2.5-03` | Is `StatePredicateSlot` present by value with system-role-kind domain, normalized truth clauses, temporal reading, applicability, and only meaning-bearing semantic-basis refs? |
-| `CC-A2.5-04` | Is actual state extent derived from uninterrupted predicate truth while the assignment obtains, with any target evaluation window kept separate? |
+| `CC-A2.5-04` | Is each actual state extent derived from uninterrupted predicate truth while its assignment obtains, and does the receiving check apply the required instants, interval or share to the right holder or permitted succession of holders? |
 | `CC-A2.5-05` | When occurrence identity is needed, does it use the fixed assignment, fixed predicate value, and maximal continuous truth interval rather than a representation key? |
 | `CC-A2.5-06` | Are a demonstrated predicate gap and a mere evidence gap distinguished? |
 | `CC-A2.5-07` | Does `SystemRoleAssignmentStateAssertion` keep polarity, predicate, direct claim-family ref, known actual extent, target window, reliance posture, and evidence relations distinct? |
@@ -7016,7 +7025,7 @@ The sources' transferable contribution is bounded: current action decisions need
 
 **Use this pattern when** a receiving action needs to decide whether a claim, capability, or publication use covers one combination of standards, environment, local sense, platform, cohort, or time selectors.
 
-**First useful move.** Name the claim, its `U.ClaimScope`, and the target `U.ContextSlice`; evaluate membership. Stop on `false`. On `unknown`, obtain the missing evaluation input, narrow the attempted use, or abstain. Add a result episteme or table only when the receiving use needs one. If exact local senses must be translated, follow §7.5: name the obtaining F.9 Bridge and separate affirmative C.2.1 claim for this translation, then establish the A.10 evidence basis and applicable reliance condition before using the translated scope.
+**First useful move.** Identify what must cover the target `U.ContextSlice`. Use `U.ClaimScope` for a claim, `U.WorkScope` for the work conditions covered by a qualified ability claim, and `U.PublicationScope` for use of a publication. Test the slice against the selected scope. A `false` result rules out relying on that coverage. On `unknown`, obtain the missing input, use the grounds available for a narrower conclusion, or leave the membership question open. Add a result episteme or table only when the receiving use needs one. If exact local senses must be translated, follow §7.5: name the obtaining F.9 Bridge and separate affirmative C.2.1 claim for this translation, then establish the A.10 evidence basis and applicable reliance condition before using the translated scope.
 
 For example, a workshop report supports a claim about checks made with a specified gauge, drawing revision and inspection period. Take the proposed job's values for these selectors as one slice and ask whether that slice is in the report's claim scope. The stool identified on the job card is the object being inspected. It can belong to the furniture kind used by the drawing, irrespective of whether this report covers the inspection. Two accepted checking methods might both work under the proposed conditions, or neither might work. A method can also work on jobs represented by several slices. Establish applicability from each method's rule, choose using the job's requirements when a choice is needed, then establish separately which method the technician used. Even a scope containing just one slice represents coverage. Its membership test does not perform any of these selections.
 
@@ -7048,7 +7057,7 @@ Use source terms such as *applicability*, *envelope*, *generality*, and *capabil
 
 This pattern gives practitioners one question: *does this slice belong to the scope needed by this use?* It applies first to claim scope and reuses the same value algebra for work and publication scopes.
 
-The claim-bearing episteme, capability, or publication object designates or uses an exact `U.ClaimScope`, `U.WorkScope`, or `U.PublicationScope`. The membership predicate, evaluation work, result episteme, gate, and evidence claim also remain separate.
+A claim-bearing episteme designates a `U.ClaimScope`. A qualified claim about a holder’s ability designates a `U.WorkScope`. A publication view or form can designate a `U.PublicationScope`. The membership predicate, evaluation work, result episteme, gate, and evidence claim also remain separate.
 
 With USM, a practitioner can:
 
@@ -7308,18 +7317,11 @@ The same scope may participate in differently selected relation occurrences or b
 
 **Subject and declared basis.** A qualified A.2.2 ability claim about an independently identified holder System designates its `U.WorkScope`. This is the set-valued work-condition basis of that claim, not a scope carried by a separate capability individual.
 
-**Meaning.** `U.WorkScope` is the set of `U.ContextSlice` values under which a capability's deliverability claim may be evaluated. Work-measure targets and qualification windows are checked separately at use time; they are not members or identity fields of the scope.
+**Meaning.** `U.WorkScope` is the set of `U.ContextSlice` values in which the holder's deliverability claim may be evaluated. Membership establishes that the claim covers these work conditions. Whether the holder meets the requested criterion there and whether its grounds are usable for this decision are separate questions.
 
-**Expression.** The capability declaration designates an exact `U.WorkScope` expressed only as conditions over `U.ContextSlice`: environment, versioned standards or platforms, resource regimes, exact local senses when current, and `gammaTime` only when time changes membership. Quantitative deliverables and qualification windows are not part of the scope value:
+**Expression.** Express Work scope as conditions over `U.ContextSlice`: environment, versioned standards or platforms, resource regimes, exact local senses when current, and `gammaTime` when time changes membership. A target for the delivered result belongs to WG‑2. A limit on the age of supporting evidence belongs to WG‑3.
 
-* Declare targets as **work-measure target sets** (e.g., latency <= L, throughput >= T, tolerance <= epsilon) bound in guards (WG‑2).
-* Declare inspection/recertification policies as **qualification-window policies** bound in guards (WG‑3).
-
-The use‑time admission requires **all** of: `WorkScope covers JobSlice` **AND** `WorkMeasures satisfied` **AND** `qualificationWindowHolds(holderAbilityClaim, qualificationWindowPolicy, evaluationTime)`.
-
-Here `holderAbilityClaim` supplies the identified holder, claimed work conditions and bounds, and the declared support basis to which the qualification policy applies. The policy evaluates reliance at the stated time; its failure does not itself prove a loss of actual ability.
-
-**Method–Work gating.** A Work step’s guard MUST check that the target slice is **covered** by the capability’s Work scope **and** that required measures and qualification windows are satisfied.
+**Method–Work gating.** For the proposed `JobSlice`, establish scope coverage, compare the holder's supported performance with the receiving criterion and establish the grounds for relying on the claim at the time of decision. A verified ability to produce the named result can meet a qualitative requirement. Apply numerical bounds or a qualification interval when the receiving rule calls for them. If the decision covers several performances, coverage of each slice licenses those individual comparisons. A.2.2:3 establishes whether the holders and their means can supply the promised results together.
 
 **Composition and Delta-moves.** Work scope uses the same algebra as Claim scope (intersection / `spanUnion` / `translate` / `widen` / `narrow` / `refit`). Section 7.5 selects `translate` only for exact local-sense translation through an obtaining F.9 Bridge plus the separate affirmative C.2.1 claim and its current reliance branch.
 
@@ -7327,10 +7329,10 @@ Here `holderAbilityClaim` supplies the identified holder, claimed work condition
 
 **Required guard facets (capabilities).**
 
-* **Work-measure target set (mandatory).** A set of measurable targets with units and tolerated ranges, evaluated on the JobSlice.
-* **Qualification-window policy (mandatory for operational use).** A time policy stating when the capability is considered qualified; evaluated at the exact evaluation time selected by the receiving guard, not copied into `U.WorkScope`.
+* **Performance criterion (WG‑2).** Identify the required result, grade or measure and what would satisfy it on this slice. For a quantitative target give its units, direction and tolerated bounds.
+* **Current qualification for operational reliance (WG‑3).** Establish why the support for this holder, configuration and use still applies. Apply an inspection, calibration or recertification window at the specified time when the governing policy sets one.
 
-These facets are **separate** from `U.WorkScope` and belong to the evidence and reliance conditions. They MUST be referenced in Method–Work guards (see §10.3 WG‑2/WG‑3); B.3 applies when an actual named assurance claim is current.
+These guard conditions accompany the scope membership test. B.3 applies when an actual named assurance claim is current.
 
 #### A.2.6:6.5 - `U.PublicationScope` — scope of a publication view or publication form
 **Carrier.** A publication view or form is rendered on a carrier; the carrier is a separate object.
@@ -7532,18 +7534,20 @@ WorkScope(holderAbilityClaim) covers JobSlice
 ```
 
 **WG‑2 - work-measure target set satisfied** (mandatory for deliverables).
-Guards MUST compare the claimed attained bounds with the quantitative targets required for the JobSlice:
+Compare the holder's supported performance with the result required on the JobSlice. For a specified number, rate or tolerance, compare compatible measures including the uncertainty that could change the decision. For a named result or grade, apply its success predicate.
 
 ```
-SLO and target measures satisfied (latency ≤ L, throughput ≥ T, tolerance ≤ ε, … )
+holder performance on JobSlice satisfies the receiving criterion
 ```
 
-**WG‑3 - qualification-window policy holds** (mandatory for operational use).
-Operational guards MUST assert that the exact qualification-window predicate (qualification, inspection, or recertification) holds at the receiving guard's exact evaluation time:
+**WG‑3 - qualification for current reliance** (mandatory for operational use).
+Establish whether the grounds for the claim apply at the receiving decision time and to this holder, configuration and work. A governing time window has its own predicate:
 
 ```
 qualificationWindowHolds(holderAbilityClaim, qualificationWindowPolicy, evaluationTime) = true
 ```
+
+Where the rule relies on an unchanged configuration or a still-applicable verification, establish that condition. A date limit is needed when the rule makes age or expiry relevant.
 
 **WG-4 - Translation branch for capability use.**
 
@@ -7552,7 +7556,7 @@ Translate `U.WorkScope` only when its condition predicates use exact local sense
 Observed mapping loss is evidence about the use claim, and permitted loss is its tolerance. If the claim's rule and tolerance permit translation only for part of the source Work scope, identify that part and return its target image.
 
 **WG‑5 - Δ(WorkScope).**
-When widening Work scope (new operating ranges/platforms), the guard MUST require evidence at the new slices (measures + qualification windows). A membership-preserving refit does not itself require new deliverability evidence for the unchanged slices.
+A wider Work scope admits new conditions for assessing the holder. To rely on deliverability there, establish that the available grounds cover the added conditions. An invariant or an applicable earlier qualification can cover a range at once. Obtain new evidence where the grounds run out. A membership-preserving refit retains the covered slices.
 
 #### A.2.6:10.4 - Translation guard
 
@@ -7971,7 +7975,7 @@ Use these conditional paraphrases with the source distinctions in §20.1.2.
 #### A.2.6:21.3 - With Work & Run (A.15)
 
 * **Work scope** delimits the exact job slices on which a capability's deliverability claim is evaluated.
-* Method–Work gates use **Work scope coverage** plus **measures** and **qualification windows**.
+* Method–Work gates establish Work scope coverage, satisfaction of the required result or measure, and qualification for this use. Apply a qualification window when the governing rule specifies one.
 
 #### A.2.6:21.4 - With exact F.9 Bridge occurrences
 
@@ -7980,7 +7984,7 @@ Use these conditional paraphrases with the source distinctions in §20.1.2.
 
 #### A.2.6:21.5 - With Capability governance (A.2.2)
 
-* For operational capability use, the capability declaration MUST identify **Work scope**, **measure bounds** and the applicable **qualification-window policy**; gates MUST check coverage, target satisfaction and qualification under §10.3.
+* For operational capability use, identify the holder's **Work scope**, the **required performance criterion** and the **basis for current reliance**. Apply §10.3 to coverage, target satisfaction and qualification. Use the applicable units, bounds and validity periods where specified. A.2.2:3 governs the further inference from individual fits to the work that can be supplied together.
 * Capability refits that preserve the set (unit changes) are **Refit**, not Δ(WorkScope).
 
 ### A.2.6:End

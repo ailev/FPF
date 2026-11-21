@@ -97,10 +97,10 @@ Use the Table of Contents for other questions. You can ask an assisting agent to
 
 - **Stop or return:** Apply the service rule to an established positive or negative condition. Keep adequate results. If a condition remains unresolved, direct the question to the source, provider or authority able to settle it.
 
-1. **Match the basis to the intended use.** In the constructed archive case, the supplied appointment begins on 1 October and the rule requires an effective appointment. It therefore does not satisfy that condition for 25 September. A directory entry made earlier does not advance the effective date. This negative result settles the question about this appointment; another inquiry is needed only if a different basis is actually claimed or another relevant condition remains unresolved.
+1. **Match the basis to the intended use.** In the constructed archive case, the supplied appointment begins on 1 October and the rule requires an effective appointment. It therefore does not satisfy that condition for 25 September. A directory entry made earlier does not advance the effective date. This settles whether the appointment satisfies the eligibility condition on 25 September. To decide whether reading was permitted that day, consider the applicable grants and standing rules. A prohibition covering every permitted route can settle that question. Whether the researcher could open D also depends on the access provided.
 2. **Pass the established conditions to provision.** Change the requested use to 2 October. Suppose the appointment now covers the work, an accepted identity result exists, and the custodian has granted reading of document D that day. [ADM.8 - Establish and Exercise the Required Permission for an Administrative Action](#adm8---establish-and-exercise-the-required-permission-for-an-administrative-action) supplies the bounds for the actual performer and action. The appointment supports eligibility. The credential is one technical means the researcher uses to attempt the read. Whether D opens depends on the provision under the custodian’s grant.
 3. **Find the failed provider contribution.** If the researcher cannot open D, [ADM.9 - Provide a Usable Administrative Result](#adm9---provide-a-usable-administrative-result) uses the grant and failed attempt to direct recovery. In its case, the provider corrects an account mapping and the researcher then opens D. That result supports the named use; an administrator's successful login would not establish the same fact. A permitted alternative reading channel may suffice, while a download falls outside a read-only grant.
-4. **Return a changed condition to the decision it affects.** If recovery moves use to 4 October, the 2 October grant no longer answers the permission question. If two otherwise ready cases instead need the same specialist's two-hour window and each requires two hours, [ADM.11 - Join Providers Around the Administrative Result](#adm11---join-providers-around-the-administrative-result) exposes the four-hour demand. The responsible parties must change timing, priorities or qualified provision before promising both. The valid appointments and grants need not be reconstructed unless that change affects their conditions.
+4. **Return a changed condition to the decision it affects.** If recovery moves use to 4 October, the 2 October grant no longer answers the permission question. If both cases are entitled to separate two-hour performances by the same specialist in one two-hour window, [ADM.11 - Join Providers Around the Administrative Result](#adm11---join-providers-around-the-administrative-result) exposes the four-hour demand. The responsible parties must change timing, priorities or qualified provision before promising both. The valid appointments and grants need not be reconstructed unless that change affects their conditions.
 
 ### ADM-E3 — One party says “payment” and the other says “receipt”
 
@@ -1464,7 +1464,7 @@ The title of an office, the presence of two records or the handler's preferred o
 
 State which action by which performer is permitted, under which conditions and limits, or why the required basis is absent or unresolved. Include the relevant source or decision reference where the recipient needs it to rely on the result.
 
-Apply the ordinary service response to an established negative condition. If a distinct alternative basis is actually claimed, investigate that question. A missing grant, conflicting evidence and a settled prohibition need not receive the same response.
+Apply the ordinary service response to an established negative condition. When the recipient asks about one named basis, its terms may settle the inquiry. When deciding whether the intended action is permitted, consider other applicable grants or rules, including ones the requester did not name. Refusal on every basis requires grounds that cover them all. A missing grant, conflicting evidence and a settled prohibition need not receive the same response.
 
 Keep a request for permission separate from the received grant. Use ADM.6 to obtain a missing competent answer or resolve an unavailable authority arrangement. Report the unresolved authority when nobody can supply the needed decision.
 
@@ -1955,7 +1955,7 @@ If the effect of an earlier attempt is unknown, use ADM.9–ADM.10 to look for e
 
 #### ADM.11:4.5 - Establish what the connection supports
 
-Use an applicable earlier check or walk a case through the contributions to establish whether the receiving provider can identify the next action. Examine a failing connection when its handling matters. For a claim about provision, use evidence that the recipient obtained the promised condition, including the recipient’s account when needed.
+Use an applicable earlier check or walk a case through the contributions to establish whether the receiving provider can identify the next action. Examine a failing connection when its handling matters. For a claim about access by a deadline, establish when the intended recipient could actually use the service. Timely configuration and continuing availability can establish readiness even if first use came later. If use itself was promised, establish the required use at the relevant time. The recipient’s account may supply either result under the appropriate conditions.
 
 A description walkthrough tests the arrangement's intelligibility. A bounded operational trial can establish actual transfer, performance and use under its observed conditions. A reliability claim needs evidence covering the providers and conditions to which it applies.
 
@@ -1971,20 +1971,20 @@ The appointment office supplies a decision effective on 1 October. The identity 
 
 The first three contributions are adequate within their stated conditions. The missing input is the correspondence between M and the account that will actually read D. The coordinator sends the bounded mapping question to the assigned access provider, which can recover the account binding through its authorized directory procedure.
 
-After establishing that binding, the archive provider configures the permitted account. Mira opens D, and the available evidence supports the promised condition. The original appointment, identity result and grant remain applicable to Mira and D.
+After establishing that binding, the archive provider configures the permitted account. At 09:55 on 2 October Mira opens D with that account, establishing access by 10:00. An opening observed only at 10:20 would establish access by 10:20. It could also support the earlier deadline if records established that the usable configuration and other necessary conditions already held at 10:00. The original appointment, identity result and grant remain applicable to Mira and D.
 
 | Join | What the receiver actually uses |
 | --- | --- |
 | Appointment to grant decision | The relevant person, effective assignment and scope required by the supplied access rule. |
 | Identity result to grant decision | The accepted person result for that beneficiary under the rule's conditions. |
 | Grant to archive provision | The permitted action and resource, effective time, beneficiary and supported account correspondence. |
-| Archive provision to service completion | Evidence that the intended recipient can use D within the grant. |
+| Archive provision to service completion | Evidence that Mira could use D under the grant by 10:00 on 2 October. |
 
 If the provider cannot recover the mapping, the service retains that precise gap and the accountable recovery action. The coordinator's assignment does not authorize inventing a mapping or broadening the grant.
 
 #### ADM.11:5.2 - Shared provision does not establish shared capacity
 
-Two services rely on the same specialist during a two-hour window. Each local plan assumes that the specialist is available for its full two-hour job. Together the jobs require four specialist-hours within a two-hour window.
+The provider has promised two separate two-hour performances by one specialist in the same two-hour window. They require four specialist-hours. If the agreement instead permits both recipients to use one common result and a single performance meets both needs, two hours can suffice. For a promise to serve either one, establish who may choose, whether both requests can become due and when the specialist will know which to serve.
 
 The responsible parties use the actual service priorities and commitments to resolve the resource question. They may change timing or obtain qualified additional provision where authorized. The administrative join account supplies the affected cases, needed specialist results and obligations. A claim that a new shared-service arrangement will solve the problem remains conditional until its actual capability and timing are established.
 

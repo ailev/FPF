@@ -174,7 +174,7 @@ If repeated support questions consume expert time, [OPS.17:4.2.1](#ops17421---ch
 4. **Make the adverse case and other demands part of the plan.** Suppose one planned package requires an immediate two-hour repeat and then passes, while the other planned packages pass first time. Two completions plus that repeat use six hours; three plus the repeat need eight. [OPS.12 - Protect Human Conditions in Operating Decisions](#ops12---protect-human-conditions-in-operating-decisions) preserves the operator's required recovery and incident coverage after hour six. Extra rig access needs qualified relief as well as the resource owner's decision. The full application also compares advance funding and a later slot; an extra window alone does not make the whole extension feasible.
 5. **Use the combined result to decide starts and returns.** [OPS.19 - Reconcile Simultaneous Operating Work Across Cases and Scales](#ops19---reconcile-simultaneous-operating-work-across-cases-and-scales) retains the feasible two-package plan, defers the third to its qualified later slot and keeps a competing trial closed in the same six-hour window. [OPS.5 - Admit Work and Limit Starts](#ops5---admit-work-and-limit-starts) gives each considered item its disposition. [OPS.7 - Manage Aging, Urgency, and Service Commitments](#ops7---manage-aging-urgency-and-service-commitments) handles the affected local priority or existing promise under the appropriate authority. [OPS.11 - Coordinate Interacting Operating Structures](#ops11---coordinate-interacting-operating-structures) checks that access and evidence still concern the required interval and configuration.
 
-If an extra window, qualified relief and the other required conditions later become available, reopen the affected plan and offer. Keep the useful readiness rule and unchanged evidence. Within an already admitted incident, [OPS.6 - Continue Cases and Handle Exceptions](#ops6---continue-cases-and-handle-exceptions) can instead apply a sufficient current rule directly; report progression only when the performed work and result support it.
+If an extra window, qualified relief and the other required conditions later become available, reopen the affected plan and offer. Keep the useful readiness rule and unchanged evidence. Within an already admitted incident, [OPS.6 - Continue Cases and Handle Exceptions](#ops6---continue-cases-and-handle-exceptions) can instead apply a sufficient current rule directly; report the incident state on evidence for the relevant time. To attribute the change to the intervention, establish its performance and contribution.
 
 ### OPS-SERVICE-WINDOW — Offer service that rooms, people and commitments can support together
 
@@ -186,11 +186,11 @@ If an extra window, qualified relief and the other required conditions later bec
 
 - **Start with:** [OPS.13 - Align Commitments, Resources, and Service Outcomes](#ops13---align-commitments-resources-and-service-outcomes), distinguishing the requested target, forecast and actual undertaking.
 
-- **Stop or return:** Obtain the parties' decision on a changed promise. Internal replanning does not discharge an existing commitment; an unresolved professional condition remains with its responsible practitioner.
+- **Stop or return:** Return the supported option when advice was commissioned. For an actual change of promise, apply the existing terms or obtain the required decision from the parties. A professional condition still open remains with the responsible practitioner.
 
-1. **Use the resource that limits this service.** In the constructed [hospital application](#opsapplication2---app-ops-02--public-hospital-emergency-flow-probe), two rooms each have four available hours, but one qualified team has four usable hours. Supplied clinical and operating assumptions require thirty minutes per routine visit, including turnover, and reserve one team-hour for the stated urgent-case scenario. OPS.10 therefore supports six routine visits in total, not sixteen from the room count.
+1. **Use the resource that limits this service.** In the constructed [hospital application](#opsapplication2---app-ops-02--public-hospital-emergency-flow-probe), two rooms each have four available hours, but one qualified team has four usable hours. Supplied clinical and operating assumptions require thirty minutes per routine visit, including turnover, and reserve one team-hour for the stated urgent-case scenario. The team-hour limit therefore allows at most six routine visits. Suppose the admitted routine windows allow all six visits in two groups of three and leave a protected hour that meets the urgent-response requirement, including support and recovery. Under those conditions six can actually be offered.
 2. **Subtract what is already promised.** Two visits are committed and six additional visits are requested. The supported proposal is four additional routine visits under the stated reserve. Serving all six additional requests needs another qualified arrangement or an agreed later time. Eligibility, clinical priority and protected conditions remain supplied professional decisions.
-3. **Make the schedule usable for everyone who supplies it.** OPS.12 follows the support team's other duty and recovery. Where the supplied windows permit two groups of three visits, that arrangement can preserve both service and support duties. If the reserve changes from one to two team-hours, only four routine visits fit: after the two existing commitments, the additional offer falls to two. Return that changed resource result to OPS.13 before confirming the larger offer.
+3. **Make the schedule usable for everyone who supplies it.** OPS.12 follows the support team's other duty and recovery. Where the supplied windows permit two groups of three visits, that arrangement can preserve both service and support duties. If the reserve changes from one to two team-hours, four routine visits are the upper bound. At most two new visits remain after the existing commitments. Offer both when the revised reserve, the existing bookings, the visit windows and support duties still fit together. Return that changed resource result to OPS.13 before confirming the larger offer.
 4. **Use an account that retains unfinished obligations.** [OPS.15 - Build a Decision-Specific Operating Account](#ops15---build-a-decision-specific-operating-account) distinguishes the historical due-request cohort from completed visits. Twenty-seven timely, three late-completed and ten still-open requests give timely service of `27/40 = 67.5%`. The completed-only `27/30 = 90%` answers another question. Use the due-cohort result for overdue service, while the clinical evidence determines clinical action.
 
 [OPS.14 - Relate Throughput, Cash, and Operating Consequences](#ops14---relate-throughput-cash-and-operating-consequences) enters when paid cover, displaced service or funding changes the choice. It compares the payments and receipts that differ between the alternatives over the decision horizon. An allocated share of an unchanged room or salary cost is not an avoided payment, and a later receipt cannot fund an earlier expense without an available financing arrangement.
@@ -770,7 +770,7 @@ Suppose additional rig hours are offered while specialist relief is still unavai
 
 A technician has a finished repair and wants to begin the next. Under the stated working conditions, the recipient can use the repair only after an acceptance test, and the test fixture will be free in the afternoon. Preparing the required test input now can advance the accepted result more than beginning another repair. If that preparation is already complete, a permissible independent task can proceed instead. Relate the local choice to the missing contribution and current permissions.
 
-If the recipient cancels the afternoon acceptance window, the technically finished repair remains finished. The service promise and useful next action change. Seek the revised receiving decision instead of reporting the local completion as delivered service or silently making a new promise.
+If the recipient cancels the afternoon acceptance window, the technically finished repair remains finished. Check which other acceptance windows are permitted before the promised deadline. Use an available window under the existing terms when it preserves the promise. If that is impossible, report the risk and obtain the authorized decision on any proposed change. Apply a change already provided for by the terms when its condition occurs. The work done so far remains available.
 
 ### OPS.23:6 - Bias-Annotation
 
@@ -1776,13 +1776,13 @@ FPF `C.11` supplies comparison among genuine admissible alternatives; it neither
 
 Use this pattern during one admitted continuing case when current facts, an exception, or a changed condition makes the standard next action uncertain. Typical cues are “the normal route no longer fits”, “the ticket moved but nothing changed”, “the model recommends a fix”, “we are waiting for one more result”, or “who may act now?” while the case subject, permission, performer, evidence, and next permissible Work are unclear.
 
-The first useful result has one of two forms:
+Return the result the recipient needs. Who may act now can be decided from current authority and operating conditions. Whether the case has changed calls for evidence of the subject at the relevant time. To establish what the selected action achieved, connect its performance to the observed result.
 
-> **Progression:** for case subject `S` in qualified state `Q` at configuration and horizon `H`, matching permission `P` and domain Method `M` support next Work `W` by responsible performer `R`, with stop or fallback `F` and expected evidence `E`; after independently supported performance, report the progressed state `Q'` and its evidence to the participant responsible for the next operating decision under return conditions `N`.
+> **Continuation and its result:** for case subject `S` at horizon `H`, permission `P` and Method `M` can support Work `W` by performer `R`, with fallback `F` and evidence `E` expected at the next return. Report execution when the evidence establishes it. For the state at that return, use evidence of the subject and relevant external conditions. Attribute a change to `W` when its performance and contribution are established.
 >
 > **Blocker:** condition `K` is missing, stale, contradicted, unauthorized, unsafe, unsupported, or unavailable; the result needed from source `O` is specified; the safe fallback or stop is `F`; reconsider when `T` makes that useful.
 
-Recognition concerns a next action left uncertain by current case facts. Before action, assurance establishes the needed permission and performance conditions. After action, any progression claim needs performance evidence and support for the reported state.
+Before acting, establish the permission and conditions for the proposed work. At the next return, establish the subject’s state from evidence for that time. An event outside the selected work can change the state in the meantime.
 
 Do not use OPS.6 to design one universal workflow or case lifecycle, reconstruct a reusable Method from event data, infer progress from a ticket, plan, model, trace, or record update, or revise priority merely because the case is old. Use `A.15.7` for the general situation-responsive next-action Method, `A.3.1.MR` when reusable Method recovery from several performances is the actual question, and `OPS.7` when temporal or consequence evidence can change priority or an existing commitment.
 
@@ -1803,13 +1803,13 @@ Do not use OPS.6 to design one universal workflow or case lifecycle, reconstruct
 | evidence expected from performance | The observations, produced results, or records needed to judge what occurred. State the claim each supports, including any claim of a changed subject state or a failure. |
 | record update | A change to a ticket, case file, plan, model, trace, database, or dashboard. It may carry evidence but is not the case-state change by itself. |
 | unmet condition | The exact missing, stale, contradicted, unauthorized, unsafe, unsupported, or unavailable condition that prevents a truthful next action or progressed state, together with its return or stop. |
-| progression result | Either an evidenced progressed case state with its next return, or an unmet-condition return with owner, fallback or stop, and retry condition. |
+| progression result | A warranted next action, evidence of the work actually performed, the supported state at the relevant time, or a missing condition with its owner, fallback and return, as required. |
 
 ### OPS.6:1 - Problem Frame
 
 Continuing cases do not simply advance because a standard sequence exists. New observations, dependency failures, changed permissions, resource relations, specialist decisions, or unexpected outcomes can make yesterday's next action unsafe, impossible, or irrelevant. The operation still needs a bounded way to continue without replacing the applicable clinical, engineering, legal, safety, security, or other domain Method.
 
-Select the next permissible Work from the current situation. Report what progressed only when the performed Work and its result are supported. When a prerequisite is missing, identify the condition that limits continuation.
+Select the next permissible Work from the current situation. Report the state and its changes from evidence about the subject. To credit a selected intervention, establish what was performed and what it contributed. Identify any prerequisite missing for the requested continuation.
 
 ### OPS.6:2 - Problem
 
@@ -1853,13 +1853,15 @@ State the selected next Work, responsible performer, permission and effective co
 
 #### OPS.6:4.6 - Admit performance and update state separately
 
-After the Work, recover direct performance evidence, the result, any change to the subject, and any failure or limit, and the claim each observation supports. Update the case-state claim only when the relevant Work and resulting evidence are independently adequate. If Work did not occur or evidence is insufficient, retain only earlier claims whose support still holds and return the unmet condition. A contradicted or expired claim becomes unsupported or unknown; it is not restored merely because a new result is missing. Never use a record update, successful invocation, generated artifact, or selected action as automatic progression evidence.
+After the Work, recover direct performance evidence, the result, any change to the subject, and any failure or limit, and the claim each observation supports. For a claim that the selected Work produced a change, establish both performance and its contribution. For a question about the subject’s state now, use any sufficient direct evidence or effective rule, including an independent event. If the selected Work did not occur, report that finding and update the state wherever the remaining evidence warrants it. A contradicted or expired claim becomes unsupported or unknown; it is not restored merely because a new result is missing. Never use a record update, successful invocation, generated artifact, or selected action as automatic progression evidence.
 
 #### OPS.6:4.7 - Return one usable result
 
-Return either:
+Return what the original commission requires:
 
-- an evidenced progressed case state, its evidence and limits, fulfilled or still-open obligations, and next return; or
+- a permissible next action with its responsible performer and effective conditions,
+- the supported performance and its result as far as known,
+- the state at the relevant time, its evidence and limits, fulfilled or still-open obligations and next return, or
 - the unmet condition, direct owner or source of the needed result, safe fallback or stop, and exact retry condition.
 
 Return a required priority, commitment or policy decision to its Operations owner, and a specialist decision to the practice that can supply it. The continuation result does not inherit their authority.
@@ -1888,7 +1890,7 @@ Use the authorized clinical result and applicable operating criteria to identify
 
 An admitted user issue encounters a changed trace, tool result, provider condition, model input, candidate change, or harness state. The operation refreshes evidence and applies the software domain Method and current established authority. It distinguishes the human or other deciding System, the responsible performer, agent episode, tool invocation, candidate change, test evidence, issue record, and release decision.
 
-The continuation contract may authorize one bounded diagnostic, test, or repair Work with context and tool limits, stop, fallback, expected evidence and the responsible recipient, including a human reviewer when the case requires one. Report issue or candidate progression only after performance evidence supports it. A successful episode, green local test, visible trace, automated loop, or generated patch does not by itself establish issue progression, an integrated change, software assurance, a security result, or release permission.
+The continuation contract may authorize one bounded diagnostic, test, or repair Work with context and tool limits, stop, fallback, expected evidence and the responsible recipient, including a human reviewer when the case requires one. Use current evidence about the issue or candidate to report its state. To credit the selected work with a change, establish its execution and contribution. A successful episode, green local test, visible trace, automated loop, or generated patch does not by itself establish issue progression, an integrated change, software assurance, a security result, or release permission.
 
 ### OPS.6:6 - Bias-Annotation
 
@@ -1911,8 +1913,8 @@ The continuation contract may authorize one bounded diagnostic, test, or repair 
 - [ ] Direct mandatory or recognition branches are used when adequate.
 - [ ] `C.11` is used only when several admissible live actions genuinely require comparison.
 - [ ] The continuation contract names Work, performer, conditions, stop or fallback, expected evidence, refresh, and return.
-- [ ] Case progression is reported only after independently supported Work and adequate resulting evidence.
-- [ ] The result is either evidenced progression or an exact unmet-condition return with owner, fallback or stop, and retry.
+- [ ] The reported state has evidence about the case at the relevant time. A change attributed to the selected Work has evidence of its performance and contribution.
+- [ ] The result settles the commissioned question about the permitted next action, the state or the selected performance, or identifies the missing condition, owner, fallback or stop, and when to reconsider.
 - [ ] Specialist and wider Operations results remain with their owners.
 
 ### OPS.6:8 - Common Anti-Patterns and How to Avoid Them
@@ -1937,7 +1939,7 @@ Checking performance and the subject’s state takes time and may require eviden
 
 Case continuation sits between permission and evidence. If it collapses into admission, selection appears to perform Work. If it collapses into priority or commitment management, elapsed time or consequence pressure can bypass the applicable domain Method. Keeping the continuation contract and the later state update separate makes exceptions usable without inventing a lifecycle.
 
-The two-result form is deliberate. An exact unmet condition with owner, safe fallback, and retry can be the complete useful Operations result. It prevents administrative state changes from hiding missing permission, capability, evidence, or specialist conclusions.
+Identifying the authorized and capable performer can complete an assignment about the next action. Evidence about the subject can establish its state independently of whether that action has been performed. A missing condition with its owner, safe fallback and opportunity to retry can also complete a feasibility inquiry. It prevents administrative state changes from hiding missing permission, capability, evidence, or specialist conclusions.
 
 ### OPS.6:11 - SoTA-Echoing
 
@@ -4416,7 +4418,7 @@ FPF C.16 supports measurement whose basis matters to the decision. A.10 keeps ev
 
 **Use this when** a recipient needs a credible service promise, an existing commitment has become doubtful, or a resource change could alter what the operation can deliver. The question may concern test evidence by Friday, timely patient service, an incident response or accepted outputs from an assisted workflow.
 
-Begin with the result the recipient needs and the promise being considered. Recover its scope and deadline, then test what work, resources and outside results it requires. The first useful result is a supported commitment agreed by the authorized parties, an explicit revision or refusal, or the specific missing input or decision that prevents a supported agreement. An existing commitment can be confirmed under the conditions already in force.
+Begin with the result the recipient needs and the promise being considered. Recover its scope and deadline, then test what work, resources and outside results it requires. For advice, a substantiated offer, revision or refusal can complete the commission. For a commitment, establish the terms agreed by the authorized parties or the particular condition that still prevents agreement. An existing commitment can be confirmed under the conditions already in force.
 
 This pattern concerns service commitments within continuing operations. Capacity analysis supplies one input; the promise also depends on acceptance, protected conditions, dependencies and authority. If an individual job fits an already supported service arrangement, use the ordinary admission method. For a disputed engineering, clinical, staffing or safety result, use an applicable qualified determination or refer the remaining question to the responsible provider.
 
@@ -4484,7 +4486,7 @@ Preserve customer classes or conditions whose losses matter separately. A favora
 
 Consider the supported responses: keep the proposed promise, change its scope or time, change the resource arrangement, refuse the request or obtain a missing result. Compare consequential financial differences with OPS.14 when payment, displaced use or funding changes feasibility or preference.
 
-State the selected result in the parties' ordinary service terms. Include the conditions on which they rely, the relevant uncertainty and the observation that would require another decision. Make any requested recipient action explicit, such as timely provision of an input or acceptance by a specified date.
+If asked what the parties could agree, state the supported options and the grounds for recommending one. If authorized to commit, state the selected result in the parties' ordinary service terms. Include the conditions on which they rely, the relevant uncertainty and the observation that would require another decision. Make any requested recipient action explicit, such as timely provision of an input or acceptance by a specified date.
 
 Apply the terms already in force to any change in an existing promise. If a proposed revision requires a new decision, obtain it from the authorized parties or report where it stands. Until an applicable revision takes effect, report the existing obligation and its current risk. An internal replan alone cannot discharge it.
 
@@ -4537,7 +4539,7 @@ If an earlier commitment promised field release, agreeing a narrower test servic
 
 In a constructed routine service, two rooms are each available for four hours. One qualified team is available for four hours and each planned visit uses thirty minutes of that team's time, including the required turnover work. The responsible clinical practitioners supply the eligible cases and the planning durations. Two visits are already committed.
 
-Eight room-hours would appear to allow sixteen visits. The qualified-team bound allows eight in total and at most six additional visits under the normal assumptions. A supplied adverse scenario reserves one team-hour for an urgent case, reducing the plan to six routine visits in total and four additional visits.
+Eight room-hours would appear to allow sixteen visits. The qualified-team bound allows eight in total and at most six additional visits under the normal assumptions. A supplied adverse scenario reserves one team-hour for an urgent case, leaving at most six routine visits in total and four additional visits. Suppose the permitted windows admit all six visits and protect a usable hour when the urgent response is due, without double-booking staff or support.
 
 The coordinator can propose four additional routine visits under both stated cases, obtain another qualified arrangement, or offer later appointments with the affected recipients' agreement. A room booking alone cannot support the larger promise. The service decision preserves clinical priority and the team's protected conditions; a changed clinical need can reopen the plan.
 
@@ -4585,7 +4587,7 @@ Resource counts also favor what is easy to see: rooms, machines or generated dra
 | Existing obligations remain visible. | Affected commitments and the authority to revise them can be identified. |
 | Capacity is usable for this service. | Resources, capability, windows, sequence, dependencies and protected conditions support the plan. |
 | Uncertainty matches the claim. | For a guarantee, the permitted requests have an authorized response using information available in time. A proportion uses its own population and periods. A probability claim has an appropriate forecasting basis. |
-| The result is an actual decision or a clear gap. | Acceptance, refusal, requested revision or unresolved input is distinguished from the internal plan. |
+| The result answers the commission. | Advice identifies the supported terms or the uncertainty that prevents a recommendation. A decision to accept, refuse or revise a promise identifies the applicable authority and the terms in force. |
 | Change can be handled in time. | The observation and response times support the proposed remedy, or the result identifies a missed window and the remaining choices. |
 
 ### OPS.13:8 - Common Anti-Patterns and How to Avoid Them
@@ -6922,7 +6924,7 @@ PumpWorks must continue weekly evidenced controller releases while field inciden
 
 `OPS.5` considers `ReleaseCandidate-R42`, `FieldIncident-I73`, `SafetyQuestion-S19`, `ProviderChange-P8`, and competing test-rig requests separately. The dispatcher admits work only when its identity, evidence, permission, authority, access, commitments and start conditions permit it. For deferred or rejected demand, give the reason and any condition for reconsideration. Return `SafetyQuestion-S19` to the competent safety authority.
 
-`OPS.6` continues the admitted `FieldIncident-I73` case under its current incident Method. It refreshes incident, deployed-controller, telemetry, `T9`, rig-access, provider, safety, and release evidence; identifies who can decide the next action, who can perform it and the authority required for each. Report any change in the incident state on evidence of what was done, or identify the condition still blocking progress.
+`OPS.6` continues the admitted `FieldIncident-I73` case under its current incident Method. It refreshes incident, deployed-controller, telemetry, `T9`, rig-access, provider, safety, and release evidence; identifies who can decide the next action, who can perform it and the authority required for each. Report the state on current evidence about the incident, including relevant external changes. Where the question concerns the effect of the selected work, establish its contribution or identify what remains open.
 
 `OPS.7` relates the incident age and weekly evidenced-release horizon to service consequence, dependencies, current evidence, reversibility, recovery burden, and the existing commitments. The holder of priority authority decides the incident’s priority. Any change in an existing commitment goes to its own authorized holder or parties.
 
@@ -6992,7 +6994,7 @@ Enter at the method that answers the operating question and use any current inpu
 | cultural continuation | OPS.20 returns the receiving-use claim supported for licensed transfer coordinators in the named unit, shift and interval, preserving the handover candidate's status and truthful stop. A new comparison is selected only for a useful attainable contribution within clinical and administrative authority. | The observations concern use of the proposed practice in this group and interval. A claim about an admitted Method, wider adoption, retention, transfer or clinical effectiveness needs evidence for that claim. |
 
 
-In a constructed extension, two rooms are each available for four hours. One qualified team has four usable hours, and each planned routine visit requires thirty minutes including turnover work. The responsible practitioners supply eligibility, duration assumptions, clinical priority and protected conditions. Two visits are already committed, and six more are requested. Reserving one team-hour for the supplied urgent-case scenario leaves six routine visits in total: two existing commitments and four additional visits.
+In a constructed extension, two rooms are each available for four hours. One qualified team has four usable hours, and each planned routine visit requires thirty minutes including turnover work. The responsible practitioners supply eligibility, duration assumptions, clinical priority and protected conditions. Two visits are already committed, and six more are requested. Reserving one team-hour for the supplied urgent-case scenario gives an upper bound of six routine visits, including the two already committed. Suppose the six half-hour visits fit the permitted windows, and the protected hour is available when the urgent case needs it, with the required support and recovery.
 
 OPS.13 therefore supports a proposal for four additional routine visits under both the normal and stated adverse cases. Serving all six additional requests would need another qualified resource arrangement or an agreed later time. A room count cannot supply the missing team capacity. Any proposed deferral still needs to fit the clinical result and the recipient's service agreement.
 
@@ -7014,7 +7016,7 @@ OPS.16 can revise the proposed information-checking way while preserving the dis
 | subjects | Issue, agent episode, candidate change, Work item, tool access, trace event, test result, human decision, and release record remain distinct. | Use a trace for the events it records and the Work those events support. A causal claim or a complete state account needs its own basis. |
 | current account | Current candidate/evidence correspondence, uncertainty, permissions, next decision, bounded context and concurrency, refresh and handoff recovery. | For a claim about release, transfer, safety or effectiveness, use evidence of that result and any required authority. |
 | admission | `OPS.5` uses current context and tool capacity, bounded concurrency, integration burden, evidence needs, and established authority to decide which exact issue, episode, diagnostic, test, or change Work may start. | — |
-| case continuation | `OPS.6` handles an admitted issue under the software Method, selects or returns the next permissible Work, and reports issue or candidate progression only after performance evidence supports it. | — |
+| case continuation | `OPS.6` handles an admitted issue under the software Method, selects or returns the next permissible Work, and updates the issue or candidate state from evidence for the relevant time. Attributing a change to the selected work requires grounds for its execution and contribution. | — |
 | aging and commitment | `OPS.7` relates issue age, user and service consequence, dependencies, evidence, integration load, recovery burden, bounded concurrency, and promised horizon to a local priority or commitment disposition. | — |
 | queues and buffers | OPS.8 distinguishes ready issues or test packages from matters awaiting inputs, and states the tool-access and protection conditions for the selected service. | Episode counts and board columns are not one interchangeable queue or delivered-result population. |
 | current constraint | OPS.9 tests generation speed, acceptance capacity, missing evidence and rework as different explanations of lost accepted results. | A local benchmark or faster artifact generation does not establish whole-service improvement. |
