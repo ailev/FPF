@@ -132,7 +132,7 @@ B.1.5.CM:4.1 helps examine the proposed composition: what each method contribute
 
 **1. Construct what can be observed.** Suppose two nonnegative contributions, u and v, produce only a total T=u+v in a measuring procedure. The task is to determine whether T is below 10.5 in the stated units. Initially the measuring practice supplies the model y_i=T+e_i for nine complete readings, with independent normally distributed errors of mean zero and known standard deviation 3. Their observed mean is 8.
 
-MMP.7 turns that account into the joint law of the records. If a procedure instead discards readings outside a reporting range, its probability law must condition on that selection before the same inference can be attempted. MMP.11 is needed earlier if the relation between the unknowns and the observations has yet to be constructed.
+MMP.7 turns that account into the joint law of what the measuring procedure records. If it samples until it has enough in-range readings and supplies only those values, use the included-reading law under those sampling conditions. If it makes nine known attempts and retains four values plus five out-of-range indications, those indications also bear on T. Include the counts or flags and the reporting rule. An unexplained blank may have another cause. MMP.11 is needed earlier if the relation between the unknowns and the observations has yet to be constructed.
 
 **2. Ask what the law can distinguish.** MMP.12 examines changes that leave the records unchanged. Replacing (u,v) by (u+h,v-h), while both remain nonnegative, leaves T and the record law unchanged. No increase in the number of these total readings identifies the two contributions separately. The present target T remains identifiable, so its estimation need not wait for that unresolved decomposition. A question about u alone would require a restriction, another observation relation or a sufficient bound.
 
@@ -283,7 +283,7 @@ For the present input, suppose their estimates are 0.42 and 0.48, with supported
 
 Now lower the threshold to 0.94. The interval no longer settles whether the total is below it. If obtaining the second component from its source model is worthwhile, and that calculation returns 0.46 with absolute error at most 0.001, retaining the first surrogate gives [0.849,0.911]. That narrower combination settles the new question without replacing both surrogates.
 
-A different question can instead change what the interface must carry. A time of threshold crossing needs information about evolution within the interval; two final amounts do not supply it. MMP.18 then returns the missing temporal contribution, and MMP.17 changes the response that a replacement must preserve. More accurate final amounts alone would answer the wrong question.
+A change of question can change what the two models must exchange. Suppose the recipient now asks when the total first crosses a threshold. With only the two final amounts, an early transfer and a late transfer can fit the same report. If an established law fixes the change within the interval, use it with the reported amounts. If different crossing times remain possible, MMP.18 locates the missing temporal information and MMP.17 changes the response a replacement must preserve.
 
 ### MMP-REPRESENT - Why does counting the records overcount the assignments?
 
@@ -3835,7 +3835,7 @@ A point estimate can suffice for the receiving use. To replace a distribution by
 
 Return the combined formulation with the exchanged quantities and assumptions needed to reproduce the required result. The subject recipient must be able to interpret that result, including any approximation or unresolved interface contribution that changes its use.
 
-Check the consequence at the scope of the claim. An interval balance establishes the amount transferred over that interval, not the time of a threshold crossing within it. A joint posterior accounts for the supplied data under its dependence assumptions; it does not establish that those assumptions describe the subject.
+Check the consequence at the scope of the claim. An interval balance gives the net transfer. For a question about the first time a level was reached, apply the time laws already available to the receiver. Determine the first attainment on each admissible history, allowing that the level may never be reached. An exact time is warranted if every history first reaches the level at that time. A guarantee of reaching it by a deadline needs only that every history reaches it by then. A joint posterior likewise accounts for the supplied data under its dependence assumptions. Using it for a particular physical process requires grounds for those assumptions in that process.
 
 If a result fails, locate whether the problem lies in the quantity identification, map, closure, component law, dependence or computation. Repair that contribution and its affected consumers. For a physical question, B.5.MPC.R coordinates a change crossing the physical, mathematical and computational accounts.
 
@@ -3862,7 +3862,7 @@ The error is in the exchange. Both components must use the same transferred amou
 
 Now change the requested result: when does B first reach 0.125 units? Under the supplied continuous rate, B(t)=k\*t\^2/2, so it reaches the threshold at t=0.5 minutes. A receiver that inserts the entire amount only at T=1 minute reports a different crossing time despite preserving the final balance.
 
-For that question, send or reconstruct the cumulative transfer Q(t)=k\*t\^2/2 over the interval, or use a computation with adequate intermediate and event resolution. Exchanging only the interval amount is sufficient for the final stores but insufficient for the crossing. The changed question reopens the temporal representation while the conservation argument still holds.
+The receiver can reconstruct the crossing from the same transmitted amount Q when it knows that the rate is proportional to elapsed time on this interval. With zero initial receiving stock and duration T, the cumulative stock is Q(t/T)². Knowing Q fixes the coefficient even if the sender did not transmit k. If all the receiver knows is that the stock grows continuously from 0 to 0.5 in one minute with zero initial rate, both 0.5t² and 0.5t³ fit, with t in minutes. They first reach 0.125 at 0.5 minutes and about 0.630 minutes respectively. Continuity guarantees that the level was reached by the end. An exact crossing time needs a justified time law or a record that distinguishes the remaining times. For an actual transfer, establish that the law or record applies to that run.
 
 A nonlinear receiver can likewise need more than an averaged input. Suppose two equally weighted fine cells supply x values (0,2), and the receiver requires the average of x^2. The mean input is 1, but the required response is (0+4)/2=2. Sending only the mean and squaring it gives 1. Supplying variance 1 restores 1^2+1=2; a justified closure could supply the same missing contribution in a larger model.
 

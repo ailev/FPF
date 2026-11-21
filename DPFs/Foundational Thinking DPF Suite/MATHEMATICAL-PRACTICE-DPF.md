@@ -387,7 +387,7 @@ These examples show how the required use determines which maps to seek.
 
 | Needed use | Maps and question to formulate |
 | --- | --- |
-| Carry two components together and recover each one. | Seek maps from the new object to both component objects. What combined map is determined by supplying the two components? |
+| Carry any two supplied components together and recover each one. | Seek the two projections. For every pair of component maps with the same source, is there a unique map into the proposed object with those projections? |
 | Carry either kind of input, then process it according to that kind. | Seek maps from each input object into the new object. Do the two processing rules determine one rule on the combined object? |
 | Combine components that must agree about a common quantity. | Express both accounts of that quantity in one codomain and require equality. |
 | Identify inputs while retaining selected answers. | Which maps give the same answer on identified inputs, and therefore can operate on classes? MATH.2 supplies that quotient construction. |
@@ -435,6 +435,8 @@ The comparison points into the product or pullback and out of the coproduct. Its
 #### MATH.16:4.3 - Construct an object and establish the property
 
 In sets, the product is the set of ordered pairs `A x B`. Use the coordinate projections and define `<f,g>(x)=(f(x),g(x))`. Both projection equations follow by reading the corresponding coordinate. Any function with those projections must return that same pair at every x, which proves uniqueness.
+
+If the two fields come from one admitted source state, the pair of maps defines its report in the product. To find all possible reports, take the pairs produced as that state varies. This image can be a proper subset of the product. Membership establishes that a report is possible. To identify which report occurred, use information about the actual state or its record.
 
 For the pullback, form the subset:
 
@@ -502,11 +504,11 @@ Returning to functions on the underlying sets, a proposed update exposes another
 
 #### MATH.16:5.2 - Process both results or either result
 
-One calculation returns an integer count; another returns a text label. A report containing both results needs a product. Its projections recover the count and the label, and the two values determine the report.
+One calculation returns a count and another a text label. A product of the field types lets the report store both and lets a reader retrieve either. Which combinations can a source actually produce? Suppose the label is “release” for a zero count of unresolved items and “hold” for a positive count. A report with a positive count and “release” fits the field types but violates the reporting rule. Under this rule the count alone determines both fields. If the second field records a supervisor's separate decision, recover the decisions available to that supervisor before deciding which pairs are possible.
 
 A different interface accepts either an integer count or a text label. It must display a count numerically and leave a text label as supplied. A tagged union, the coproduct of these sets, allows both handlers to determine one display function. An input tagged as a count follows the numeric handler; a text-tagged input follows the text handler.
 
-The word “combine” did not decide which object to build. The question about formation and use did: recover two components from one report, or process either input through its own rule. These constructions describe values and functions. Whether executing the calculations reads or changes shared state is a further question about their execution.
+The operations on the report select the construction. Project the two fields for retrieval, use their joint source to decide attainability, or dispatch on the tag to process either kind of input. For an execution claim, identify the evidence sufficient for the question. A receipt tied to the run can establish which fields it returned. To verify that a particular input produced that report, establish the connection to the input as well. If the calculations share state, their order can change what they return.
 
 #### MATH.16:5.3 - Two views of one quantity
 

@@ -274,7 +274,7 @@ The [Suite Reference (Foundational)](https://github.com/ailev/FPF/blob/main/DPFs
 
 **Use this when** you are choosing or designing a notation and cannot yet say what its users must be able to express, recognize or do with an expression. A candidate may name all the right objects while hiding their order, dependence or duration. Another may express the distinction but make a frequent change require rebuilding the whole description.
 
-Start with a piece of work: composing operations, comparing two models, tracing a dependency or performing a sequence are examples. Identify an operation that the intended user needs to carry out using the notation. Then find two cases that this operation must treat differently. Trying to express and use those cases gives the first design requirement that can be acted on.
+Begin with a piece of work the user must perform with the notation, such as composing operations, tracing a dependency or performing a sequence. If the user needs a value, ask whether cases that look alike can require different values. If the user needs a workable action, look for one they can take across all cases that look alike. The proposed expressions and the knowledge available to their reader may already suffice.
 
 The reader needs enough knowledge of the practice to explain why the cases differ and what a useful result would be. The designer can supply that knowledge or obtain the needed distinctions and inferences from a collaborator or an established source.
 
@@ -312,9 +312,9 @@ For a small task, one operation is enough to begin. If the notation will be used
 
 #### NOT.1:4.2 - Find cases whose difference changes the work
 
-Construct or recover a pair of cases that require different answers, permitted changes or actions. Explain the difference in the practice before deciding how to write it. Two arrangements of the same components can have different outputs; two performances with the same starting times can have different sustained intervals.
+Start with what the reader must obtain. For an exact answer, see whether two possible situations can give different answers. If the answer is fixed by what the reader already knows, the same expression may serve the entire group. Two arrangements of the same components can have different outputs. Two performances with the same starting times can have different sustained intervals. For a choice of any acceptable action, consider the alternatives that the reader would still group together and the actions each permits.
 
-Attempt to express both cases with the candidate notation and its allowed context. If they become indistinguishable while the required answers differ, something needed by that operation has been omitted. Recover the difference through an expression rule, an accessible annotation or a query to another representation. Alternatively, narrow the declared use to questions that do not need that difference.
+Try the proposed notation with the context available at the moment of use. For an exact answer, indistinguishable situations with different answers reveal a loss. For one guaranteed action, look for an action that works across the whole group. Three possible editions might allow {A,B}, {B,C} and {A,C}. Every pair allows an action, while no action serves all three. If the work needs this choice, add a distinguishing reference, an accessible query or a reading rule backed by subject knowledge. A context that already identifies an applicable action can be sufficient. [NOT.5:4.4](#not544---expose-distinctions-the-target-collapses) gives the corresponding test when translating an expression.
 
 Conversely, two visibly different cases may be interchangeable for the present operation. Keep their shared representation if that simplification preserves the needed result. The question determines which differences matter.
 
@@ -336,7 +336,7 @@ Test the whole expression and its usable context. A symbol may be ambiguous in i
 
 Propose a small change capable of supporting the selected operation. Examples include marking operand groups, adding a reference to a shared component, exposing event duration, or making an unresolved alternative visible. Construct the contrasting cases with that change and carry out the operation using the proposed reading rule.
 
-Where modification matters, change an input, component or relation and follow the resulting edits. A notation that displays one finished example well may make the required family of changes error-prone or laborious. Include a contrasting case that challenges the same rule, to see whether the change works beyond the first example.
+Where modification matters, change an input, component or relation and follow the resulting edits. A contrasting case can expose a failing rule. For a reusable design, explain which construction or subject condition preserves the required operation throughout the intended expressions and changes. The demonstration of one successful edit gives a reader a place to start.
 
 Separate the notation's contribution from supplied subject knowledge. In a diagram for composing functions, arrows can expose the order of application; the functions and the ability to apply them supply the numerical result. If the result cannot be obtained because an algorithm or physical law is missing, return that question to the corresponding practice.
 
@@ -398,9 +398,9 @@ A successful notation for one audience can require unavailable preparation in an
 Use these questions to examine the design decision when its adequacy matters.
 
 - Can the intended user identify the working operation, its starting information and the result they need?
-- Does a consequential difference between cases explain why the selected distinction is required? If a difference is omitted, is the resulting loss acceptable for that use?
+- Which lost difference would change the exact answer or leave the reader's choices without a common acceptable action? If the cases can safely share an expression, what establishes that for the intended use?
 - Is the necessary information available in the expression, its declared conventions or an accessible interaction?
-- Has the proposed rule been used on the contrasting cases, including a change when modification is part of the work?
+- For this task, can the intended reader use the expression and, if needed, change it? For a promise of reuse, how does the reading or editing rule cover the admitted family?
 - Are the subject knowledge and reader preparation needed for that use recoverable?
 - Does the next construction follow from the decision, with remaining uncertainty and displaced work visible where they matter?
 
@@ -437,7 +437,7 @@ The pattern chooses requirements through small constructive trials. NOT.2-.4 dev
 | Ross and colleagues, [Affordances of Sketched Notations for Multimodal UI Design and Development Tools](https://arxiv.org/abs/2508.09342), 2025 preprint, abstract-level contribution | Retain the distinction between isolated-symbol recognition and interpretation of a whole contextual sketch in AI-assisted work. The abstract motivates checking the receiving context. It does not establish a general advantage of a particular design or interpreter. |
 | Kruchten, McNutt and McGuffin, [Metrics-Based Evaluation and Comparison of Visualization Notations](https://ieeevis.b-cdn.net/vis_2023/pdfs/v-full-1328.pdf), IEEE VIS 2023, §§3–4 | Reuse matched examples and their metrics to locate differences for closer reading when comparing working notations. The method assumes expressions implementing the shared tasks. Its metrics do not capture the whole user experience or supply a universally best notation. |
 
-**Choosing the design move.** When the needed distinction is still unknown, construct a contrasting pair first. A gallery-based comparison already needs expressions that implement chosen tasks; preparing that gallery cannot replace discovering the missing task or distinction. Once several viable notations support a stable family of work, a shared set of examples becomes useful: compare the same readings and edits, use metrics to find costly cases, then inspect those cases. This costs more than the first pair but can expose repeated-change burdens hidden by one successful example. Reopen the small comparison when that broader burden could change the choice; NOT.7 develops the corresponding redesign. Cognitive Dimensions and PUX can also help discover or reformulate the operations to compare.
+**Choosing the design move.** When the needed distinction is still unknown, look for indistinguishable cases whose required answer or collectively available actions reveal the loss. A gallery-based comparison already needs expressions that implement chosen tasks; preparing that gallery cannot replace discovering the missing task or distinction. Once several viable notations support a stable family of work, a shared set of examples becomes useful: compare the same readings and edits, use metrics to find costly cases, then inspect those cases. Preparing that comparison takes additional work but can expose repeated-change burdens hidden by one successful example. Reopen the small comparison when that broader burden could change the choice; NOT.7 develops the corresponding redesign. Cognitive Dimensions and PUX can also help discover or reformulate the operations to compare.
 
 This method adapts those sources to construct requirements from contrasting cases, as illustrated by the function pipeline and signal durations. The method connects notation design to available FPF representation, extraction and problem-development methods.
 
@@ -1082,7 +1082,7 @@ The source contributions are combined here with notation requirements and reader
 
 **Use this when** work must continue in another notation and you need to construct or repair the translation. A diagram may need a textual form, an ordered performance may need a compact score, or an expression may need a representation accepted by another reader or tool.
 
-Start with the operation the receiving notation must support. Construct its expression from the source's interpreted parts and connections, then use it to obtain the needed answer. Look for a pair of source expressions that the translation would make indistinguishable. If the work needs their difference, retain it, enrich the target or restrict the translation's use.
+Start with the operation the receiving notation must support. Construct its expression from the source's interpreted parts and connections, then use it to answer the source question. Look at the originals that could yield the same target expression. For a value, can it differ between two of them? For a choice, can the recipient find an action acceptable across the whole group? Retain the necessary distinction in the target, supply accessible context or specify the questions this translation supports.
 
 The first result is a usable translation with an answer-recovery procedure, or a demonstrated loss and a concrete way to repair it. Recovering a needed answer, reproducing the source expression and carrying a target edit back are different demands; choose the ones the work requires.
 
@@ -1353,9 +1353,9 @@ Take one input or object and follow it across the representations. Obtain each c
 
 If the connection exists only in the author's memory, add the missing reference or operation. If the correspondence is clear but the subject inference is missing, obtain that contribution from the subject method or a collaborator.
 
-Use one consequential contrast to challenge the connection. A row with the same label but a different unit, a node in another version or a modeled value beside an observation may require different treatment.
+A contrast can expose an incorrect match. Two rows may share a label while belonging to different batches, units or versions. For a reusable join, establish which identifiers refer to the same thing over the promised range. If a part number is unique only within its batch, use the batch and part number together when those fields have the same meaning on both sides and identify the required part there. If the user needs every part, also establish that the records cover them.
 
-For an immediate use, a worked joined reading may settle the question. A broader claim about how readily users can combine the representations requires evidence appropriate to their preparation and work; C.2.8 characterizes that recovery. Do not infer learning or transfer from the existence of the correspondence.
+For an immediate use, one established match can settle the question when it supplies the only link the recipient still needs. When three or more representations contribute to one result, trace their references to the same item, revision and conditions wherever the inference requires it. Separate successful matches for each pair can concern different items. A shared key with the required scope, or another justified correspondence, can establish all the matches at once. Whether readers can use the arrangement with their usual preparation is a further question for C.2.8.
 
 #### NOT.6:4.5 - Propagate the intended change and expose conflicts
 
@@ -1416,7 +1416,7 @@ When the combination needs checking, ask the questions that can change its use.
 - Does each retained representation support a named operation or needed distinction?
 - Can the reader recover the referents and the relation between their occurrences?
 - Are derived values distinguished from independent contributions and different claim kinds?
-- Can one joined answer be obtained by following the stated correspondences?
+- Can the needed result be obtained by following the correspondences? For a recurring use, what establishes that each required match refers to the appropriate item and version across the whole family?
 - Does a change preserve the requirements of the intended edit rather than every value copied from an earlier display?
 - Are incompatible edits or interpretations exposed at the affected contribution?
 - Can the work stop with the usable combination, without unnecessary synchronized copies?
