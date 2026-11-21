@@ -4,7 +4,7 @@
 
 A pattern language for understanding, learning and changing the bodily contribution to a skilled human movement.
 
-- **Version:** 24 October 2026
+- **Version:** 21 November 2026
 - **Status:** Stable
 
 Original framework text: © 2026 Anatoly Levenchuk, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Third-party material retains its own terms.
@@ -20,7 +20,7 @@ Original framework text: © 2026 Anatoly Levenchuk, [CC BY 4.0](https://creative
 | [SOM.Reference:1](#somreference1---problem-frame-and-scope) | Problem frame and scope |
 | [SOM.Reference:2](#somreference2---how-the-methods-work-together) | How the methods work together |
 | [SOM.Reference:3](#somreference3---a-connected-worked-use) | A connected worked use |
-| [SOM.Reference:4](#somreference4---the-simultaneous-vertical-of-movement) | The simultaneous vertical of movement |
+| [SOM.Reference:4](#somreference4---which-actions-must-work-together-in-this-movement) | Which actions must work together in this movement? |
 | [SOM.Reference:5](#somreference5---interpreting-results-and-choosing-further-work) | Interpreting results and choosing further work |
 | [SOM.Reference:6](#somreference6---rationale-source-use-and-alternatives) | Rationale, source use and alternatives |
 | [SOM.Reference:7](#somreference7---companion-publications-and-dependencies) | Companion publications and dependencies |
@@ -107,20 +107,25 @@ If an earlier comparison had shown that changing paper restored the line without
 
 This constructed writing case illustrates how to choose among the Methods under its stated conditions. A claim about learning gains would require observations of learning.
 
-## SOM.Reference:4 - The simultaneous vertical of movement
 
-A correction participates in work that is already being carried out at other levels. In a salsa turn, the dancer is performing a culturally recognizable figure with a partner while maintaining rhythmic steps, balance and the bodily changes that support them. The dancer must sustain these contributions together during the turn.
+## SOM.Reference:4 - Which actions must work together in this movement?
+
+Start from the movement the performer or their partner needs to continue. Follow the action through the point where a change of contact, support, timing or effort could change that continuation. Include another participant when what they do can change the choice the performer has time to make. A surface supporting the performer and a partner responding to them both affect the movement. Each has a different place in the explanation. The partner has their own action and can change it in response.
+
+Decide what the account has to distinguish. For producing a continuous mark, a check of the whole stroke may settle the job even when the writer's precise grip is unknown. For teaching a writer to regulate grip through a change of support, two unbroken lines may conceal different actions. Return to the writer and the interval of changing support to find out which adjustment they could make there. Use a prior attempt if it answers the question. The extent of the movement examined and the differences preserved in its model can change separately.
+
+In the salsa figure below, the dancer must turn, keep time and make the continuation available to the partner. These requirements tell the teacher which bodily actions and which interactions belong in this account.
 
 | Work occurring during the turn | What must be available together | What a local correction must preserve |
 | --- | --- | --- |
 | Performing the figure with a partner | The figure's technique, interaction and continuation | The partner can continue the shared figure. |
 | Performing its rhythmic steps | Relations among steps, beat and the phrase | A bodily adjustment does not displace the required steps or timing. |
 | Turning while changing support | Balance, direction and transition between contacts | The movement continues through the support change. |
-| Regulating the participating bodily action | Distinguishable, controllable and coordinated changes under those conditions | The dancer can still execute the steps, turn and partner interaction while making the adjustment. |
+| Regulating the participating bodily action | Coordination that meets the movement requirement, with deliberate control where the task calls for it | The dancer can still execute the steps, turn and partner interaction while making the adjustment. |
 
-These four rows describe concurrent work in this salsa figure. Other movements can call on the same bodily skill in a different combination of activities.
+To use this method for another movement, change a condition the practice allows while keeping the same question. If a partner could give the signal later and the performer would then need to act differently, keep the timing of both actions. If several ways of organizing the body all give the required result and the task permits them, the choice between them can stay open. These are different from choosing how many beats or movements the record covers. A detailed account of this whole figure can still concern just one turn.
 
-Strength and recall can be adequate while coordination remains difficult. Refining a sensation alone does not supply missing strength, dance technique or knowledge of the figure’s relation to the music. Locate what limits the whole action and choose preparation that retains the relevant relation. A reduced task can temporarily remove partner or timing demands. Use evidence of the combined action to judge it under the required conditions, and practise that combination where it is still missing.
+Adequate strength, a steady stance and recall of the figure can coexist with failure in motion. The failed turn locates the problem. To decide whether to work on bodily regulation, change the shared cue or alter another condition, use evidence that could separate those explanations. A reduced task can prepare the turn. Where the required skill is responding to a partner, preserve a real opportunity to respond during the assessment. The partner may be indispensable to showing what this dancer can do.
 
 The performer reports experience and attempts regulation. The teacher can supply technique, observation and learning support. The partner contributes to the shared movement. An agent can compare the available observations or develop questions when it has the necessary evidence. A conclusion about what the dancer felt depends on the dancer’s account.
 
@@ -226,6 +231,8 @@ For a proposed change, state the bodily change the performer would try, its expe
 
 Use a suitable existing comparison when it answers the question. If a new attempt is needed, try a small, familiar change within the limits of the practice and compare the bodily report with the movement result. Separate observations or attempts can help when attending to everything at once would disrupt the action. Account for differences between attempts before attributing a result to the change.
 
+Observations distributed over attempts can identify a recurring relation when the relevant conditions are comparable and the link holds across them. To say that the lighter hold and uninterrupted contact occurred in this stroke, tie the evidence for both to this stroke. Contact on one attempt and a lighter hold on another still allow both attempts to have missed the combination.
+
 For comparison or feedback, describe the conditions, what was felt, what was deliberately changed, what could be repeated, any help received and what happened in the movement. A short spoken account or note can suffice. Distinguish felt intensity from the position or extent of the region if that affects the correction. Assess noticing, regulating and reproducing the change from their respective evidence.
 
 If bodily regulation appears available but the intended result still fails, check external conditions. If a different condition is permitted, compare it using suitable existing observations or an attempt. A restored result may justify using the alternative while the cause of the earlier failure remains open.
@@ -276,7 +283,7 @@ A performer and teacher can use the model to discuss and test a correction. The 
 
 ### SOM.1:10 - Architectural Rationale
 
-The movement gives the three accounts a common episode. The performer can describe how the change felt, an observer can describe contact or timing, and either may have evidence about what the performer deliberately changed. Those observations help relate the bodily contribution to the other work the action requires.
+To relate a report of experience, an attempted adjustment and an observed movement, establish which interval each concerns. The performer can describe how the change felt. A mark on paper or another person's observation can establish what happened to the stroke. When the records come from different attempts, explain which feature is stable enough for the inference the practitioner needs.
 
 ### SOM.1:11 - SoTA-Echoing
 
@@ -499,6 +506,8 @@ Detailed observation helps the performer build a coordination but takes attentio
 
 Identify the actions that must occur together in the chosen interval. Use SOM.1 if the relevant relation is unclear. A writer might need to guide the pen while maintaining contact. A dancer might need to balance, step and keep the relation to a partner.
 
+Start with what the recipient of the movement needs to continue doing. Which actions could each succeed on its own yet interfere when performed together? Follow that connection. A partner who must wait for the turn to finish may need its timing while the writer who receives a finished drawing may need only an unbroken line. Choose the detail that lets that particular recipient act or that lets the performer explain the requested coordination.
+
 A cue about the movement’s effect may already give the required action. Use it when it works, or try a suitable cue if its contribution is open. If it leaves the coordination unresolved, examine the uncertain parts in the conditions in which they must work together. Use SOM.2 for a missing distinction and SOM.3 for missing regulation. Success with each part under different conditions leaves their combination to be established.
 
 #### SOM.4:4.2 - Assemble from a workable portion
@@ -506,6 +515,8 @@ A cue about the movement’s effect may already give the required action. Use it
 Start with a combination the performer can carry out. Add a needed change and observe its effect on the actions already in the combination. Reduce irrelevant demands while preserving what needs to be learned. In writing, shorten the drawing if that helps, but keep the support transition when the failure occurs there.
 
 If checking every part during one movement interrupts it, distribute observations over comparable attempts. Attend to a bodily relation in one attempt and observe a concurrent contribution or movement result in another. Retain differences between attempts and identify any help received from an observer.
+
+Use these accounts to guide preparation. To accept a combined action in one attempt, an unbroken trace of the whole effect may suffice. To establish that a particular felt adjustment occurred during that same effect, also connect the performer's report to that attempt. Two otherwise comparable attempts could each contain only one of the required actions.
 
 When an added change disrupts the combination, locate the failure before adding another. Prepare the missing relation, adjust support within the practice’s limits or obtain a demonstration that makes the change available to investigate. Recall practice starts once the performer can produce a workable combination.
 
@@ -551,7 +562,7 @@ Recall may make a combined bodily action available while leaving more attention 
 
 ### SOM.4:10 - Architectural Rationale
 
-Construction makes a workable combination available. Recall lets the performer reproduce how it develops during movement. Judge each by the action it serves. The task determines which bodily changes belong together. Anatomical subdivisions and the levels of work in the encompassing activity answer different questions.
+Construction makes a workable combination available. Recall lets the performer reproduce how it develops during movement. Judge each by the action it serves. The task determines which bodily changes belong together. A body part belongs to the performer's body. A step can belong to this dancer's turn, and the turn can belong to a figure performed by a pair. The model can describe either a specific performance or a relation that holds in other performances where its conditions obtain.
 
 ### SOM.4:11 - SoTA-Echoing
 
@@ -596,6 +607,8 @@ Locate the relevant interval and identify the required movement result. Use SOM.
 
 Use existing observations where they cover the transition. If checking each part during one movement interrupts it, distribute observations across comparable attempts and identify any observer assistance. The evidence may suggest a relation worth testing before it establishes the cause of failure. If it supplies neither a supported finding nor a useful hypothesis, identify what is missing. Obtain a discriminating observation when the next task warrants it and it is feasible.
 
+If several trials are used, ask whether the proposed relation applies across those trials or whether the order calls for a finding about one particular transition. A shared time reference can connect the observations to that transition. When only the continuous mark is required, the mark itself may give a sufficient answer.
+
 #### SOM.5:4.2 - Preserve the transition in preparation
 
 When preparing the transition, choose a short movement that starts before the relevant change and ends after it. Reduce other demands while preserving the contact, support and concurrent actions that define the difficulty.
@@ -615,6 +628,8 @@ When joining successful portions, overlap them and examine the overlap in motion
 For a new adjustment that needs a cue, identify a change the performer can notice before the loss and use while acting. It might be a shift in support or an external relation in the task. Connect the cue with the response that worked in the successful portion.
 
 Use a suitable observation of the adjustment with its cue, or try them together when a new attempt is needed. Identify a teacher’s prompt or temporary marker as part of the support. To claim performance without it, use observations under that condition. If the cue or response is missing, identify which contribution the task still needs.
+
+A partner's changing cue can belong to the task. Keep it available when assessing the performer's ability to respond to it. Look for the cue the performer actually had and an action that distinguishes using it from following a memorized sequence. If the commission only calls for completing that sequence together, evidence of its completion can settle the decision.
 
 #### SOM.5:4.5 - Return to the required action
 

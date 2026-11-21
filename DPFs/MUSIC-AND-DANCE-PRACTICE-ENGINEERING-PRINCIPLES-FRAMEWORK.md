@@ -5,7 +5,7 @@
 > A domain pattern language for creating, performing, transmitting, and deliberately developing music and dance practices and the environments that sustain them.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version designation:** 7 October 2026. To cite the text used, see [MDPE.Sources:1](#mdpesources1---edition-return).
+- **Version designation:** 21 November 2026. To cite the text used, see [MDPE.Sources:1](#mdpesources1---edition-return).
 - **Status:** Eternal alpha: a published working framework, already used in analyses and worked applications, while continuing to evolve.
 - **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
 - **Publication:** [FPF Library repository](https://github.com/ailev/FPF)
@@ -234,7 +234,11 @@ practice. A musician may control an effector, produce an attack or sustained ton
 with an ensemble, enact a musical style, perform for a receiving situation, and contribute to a practice at the
 same time.
 
-The following views distinguish different relations in the same performance. Use those that affect the question. Other relations may also matter.
+Start with the action someone needs to take. A bandleader might have to arrange an entrance that leaves the singer’s last word audible and brings the band in together. Ask what could make the leader choose a different arrangement. Follow each possibility out to the people who must hear or act together and in to the sound, gesture or decision that could change their result. A person in the audience can hear the word clearly while a player on stage misses the cue. A clean recording of the band’s entrance can settle a question about its timing while leaving open what the players followed.
+
+Use the views below to decide how far to follow each connection. If the task is to design a way to cue the band, trace who may choose the cue, who can receive it, and when each player must prepare. If it is to explain yesterday’s entrance, trace the actions that actually made up that entrance and what the available records preserve about them. A school may have taught the cue, a genre may favour it, and the venue may supply a monitor. These relations alone establish neither membership in the band nor inclusion in its cueing method. A way of obtaining a cue can be part of the method even when the venue supplies the device that carries it.
+
+The following views distinguish relations that can affect the decision.
 
 - **Method composition.** Which smaller Methods or parts contribute to the larger Method, and how do they fit together?
 - **Method unfolding.** Which result or condition enables a later move?
@@ -288,6 +292,10 @@ conditions, intended result and any conditions that have to be protected togethe
 observation of a familiar pair, a recording judged by listeners and a teacher’s account of
 a lesson answer different questions. To rely on them for coordination in a social dance,
 establish how they bear on the participants and the conditions in which they will dance.
+
+For the bandleader’s entrance in §2, consider a short ending and one the singer can hold. Playing on the written beat might cover the held word. If the entry may move, one arrangement lets the leader hear the release, prepare the players and give them a shared downbeat. Trace the cue through the last player who needs it. A reliable upper bound on the time for each player to receive the preparation and be ready can establish that all will be ready before the downbeat. They must also be able to identify the same downbeat and enter together within the musical tolerance. Immediate individual responses to hearing the word end could leave the band staggered. From the listeners’ position, establish that the band’s attack leaves the word intelligible. The score, monitor check and audience sound check must concern compatible stage positions, cue routes and versions of the ending.
+
+If the entry is fixed, a held word may still be sounding on that beat. Reconsider the orchestration or dynamics if they can protect the word as well as the entry. Changing the agreed time needs the people authorized to change it. Stop when the remaining differences leave the required action and its musical result intact. An applicable rehearsal record or justified bounds on the timings can settle an arrangement within the conditions they cover. To say which cue the band used last night, use evidence from that performance that distinguishes following the leader from following a count.
 
 Check the shared resources over the period that matters. Account for preparation, coordination,
 performer effort, trials and observation where needed, and the support a later occurrence
@@ -372,7 +380,7 @@ A drummer can sweep a **drum brush** across the head in continuous contact and m
 
 In a partnered Balboa phrase, a foot can slide before it takes weight. The sound of contact, the dancer’s weight arrival and the moment the partner perceives the transfer can differ. A free-leg tap can add texture over the continuing supporting movement. If the partner treats the tap as the cue to move, it can obscure the transfer. Identify the perceived moment from evidence of the partner’s experience. A contact or pressure trace can locate contact or pressure. Its timing may coincide with the partner’s perceived transfer.
 
-To compare free-leg articulations, take a phrase the pair can perform and hold its intended transfer time and continuing movement fixed. For the question about partner readability, use the receiving partner’s account to establish whether they recognized the transfer. Examine the pair’s response for what they did and what it shows about their ability to continue into the next movement. Reuse a relevant comparison or arrange one if needed. MDPE.9:4.3 compares candidates, MDPE.11:4.5 addresses live changes and MDPE.10 addresses performance capability. Reassess the comparison when changed partners or music alter its conditions. The analogy motivates this investigation. A particular event order or a learning benefit needs its own evidence.
+To compare free-leg articulations, take a phrase the pair can perform and hold its intended transfer time and continuing movement fixed. For a question about the felt transfer, use evidence of the receiving partner’s experience. To decide whether they can use the cue in time, an agreed response that varies with the cue can suffice. Check that the partner had time to respond and that a shared count or an instruction could not equally explain the response being used as evidence. Reuse a relevant comparison or arrange one if needed. MDPE.9:4.3 compares candidates, MDPE.11:4.5 addresses live changes and MDPE.10 addresses performance capability. Reassess the comparison when changed partners or music alter its conditions. The analogy motivates this investigation. A particular event order or a learning benefit needs its own evidence.
 
 
 Sometimes the performer must maintain a pulse while placing chosen accents. The accent can disturb the pulse, and regular movement can displace an accent. [MDPE.11:4.5.2](#mdpe11452---one-coordinating-method-two-physical-realizations) develops drum-brush and Balboa realizations of the shared coordinating method in RHY.11:4.4.1. The performer keeps the shared timing and varies preparation, articulation or correction to reduce interference. [MDPE.10:4.6](#mdpe1046---learn-to-vary-accents-over-a-continuing-pulse) develops practice with changed accents and a different reference. Use the technique of each realization, and evidence of the corresponding performance for a claim about its outcome.
@@ -776,7 +784,7 @@ If the subject remains unclear, say which ambiguity prevents an answer. A record
 
 #### MDPE.8:2.2 - Identify the subject of the claim or change
 
-Choose the narrowest subject that still covers the question. Common subjects include the following.
+Choose the subject and the detail of its description together. Ask which difference could change the action or explanation the recipient needs. Enlarge the subject when the answer depends on another contribution, then follow that connection only as far as it can affect the answer. For the same subject, keep enough detail to distinguish possibilities that lead to different answers. The band entrance in MDPE.Reference:2 and :5 illustrates both choices. Common subjects include the following.
 
 - musical or movement material;
 - one performance occurrence or its production and presentation arrangement;
@@ -927,7 +935,7 @@ can answer what the project produced. Establishing a durable style requires evid
 | --- | --- | --- |
 | FPF E.10.ARCH, C.36.P, A.3.1, A.3.2, A.15.1, C.32.MWA and C.36 | Guidance for placing domain precision-restoration advice, recovering the subject of cultural wording, distinguishing methods, descriptions and work, comparing differently organized practice structures, and investigating cultural change. | Apply them to the music or dance work, participants and evidence relevant to the question. |
 | [Renata Peçanha interview, Zoukology](https://zoukology.com/renata-history/) | Peçanha’s account links music, partner experiments, movement, teaching, choreography, criticism and continuity in her own practice. | Claims about sole origin, effectiveness or recognition across the field require independent evidence of the wider claim. |
-| [Holly Herndon and Mat Dryhurst, *The Call*, Serpentine](https://www.serpentinegalleries.org/whats-on/holly-herndon-mat-dryhurst-the-call/) | The project record identifies the choir work, songbook, recordings, dataset, model, installation and proposed participation. | The exhibition and its artifacts can be documented directly. A claim about a general method needs evidence beyond this project. For later retention, establish the relevant practice in the population and period claimed. |
+| [Holly Herndon and Mat Dryhurst, *The Call*, Serpentine](https://www.serpentinegalleries.org/whats-on/holly-herndon-mat-dryhurst-the-call/) | The project record identifies the choir work, songbook, recordings, dataset, model, installation and proposed participation. | The exhibition record can establish what the project produced. A rule documented in one project can already settle every use within its terms. For example, a permission confined to one named installation cannot authorize use in any other installation. Its other terms determine which uses there are permitted. Use the actual terms for a claim about this project. To establish later adoption or retention, trace the practice in the population and period claimed. |
 | [Georgia Tech Shimon account](https://news.gatech.edu/news/2017/06/13/robot-uses-deep-learning-and-big-data-write-and-play-its-own-music) | Evidence of the robot’s contribution to bounded composition and performance. | Attribute later project choices to the agent that made them. Use evidence from the relevant population for a claim about cultural continuation. |
 | [Pavel Sobiray, Street Tango Concept](https://tangonuevo.ru/stc7eng) | The author’s proposed Street Tango Concept, exercises, teaching and participant reports document a bounded practice. | Use independent evidence for claims of superiority, sole origin or recognition across the field. For long-term retention, establish continued use during the period claimed. |
 
@@ -1452,8 +1460,7 @@ equipment and proposed participation. The produced works can be studied where th
 recurrence concerns the relations that let other participants perform or adapt the practice.
 
 A proposal could emphasize choir capability, model and dataset interaction, teaching for a receiving group, or exhibition circulation
-and memory. To assess recurrence, examine whether another suitably configured group can learn, adapt and perform the intended musical
-relations. Use an adequate existing observation or a warranted representative test. Recordings, publicity and a successful installation
+and memory. For another performance by the original choir, examine the people, musical relations and support that occasion requires. When another group is intended to take up the practice, establish whether it can learn or otherwise obtain and perform those relations with the support available to it. An adequate record or an argument covering the required conditions can suffice. Use a representative test where the decision still needs one. Recordings, publicity and a successful installation
 bear on the work produced and its presentation. For later recognition or retention, examine the relevant participants over time.
 
 #### MDPE.21:4.4 - One commissioned work
@@ -1779,7 +1786,7 @@ dynamic property defeats none of them.
 | Consequence of the distinction | A new-level label goes unexplained. | Identify the historical or project claim that depends on the whole and any work, measure, funding, maintenance or responsibility that the finding affects. |
 | Prior identity where the claim concerns a transition | Novelty obscures an existing subject, or a first recognition is dated as a formation. | With a grounded prior whole, test whether its identity rule accommodates the changes. For a first recognition, date the evidence of construction. Establish when the organization formed from evidence about its formation. |
 | Candidate identified under its kind | A label, diagram, archive or aggregate value is treated as establishing a whole. | Apply the six A.1 conditions to this candidate and the separate criterion for its admitted kind. |
-| Part–whole, scale, and coarse-graining stay distinct | A representation operation substitutes for world-side construction. | Use scale for the chosen description, coarse-graining for the model operation, and direct patterns for obtaining part–whole relations. |
+| Part–whole, scale, and coarse-graining stay distinct | A representation operation substitutes for world-side construction. | Identify the whole and the constituents relevant to the decision. For that subject, compare what a detailed and a coarser account each allow at the same question. Establish how the proposed whole was actually organized from evidence about its constituents and their relations. |
 | Music-and-Dance relations change the test | Generic emergence language hides the field problem. | Use suitable observations of repertoire, performance, teaching, embodied memory, recognition, selection, circulation or local production as the claim requires. |
 | Grounds for a claimed effect on local work | Influence is inferred from publicity or correlation alone. | Identify the relation and compare work under conditions that can distinguish its contribution from other changes. |
 | Continuity through the specified turnover | A single event or artifact is taken to establish a continuing organization. | Use its identity rule and evidence across the relevant turnover. State any remaining uncertainty about persistence and retain the other findings. |
@@ -2813,13 +2820,13 @@ In this constructed teaching example, first establish which comfortable supporti
 | Perform the actual overlap | Continue the familiar sweep while the other hand prepares, articulates and releases. | Continue the standing leg's support while the free foot prepares and articulates; include its return before the scheduled transfer. |
 | Identify a limitation, when present | Listen separately for the pulse and the required accent. Observe whether one hand mirrors an unintended movement of the other. | Observe support, timing and the free-foot event. Use the partner’s response or account, with the other available observations, to judge when the cue became usable. |
 | Change one controllable action and rejoin | Shorten an excessive accent stroke or begin its preparation earlier while the sweep continues. | Reduce a free-foot excursion that pulls the body into loading, or prepare its return earlier; keep the accent recognizable and the transfer on time. |
-| Expand the needed choice | Move the accent to another subdivision, then play a new short accent sequence without restarting the sweep. | Change the free-foot accent places within the feasible support interval; then include the taught support exchange and later accents by the newly free leg. |
+| Vary the required accent places | Move the accent to another subdivision, then play a new short accent sequence without restarting the sweep. | Change the free-foot accent places within the feasible support interval; then include the taught support exchange and later accents by the newly free leg. |
 
 In one example, request the midpoint accent, then a later subdivision while keeping the supporting period. A midpoint accent on the second request misses the requested place. A correct later accent followed by a longer pulse misses the timing condition. If teaching is commissioned, demonstrate a revised preparation and try the joint passage. Give advance notice suited to the preparation time. A finding about the existing attempt can stand on its own.
 
 Select further practice from the intended work. The relevant variation may concern a sequence, intensity, tempo, phrase, allocation or partner. Start under conditions suitable for detecting a change, then vary the demand that matters. [RHY.12:4.2.1](https://github.com/ailev/FPF/blob/main/DPFs/EMBODIED-RHYTHMICS-PRINCIPLES-FRAMEWORK.md#rhy12421---derive-practice-from-the-pulse-and-accent-construction) develops the shared pulse-and-accent exercise and its feedback.
 
-When performance without a teacher’s count is required, withhold that extra cue in the transfer check. Feedback can follow the phrase. Keep the music, partner contact or accompaniment that belongs to the intended performance and will be available there. A new accent sequence can test choice, a tempo or reference change can test synchronization, and a later performance can support a retention claim. Use relevant existing or new observations of the accent, pulse and protected conditions together.
+When performance without a teacher’s count is required, withhold that extra cue in the transfer check. Feedback can follow the phrase. Keep the music, partner contact or accompaniment that belongs to the intended performance and will be available there. Playing a requested sequence in new places can show accurate placement while the pulse continues. The performer can still choose the preparation or stroke if the instruction leaves it open. To assess selection of accent places, give the performer a musical purpose, such as bringing out the close of a phrase while leaving the next player’s entrance clear. Leave the positions to the performer and listen to the complete exchange. A suitable earlier arrangement in which the performer made that choice can supply the evidence. A tempo or reference change can test synchronization. Relevant earlier and later performances can support a retention claim.
 
 The result can support using a phrase in the studied range, identify an unavailable accent phase or support exchange, or show which technique needs attention. When a new decision about using the phrase is needed, it belongs to whoever holds that authority. An existing applicable decision can already authorize its use. For another activity, identify its continuing action, articulation, means and feedback. Structural similarity can justify a proposed teaching construction. Evidence from representative performance is needed to establish actual transfer.
 
@@ -3241,7 +3248,7 @@ For a proposed performance, use the pair’s established joint capabilities or s
 
 #### MDPE.26:4.2 - Examine the shared passage and its constraints
 
-Examine a suitable observation of the passage or arrange a comfortable attempt when the remaining question warrants one. Identify where both partners continued or where the required relation became unavailable. For a claim about what someone felt, detected or intended, use evidence of that participant’s experience. Visible foot placement can establish a different part of the account. When the cause matters and remains uncertain, use a comparison that can distinguish the explanations if it is attainable and worth its cost. Otherwise state the limit of the evidence.
+Examine a suitable observation of the passage or arrange a comfortable attempt when the remaining question warrants one. Identify where both partners continued or where the required relation became unavailable. For a claim about what someone felt or intended, use evidence of their experience. To decide whether a partner could use a cue in time, look for a response that depended on it while the choice was still open. Foot placement can establish the movement and its timing. A common count can explain two simultaneous steps even when neither dancer followed the other. When the cause matters and remains uncertain, use a comparison that can distinguish the explanations if it is attainable and worth its cost. Otherwise state the limit of the evidence.
 
 | Observation | A comparison that could distinguish the difficulty | What the result can change |
 | --- | --- | --- |
@@ -3616,7 +3623,7 @@ Both constructions prepare and articulate a chosen event within continuing suppo
 
 ##### MDPE.11:4.5.3 - Keep freedom when the passage changes
 
-Change the accent from the midpoint of an interval to a later subdivision, then use a new short sequence of accent places. Keep the selected pulse and required accent character. A performer who can only repeat the first joint pattern still has a useful pattern, but not the range this new passage needs. If the musical reference changes tempo, locate the continuing pulse and accents against the new intervals. Move any old absolute event time that no longer meets its required musical position.
+Change the accent from the midpoint of an interval to a later subdivision, then use a new short sequence of accent places. Keep the selected pulse and required accent character. A performer who can repeat the first joint pattern has that pattern available. Following a new sequence can show that the player can vary the placement and may show a choice of preparation. To assess composition of the accents, entrust the player with their positions and judge the resulting phrase against its musical purpose. If the musical reference changes tempo, locate the continuing pulse and accents against the new intervals. Move any old absolute event time that no longer meets its required musical position.
 
 When the choices cannot yet be performed and the task calls for developing them, [MDPE.10:4.6](#mdpe1046---learn-to-vary-accents-over-a-continuing-pulse) develops the needed capability from this construction. During an occurrence, use an already available variant within the agreed material. Omitting an optional tap, as in :4.5.1, can solve that occurrence's problem; a phrase that requires the tap still needs a means of performing it.
 
@@ -4507,7 +4514,7 @@ conditions. Reconsider
 the choice if the contrast fails with other partners or the audio–weight relation changes at
 another tempo. Long-term learning and recognition of a style require evidence for those claims.
 
-For variable-accent coordination in MDPE.11:4.5.2, identify the selected support events and requested accents, then locate the actual supports and accents against the same reference. Include the support following each accent. A recorded pulse can supply that reference. To establish regularity of the learner’s support, examine the events they produced. Sound can locate a free-foot accent, while visible loading and a receiving partner’s response can inform an assessment of weight arrival and continuation. Compare a changed accent sequence when the claim concerns variation beyond the practised figure. An existing receiving performance may provide the needed evidence for MDPE.10:4.6.
+For variable-accent coordination in MDPE.11:4.5.2, identify the selected support events and requested accents, then locate the actual supports and accents against the same reference. Include the support following each accent. A recorded pulse can supply that reference. To establish regularity of the learner’s support, examine the events they produced. Sound can locate a free-foot accent, while visible loading and a receiving partner’s response can inform an assessment of weight arrival and continuation. Compare a changed accent sequence when the claim concerns variation beyond the practised figure. If the question is who chose the accent places, establish what was already scored and which positions the performer chose. An existing receiving performance may provide the needed evidence for MDPE.10:4.6.
 
 #### MDPE.12:4.2 - Direct Dance-observation Methods
 
@@ -5747,8 +5754,8 @@ the observation leaves the grounds of the decision intact, the existing decision
 
 #### MDPE.17:4.1 - A partner-Dance transmission trial
 
-In this constructed example, a Tarraxo teacher must decide whether dancers `P` and `Q` can use a taught
-partner-coordination Method in the next supervised social practice without continuous teacher cues. The receiving
+In this constructed example, a Tarraxo teacher must decide whether to admit dancers `P` and `Q` together as a pair to the next supervised social practice. They must be able to use the taught
+partner-coordination Method together without continuous teacher cues. The receiving
 use requires weight transfer, timing, partner-readable invitation and response, musical adaptation, and recovery
 after an interrupted connection. Variation in the visible phrase is acceptable if those relations hold.
 
@@ -5771,19 +5778,11 @@ partner trials until the interruption in the `Q`–`S` dance. After that pause, 
 instead of first re-establishing partner information; `S` stops the attempt. Seven days later, the original `P`–`Q`
 pair again performs Work that enacts the Method without reteaching under the changed-music condition.
 
-These observations support the taught timing, weight transfer and partner dialogue with changed music or
-experienced partners until the pause in the `Q`–`S` dance. The receiving variant permits a different visible
-phrase. Seven-day retention is supported for `P` and `Q` together under the changed-music condition. `Q` did not
-recover the interrupted connection with `S` on that trial. The trials leave use with novice partners, a
-wider tempo range and unsupervised parties open. The class used the named sources and instruction. These
-observations do not distinguish their causal effect from the dancers’ previous ability or other practice.
+The record supports timing, weight transfer and partner dialogue in the observed dances up to the pause in the `Q`–`S` dance. The receiving variant permits a different visible phrase. Seven days later `P` and `Q` retained the coordination they demonstrated together with changed music. Only `Q` with `S` encountered the interrupted connection, and their recovery failed on that attempt. Recovery by `P`, and by `P` and `Q` together, remains open. Since recovery is required for admission to the proposed practice, the teacher withholds that admission. The earlier results can support a narrower, separately authorized practice limited to the coordination already demonstrated.
 
-The teacher chooses an exercise in stopping, sensing the partner again and rebuilding the invitation
-before restarting. The teacher plans another trial of the interrupted connection for `Q` with two
-changed partners to find out whether the new exercise helps recovery. Reconsider reliance
-on the earlier result if the trial shows another failure or success relevant to that use, the
-setting demands a wider partner or music range, or later evidence changes a transfer or retention
-limit. The positive observations from the earlier dances still apply within their conditions.
+The trials also leave use with novice partners, a wider tempo range and unsupervised parties open. The class used the named sources and instruction. A claim about their contribution to learning would require grounds that distinguish it from the dancers’ previous ability and other practice.
+
+The teacher chooses an exercise in stopping, sensing the partner again and rebuilding the invitation before restarting. A trial with two changed partners can show whether `Q` recovers under those conditions. For admission of the original pair, use evidence bearing on their recovery together. A later improvement can support a new admission decision even when the exercise’s contribution is still uncertain. Retain the observations from the earlier dances for the conditions they covered.
 
 #### MDPE.17:4.2 - Music: distinguish receiving performer Work from event-organizer Work
 
@@ -6755,12 +6754,10 @@ partners. The project compares another workshop, a new guided practice, and a su
 inside an existing social event. It chooses the block in the existing event because the hosts can arrange the music, floor, on-site hosting, admission
 and experienced partners without creating another venue.
 
-The host and DJ carry out the authorized event change. The advertised block runs with suitable music and a usable floor. The host and varied
-partners are present. Seven learners complete short dances with experienced partners, but no pair of learners sustains the intended response without
-cues. The teacher repeatedly restores timing on the floor, and experienced dancers do more supporting work than planned. Attendance increases.
+The host and DJ carry out the authorized event change. The advertised block runs with suitable music, a usable floor and the named host. Seven learners complete short dances with experienced partners. During the rotation, learner–learner pairs also try an uncued restart. Each observed pair has time to respond before the teacher intervenes. In those attempts the pair loses the response and the teacher restores timing. Experienced partners do more supporting work than planned. Attendance increases.
 
-The organizers can report that the event provided the intended opportunity and that the learner pairs did not meet the
-performance criterion. The teacher and experienced partners supplied extra help. The project did not test the causal
+The organizers can report that the event provided the intended opportunity and that the learner pairs observed in the uncued restart did not meet the
+performance criterion. If the learners had danced only with experienced partners, their work together as learner pairs would still be untested. The teacher and experienced partners supplied extra help. The project did not test the causal
 contribution of the event. Here the project can reserve the teacher and partners for one more protected trial. It chooses that trial because successful uncued partner response with the revised teaching and rotation would support keeping that combination. It adds uncued partner recovery to the
 teaching method and introduces a guided partner rotation. If learner pairs still cannot perform representative work, the
 project will stop treating event availability as a sufficient remedy. It may investigate the capability or teaching method if the remaining question warrants that work.
@@ -7175,9 +7172,9 @@ An account can identify the conflict or establish a past response. For a recomme
 | **deliberately preserved tension** | Keep the arrangement when the tension is useful or the feasible changes impose a greater burden. State the operating limits and what would warrant reconsidering this choice. |
 | **split use** | Choose different variants or arrangements for uses that have different requirements. |
 | **next discriminating observation** | Choose an obtainable observation that could improve the grounds for the choice enough to warrant its burden, or that satisfies an applicable requirement. Name its subject, conditions, expected differences, full burden and stopping condition. |
-| **reject current set** | Stop the proposed use when no current response, including retaining the arrangement or splitting uses, meets its required conditions and no worthwhile obtainable observation could establish that any response qualifies. Name the failed condition and preserve independently supported uses. |
+| **reject current set** | Decline the proposed use if every available response fails a binding condition. Include keeping the arrangement and splitting its uses among the options. If the decision requires permission or confirmation by a deadline and none of the responses can obtain it in time, withhold the use for that occasion. Identify the missing ground and preserve independently supported uses. |
 
-For example, every available floor arrangement may breach a binding consent, permission or equipment limit. If no separate setting is available and no worthwhile obtainable observation could establish that an option meets the required conditions, reject this set for the proposed use. Name the missing provision if developing an alternative is part of the brief. When the evidence leaves an option’s status open, report that uncertainty separately from a finding that every option fails.
+For example, the venue may require permission from a named holder before tonight’s performance. If it has not been granted and the holder cannot grant it before the deadline, the organizer can decline every version that needs it. The dancers’ physical ability to perform those versions may remain unknown. A version already covered by another permission can still be considered if it meets the other requirements. Where no such deadline or mandatory confirmation decides the matter, distinguish an option with uncertain status from one known to fail.
 
 Identify the authority and permission for the chosen action. If implementation is commissioned, a capable provider carries it out through
 the required music, dance, engineering, teaching, event, safety, judging, platform or production
@@ -7233,10 +7230,7 @@ The pair compares three alternatives:
 - redistribute rotation and add earlier partner-readable weight-transfer cues; and
 - keep the larger phrase for staged or low-density use and a compact variant for the social floor.
 
-In the constructed trial the second variant preserved rhythmic order and the partner anticipated the turn more successfully, but the
-variation still took too much space near the floor edge. The pair therefore chooses the compact variant for dense floors and the
-larger one for the stage or a low-density setting. The participants accept lower visibility from a distant camera. Safety and a
-partner’s right to decline remain binding. Reconsider the choice if floor density, partners, music or use changes its grounds.
+In the constructed trial, the second variant preserved rhythmic order and the partner anticipated the turn more successfully. Its path still extended beyond the space available near the floor edge. This rules out that variant there. At the working density the same pair had already danced the compact phrase within the available space, kept the transfer readable and continued on time. For the larger phrase, their stage rehearsal established its complete path and timing with the partner in the space reserved for it. They choose the compact phrase on this social floor and the larger one on that stage. A low-density occasion can use the larger version when the actual clearance and partner conditions also suffice. The participants accept lower visibility from a distant camera. Safety and a partner’s right to decline remain binding. Reconsider the choice if floor density, partners, music or use changes its grounds.
 
 For a later event with compatible floor, partner, music and use conditions, suppose existing representative
 observations already support the compact variant and the split. The pair selects that variant from the current
@@ -7325,10 +7319,10 @@ The schedule is a shared resource relation, while the contest's entry rule and c
 | Arrangement | Receiving result and accepted cost |
 | --- | --- |
 | Keep 90 minutes of class, 90 of contest and 60 of open floor | Preserves the familiar class and challenge. The main floor falls 90 minutes short of the agreed 150 open minutes. |
-| Keep the 90-minute class and cancel the contest, leaving 150 minutes open | Meets the time promise with existing staff, at the cost of the challenge and its recognition. It remains feasible if the second teacher or side room is unavailable. |
+| Keep the 90-minute class and cancel the contest, leaving 150 minutes open | Delivers the floor time with the available staff. To meet the whole promise, establish that the class or another staffed activity supplies the required challenge. Otherwise, dropping the challenge needs an authorized change to what participants were offered. |
 | Use 30 minutes for an optional clinic, 60 for an improvisational challenge and 150 for open participation. Teach a 90-minute advanced class in the side studio. | Meets the main-floor promise and preserves two kinds of challenge. The schedule requires two paid teachers together. Total paid teaching contact rises from 90 to 120 minutes, counting the 30-minute clinic and the 90-minute advanced class. Contest entrants cannot attend the full simultaneous advanced class. Ren must explain and administer the changed challenge, and both programmes need preparation. |
 
-The team chooses the third arrangement because the room, providers and paid preparation are available, and participants value preserving the challenge enough to accept the overlap. For this evening the improvisational challenge replaces the prepared-sequence contest. Past contest results retain their original scope. The new challenge uses both timely recovery after a partner’s pause and that partner’s report of comfortable continuation. A disagreement between those indications remains unresolved. Success supports that particular judgement. Overall mastery or permission to teach requires separate grounds.
+The team chooses the third arrangement because the room, providers and paid preparation are available, and participants value preserving the challenge enough to accept the overlap. For this evening the improvisational challenge replaces the prepared-sequence contest. Past contest results retain their original scope. The new challenge uses both timely recovery after a partner’s pause and that partner’s report of comfortable continuation. A timely return with an uncomfortable continuation fails the two-part criterion, as does a late return that felt comfortable. A timely return with no partner report leaves the comfort condition open and the award unconfirmed. For an entry eligible under the rules in force, passing both supports that award. Overall mastery or permission to teach requires separate grounds.
 
 In the constructed continuation most experienced participants stay with familiar partners after class. Staying with familiar partners can support demanding practice and may leave some newcomers without the contact the event hoped to provide. Mara preserves choice of partners and the advanced class, and arranges two optional five-minute welcoming opportunities with willing hosts. The ten minutes of the hosts’ time and the interruptions have real costs. Experienced dancers have no general teaching duty. If a class performance fails with a changed partner, examine that receiving task before deciding whether different instruction is needed.
 
@@ -7372,7 +7366,7 @@ Assure the result by checking that:
 | “The camera shows the whole conflict.” | State the represented subject, preserved and hidden distinctions, and receiving use. |
 | “The judging categories are explicit, so agreement and cultural fit will improve.” | Compare available evidence about judge agreement by criterion. For cultural fit, consider the relevant practitioners, format, improvisation and continuation. A proposed test is appropriate when a feasible comparison could resolve a material question at a justified cost or an applicable obligation requires it. |
 | “The platform spread the clip, so it transmitted the Dance.” | Separate discovery, attribution, lesson structure, receiving enactment, transfer, and later continuation. |
-| “We generated options, so the problem is solved.” | For a choice, compare the available options. Select a supported response, reject the set for the proposed use when every available option, including retention or split use, fails its requirements and no worthwhile obtainable observation could rescue one, or choose a worthwhile observation that the available evidence cannot supply. |
+| “We generated options, so the problem is solved.” | Compare the options, including retention and split use. Select a supported response. Decline the current use when each option fails a binding condition, including when required confirmation cannot be obtained in time. If the evidence leaves a consequential question open, consider an obtainable observation that could affect the decision. |
 | “The best weighted score wins.” | Preserve vetoes, incomparability, uncertainty, and non-compensable harms. |
 | “The trial worked, so the culture improved.” | Keep local observation separate from later recognition, selection, transmission, and retention. |
 
@@ -7583,7 +7577,7 @@ Keep a way for practitioners to bring forward an otherwise excluded variant. Whe
 - the condition described the predecessor too narrowly and should change;
 - the variant serves a different valuable use and should remain a separate branch.
 
-Try the receiving use when the available evidence leaves an important difference unresolved and a feasible trial could resolve it at a justified cost. A spectator, partner and teacher may observe different parts of the response. If their accounts must be combined, explain how the decision uses each observation and handles disagreement.
+Try the receiving use when the available evidence leaves an important difference unresolved and a feasible trial could resolve it at a justified cost. A spectator, partner and teacher may observe different parts of the response. If their accounts must be combined, use the rule for the particular award. Where two features are required, a confirmed failure of either settles the attempt. If one passes and the other is unknown, the award is still unconfirmed. Conflicting accounts of a single feature can require clarification.
 
 When revising a canon, retain the historical account of the repertoire, its contributors and the achievements the old criteria recognized. Identify the event or practice covered by the new rule. Wider adoption requires evidence at that scope.
 
@@ -7611,9 +7605,9 @@ Mara wants at least 150 minutes on the shared social floor and a feasible challe
 
 Mara first suggests a longer beginner course. Following one newcomer, she finds that the person can already perform the entry exercise. The main floor is unavailable for much of the evening, and the familiar partner supplies cues in class that are missing later. A longer course on the main floor would take more time from social dancing.
 
-The group compares three arrangements. The current schedule preserves the contest and misses the social-time promise. Cancelling the contest frees time and removes a valued challenge and source of recognition. For the selected trial, the main floor has a 30-minute optional clinic, a 60-minute contest and 150 minutes of open social dancing, or 240 minutes in all. The staffed 90-minute advanced class runs in the side studio alongside the clinic and contest. Participants choosing the contest cannot attend the entire advanced class. The announcement states these choices.
+The group compares three arrangements. The current schedule preserves the contest and misses the social-time promise. Cancelling the contest frees time and removes the challenge and recognition it supplied. To meet the original brief, another feasible activity must supply the promised challenge. Otherwise the narrower programme needs the agreement required to change the offer. For the selected trial, the main floor has a 30-minute optional clinic, a 60-minute contest and 150 minutes of open social dancing, or 240 minutes in all. The staffed 90-minute advanced class runs in the side studio alongside the clinic and contest. Participants choosing the contest cannot attend the entire advanced class. The announcement states these choices.
 
-A second connection still fails. The contest originally rewards a fixed prepared sequence, while the event promise concerns responsive partnering. Ren explains that this trial evening replaces the fixed-sequence contest with an optional improvisational challenge. The earlier contest results retain their meaning for prepared performance; running that contest on another occasion would require its own timetable and resources. The trial initially retains an inherited entry rule: a submitted variation must include a large visible change, which the organizers expect to make judging possible. Within that entry condition, the task asks performers to sustain a phrase, respond to a partner's pause and resume together with music selected for the event. The observer watches timing and recovery; the partner reports whether the response permitted comfortable continuation. For this trial task, a successful response requires both a timely resumption observed in the phrase and the partner's report of comfortable continuation. A disagreement leaves that episode unresolved and may warrant closer observation if that observation could settle a remaining decision at a justified cost. The challenge recognizes this bounded achievement without ranking overall mastery or granting a general licence to teach.
+A second connection still fails. The contest originally rewards a fixed prepared sequence, while the event promise concerns responsive partnering. Ren explains that this trial evening replaces the fixed-sequence contest with an optional improvisational challenge. The earlier contest results retain their meaning for prepared performance; running that contest on another occasion would require its own timetable and resources. The trial initially retains an inherited entry rule: a submitted variation must include a large visible change, which the organizers expect to make judging possible. Within that entry condition, the task asks performers to sustain a phrase, respond to a partner's pause and resume together with music selected for the event. The observer watches timing and recovery; the partner reports whether the response permitted comfortable continuation. For this trial task, a successful response requires both a timely resumption observed in the phrase and the partner's report of comfortable continuation. A late resumption fails this task even if the partner felt comfortable. A timely resumption also fails if the partner reports discomfort. If timing passes and the required account is missing, defer the award. Conflicting reports about the same feature can leave that feature unresolved. Seek clarification when it can change the judgement and is worth the cost. The challenge recognizes this bounded achievement without ranking overall mastery or granting a general licence to teach.
 
 Sol demonstrates a short phrase with a visible pause, asks the learner to identify the cue and varies its timing. The learner tries a counted cue, then a partner's cue in the phrase. A count can remain where the event permits one. If the claim is performance without it, use a representative unassisted attempt. If a difficulty needs attention, examine the relevant cue, timing, explanation or surroundings. Change the exercise when the evidence supports doing so.
 
@@ -7625,7 +7619,7 @@ The group keeps the open period. Sol has the learners practise the response with
 
 Now a participant introduces a very small pause-and-response variant. From the back of the room it looks unimpressive, but partners report that it improves their ability to rejoin after an unexpected pause. The inherited entry rule excludes the variant because its visible change is too small. The group asks what that criterion was for. For a stage spectacle it can remain useful. For responsive social partnering it excludes part of the promised result. Ren removes the local challenge's large-change entry condition and changes the observation position so smaller responses can be seen. He retains the two-part recovery criterion, preserves what the earlier stage-display result established, and keeps both examples with their uses and contributors. The changed criterion itself becomes open to later contrary examples.
 
-Now suppose the side studio becomes unavailable. The advanced class cannot occupy the main floor at the same time as the clinic and contest there. The group compares a separately funded occasion, an alternating programme and a smaller single-room event. If another occasion is unaffordable, it can alternate social and competition evenings with distinct promises and prices, keeping a small clinic where it fits. Participants can no longer attend the two offerings on the same evening. The clinic task and the distinction between contest achievement and social skill still apply.
+Now suppose the side studio becomes unavailable. The advanced class cannot occupy the main floor at the same time as the clinic and contest there. The group compares a separately funded occasion, an alternating programme and a smaller single-room event. If another occasion is unaffordable, Mara can offer alternating social and competition evenings with distinct promises and prices, keeping a small clinic where it fits. If people already hold a booking for both on one evening, agree any required change with those entitled to that booking. Participants can no longer attend the two offerings on the same evening. The clinic task and the distinction between contest achievement and social skill still apply.
 
 In this case the group changed the timetable, instruction, award, provision and entry criterion to serve the social evening. Restoring floor time solved one problem. The other changes addressed learners’ use of cues, opportunities to meet partners and the meaning of the award. The trial showed which activities and responses occurred together.
 
@@ -7683,7 +7677,7 @@ Combine activities when they can meet the intended requirements together and the
 
 Use the intended occasion to discover how the contributions affect one another. Teaching can change what performers can do, awards can change what they practise, and the timetable can make a room available for them to use what they learned. For a design, check how the contributions would fit at that occasion. For a past event, use evidence of the connections and results in question.
 
-Use an adequate teaching or support repair directly when it supplies what is missing. When several changes depend on each other, establish joint feasibility. In Mara's case cancellation is a serious alternative if the staffed rooms cannot support both activities. Her choice depends on her event's purposes, staffing, space and cost.
+Use an adequate teaching or support repair directly when it supplies what is missing. When several changes depend on each other, establish joint feasibility. In Mara's case cancellation can preserve the open-floor time. Keeping the original promise also requires a feasible challenge. If the rooms or staff cannot supply one, consider another supported arrangement or seek agreement to change the offer. Her choice depends on her event's purposes, staffing, space and cost.
 
 A group that controls a local selection rule can change it and observe the consequences. That authority does not extend automatically to other events or to a cultural population. Keeping this boundary lets a useful local change finish while a broader historical or continuation question remains open.
 
@@ -7695,7 +7689,7 @@ Jiménez Sedano's 2019 ethnography describes changes to movement through classro
 
 Lisbon Westie Fest's published rules describe random partners, partner changes in preliminary and semi-final rounds, DJ-selected music and teamwork among the criteria. They provide a concrete alternative to a prepared stage display. The effects on participation, longer practice and incentives require evidence of what people did. [Organizer's competition rules](https://lisbonwestiefest.com/competition-rules/).
 
-When responsive partnering is the goal, consider an improvised interaction task or retain an established format that already serves it. Mara's challenge uses timing and a partner's account of comfortable continuation. If they disagree, the result remains open. For the local use, establish whether the existing timetable, access, teaching and award already serve it. Revise those that do not when a change is commissioned.
+When responsive partnering is the goal, consider an improvised interaction task or retain an established format that already serves it. Mara's challenge uses timing and a partner's account of comfortable continuation. For an entry eligible under the rules in force that evening, award the challenge when both performance criteria pass. A confirmed failure of either settles that attempt. Missing evidence leaves the award unconfirmed unless a failure already settles it. For the local use, establish whether the existing timetable, access, teaching and award already serve it. Revise those that do not when a change is commissioned.
 
 The studies identify historical connections, the rules specify a contest format and the constructed cases show how to compare locally feasible changes. Claims about which arrangement works better need grounds from the relevant practice. Reconsider a choice when new evidence, an attainable alternative or a changed purpose affects those grounds.
 
@@ -8377,7 +8371,7 @@ dancer needs evidence relevant to their aims, abilities and intended use. Keep p
 
 In the [shared-practice case](#mdpe2551---a-complete-constructed-case-the-evening-that-became-a-qualification-course), two participants can already use a compact pause-and-response phrase together on the social floor. Ren's prepared-performance contest excluded it under the large-visible-change rule. The participants also know a larger display phrase. Keeping both preserves a usable response and an achievement valued for display under different conditions.
 
-When the local challenge changes to responsive partnering, the performers try to insert the compact pause and recovery into the larger phrase. Sol devotes twenty minutes of the staffed advanced lesson to the transition, displacing another figure. At first the visible sequence obscures the partner's pause. The pair shorten the approach, resume in time and report comfortable continuation. This establishes the combined phrase for this pair and task. Combining the component skills with a different partner remains a separate question.
+When the local challenge changes to responsive partnering, the performers try to insert the compact pause and recovery into the larger phrase. Jules, who teaches the advanced class, agrees to devote twenty minutes of that lesson to the transition, displacing another figure. At first the visible sequence obscures the partner's pause. The pair shorten the approach, resume in time and report comfortable continuation. This establishes the combined phrase for this pair and task. Combining the component skills with a different partner remains a separate question.
 
 The group retains the compact social response, prepared display and tested combination. Ren removes the large-change entry rule and observes from a position where the smaller response is visible. The earlier contest result remains evidence about display. The compact phrase contributed responsiveness, and the larger phrase a challenge its performers still valued.
 
@@ -8742,7 +8736,7 @@ Compare two explanations before committing the programme. In a **fixed-preferenc
 
 The two explanations imply different longer-term programmes. Both support keeping the social task, explaining what its challenge recognizes, preserving the prepared display for its audience and deferring a season-long investment based on an assumed change in taste. Sol can use the existing clinic, and Ren the allocated briefing. Attendees remain free to value the display or decline instructional work.
 
-Suppose the same observers first reject the compact variation under the large-change rule. After a demonstration, they view the recovery close up, hear partners' reports of comfort and consider it under revised criteria. Some still prefer the larger display. They now recognize the small recovery and admit the variant. Ren can reject an account predicting that their recognition and selection would both stay unchanged. The observations establish that some still preferred the larger display. They leave the stability and distribution of preferences open. Because teaching, viewing position, criteria and invitation changed together, this comparison does not isolate their contributions. The local result supports keeping both opportunities. Persistence across a population needs later evidence.
+Suppose the same observers first reject the compact variation under the large-change rule. After a demonstration, they view the recovery close up, hear partners' reports of comfort and consider it under revised criteria. Some still prefer the larger display. They identify the small recovery and admit the variant. The admission establishes a change in selection. Rejection under the old size rule leaves open whether they could already distinguish the recovery. A claim that their recognition changed needs evidence of that earlier discrimination. The changed selection suffices to rule out an account that predicts both recognition and selection would stay unchanged. The observations establish that some still preferred the larger display. They leave the stability and distribution of preferences open. Because teaching, viewing position, criteria and invitation changed together, this comparison does not isolate their contributions. The local result supports keeping both opportunities. Persistence across a population needs later evidence.
 
 If observers recognize the compact response but performers cannot reproduce it with their partners, further publicity will not supply the missing skill. Keep the finding about recognition and use an appropriate practice task if development is wanted. If the observers still prefer display, two occasions may remain valuable. If an expensive expansion depends on identifying the mechanism, specify the competing accounts, their differing predictions and an attainable comparison. Use the existing programme decision when it is sound under both accounts.
 
@@ -8999,7 +8993,7 @@ Use `A.19.CPM` for a needed formal comparison. Preserve binding constraints, tie
 Use or recover the `ChoiceRule` for the particular comparison. Under `C.11` it can support four results.
 
 - **Choose now.** Select one feasible option or the permitted set of tied options when further inquiry would not justify its cost.
-- **Reject the current set.** No option meets the requirements. Identify a different question if further work is wanted.
+- **Reject the current set.** Each available option fails at least one binding requirement for the occasion. A required permission or confirmation that cannot be obtained in time can settle this decision while playability remains open. Identify a different question if further work is wanted.
 - **Probe again.** A feasible observation could identify a different preferred option, establish which options meet the requirements or affect whether to reject the set. Its attainable contribution justifies the full burden.
 - **Another question is current.** Identify what must be resolved, such as generating candidates, planning, performing the work or establishing cultural continuation, and the method suited to that question.
 
@@ -9068,7 +9062,7 @@ A practitioner can explain which options mattered, how they were compared, what 
 
 Suppose a score was revised to restore an antiphonal response. Suppose also that a rehearsal of the revision, assessed as in `MDPE.15`, supports improved clarity while one articulation judgement remains uncertain. The production team has authority for this choice. Ensemble performers may supply observations or recommendations.
 
-The team can present under the tested conditions, rehearse with the intended room and singer, revise articulation first, or retain the acoustic branch while suspending the electronic one. It can reject the set for this concert if every option fails a necessary condition. Choose another rehearsal when it is feasible, its result could change the assessment of safety or musical plausibility and the expected benefit justifies performer time, cost, delay and displaced work. Otherwise use the supported option or report the outstanding limit.
+The team can present under the tested conditions, rehearse with the intended room and singer, revise articulation first, or retain the acoustic branch while suspending the electronic one. It can reject the set for this concert if every option fails a necessary condition, for example when the venue requires confirmation by a deadline that none can meet. Technical suitability can still be open. Choose another rehearsal when it is feasible, its result could change the assessment of safety or musical plausibility and the expected benefit justifies performer time, cost, delay and displaced work. Otherwise use the supported option or report the outstanding limit.
 
 The rehearsal needs its own available time, venue permission and any required plan. Use existing arrangements where they cover the work.
 
@@ -9345,7 +9339,7 @@ For a teaching attempt, ask which phase has N greater than body weight. For a qu
 
 In the last phase, keep the same center-of-mass trace and add an upward handrail force R. Then N + R − mg = ma_y. With R = 30 N the upward plate force is 582 N, below body weight, and acceleration is still upward. This separates the plate force from the net force on the person. Here the stipulated center-of-mass trace already gives the acceleration. In an observed movement with an unknown rail force, the plate alone leaves acceleration undetermined. A suitable record of the motion, or measured plate and rail forces, can provide a numerical estimate. Removing the rail would change the support arrangement under study.
 
-The force calculation predicts the values in the model. To assess the lesson, examine how learners responded. To develop balance or movement technique, use a suitable task supplied by a competent teacher, somatic contrasts and feedback on the person’s practice. Check physical understanding, bodily regulation and performed action against the result in question.
+The force calculation predicts the values in the stipulated model. To assess a learner’s choice of model, give them a different support arrangement and the physical question before supplying the diagram or equation. Use their choice of system and contacts, and their reason for keeping them, as evidence about that work. The table above can support a task that asks learners to apply an already specified model. To develop balance or movement technique, use a suitable task supplied by a competent teacher, somatic contrasts and feedback on the person’s practice. Check physical understanding, bodily regulation and performed action against the result in question.
 
 
 
@@ -9425,7 +9419,7 @@ Use [MDPE.30](#mdpe30---construct-a-rhythmic-part-from-a-seed-phase-and-action-r
 
 ### MDPE.Application:4.2 - Turn the onsets into actual hand and sound parts
 
-[MDPE.30:5.2](#mdpe3052---turn-the-onsets-into-actual-hand-and-sound-parts) prescribes alternating hands on audible attacks across the boundary. Three attacks per eight pulses switch the starting hand at the next cycle. The two-cycle timbral exchange can be compared with a single-sound part on the same onsets.
+[MDPE.30:5.2](#mdpe3052---turn-the-onsets-into-actual-hand-and-sound-parts) prescribes alternating hands on audible attacks across the boundary. Three attacks per eight pulses switch the starting hand at the next cycle. Each pair of attacks advances the hand twice and brings the allocation back to its starting side. One remaining attack changes sides. The argument covers every repeating cycle with a positive odd number of audible attacks under this rule. The two-cycle timbral exchange in the scored example can be compared with a single-sound part on the same onsets.
 
 ### MDPE.Application:4.3 - Change the receiving condition without confusing the two action rules
 
@@ -9570,6 +9564,10 @@ To reconstruct a method, trace the required result back to its conditions and ac
 
 Choose the detail that can distinguish the alternatives that matter for the task.
 
+Give a musician a fresh brief before supplying a score or timing diagram. For example, dancers at a live event want to be free to extend a pause and still hear the ensemble rejoin them on their return. Give the musician the agreed purpose, people, equipment and rehearsal time available. Let the musician decide whose actions belong in the arrangement, what they must be able to perceive before acting, and which differences the timing account must retain. Ask for a playable arrangement and the grounds that it serves the dancers and the musicians together. A reasoned finding that the current conditions rule it out can also answer the brief.
+
+After the musician’s first solution, change a relevant condition, such as what the players can see from their positions. Establish what still works and what must change. If the original commission asks only for tonight’s arrangement, a sufficient solution for tonight can finish it. The change of conditions becomes relevant when the commission includes adapting the arrangement.
+
 In a constructed case, two performances have response delays of 0.25 and 0.75 beats after a partner’s cue. Both satisfy “within one beat”. If the task requires a response within 0.5 beats, the first meets the requirement and the second misses it. The threshold belongs to this task.
 
 A reader who reports “within one beat” has given the coarser condition. To determine whether they also know the finer condition, examine a response that distinguishes the two. A recording that omits the cue cannot by itself establish either delay. When the question asks only whether a response occurred, sub-beat timing may add cost without changing the answer.
@@ -9591,7 +9589,7 @@ For the teaching question, identify the relations and operations the learner nee
 | Coordinate the response in time | The learner shows or explains the required timing relation. | The learner supplies the response within the local time criterion, with the permitted help. | If the problem concerns execution, develop coordination or change the support. Check understanding separately if it is in doubt. |
 | Adapt after an unfamiliar response | The learner explains why the original continuation no longer fits. | With a different partner or in changed conditions, the learner produces a usable recovery. | Practise the adaptation if needed and return to the whole interaction. |
 
-Use the rows that distinguish what the learner explained, what they performed and what remains open for the use at issue. A single unsuccessful attempt may leave several explanations possible.
+Use the rows that distinguish what the learner explained, what they performed and what remains open for the use at issue. When the learner has to design the interaction, first give them the brief in §5.3.4. A table that specifies the cue, branch and timing in advance can support practice in using those choices. For design, examine which choices the learner made, with the aids available in the intended work. A single unsuccessful attempt may leave several explanations possible.
 
 #### MDPE.Application:5.3.6 - A worked acquisition contrast
 
@@ -9599,11 +9597,11 @@ In a constructed case, Ira and Toni are learning an eight-pulse operation. The d
 
 Ira reads “add two modulo eight,” obtains the correct set and explains why 6 becomes 0. The explanation and answer give evidence of understanding the operation. When the ensemble plays, Ira cannot clap the shifted phrase in that attempt. A claim about what Ira can do in other conditions needs corresponding evidence.
 
-Toni accurately copies the original recording but cannot construct the shifted phrase in this attempt. Repeating the original more slowly can rehearse that phrase while leaving the shift unexplained. The teacher marks the eight positions, performs the original and changed phrases, then asks Toni to shift a different onset set. That response can show how Toni used the operation. The ensemble also tries the changed phrase so that actual coordination can be assessed.
+Toni accurately copies the original recording but cannot construct the shifted phrase in this attempt. Repeating the original more slowly can rehearse that phrase while leaving the shift unexplained. The teacher marks the eight positions, performs the original and changed phrases, then asks Toni to shift a different onset set. That response can show how Toni applied the specified shift to new material. The teacher supplied the cycle and the rule. To examine whether Toni can choose a phase, give Toni the accompaniment and the musical effect wanted, leave the shift open, and use the resulting phrase in the ensemble. Several phases may meet the same brief. The ensemble’s performance can establish how the parts actually fit.
 
 Suppose both later play the shifted phrase while following the teacher’s audible count. This establishes their performance with that support in the observed task. If the concert retains the count, it may be an adequate arrangement. If the brief calls for entry after another player’s cue without the count, use a suitable existing performance under that condition, or try it when the answer justifies the additional work. Keep the support permitted for the performance being assessed.
 
-Successful performance in a varied case may extend the claim about what Ira or Toni can do. To establish acquisition, relate it to earlier performance and relevant practice. A failed attempt might concern cue access, execution, fatigue, an unfamiliar relation with the ensemble or the explanation. Use conditions that distinguish those possibilities if the cause matters to the next step.
+Successful performance in a varied case may extend the claim about what Ira or Toni can do. To establish acquisition, compare evidence of what the same person could do earlier and later on the relevant operation, with comparable help. An earlier demonstration that supplied the answer may leave the learner’s starting capability open. Crediting a particular exercise with the change also requires grounds to distinguish its effect from other practice. A failed attempt might concern cue access, execution, fatigue, an unfamiliar relation with the ensemble or the explanation. Use conditions that distinguish those possibilities if the cause matters to the next step.
 
 People or other agents may acquire different parts of the same method or reach the same capability in different ways. To compare counts of relations correctly recovered or operations acquired, specify what is being counted, the level of detail, the selected set, the criteria and the conditions. The unit for one of these counts may differ from the other.
 
@@ -9659,8 +9657,8 @@ If help is wanted, establish what support is already available and arrange the m
 
 ## MDPE.Sources:1 - Edition return
 
-The version designation printed with the author’s name is 7
-October 2026. This publication brings together the Readme, Table
+The version designation printed with the author’s name is 21 November 2026.
+This publication brings together the Readme, Table
 of Contents, Architectural Reference, twenty-eight methods, their
 shared methods and constructed applications, and these edition
 notes. For a claim, cite the method or section that states it. A collected copy should reproduce that text.
