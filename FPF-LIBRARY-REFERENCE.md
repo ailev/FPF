@@ -1030,6 +1030,8 @@ An analyst's personal tool can work because the analyst interprets its inputs, s
 
 “In the small” and “in the large” are useful search expressions for this difficulty, not two sizes to which every Method belongs. One author can create dependencies that require coordinated change; several performers can work independently when the necessary conditions are provided. A larger batch for the same analyst can leave the original way sufficient. Begin with C.39:4.1 to recover what the receiving work needs and what the earlier success depended on. Its remaining Solution constructs the missing contribution and joins it to the useful whole.
 
+If several offices report using the same practice, first establish what the organization needs to decide. For the number now using it or for a change among continuing teams, [IS.Reference:6](https://fpf.tools/IS.Reference:6) works from the eligible offices, the work they performed and the period the records cover. To design the enquiry yourself, try the assignment in [IS.Application:1.4](https://fpf.tools/IS.Application:1.4) on a commission of your own. A report for one office can establish a particular use. For evidence that another office took a method from it, see Library.Reference:9.3.1 and C.36:4. For a decision about keeping the service, OCE.13 and CB.10 help trace what reached the affected recipients, whether they could use it in time, and who bore the cost. A current coverage threshold can often be settled before the origin or benefit of the practice is known.
+
 The Library keeps the following questions with different fields because their first useful results differ. Use the row that fits the difficulty.
 
 | Difficulty in the receiving work | Read for the needed contribution |
