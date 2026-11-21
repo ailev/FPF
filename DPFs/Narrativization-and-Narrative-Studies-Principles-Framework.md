@@ -696,6 +696,8 @@ NarrativePurposeIntake@FictionalContinuationProbe:
 
 Use `A.6.3.NAR:4.0.1` when citation, dispute or another consequential use needs identifiable source and narrative claims. Identify source episteme X, narrative episteme Y and the construction that relates them. Preserve their common EntityOfConcern and check the correspondence on which the claimed use depends. When the two expressions use different representation languages, show how each is read and which source claims the narrative preserves under those readings. Establish publication permission, evidence or assurance when the intended claim or action requires it.
 
+When the narrative concerns the same incident as its source, identify which source supports each factual connection. A report of one team can also appear in a narrative about an entire service. To attribute an outcome to the service, establish which contributions actually came together in that delivery, or use a sufficient record of the service outcome. When the conclusion concerns another service, use A.6.4 to identify the change of EntityOfConcern and establish the correspondence and evidence that support the new claim. A change in the language used to tell the same incident can preserve its EntityOfConcern. A faithful rendering can finish the assignment to tell what happened to the first team.
+
 ### NSTD.1:5 - Archetypal Grounding
 
 
@@ -916,7 +918,7 @@ If the choice is unclear, compare the passage using the questions below.
 
 Compare the inferences available at the chosen point with those available at the end. A later disclosure can give grounds to revise an earlier interpretation. A whole story can also support several readings. Use NSTD.9 if those interpretations need developing or comparison. For a claim about what a particular reader understood, or when they understood it, use NSTD.6 with evidence from the relevant reading and point in time. An anticipated response is sufficient for planning its examination.
 
-A lesson can introduce an example, recount the discovery that made a distinction interesting and then supply its proof. A live account can follow observed events in time, while a later recap examines causes. A story can show effects before revealing their cause. Make the transition recognizable when the reader’s task depends on which relation the order expresses.
+A lesson can introduce an example, recount the discovery that made a distinction interesting and then supply its proof. A live account can follow observed events in time, while a later recap examines causes. A story can show effects before revealing their cause. Make the transition recognizable when the reader’s task depends on which relation the order expresses. For a decision made before a later update, reconstruct when the fact was observed, when the decision holder could have received it and when the choice was made. A dated observation can establish what happened. A receipt or another warranted account of access can establish what was knowable to that actor. What reached the reader in the opening scene may have reached the actor only after the choice.
 
 For a constraint-governed unfolding structure (CGUS), identify the path the account presents and preserve its applicable constraints. Show a branch, return, exit or stop when the reader needs it to explain what happened or determine what could happen. A demonstration of one path need not prescribe that sequence for future work.
 
@@ -1422,7 +1424,7 @@ To construct a voice, choose the speaking relationship and write a passage that 
 
 #### NSTD.4:4.1 - Establish the speaker, relationship and comparison basis
 
-Identify the speaker, reader and relationship that matter. An experienced colleague inviting another colleague to inspect a finding, a remote chronicler withholding judgement and a frightened witness addressing a sceptic establish different positions. Choose the distance, shared knowledge and invitation or direction appropriate to the account. A claim about real expertise or authority requires grounds beyond that choice.
+Identify the speaker, reader and relationship that matter. An experienced colleague inviting another colleague to inspect a finding, a remote chronicler withholding judgement and a frightened witness addressing a sceptic establish different positions. Choose the distance, shared knowledge and invitation or direction appropriate to the account. A claim about real expertise or authority requires grounds beyond that choice. A later narrator may know the answer to a dispute. To write from a participant’s viewpoint at the time, establish what that person could then see, hear or retrieve. A historian may establish this from later testimony or a delivery record unavailable to the participant. Evidence that a message reached the team’s office may settle a question about delivery. Attribution of a particular member’s judgement needs grounds connecting that member to the message and decision.
 
 Distinguish the basis of the requested voice:
 
@@ -2253,9 +2255,9 @@ Default narrative rendering quality characteristics:
 | `EthicsEvidenceAssuranceRouting` | For a consequential claim about value, harm, evidence, assurance or policy, are the grounds and limits available for this use? | Identify the unresolved issue and use the pertinent `D.1`–`D.5`, `A.10`, `B.3` or professional contribution. |
 | `MediumAndPublicationFit` | Does the carrier fit the reader and use without changing the claim? | Route publication or audience-unit questions to `E.17`, `E.17.AUD`, or `NSTD.8`. |
 | `SourceReturnReadiness` | Does the narrative tell readers when and where to return to the source basis or relevant method? | Add the missing return condition or destination, or narrow the supported use. |
-| `LearningRouteReconstructionFit` | What can the learner reconstruct under the intended support, and when must they return to a source? | Use `NSTD.8` to address an inadequate source contribution, support or next task. In a design, assess what the exercise affords. In a claim about a learner, use their response. |
+| `LearningRouteReconstructionFit` | Can the learner reconstruct the needed relations and perform the action assigned to them, including a choice of their own when the task calls for one? | Use `NSTD.8` to repair a missing relation, a premature solution or a task that omits the learner’s decision. Inspect the materials for a design judgement and the learner’s response for a performance judgement. |
 
-Use the ordinal meanings above and the adjacent examples below for `LearningRouteReconstructionFit` when learners are meant to reconstruct and use a route. State the decision the learner must make and what the assignment already supplies. An author can assess the design of an exercise before anyone attempts it. To credit a learner with a decision, examine their work under the help actually available. If a course also promises that learners can construct a disciplinary rule, establish which criteria or relations they chose and justified themselves. A rating for reconstructing a route answers a different question.
+Use `LearningRouteReconstructionFit` for the learner action the narrative promises. For reconstruction, establish whether the account supports the required links and any necessary return to source. For a decision using that route, include the differences the learner must recognize and the choice they must make. If independent design is promised, identify the organizing relation, criterion or check the learner must choose. If the commission also asks for the grounds, give the learner a way to develop and express them. Inspect the material, including its prompts, for a judgement about the design. Credit a learner with a choice from their own work under the help available to them. The separate count of correctly recovered relations retains its stated denominator.
 
 ### NSTD.6:5 - Archetypal Grounding
 
@@ -2321,11 +2323,11 @@ The other characteristics use their own ordinal quality meanings:
 | Characteristic | `3` means | `4` means | `5` means |
 | --- | --- | --- | --- |
 | `OrderingRecoverability` | Order is named, but wrong reconstruction remains likely. | The intended order and relations needed for use are recoverable; consequential losses are clear. | Conflicting order layers are handled and tested. |
-| `EventMechanismSupport` | Events are coherent, but support strength is partly inferred from wording. | Relation strength and reconstruction target are explicit. | A wording or viewpoint change does not change recovered support strength. |
-| `ViewpointAgencyDiscipline` | Viewpoint is useful, but agency or responsibility repair is incomplete. | Viewpoint function and the source of a consequential attribution are recoverable. | Reader can remove or swap viewpoint without losing source structure. |
+| `EventMechanismSupport` | A consequential event connection still rests on wording alone. | The account makes recoverable which relations the source supports, with what strength, for the required reading. | Across a consequential change in wording or viewpoint, the reader can still recover the support the source warrants and identify which grounds the new viewpoint can disclose. |
+| `ViewpointAgencyDiscipline` | The viewpoint is useful but a consequential attribution still lacks grounds. | The viewpoint’s function and the source of the attribution are recoverable. | A change of viewpoint preserves the warranted attribution and makes clear which observations or intentions the newly represented participant had access to. A participant can know less than the narrator. |
 | `EngagementBoundedness` | Interest exists, but a needed source relation or condition for informed choice is missing. | Interest supports the declared use while preserving the needed relations and conditions. | A more engaging variant improves attention without lowering source recovery, with the comparison supported under the stated conditions. |
 | `SourceStructureSelectionFit` | Selected content partly serves the purpose, but a needed relation is omitted. | Selected relations support the intended use and meaningful omissions are recoverable. | The grounds cover the claimed range of use. A changed case can establish a use within that range, reveal a limit or refute a broader claim. Coverage of several conditions requires grounds that address those conditions. |
-| `LearningRouteReconstructionFit` | Learners retell the route and recover some source relations, but miss a relation needed for reliably applying it at a change of conditions. | Learners reconstruct the essential relations and identify when to return to the source. | Learners reconstruct the route and make the decision left to them in a changed case. If the task includes deciding when to involve another method or responsible party, learners recognize the condition and make that choice when needed. |
+| `LearningRouteReconstructionFit` | The learner can retrace part of the account. A required relation, return or independently assigned choice still lacks grounds or the opportunity to use them. | The route supports the commissioned action across its required conditions, including any change or exceptional case in the brief. Reconstruction can suffice for a retelling. When the learner must choose or design, the route supplies grounds and leaves that choice for the learner. Evidence about a learner comes from their response. | The route is strong for the declared use. Its readers can trace the grounds for the assigned action and recognize where those grounds end, including under a consequential change in the presentation or conditions when that belongs to the use. Show what supports this judgement for the specified reader and task. |
 
 
 
@@ -2791,14 +2793,14 @@ When people need later access to what they learned, use HCD.10:4.4 to choose a s
 
 
 
-#### NSTD.8:4.1 - Check attachment and support at the next use
+#### NSTD.8:4.1 - Check what the learner must do next and what help is available
 
 
 Connect the teaching material to the question at hand and to the use that follows. What can a learner do with this example, diagram or exercise, and where will that matter? A question, caption, worked example, short transition or later return may supply the connection. Check the endpoints of a repeated term or a diagram arrow when its meaning is unclear.
 
 Examine what is available by the time of the next task. Identify what this audience can already use, what the route has introduced, which questions remain open and which prerequisites the task needs now. An overview or a link can supply a missing relation if it makes that relation usable at this point. Inspect the material for a design judgement. Use a learner’s attempt when the question concerns what that learner actually did.
 
-Compare the work the author was commissioned to teach with the task the finished narrative actually gives the learner. Read the whole narrative with that difference in view. When must the learner choose something the storyteller has already chosen? Trace where the learner gets the grounds for making that choice and where the task lets them make it. If all the episodes fit together but the design of the procedure is still missing, use EXD.Reference:3 to develop that explanation from the subject practice. When the goal is to explain one incident or perform one specified operation, its own story may already suffice. Use EXD.6:4.1 to check the complete account against either goal.
+Compare the work the author was commissioned to teach with the task the finished narrative actually gives the learner. Read the whole narrative with that difference in view. When must the learner choose something the storyteller has already chosen? Trace where the learner gets the grounds for making that choice and where the task lets them make it. If all the episodes fit together but the design of the procedure is still missing, use EXD.Reference:3 to develop that explanation from the subject practice. When the goal is to explain one incident or perform one specified operation, its own story may already suffice. Use EXD.6:4.1 to check the complete account against either goal. Read the caption, the exercise issued on its own and any help the learner normally receives. A heading that names a suspected cause supplies the hypothesis. The learner might still design the test. A supplied test can leave its interpretation open. Credit each decision the learner made. If both forming explanations and selecting evidence are commissioned, give the available observations and let the learner make both choices before showing the worked answer.
 
 Choose the continuation that fits the transition.
 
@@ -3073,7 +3075,7 @@ Modular source publications support reference. Reusing the modules as lessons ca
 | --- | --- |
 | `CC-NSTD8-1` | The design names the intended learner action and the source relations it requires. |
 | `CC-NSTD8-2` | The order serves the learner’s task, and the learner can reach the sources needed for it. |
-| `CC-NSTD8-3` | The reconstruction task lets a learner demonstrate the needed source relation. |
+| `CC-NSTD8-3` | The task lets the learner perform the action promised. For reconstruction, the required source relations can be recovered. For application, the learner can use them for the assigned decision. For design, the learner can select the relevant relations or test with the permitted help before seeing the author’s choice, and can justify the design if the commission requires its grounds. Judge an individual response from that learner’s work. |
 | `CC-NSTD8-4` | Lessons, exercises and other learning materials make their needed source relations and tasks available at the point of use. |
 | `CC-NSTD8-5` | The comparison supports a claimed improvement on the affected outcome, at acceptable cost and with protected qualities preserved. Use NSTD.6 for the assessment and E.22 or E.23 for the improvement work the case requires. |
 | `CC-NSTD8-6` | Distinguish source organization, episode order and reasoning within episodes. The intended learner action determines what to compare, what should remain accessible together and what help is appropriate. For a spaced return, choose separately when it occurs and what learners must retrieve. |
@@ -3456,7 +3458,7 @@ NSTD identifiers locate methods and sections in this publication. For three sect
 
 Use the NSTD identifier for a method in this framework. A.6.3.NAR identifies the narrative-construction pattern in FPF Core.
 
-The original edition carries the date 25 October 2026. To cite the version you used, copy a permanent link to this file in its specific Git commit. Add the PatternID or section identifier when citing a passage. The [public file](https://github.com/ailev/FPF/blob/main/DPFs/Narrativization-and-Narrative-Studies-Principles-Framework.md) leads to the current text.
+The original edition carries the date 25 October 2026. The 21 November 2026 revision qualifies source attribution, narrative viewpoint and the learner’s decision under the assigned task. To cite the version you used, copy a permanent link to this file in its specific Git commit. Add the PatternID or section identifier when citing a passage. The [public file](https://github.com/ailev/FPF/blob/main/DPFs/Narrativization-and-Narrative-Studies-Principles-Framework.md) leads to the current text.
 
 The [Architectural Reference](#narrativization-and-narrative-studies-principles-framework-architectural-reference) explains how the methods connect and where their source distinctions change what the reader can do.
 

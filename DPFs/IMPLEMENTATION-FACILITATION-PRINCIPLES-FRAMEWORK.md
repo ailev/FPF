@@ -2,7 +2,7 @@
 
 **DocID:** `IS` within **FPF Library**.
 
-Edition: [Implementation Facilitation, 12 October 2026](#edition-and-use).
+Edition: [Implementation Facilitation, 21 November 2026](#edition-and-use).
 
 # Table of Contents
 
@@ -126,7 +126,9 @@ Use C.32.MWA.PP when the question requires a comparison of materially different 
 
 A plan, delivered workshop, configured tool, attempted use and successful receiving result are different findings. A record of activity can be complete while a required condition is missing. Report the result the evidence establishes for the question asked.
 
-For ordinary help, identify the difficulty, the contribution supplied and what it made possible, at the level the question requires. Report remaining conditions or further action when relevant. Use stronger models or evidence where the requested conclusion needs them. For capability, identify the holder and work conditions. For cultural continuation, establish the carriers and relations claimed. For causal attribution, use C.28.
+Start with who must use the help, what they must accomplish and when. For one handover, evidence that the intended person received and used the result may finish the inquiry. For a recurring service, trace what the supplier and recipients must actually do when requests coincide. A single piece of advice may serve all recipients. Each may also need a separate examination. Find out which the order promises, when each result must be available and whether the necessary people can act then.
+
+Follow the work far enough to distinguish outcomes that would change the decision. When two confirmations are required, establish which contributions must be independent. Two reviewers can make separate judgements on one recorded comparison. If the order calls for independent measurements, trace both reports to their measurements and to any shared source of error. If the order concerns one authorized handover and its receipt is established, that question can stop there. For capability, examine the holder's own contribution under the agreed help. For continued use in a community, establish which carriers used the practice and how it reached them. Use C.28 when asked to attribute an outcome to the assistance.
 
 Use C.11.DUA to judge whether the value of an attainable answer warrants the work, delay and interruption of obtaining it. An existing bounded answer can suffice when the competing explanations leave its conclusion and grounds intact. Mandatory protections stay in force unless an effective authorized change applies.
 
@@ -246,7 +248,7 @@ Establish what the performer currently does, where the proposed contribution wou
 
 Compare the request with the evidence. Keep the proposed training when the recipient needs to learn the operation and the training can support that learning. If a capable performer lacks access to the source, repairing access can meet the immediate need. If the benefit is disputed, use an applicable target decision, seek a new decision from its holder if needed, or use IS.2 to investigate the disputed claim.
 
-Keep the detail that affects the agreement, the proposed work or the grounds for the promised result.
+Agree who will make the consequential choices. A recipient may ask for a ready answer, the design of a support service, or an opportunity to learn how to diagnose a difficulty. A designer can use a diagnosis already supplied by a specialist. If the undertaking also includes independent diagnosis, identify which explanations and checks the recipient will choose and what ordinary assistance they may use.
 
 #### IS.1:4.2 - Distinguish the promised result from the help
 
@@ -421,7 +423,7 @@ Establish the occasion, relevant input, interpretation, action, output and recei
 
 Trace the actual or proposed work to the result the receiver needs. Locate a blocked step or a completed step whose output fails to meet that need. Use suitable records, observations or the performer’s explanation. Trace the relevant dependency back to its inputs and forward to its consequences. Use B.1.5.EW when the action’s contribution to the encompassing work remains unclear.
 
-Finding a source edition can support a judgement about a claim which, in turn, informs a release recommendation. Check whether the retrieved passage supports the claim. If the source is unavailable, identify which part of the recommendation depended on it. Use any independent evidence that supports the claim, and qualify the remainder.
+Finding a source edition can support a judgement about a claim which, in turn, informs a release recommendation. Check whether the retrieved passage supports the claim. If the source is unavailable, identify which part of the recommendation depended on it. Use any independent evidence that supports the claim, and qualify the remainder. If two reports agree, establish what the release rule requires. Two authorized reviewers can independently judge the same recorded comparison. Two repetitions with a common faulty reference may share the error the measurement check was meant to detect. Trace the judgements or measurements to their origins and test the relevant common dependence. A single comparison may settle the source question. Obtain an additional contribution when the particular independence required for release is still missing.
 
 Include a successful contrast when it can distinguish the failure. The same performer using a different source route may reveal an access problem; success with an expert present may instead reveal the expert's missing contribution. Report the assistance supplied in each episode when interpreting the result.
 
@@ -672,7 +674,7 @@ For the option or options under consideration, identify who would perform each d
 
 Use C.32.MWA.PP to compare materially different arrangements for performance and provision. Examples include shared specialist service and provision within each branch, or expert execution and supported local performance. Consider where the work falls, simultaneous demands and dependencies. Use an applicable existing comparison or selected configuration. A proposal that depends on new relations still needs those relations to become effective. Use C.32.MWA, A.15.8.MS or OCE where the question concerns interacting structures, method-use support or organizational change. Continue with the helping operations and a receiving instruction where either is missing.
 
-Check demand at the times people or resources are needed. Count shared preparation once per arrangement and include recurring case-specific interpretation and help. Two independent demands cannot both use the same expert hour. A single joint review may supply service and coaching. Count its time once for each person involved, include any additional preparation and instruction, and assess the service and learning results separately. A replacement provider, including a qualified AI system, is an option when it can meet the receiving conditions.
+Check demand at the times people or resources are needed. Count shared preparation once per arrangement and include recurring case-specific interpretation and help. Two independent demands cannot both use the same expert hour. A single joint review may supply service and coaching. Count its time once for each person involved, include any additional preparation and instruction, and assess the service and learning results separately. A replacement provider, including a qualified AI system, is an option when it can meet the receiving conditions. Where recipients can use the same prepared answer separately, test delivery and time for local use at each site. Where attendance at the same activity is required, establish an interval common to everyone whose presence matters. Different tasks may place demands on the same person even when the sites can otherwise act independently.
 
 Use the commitments and permissions already in force. Obtain any additional access, staff time, voluntary participation or provider response window the selected work needs. Where continuing service competes with the change, use a sufficient coexistence arrangement or develop one with OCE.11.
 
@@ -928,7 +930,7 @@ Harbor Design has introduced source-revision comparison. Four analysts already p
 
 The first proposal is to close support after a final webinar. Following actual use changes the decision: analysts do not know how to resolve an inaccessible superseded source, and the specialist has answered three such questions privately. The ordinary practice therefore depends on source recovery as well as comparison capability.
 
-The source owner can maintain access. A specialist is available for unusual source interpretation on named days. The technical lead agrees to hold affected release recommendations until a qualified response arrives. Urgent work needs a separately qualified route. The plan assigns particular contributions now supplied by the outgoing specialist.
+The source owner can maintain access. A specialist is available for unusual source interpretation on named days. The technical lead agrees to hold affected release recommendations until a qualified response arrives. Urgent work needs a separately qualified route. The plan assigns particular contributions now supplied by the outgoing specialist. The permitted hold lets the lead make a timely decision on an ordinary case before the specialist replies. For an urgent promise, inspect when the specialist and the lead would need to act, including any allowed coincidence of urgent requests. Separate reviews compete for time. A reusable interpretation can cover several cases if each case meets its conditions and the teams can use it by their deadlines.
 
 A representative transfer case includes an unavailable edition. The analyst returns the missing input, the source owner supplies the recoverable edition, the subject specialist interprets the consequential ambiguity, and the technical lead uses that result. This establishes receipt and use for that case. A failure rate or qualification across other technical subjects needs additional evidence.
 
@@ -1072,7 +1074,7 @@ In a constructed community-service example, staff report that 30 referrals were 
 
 The broker and the two agencies use CB.15 to follow a de-identified referral together. The receiving agency distinguishes a necessary input from information that can be obtained at the first contact. The responsible owners compare a revised request, a later appointment window and the reminder-only incumbent. The latter cannot address either observed failure. One agency accepts a bounded change to its intake. The other supplies the revised request and an escalation contact under its own authority.
 
-The arrangement establishes that the revised requests can be received under the agreed conditions. Use evidence of subsequent service to determine whether recipients actually obtained it. The 30 earlier referrals establish issuance. If a later appointment window cannot be staffed, return that provision question to IS.3.
+Issuing 30 referrals establishes the number issued. The agreed intake change supports receipt of qualifying requests under the new conditions. Whether people obtained an appointment in time depends on staffing, hours and subsequent use. An account from one authorized representative can settle the group's decision within that mandate. To attribute a preference or an outcome to individual recipients, obtain evidence about those recipients. The tested referral can establish what happened to its recipient. Reopen the staffing decision if the later window that people need cannot be provided.
 
 #### IS.6:5.2 - A community without managerial authority
 
@@ -1203,7 +1205,9 @@ After the enabling conditions are supplied, use A.3.1.MI to establish whether th
 
 #### IS.7:5.2 - Choosing a shared or a local facilitator
 
-In a constructed comparison, two sites each need three hours of local episode work per week. One external specialist is available for four hours in total. Six hours of specialist work cannot fit in the four-hour window, even under one contract. Suppose each site's existing local facilitator can perform its three hours with one hour of specialist consultation. The joint arrangement then demands two specialist hours and six local hours, plus any actual shared preparation. It is feasible only if those local performers, permissions and protected hours exist. If one site's decisive judgement remains beyond its local performer, the paired arrangement does not meet the same promise.
+Two sites each need three hours of local case work in the week. One external specialist has four hours available. If the specialist must perform both sets of case work separately, the required six hours exceed four. Suppose each local facilitator can perform the work in three hours including a one-hour consultation. In this comparison the local leads have the competence, authority and protected time for those judgements, and the shared preparation is already complete. There are six local hours and two specialist-hours to arrange. If fresh common preparation is required, add its time once and establish that its result can reach both sites before use. The consultations fit only if the relevant people can meet before their site’s result is due. If both consultations must occur separately in the same sole hour, the weekly totals conceal a conflict.
+
+The form of service can change that answer. One common consultation in that hour can fit if both leads can attend and it resolves both issues within the hour. If the order accepts one reusable finding, the specialist can instead prepare it early enough for each lead to use within their local hours. A site requiring its own review still needs time for that review. For a promise that the leads can design future help, examine their choice of a support arrangement and its grounds under the assistance they are meant to retain.
 
 ### IS.7:6 - Bias-Annotation
 
@@ -1284,6 +1288,8 @@ Identify the operations the capability claim concerns. Use IS.6 for bringing exc
 
 When a joint episode will help the recipient learn a decision, make the reasoning available while it can inform the attempt. The experienced performer can explain the observation, a plausible alternative interpretation, the chosen action and the stopping condition. Give the recipient a relevant operation to perform, such as reconstructing a lost referral, identifying who can resolve an external constraint, protecting a participant’s account or explaining what an unsuccessful result establishes. Understanding the demonstration can prepare the recipient for that work. Evidence of performing it comes from the recipient’s contribution.
 
+Assign the choice at the scope the undertaking promises. If the lead is learning to design support, the expert may supply a warranted diagnosis. The lead can still decide whose work should change, what help the service will offer and how to tell whether it is usable. If independent diagnosis is also commissioned, give the lead the available evidence. The lead may establish the cause from it. When alternatives remain consequential, let the lead formulate or select explanations and decide what further check would distinguish them before receiving the mentor’s result. Note which decisions the lead made with the permitted help.
+
 #### IS.8:4.3 - Arrange practice, feedback and real receiving conditions
 
 For a person learning the operation, use [HCD.9](https://github.com/ailev/FPF/blob/main/DPFs/Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd9---perform-deliberate-practice-with-feedback) to arrange practice and feedback. Use programme or provider Methods if the work requires them. Give the qualified feedback provider the attempt and the criteria that matter in the receiving work. A useful correction identifies an operation the learner can change, such as including a missing participant, explaining an adaptation, revising an infeasible demand or limiting a conclusion to the observation.
@@ -1316,7 +1322,7 @@ Report the capability supported by the evidence, its conditions and any unresolv
 
 Suppose an external facilitator and a service team repair a referral process. The expert notices that the incomplete requests contain a field that only the receiving agency can fill. The team supplies examples. This case establishes a joint repair and identifies the expert’s diagnosis. It leaves open whether the team can diagnose a later problem independently.
 
-The parties agree that the local lead should reconstruct a failed referral, identify the missing contribution and obtain a response from whoever can supply it. The mentor demonstrates the earlier reasoning. In a new case the lead first interprets a need for clarification of an eligibility rule as an employee’s knowledge gap. Following feedback under HCD.9, the lead revises the inquiry and obtains an interpretable answer from the rule owner. A later unfamiliar case tests recognition without the mentor’s prompt.
+The parties agree that the local lead should reconstruct a failed referral, identify the missing contribution and obtain a response from whoever can supply it. The mentor demonstrates the earlier reasoning. In a new case the lead first interprets a need for clarification of an eligibility rule as an employee’s knowledge gap. Following feedback under HCD.9, the lead revises the inquiry and obtains an interpretable answer from the rule owner. A later unfamiliar case tests recognition without the mentor’s prompt. If the commission is to design help using a confirmed finding about a missing field, supply that finding. The lead can independently decide between changing the intake, providing access or arranging expert response and justify the choice to the agency. For independent diagnosis, look for the lead’s own use of sufficient evidence or their choice of a further inquiry when it was needed. For independent research design, establish which explanations and comparisons the lead developed before receiving an answer.
 
 If the lead performs that coordinating operation and a specialist must still assess a proposed technical adaptation, the service can retain specialist assessment. The lead’s performance supports the bounded coordination claim. A claim about a wider capability requires evidence about its other operations.
 
@@ -1405,7 +1411,7 @@ If the historical edition cannot be recovered, a Method that requires it may be 
 
 ### IS.Application:1.4 - Continue the practice without preserving every temporary service
 
-Suppose the temporary specialist is due to leave after further qualified use. The team uses IS.5 to establish that unusual cases still require specialist recovery and interpretation of sources. As in IS.5:5.1, it secures a successor’s contribution and verifies that the receiving team can obtain it. The two learners continue their own development.
+Suppose the temporary specialist is due to leave after further qualified use. The team uses IS.5 to establish that unusual cases still require specialist recovery and interpretation of sources. As in IS.5:5.1, it secures a successor’s contribution and verifies that the receiving team can obtain it. The two learners continue their own development. When a source is missing on a nonurgent case, the technical lead can exercise the agreed hold. To promise urgent interpretation to two teams, the coordinator must show how each can obtain and use it by its own deadline if requests coincide. If the same conclusion serves both, confirm its applicability to both. If each commissioned a new examination, allocate time to each. A single settled case can close its own transfer.
 
 The coordinator can arrange the transition and later organize ordinary programmes or service. Identify what that person actually did, the project or service role in which they did it, and whether the people and means shared between simultaneous commitments can cover both.
 
@@ -1437,7 +1443,7 @@ Use the [supplier-availability account](#isreference11---supplier-availability-a
 
 ## IS.Edition:1 - Edition and citation
 
-**Implementation Facilitation — edition of 12 October 2026.** Framework reference code: `IS`.
+**Implementation Facilitation — edition of 21 November 2026.** Framework reference code: `IS`. The 12 October 2026 edition is the basis of this revision.
 
 This edition includes seven Methods, a Readme, an Architectural Reference, the Harbor Design application and an account of the sources and related frameworks. Use it when helping a recipient establish, restore, adapt or continue a practice under its working conditions. A practitioner introducing a Method independently can use A.3.1.MI. When the undertaking calls for a result supplied by a service, use a qualified service that can deliver it. When it calls for the recipient to learn an operation, establish what the recipient can do under the promised conditions.
 

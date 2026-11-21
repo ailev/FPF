@@ -5,7 +5,7 @@
 > Use these research methods to frame a question, choose and conduct an inquiry, assess what its results support and communicate the answer. You can also use them to assess or improve a research method.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Original edition:** 24 October 2026. For the version used, see [RMP.Sources:3](#rmpsources3---citation).
+- **Original edition:** 24 October 2026. Revised 21 November 2026. For the version used, see [RMP.Sources:3](#rmpsources3---citation).
 - **Status:** Eternal alpha. This working framework is open to correction as methods, sources and uses change. RMP.1–RMP.11 include ways to use an existing answer, stop an inquiry and improve a research method.
 - **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content. Third-party material retains its own terms.
 - **Publication:** [FPF Library repository](https://github.com/ailev/FPF)
@@ -581,7 +581,7 @@ Start with the question, or the material that could help formulate it. Use §4.0
 
 Use this branch when an observation, passage or other material is available but the claim or contrast that matters is still unclear. Examine what the material can reveal before judging the value or research status of the proposed inquiry.
 
-Take a record, passage, attempted operation or observation. Recover what occurred or was asserted, how the material was obtained and the interpretation being used. Work through a consequence. You might contrast a case, change an assumption, or inspect a definition or intermediate operation whose contribution is unclear. For a reported count, establish what was counted before interpreting a change in the total. [FPF B.5:4.1.2](../FPF-Spec.md#b5412---find-useful-questions-and-possible-actions-from-incomplete-information) gives the general method. Use valid operations and evidence from the relevant field.
+Take a record, passage, attempted operation or observation. Recover what occurred or was asserted, how the material was obtained and the interpretation being used. Work through a consequence. You might contrast a case, change an assumption, or inspect a definition or intermediate operation whose contribution is unclear. For a reported count, establish what was counted before interpreting a change in the total. [FPF B.5:4.1.2](../FPF-Spec.md#b5412---find-useful-questions-and-possible-actions-from-incomplete-information) gives the general method. Use valid operations and evidence from the relevant field. If several participants use the same words for the question, ask what would count as a different answer for each. A researcher reconstructing the date of a decision can finish with its chronology. A service owner comparing waiting times may need to choose between a result for a typical branch, a typical request and a commitment to every branch. These inquiries require different uses of the records.
 
 Use the difference you find to state a candidate question, what its answer could add and what remains open. A limited exploration can be worthwhile before its exact discovery is known when accessible material and an identifiable operation could reveal a useful distinction. Use C.11.DUA to compare that attainable gain with the full burden. Use an adequate existing answer and respect competence, access and resources. If another contribution is needed, show the material and where interpretation stops. Establish whether it can be obtained and continue with the questions the current material supports.
 
@@ -1325,7 +1325,7 @@ Keep the research question and the error the design must expose in view. Establi
 
 #### RMP.3:4.1 - Recover the question and the selected design
 
-Use the qualified question and its current basis from a **ResearchQuestionBrief** or equivalent information already available. Identify the use, population, setting, period or corpus that determines scope. State what the evidence would have to establish and when work can stop even if uncertainty remains. The inquiry may seek to revise an explanation, a model or another claim.
+Use the qualified question and its current basis from a **ResearchQuestionBrief** or equivalent information already available. Identify the use, population, setting, period or corpus that determines scope. State what the evidence would have to establish and when work can stop even if uncertainty remains. The inquiry may seek to revise an explanation, a model or another claim. Identify the units the claim concerns and the observations or records that support it. Several documents can derive from one inspection. Two visits by the same customer count twice for a question about visits and once for a question about distinct customers. To combine lists, establish how they cover the population named in the question and how overlap affects the answer. A decision about entries may use the recorded counts directly.
 
 Use the **ResearchDesignDecision** or an equivalent selected design. Identify the evidence strategy, core contrast, relevant rivals, threats and appropriate criticism. Criticism here means an examination capable of exposing an important error or limiting the answer. Use an experiment or significance test only where it bears on that question.
 
@@ -1870,13 +1870,15 @@ Choose an analysis justified for the subject, material and inference. Use the cr
 | Research use | Practical analytical move | Criticism that can change the answer |
 | --- | --- | --- |
 | Quantitative or experimental estimate | Identify the target quantity, units of sampling or assignment and comparison. Report the estimated magnitude and its justified uncertainty, including relevant exclusions, multiple comparisons and choices made before or after seeing results. | Dependence, missing data, measurement and analytical choices can change the estimate or its interpretation. A significance label alone gives neither an estimate of effect size nor grounds for attributing a cause. |
-| Observational or field account | Relate observations to the sites, periods, selection and measurement conditions. State the pattern established. | Examine confounding, seasonality, selection and any missing comparison when attributing a cause. Repeated measurements of one site can describe variation at that site. Inference across independent sites needs evidence from those units. |
+| Observational or field account | Relate the findings to the units, sites, periods and selection. For a claim across sites, establish how those sites cover or represent the target and which observations share a source. | For an effect attributed to a cause, examine the comparison, selection, seasonality and confounding. Repeated measurements can establish a pattern for one site. An argument about other sites needs grounds for combining or carrying that result. |
 | Qualitative or reflexive interpretation | Develop the interpretation under the selected approach and theoretical commitments. Connect it to the research material, the researcher’s contribution and relevant discordant cases. | A theme may omit a different account or extend beyond what its extracts support. In reflexive thematic analysis, judge the interpretation by its coherence with the approach and its grounding in the material. |
 | Historical or source-critical account | Examine the dating, authenticity, provenance and purpose of the sources, their dependence and the sequence of events in question. | Copies may share one source. An archive’s survival and access conditions can explain a silence. A document may establish when a change occurred while leaving its cause open. Check material that could support a contrary chronology. |
 | Computational or model claim | Identify the target, derivation or implementation, data, environment, fitted quantities and relevant assumptions. Interpret the output for the stated target. | Reproducing an output can support a claim about the implemented calculation. Calibration, verification, sensitivity and validation for a field use each examine a different connection. |
 | Mixed inquiry | Analyze each component using its appropriate method and specify the relation claimed between the results. | Check dependence, meanings, targets and disagreements before combining results. Preserve a disagreement that changes what the components jointly support. |
 
 Apply the kind of criticism the claim needs. A descriptive estimate can answer a descriptive question. In a qualitative inquiry, establish the sampling, saturation or reliability criterion from the approach and question where it is relevant. Historical claims can be examined through surviving evidence. If a disciplinary criterion is still needed, identify the claim it limits and a competent source where one is available.
+
+For a finite population, classifications can bound an answer even when the records examined were selected because of a suspected problem. Suppose a complete period contains 40 distinct records. Four of 20 examined satisfy the criterion and the other 16 do not. Among the 20 unexamined records, any count from zero to 20 is possible on the evidence given. The total for the period is therefore 4 to 24. This establishes at least 10%, rules out at least 65% and leaves at least 50% open. Estimating a rate for a later period requires grounds relating the periods, their populations and selection. The past bounds stand without that prediction.
 
 #### RMP.5:4.3 - Criticize the consequential inference
 
@@ -3449,7 +3451,7 @@ Now suppose an authenticated February provider proposal comes to light. The Marc
 
 ### RMP.11:9 - Consequences
 
-The historical account can establish when a Method changed and restore forgotten variants. Evidence can favour some explanations over others or leave rivals unresolved. In a current decision, an authorized reversible probe may be justified from non-causal observations even when the proposed effect lacks support.
+The historical account can establish when a Method changed and restore forgotten variants. Evidence can favour some explanations over others or leave rivals unresolved. In a current decision, an authorized reversible probe may be justified from non-causal observations even when the proposed effect lacks support. A dated source that settles the historical question can complete the research. A further question about why participants acted or how another setting will behave needs evidence specific to that inference.
 
 Comparing explanations requires source criticism. Assessing a causal use also requires examining the relevant threats. The best supported answer can be a dated account, a partial explanation or a stated limit on causal reliance.
 
@@ -3700,9 +3702,13 @@ Use [statistical inference under an observation model (MMP.13)](Foundational%20T
 
 ### RMP.Application:5.4 - Ask for a comparison the organization can obtain and run
 
-The manager gives a qualified analyst a concrete request:
+Before commissioning the analysis, the decision owner settles whose waiting time the proposed staffing should improve. Give every eligible request equal weight for a claim about the average request. For a claim about a branch selected with equal probability, give each branch’s mean equal weight. For a promised improvement in every branch, check what can be concluded for each. Agreement on the target determines what to ask the analyst to estimate.
 
-> We need to decide whether to fund an additional hour of approval capacity per working day in each participating branch. The new arrangement adds a trained approver during that hour using the existing rules. The current arrangement has no additional approver. We need working time from an eligible request to sending the quotation, including waits for missing input, and the change in the proportion of quotations requiring a customer-facing correction. Specify the eligible cases and branches, assignment, treatment of unfinished or missing cases, comparison and uncertainty calculation.
+To see why, suppose the same eligible cohorts and comparison give a reduction of three days for each of 10 requests in one branch and zero for each of 100 in another. The equal-branch mean reduction is 1.5 days. The equal-request mean is 30/110 of a day. The second branch has no reduction. Only the first mean exceeds one day. These stipulated reductions demonstrate what the quantities measure. To conclude that the actual study clears both funding criteria, use its two specified interval limits. Failure on either required criterion can rule out approval under that rule. An independent limit on staffing or expenditure may already settle the funding decision.
+
+The owner of this trial wants a result for a branch at the stated workload and gives each participating branch equal influence on both outcomes. The manager asks the analyst to design a comparison for that target.
+
+> We need to decide whether to fund an additional hour of approval capacity per working day in each participating branch. The new arrangement adds a trained approver during that hour using the existing rules. The current arrangement has no additional approver. We need working time from an eligible request to sending the quotation, including waits for missing input, and the change in the proportion of quotations requiring a customer-facing correction. Use the agreed equal branch weights. Specify the eligible cases and branches, assignment, treatment of unfinished or missing cases, comparison and uncertainty calculation.
 
 The manager supplies workload and complexity records, staffing, queues, expected volumes, the reporting deadline and who can keep the records. Before seeing intervention results, the manager and decision owner set two criteria. The lower limit of the specified two-sided 95% interval for mean time reduction must exceed **one working day**. The upper limit of the corresponding interval for increased correction rate must be below **0.5 percentage points**. These criteria govern the case’s operating decision.
 
@@ -3749,7 +3755,7 @@ For correction rate, the paired changes, new minus current, are **−0.4, −0.2
 
 The intervals express uncertainty about the average under the qualified analysis. One pair’s observed correction-rate increase is 0.6 percentage points. The predeclared criterion concerns the average. These data do not establish that every branch or pair remained below 0.5 percentage points.
 
-[RMP.5](#rmp5---analyze-and-criticize-the-research-claim-under-its-method) connects the observations, analysis and criticism to the claim. [RMP.8](#rmp8---use-research-results-to-retain-or-revise-an-epistemes-claims-and-return-bounded-evidence) returns the supported change to the knowledge account. **Under these branch, workload and monitoring conditions, the specified additional-approver arrangement reduced average customer waiting, with the stated uncertainty and average quality bound.** Input and other stages can still contribute to delay. Assess differently specified staffing arrangements under their own conditions.
+[RMP.5](#rmp5---analyze-and-criticize-the-research-claim-under-its-method) connects the observations, analysis and criticism to the claim. [RMP.8](#rmp8---use-research-results-to-retain-or-revise-an-epistemes-claims-and-return-bounded-evidence) returns the supported change to the knowledge account. **Under these branch, workload and monitoring conditions, the specified additional-approver arrangement reduced the equally weighted mean of the branches’ waiting times, with the stated uncertainty and the upper bound on the increase in the equally weighted mean branch correction rate.** Input and other stages can still contribute to delay. Assess differently specified staffing arrangements under their own conditions.
 
 The decision owner compares the recurring benefit with staffing costs and alternative uses of staff. At one hour each working day, eight branches need 160 approval hours per four-week period and sixteen need 320. Suppose 160 hours are available without displacing a more valuable commitment. The authorized owner may continue in branches that can be staffed within those hours and observe the relevant outcomes. The choice of branches and the capacity to serve them require their own grounds.
 
@@ -3781,7 +3787,7 @@ When inspecting a plan or its execution, identify which conditions affect the co
 | Inadequate recording resolution or precision | Inspect the recording operation and the planned uncertainty. More rounded rows may add no distinction; more genuinely informative units may still be too costly to obtain. |
 | Selecting outcomes, analyses or stopping after seeing results | Preserve what was fixed beforehand and why later choices changed. An exploratory favorable subgroup can suggest another question; it does not retrospectively become the planned confirmatory answer. |
 
-Before extending the finding, examine the workload, staffing and interactions in the receiving setting. Re-running the same data can expose a computational error. For a question requiring new workplace cases, use suitable existing evidence or assess a further check through [RMP.6](#rmp6---choose-a-credibility-test-that-bears-on-the-research-claim-or-answer-without-new-testing). Finish with the supported answer or its precise limit. Where a decision is part of the task, state what the result can inform.
+Before extending the finding, examine the workload, staffing and interactions in the receiving setting. Re-running the same data can expose a computational error. For a question requiring new workplace cases, use suitable existing evidence or assess a further check through [RMP.6](#rmp6---choose-a-credibility-test-that-bears-on-the-research-claim-or-answer-without-new-testing). Finish with the supported answer or its precise limit. Where a decision is part of the task, state what the result can inform. If the new commission concerns a request selected from all eligible requests across the branches, recover the request weights. To answer for customers, also establish how to count a customer with several requests. If it concerns every branch, ask whether the scope and precision of the branch results support that requirement. Either change reopens the affected comparison.
 
 ## RMP.Application:6 - Restore a service while investigating an unresolved mechanism
 
@@ -3845,7 +3851,7 @@ Enter the eleven-method repertoire where a contribution fits the question. Use d
 
 ## RMP.Sources:3 - Citation
 
-Levenchuk, Anatoly. *Research Method Practice Principles Framework — First Edition*. Original edition, 24 October 2026. Developed and reviewed with AI assistance. [Publication](https://github.com/ailev/FPF).
+Levenchuk, Anatoly. *Research Method Practice Principles Framework — First Edition*. Original edition, 24 October 2026. Revised 21 November 2026. Developed and reviewed with AI assistance. [Publication](https://github.com/ailev/FPF).
 
 To identify the version you used, cite a permanent link to this file at the specific repository commit. For a particular method, include its PatternID and title.
 

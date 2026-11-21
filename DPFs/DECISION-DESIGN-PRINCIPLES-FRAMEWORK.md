@@ -4,7 +4,7 @@
 
 Use this framework to formulate problems, construct decision alternatives and models, and determine how their results can be used in a bounded inquiry or professional engagement.
 
-Anatoly Levenchuk, with AI-assisted development. [Working edition, 24 October 2026](#psdasources2---citation-and-limits). Original and adapted framework text: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Third-party sources retain their own terms.
+Anatoly Levenchuk, with AI-assisted development. [Working edition, 21 November 2026](#psdasources2---citation-and-limits). Original and adapted framework text: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Third-party sources retain their own terms.
 
 Start with the result the inquiry needs, such as a formulation, model, alternative, comparison, participation arrangement or qualified answer. Reuse an adequate existing result within its conditions. The Readme gives direct entries, the Architectural Reference explains their connections, and the patterns provide instructions, cases and source comparisons.
 
@@ -3131,7 +3131,9 @@ Use the question, the options still under consideration, their established or un
 
 A mixed answer can be useful if its scopes are unmistakable: retain two directions and block a stronger ranking, with a comparison request only when selected for its attainable value. State what each part of the answer covers.
 
-The strength of each claim stays inside the narrowest material limit of the premises on which **that claim** depends. If one input supports only a particular AI configuration, the recommendation cannot silently extend it to another. If an unused source expires, it does not invalidate unrelated claims merely by appearing in the same bibliography.
+For each recommendation, identify the inference its premises support together. If the decision requires access and authority at the time of use, both must hold for that use. If two departments provide complete accounts for the same kind of item and period and together cover the enterprise, their counts add to the enterprise count when the sets of items are disjoint. For a shared unit, account for it once. When advice concerns a different configuration, establish the correspondence that carries the finding there or obtain evidence for the new configuration. Retain conclusions whose premises still hold when an unrelated source expires.
+
+For a guarantee, identify a jointly possible situation under the brief. Show that the proposed action can be taken and achieves the required result under every situation still admitted. If the constraints conflict, return that conflict and its consequence for the choice. When the holder accepts risk, compare the risk or a justified bound with their criterion. When the choice can wait, establish which information, time and authority the holder will have then. The same alternatives can support different advice under these three briefs.
 
 When a total order is unwarranted, prefer an explicit partial answer to invented weights or probabilities. When the declared scheme does support one direction, do not conceal that conclusion behind an uninformative list. Where a serious alternative is less suitable, explain the reason and the conditions that could alter the judgement.
 
@@ -5002,7 +5004,9 @@ Include the information the recipient needs to understand and use the particular
 
 A short blocker can name the missing premise, the conclusion it prevents and who needs that result. A consequential recommendation may need a protected annex and a fuller account of its premises.
 
-Keep each claim inside the narrowest material limit of the premises on which that claim depends. An evaluation confined to configuration A supplies no basis for B on its own. Independent evidence for B, or a supported transfer of the evaluation to B, can qualify the relevant conclusion. If the internal-development comparison does not depend on that evaluation, it can remain usable.
+Explain how the premises support this holder’s decision. A test in configuration A can support a claim about B when a warranted correspondence carries the finding there. Independent evidence about B can settle the claim directly. For an order about the two sites together, complete accounts in the same unit and period can establish the total across sites. Resolve shared cases before adding. For a shared service, check the commitments that can fall due together. An internal development option independent of the evaluation retains its own grounds.
+
+Give the holder the recommendation that the grounds sustain. For a guarantee, establish that the brief and the evidence admit at least one joint situation. The same action must be available and achieve the agreed result in every situation they admit. A permitted risk can justify a different option. For a choice made after observing the outcome, identify an authorized action available in time for each possible observation. Each action must work across the situations that observation still leaves open if a guarantee is owed. If the only option that fits still needs the client’s authorization, return it for that decision.
 
 
 
@@ -5342,7 +5346,7 @@ Return a supported direction with its conditions and identify the unresolved bra
 
 ### PSDA.Application:3.1 - Recover the difficulty before naming a solution
 
-A team sends its weekly report before the agreed deadline. The timeliness indicator is green, but the planner must call colleagues to recover identifiers before assigning the work. Four of twenty rows selected for diagnosis need clarification. That observation identifies a difficulty in the selected cases. An estimate of its frequency across the organization needs a suitable sampling basis.
+A team sends its weekly report before the deadline, yet the planner must call colleagues to recover identifiers. Four of twenty distinct rows selected for diagnosis need clarification. The other sixteen are confirmed usable. Suppose the complete report contains forty distinct rows and there is no information about the remaining twenty. At least four and at most twenty-four rows need clarification. If the manager’s trigger is at least 10% of this report, it has been reached. At least 65% is impossible. Whether at least half need clarification is open. The unexamined rows matter to the last decision. To estimate the frequency in future reports, examine whether the selection, units and reporting conditions support the estimate.
 
 With [FPF B.5.PI](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#b5pi---initiate-inquiry-from-work), ask what prevents the planner from using the report under the agreed conditions. A complaint is evidence of what someone reports. A blank field is a property of a record. To establish an obstruction, connect the receiving work, the applicable requirement and what occurred. Use [FPF C.22.2](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c222---problemcard) to describe that problem and its outstanding factual or criterion premises.
 
@@ -5658,21 +5662,23 @@ Using [PSDA.1](https://github.com/ailev/FPF/blob/main/DPFs/DECISION-DESIGN-PRINC
 
 With [FPF C.40.JD:4.5](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c40jd45---synthesize-the-organization-from-the-work-and-conditions), identify the work the teams need to retain locally and the specialist help, common resources and wider decisions they require. Use [FPF C.32.MWA.PP](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c32mwapp---construct-and-compare-method-performance-and-provision-arrangements) and [OCE.8](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce8---compare-human-ai-robotic-and-provider-arrangements-for-the-same-organizational-work-result) to compare proposed ways to perform and supply the whole result, testing their feasibility. Here the evidence supports the managers’ coaching competence, and each has one protected hour per week for local work. The common subject question still requires specialist help.
 
-Compare two arrangements for six weeks. Distributed support uses the existing managers and a shared specialist. The proposed office initially uses the same specialist and local practice and adds two weekly coordination hours. No additional specialist capacity has been secured. The table gives the recurring specialist work.
+Compare two arrangements for six weeks. Distributed support uses the existing managers and a shared specialist. The proposed office initially uses the same specialist and local practice and adds two weekly coordination hours. No additional specialist capacity has been secured. The table gives the recurring specialist work. In the distributed proposal the specialist can prepare a single result and make it available to every lead before that lead’s own protected hour. The leads can use it separately. The office proposes the same activities plus coordination.
 
 | Specialist contribution | Managers with distributed help | Proposed office using the same specialist |
 | --- | --- | --- |
 | Existing commitments | 2 hours | 2 hours |
-| One genuinely shared inquiry session | 2 hours | 2 hours |
+| Specialist inquiry yielding one reusable result | 2 hours | 2 hours |
 | Four distinct case reviews, half an hour each | 2 hours | 2 hours |
 | Additional office coordination | 0 hours | 2 hours |
 | Total against six available hours | 6 hours | 8 hours |
 
-A single session can serve all four teams because they need the same distinction and may share the material. The local reviews remain separate. This case supplies protected team time, permitted material, management authority and the ability to receive the result. Given those other conditions, the six-hour total fits the specialist’s available time.
+The four teams need the same technical distinction and may share the specialist’s result. Each lead has time in their protected hour to use it and take part in their half-hour case review. Assume the specialist can schedule the four reviews in those windows after preparing the result and alongside the two hours already committed. This supplies a joint arrangement that fits six specialist-hours. One report can serve all four leads because the brief permits each to use it at a different time.
 
-The adviser recommends distributed support for the six weeks. The proposed office needs eight specialist-hours against six available. Concentrated demand, a reusable service, another qualified provider or a different coordination cost could change the comparison. An external provider whose access and availability are unknown remains conditional. With [PSDA.9](https://github.com/ailev/FPF/blob/main/DPFs/DECISION-DESIGN-PRINCIPLES-FRAMEWORK.md#psda9---test-robustness-and-sensitivity-of-decision-alternatives-and-their-comparison), test consequential changes when needed. Use [PSDA.14](https://github.com/ailev/FPF/blob/main/DPFs/DECISION-DESIGN-PRINCIPLES-FRAMEWORK.md#psda14---prepare-and-return-a-decision-support-recommendation) to return the recommendation to the director for the separate choice.
+If the work instead requires every lead to attend a two-hour inquiry together, the same specialist total leaves the timetable open until attendance is checked. With only one hour authorized per lead, that session cannot be delivered as proposed. Even two hours per lead would require a common window. Reopen the proposal, the time available or the form of support that the client will accept.
 
-If confidentiality later prevents a common session, four separate two-hour sessions require eight hours. With two hours for case reviews and two already committed, the total is twelve against six available. The distributed proposal no longer fits. Revisit its provision or scope. The previously established technical distinction is still available.
+Under the commissioned use of the reusable result and the stated timetable, the adviser recommends distributed support for the six weeks. The proposed office needs eight specialist-hours against six available. Concentrated demand, a reusable service, another qualified provider or a different coordination cost could change the comparison. An external provider whose access and availability are unknown remains conditional. With [PSDA.9](https://github.com/ailev/FPF/blob/main/DPFs/DECISION-DESIGN-PRINCIPLES-FRAMEWORK.md#psda9---test-robustness-and-sensitivity-of-decision-alternatives-and-their-comparison), test consequential changes when needed. Use [PSDA.14](https://github.com/ailev/FPF/blob/main/DPFs/DECISION-DESIGN-PRINCIPLES-FRAMEWORK.md#psda14---prepare-and-return-a-decision-support-recommendation) to return the recommendation to the director for the separate choice.
+
+If confidentiality later requires a separately produced two-hour inquiry for each of the four teams, those inquiries alone require eight specialist-hours. With two hours for case reviews and two already committed, this version needs twelve against six. It cannot meet the changed commission with this provider and allocation. Examine permitted alternatives such as another qualified provider or a changed service. The technical distinction already established remains available wherever its disclosure and use are permitted.
 
 When the chosen arrangement is authorized for use, assess its performance from the work carried out. In a contrasting case, examine how a lead identifies a consequential premise, obtains the missing subject answer and forms a justified commitment. This may support a conclusion about that lead’s contribution under the observed conditions. Evaluate the revised method and any stronger capability claim on their respective grounds. Use [PSDA.15](https://github.com/ailev/FPF/blob/main/DPFs/DECISION-DESIGN-PRINCIPLES-FRAMEWORK.md#psda15---arrange-decision-follow-up-or-reassess-advice-after-a-change) and [FPF C.40.RQ](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c40rq---requalify-changed-opportunities) to revisit advice or opportunities that depended on a changed premise.
 
@@ -5710,7 +5716,7 @@ Cite the edition used. The following citation identifies this working edition.
 ```text
 Anatoly Levenchuk, with AI-assisted development and review.
 Decision Design Principles Framework.
-Working edition, 24 October 2026.
+Working edition, 21 November 2026. The original edition appeared on 24 October 2026.
 GitHub repository: https://github.com/ailev/FPF
 ```
 

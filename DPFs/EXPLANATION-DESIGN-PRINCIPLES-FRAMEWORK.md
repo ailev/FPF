@@ -6,7 +6,7 @@ Develop or use a warranted explanation of the connection a recipient needs. Choo
 
 Anatoly Levenchuk, with AI-assisted development and review.
 
-Edition dated 23 October 2026.
+Edition dated 21 November 2026.
 
 **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
 
@@ -137,7 +137,7 @@ Formal computational epiplexity has a specified model and computational bound. A
 
 Recover the account that supports the connection the recipient needs. It may be a mathematical definition and derivation, a causal finding, a Method account or a recommendation's rationale. Select its relevant claims while preserving answer-changing conditions, alternatives and limits. The minimum useful account can be very short.
 
-For a nonempty finite list, its mean is the sum divided by the count. Group A contains 2 and 4, with sum 6 and mean 3. Group B contains six 8s, with sum 48 and mean 8. Equal weight per individual gives `(6 + 48)/8 = 6.75`. Equal weight per group gives `(3 + 8)/2 = 5.5`. The intended weighting determines which result answers the question.
+For a nonempty list the mean is its sum divided by its count. First decide what gets counted once. Group A contains two people with values 2 and 4. Group B contains six other people, each with value 8. The mean per person is `(6 + 48)/8 = 6.75`. If the decision gives each group equal influence, the mean of the group means is `(3 + 8)/2 = 5.5`. The word *other* supplies a premise of the first calculation. If the same person occurs on both lists, adding their counts gives the number of entries. For one value per person, first settle which value represents someone with several measurements. With one entry per person per list and a common value for a shared person, add the two group sums and the two counts, then subtract the overlap’s sum and count to obtain the figures for the union. Other evidence can settle the mean directly. If every person has the same value, any nonempty union has that mean whatever its size.
 
 If a consequential connection lacks grounds, identify the missing premise, derivation or other subject contribution. A causal explanation requires suitable evidence about the cause. A recommendation needs the premises and conditions supporting it, including any alternatives material to its rationale. A mathematical step may follow from a definition or a derivation already available. Use a qualified existing result when it supplies the connection. Otherwise state the conditional answer or the limit and seek further subject work when the task warrants it.
 
@@ -262,7 +262,7 @@ Start from the question as expressed in the available request, material or excha
 
 Read the assignment in the recipient’s terms. What are they to produce, and for which situations? Someone asked to design a procedure must decide matters that someone following the procedure can take as settled. Establish which choices belong to the recipient, what they may rely on and which changes the procedure must accommodate. If the assignment concerns one event, an explanation of that event can answer it in full.
 
-If different interpretations would change the answer, use relevant existing instructions or evidence of the recipient’s purpose. If the distinction remains open, ask a brief question or give conditional answers. For an average, determine whether each individual or each group should count equally. For advice, distinguish a request for the recommendation’s existing grounds from a question about evidence of expected development.
+If different interpretations would change the answer, use relevant existing instructions or evidence of the recipient’s purpose. If the distinction remains open, ask a brief question or give conditional answers. For an average, determine whether each individual or each group should count equally. For advice, distinguish a request for the recommendation’s existing grounds from a question about evidence of expected development. A branch report can count visits, distinct visitors or returns to the same service. Ask which of those could change the recipient’s action. If two branches share visitors, the choice can also change which records the explainer needs. A threshold may already be settled by the extremes allowed by the records.
 
 Use a clear reply or an adequately supported interpretation. If the weighting target remains open, state the consequences. Equal group weights and equal individual weights call for different calculations. Identify the outstanding policy choice only when the task requires choosing between them.
 
@@ -395,7 +395,7 @@ Show how the instance relates to the claim and, where a plausible alternative wo
 
 Use [EXD.1](#exd1---establish-and-revise-what-a-recipient-needs-explained) if the current question needs clarification. For a definition, derivation, causal account or recommendation premise, see the [supplied-account entry](#exdreference3---obtain-and-carry-the-subject-explanation). Use the available subject basis directly when sufficient.
 
-Identify the correspondence to show. In a pooled mean, multiplying each group mean by its count gives the group sum. Add group sums and group counts separately. For two groups, choose unequal counts and unequal means if the example must distinguish equal weighting per individual from equal weighting per group.
+Identify both the rule and the conditions that license it. Multiplying a group’s mean by its count reconstructs that group’s sum. When the groups partition the units the recipient wants to count once, adding their sums and counts gives the sum and count for the whole. For overlapping groups, reconstruct the overlap or obtain sufficient figures for the whole in another way. For two nonempty groups that partition the people, unequal group sizes and unequal means give different answers for equal group weights and equal individual weights. With more groups, check whether the chosen figures actually distinguish the rules.
 
 Use an observed or documented case when its evidence and complexity suit the explanation. A constructed case can make the assumptions and answer criterion explicit. State which kind of example supplies the result.
 
@@ -403,7 +403,7 @@ Choose the example for its role in the whole explanation. Derive the relevant va
 
 #### EXD.2:4.2 - Work the correspondence, not only the answer
 
-Show the quantities, operations, relations and conditions needed for the result. Identify which feature of the instance corresponds to which part of the claim and why each consequential inference follows. When explaining how to design an example, show the explainer’s choice and the reason for it. Choosing unequal counts and unequal means distinguishes the two weighting rules. Multiplying count by mean is the mathematical operation used within that example.
+Show the quantities, operations, relations and conditions needed for the result. Identify which feature of the instance corresponds to which part of the claim and why each consequential inference follows. When explaining how to design an example, show the explainer’s choice and the reason for it. In the example with two nonempty groups, unequal counts and unequal means distinguish the two weighting rules. Multiplying count by mean is the mathematical operation used within that example.
 
 For a calculation, name the units and what each numerator or denominator counts. For a causal example, separate the observations and the inferred mechanism. For an analogy, identify the relation that carries over and a consequential condition or difference that limits it. Two things can look alike while the relation needed for this inference differs.
 
@@ -425,7 +425,7 @@ A worked instance can reveal a missing condition or suggest a wider explanation.
 
 State the relation the example preserves and where a claimed correspondence ends. In one aggregation a branch is the equally weighted unit. In another, the individuals within each branch receive equal weight. The same data can therefore answer two different questions.
 
-Use enough examples to make the required relation and its material variation understandable. One case or a pair may suffice for a local distinction. A broad account should include the different conditions on which its conclusion depends. Remove details that add no needed relation.
+Check the range of the argument and the job of each example. A derivation can establish the result for every admissible grouping while one worked case helps the reader recognize when it applies. If the explanation promises to teach the selection of units or treatment of shared cases, give the reader the grounds and an opportunity to make that choice. When a choice is already settled for the specified use, explain how to apply it.
 
 Continue a worked case when its earlier result or conditions help explain the next relation. Identify what the case contributes at each use. Change or end the case if it hides a consequential alternative, condition or kind of application. An explanation can remain connected through its question and reasoning while its examples change. Changing a number in the same story can test a calculation without testing the wider range of a claimed Method.
 
@@ -433,7 +433,7 @@ Assess the example against the recipient’s task. Does it supply the relation, 
 
 ### EXD.2:5 - Archetypal Grounding
 
-A recipient can average a list but combines group means without considering counts. The question is the mean across all individuals.
+A recipient can average a list but combines group means without considering counts. The question is the mean across eight distinct people. Each person appears in exactly one of the two groups.
 
 | Group | Count | Mean | Reconstructed sum |
 | --- | ---: | ---: | ---: |
@@ -447,7 +447,9 @@ Now reduce B to two values of 8. Each branch contains two observations. The comb
 
 Now keep the unequal counts and give both groups mean 3. Both summaries equal 3 because the weighted terms share the same mean. Equal results for this data do not establish that the weighting rules are identical or that unequal counts always give different answers.
 
-Together, the cases show which rule answers the stated question and why the shortcut sometimes agrees numerically. They are constructed mathematical instances. Evidence about how people learned would be needed for a claim that the examples improved learning.
+Now ask the recipient to decide what can be reported from two lists, one containing 0 and 12 and the other containing 12 and 12. Each list has one entry per person. A person has the same value on both lists. The mean of the four entries is 9. For a mean per distinct person, only a person with value 12 could be on both lists. If the lists are disjoint, the answer is 9. If one person occurs on both, the sum after removing the duplicate is 24 for three people, giving 8. These exhaust the possible overlaps. The mean per person is at least 8 under either reading of membership. Deciding whether it exceeds 8.5 requires another fact. Confirmation of overlap would suffice without identifying anyone by name.
+
+The derivation shows when group counts and means suffice and why two weighting rules sometimes agree numerically. The worked choices show how to use those grounds. To judge how learners handled the choice, examine the units and evidence they selected themselves under the help they received.
 
 In a constructed example, a manual prices a batch of twelve parts at 30 currency units. A guide promises a cost-per-part calculation that its reader can recover without the manual. It repeats the price and omits the batch size. The price agrees with the source, but the guide alone lacks the denominator. Including it gives `30/12 = 2.50` per part. A second guide shows `36/12 = 3` and attributes that price to the same manual. This calculation is recoverable, but its price contradicts the source. If both defects occur, assess both promised recovery and agreement with the source.
 
@@ -471,7 +473,7 @@ Expert familiarity can hide an intermediate relation a recipient needs. Check th
 
 Recognition asks whether a particular instance or comparison can make the needed connection usable.
 
-To assess an example, inspect its subject basis, correspondence, worked result and consequential conditions. If the explanation promises a range of uses, check that its examples cover that range and show the common relation. In an illustration of an explanatory Method, distinguish the explainer’s choice from the subject operation shown. When interpreting a response, distinguish which help was available from what the recipient used and supplied. A correct number reached by the wrong rule can identify a gap in the explanation or in the recipient’s inference.
+To assess the explanation, identify the inference that covers its promised range and the conditions that inference uses. In each worked example inspect the subject basis, correspondence and result. Which part of the argument did the author supply? What could the reader recognize or construct using it? One derivation inside one example can cover a whole class. Several examples can leave the same premise unstated. When interpreting a response, account for the help the recipient used and the part they supplied. A correct number reached by the wrong rule can identify a gap in the explanation or the recipient’s inference.
 
 ### EXD.2:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -826,7 +828,7 @@ Specify what the learner’s response should show. Keep the initial response whe
 
 Identify the question, learning purpose where relevant, and warranted subject relation. Choose or inspect a product that could show it, such as an explanation of one step, a labeled diagram, a worked correspondence or a demonstration that shows what its actions represent.
 
-State a criterion for the relation. For the pooled mean, the learner needs to show what the denominator counts and how to reconstruct each group’s sum. Accept any expression that establishes those two connections.
+Set the criterion from the learning purpose. If the groups already partition the people, the learner can show what the denominator counts and reconstruct each group’s sum. If the learner must choose the unit and decide what to do about shared membership, give the reporting purpose and the available records first. Credit the unit, treatment of overlaps and sufficiency of the information that the learner actually justifies. A filled-in denominator can still serve a lesson on carrying out the calculation.
 
 Use [EXD.2](#exd2---build-and-bound-an-explanatory-example) when the instance and contrast need construction. Keep legitimate tools available when the intended performance allows them.
 
@@ -854,13 +856,13 @@ If a difficulty persists and the learning task continues, reconsider its cause a
 
 ### EXD.5:5 - Archetypal Grounding
 
-The fixed task asks for the mean across all individuals. Group A has two values with mean 3; group B has six values with mean 8. The learner's first product is “(3 + 8) / 2 = 5.5, because there are two averages.”
+The fixed task asks for the mean across eight different people. Two people in group A have mean 3. The other six people, in group B, have mean 8. The learner's first product is “(3 + 8) / 2 = 5.5, because there are two averages.”
 
 Keep the first response. Ask, “Which things receive equal weight in this calculation?” In this example the learner answers, “The two groups.” Ask which things the question weights equally. If the learner identifies the individuals, show how the denominator of two reflects the grouping while the task concerns eight people.
 
 One adequate explanation is “Each group mean summarizes a different number of people. Multiply each mean by its count to obtain the group sums, 2 × 3 = 6 and 6 × 8 = 48. Divide their combined sum of 54 by the number of people, 2 + 6 = 8. The mean is 6.75.” If the learner needs help recovering the group sums, supply the relation between a mean, count and sum and record that help.
 
-For a further attempt, use three values with mean 4 and nine with mean 8. Ask for the pooled mean and the meaning of its denominator. Here (3 × 4 + 9 × 8) / 12 = 7. A response that uses the total count and reconstructs both sums meets the criterion under the assistance available. Establish independent use after a delay from a performance under those conditions.
+For a further attempt, divide twelve different people into two groups, three with mean 4 and nine with mean 8. Ask for the pooled mean and the meaning of its denominator. Here (3 × 4 + 9 × 8) / 12 = 7. A response that uses the total count and reconstructs both sums meets the criterion under the assistance available. Establish independent use after a delay from a performance under those conditions.
 
 For equal influence of the two group means, the answer is (4 + 8) / 2 = 6. Ask the learner to explain the change of target when distinguishing the weighting rules is part of the task.
 
@@ -942,7 +944,7 @@ Identify the result in question. Correctness, recoverability, what was actually 
 
 #### EXD.6:4.1 - Fix the receiving question and its criterion
 
-Identify what this recipient needs to recover or do and the applicable subject criterion. Examine the explanation in question. If a choice is needed, identify an available explanation that can serve as the comparison. A mathematical result depends on its derivation, and advice on its grounds and conditions.
+Identify what this recipient needs to recover or do and the applicable subject criterion. Examine the explanation in question. If a choice is needed, identify an available explanation that can serve as the comparison. A mathematical result depends on its derivation, and advice on its grounds and conditions. For a result across groups, decide whether the question concerns each group, the units in their union or an interaction among them. Test the candidate explanation where the same group summaries permit different answers for the required whole. Keep a common bound or operation when it already settles the question.
 
 Compare the task given to the author with the task actually put to the reader. If the assignment calls for design, let the reader make the consequential design choices using the finished explanation and the permitted resources. Asking them to name parts of a supplied design can establish recognition. To judge the explanation, try the commissioned work and identify any step you had to supply from outside the reader’s preparation. Choose a variation that bears on the promised use. The reader may have grounds to keep a decision, change it, choose among several admissible designs or identify a limit. An existing argument that covers the intended range can suffice. If the commission promises use in another discipline, have the reader construct or use the corresponding model to answer a question there. Listing facts still needed identifies an open question about use in that discipline. For a question about one event, assess the answer about that event.
 
