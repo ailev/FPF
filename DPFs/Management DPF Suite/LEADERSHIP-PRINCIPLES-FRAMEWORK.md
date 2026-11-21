@@ -43,7 +43,7 @@ Framework text adapted from Anatoly Levenchuk's Organization Change Engineering 
 
 ## Practical entries
 
-Start with the example that fits your working difficulty. If none fits, use the Table of Contents and read the relevant pattern's problem frame. An assisting agent can explain the methods in ordinary language: “Explain this and give me your comments without framework jargon.”
+Start with your question, a decision you face or a difficulty you want to explore. Who is to choose a direction, agree to a contribution or make something possible for someone else? Use the entry or the Table of Contents to find that work. Read the method for your question. When consulting a worked case, identify which choices its author has made and which choices are still yours. You can ask an assistant to explain, in the ordinary language of your work, what the method helps you understand or do and where its grounds run out.
 
 ### OWN-ACTION — A chosen purpose is not becoming action
 
@@ -113,6 +113,8 @@ Formal authority, actual influence and recognition by participants therefore ans
 
 The relevant group is often itself part of the question. Begin with the work, consequence or concern that connects the participants. Follow who experiences it, whose knowledge changes its interpretation, whose contribution could change it and whose rights or commitments would be affected. A departmental roster can omit a customer, an absent shift or an external maintainer; an open invitation can include interested people who cannot authorize the proposed action. Invite participants according to the contribution the inquiry needs and distinguish consultation from representation and decision.
 
+Work out which decision the inquiry must support. A person may choose a contribution, people working on separate parts may have to produce one usable result together, or a body may commit the organization under its mandate. Establish how the contributions form the common result. One participant may use another’s work, or separately authorized choices may form a decision under a voting rule. The resulting decision can bind the group while its members disagree. If a group is commissioned to design that arrangement itself, establish who chose how the contributions would fit. A body can approve a workable design supplied by someone else. If two arrangements have the same roster and stated aim, could a different division of responsibility, dependency or right to act change the answer? Keep that distinction in the account. Where the answer and its grounds hold for either arrangement, one account can serve both.
+
 Participants can disagree about what is happening before they disagree about a solution. Compare concrete episodes and their interpretations. One participant can call a delayed release laziness while another shows that unresolved integration work repeatedly returns to the same volunteer. That changes the object from individual effort to the relationship between release promises and contribution conditions. A shared description is useful when participants can correct it and use it to consider a next move. Repeating the same phrase is weak evidence of that understanding.
 
 Direction relates a worthwhile change to those who could undertake it and to the consequences they will accept. It may be a bounded inquiry, a service commitment or a longer ambition. It need not erase different personal purposes. A contributor can support a common repair because it helps users while another values learning, provided the actual arrangement respects both contributions and does not rely on an unstated sacrifice. If the purposes cannot coexist, narrower cooperation, separate work or refusal can be the result.
@@ -168,7 +170,7 @@ The methods address different breaks in the relationship between participants, p
 | What the situation leaves unresolved | Useful leadership result | Where the way is explained |
 | --- | --- | --- |
 | People have concerns or ambitions but cannot yet say what they can undertake together or who will carry the initiative. | A direction shaped with the relevant participants, the bounds of their participation and a justified first action or refusal. | LDR.5, with strategic or domain construction where needed. |
-| A needed explanation, role conversation, challenge or continuing initiative lacks a capable performer or usable conditions. | The contribution is performed and its next occasion has the stated help. | LDR.1. |
+| A needed explanation, role conversation, challenge or continuing initiative lacks a capable performer or usable conditions. | An agreed arrangement with the means to supply the contribution. For a question about performance, establish who did the work and what reached the receiver. | LDR.1. |
 | Parties' proposed contributions or terms cannot coexist. | A feasible whole accepted by those whose agreement is required, or a precise impasse. | LDR.2. |
 | An examinable proposal has not reached an effective decision, supported start and useful performance. | The authorized first contribution reaches its receiver, with the remaining conditions visible. | LDR.4. |
 | A person cannot connect their chosen purpose, actual action and further development. | An attainable personal continuation or a reason to change the undertaking. | Reference:1.6 connects the choice to STR.5/.6, the complete HCD.2/.15 methods and the actual work conditions. |
@@ -199,7 +201,7 @@ FPF Core supplies the connected answer through B.5.SD, including the subject rea
 
 Start with the work needed now and the arrangements already capable of producing it. A competent lead who allocates resources, obtains help, listens, adjusts the plan and checks the result may already satisfy the need. Preserve that arrangement. Add negotiation, specialist inquiry, supported learning or proposal preparation only where its additional contribution is worthwhile.
 
-Compare the same receiving result over the same period. Include preparation, participation, representation, inquiry, implementation, help, waiting, supervision, maintenance and work displaced elsewhere. A development arrangement that retains the expert as fallback saves none of that expert's reserved availability. Its additional value may be another participant's demonstrated contribution or a more resilient continuation; state and examine that value.
+Compare the same receiving result over the same period. Include preparation, participation, representation, inquiry, implementation, help, waiting, supervision, maintenance and work displaced elsewhere. For an expert on standby, compare the windows that must still be reserved and the help actually used. Only time freed for other work counts as released availability. Its additional value may be another participant's demonstrated contribution or a more resilient continuation; state and examine that value.
 
 Consent, authority and feasibility each change the available action. A volunteer can refuse a new contribution. A manager may possess a valid power to assign some work, without possessing a contractor's resources or another unit's time. An institutional decision may proceed under a legitimate rule despite disagreement; report that decision as such, rather than manufacturing unanimity. Use the applicable legal and professional methods where an actual rule is disputed.
 
@@ -215,7 +217,7 @@ Cheap computation does not make attention, transition, authority, verification o
 
 ## LDR.Reference:6 - How to use and question the result
 
-Read the Solution and worked case of the pattern that answers the actual difficulty. Use its direct suppliers for a missing professional result. Carry out the chosen contribution and follow it to its receiver. A declined proposal, a protected current arrangement or a precise unresolved condition can be the warranted outcome.
+Start with the Solution of the pattern that answers the actual difficulty. A worked case can clarify a consequential choice. Carry its reasoning across to your own work where the conditions on which it depends hold. Use its direct suppliers for a missing professional result. Carry out the chosen contribution and follow it to its receiver. A declined proposal, a protected current arrangement or a precise unresolved condition can be the warranted outcome.
 
 The examples are constructed situations. Their stipulated capacities, rules, acceptances and technical results show how the methods work and which changes alter the conclusion.
 
@@ -233,7 +235,7 @@ Reconsider the smallest affected part when the task, provider, support, authorit
 
 ### LDR.1:1 - Problem frame
 
-Use this pattern when joint work needs an explanation, challenge, role conversation, allocation of help or other leadership contribution that is missing or depends on one initiator. Begin with the next piece of receiving work and ask what a participant needs to be able to do differently. The first useful result is a capable, feasible arrangement for supplying that contribution; follow it into actual performance.
+Use this pattern when joint work needs an explanation, challenge, role conversation, allocation of help or other leadership contribution that is missing or depends on one initiator. Begin with the next piece of receiving work and ask what a participant needs to be able to do differently. The first useful result is a capable, feasible arrangement for supplying that contribution. Follow the contribution into performance when the receiver needs the work done or needs to know how it went.
 
 For example, a reviewer needs an unsupported claim returned to its author, but a novice facilitator suppresses the objection. The missing contribution is to preserve the objection and obtain a qualified answer.
 
@@ -282,7 +284,7 @@ Identify the actual contributions required to perform the selected method. Facil
 
 Compare the available arrangements against the same result and period. Begin with competent ordinary coordination, including its existing assistance and follow-through. Compare an additional helper, another provider, supported development, autonomous qualified AI or a changed scope only when the alternatives matter. Include preparation, participants' consultation, representation, inquiry, allocation, execution, continuing help, checking, waiting and displaced work. Include overlaps: do not allocate the same time twice to contributions that require the mentor's separate attention. Qualify any combined or concurrent performance under the performer's actual capacity and the required guarantees.
 
-Suppose competent current help supplies all three discussions required in six weeks. That arrangement is sufficient if those are the only required results. Preparing a second facilitator may be justified by future volunteer rotation, but it adds provider preparation, practice, feedback and later observation. If the expert remains reserved as fallback, credit no saved expert availability. Decide whether the additional continuation evidence is worth the added burden; retain competent help if not.
+Suppose competent current help supplies all three discussions required in six weeks. That arrangement is sufficient if those are the only required results. Preparing a second facilitator may be justified by future volunteer rotation, but it adds provider preparation, practice, feedback and later observation. If the same windows remain reserved for the expert as fallback, those windows are still committed. Decide whether the additional continuation evidence is worth the added burden; retain competent help if not.
 
 C.11.DUA supplies the appraisal of an additional inquiry or optional change. Ask what a plausible answer would change before commissioning another assessment. When present evidence already supports the next contribution, perform it. When no feasible competent arrangement exists, narrow, defer or decline the unsupported work; do not turn a hopeful development plan into present capacity.
 
@@ -340,13 +342,13 @@ Human development may be unnecessary when a qualified colleague, external servic
 
 Arrange the next contribution: when it is needed, who can supply it, what assistance remains and where an issue beyond that performer's competence or authority goes. Keep a useful example or explanation in a work product or communication channel the next participant can reach. Create a new record only if that participant or another user needs it.
 
-If continuation without the initiator matters, observe a later comparable episode with another capable participant. State the retained help. A performance in which the initiator supplies the decisive question does not establish independence in asking that question. It can still be a useful assisted result. Rotate responsibilities only among willing, capable and properly supported performers; rotation alone does not develop them.
+For a prospective assignment, establish what the next performer can contribute with the support actually available. Comparable earlier work may answer that question. For a claim that the work continued after a handover, establish what happened under the new arrangement. State the retained help. A performance in which the initiator supplies the decisive question does not establish independence in asking that question. It can still be a useful assisted result. Rotate responsibilities only among willing, capable and properly supported performers; rotation alone does not develop them.
 
 After a failure, identify the missing contribution. Revise the learning target or instruction for a human limitation, obtain workplace support for an unavailable condition, repair a tool, secure a qualified subject method or revise the promise. Repeating the same conversation is useful only if its contribution remains the actual gap.
 
-The selected leadership Method can itself be inadequate. If capable participants with sufficient means, effective authority and a qualified subject method still cannot obtain the required contribution, examine the way the leadership work is being performed. Give A.3.1.QM the identified Method or candidate account, the receiving result, situation and allowed variation, its claimed contribution, and the available evidence about performance and local connections. Its bounded qualification can retain a usable Method, reject its use or expose an unresolved connection without demanding a new trial when current evidence suffices. Revise the failed operation or choose an adequate alternative, then qualify the affected contribution before relying on it. Where this repair needs an organization-change contribution to be constructed or specified, OCE.15 supplies that subject work. Ordinary joint work and independent-community cases need no organizational-change branch merely to question their leadership Method.
+The selected leadership Method can itself be inadequate. If capable participants with sufficient means, effective authority and a qualified subject method still cannot obtain the required contribution, examine the way the leadership work is being performed. If the assignment is to design how participants obtain a missing result, use C.39 to work back from the receiver’s decision. Choose the contributions and the rule or working relationship that makes their combined result usable. Establish how to tell whether that arrangement works. A participant using a supplied procedure may perform the contribution successfully. Credit for designing the procedure depends on who chose those connections. Give A.3.1.QM the identified Method or candidate account, the receiving result, situation and allowed variation, its claimed contribution, and the available evidence about performance and local connections. Its bounded qualification can retain a usable Method, reject its use or expose an unresolved connection without demanding a new trial when current evidence suffices. Revise the failed operation or choose an adequate alternative, then qualify the affected contribution before relying on it. Where this repair needs an organization-change contribution to be constructed or specified, OCE.15 supplies that subject work. Ordinary joint work and independent-community cases need no organizational-change branch merely to question their leadership Method.
 
-Return what was performed, what it enabled and what remains unavailable. Keep separate the agreement, performed work, bounded capability evidence and cultural-continuation claim. C.36 governs the latter; C.28 governs a causal-effect claim. One successful episode supports only the continuation warranted by that episode and its conditions.
+Return the arrangement, performance or capability finding that the receiver requested, with the grounds for relying on it. Keep separate the agreement, performed work, bounded capability evidence and cultural-continuation claim. C.36 governs the latter; C.28 governs a causal-effect claim. One successful episode supports only the continuation warranted by that episode and its conditions.
 
 #### LDR.1:4.7 - Reconstruct the arrangement when an AI can perform the contribution
 
@@ -408,7 +410,7 @@ A conforming use of this method makes the following questions answerable at the 
 - Who supplies facilitation, subject expertise, authority, time allocation and learning where each is needed?
 - Do the contributions fit together in the relevant time windows, including displaced work?
 - If human development is selected, what target, qualified provider, practice and later observation justify it?
-- What was actually performed, with which help, and what continuation remains warranted?
+- Which arrangement can the receiver rely on? If the question concerns an actual contribution, continuing practice or independent capability, what establishes that result for the people, work and help in view?
 - If an AI changes the arrangement, which real work or guarantee remains and which old activity can be removed?
 
 A routine brief can answer the relevant questions in the ordinary exchange.
@@ -449,7 +451,7 @@ Reopen the arrangement when the receiving work, support, capability evidence or 
 
 LDR.5 forms joint direction and participation when the next receiving work remains unsettled. LDR.2 supplies a feasible accepted whole when contributions conflict. B.5.SD obtains the connected answer a discussion promises. LDR.4 prepares a proposal through decision and first useful performance. Use an adequate ordinary contribution directly.
 
-[FPF A.3.1.QM — Qualify a Method for Its Intended Contribution](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a31qm---qualify-a-method-for-its-intended-contribution) qualifies the leadership Method or candidate account for its bounded receiving use and examines independently decidable local connections. Return the actual failed contribution and conditions; obtaining a competent person does not settle the Method's suitability. OCE.15 constructs or specifies the organization-change contribution only when that is the receiving question.
+[FPF A.3.1.QM — Qualify a Method for Its Intended Contribution](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a31qm---qualify-a-method-for-its-intended-contribution) qualifies the leadership Method or candidate account for its bounded receiving use and examines independently decidable local connections. Return the actual failed contribution and conditions; obtaining a competent person does not settle the Method's suitability. OCE.15 constructs or specifies the organization-change contribution only when that is the receiving question. For an assignment to construct a missing connection between contributions, use C.39:4.1–4.3 from the receiving work back to the conditions the participants must supply.
 
 [Human Capability Development (HCD)](https://github.com/ailev/FPF/blob/main/DPFs/Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md), through HCD.1, HCD.3, HCD.4, HCD.7 and HCD.8, supplies the human demand, target, work profile, learning-provider conditions and development of a missing provider capability. It does not qualify an AI or constitute an organization's capability.
 
@@ -525,7 +527,7 @@ Apply C.11.DUA to the work of negotiation itself. Include preparation, represent
 
 Identify the question whose answer could change a proposal's feasibility or acceptance. Ask the qualified subject practitioner for the smallest sufficient inquiry, with its result, conditions, cost and possible consequences for the choice. Compare it with using current knowledge, a narrower commitment, another source, deferral or no agreement.
 
-Obtain permission and resources for the inquiry itself. A test authorization permits the stated test, not introduction into production. A favourable finding supports only the configuration and conditions actually examined.
+Obtain permission and resources for the inquiry itself. A test authorization permits the stated test, not introduction into production. For a different configuration, identify the relation on which the finding depends and establish that it holds there. An explicitly commissioned test of that configuration still belongs in the work.
 
 Return the result to the whole proposal. A technical test may remove one uncertainty while a provider's offer adds cost, local effort or a time limit. Recalculate joint demand and reopen terms affected by that change. Do not attach new facts to the old proposal while leaving its commitments untouched.
 
@@ -535,9 +537,9 @@ If the inquiry defeats the option, discard or revise that option. Retain indepen
 
 Before seeking acceptance, place the relied-on contributions in their relevant time windows. Check the quantities and conditions that limit performance: qualified specialist hours, a laboratory window, a delegated spending limit, particular access, a service reserve or a participant's actual availability.
 
-Sum demands that compete for the same resource. Do not add unlike capacities as if a spare administrator hour supplied a missing engineering hour. Retain timing: a sufficient monthly total cannot supply a specialist who is unavailable before the decision. Include support and supervision retained by the arrangement; they are often the hidden constraint.
+Sum demands that compete for the same resource. Do not add unlike capacities as if a spare administrator hour supplied a missing engineering hour. Retain timing: a sufficient monthly total cannot supply a specialist who is unavailable before the decision. Include support and supervision retained by the arrangement; they are often the hidden constraint. When participants retain a choice of dates or contributions, establish which combinations the agreement permits. A fixed schedule can establish that one package works. To promise people their separate choices, show how the responsible participants can allocate the shared capacity with the information and authority available when they must act. An agreed allocation rule or a sufficient capacity bound may settle the whole range.
 
-When the proposed whole does not fit, construct actual alternatives. Move a contribution only with its receiver's accepted change; narrow scope without losing the required result; share preparation where it really serves several contributions; obtain a qualified substitute or provider; change the method or sequencing; or defer the unsupported work. Compare the consequences at the level where they matter. A local saving can create a larger downstream burden.
+When the proposed whole does not fit, construct actual alternatives. Move a contribution under the existing allocation rule or with the affected receiver’s agreement; narrow scope without losing the required result; share preparation where it really serves several contributions; obtain a qualified substitute or provider; change the method or sequencing; or defer the unsupported work. Compare the consequences at the level where they matter. A local saving can create a larger downstream burden.
 
 Authority has its own compatibility test. A manager may allocate one team's time while another unit controls the required specialist. A provider may promise support only after a contract becomes effective. Obtain those contributions or keep the proposal conditional. Do not infer corporate, employment or contractual powers from the fact that participants reached an informal consensus.
 
@@ -545,7 +547,7 @@ Authority has its own compatibility test. A manager may allocate one team's time
 
 Put the complete proposal, its grounds and outstanding conditions before the parties whose acceptance it needs. Make each party's contribution and relied-on return recognizable. Let them accept, conditionally accept, refuse or leave the matter unanswered. Those responses differ.
 
-A conditional offer of help after funding is available is not a commitment to seek funding, nor is it present funded help. A representative who needs consultation returns to the represented party within the actual mandate. An absent participant's silence supplies no agreement.
+A conditional offer of help after funding is available is not a commitment to seek funding, nor is it present funded help. A representative who needs consultation returns to the represented party within the actual mandate. Use the effective rule to determine whether a notified change takes effect at an objection deadline. A person’s own voluntary commitment needs grounds that speak to that person.
 
 If one party changes its contribution, identify the others whose terms or reliance change and return the amended whole to them. A sequence of separately accepted fragments is sufficient only when those fragments really compose under the same conditions; otherwise obtain responses to the combined proposal.
 
@@ -555,7 +557,7 @@ Retain the accepted terms in the ordinary form the participants use. Include eno
 
 Give the receiving practitioners the accepted conditions and unresolved matters. Product and organization decisions may need coordination through OCE.7; engineering architecture and whole-result alternatives use SYSE.6 and SYSE.24; an existing promise may need an authorized response through OPS.13. For work in another domain, use the relevant professional methods. If a decision is needed, obtain it from the party authorized to make it.
 
-Obtain the separate acts that make the arrangement effective, then perform the contributions. LDR.4 helps when a prepared proposal still needs an effective decision, mutually visible start and first useful handover. Acceptance alone does not establish completion.
+For an order to reach agreement, return the feasible terms accepted by those whose assent they require, with any condition still to be met. If the order includes an effective start or delivery, obtain the acts that put it into effect and carry the contributions through to their receivers. LDR.4 helps arrange the first handover.
 
 Agree a practical response to foreseeable changes: who reports the loss, who can supply a substitute, which participants reconsider dependent terms and how an existing promise is handled. When support disappears, identify the contributions depending on it. Compare feasible substitutes, changed dates or scope with the affected parties; obtain renewed acceptance where reliance changes.
 
@@ -612,7 +614,7 @@ A conforming use explains:
 - the receiving result, necessary parties and actual representation or authority;
 - the conditions protected by their demands and serious alternatives to agreement;
 - whole proposals with material benefits, burdens and dependencies;
-- the domain basis and joint resource feasibility of the proposed commitments;
+- the domain grounds and joint feasibility of the commitments, including any choices each party retains and the means to honour them;
 - the work and limit of any inquiry used to resolve uncertainty;
 - responses to the same complete proposal, including refusal and outstanding conditions;
 - the receiving decisions and the response to a consequential change.
@@ -697,7 +699,7 @@ A first assisted success can justify bounded continuation while still depending 
 
 #### LDR.4:4.1 - Make the receiving work and proposed change examinable
 
-Recover the result someone will receive and use. Describe how the proposal produces it: the work products, operations, producer and receiver, tools, access, help and conditions needed. Compare a representative task under the present arrangement and the proposed one.
+Recover the result someone will receive and use. Describe how the proposal produces it: the work products, operations, producer and receiver, tools, access, help and conditions needed. Select the extent of the comparison from the decision it must support. A decision about authority may turn on one mandate. To assess a change in joint work, follow the contributions that produce the receiver’s outcome, including any dependence on other deliveries.
 
 A new form, meeting or role is useful only through a contribution. Ask what becomes possible or improves for the receiver. If an existing arrangement supplies the same result at acceptable effort, retain it. If the proposal concerns continuing development, obtain its actual problem, worthwhile challenge and transition from the development methods; a proposal to adopt a familiar practice does not constitute that whole development process.
 
@@ -713,7 +715,7 @@ A permitted first use can precede the decision to adopt the larger arrangement. 
 
 Participants often seek advice from people they trust before deciding about an unfamiliar change. Ask whose judgement they need, about which question and under what information conditions. This can reveal a former colleague, peer or specialist outside the formal project. Other advisers may become involved later. Prepare for that wider discussion as well as for the consultations already identified.
 
-Make an explanation that another person can examine and pass on without depending on the organizer's presence. Use the receiving work from :4.1: what would change, how the proposed arrangement would produce the result, why that is expected to work, and what it changes for the people doing or receiving the work. Include a representative before-and-after task, the grounds for the claimed benefit, significant burdens and uncertainties, and the decision still to be made. Use :4.3 to work out consequences that are not yet understood. A short account can point to the fuller reasoning and example where these are needed. Prepare a shareable example when the real task contains information that the intended audience cannot receive.
+Make an explanation that another person can examine and pass on without depending on the organizer's presence. Use the receiving work from :4.1: what would change, how the proposed arrangement would produce the result, why that is expected to work, and what it changes for the people doing or receiving the work. Include the grounds for the claimed benefit, significant burdens and uncertainties, and the decision still to be made. A before-and-after task can show what a change means in practice. Explain which features carry across the intended work and where a difference changes the decision. Use :4.3 to work out consequences that are not yet understood. A short account can point to the fuller reasoning and example where these are needed. When a worked illustration is needed and the real task contains restricted information, find a shareable case that retains the consequential choice. An available rule may already answer the recipient’s question.
 
 Put the explanation where participants can obtain it and give it to their advisers. Identify the current proposal and provide a practical way to return a question to someone able to examine it. This might be a shared note with a contact, an annotated demonstration with a discussion channel, or a briefing whose supporting material remains available afterwards. Choose the means by how the relevant people exchange information. A confidential consultation may need a permitted private route; a generally shareable account can travel beyond the original recipients.
 
@@ -728,7 +730,7 @@ Advice can improve a proposal while the decision maker retains the decision and 
 
 #### LDR.4:4.3 - Trace consequences in representative work
 
-Use a concrete task and its receiving action. Show the products and means before and after the proposal. Ask the participants where an extra operation appears, an input is missing, work is displaced, an obligation changes or an undesirable consequence becomes possible.
+Follow the products and means that the proposed decision would change. A specific task can reveal an affected handover. When the question concerns a whole service, follow that dependency across its other affected uses, or give the common ground that covers them. Ask the participants where an extra operation appears, an input is missing, work is displaced, an obligation changes or an undesirable consequence becomes possible.
 
 Different findings need different responses. A participant may have misunderstood the proposed scope; explain it. The proposal may duplicate an existing report; find the report's receiver and determine whether the duplication is needed. A claimed benefit may lack technical grounds; obtain the subject construction through B.5.SD. An actual loss may need compensation, a different option or refusal. Do not rename all these findings “resistance.”
 
@@ -766,7 +768,7 @@ Make the decision and its limits recoverable in the ordinary form that gives it 
 
 Bring the effective decision and accepted proposal to those who rely on one another's work. Confirm what each will actually contribute, when and with which help; who receives the result; what happens if a necessary input or ground is missing; and who can change the arrangement.
 
-The practical need is that a participant can reasonably rely on the other necessary contributions. It is not merely that everyone has received the same announcement. Include absent shifts, external providers or other dependent participants through a usable exchange and their actual responses. A brief meeting may be efficient; a readable update with confirmations may be enough.
+The practical need is that a participant can reasonably rely on the other necessary contributions. It is not merely that everyone has received the same announcement. Establish the basis for relying on absent shifts, external providers and other dependent participants. An effective standing arrangement and available means can supply it. Obtain a response from a participant when the proposal needs a new commitment or their own judgement. A brief meeting may be efficient; a readable update with confirmations may be enough.
 
 Keep a changed proposal distinguishable from the earlier one. If a late objection exposes a consequential gap, reopen the affected inquiry, agreement or decision. Communicate the revision before others rely on the old terms. Independent authorized preparation can continue while a dependent start waits.
 
@@ -856,7 +858,7 @@ They instead use IS.3 to prepare a saved query over the existing issue tracker a
 
 Participants can now discuss the contribution they tried. If collecting the case is cheaper and the receiver can act on it, that supplies a concrete answer to part of the earlier concern. A recurring maintenance burden or another team's loss can still change the larger proposal. They take these findings to the people whose advice or commitment is needed and decide which further preparation matters.
 
-Change the task: the receiver needs to know what an R&D unit produces for use or sale, but participants list installed software systems without identifying what the unit delivers or who uses it. Faster entry leaves the receiving question unanswered. A qualified contributor works through one actual product and its use with them. Likewise, when a planning view depends on a hierarchy they cannot construct, jointly build the needed part of the model or obtain that contribution from a capable provider. Select learning practice separately when their independent capability is wanted. These different repairs follow the missing operation in the first use, rather than treating every delay as a need for more persuasion.
+Change the task: the receiver needs to know what an R&D unit produces for use or sale, but participants list installed software systems without identifying what the unit delivers or who uses it. Faster entry leaves the receiving question unanswered. A qualified contributor works through one actual product and its use with them. Likewise, when a planning view depends on a hierarchy they cannot construct, jointly build the needed part of the model or obtain that contribution from a capable provider. Select learning practice separately when their independent capability is wanted. These different repairs follow the missing operation in the first use, rather than treating every delay as a need for more persuasion. For a request about the unit’s whole portfolio, use the traced product to identify what counts as a delivery and establish coverage from the portfolio or another adequate source. When the receiver has to learn to identify those products, leave that choice to the learner before offering the model.
 
 #### LDR.4:5.6 - An explanation reaches an adviser the organizer did not know
 
@@ -882,7 +884,7 @@ A conforming use makes the following recoverable where they affect the proposal:
 
 - the receiving work, first useful result and adequate existing alternative;
 - how participants can obtain and share an examinable explanation as permitted, how consequential questions return for examination, and any trusted judgement the decision requires;
-- representative consequences, real burdens and the response to substantive objections;
+- the consequences at the scale of the requested decision, the grounds for carrying a finding across uses, real burdens and responses to substantive objections;
 - the revised whole proposal, actual decisions, accepted contributions and outstanding conditions;
 - the mutually visible start on the same effective terms;
 - the performed first contribution and the receiver's use, including retained assistance;
@@ -1001,7 +1003,7 @@ Compare the full burden of pursuing the direction, including consultation, learn
 
 #### LDR.5:4.4 - Relate the direction to people's purposes and initiative
 
-Ask each necessary contributor what participation would mean for them: the result they value, the work they can undertake, the loss or uncertainty they face, and the conditions under which they would continue. Their reasons can differ. Develop a feasible relation between the joint result and their contribution rather than asking everyone to adopt the initiator's personal motivation.
+Where a direction depends on a person choosing to participate, establish what matters to them, what work they can undertake and on what terms. Use their existing account or seek their view when it is needed. For assigned work, establish the effective assignment, the means to act and the choices left to the performer. Their reasons can differ. Develop a feasible relation between the joint result and their contribution rather than asking everyone to adopt the initiator's personal motivation.
 
 Show why a person's contribution matters to the others and what discretion it includes. Let them propose how to carry it out within the shared conditions. Where the intended role conflicts with their aims or capabilities, use LDR.1's role conversation and the relevant provider. Where terms conflict, use LDR.2. A necessary participant's refusal may require a different way, smaller scope or stop. Another person's willingness cannot commit the refuser's resources.
 
@@ -1011,7 +1013,7 @@ For formal assignments, retain the actual power and its limits. A manager can de
 
 #### LDR.5:4.5 - Establish a shared basis for the first action
 
-Have the necessary participants explain the direction through their own intended action: what they will contribute, what they expect from others, what they can decide and what should return for reconsideration. Use a plausible difficulty to expose differences. If a user request conflicts with a proposed stability aim, can contributors explain which request should be deferred and who can make that choice? If not, repair the missing distinction or agreement before relying on it.
+Identify whose direction is at issue. For a decision already binding on an organization, establish the deciding body’s mandate and its act. For advice on a proposed direction, give the professional and practical grounds for recommending it. For a claim about the course the organization has taken, follow the choices, resources and work that have given effect to it. To establish a person’s understanding or voluntary commitment, ask how that person relates the direction to their own intended action. For a claim of joint development, trace which participants chose the alternatives and grounds used in their common decision. If contributors are to decide such trade-offs themselves, ask how they would handle a user request that conflicts with a stability aim. Where the decision belongs to a designated body, establish that the contributors can act on its decision or refer the conflict in time. A justified decision to pursue separate work can close the inquiry without a joint first action.
 
 Choose the first action at the scope the grounds support. It may obtain a missing observation, supply an initial service or test whether the proposed collaboration is workable. Obtain its time, access, capability and authority. Incompatible offers return to LDR.2; a proposed new arrangement still needing effective decisions and supported first use enters LDR.4. Reuse what has already been obtained instead of repeating it under each pattern's name.
 
@@ -1035,7 +1037,7 @@ Suppose an open-source project's maintainer proposes a major rewrite after sever
 
 A contributor offers to convene a short inquiry. A documentation author, an integration specialist and two users accept the exchange. One user cannot disclose an installation's data but can describe the required compatibility. The group needs that boundary condition, not the protected data. Their accounts reveal different concerns: the maintainer wants less support work, a contributor wants to try a new design, and users need a stable version. The specialist shows a repeated gap between accepting contributions and having someone available to integrate them.
 
-The proposed explanation changes. The domain comparison finds that an isolated adapter can remove the immediate integration difficulty without a rewrite; the new design remains a possible later undertaking. For this stipulated case, the participants consider maintaining the current release with that adapter, undertaking the rewrite and retiring active support. They choose a bounded maintenance direction because it meets the current users' need at a contribution the volunteers can actually supply. The design enthusiast declines maintenance and continues independent exploration without committing the project's name or release promise.
+The proposed explanation changes. The domain comparison finds that an isolated adapter can remove the immediate integration difficulty without a rewrite; the new design remains a possible later undertaking. For this stipulated case, the participants consider maintaining the current release with that adapter, undertaking the rewrite and retiring active support. They choose a bounded maintenance direction because the domain comparison establishes that the adapter meets the compatibility requirement of the installations included in this offer at a contribution the volunteers can actually supply. The design enthusiast declines maintenance and continues independent exploration without committing the project's name or release promise.
 
 The integration specialist offers to lead one adapter attempt. The maintainer accepts that technical initiative while retaining release acceptance. The author offers an installation explanation; the users offer permitted compatibility observations. Each can explain why an incompatible new feature will wait. LDR.2 resolves their date and support terms, and LDR.4 supplies any remaining first-use preparation. A capable ordinary exchange can already provide those results.
 
@@ -1064,9 +1066,9 @@ The method favours participants having a real part in forming what they will do.
 - Establish the connection among the participants from the situation and its consequences before relying on a roster or common purpose.
 - Observations, interpretations, desired results and remedies can be distinguished and corrected.
 - The direction has a substantive basis and a meaningful alternative; agreement does not supply its professional warrant.
-- Participants can relate the direction to their own purposes, contributions and limits, with formal duties distinguished from voluntary commitments.
-- The first action has the contributions and authority it needs, and participants can explain a consequential choice under its terms.
-- Later responses revise the affected purpose, arrangement or method while preserving valid results and commitments.
+- The grounds establish the direction at the scale claimed, including the organization’s authorized decision, a person’s voluntary commitment or the participants’ own construction of the direction where that is the question.
+- For a first action the participants have decided to rely on, the necessary contributions and authority are available. A feasibility inquiry can instead identify the condition still to be met or establish grounds for declining the proposed action. When the order concerns a participant’s own understanding, their account or work shows how they make a consequential choice.
+- When a later response changes the grounds for the direction, the participants reconsider the affected purpose, arrangement or method and retain commitments that still hold.
 
 ### LDR.5:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -1126,7 +1128,7 @@ Using LDR.4, the organizer asks community representatives whose judgement they n
 
 The domain team and intended clients trace one representative case. They distinguish the service's diagnosis and bounded acceptance decision from the client's later correction work. Through B.5.SD they construct a clearer account: the receiver will get the warranted finding, its grounds, a feasible next question or correction, and the limitation on further reliance. A case with no attainable correction may properly end in deferral.
 
-The revised promise changes both expectations and resources. The client must accept responsibility for obtaining corrective work, or the provider must quote and supply it separately. The communities revise the offered work and the terms clients can accept.
+The communities settle what clients can accept. An order for the diagnostic finding can end there. A client may abandon the release, arrange a correction or commission the provider to make one. Including correction in the service requires appropriate engineering work, resources and agreement.
 
 ## LDR.Use:3 - Agree a feasible first month
 
@@ -1144,7 +1146,7 @@ The organizer uses LDR.4 to obtain the effective permissions and make the start 
 
 The first case reveals that a test concerns an earlier configuration. The integrator explains the changed condition and the unsupported conclusion. The acceptance provider judges the diagnostic result within its remit. The client now knows which release claim cannot be made and which engineering question must be answered. That is the promised bounded service result, not a corrected engineering package or evidence that the client has acquired independent mastery.
 
-If the client expected a completed correction, the receiving result would fail the promise. The provider would need a revised service, resources and agreement rather than a new definition of success after the event.
+If the agreed service included a completed correction, delivery of the diagnosis would leave that obligation open. A client who commissioned the finding and now wants a correction has a new request. The two orders call for different work and resources.
 
 The participants use LDR.1 to arrange continuation. The second case has the same qualified support; another coordinator can conduct the preparatory exchange without the initiator. Where human skill development is separately wanted, HCD supplies its design and assessment. Successful diagnosis alone does not establish that development.
 
@@ -1154,7 +1156,7 @@ Now suppose a qualified autonomous AI service can perform the substantive integr
 
 The setup requires four hours of one-time qualified configuration and onboarding before the month begins. That work has a separately available window and an accepted cost. Recurring human exception support requires one hour per month plus fifteen minutes per case. The independent acceptance still needs half an hour per case. Four cases therefore require one plus one plus two, or four hours of the constrained human capacity. They fit the six hours available; the agent's compute and service fee also require an accepted budget. For the same four-case result, the human arrangement needs ten hours of integration and acceptance plus the same one-hour exception reserve: eleven hours. The new arrangement needs four recurring hours, with its one-time setup stated separately. Client preparation, correction work and ordinary coordination remain necessary in both arrangements and are supplied outside this specialist allocation.
 
-This can justify four cases without an additional office. The AI performs the integration and permitted scheduling; people do not repeat those operations merely to preserve former roles. The communities retain their real acceptance of the service terms, input permissions, client work and the independent decision the scenario still requires.
+The four-case plan fits the total human capacity without an additional office. To offer it, establish authority to raise the agreed two-case limit and secure two hours of independent acceptance in the required windows. Where an existing mandate covers expansion, use it. Otherwise return the changed terms to the parties whose commitments they affect. The AI performs the integration and permitted scheduling; people do not repeat those operations merely to preserve former roles. The communities retain their real acceptance of the service terms, input permissions, client work and the independent decision the scenario still requires.
 
 Change the authority and assurance condition again. Suppose a competent independent automated acceptance service is available, is permitted by the applicable rule, and supplies the required independent judgement without the earlier human half-hour per case. That contribution can also move to AI. The recurring human demand becomes the one-hour support provision plus the four fifteen-minute exception allocations: two hours. Independence is a property of the actual judging arrangement and grounds, not merely a second agent label. The responsible parties can reconsider the service scope or retain the spare capacity.
 
@@ -1164,9 +1166,9 @@ These are conditional comparisons, not claims about a named AI product. C.11.DUA
 
 ## LDR.Use:6 - Continuation after success is another substantive question
 
-Suppose the first month's cases succeed under their stated conditions. The communities have evidence of a bounded service, not proof of a culture of continuing development. They also notice a weak signal: practitioners can correct known evidence gaps but rarely question whether their chosen problem is still worthwhile.
+Suppose the first month's cases succeed under their stated conditions. The communities have evidence of a bounded service, not proof of a culture of continuing development. A participant notices that cases brought to this clinic seldom reopen the choice of problem. Cases are selected for difficulty with evidence. Their handling gives the federation a question to investigate, while its decisions about what to pursue require evidence from the work where members actually choose problems.
 
-A participant raises that concern through LDR.1; B.5.SD can help formulate and examine it with the relevant development practitioners. The next development question is whether and how to build problem-discovery and problem-formulation capability, not simply how to schedule more clinics. The development method supplies the problem, attainable challenge and transition; strategy and portfolio methods reconcile its value and resources with other work.
+A participant raises that concern through LDR.1; B.5.SD can help formulate and examine it with the relevant development practitioners. If investigation shows that members need help choosing problems, they can decide whether and how to develop that capability. The development method supplies the problem, attainable challenge and transition; strategy and portfolio methods reconcile its value and resources with other work.
 
 Leadership then helps obtain the contributions for whichever next move is warranted. The useful first service continues if worth its cost. It can also be narrowed or discontinued. Keeping an offer alive and continuing the subject's development are related decisions with different results.
 
@@ -1187,7 +1189,7 @@ These references explain how to obtain the contributions in the table. For a loc
 
 | Relied-on publication and content | Result needed here and receiving use | Use condition and return |
 | --- | --- | --- |
-| [FPF](https://github.com/ailev/FPF/blob/main/FPF-Spec.md), C.39:4 | A connected way to obtain a missing result; used when B.5.SD lacks an operative subject construction or connection. | Use an adequate direct method when available. Reopen the construction if the receiving result or needed relation changes. |
+| [FPF](https://github.com/ailev/FPF/blob/main/FPF-Spec.md), C.39:4 | A connected way to obtain a missing result; used when B.5.SD lacks an operative subject construction or when the assignment is to design a connection among leadership contributions. | Use an adequate direct method when available. Reopen the construction if the receiving result or needed relation changes. |
 | FPF C.32.MWA:4 | Distinguishes and relates methods, work, capability and arrangements; used in LDR.1's allocation of contributions. | Do not infer one method per job or one performer per pattern. A changed performer configuration can require redesign of the whole arrangement. |
 | [FPF A.3.1.QM — Qualify a Method for Its Intended Contribution](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a31qm---qualify-a-method-for-its-intended-contribution) | Bounded qualification of a leadership Method or candidate account and its independently decidable local connections after a doubtful use. | Preserve the subject's status and actual receiving conditions. Retain sufficient current evidence; revise only the failed contribution or select an adequate alternative. OCE.15 supplies construction of an organization-change contribution when that specific question remains. |
 | FPF C.11, C.11.DUA:4 and D.4 | C.11 supplies decision reasoning; C.11.DUA:4 appraises the value and burden of additional inquiry; D.4 supplies value-conflict reasoning. Use the contribution that the alternatives, disputed demands or plural parties require. | Retain effective obligations until properly changed. A comparison is not another party's consent. |
