@@ -2310,7 +2310,7 @@ For a consequential project statement, identify its subject and claim, the groun
 ## A.0 - Generative Search Onboarding Glossary (NQD & E/E‑LOG)
 
 > **Status:** Stable
-**Use this when** choosing or describing a generative search or selection. This glossary identifies the values, policies and set-result kinds needed by that operation, and connects them to their definitions in C.17–C.19. Section 4.3 shows how to use those terms with G.5 selection and the publication requirements of the receiving task.
+**Use this when** deciding what a generative search should return, or interpreting a search someone has already run. Start from the decision the recipient has to make. Section 4.3 shows when one usable candidate is enough, when to preserve alternatives or construct a combination, and how to distinguish an exploration report from an exhaustive comparison.
 
 **Builds on.** E.2 (**P‑10 Open‑Ended Evolution; P‑2 Didactic Primacy**), A.5, C.17–C.19 - **Coordinates with.** E.7, E.8, E.10; F.17 (UTS); G.5, G.9–G.12 - **Constrains.** Any pattern/UTS row that **describes a generator, selector, typed portfolio publication, or set-return publication surface**.
 
@@ -2324,7 +2324,7 @@ Engineer-managers choosing a search or selection need to distinguish candidate q
 
 The following mistakes obscure how a search result was obtained and what it can be used for:
 
-* **Single‑winner bias.** Teams look for “the best” option and publish a leaderboard, suppressing **coverage & diversity** signals essential to search.
+* **Single‑winner bias.** Publishing a winner can take away a choice the recipient intended to make, conceal an efficient alternative or hide the coverage of a search. One eligible candidate with established fitness can finish an order for one workable option.
 * **Metric confusion.** “Novelty” and “quality” are used informally; units and scales are omitted; ordinal values are averaged, breaking comparability.
 * **Hidden policies.** Explore/exploit budgets and governor rules are implicit; results are irreproducible and **refresh‑unsafe** (no edition/policy pins).
 * **Tool lock‑in.** Implementation terms (pipelines, file formats) leak into the Core, violating Guard‑Rails.
@@ -2375,18 +2375,18 @@ This glossary names the generative terms in **Plain** register and ties them to 
 
 #### A.0:4.3 - Putting the glossary to use
 
-1) Declare **CG‑Frame** (what “quality” means; admissible units and scales) and **ReferencePlane**.
-2) Choose the **Q components** and **DescriptorMap** coordinates needed by the intended operation; retain their meanings and applicable **editions**.
-3) Choose an **E/E‑LOG policy** and record its **policy‑id** when the operation or receiving use requires explore↔exploit control.
-4) Apply **G.5** selection/dispatch with its applicable basis pins; add parity pins for a parity use. Keep any consumed `Front` or `Archive` identified as the source set. For a set outcome, return `Shortlist` or `RankedShortlist` for retained alternatives, or `JointUseSet` when all named members are included for one named use. Return a handoff, abstain, or escalation when that is the G.5 outcome.
-5) Keep the **G.5 outcome**'s required content and basis pins. **Publish that result only when the receiving use calls for publication**, with its applicable **PathIds/PathSliceId**. Add a **UTS row** for a named governed value only when **F.17**'s independent naming and reuse conditions hold; otherwise reuse its existing designation. Follow the outcome's continuation or stop. An **Illumination Map** remains **report‑only telemetry** by default.
+1) **Recover the decision before choosing the table.** Who will use the result, by when and with what authority? If they need one workable option, an existing candidate with established fitness may finish the job (C.38). A request for the best option also needs a comparison over the allowed alternatives. If the order calls for new candidates, generate them. For a decision left to the recipient, preserve the alternatives they can identify and use in time. Distinguish who set the goal, proposed the candidates and chose the criteria. When designing the search, make and justify the choices left open. When applying a supplied rule, credit those choices to whoever made them.
+2) **Work out which choices have to fit together.** Several recipients may choose independently, need the same option, or need every member of a combination. Compare whole combinations when a shared resource or condition affects their suitability. For one feasible combination, exhibit it or establish its existence as the request requires. To promise support for every allowed joint choice, establish a way for the participants to meet every such request. At each commitment the plan assigns an authorised action to each participant on the information that participant has. It must work in every situation still compatible with that information. The plan can branch on a distinction that reaches the participant in time. A declaration of agreed members needs the agreement. A report of actual use needs evidence of the work.
+3) **Choose what to compare or count.** Start with the candidates the commission allows, including ones beyond the current table. When designing a comparison, hold your proposed readings fixed and vary a permitted use or shared condition. If the recipient would have to act differently or give a different justification, retain that distinction or establish how the recipient can learn it in time. Group cases when the same answer and grounds hold (C.39.SA:4). State the eligible population, the question of quality, the admissible units and scales (**CG‑Frame**) and the **ReferencePlane**. Choose the **Q components** or **DescriptorMap** coordinates used by this operation and retain their meanings and applicable editions. Occupied cells describe a retained archive. A claim about which regions were tested needs evidence of the tests, including rejected candidates when they count. To report all nondominated answers, establish completeness for the requested population and distinguish objective values, one realization of each value, and all qualifying candidate identities (C.18:4.4).
+4) **Use the method for the requested result.** C.11 governs a local choice. C.18 supplies an archive or front. Use C.19 and record the **E/E‑LOG policy‑id** when the search needs explore/exploit control. Use **G.5** for method-family dispatch or to declare a selected set on an established basis. Keep any consumed `Front` or `Archive` identifiable as the source. Return `Shortlist` or `RankedShortlist` for retained alternatives and `JointUseSet` when all named members are included for one use. A G.5 handoff, abstention or escalation carries its own grounds.
+5) **Deliver what the recipient can use.** Keep references to the criteria, evidence and editions used for the result (basis pins). To compare runs on common terms, also record the editions and policies that G.9 requires for that comparison (parity pins). Publish when the receiving use calls for publication, with the applicable **PathIds/PathSliceId**. Add a UTS row for a named governed value when F.17's independent naming and reuse conditions hold. An **Illumination Map** remains **report‑only telemetry** by default.
 
 ### A.0:5 - Archetypal Grounding
 *Informative; manager‑first (E.7/E.8 Tell‑Show‑Show).*
 
 **Show‑A - SRE capacity plan (selector returns a set).**
-*Frame.* We must raise service commitment headroom for Q4 without breaking latency SLOs.
-*Declared retained set.* `{cache‑expansion, read‑replicas, query‑shaping, circuit‑breaker tuning, schema‑denorm}`.
+*Frame.* The service team will choose how to raise Q4 headroom while meeting its latency commitment. This search is commissioned to keep alternatives available for that later choice.
+*Alternatives retained for the team.* `{cache‑expansion, read‑replicas, query‑shaping, circuit‑breaker tuning, schema‑denorm}`. A recommendation to deploy a combination would also have to account for its joint cost and behavior.
 *Glossary in action.* `U = latency@p95 & error‑rate`, `C = budget ≤ $X, risk ≤ R`, `N = dissimilarity to current playbook`, `Diversity_P = coverage of the declared retained set under the niche policy`, `DeltaDiversity_P = additional coverage from adding a candidate (e.g., “shifts load to edge” fills an empty niche)`. E/E‑LOG starts **Explore‑heavy**, flips **Exploit‑heavy** once ≥ K distinct niches are lit. *(Publish a UTS row only when **F.17**'s naming and reuse conditions hold; retain parity pins for a parity use; illumination stays report‑only telemetry.)*
 
 **Show‑B - Policy search with QD archive (MAP‑Elites‑class).**
@@ -2457,14 +2457,14 @@ Use C.17–C.19 for the corresponding metrics and search policies. This glossary
 - Use `Palette` for a plurality-preserving set with no dominance semantics yet.
 - Use `TraditionPalette` only when the members are traditions gathered before later comparison or choice semantics are declared.
 - For methods, hypotheses, environment-method pairs, candidate explanations, or other member kinds, use `Palette` plus explicit `SubjectKind` instead of borrowing the `TraditionPalette` head.
-- Use `Front` only for a non-dominated set under one declared `DominanceSet`.
+- Use `Front` for nondominated candidates over an identified population under the declared `DominanceSet`. A report of the objective values they realize or one representative per value can merge distinct candidates (C.18:4.4).
 - Use `Q-Front` when the declared `DominanceSet` is the declared `Q` components.
 - Use `Archive` for a retained set whose purpose is coverage, stepping-stone retention, or frontier expansion rather than current non-domination.
 - Use `ExplorationArchive` for the broad retained exploration surface; it is the exploration-specific specialization of `Archive`.
 - Use `SteppingStoneSet` only for one narrower retained subset whose stated purpose is future frontier reach rather than the whole archive. It is not part of the ordinary first-pass public-head family for retained exploration.
 - Use `Shortlist` for the set chosen from one declared source set by one named lens.
 - Use `RankedShortlist` only when that shortlist is explicitly rank-ordered.
-- Use `JointUseSet` when every member is included for one named use; keep that use, keyed member entries, inclusion conditions, and basis pins under `G.5`.
+- Use `JointUseSet` when every named member is designated for one use. Give that use, keyed members, inclusion conditions and basis pins under G.5. Ground a claim of joint feasibility or actual use in the conditions or Work that establish it.
 - Use `ShortlistId` for the stable public token of one emitted shortlist; it is not the shortlist itself.
 - Use `ChoiceSet` only when the mathematical set object underlying one shortlist must be named explicitly; do not let it replace the public shortlist head.
 - Use `Q-set` for the declared current objective tuple that may ground the current `DominanceSet`.
@@ -52397,7 +52397,7 @@ An assurance reader can test prompt readiness with three questions:
 ### B.5.2.1:1 - **Problem Frame**
 * **Conceptual binding:** **B.5.2 Abductive Loop** (this pattern specifies the *how* for Steps 2–3).
 * **Characteristics and records:** use **Creativity‑CHR** under **C.17** for the Characteristics in §3, **C.18** for generation/archive/front records and **C.19 E/E-LOG** for EmitterPolicy.
-* **Manager’s mental model (informative):** Choose measurable characteristics for the quality, newness and spread used by the exploration. Generate candidates and return their **front over the declared DominanceSet**, together with the exploration archive required by the policy.
+* **Manager’s mental model (informative):** Choose measurable characteristics for the quality, newness and spread used by the exploration. Identify which generated candidates were assessed and eligible. Return their **front under the declared DominanceSet**, together with any exploration archive required by the policy or the commission.
 * **Further work:** generated hypotheses may contribute to **B.4 Canonical Evolution Loop** when adaptation is needed. **B.5 Canonical Reasoning Cycle** selects the reasoning contribution needed by the question.
 * **Decision-subject note.** Later choices are attributed to one declared `DecisionSubject` at explicit `DecisionSubjectGranularity`. The **Context** supplies the measurement spaces and admissible policies that frame the decision.
 
@@ -52427,7 +52427,7 @@ For each coordinate used, declare its bearer, Characteristic, Scale, polarity, a
 
 ### B.5.2.1:4 - Solution — **NQD-Generate and its C.18 records**
 
-**Method name (Plain/Unified Tech).** *NQD‑Generate* — a **U.Method** that, given (i) a **HypothesisSpace** and (ii) a **CharacteristicSpace** with a **CoverageGrid**, returns a *finite* candidate package: a **front over the declared `DominanceSet`** plus the retained archive/tie-break telemetry needed to keep diversity and novelty reviewable without making them default dominance dimensions.
+**Method name (Plain/Unified Tech).** *NQD‑Generate* — a **U.Method** that, given (i) a **HypothesisSpace** and (ii) a **CharacteristicSpace** with a **CoverageGrid**, returns a *finite* candidate package: a **front over the eligible candidates assessed in the run** under the declared `DominanceSet`, with any archive or tie-break telemetry required by the active policy or receiving use.
 
 **Minimal signature.**
 
@@ -52444,10 +52444,10 @@ The coordinate entries cite the constituted results used. When illumination is r
 **Strategy (notation‑neutral).**
 
 1. **Seeding and constructors.** Declare the explanatory question, hypothesis space and permitted variation operators in the MethodDescription. Initialize with admissible seeds: known explanations, random draws under that grammar or prior hypothesis-bearing epistemes with their grounds and limits. Name how an operator constructs a changed explanatory claim, for example by replacing a proposed mechanism or combining two mechanisms under a stated interaction assumption. When there are no seeds, use the declared finite enumeration or sampling rule.
-2. **Construct and assess.** Apply the selected variation operators to the seeds or retained candidates within the budget; record each resulting hypothesis and its parent/operator provenance. Then test candidate must-constraints for comparison and evaluate each required Q component. Keep an excluded candidate and its reason distinguishable from a candidate not yet generated. Maintain up to K retained entries per declared cell; obtain only the N, ΔDiversity_P and Surprise readings used under C.17, and any required retained-set illumination report. Deduplicate under the declared rule and threshold.
-3. **Budget‑bounded loop.** Iterate until the budget or declared coverage-convergence condition is reached, or the applicable C.19 policy ends active exploration; return the **(ε‑)Pareto front** over the declared `DominanceSet`. When the Context consumes the ordinary default, that means the declared `Q` components under `DefaultId.DominanceRegime`. Keep `N`, `D=ΔDiversity_P`, `Surprise`, and `IlluminationSummary` as archive/tie-break/telemetry signals unless one Context policy explicitly promotes one of them into dominance and records the policy id. `Use-Value` enters dominance only when the Context declares it inside the active `Q` tuple; otherwise it may appear as one decision-side/supporting side note.
+2. **Construct and assess.** Apply the selected variation operators to the seeds or retained candidates within the budget; record each resulting hypothesis and its parent/operator provenance. Then test candidate must-constraints for comparison and evaluate each required Q component. Keep an excluded candidate and its reason distinguishable from a candidate not yet generated. Maintain up to K retained entries per declared cell; obtain only the N, ΔDiversity_P and Surprise readings used under C.17, and any required retained-set illumination report. Apply the declared deduplication rule to the return for which it is valid. Keep distinct candidate identities or a way to recover them when the commission asks for every qualifying candidate. A common cell alone establishes only agreement on the cell descriptors.
+3. **Budget‑bounded loop.** Iterate until the budget or declared coverage-convergence condition is reached, or the applicable C.19 policy ends active exploration; report the front over the eligible comparison population under the declared `DominanceSet` and any applicable ε policy. To extend the front beyond that population, account for the remaining eligible possibilities under C.18:4.4. When the Context consumes the ordinary default, that means the declared `Q` components under `DefaultId.DominanceRegime`. Keep `N`, `D=ΔDiversity_P`, `Surprise`, and `IlluminationSummary` as archive/tie-break/telemetry signals unless one Context policy explicitly promotes one of them into dominance and records the policy id. `Use-Value` enters dominance only when the Context declares it inside the active `Q` tuple; otherwise it may appear as one decision-side/supporting side note.
 4. **Traceability.** Keep the generator settings, grids/metrics versions, seeds, policy, `TimeWindow`, filled cells and each exclusion’s reason recoverable in the generation and comparison account. Use C.18 for the archive and front returns. State how the final set was produced, including `ε`, `K` and deduplication. Keep any decision rationale required by the use in that account; reuse an adequate account.
-5. **Algorithmic freedom (informative).** Implementations MAY use MAP‑Elites/illumination, novelty search with local competition, Bayesian/surrogate‑assisted search, or deterministic enumerations; ε‑dominance or knee‑point thinning MAY be used *after* recording the full front in provenance.
+5. **Algorithmic freedom (informative).** Implementations MAY use MAP‑Elites/illumination, novelty search with local competition, Bayesian/surrogate‑assisted search, or deterministic enumerations; a tolerance that defines dominance belongs to the stated comparator. When ε or a knee-point rule is used only to thin an already computed front, preserve that front and identify the thinned return separately. For a promised approximation, establish the stated error guarantee over its domain. A coverage guarantee, for example, needs an attainable representative within the promised tolerance for every outcome it covers.
 
 ### B.5.2.1:5 - Implementation & Binding into **B.5.2** (two injection points)
 
@@ -52463,7 +52463,7 @@ When the pattern is imported, use NQD-Generate for the selected generation contr
 
 Apply B.5.2 to return a qualified prime conjecture when its comparison warrants one, or an explicit abort, defer or split result. Deduction, evidence acquisition and action choice remain separate questions.
 
-Primary dominance test: compute the (ε-)Pareto front over the declared `DominanceSet`. When the Context consumes the ordinary default, that means the declared `Q` components. For tie-breaking, use only the constituted Novelty, ΔDiversity_P, Surprise or IlluminationSummary results named by the active C.19 policy. Optional archive or telemetry readings retain their declared use; promotion into dominance requires an explicit policy. `Use-Value` remains non-dominant unless the active `Q` tuple includes it.
+For the primary dominance test, identify the eligible assessed candidates and compute their front under the declared `DominanceSet` and applicable tolerance. When the Context consumes the ordinary default, that means the declared `Q` components. For tie-breaking, use only the constituted Novelty, ΔDiversity_P, Surprise or IlluminationSummary results named by the active C.19 policy. Optional archive or telemetry readings retain their declared use; promotion into dominance requires an explicit policy. `Use-Value` remains non-dominant unless the active `Q` tuple includes it.
 
 **Fallback when no narrower local policy is specified**
 > Use the ordinary default `DefaultId.DominanceRegime` from `G.Core/G.5` together with the active `C.19` policy-side defaults; in ordinary Q-front use this means the declared `Q` components, with `ConstraintFit=pass` as the **candidate admission condition for that front**, assessed after generation.
@@ -52479,7 +52479,7 @@ Use `Surprise` as a secondary tie-break only when the active C.19 policy names t
 
 #### B.5.2.1:5.1 - Distinguish the returned results
 
-Keep three results distinct: the front records non-domination under the declared `DominanceSet`; the `ExplorationArchive` records retention under its policy; a shortlist records the set selected for a named receiving use. Label each result supplied by the generator and preserve the complete front before any thinning.
+Identify the population used for the front, the coordinates in the `DominanceSet` and the distinct answers the commission requires. Preserve its computed front before thinning. Report retained candidates under their archive policy when an archive is due (CC‑B.5.2.1‑4a). A shortlist answers a subsequent selection question. A budget stop records the end of the run. For a report on niches actually tested, include the applicable tests, including tests whose candidates were discarded. For an exact front over the full hypothesis space, establish how the rest of that space is covered.
 
 ### B.5.2.1:6 - Conformance Checklist (normative)
 
@@ -52492,13 +52492,13 @@ Keep three results distinct: the front records non-domination under the declared
 
 **CC-B.5.2.1-Eligibility.** The MethodDescription SHALL state applicable input/seed conditions. Any actual generation Work SHALL meet its independently governed authority, assignment, scope/window and permission conditions. Assess each generated candidate’s must-constraints before admitting it to the comparison/front that consumes ConstraintFit; a result about that candidate SHALL NOT be a precondition for creating it. Preserve exclusions and their reasons.
 
-**CC‑B.5.2.1‑4 (Non‑dominated candidate front).** The *CandidateSet* **MUST** include the **Pareto front** over the declared `DominanceSet`. If the Context consumes the ordinary default, cite that consumed `DefaultId.DominanceRegime` rather than restating one local default doctrine. Every exclusion SHALL retain its reason.
+**CC‑B.5.2.1‑4 (Non‑dominated candidate front).** The *CandidateSet* **MUST** include the front for the identified eligible comparison population under the declared `DominanceSet`. A claim of completeness for a wider domain SHALL account for that domain at the requested distinction between candidate identities and objective values (C.18:4.4). If the Context consumes the ordinary default, cite that consumed `DefaultId.DominanceRegime` rather than restating one local default doctrine. Every exclusion SHALL retain its reason.
 
-A dominance exclusion names the dominating candidate and declared coordinates; deduplication cites its equivalence or distance rule; archive retention and post-front thinning cite their policies. Preserve the complete computed front before thinning and label a thinned result separately.
+For a dominance exclusion, identify the eligible rival and decisive coordinates when known. An argument showing that every jointly admissible account contains a dominating rival also suffices, even if the rival changes between accounts. Cite the rule for deduplication, archive retention or thinning when used. Preserve the complete computed front for its stated population before thinning and label the thinned result separately.
 
 `N`, `D=ΔDiversity_P`, `Surprise`, `IlluminationSummary`, and similar signals enter dominance only under an explicit recorded promotion policy; otherwise they remain archive, tie-break, or telemetry signals.
 
-**CC‑B.5.2.1‑4a (Archive companion when retained exploration is in scope).** If the active policy depends on retained exploration, stepping-stone retention, or open-ended search, the emitted candidate package **MUST** include the corresponding `ExplorationArchive`. When archive mode is disabled for a run whose policy does not require that retained result, cite the policy id that establishes that choice.
+**CC‑B.5.2.1‑4a (Archive companion when retained exploration is in scope).** If the active policy depends on retained exploration, stepping-stone retention, or open-ended search, the emitted candidate package **MUST** include the corresponding `ExplorationArchive`. Supply the archive when the commission calls for it. Where the commission permits a run without an archive and the policy allows that mode, cite the policy id for the choice.
 
 **CC-B5.2.1-5 (Hypothesis-led testing).** Before claiming empirical corroboration, the practitioner SHALL derive the consequences needed to interpret the test and retain how the tested hypothesis was obtained. Generation SHALL NOT assign an assurance level, require a new experiment or prescribe the next reasoning contribution independently of the receiving question.
 
@@ -52520,7 +52520,7 @@ A dominance exclusion names the dominating candidate and declared coordinates; d
 
 * *Added steps:* selecting descriptor **Characteristics** and granularity; reading the returned front. Start with front membership; consult dominated entries when their exclusion or retained archive role matters.
 * *Mitigations:* a compact comparison note or table can suffice. Keep the required coordinate meanings and provenance available, and reuse applicable Context grids and metrics.
-* *Reader quickstart (engineer-manager):* (1) Select Q characteristics and descriptors that answer the explanatory question; reuse compatible Context definitions. (2) Declare the generator, policy, budget and stopping rule, and any novelty metric it uses. (3) Run NQD-Generate; inspect the front under its declared coordinates and any retained archive required by the policy. (4) Apply B.5.2’s plausibility criteria and retain the comparison grounds and needed decision rationale.
+* *Reader quickstart (engineer-manager):* (1) Select Q characteristics and descriptors that answer the explanatory question; reuse compatible Context definitions. (2) Declare the generator, policy, budget and stopping rule, and any novelty metric it uses. (3) Run NQD-Generate; inspect the front for the eligible population under the declared coordinates and any archive required by the policy or commission. (4) Apply B.5.2’s plausibility criteria and retain the comparison grounds and needed decision rationale.
 
 ### B.5.2.1:8 - Placement in the Reasoning Cycle (ADI)
 
@@ -52531,8 +52531,8 @@ This pattern structures candidate hypothesis exploration within B.5.2. A receivi
 Practitioners may monitor these indicators to improve practice; they do not serve as admission conditions:
 
 1. **Profile-specific assurance progression (optional).** When a receiving domain uses an assurance-level profile, report the fraction of cycles whose candidate meets a named level under that profile within the policy window. Name the claim, use and satisfying evidence; omit this KPI when no such profile is used.
-2. **Frontier‑Hit Rate (FHR).** % of cycles where the chosen candidate lies on the **Pareto front** over the declared `DominanceSet` at selection time; track novelty/diversity contribution separately as archive, tie-break, or policy-promoted evidence.
-3. Coverage Gain (ΔI, report). Change in the *illumination summary* (coverage map/%filled cells) per cycle (how much of the descriptor space is now “lit”).
+2. **Frontier‑Hit Rate (FHR).** % of cycles where the chosen candidate lies on the **Pareto front** of the eligible population compared at selection time under the declared `DominanceSet`; track novelty/diversity contribution separately as archive, tie-break, or policy-promoted evidence.
+3. **Coverage Gain (ΔI, report).** Change in the illumination summary of the retained archive over a cycle, measured with its stated descriptor grid and occupancy rule.
 4. **Exploration Cost Ratio (ECR).** Under one resource metric, divide generation cost by positive downstream analysis or evidence-acquisition cost savings relative to a stated comparison baseline. State whether the savings are measured or estimated and identify the comparison or estimation Method. If positive savings are not established, report the costs and the supported saving result or unresolved saving claim separately.
 5. **Refutation Learning Yield (RLY).** Among *refuted* candidates, report the percentage that added new coverage or contributed a specified increase in Surprise. For the Surprise branch, identify the constituted result and its baseline or reference set, and use a declared comparison rule on a compatible basis to determine whether the candidate counts.
 
@@ -52557,7 +52557,7 @@ The declared DominanceSet is exactly the two Q coordinates, with ε=0. Novelty i
 
 D’s scheduler cell is retained under the stated stepping-stone policy even though D is dominated. No D, Surprise or IlluminationSummary reading is needed in this example.
 
-The complete front is {A,B,C}: each trades prediction coverage against auxiliary assumptions. C.18 records that front separately from the retained archive {A,B,C,D}, and its generation record names this NQD-Generate procedure and the seed/operator provenance. No front thinning is applied.
+Of the four eligible hypotheses assessed here, A, B and C form the complete front. Each trades prediction coverage against auxiliary assumptions. C.18 records that front separately from the retained archive {A,B,C,D}, and its generation record names this NQD-Generate procedure and the seed/operator provenance. No front thinning is applied.
 
 **Qualified abductive result.** For a bounded answer to why the blocked threads in O2 occur, B.5.2 compares candidates that explain O2 with at most one unverified auxiliary assumption. A meets that stated plausibility criterion; C needs two, while B and D leave O2 unexplained. A is the qualified prime conjecture, conditional on the lock-scope assumption. A leaves the separate O3 cache-miss question open. Evidence that the blocked threads never wait on that lock would defeat it. Generation and the coordinate counts supply no assurance level or empirical corroboration.
 
@@ -63637,7 +63637,7 @@ The following are research questions, not current requirements:
 
 Use this pattern when generating or retaining variants raises a practical question: which candidates belong on the current front, which should remain available for exploration, and what changed in the basis for those decisions? A retained stepping stone can matter even when another candidate currently dominates it.
 
-**First useful move.** Name the candidate set, the comparison or retention rule needed, and the supported return. For a front, establish which eligible candidates are non-dominated under the declared comparator. Where a missing comparison could change membership, report the candidates whose status can already be settled and identify the open comparison. If it asks what to keep for later exploration, state the archive membership and its retention reason. Keep the two answers distinct when both are needed.
+**First useful move.** Identify the eligible population, the comparison or retention rule and what the recipient wants back. All nondominated candidate identities, the objective values they realize and one candidate per value can give different answers. If missing information affects only some memberships, report the settled part and the decisions still open. For an exploration archive, give the candidates retained and their retention reasons.
 
 When a retention reason is not yet supportable, use B.5:4.1.2 on the candidate, source or failed attempt to develop what later inquiry or action it could enable and under which conditions. Compare that attainable contribution and the retention commitment through C.11.DUA:4.2–4.2.1; use an already adequate basis directly. C.19:4.0 develops this connection when the question concerns treatment of a live pool. Return the supported archive-membership decision, or the particular retention claim still open and the attainable contribution needed to settle it.
 
@@ -63850,10 +63850,11 @@ Stop at ordinary same-space exploration when no action depends on the stronger m
 #### C.18:4.4 - Front And Archive Are Different Returns
 
 
-- Start from one declared candidate or eligibility set.
-- Apply the declared dominance relation to eligible candidates for the same use. With incomplete evidence, first establish that the observations admit at least one joint account of the candidates’ performance. Exclude a candidate if every admissible account contains an eligible rival that dominates it. Different accounts can identify different rivals. To establish front membership, rule out domination in every account. Two accounts that give different membership decisions establish that membership is open. A bound or proof can settle the decision without enumerating accounts.
+- Identify the population for the claim. Use `candidateSetRef` for the compared candidates and the comparator reference for the characteristics and dominance rule. If the commission ranges beyond evaluated or retained candidates, establish what can still occur in the rest of that domain.
+- Apply the declared dominance relation to eligible candidates for the same use. With incomplete evidence, consider which candidates could be eligible and what their performance could be, keeping all observations and shared constraints true together. Each such possibility for the candidates together is one admissible joint account. Establish that at least one exists. A candidate is excluded if in each account it is ineligible or an eligible rival dominates it. Name the applicable grounds. Different accounts can identify different rivals. To establish membership, show that the candidate is eligible and undominated in every account. Two accounts that give different membership decisions establish that membership is open. A bound or proof can settle the decision without enumerating accounts.
 - Two candidates may each do better on a different criterion. Their established trade-off differs from uncertainty about who does better. The identity of a rival may remain open after the evidence settles a candidate’s exclusion. If the front is computed over recorded comparisons, state which candidates and comparisons those records cover before using it to judge the underlying alternatives.
-- Return the exploration archive separately when the question concerns retained exploration value, coverage, novelty, diversity, stepping-stone value, or future reachability.
+- For an exact answer, establish both inclusion and completeness for what the recipient counts. Each reported candidate must be eligible and nondominated across the claimed population. Every eligible nondominated candidate must be accounted for. With ordinary Pareto dominance, distinct candidates tied on every objective can all qualify. For the distinct attainable objective values, report each nondominated vector once. For one realization per vector, also supply an eligible candidate realizing each. For all efficient candidates, include every distinct qualifying identity or a representation from which they can be recovered. A bound can settle the value front while leaving tied identities open. Apply the same test across every jointly admissible account when observations are incomplete.
+- For an exploration archive, state which candidates the policy retained for coverage, diversity, later use or further search. Occupied cells count retained niches under the specified descriptors. To report regions visited or tested, use evidence of visits or tests, including discarded candidates when they count. Two runs can occupy the same cells after testing different regions.
 - Keep tie-breakers and telemetry explicit so diversity, illumination, or popularity signals do not rewrite front semantics.
 - Before promoting telemetry or a popularity-like signal into the comparator, dominance set, or selected-set criteria, check which intended archive/front uses or values become worse or more fragile when that signal improves. State the affected uses or values, or the checked loci when none worsened, and cite the policy or decision authority that admits the promotion and any trade-off. If this basis or authority is missing, keep the signal as telemetry. Use it as a bounded tie-breaker only when a separate applicable policy already admits that use.
 - Use `RetentionIntent=steppingStone` when retention exists for frontier expansion or later curriculum value rather than current dominance.
@@ -63902,7 +63903,9 @@ For cultural variants, C.18 records the generated or retained variant set and it
 
 A dominates B because both readings are lower. A and C are incomparable: A uses less energy, while C takes less service time. The front is therefore `{A, C}`. The project's archive policy also retains one representative of every admitted connector family for later recombination. B is the only available representative of family J, so the archive retains B even though B is absent from the front. That retention is a coverage decision under the stated policy, not evidence that B performs better or will produce a successful later design.
 
-“Front `{A, C}`; retain B in the archive as the family-J representative” answers this question. No selected-set declaration or design choice follows automatically. If another J-family variant arrives, reconsider retention under the same policy; if the comparator or measurement basis changes, recompute the affected front relations.
+Suppose a fourth eligible module matches A on both comparison coordinates. For these four modules the two nondominated objective vectors stay (8 kWh, 20 min) and (12 kWh, 15 min). A purchaser seeking one design per vector can use A and C. A request for the identities of every efficient module also requires the fourth identity. This conclusion extends to a larger eligible population only when the remaining designs are accounted for under the same comparison.
+
+For the original three modules, return front `{A, C}` and retain B in the archive as the family-J representative. No selected-set declaration or design choice follows automatically. If another J-family variant arrives, reconsider retention under the same policy; if the comparator or measurement basis changes, recompute the affected front relations.
 
 ### C.18:7 - Bias-Annotation
 
@@ -63933,6 +63936,8 @@ The cited editions contribute different parts of archive and front practice. Ret
 
 | Source and scope | Contribution | Use boundary |
 | --- | --- | --- |
+| [Dowson, Gandibleux and Kof, *MultiObjectiveAlgorithms.jl*, §1.1](https://optimization-online.org/wp-content/uploads/2025/07/MOAjuly2025.pdf) | Separates efficient decisions, their nondominated objective images and representative decisions for those images. | State which of these the receiving use requires and the eligible domain of the claim. |
+| [Tamby and Vanderpooten, *Enumeration of the Nondominated Set of Multiobjective Discrete Optimization Problems*](https://doi.org/10.1287/ijoc.2020.0953) | Rules out regions that could otherwise contain further nondominated points. | A valid exclusion argument can establish completeness without individually testing every candidate. |
 | Lin et al., *Quality-Diversity Optimization as Multi-Objective Optimization*, arXiv:2602.00478v1 (2026-01-31) | Treats QD/Q-front comparison through declared objective components and dominance. | Cell filling or popularity does not supply the comparator. Keep the front, archive, selected-set declaration and publication uses separate. |
 | Qin et al., *A survey on Quality-Diversity optimization: Approaches, applications, and challenges*, *Swarm and Evolutionary Computation* 100:102240 (2026), DOI `10.1016/j.swevo.2025.102240`, `https://www.sciencedirect.com/science/article/pii/S2210650225003979` | Surveys approaches, applications, archive/diversity use and open challenges. | Its taxonomy does not replace the retention, comparison or generation relations. G.5 governs a selected-set declaration; E.17/E.24.PUB govern its publication when needed. |
 | Batra et al., *Quality Diversity for Robot Learning: Limitations and Future Directions*, arXiv:2407.17515v1 (2024-07-09) | Makes retained exploration value, generalization pressure and archive limitations relevant beyond current dominance. | Bounded archive occupancy alone does not establish usefulness or open-ended evolution. State the retention basis and cite telemetry only when the claim relies on it. |
@@ -138189,9 +138194,9 @@ Registry and dispatch remain the primary concern. A set declaration can communic
 #### G.5:0.3 - First-minute questions
 
 - Which exact members and grouping or inclusion basis are already established?
-- Are they alternatives for later choice or members all included for one named use?
+- Which decisions will each recipient make? Are the listed members alternatives for a later choice, or are all designated for one named use?
 - Does the declared comparison justify ordering them?
-- Which eligibility, evidence or other receiving-use conditions apply?
+- Which eligibility and evidence conditions apply? If promising a feasible combination or menu, what joint choices are allowed and what shared limits affect them?
 - What result can be handed over, and what prevents a complete result?
 - Does the current question additionally claim actual selection, composition, a relation between meanings, public identity or publication? Open only the applicable branch in §4.2.
 
@@ -138513,6 +138518,8 @@ The admissible selector outcome families here are:
 
 `G.5-3 Select` uses grounded candidates and the applicable eligibility/comparison basis. An admitted Select may return an empty candidate set under its declared criteria; a corresponding empty `Shortlist` retains that actual return, criteria and scope. An abstention instead records the failed or unknown condition and has no Select result binding. `G.5-6 DeclareSetResult` emits `SetResultOutcome` from exact already identified members and a current inclusion basis; it does not perform that upstream choice.
 
+When the recipient asks which members were agreed for joint use, the agreement can settle their membership. To recommend a feasible combination, establish that the members meet their uses together under the shared constraints. If several recipients may choose independently from menus, check the joint choices their rights permit. A promise to honor them all needs one jointly feasible way for the participants to act. Each participant must act alike in situations they cannot yet distinguish when they commit, within their own authority (C.11:4.2 and C.43:4.1.1). For a claim that the recipients actually used the members, establish the relevant Work.
+
 A `JointUseSet` uses this bounded representation:
 
 - `namedUse` states the one joint use;
@@ -138616,7 +138623,7 @@ When the source is `TraditionFront` or `TraditionArchive`, keep its base `SoTAPa
 | --- | --- |
 | The two pump Methods in §0.5 survive, with no admitted ordering. | Emit its unordered `Shortlist`; the receiver still has a choice to make. |
 | A declared comparator orders family_B before family_A for the specialist handoff. | Emit a `RankedShortlist` with `[family_B, family_A]`, the comparator and supporting basis pins, and the handoff use. A request for an order alone supplies no comparator. |
-| The cohort decision includes `FPF@C`, `Domain@D` and `Local@L` together. | Emit the §4.4b `JointUseSet`; the receiver uses all three exact editions under the inclusion conditions. |
+| The cohort decision includes `FPF@C`, `Domain@D` and `Local@L` together. | Emit the §4.4b `JointUseSet` with all three editions and the conditions under which the cohort is to use them. |
 | Required selection grounds are missing, or the established gates exclude every candidate. | Emit `AbstainOutcome` with the respective unknown or failed condition and its basis. Use `EscalationOutcome` only for a justified further inquiry or action. If an admitted Select application instead returns an empty set under its declared criteria, preserve that actual result and explain its scope. |
 
 The following extensions apply only when their corresponding mode is active. Their declared `Uses` and pins cite the governing semantics.
