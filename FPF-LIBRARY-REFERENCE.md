@@ -436,9 +436,9 @@ Use a qualified expression where it affects what the reader can infer or do.
 
 | Meaning needed here | Wording for the reader |
 | --- | --- |
-| Position under the stated system composition | system-composition level; system level when clear |
-| Position in an admitted Method composition | Method-composition level |
-| Contributions grouped by function and their connections | functional layer |
+| How an identified System is composed of other Systems | scale of System composition. *System level* is sufficient when this part–whole relation is understood. |
+| How an encompassing Method is composed of constituent Methods | scale of Method composition. A *layer of a Method stack* can name such a scale where the constituent relation is established. |
+| Which functions a design groups by their contribution and how they interact | functional layer, or *control layer* in a control architecture. Identify the Methods that implement it if their composition matters. |
 | Modules ordered by enclosure or by a stated dependency | modular level under that ordering. Use *module* and *interface* for peers whose exchange has no higher or lower member. |
 | Ordered comparison of models for the same inquiry | levels of model abstraction towards more abstract models; levels of model refinement towards more concrete models |
 | Detail shown or omitted in a representation | level of detail |
@@ -512,6 +512,8 @@ Ask for a usable conclusion in local terms and the grounds for it. Change one lo
 
 #### Library.Reference:6.2.2 - Unified term sheet for scales, layers and model abstraction
 
+At first reading, ask what the question itself asks the recipient to compare. An author may give a whole System as material for a question about one part, or use one part to ask about a repeatable relation. In “at all levels”, recover the kind of holon and the part–whole relation, the functional ordering of layers, or the comparison of models for one inquiry. Where several are involved, identify how they are connected in the requested conclusion. “All” can range over the branches relevant to that question. [C.39.QR:4.1.1, Recover what “all” covers](FPF-Spec.md#c39qr411---recover-what-all-covers)
+
 To choose a word for a project document, start with what you want the recipient to compare. How long is the system? Which systems make up its enclosing whole? Which functions take part in control? Which Methods make their performance possible? Which situations admit the claim? What does a more concrete model determine for the same decision? The answers can vary independently. A branch office can occupy two buildings while remaining one unit of the service. Two investigations can each cover fifteen offices and cover different offices. State the physical quantity, composition relation or covered population that answers your question.
 
 Use the three settled model-comparison rows directly. *Model refinement* and *model abstraction* are converses for the same inquiry and interpretation. In a chain established by that comparison, L0 to L4 reads towards more abstract models and L4 to L0 towards more concrete models. A strict difference requires a feasible more concrete model whose completions preserve the earlier commitments and exclude an answer the more abstract model admits. These are the existing `UTS.ModelRefinement.2026-11-16`, `UTS.ModelAbstraction.2026-11-16` and `UTS.ModelAbstractionLevel.2026-11-16` with their original cells and NameCards. [F.17:12.6](FPF-Spec.md#f17126---model-comparison-direction-and-level-rows) · [F.18:4.5](FPF-Spec.md#f1845---model-refinement-abstraction-and-relative-levels) · [B.5.MR:4.2](FPF-Spec.md#b5mr42---test-preservation-and-strictness)
@@ -550,7 +552,7 @@ The ReferenceScheme is the FPF Core interpretation stated in the exact sense for
 | `UTS.RangeTerms.Episteme` | Episteme | Identify the composition of interpreted content and its shared grounds. |
 | `UTS.RangeTerms.Discipline` | Discipline | Explain which knowledge and practice a discipline actually integrates. |
 | `UTS.RangeTerms.Layer` | Layer | Name a functional grouping and explain how it contributes or exchanges results. |
-| `UTS.RangeTerms.Claim` | Claim | Ask whether a target context slice belongs to the stated claim scope. |
+| `UTS.RangeTerms.Claim` | Claim | Ask whether a target context slice belongs to the stated claim scope. The domain of “each” identifies the members quantified over within the claim. Its applicability is a separate question. |
 | `UTS.RangeTerms.Ability` | Ability | Ask whether the target work conditions are within the qualified ability claim's scope. |
 | `UTS.RangeTerms.Publication` | Publication | Ask whether the intended use is within the publication's admissible scope. |
 
