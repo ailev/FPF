@@ -33,7 +33,7 @@ A faster operation can still produce an unneeded result, repeat an error or leav
 | How do we keep a system fit for use or restore it after a failure? | [Maintenance Engineering and Management](https://fpf.tools/MNT). |
 | How do we make a changing body of knowledge usable in work? | [Knowledge-Corpus Access Engineering](https://fpf.tools/KCAE). |
 | How can systems exchange usable meaning when their sources disagree or change? | [Semantic Integration Engineering](https://fpf.tools/SIE). |
-| Which contributions are missing between a local action and the intended whole? | [Method-vertical examples (Engineering.Reference:25.1)](ENGINEERING-DPF-SUITE-REFERENCE.md#engineeringreference251---what-must-be-available-through-the-method-vertical): a worked explanation with links to the full methods. |
+| Which methods does a service require, and which actions constituted a particular performance? | [Method composition and the work performed (Engineering.Reference:25.1)](ENGINEERING-DPF-SUITE-REFERENCE.md#engineeringreference251---what-must-be-available-through-the-method-vertical): a worked explanation with links to the full methods. |
 | How do we change an AI agent's execution procedure and test it in work? | [Construct and revise the procedure (SYSE.47)](https://fpf.tools/SYSE.47), then use [representative work to test the agent and its support (SYSE.46)](https://fpf.tools/SYSE.46) when that evidence is needed. |
 
 The [Engineering Architectural Reference](ENGINEERING-DPF-SUITE-REFERENCE.md) helps when the question spans several contributions. It explains their connections and leads to full methods; a known sufficient pattern can be used directly.
@@ -42,11 +42,11 @@ The [Engineering Architectural Reference](ENGINEERING-DPF-SUITE-REFERENCE.md) he
 
 | Framework | What you can work on | Patterns | Text, M characters |
 | --- | --- | ---: | ---: |
-| [Systems Engineering (SYSE)](https://fpf.tools/SYSE) · [Markdown](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | Define the system and intended use; compare designs and ways to obtain them; realize, integrate, qualify and change the result. | 54 | 1.899 |
-| [Maintenance Engineering and Management (MNT)](https://fpf.tools/MNT) · [Markdown](MAINTENANCE-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | Select maintenance policy from condition and failure knowledge; prepare interventions, restore functioning and qualify return to use. | 16 | 0.251 |
-| [Knowledge-Corpus Access Engineering (KCAE)](https://fpf.tools/KCAE) · [Markdown](KNOWLEDGE-CORPUS-ACCESS-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | Engineer arrangements for finding, reading and using documentary knowledge, including links back to source passages, delivery and coherent updates. | 11 | 0.242 |
-| [Semantic Integration Engineering (SIE)](https://fpf.tools/SIE) · [Markdown](SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | Make separately governed meanings usable together through models, mappings, interfaces, validation and response to change. | 13 | 0.316 |
-| [Control Architecture Design (CAD) — Markdown](CONTROL-ARCHITECTURE-DESIGN-PRINCIPLES-FRAMEWORK.md) | Choose observations and memory; construct a planning-and-feedback arrangement when useful; connect information error, command limits and execution conditions. | 5 | 0.147 |
+| [Systems Engineering (SYSE)](https://fpf.tools/SYSE) · [Markdown](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | Define the system and intended use; compare designs and ways to obtain them; realize, integrate, qualify and change the result. | 54 | 1.916 |
+| [Maintenance Engineering and Management (MNT)](https://fpf.tools/MNT) · [Markdown](MAINTENANCE-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | Select maintenance policy from condition and failure knowledge; prepare interventions, restore functioning and qualify return to use. | 16 | 0.255 |
+| [Knowledge-Corpus Access Engineering (KCAE)](https://fpf.tools/KCAE) · [Markdown](KNOWLEDGE-CORPUS-ACCESS-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | Engineer arrangements for finding, reading and using documentary knowledge, including links back to source passages, delivery and coherent updates. | 11 | 0.245 |
+| [Semantic Integration Engineering (SIE)](https://fpf.tools/SIE) · [Markdown](SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | Make separately governed meanings usable together through models, mappings, interfaces, validation and response to change. | 13 | 0.323 |
+| [Control Architecture Design (CAD) — Markdown](CONTROL-ARCHITECTURE-DESIGN-PRINCIPLES-FRAMEWORK.md) | Choose observations and memory; construct a planning-and-feedback arrangement when useful; connect information error, command limits and execution conditions. | 5 | 0.152 |
 
 **Patterns** counts full pattern bodies. **Text, M characters** measures each complete Markdown framework, including its embedded Architectural Reference, in millions of Unicode characters with spaces and original line breaks, rounded to three decimals.
 

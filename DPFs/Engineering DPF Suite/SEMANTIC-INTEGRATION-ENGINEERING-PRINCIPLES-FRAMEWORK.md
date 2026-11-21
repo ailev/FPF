@@ -5,7 +5,7 @@
 > A domain pattern language for making separately governed meanings and representations usable together for a named receiving use.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version:** 20 October 2026
+- **Version:** 21 November 2026
 - **Status:** Eternal alpha, open to correction as methods, sources, and applications change. The thirteen Methods support construction of a receiving-use integration, model reuse or development, semantic interfaces, affected-use revalidation, and modular semantic commons.
 - **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
 - **Publication:** [FPF Library repository](https://github.com/ailev/FPF)
@@ -90,7 +90,7 @@ The [Architectural Reference](#semantic-integration-engineering-principles-frame
 
 In [APP-SIE-01](#sieapplication1---app-sie-01---ap242-and-qif-product-lifecycle-query), the engineer asks for the QIF plan and result concerning feature `F` in released revision/configuration `R` at effectivity `E`. SIE.1 makes those inputs and the acceptable answer branches explicit. [SIE.2](#sie2---recover-and-qualify-source-semantics-and-authority) then supplies the source editions, local definitions, the rules or assignments that identify the feature, and the authority for each. If the available model cannot distinguish a planned inspection from an observation of that configured feature, [SIE.3](#sie3---construct-or-reuse-a-semantic-model-for-a-named-use) develops that missing distinction and tests it against those cases. An adequate existing model can be reused.
 
-Those meanings allow [SIE.4](#sie4---judge-cross-source-correspondences-and-their-permitted-uses) to state a directed relation: inspection characteristic `C-17` concerns product feature `F-17` under the plan and configuration. [SIE.5](#sie5---resolve-cross-source-identity-without-erasing-identifier-authority) qualifies the feature endpoint at the required grain and effectivity. The relation permits navigation between the records; it does not make a characteristic identical to a product feature. A shared label without the supporting plan and effectivity remains an unmatched candidate. [SIE.6](#sie6---fuse-source-qualified-claims-without-erasing-conflict) uses these premises to combine definition, plan, and observation claims while retaining their sources and any conflict.
+Those meanings allow [SIE.4](#sie4---judge-cross-source-correspondences-and-their-permitted-uses) to state a directed relation: inspection characteristic `C-17` concerns product feature `F-17` under the plan and configuration. [SIE.5](#sie5---resolve-cross-source-identity-without-erasing-identifier-authority) qualifies the feature endpoint at the required grain and effectivity. The relation permits navigation between the records; it does not make a characteristic identical to a product feature. A shared label can suggest a link. If the available plan excerpt leaves the assignment open, retain it as unresolved. If the complete governing plan for that effectivity makes no assignment, report the non-match. [SIE.6](#sie6---fuse-source-qualified-claims-without-erasing-conflict) uses these premises to combine definition, plan, and observation claims while retaining their sources and any conflict.
 
 [SIE.7](#sie7---specify-semantic-extraction-and-transformation-mappings) turns the accepted relations into selection and transformation rules. The rules select the supplied released configuration, preserve both source identifiers, and expose an unknown unit or unmatched feature. [SIE.8](#sie8---choose-virtual-materialized-or-hybrid-semantic-realization) uses those required behaviours when comparing ways to supply the result; [SIE.9](#sie9---connect-a-receiving-use-through-a-semantic-interface) makes their meanings, timestamps, provenance, and failure branches available in the engineer's query.
 
@@ -133,7 +133,7 @@ If you use this edition, cite:
 ```text
 Anatoly Levenchuk, with AI-assisted development and review.
 Semantic Integration Engineering Principles Framework.
-20 October 2026.
+21 November 2026.
 GitHub repository: https://github.com/ailev/FPF
 ```
 
@@ -143,7 +143,7 @@ For a particular pattern, add its PatternID and title. Retain the edition design
 
 Semantic integration is professional Work that makes separately governed meanings and representations usable together for a particular receiver. Its governed object is the maintained semantic-integration arrangement: the use contract, qualified sources and needed model content, correspondences, identity and claim dispositions, executable mappings, realization, interface, validation, and their dependencies and maintenance. An ontology file, mapping table, graph database, registry, API, or pipeline can contribute to that arrangement; none is the whole by itself.
 
-Begin from one receiver and one query, decision, operation, or engineering workflow. Work backward to the answer claims, distinctions, sources, authorities, losses, currentness, and tests that the use needs. Preserve explicit incompatibility when it is more truthful than a common value.
+Begin from the query, decision, operation or engineering workflow and the people or systems receiving its result. A joint decision may depend on several recipients being able to use the answer together. Work backward to the answer claims, distinctions, sources, authorities, losses, currentness, and tests that the use needs. Preserve explicit incompatibility when it is more truthful than a common value.
 
 An integration practitioner works with source experts and the receiving engineer, analyst, application team, or other owner of the use. A successful join may still answer the wrong question: the same code can name a product family in one source and a particular item in another, or two availability fields can carry different commitments. At the other extreme, requiring a common ontology or store for every source can delay a small useful answer and suppress a difference the receiver needs. The working problem is to connect the required meanings while keeping their authority, limits, and consequences recoverable.
 
@@ -206,7 +206,7 @@ Use [SIE.13:4.1–4.4](#sie1341---establish-what-would-let-the-receiver-continue
 
 Three questions remain distinct. Is each source meaning, correspondence, identity disposition, or composition rule supported? Does that result permit the particular use made of it? Can all relied-on results and their realization satisfy the receiving contract together? A true relation may be too lossy for one transformation. Two individually current sources may concern different effectivity intervals. Several feasible components may exceed a shared access limit. The relevant bodies answer their local questions; the whole-use conclusion also needs these joins and common conditions.
 
-For the combination, bind the same receiving question and the actual subjects, grain, intervals, source and rule versions, accepted losses, authority, and failure branches. Where contributions use shared requests, credentials, storage, time, or operating support, compare their total demand with the applicable conditions, including required trace and recovery behavior. A permission to query does not imply permission to replicate or disclose. Keep a common source or derivation visible when several results rely on it; repeated citations or passing tests of the same premise are not independent support for a different claim. The realization comparison belongs in [SIE.8, Solution](#sie84---solution) and the bounded validation in [SIE.10, Solution](#sie104---solution). [SIE.13:4.2–4.6](#sie1342---derive-the-required-contributions-from-the-answer) constructs the required connections, obtains missing contributions and returns their combined result to the receiving use.
+For the combination, bind the same receiving question and the actual subjects, grain, intervals, source and rule versions, accepted losses, authority, and failure branches. Where contributions use shared requests, credentials, storage, time, or operating support, compare their total demand with the applicable conditions, including required trace and recovery behavior. Establish who may obtain, copy and disclose the required content. One response can serve two independent uses when each recipient is permitted to receive it and can use it by their deadline. A joint decision also needs the handover and authority that let them act together. Keep a common source or derivation visible when several results rely on it; repeated citations or passing tests of the same premise are not independent support for a different claim. The realization comparison belongs in [SIE.8, Solution](#sie84---solution) and the bounded validation in [SIE.10, Solution](#sie104---solution). [SIE.13:4.2–4.6](#sie1342---derive-the-required-contributions-from-the-answer) constructs the required connections, obtains missing contributions and returns their combined result to the receiving use.
 
 ### SIE.Reference:6.1 - A shared request limit changes the provider result
 
@@ -381,13 +381,13 @@ For source qualifications, citation and edition information, see the [Sources an
 > **Status:** Stable
 > **Normativity:** Normative method guidance within SIE; examples are constructed and non-normative.
 >
-> **Primary working result:** a `SemanticIntegrationUseContract@Use` that names one receiver and use, required answer claims, source cut, tolerated loss and uncertainty, currentness, latency, quality, authority, representative tests, stop conditions, and reopen conditions.
+> **Primary working result:** a `SemanticIntegrationUseContract@Use` that names the receiving use and its recipients, required answer claims, source cut, tolerated loss and uncertainty, currentness, latency, quality, authority, representative tests, stop conditions, and reopen conditions.
 
 ### SIE.1:1 - Problem Frame
 
 **Use this when** a request says “integrate the data”, “align the models”, “build the knowledge graph”, or “make one source of truth”, but the intended receiver and decision-changing answer are not yet explicit. The recognizable failure is an integration whose values cannot be interpreted, trusted, or used safely by the Work that requested it.
 
-The subject is one semantic-integration use: a named receiver performing a named query, decision, operation, or engineering workflow under stated conditions. The first move is to state that use and the answer claims it needs. The first result is a bounded contract that lets later workers decide which semantic loss, source age, unresolved row, and test outcome are acceptable.
+The subject is one semantic-integration use: a specified query, decision, operation or engineering workflow and the recipients who use its answer under stated conditions. The first move is to state that use and the answer claims it needs. The first result is a bounded contract that lets later workers decide which semantic loss, source age, unresolved row, and test outcome are acceptable.
 
 The practical gain is a testable stopping rule before source, ontology, mapping, or platform choices accumulate. Do not use this pattern to authorize the receiving decision, decide product configuration, choose master identity, operate a data pipeline, or define generic evidence law. Obtain those results from their owners. Do not reopen a current contract merely because another source exists; reopen it when the receiver, use, answer, conditions, authority, or acceptance boundary changes.
 
@@ -415,11 +415,11 @@ Construct the smallest semantic contract that can change the named receiving act
 
 #### SIE.1:4.1 - Pattern-Use Unfolding
 
-1. **Name the receiver and receiving Work.** Identify the System or role that will use the result, the query, decision, operation, or workflow, the horizon, and the first useful answer.
+1. **Name the receiver and receiving Work.** Identify the System or role that will use the result, the query, decision, operation, or workflow, the horizon, and the first useful answer. For separate receiving decisions, establish what each recipient may see and accept by its deadline. For one joint decision, identify who must contribute or agree and what enables the handover. One result can serve both uses if it meets both sets of conditions.
 2. **State the answer claims.** Write the fields or propositions the receiver needs, including scope, grain, interval or effectivity, and the action each claim can change. Keep a value, its provenance, its authority, and the receiver's decision distinct.
 3. **Select the source cut.** Name only the governed contexts and candidate source assets that can change the answer. Mark sources whose inclusion is uncertain rather than adding them silently.
 4. **State preserved distinctions and tolerated loss.** Name identities, versions, units, codes, relations, claim scopes, and incompatibilities that must survive. For each permitted coarsening or omission, state why the receiver can tolerate it.
-5. **State currentness, latency, availability, and quality conditions.** Choose thresholds or explicit unresolved returns only where they change use.
+5. **State currentness, latency, availability, and quality conditions.** Specify thresholds or unresolved returns where they change use. A deadline for one query, a time bound for every admitted request and a percentile over a specified workload call for different evidence.
 6. **Recover authority, permission, and protection boundaries.** Name who defines source meanings, who may grant access, who decides identities or authoritative values, who accepts semantic loss, and who owns the receiving action. Identify any missing authority or permission that blocks the use.
 7. **Design representative tests before implementation.** Include at least one expected positive case, one negative or unmatched case, and one unlike or changed-source case that could defeat the proposed integration. Name the expected branch rather than requiring every test to return a value.
 8. **State pass, narrow, unresolved, and stop outcomes.** A contract permits a bounded usable subset or explicit incompatibility when that is useful. Stop when a load-bearing meaning, source edition, identity authority, permission, or acceptance rule is unavailable.
@@ -452,7 +452,7 @@ A quality engineer asks which QIF inspection plan and result concern feature `F`
 | answer claims | AP242 feature identifier and configuration/effectivity claim; QIF plan, characteristic, and result identifiers; relation disposition; source edition; timestamp; provenance; unmatched/incompatible status |
 | preserved distinctions | product feature versus inspection characteristic; definition versus performed result; revision versus configuration; applicability/effectivity; source identifier and issuer; plan versus result |
 | tolerated loss | display may coarsen source-local labels after exact identifiers and relations remain available; no unmatched feature or incompatible characteristic may become a positive relation. For this constructed evidence-return review, the receiver permits the qualified row set with unresolved local-extension and unknown-unit branches shown separately |
-| currentness and latency | for this constructed review at time T, the receiver requires the released AP242 configuration applicable to the review, QIF observations from T minus 24 hours through T, and a query response within two seconds. |
+| currentness and latency | for this constructed review at time T, the receiver requires the released AP242 configuration applicable to the review, QIF observations from T minus 24 hours through T, and a response to this review query within two seconds. |
 | authority | Systems Engineering owns release, configuration, and effectivity; the quality authority owns acceptance; source owners define their models; SIE may qualify mappings but authorizes neither decision |
 | tests | known match; unmatched feature; changed revision; incompatible characteristic; stale QIF result; missing provenance; source timeout |
 | stop/reopen | stop on unresolved configuration/effectivity, source edition, feature identity, permission, or acceptance rule; reopen when a relied-on AP242/QIF edition, review use, or protected condition changes |
@@ -471,7 +471,7 @@ This result does not claim that the two source models correspond or that an inte
 
 ### SIE.1:7 - Conformance Checklist
 
-- [ ] One named receiver and receiving Work are explicit.
+- [ ] The receiving Work and the recipient or recipients whose decisions it serves are explicit.
 - [ ] The first useful answer is expressed as claims or fields with grain, scope, and interval/effectivity.
 - [ ] The source cut is justified by the use rather than by reachability.
 - [ ] Preserved distinctions, permitted loss, uncertainty, and unmatched/incompatible behavior are explicit.
@@ -485,7 +485,7 @@ This result does not claim that the two source models correspond or that an inte
 
 | Anti-pattern | Repair |
 | --- | --- |
-| “Integrate all enterprise data.” | Name one receiver and the smallest source cut that can change one use. |
+| “Integrate all enterprise data.” | Name the receiving decision, those who use its result, and the smallest source cut that can change it. |
 | “The knowledge graph is the deliverable.” | State the receiving answer and treat graph materialization as one later realization option. |
 | “No information loss.” | Name the distinctions and tests; unlimited preservation is not an operational contract. |
 | “Real time.” | State a measurable currentness and latency condition for the use. |
@@ -885,7 +885,7 @@ Separate candidate discovery, direct relation judgment, and bounded-use qualific
 1. **Take the question from the contract.** State the receiving answer and why this endpoint relation can change it.
 2. **Bind exact endpoints.** Reference the `SIE.2` source rows, schemes, definitions, editions, profiles, effectivity, units, codes, and local extensions. Do not map labels without their senses.
 3. **Generate candidates without promotion.** Lexical, structural, instance, expert, historical, or matcher evidence may nominate a row. Record the candidate source and score where useful, but do not treat nomination as acceptance.
-4. **State the direct relation or difference.** Use the narrowest warranted relation vocabulary. State direction and whether the inverse, symmetry, or transitivity is supported. If no positive relation is established, choose rejected, unresolved, or incompatible with reason.
+4. **State the direct relation or difference.** Use the narrowest warranted relation vocabulary. State direction and whether the inverse, symmetry, or transitivity is supported. A pair may be excluded from a join while the relation remains unknown. To assert that an assignment is absent, use evidence that excludes it for this configuration, such as a complete governing plan.
 5. **Test examples and counterexamples.** Include instances or cases that should satisfy the relation and cases that distinguish endpoints, including version, unit, code, granularity, lifecycle, and authority differences.
 6. **Qualify the receiving use.** State which substitution, comparison, join, navigation, or transformation the row permits, what semantic loss it introduces, and which uses remain forbidden.
 7. **Preserve evidence and authority.** Record justification, evidence source, reviewer or domain authority where required, uncertainty or confidence, and the owner of any unresolved domain judgment.
@@ -917,7 +917,7 @@ In the AP242/QIF application, the lexical candidate `feature ↔ characteristic`
 | --- | --- | --- |
 | AP242 feature `F-17` ↔ QIF characteristic `C-17` | not identity and not class equivalence; the QIF plan asserts that `C-17` concerns the identified product feature under configuration/effectivity `R/E` | accepted-for-use as a directed `inspection-characteristic-concerns-feature` relation only after `SIE.5` qualifies the feature endpoint; no reverse substitution |
 | AP242 feature type `hole` ↔ QIF characteristic type `diameter` | a diameter characteristic can characterize some holes, but the types are neither equal nor simply broader/narrower | accepted-for-use for navigation from a selected plan row with a qualified feature endpoint to its linked hole feature and diameter characteristic. Return their separate source identifiers and types with the plan relation; forbidden as a global type crosswalk |
-| AP242 feature `F-22` ↔ QIF characteristic `C-99` | the candidate arose from a shared local label; effectivity and plan evidence do not support the relation | rejected; the interface returns unmatched rather than joining |
+| AP242 feature `F-22` ↔ QIF characteristic `C-99` | Only the shared local label supports this candidate. The accessible plan excerpt supplies no assignment at `R/E`. | Exclude the pair from the join and return the link as unresolved. If the complete governing plan for `R/E` contains no such assignment, return an established non-match for that configuration. |
 | legacy feature class ↔ current QIF characteristic class | one local extension lacks an authoritative definition | unresolved and stopped for dependent mapping; return to the extension owner |
 
 The set records endpoint editions and counterexamples such as a non-dimensional inspection characteristic and a feature absent at effectivity `E`. It establishes semantic premises; it does not decide that identifiers denote the same entity or specify executable joins.
@@ -1033,7 +1033,7 @@ Frame identity as a source-qualified, grain- and interval-specific disposition f
 1. **Name the receiving identity question.** State which mapping, claim composition, query, or decision needs an identity premise and what a wrong merge or split would change.
 2. **Fix entity grain and interval.** Name the relevant individual or occurrence kind, part-whole level, version/configuration, lifecycle state, jurisdiction or organization, and time/effectivity interval.
 3. **Resolve each source entry.** Use SIE.2 to establish what each entry can designate. Recover its assignment and issuing authority when it was issued, or the rule and context used to interpret it. Retain the applicable syntax, restrictions, source edition and provenance. If the evidence leaves several candidates or fails to identify one, record that outcome.
-4. **Separate candidate relation kinds.** Consider same individual at the stated grain, different individuals, part/whole, earlier/later version or specialization, variant, alternate description, an individual satisfying a type criterion, or membership in a declared product family. Keep the relation unresolved if more than one reading still fits. Do not use one boolean until the use needs only that distinction.
+4. **Separate candidate relation kinds.** Consider same individual at the stated grain, different individuals, part/whole, earlier/later version or specialization, variant, alternate description, an individual satisfying a type criterion, or membership in a declared product family. When several readings still fit, check which trace or decision differs between them. Return an answer common to every admissible reading at the requested grain. Preserve any finer relation still in doubt.
 5. **Collect discriminating evidence.** Use issuer records, source assertions, configuration/effectivity, provenance, physical or domain characteristics, event histories, and counterexamples. A shared string or co-occurrence is only candidate evidence.
 6. **Recover authority.** Identify who may bind a source identifier, govern the master identity, decide authoritative values or establish the domain relation. SIE records the disposition for its stated use under those authorities.
 7. **Assign the narrowest warranted disposition.** State conditions, confidence or uncertainty where meaningful, rejected alternatives, and unresolved evidence. Preserve source IDs even for accepted same-entity rows.
@@ -1064,12 +1064,12 @@ A recall-triage query crosses a wafer identifier from a fabrication source, die 
 | Endpoint question | Constructed disposition |
 | --- | --- |
 | wafer `W-204` and supplier lot `L-88` | not identity; the supplier record asserts that the wafer is a member/output associated with the lot under a bounded process interval. Preserve both identifiers and relation provenance. |
-| die coordinate `(x17,y9)` on wafer `W-204` and device serial `D-771` | same physical die/device at the selected post-singulation grain only when the packaging event and issuer records connect them; accepted with interval and event evidence. |
-| device serial `D-771` and package code `P-55` | unresolved because the package identifier is reused after rework and the event history lacks effectivity. Stop the dependent trace branch. |
+| die coordinate `(x17,y9)` on wafer `W-204` and device serial `D-771` | Suppose the packaging record shows that this die was incorporated in the serialized device. Trace the die as a constituent of that device for the recorded interval. A serial assigned to the singulated die itself can instead identify the same die as the wafer coordinate when the designation rule or identifiable context establishes that referent. In either case retain both source identifiers, their applicable intervals and the assignment, issuer or context that establishes each designation. |
+| device serial `D-771` and package code `P-55` | unresolved because the package identifier is reused after rework and the event history lacks effectivity. Keep the exact package history open. Test whether this uncertainty changes the lot-level answer. |
 | enterprise material master `M-12` and device serial `D-771` | The master record describes a product class and carries the enterprise attributes it governs. To classify the particular device, establish that it meets the class criterion. Membership in a catalogue family would require the catalogue's own grouping rule. The master and the device each retain their identity. |
 | GS1 event `E-901` and device `D-771` | event and object are different entities; the event may concern the device. Never merge their identifiers. |
 
-Tests cover reused package identifiers, a die split/merge error, contradictory supplier events, a missing cross-enterprise link, and a later correction. The interface returns supported trace segments and the unresolved `P-55` branch. MDM or the domain steward may later decide a master identity; SIE.5 has not done so.
+Tests cover reused package identifiers, a die split/merge error, contradictory supplier events, a missing cross-enterprise link, and a later correction. If the records admit at least one package history and every such history traces the shipped device to the affected lot, the interface can return that lot finding while keeping the `P-55` history unresolved. If an admissible history leads to an unaffected lot, obtain the rework or effectivity evidence that distinguishes them before attributing the device to the affected lot. MDM or the domain steward may later decide a master identity; SIE.5 has not done so.
 
 ### SIE.5:6 - Bias-Annotation
 
@@ -1217,7 +1217,7 @@ The source inventory shows that `on hand` is current physical stock before reser
 | Can the two values be summed? | non-comparable for summation because definitions, allocation rules, and authority scopes differ |
 | Can both support a “which provider can satisfy quantity 8 now?” query? | conditionally comparable only after the contract accepts Provider A's additional reservation check and Provider B's promise horizon; retain separate rows |
 | What if Provider A reports 12 and a later status reports 4? | classify by source occurrence, observation interval, and justified supersession rule; retain both claims and derivation rather than overwriting silently |
-| What if product identity is unresolved? | stop that product branch and expose the unresolved `SIE.5` premise |
+| What if product identity is unresolved? | retain the `SIE.5` alternatives. If there are admissible bindings and all of them give the same answer to the buyer’s question, return it with the identity limit. Withhold an individual match or recommendation that changes with the binding |
 | What if one API times out? | return available source-qualified rows plus an incomplete-result flag if the contract permits; never substitute zero |
 
 The interface can return two qualified provider rows, explicit non-comparability for arithmetic aggregation, and a missing-source branch. Purchasing owns supplier choice and risk acceptance.
@@ -1368,7 +1368,7 @@ The AP242/QIF package needs a row set for the configuration-bound inspection que
 | `MAP-SIE-APQ-02` | For each accepted `SIE.4` plan-characteristic-concerns-feature row, join exact source identifiers only under the referenced `SIE.5` feature disposition. Preserve AP242 and QIF IDs and issuers. |
 | `MAP-SIE-APQ-03` | Compose AP242 definition/effectivity and QIF plan/result claims through the referenced `SIE.6` result. Emit compatible qualified claims, explicit contradiction, non-comparability, or unresolved branches; never overwrite. |
 | `MAP-SIE-APQ-04` | Convert units only through the contract-approved code/unit table and retain original value, unit, conversion rule, precision, and loss. An unknown unit stops that result row. |
-| `MAP-SIE-APQ-05` | Return unmatched AP242 feature, unmatched QIF characteristic, stale result, missing provenance, and source-error states distinctly. No state defaults to an accepted match. |
+| `MAP-SIE-APQ-05` | Return unmatched AP242 feature, unmatched QIF characteristic, stale result, missing provenance, and source-error states distinctly. When both objects are identified, distinguish a plan excerpt that leaves their assignment unknown from a complete governing plan that establishes they have no such assignment at this revision and effectivity. No state defaults to an accepted match. |
 
 Positive examples cover one known configuration/feature/characteristic/result chain. Boundary cases cover one-to-many characteristics and repeated results. Negative cases cover an obsolete revision, incompatible feature, unresolved identity, unknown unit, contradictory result status, and absent QIF plan. A SQL view, R2RML mapping, QVT transformation, or application code may implement the rules; none changes the specification without reopening the affected rule.
 
@@ -1479,16 +1479,16 @@ When the choice is made from technology labels, these consequences remain hidden
 
 ### SIE.8:4 - Solution
 
-First use decisive conditions to exclude arrangements that cannot serve the contract. Describe and compare the serious remaining alternatives as complete arrangements, including source access, rule execution, state/copy behavior, provenance, currentness, failure branches, security, operation, recovery, exit, and joint resource demand. Return a supported choice, sufficient rejection, worthwhile probe, or missing-input result for the named use.
+Use a decisive restriction when it settles whether a proposed arrangement can serve the contract. For an order asking for one workable design, establish that the chosen arrangement satisfies the relevant conditions for source access, rule execution, copied state, provenance, currentness, failure, protection, operation, recovery, exit and joint resource demand. When a preference is claimed, compare the serious alternatives on conditions that distinguish them for this use. Return a supported choice, sufficient rejection, worthwhile probe, or missing-input result for the named use.
 
 #### SIE.8:4.1 - Pattern-Use Unfolding
 
 1. **Fix the receiving result.** Reference the `SIE.1` answer, `SIE.7` rules, required source/identity/claim branches, and validation conditions that a successful candidate must preserve.
 2. **Apply decisive exclusions.** A known source prohibition or other sufficient condition can defeat an arrangement. Record the condition and evidence needed for that conclusion and stop developing the excluded alternative. If no serious candidate remains, return the bounded rejection or identify the missing result.
-3. **Describe a serious virtual alternative.** When query-time access remains a candidate, state source access, rule evaluation, pushdown or mediation, credentials, latency/availability behavior, provenance capture, and failure return.
+3. **Develop the relevant realization.** For an order for one workable design, follow the virtual, materialized or hybrid branch below that supplies it, then check the complete design. For a comparative order, develop the alternatives needed to establish the claimed preference. For a virtual option, state source access, rule evaluation, pushdown or mediation, credentials, latency/availability behavior, provenance capture, and failure return.
 4. **Describe a serious materialized alternative.** When copying remains a candidate, state copied or derived state, snapshot identity, refresh/invalidation, storage and custody, source deletion/correction behavior, provenance, recovery, and exit.
 5. **Describe a hybrid where warranted.** Identify which permitted subset is materialized and which source-sensitive part remains virtual. State coherence, invalidation, and fallback behavior. Confirm permission for each subset selected for copying.
-6. **Compare complete remaining arrangements.** Use the conditions that can change the receiving result: freshness, latency, availability, access, protection, source authority, reproducibility, provenance, operability, recovery, cost, and semantic loss. Include concurrent source calls, shared credentials, trace, retries, support, and other demands within each applicable resource envelope. Every pair of contributions may fit a shared limit even when the demands of all the contributions together exceed it.
+6. **Check the chosen arrangement and explain any preference.** Use the conditions that can change the receiving result: freshness, latency, availability, access, protection, source authority, reproducibility, provenance, operability, recovery, cost, and semantic loss. Include concurrent source calls, shared credentials, trace, retries, support, and other demands within each applicable resource envelope. Every pair of contributions may fit a shared limit even when the demands of all the contributions together exceed it.
 7. **Examine relevant failure and change cases.** Use the source outages, corrections, access changes, mapping changes, stale or partial refresh, provenance loss, and recovery cases needed for the proposed conclusion. Earlier sufficient evidence can support a bounded rejection; a positive selection needs its load-bearing conditions.
 8. **Choose or identify worthwhile further work.** Select a supported arrangement, reject it, or return the missing result. Commission a discriminating probe only when its obtainable result can change the decision enough to justify its full burden and displaced work. Keep an unresolved comparison explicit when further inquiry is unavailable or not worthwhile. State the reasons for the disposition that its receiver needs.
 9. **Name implementation returns for a selected choice.** Identify the Data Engineering, platform, provider, security, legal, finance, or operating results required to realize that choice.
@@ -1502,7 +1502,7 @@ A sufficient rejection of one proposed arrangement is complete with the receivin
 | --- | --- | --- |
 | Receiving use and disposition | Every result | The question and proposed arrangement or comparison scope, supported choice/rejection/probe/missing-input result, grounds, and material limits. |
 | Decisive exclusion | A proposed arrangement is rejected on sufficient grounds | The condition that defeats it, the evidence and applicability needed for that condition, and the scope of the rejection. |
-| Candidate arrangements and comparison | A comparison remains live or a positive choice is made | Serious remaining alternatives as complete arrangements: required semantic branches, access, state, execution, currentness, latency, provenance, protection, failure, operation, recovery, exit, and joint resource demand. |
+| Candidate arrangements and comparison | The engineer must justify a workable realization or a preference | The relevant conditions for the chosen realization, including required semantic branches, access, state, provenance, timing, protection, operation, failure, recovery, exit and joint demand. A claim of preference also needs a deciding difference from the alternatives. |
 | Failure/change evidence | The supplied conclusion depends on it | Evidence for its load-bearing conditions. One qualified prohibition can suffice for rejection; positive selection needs the relevant failure and change cases for the claimed arrangement. |
 | Further inquiry | A probe is proposed | Obtainability, possible decision contribution, full burden, displaced work, and how its result can change the decision. |
 | Implementation returns | A realization has been selected | Required results from the responsible providers, what is supplied or still missing, and the acceptance evidence needed to realize that choice. |
@@ -1526,17 +1526,19 @@ When the receiving question also asks which remaining arrangement to use, contin
 | Candidate | Constructed comparison |
 | --- | --- |
 | materialized common graph | excluded by the providers' prohibition on copying availability state; that condition is sufficient without developing its implementation, recovery, and exit |
-| query-time virtual mapping | retained alternative: preserves source custody and timestamps and can return provider-specific qualified rows; depends on runtime credentials, latency, provider availability, query limits, and explicit timeout/incomplete branches |
-| hybrid metadata plus virtual values | selected conditionally: materialize stable product-family correspondences, mapping rules, and source metadata where their copying and maintenance are permitted; retrieve volatile availability values at query time; invalidate metadata when source definitions or product relations change |
+| query-time virtual mapping | obtains metadata and values at query time and preserves source custody and timestamps. This route depends on timely access to both, the credentials and query limits, and the agreed timeout or incomplete-result branches |
+| hybrid metadata plus virtual values | retain an authorized current copy of stable product-family correspondences, mapping rules and source metadata. Retrieve availability values live and invalidate the copy when an applicable definition or product relation changes |
 
-The decision selects the hybrid arrangement because stable semantic premises can be inspected and volatile restricted values remain at their sources. It requires Data Engineering and security results for credential handling, concurrent calls, timeout behavior, observability, and recovery. SIE.9 receives separately attributed quantities and timestamps, provider errors, and the permitted incomplete-result and fallback behavior. No running interface or provider reliability is claimed.
+Suppose the only live source for the required correspondences is unavailable throughout this buyer’s decision window. The rights holder permits a local copy and the maintainer confirms that it covers the requested products through that window. Live values and their trace can arrive in time, and maintaining the copy fits the allowance. The hybrid can serve this order. The fully live route lacks the correspondences at the deadline. If both routes meet the contract under other conditions, an engineer commissioned to provide one workable design may choose either.
+
+For the hybrid, obtain credential handling, concurrent calls, timeout behaviour, observability and recovery from the implementation providers. Supply SIE.9 with the separately attributed quantities, timestamps, provider errors and permitted incomplete responses. An operating-service claim needs evidence from the implementation.
 
 ### SIE.8:6 - Bias-Annotation
 
 | Lens | Likely drift | Repair |
 | --- | --- | --- |
 | Governance | Materialization silently transfers custody, authority, or permission. | Record source rights, retention, correction, and use authority for every copied state. |
-| Architecture | The incumbent platform determines the answer, or every conceivable alternative requires full design. | Use sufficient exclusions, then compare serious alternatives as complete arrangements on the receiving basis. |
+| Architecture | The incumbent platform determines the answer, or every conceivable alternative requires full design. | Use a decisive exclusion when it settles the question. For a feasible design, qualify its complete arrangement. For a preference, also compare the serious alternatives on the receiving basis. |
 | Ontology/Epistemology | A graph or warehouse is treated as the semantic arrangement itself. | Keep mapping premises, claims, provenance, and validation independent of carrier. |
 | Pragmatics | Every unresolved comparison commissions a probe. | Compare obtainable decision benefit with the probe's full burden and displaced work. |
 | Didactics | “Virtual is fresh; materialized is fast” becomes a universal rule. | Show source latency, snapshot reproducibility, invalidation, and failure conditions that reverse the slogan. |
@@ -1559,7 +1561,7 @@ That rejection completes the Method when it answers the requested question. The 
 **For a live comparison or positive selection**
 
 - [ ] A successful candidate preserves the receiving result, mapping rules, and required semantic branches.
-- [ ] Serious remaining candidates expose access, state, execution, provenance, failure, operation, recovery, exit, and joint resource demand.
+- [ ] The chosen arrangement covers its required access, state, execution, provenance, failure, operation, recovery, exit and joint resource demand. A claimed preference has grounds that distinguish the alternatives.
 - [ ] Freshness and latency are defined for the receiving use.
 - [ ] Source authority, custody, permissions, correction/deletion, and retention consequences are explicit.
 - [ ] Security/privacy and runtime credential differences are compared where they can change the result.
@@ -1656,7 +1658,7 @@ Design the interface from receiving actions and semantic branches, not from the 
 
 #### SIE.9:4.1 - Pattern-Use Unfolding
 
-1. **Name the receiver interaction.** State who or what asks, the query/message/report action, timing, input parameters, and the next Work or decision that consumes the answer.
+1. **Name the receiver interaction.** State who or what asks, the query/message/report action, timing, input parameters, and the next Work or decision that consumes the answer. For several recipients, specify what each may receive and act on, and when. Check a shared delivery against all its required users. A joint decision may also need them to exchange results or authorize a common action.
 2. **Select the interface form.** Choose query, view, API, message, schema, report, file, or mixed human/machine form based on the receiving Work. Do not inherit the internal realization shape automatically.
 3. **Define semantic inputs.** State the identifiers a request accepts, how the interface validates their form and how it resolves them. Supply any required issuer, assignment context, configuration or effectivity, time window, units, locale or code context, and permissions.
 4. **Define result claims and interpretation.** For each output, state meaning, grain, scope, interval/effectivity, units/codes, source identifier behavior, accepted loss, and permitted use.
@@ -1697,10 +1699,10 @@ The quality engineer uses a view or API with request parameters `productDefiniti
 | `identityDisposition` | referenced `SIE.5` result and its grain/interval, not a copied boolean |
 | `claimStatus` | qualified, conflict, non-comparable, or unresolved with the `SIE.6` composition reference |
 | `freshness` | released AP242 configuration/effectivity used, QIF observation window, retrieval time, and stale status |
-| `rowDisposition` | matched, unmatched-feature, unmatched-characteristic, incompatible, unresolved-identity, stale, source-error, or prohibited |
+| `rowDisposition` | matched, unmatched-feature, unmatched-characteristic, unresolved-assignment, no-assignment, incompatible, unresolved-identity, stale, source-error, or prohibited |
 | `returnPath` | source record and mapping/correspondence/identity/composition rule references plus the direct engineering or quality owner for the decision |
 
-A known match returns a qualified row. A feature absent at effectivity `E` returns unmatched rather than the nearest label. An unresolved identity returns that branch without claiming no inspection exists. A source timeout returns partial/incomplete only if the contract permits it. The responsible participants decide whether to accept the result or release the configuration.
+A known match returns a qualified row. A feature absent at effectivity `E` returns unmatched rather than the nearest label. An unresolved identity returns that branch without claiming no inspection exists. Two identified objects can still have an unresolved assignment when only an excerpt of the plan is available. Return no-assignment when the complete applicable plan settles the question. A source timeout returns partial/incomplete only if the contract permits it. The responsible participants decide whether to accept the result or release the configuration.
 
 ### SIE.9:6 - Bias-Annotation
 
@@ -1714,7 +1716,7 @@ A known match returns a qualified row. A feature absent at effectivity `E` retur
 
 ### SIE.9:7 - Conformance Checklist
 
-- [ ] The interface is tied to one named receiver, Work, request, and next action.
+- [ ] The request and receiving Work identify who uses the answer, their permitted content, and the next action of each required recipient.
 - [ ] The form is chosen for receiving use rather than copied from internal realization.
 - [ ] The request identifies the accepted entries, how to resolve them, required configuration or effectivity, windows, units or codes, and permissions.
 - [ ] Response claims state meaning, grain, scope, interval, source identifiers, loss, and permitted use.
@@ -1812,13 +1814,13 @@ State the conclusion at the scope its evidence supports. A known decisive failur
 Steps 3–10 locate evidence for a positive use conclusion. A sufficient bounded failure or unresolved result can finish at step 2. Reuse matching earlier results for the applicable layers; a changed receiving interpretation can reopen a claim even when its carrier is unchanged.
 
 1. **Identify the validation subject.** Name the mapping, interface, or package result and receiving use being judged. Record the revisions and conditions on which the conclusion depends.
-2. **Choose the conclusion and inspect known evidence.** Take the relevant answer claim and stop condition from `SIE.1`. If a demonstrated defect already defeats it, return that bounded failure with sufficient evidence. If a necessary premise is unresolved and that settles the requested question, return the scoped gap. Further obligations remain unexamined. For a positive claim, derive all load-bearing distinctions, loss, currentness/service/quality, authority, protection, branch, and representative-use obligations.
+2. **Choose the conclusion and inspect known evidence.** Take the relevant answer claim and stop condition from `SIE.1`. If a demonstrated defect already defeats it, return that bounded failure with sufficient evidence. If a necessary technical premise is unresolved, identify the affected claim. Apply the receiving authority’s separate acceptance rule. When a required record is absent at the contractual deadline, the authority can refuse that release while the technical property remains unknown. Keep the grounds for that decision distinct from evidence of a technical failure. For a positive claim, derive all load-bearing distinctions, loss, currentness/service/quality, authority, protection, branch, and representative-use obligations.
 3. **Validate carrier and schema.** Test parseability, declared schemas/shapes, required fields, datatypes, cardinalities, identifiers, and branch encodings. Treat a pass as structural only.
 4. **Validate semantic-model and endpoint adequacy.** Test whether source and target concepts, types, relations, constraints, units/codes, and any supplied model express the required distinctions and examples/counterexamples.
 5. **Validate correspondences and mappings.** Challenge accepted `SIE.4` rows and execute `SIE.7` positive, boundary, negative, and unlike examples. Check selection, cardinality, conversion, defaults, errors, loss, and trace independently.
 6. **Validate identity and authority.** Test every load-bearing `SIE.5` disposition at its grain and interval, including issuer, version, part-whole, reuse, split/merge, and unresolved branches. Verify required authority and permission inputs rather than inferring them from data access.
 7. **Validate claim composition.** Test `SIE.6` comparability, conflict, non-comparability, supersession, incomplete-source, and uncertainty branches. Confirm that source claims and derivation remain recoverable.
-8. **Validate realization and interface behavior.** Test currentness, latency, availability, snapshot/caching, invalidation, source failure, partial results, access/protection, provenance, error semantics, and challenge paths required by `SIE.8` and `SIE.9`.
+8. **Validate realization and interface behavior.** Test currentness, latency, availability, snapshot/caching, invalidation, source failure, partial results, access/protection, provenance, error semantics, and challenge paths required by `SIE.8` and `SIE.9`. A timed response establishes this execution’s elapsed time. For a guarantee across loads, establish a bound under the admitted joint request and resource conditions. A percentile requires evidence for the specified request population and measure.
 9. **Validate provenance, currentness, and quality.** Check that every relied-on output can recover its source and rule premises, that source/version/time status satisfies the use, and that selected quality measurements meet their action-changing thresholds. Do not treat provenance or process conformance as truth.
 10. **Replay representative receiving Work.** Run the named query, decision preparation, operation, or engineering workflow with expected positive, negative, and unlike cases. Observe whether the receiver obtains and interprets the required result and stops on forbidden branches.
 11. **Assign dispositions at the supported scope.** Use pass, narrow, unresolved, or stop for tested claims, and preserve any material unexamined reach. A positive narrow result states the contract-permitted subset and covers all of that subset's load-bearing premises; excluded branches remain explicit. A hard stop cannot be offset by scores elsewhere.
@@ -1850,15 +1852,15 @@ The constructed AP242/QIF package is frozen with named AP242/QIF source occurren
 | --- | --- |
 | carrier/schema | Request and response validate against their declared forms; unmatched, incompatible, unresolved, stale, and source-error states are representable. Passes structurally. |
 | semantic-model/endpoints | AP242 feature/configuration/effectivity and QIF plan/characteristic/result senses are recoverable. One local extension remains undefined; rows that consume it are unresolved. |
-| correspondence | Known plan/feature relation passes; shared-label false match is rejected; non-dimensional characteristic defeats a global type equivalence. Passes for the accepted row set. |
+| correspondence | The assigned pair joins. A shared label with no assignment in the accessible excerpt leaves the link unresolved. A complete governing plan with no assignment establishes a non-match at that revision and effectivity. Both objects can be identified in either case. A non-dimensional characteristic defeats a global type equivalence. Return partial coverage when the receiving contract permits it. A contract for the complete set still needs the unresolved assignment settled. |
 | identity/authority | Known feature identifier relation passes at revision/configuration/effectivity grain; obsolete revision and unresolved local ID stop their dependent branches. Engineering and quality authority remain external. |
 | claim composition | Compatible AP242 definition/effectivity and QIF plan/result claims retain sources; contradictory result status returns conflict; incompatible intervals remain non-comparable. Passes for qualified branches. |
 | transformation | Known mapping, one-to-many characteristic, unit conversion, unmatched feature, unknown unit, stale result, missing provenance, and source-timeout cases return the specified branches. One unknown-unit row stops. |
-| realization/interface | Stable semantic metadata is available; volatile source data is queried under captured occurrence times. The constructed one-second response meets the two-second limit. Timeout returns incomplete only under the contract; challenge paths resolve to premises. Conditional pass. |
+| realization/interface | Stable semantic metadata is available; volatile source data is queried under captured occurrence times. The one-second response meets the two-second deadline for this review query. Timeout returns an incomplete answer only where the contract permits it. Challenge paths resolve to the relevant premises. |
 | provenance/currentness/quality | Every accepted output row recovers sources, rules, and times. The configuration matches the released review basis; QIF observations six hours before T meet the 24-hour window, while a 25-hour control returns stale. Undefined-extension rows remain visibly unresolved outside the qualified set. |
 | receiving workflow | The quality engineer retrieves a known result, recognizes unmatched/incompatible/conflict states, and stops on unresolved configuration or identity. Passes for the bounded subset. |
 
-The whole-use disposition is **narrow** under the stated contract: the qualified row set is usable for the evidence-return workflow, while the undefined local-extension and unknown-unit branches remain separately visible and unresolved. The receiver's permission covers this partial evidence answer. The account does not accept the inspection result or release the configuration. A definition or unit-table repair reopens only the affected rows and receiving tests.
+The quality engineer can use the qualified rows under the **narrow** permission in SIE.1:5. Return the unresolved local extensions and unknown units separately as agreed. If an assignment needed for the requested feature is also unresolved, the contract gives no permission to omit it. Obtain the governing plan, report that the requested relation is still open, or agree with the recipient on a further partial return. A complete governing plan can establish the absence of an assignment for that revision even while other rows remain open. If the release authority requires a signed inspection record by its deadline and that record is missing, it can refuse release on those grounds. The unrecorded technical property can remain unresolved. A definition or unit-table repair reopens only the affected rows and receiving tests.
 
 #### SIE.10:5.2 - A Decisive Defect and a Changed Receiving Meaning
 
@@ -1984,8 +1986,8 @@ Follow the changed proposition through semantic dependencies to the results and 
 
 #### SIE.11:4.1 - Pattern-Use Unfolding
 
-1. **Compare the relied-on meaning.** Identify what the receiving question depended on in the earlier source or premise and what the later content says. Include changed applicability, subject grain, interval, assumptions, or limits where relevant. An inaccessible later definition leaves that comparison unresolved.
-2. **Finish a compatible repair when sufficient.** If content, applicability, and access remain compatible for the use, make the needed reference repair and retain matching results. A version or URL change alone does not require every downstream Method to run again.
+1. **Compare the relied-on meaning.** Identify what the receiving question depended on in the earlier source or premise and what the later content says. Include changed applicability, subject grain, interval, assumptions, or limits where relevant. A notice from the definition owner can establish the continued meaning and applicability of a specified clause when accepted for this use. If the available evidence still permits different answers, identify the unresolved premise.
+2. **Finish a compatible repair when sufficient.** If the meaning and applicability remain adequate, retain the supported use. For a request to repair a reference or supply the new text, also establish that the intended reader can open the requested material under the relevant permissions. A version or URL change alone does not require every downstream Method to run again.
 3. **Find affected uses when their scope is unsettled.** Apply A.10.1 to discover which uses rely on the changed premise within the question's scope, using source-side and receiver-side evidence or an index that adequately covers both. Distinguish a material dependency from a mention. Retain coverage gaps that limit the intended conclusion.
 4. **Select the integration result that the change can alter.** Use the domain returns below. Follow a further consumer only when the changed result can alter its action or claim. The physical proximity of files is not a dependency rule.
 5. **Repair or revalidate that result.** Apply its defining Method to the changed premise. Reuse earlier evidence whose conditions still match. Return a supported continuation, repair, permitted narrower use, or scoped gap. Source truth, master identity, product release, and application decisions go to the owners of those decisions.
@@ -2033,7 +2035,7 @@ A publisher moves a vocabulary definition to a new documentation address. The in
 
 The integrator updates the reference used by that mapping. Its existing qualification still answers the unchanged question. That completes the reference-maintenance request.
 
-If the later definition cannot be inspected, the same evidence cannot support this conclusion. The result then names the inaccessible comparison and the reliance it leaves unresolved.
+Suppose the engineer cannot open the new definition, but an authoritative notice identifies the old and new editions and confirms that the definition and its scope are unchanged. The mapping may keep its qualification if that evidence meets its terms. To complete a working-link repair, also establish that the intended reader can reach the new text. Return a gap in meaning or in reader access to the owner of the affected result.
 
 #### SIE.11:5.2 - Changed Promise Horizon
 
@@ -2358,7 +2360,7 @@ Compare the available result with that continuation. If it already suffices, ret
 
 #### SIE.13:4.2 - Derive the required contributions from the answer
 
-Take each answer claim that can change the receiving action and ask how it would be obtained. Follow it to the source meanings, represented claims, relations and transformations it relies on. For a query row, for example, recover why the selected records belong together, what each value means, which rule produces the output, and how an unavailable or incompatible input is represented. For a semantic exchange between organizations, recover the corresponding interpretation and use of each supplied statement.
+Take each answer claim that can change the receiving action and ask how it would be obtained. Follow it to the source meanings, represented claims, relations and transformations it relies on. For a query row, for example, recover why the selected records belong together, what each value means, which rule produces the output, and how an unavailable or incompatible input is represented. For a semantic exchange between organizations, recover the interpretation and use of each supplied statement. Choose how far to trace a dependency by varying the constituent, its enclosing assembly or the applicable time interval. Could the receiver have to act differently while the facts already established stay true? Follow the dependency that distinguishes those cases. Once a consistent binding exists, stop at the coarsest resolution that supports the required answer across the remaining possibilities. If the available claims admit no consistent binding, return the conflict.
 
 Use the following returns where that dependency occurs:
 
@@ -2380,7 +2382,7 @@ Keep the account in the working material the participants can use. A short annot
 
 #### SIE.13:4.3 - Make the connections valid for this use
 
-Before consuming a result, compare its subject and conditions with the operation that will use it. Match the relevant meaning, entity grain, configuration or time, source and rule versions, authority, permitted loss and failure behavior. A qualified result for one use is a candidate for reuse, not a universal permission.
+Before consuming a result, compare its subject and conditions with the operation that will use it. Match the relevant meaning, entity grain, configuration or time, source and rule versions, authority, permitted loss and failure behavior. A report of an earlier inspection can support today’s decision when it covers the required subject, conditions and property and its use is permitted. Count the original inspection as work performed for this order only when it formed part of the job. An order commissioning a new inspection still requires that performance.
 
 Keep these three questions distinct:
 
@@ -2422,7 +2424,7 @@ Use [SIE.9:4](#sie94---solution) to specify and supply the interface that carrie
 
 Use [SIE.10:4](#sie104---solution) to validate the claim now being made. For a positive whole-use or contract-permitted subset conclusion, every load-bearing premise and required joint condition needs matching evidence. Reuse evidence whose subjects, versions, use and conditions still fit. One decisive conversion error can establish a bounded failure without testing unrelated layers; correcting it alone does not establish the full positive claim.
 
-Return the answer, its disposition and its consequences for the receiver together. A qualified partial answer states what is covered and what remains unavailable. An unresolved answer states the missing result and the use it prevents. A stop states the defeated obligation and the change that could make reconsideration useful. A semantic integration result supplies a premise to the receiving decision; its authorization and outcome remain with the receiving owner.
+Return the answer, its disposition and its consequences for the receiver together. A qualified partial answer states what is covered and what remains unavailable. An unresolved answer states the missing result and the use it prevents. A stop identifies the obligation that failed and the change that could warrant reconsideration. A missing required record can settle a release refusal while the property that record would have documented remains open. A semantic integration result supplies a premise to the receiving decision; its authorization and outcome remain with the receiving owner.
 
 #### SIE.13:4.7 - Reopen changed reliance and reconnect the result
 
@@ -2571,14 +2573,14 @@ The application uses the repertoire as follows:
 | `SIE.2` | A source inventory records AP242:2025 edition 4 at stage 90.92, “to be revised”, the applicable QIF edition, source models, identifiers, configuration/effectivity meanings, owners, and unresolved local extensions. |
 | `SIE.3`, when needed | Qualify an existing model, or extend it to distinguish an inspection requirement from an observation of the applicable configured feature. The plan and an observation of another configuration provide counterexamples. |
 | `SIE.4` | Correspondence rows distinguish product feature, inspection characteristic, plan applicability, configuration, and result relations; unsupported equivalence and incompatible-feature rows remain explicit. |
-| `SIE.5` | Identity decisions for features and characteristics use the required revision, configuration, and effectivity grain; source identifiers and issuers remain visible. |
+| `SIE.5` | Establish that the QIF feature reference and the AP242 feature description designate the same feature at the required revision, configuration and effectivity. Retain each identifier with its issuer and assignment context. The plan separately assigns the inspection characteristic to that feature. |
 | `SIE.6` | AP242 definition/effectivity claims and QIF plan/result claims are composed with source, interval, authority, and conflict branches preserved. |
 | `SIE.7` | Executable rules select the released configuration, map accepted endpoint relations, preserve identifiers, reject unsupported joins, and trace every output row to its premises. |
 | `SIE.8` | A virtual or hybrid realization is selected against freshness, access, latency, provenance, and recovery. |
 | `SIE.9` | The receiving interface returns matched, unmatched, incompatible, stale, and source-error branches with their interpretations and provenance. |
 | `SIE.10` | Layered tests cover carrier/schema, source semantics, correspondence, identity/effectivity, composition, transformations, provenance/currentness, quality, and the representative query. SIE.10:5.1 applies the stated freshness, response and partial-answer criteria while keeping excluded branches visible. |
 
-The constructed package returns the contract-permitted qualified row set, with unmatched or incompatible results and the unresolved local-extension and unknown-unit branches visible separately. It stops if configuration/effectivity or feature identity is unresolved, a load-bearing source edition cannot be qualified, a conflict is hidden, or the receiving query fails. It supplies evidence to the applicable `SYSE.7`, `SYSE.13`, `SYSE.14`, or quality owner; it does not choose the released revision or accept the inspection result.
+The constructed package returns the qualified rows with the unresolved local-extension and unknown-unit branches the quality engineer agreed to receive separately. It also identifies unmatched or incompatible results. For two identified objects, an incomplete plan can leave their assignment open. If the order needs that assignment, obtain the complete applicable plan or report the missing answer to the recipient. Issuing an incomplete set in its place requires the recipient’s agreement. The complete plan can establish that there was no assignment at the stated revision. It stops if configuration/effectivity or feature identity is unresolved, a load-bearing source edition cannot be qualified, a conflict is hidden, or the receiving query fails. It supplies evidence to the applicable `SYSE.7`, `SYSE.13`, `SYSE.14`, or quality owner; it does not choose the released revision or accept the inspection result.
 
 
 
@@ -2586,7 +2588,7 @@ The constructed package returns the contract-permitted qualified row set, with u
 
 A recall-triage query crosses SEMI device/substrate identifiers, GS1 events, supplier identifiers, and enterprise master data. The package preserves wafer, die, device, package, lot, and event grains. `SIE.5` records same, different, part, version, variant, alternate, or unresolved dispositions with each scheme and issuer. `SIE.6` retains event time, source authority, contradictory events, and absent links. `SIE.10` tests positive, reused-identifier, split/merge, contradictory-event, and missing-link cases.
 
-The interface can return a bounded trace, unresolved branch, or prohibited-disclosure stop. MDM and domain stewards retain authoritative identity and value decisions; quality, safety, and recall authorities retain action.
+A packaging event can trace a constituent die to a serialized device and thence to its lot. Preserve the wafer coordinate and the device serial with the relations they record. If both entries designate the very same unit under their source rules, retain both identifiers for that common referent. Reuse of a package code leaves the exact history open. Establish that at least one history fits the accepted events. If every such history leads to the same lot, the interface can return that lot. Conflicting mandatory records that fit no history establish a conflict. Histories leading to different lots leave attribution open. Apply the recipient’s disclosure limits in each return. MDM and domain stewards retain authoritative identity and value decisions; quality, safety, and recall authorities retain action.
 
 
 
@@ -2602,7 +2604,7 @@ For a positive whole-use or permitted subset result, SIE.10 covers every load-be
 
 ## SIE.Application:4 - APP-SIE-04 - High-change provider availability without a materialized graph
 
-Two providers expose current availability through governed APIs. One field means “on hand”; the other means “available to promise”. Neither permits replication. The contract requires a purchasing comparison with timestamps and explicit incomplete results. `SIE.4` keeps the meanings distinct and accepts only narrower qualified relations. `SIE.6` composes rows where supported and returns non-comparability otherwise. `SIE.8` excludes copying from the providers' existing prohibition, then selects query-time virtual mappings subject to the receiving latency, trace, and failure conditions. The excluded copying alternative needs no implementation, recovery, or exit design. The interface exposes timeouts, source errors, timestamps, and incompatible rows.
+Two providers expose current availability through governed APIs. One field means “on hand”; the other means “available to promise”. Neither permits replication. The contract requires a purchasing comparison with timestamps and explicit incomplete results. `SIE.4` keeps the meanings distinct and accepts only narrower qualified relations. `SIE.6` composes rows where supported and returns non-comparability otherwise. `SIE.8` excludes copying the restricted values. For this order suppose the live sources for both metadata and values can meet the buyer’s deadline, trace and failure conditions. Query-time mapping is then one workable choice. In the variation in SIE.8:5 the live metadata source is unavailable throughout the decision window, and a permitted current copy enables a hybrid. The excluded copying alternative needs no implementation, recovery, or exit design. The interface exposes timeouts, source errors, timestamps, and incompatible rows.
 
 SIE.3 can finish by reusing a model that distinguishes the two quantities, their attribution, unit, time, and horizon. If a provider later changes its promise horizon, SIE.11 finds which mappings and receiving interpretations depend on that meaning; unaffected product descriptions can retain their qualification. The purchasing application decides what to do with incomplete or non-comparable results.
 
@@ -2644,7 +2646,7 @@ The foundation source cut was qualified on 4 September 2026. The model, evolutio
 
 ## SIE.Sources:2 - Edition return
 
-**Semantic Integration Engineering Principles Framework — 20 October 2026** identifies this edition with thirteen pattern bodies, their stated status, and the shared reader account. The publication supplies practitioner guidance and constructed examples. An implemented service, maintained commons, or receiving decision needs the corresponding work and evidence.
+**Semantic Integration Engineering Principles Framework — 21 November 2026** identifies this edition with thirteen pattern bodies, their stated status, and the shared reader account. The publication supplies practitioner guidance and constructed examples. An implemented service, maintained commons, or receiving decision needs the corresponding work and evidence.
 
 The [Architectural Reference](#semantic-integration-engineering-principles-framework-architectural-reference) explains the connected language and the consequences of these sources for its use.
 

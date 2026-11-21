@@ -2,7 +2,7 @@
 
 **DocID:** `MNT` within **FPF Library**.
 
-Anatoly Levenchuk · Release: 7 October 2026
+Anatoly Levenchuk · Release: 21 November 2026
 
 Original framework content © 2026 Anatoly Levenchuk, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Third-party sources retain their own terms.
 
@@ -117,7 +117,7 @@ The policy alternatives also depend on the function. An obvious, low-consequence
 - **Start with:** [MNT.15 - Reconcile Simultaneous Maintenance, Operation, and Support Work](#mnt15---reconcile-simultaneous-maintenance-operation-and-support-work), using the existing job, readiness and operating accounts.
 - **Stop or return:** A simple shared-demand bound can finish the feasibility question. Selecting a repair needs the relevant consequence, capability and authority results.
 
-1. **Compare the whole shared demand.** In the [packaging-plant case](#mntapplication3---app-mnt-03--individually-feasible-jobs-and-one-shared-specialist), each job needs four hours of the same qualified specialist inside one six-hour access window. Eight hours cannot fit six. Preparation overlapping production leaves the shared eight-hour specialist demand unchanged.
+1. **Compare the whole shared demand.** In the [packaging-plant case](#mntapplication3---app-mnt-03--individually-feasible-jobs-and-one-shared-specialist), the two jobs require separate four-hour performances by the same qualified specialist inside one six-hour access window. Those eight distinct hours exceed the six available. Preparation overlapping production leaves the shared eight-hour specialist demand unchanged.
 2. **Use the separate methods to distinguish feasible alternatives.** [MNT.6](#mnt6---diagnose-condition-and-choose-a-maintenance-response) supplies the failure consequence of deferring a job; [MNT.5](#mnt5---prepare-maintenance-service-capability-spares-tools-and-authority) determines whether an additional provider is capable, available and permitted to act; [MNT.7](#mnt7---coordinate-maintenance-intervention-and-continuing-operation) checks another window or changed operating arrangement against continuing service. [MNT.15](#mnt15---reconcile-simultaneous-maintenance-operation-and-support-work) consumes those results to return a supported combined arrangement or an unmet commitment.
 3. **Reopen the combination when a shared premise changes.** If both jobs rely on the same standby equipment, each plan's separate fallback claim no longer settles their joint use. Extend the comparison to the operating dependencies of both jobs and relevant [MNT.8](#mnt8---isolate-make-safe-and-authorize-the-maintenance-intervention) protection conditions. If a longer shift would impair the specialist's later protected work, change allocation, relief or timing.
 
@@ -200,7 +200,7 @@ This arrangement has a cost: users sometimes need to reconcile several qualified
 
 Begin by asking what the recipient needs now. Reuse enough identification and evidence to answer that question; select more work only when it can change the answer or satisfies an operative requirement. Continue into physical intervention only when that work is selected and its conditions are met.
 
-At whole-language scale, ask whether the chosen Methods supply the required result and whether their outputs concern compatible subjects, configurations, operating conditions and horizons. Check any shared resource or service constraint at the scope of the whole combination. Preserve the distinction between what was proposed, performed, observed and permitted.
+Start with the decision the recipient can make. To decide whether a pump can be taken out of service, follow the promised service to any standby, supply or operating arrangement that could change the answer while the facts about the pump stay the same. For the work, identify which operations its Method requires, who can perform them, and which dated performances actually belonged to the job. A supplier's inspection can provide evidence for the decision. Use its record for the configuration, duty and period it covers. Keep a distinction in the model when it changes what the recipient can recommend, promise or authorize. A qualified result for the whole service can already suffice.
 
 Use the checklist for the result you need. If a recommendation is the request, the supported advice and its action-changing limits complete it. Returning the equipment to service requires the applicable protection, functioning evidence and permission.
 
@@ -383,7 +383,7 @@ Apply each candidate to the same supported failure and operating account. Follow
 
 Derive the consequences of those histories over a common horizon. Count functioning obtained, losses before detection or restoration, repeated task demand and support constraints. Weight possible histories only where the probability basis supports it; otherwise compare the supported bounds or scenarios. Keep binding requirements and unacceptable consequences visible when comparing burden. Use [FPF C.11](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c11---decision-theory-decsn-cal) with the resulting alternatives and comparison basis to select a policy, retain several alternatives or return the unsettled choice.
 
-For a condition-based candidate, place detection and response on one time basis. Let `W` be a supported lower bound on the warning from the proposed detectable condition to unacceptable functioning under the intended duty. Let `I` bound the wait to the next observation and `L` bound the elapsed time for subsequent interpretation, support, access and intervention, including the selected uncertainty allowance. Where that bounded timing model applies, test `I + L <= W`. Derive elapsed `L` from the sequence of tasks and the work that can overlap through [MNT.5](#mnt5---prepare-maintenance-service-capability-spares-tools-and-authority) and MNT.7. Shorter sampling, an earlier detectable trigger or prepared support are different candidate changes; each needs its own measurement or feasibility basis. A timing fit still needs adequate detection and an effective response.
+For a condition-based candidate, place detection and response on one time basis. Let `W` be a supported lower bound on the warning from the proposed detectable condition to unacceptable functioning under the intended duty. Let `I` bound the wait to the next observation and `L` bound the elapsed time for subsequent interpretation, support, access and intervention, including the selected uncertainty allowance. If `I + L <= W`, the response finishes within the warning on every equipment history covered by those bounds. If the sum exceeds `W`, compare the wait and subsequent response with the warning on the same admissible history. One history that finishes late defeats the timing guarantee for this policy. To rule out a timely response even once, exclude it on every admissible history. To rule out the order, show why each policy it permits fails the required timing or another binding condition. Derive elapsed `L` from the sequence of tasks and the work that can overlap through [MNT.5](#mnt5---prepare-maintenance-service-capability-spares-tools-and-authority) and MNT.7. Shorter sampling, an earlier detectable trigger or prepared support are different candidate changes; each needs its own measurement or feasibility basis. A timing fit still needs adequate detection and an effective response.
 
 For a hidden protective function, relate the test interval to the period during which the failed function could remain undiscovered and the consequences of a demand during that period. The test's coverage, any exposure it creates and the relevant failure-and-demand account determine whether the interval is acceptable. Continuing normal production supplies no observation of that protective function.
 
@@ -436,9 +436,9 @@ Now change only corrective cost to 3. The rates become `0.5`, `2.5/7`, approxima
 
 #### MNT.2:5.2 - Construct a condition-response timing candidate
 
-In another constructed case, the supported warning bound `W` is 8 hours and the subsequent response demand `L`, including its uncertainty allowance, is 5 hours. Observation every 4 hours gives a bound of `4 + 5 = 9` hours and cannot meet that warning. Every 2 hours gives `2 + 5 = 7`, so it passes this timing comparison. The remaining choice includes the burden of more frequent observation and the alternative of reducing response demand.
+In a constructed case the warning is at least 8 hours and the subsequent response takes at most 5 hours, including its allowance. With observations every 4 hours, suppose an admissible history has a 4-hour wait, a 5-hour response and an 8-hour warning. Completion takes 9 hours on that history, so this policy cannot guarantee a timely response. With observations every 2 hours the corresponding upper bound is `2 + 5 = 7` hours, sufficient throughout the stated range. Compare the burden of more frequent observation with the cost of shortening the response.
 
-If support delay raises `L` to 6.5 hours, the two-hour candidate no longer fits: `2 + 6.5 = 8.5`. Reconsider sampling, support or another admissible policy. The failure threshold has not moved, and the old timing result supplies no permission to extend use. These quantities illustrate construction from a supplied equipment model; they are not operating limits.
+Keeping the four-hour schedule can also be justified under different operating conditions. Suppose the only possible pairs of wait and response are (4, 4) and (3, 5) hours. Both finish in 8 hours, although the separate maxima still sum to 9. Conversely, if the two-hour policy can incur a 6.5-hour response after a full 2-hour wait with only 8 hours of warning, that history defeats its earlier guarantee. A revised upper estimate of 6.5 hours alone leaves that question open. Reconsider sampling, support or another permitted policy using the histories the equipment and service arrangement admit. The applicable operating permission still governs use.
 
 #### MNT.2:5.3 - Obtain a useful response from a conditional estimate
 
@@ -1133,13 +1133,13 @@ Representative testing improves evidence but can consume the outage and create i
 
 State the required functioning claim, actual configuration, operating envelope and relevant horizon. Recover the operating and engineering acceptance basis. Select the performance, protection or interaction properties whose failure would change the return-to-use decision.
 
-Relate the intervention to those claims. Identify the functioning it was intended to restore and credible faults it could have introduced. Use current adequate evidence for unaffected claims where its subject, conditions and scope still fit. A component or configuration change that invalidates that evidence reopens the affected check.
+Relate the intervention to those claims. Identify the functioning it was intended to restore and credible faults it could have introduced. Identify the property each earlier inspection or test established. Check the identity of the item and the range of duty the evidence covers. Reuse the evidence when it establishes the required property for the item now being returned, directly or through a qualified relation from the tested item and conditions. Reopen a check when a changed component, load or acceptance criterion defeats its grounds. If a new witnessed run was ordered, arrange it even when the technical question already has an answer.
 
 Choose checks that can discriminate the relevant success and failure states. Use the applicable equipment procedure, measurement basis and competent providers. Where real operating conditions cannot be represented, state what the test does and does not establish. A measurement needs suitable range, uncertainty and operating context for its acceptance comparison.
 
 Plan the check's controlled state transitions with [MNT.8](#mnt8---isolate-make-safe-and-authorize-the-maintenance-intervention) and its time with MNT.7. Verification that requires energization or other exposure does not inherit unrestricted permission from the earlier protected repair. The applicable procedure governs how the test state is established and ended.
 
-Compare observed outcomes with the stated basis. Retain the actual subject, load, duration and material limitations. A passing result supports the named claim only at that scope. A failed result returns to the affected diagnosis, intervention or engineering question; unrelated passing tests do not cancel it.
+Compare observed outcomes with the stated basis. Retain the actual subject, load, duration and material limitations. Give the resulting claim for that duty. To extend it, establish how the observed property carries to the proposed conditions and which acceptance basis applies there. A failed result returns to the affected diagnosis, intervention or engineering question; unrelated passing tests do not cancel it.
 
 Return qualified functioning evidence. A restricted-use claim may be supportable when unrestricted use is not, provided the relevant acceptance and authority conditions allow that distinction. Obtain certification or an independent check when the receiving use requires it, including for routine tasks subject to that requirement.
 
@@ -1153,7 +1153,7 @@ The case's agreed immediate-duty basis requires at least 20 litres per second at
 
 Under those supplied conditions, the constructed observation is 20.8 litres per second at 154 kilopascals throughout that run, with the applicable equipment-specific condition checks also satisfied: 20.8 exceeds 20 and 154 exceeds 150 under the stated rule. The 45-minute test allowance in [MNT.7](#mnt7---coordinate-maintenance-intervention-and-continuing-operation) includes this run and its controlled transitions.
 
-Those observations support the stated immediate duty in the tested envelope. They do not establish performance at an untested winter peak, an as-new lifetime or elimination of the long-horizon recurrence mechanism. The operator receives that scope explicitly.
+Those observations establish the immediate-duty result. A winter-peak claim would need a relation covering that load or further evidence there. An as-new lifetime and elimination of the recurrence mechanism each need different engineering grounds. The operator receives that scope explicitly.
 
 If the loaded test instead reaches only 18 litres per second, the performed bearing replacement can still be correctly recorded while the required functioning claim fails. The team returns to diagnosis or the relevant engineering question. The 18-litre-per-second result remains below the required 20 even if the test is marked complete.
 
@@ -1220,7 +1220,7 @@ Identify the receiving use and its decision holder. Recover what that holder nee
 
 Reconcile the intervention and verification accounts with the actual returned state. Confirm the relevant temporary arrangements have the disposition required by the applicable procedure. A temporary test configuration is not assumed to be the final operating configuration. Where actual state remains unknown, identify the observation or competent return that can resolve it.
 
-Obtain certification or independent returns when the equipment, contract, rule or consequence requires them. Identify the claim each return supports and the authority of its issuer for that scope. A certificate about a component or specified task does not automatically establish the whole System's readiness for every use.
+Obtain certification or independent returns when the equipment, contract, rule or consequence requires them. Identify the claim each return supports and the authority of its issuer for that scope. If the governing agreement requires the certificate by a stated deadline, confirmed non-delivery can settle the decision to withhold release. Report separately what is known about functioning. For any restricted release, establish the permitted duty, the technical grounds for it and the operator's ability and authority to maintain it. A certificate about a component or specified task does not automatically establish the whole System's readiness for every use.
 
 Resolve remaining limitations through the applicable decision. Some defects or unfinished work permit a defined restricted use; others prevent the intended operation. The restriction must be technically supported, permitted and practically maintainable by the receiving operation. If no such basis exists, return the unmet condition rather than relabelling the state as temporary permission.
 
@@ -1337,7 +1337,7 @@ Revise the part of your answer whose grounds differ. Try each changed premise be
 
 Return the result at the scope the receiving question needs. A total-exposure question may use 6; a component-specific duration or restored-function question may require the actual boundary or separate evidence about the new component. Seek that relevant observation or accountable source answer when worthwhile; otherwise retain the uncertainty. Preserve unaffected history.
 
-Apply the same distinctions to one of your own event records and state which premise could change your answer. These explanations can help you correct an answer. To establish independent performance, use new material without that help. Obtain competent feedback on an unresolved step before relying on its attribution.
+Apply the same distinctions to one of your own event records and state which premise could change your answer. Use the explanations to correct your answer. The exercise supplies the time window, configuration history and attribution question. A correct solution shows how you used those premises. To assess your own choice of boundaries or evidence, use work in which you made that choice before receiving the answer. An earlier comparable record can suffice when it shows what you decided and what help you had. If that evidence is missing, try a suitable record independently. A claim that practice changed your ability also needs a comparable earlier performance and grounds for attributing the change. Obtain competent feedback on an unresolved step before relying on its attribution.
 
 ### MNT.12:5 - Archetypal Grounding
 
@@ -1497,7 +1497,7 @@ When a useful predictive alternative still has to be constructed, use [MNT.2:4.1
 
 Compare practical worth over a relevant horizon. Include preparation, acquisition, configuration, competence, interpretation, false responses, missed conditions, maintenance of the tool, supplier dependence and exit where they matter. Use [FPF C.11.MV](../../FPF-Spec.md#c11mv---compare-the-worth-of-a-method-option) for the practical-worth comparison and [FPF A.3.1.MV](../../FPF-Spec.md#a31mv---construct-and-maintain-a-method-variant) when variant identity or maintenance of the repertoire needs that more general Method.
 
-Test the candidate against a consequential unlike case. A Method useful for a visible degradation trend may not expose a hidden protection failure. An online predictor may improve timing while remaining unusable where the support lead time is longer than its warning. These differences can justify branching the repertoire instead of replacing one Method everywhere.
+Establish which installations and failure modes the decision covers. For one installation a supported comparison there can settle the choice. For a policy that must work in every covered installation and failure mode, establish why the Method works throughout that range. An unlike case can expose a condition that calls for a different Method. A successful trial supports the wider policy when an argument connects its conditions and result to the other installations and failure modes. For a policy judged by an average or a service level, justify the population, observations and inference for that measure. A Method useful for a visible degradation trend may not expose a hidden protection failure. An online predictor may improve timing while remaining unusable where the support lead time is longer than its warning. These differences can justify branching the repertoire instead of replacing one Method everywhere.
 
 Choose a feasible change when current observations, an applicable model or a reasoned expert estimate make its expected improvement worth the transition and continuing burden. Name the first executable move and obtain the support it needs. A sufficient comparison can justify beginning the change before its eventual benefit has been observed; retain the distinction between that expected benefit and the outcome subsequently obtained.
 
@@ -1578,9 +1578,9 @@ Name the combined commitment and the conflict that changes it. Use the actual or
 
 Choose only the structures needed to explain the conflict. For a shared specialist, work duration and provider availability may suffice. For simultaneous isolation and fallback, the maintained Systems, operating dependencies and protection authority also matter. A description's nesting does not establish work order or resource independence.
 
-Recover shared demands using compatible quantities and conditions. Distinguish elapsed time from person-hours, nominal capacity from available qualified capacity and sequential dependence from possible overlap. Include common-mode dependencies that could invalidate a fallback or protection assumption.
+For each promised job, identify its required result, recipient, deadline and specialist work. Establish whether one inspection, visit or test can supply more than one result under the applicable acceptance conditions. Count the specialist's occupied time once for a shared performance and separately for distinct performances. Include travel, handovers and waiting where they constrain the schedule. Distinguish elapsed time from person-hours, nominal capacity from available qualified capacity and sequential dependence from possible overlap. Include common-mode dependencies that could invalidate a fallback or protection assumption.
 
-Compare the whole combination. A condition applying to all selected work cannot be established by approving each job separately. Locate the overload, interference or unsupported transition and determine which alternatives change it: defer a supported job, select another window, obtain another qualified provider, change permitted operating rate or revise the intervention arrangement.
+Compare the whole combination. If a requirement applies independently to every job, checking every covered job against it establishes that requirement. For a common specialist, standby unit or isolation boundary, establish that the permitted uses can occur together. One workable schedule establishes feasibility under its stated conditions. A service promise covering a range of arrivals needs a workable response throughout that range with the information and authority available when the response is chosen. Locate the overload, interference or unsupported transition and determine which alternatives change it: defer a supported job, select another window, obtain another qualified provider, change permitted operating rate or revise the intervention arrangement.
 
 Evaluate what each apparent repair moves elsewhere. A second provider may need access, familiarization and its own support. Deferral changes the failure consequence. A longer shift changes fatigue and protection conditions. A shared outage can remove the recovery option that made each individual plan acceptable.
 
@@ -1590,9 +1590,9 @@ Return the selected arrangement or the combined commitment that cannot be met. I
 
 ### MNT.15:5 - Archetypal Grounding
 
-APP-MNT-03 uses a constructed packaging-plant arrangement. Two jobs each require four hours of the same qualified specialist inside one six-hour access window. Their eight-hour combined specialist demand exceeds the six available hours. Each job fits separately; the combination does not.
+APP-MNT-03 uses a constructed packaging-plant arrangement. Two jobs each require four hours of one qualified specialist inside a six-hour access window. All four hours on each job are separate work on that job. Their eight-hour combined specialist demand exceeds the six available hours. Each job fits separately; the combination does not.
 
-Preparatory work can overlap continuing production where its access and resources permit. That does not create a second specialist. Reordering two four-hour demands also cannot make their total fit the same six-hour single-person window.
+Preparation can overlap continuing production where access and resources permit. Reordering the eight distinct hours still leaves two outside the window. Consider a different order in which each job requires the same two-hour inspection and two hours of separate work. Both recipients accept the one inspection before their separate work and both need their results by the end of the window. The specialist can inspect for two hours and then spend two hours on each job. This six-hour schedule serves both under those conditions.
 
 The team compares deferring the lower-consequence job, obtaining another suitable window, using a qualified additional provider or changing the supported operating arrangement. [MNT.6](#mnt6---diagnose-condition-and-choose-a-maintenance-response) supplies the consequence of deferral; [MNT.5](#mnt5---prepare-maintenance-service-capability-spares-tools-and-authority) establishes any added provider's readiness. The selected alternative changes a real constraint rather than the appearance of the schedule.
 
@@ -1624,7 +1624,7 @@ The combined arrangement can be judged on actual capacity, service and protectio
 
 ### MNT.15:10 - Architectural Rationale
 
-[MNT.7](#mnt7---coordinate-maintenance-intervention-and-continuing-operation) coordinates an intervention with continuing operation; this Method addresses simultaneous commitments whose common conditions cannot be established pairwise. It reuses general cross-structure synthesis when explaining the conflict requires more than the shared timing or resource bound.
+[MNT.7](#mnt7---coordinate-maintenance-intervention-and-continuing-operation) coordinates an intervention with continuing operation; this Method tests the shared conditions that govern whether several commitments can be met together. It reuses general cross-structure synthesis when explaining the conflict requires more than the shared timing or resource bound.
 
 The two jobs need eight specialist hours and the window provides six. A more elaborate optimizer is justified by an unresolved decision, not by the existence of several jobs.
 
@@ -1759,7 +1759,7 @@ A proposed further comparison needs a question that the available population, ti
 
 ## MNT.Application:3 - APP-MNT-03 — Individually feasible jobs and one shared specialist
 
-The constructed packaging-plant case has two jobs that each fit a six-hour access window but together exceed the available time of one qualified specialist. [MNT.15](#mnt15---reconcile-simultaneous-maintenance-operation-and-support-work) contains the whole-demand calculation and the alternatives that change it.
+In the constructed packaging-plant case each job requires its own four hours of one qualified specialist within the same six-hour access window. The specialist needs eight hours for the two jobs. If the contracts instead allow one two-hour inspection to serve both, followed by two hours on each job, the specialist can finish both in six hours when the service and handover conditions permit that order. [MNT.15](#mnt15---reconcile-simultaneous-maintenance-operation-and-support-work) contains the whole-demand calculation and the alternatives that change it.
 
 [MNT.5](#mnt5---prepare-maintenance-service-capability-spares-tools-and-authority) establishes whether another provider is available and capable. [MNT.6](#mnt6---diagnose-condition-and-choose-a-maintenance-response) supplies the consequences of deferring either job. [MNT.7](#mnt7---coordinate-maintenance-intervention-and-continuing-operation) relates the chosen arrangement to continuing operation. Select a change to allocation or timing, or a supported change to operation, that makes the combined work feasible. If none does, state the commitment the team cannot meet.
 
