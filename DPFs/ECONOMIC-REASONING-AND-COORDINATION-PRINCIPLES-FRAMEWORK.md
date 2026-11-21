@@ -842,7 +842,7 @@ An ideal complete contract can clarify what a feasible agreement leaves open. Co
 
 ### ECO.6:12 - Relations
 
-Use ECO.1 for a disputed calculation, ECO.4 for commitments and ECO.5 for incentive terms. Use EAM.6 and EAM.7 for asset use or replacement and FIN.6 and FIN.8 for financial consequences. OPS covers current flow and resources. Use OCE for organizational arrangements and CGOV for required corporate authority or acts when these are part of the selected alternative.
+Use ECO.1 for a disputed calculation, ECO.4 for commitments and ECO.5 for incentive terms. Use EAM.6 to test whether an asset can deliver the required service and EAM.7 to find ways of providing it. To choose between continued use and replacement, use EAM.8 and EAM.9 to compare eligible policies over the relevant horizon, retaining differences in service, cost and reliance on the other party. FIN.6 and FIN.8 address the financial consequences. OPS covers current flow and resources. Use OCE for organizational arrangements and CGOV for required corporate authority or acts when these are part of the selected alternative.
 
 ### ECO.6:End
 

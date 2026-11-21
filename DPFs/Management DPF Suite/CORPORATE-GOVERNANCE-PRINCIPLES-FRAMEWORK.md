@@ -66,7 +66,7 @@ The framework belongs to the [Management DPF Suite](https://github.com/ailev/FPF
 | 1 | [CGOV.12 - Protect Corporate Minority Holders' Rights and Enable Contest or Exit](#cgov12---protect-corporate-minority-holders-rights-and-enable-contest-or-exit) | Stable | minority; protection; contest; exit; deadline. What right can the holder exercise, and what must be done before it expires? | CGOV.2, CGOV.3 and CGOV.8 for relevant rights, powers and information; the applicable remedy or transaction method. |
 | 2 | [CGOV.13 - Monitor Corporate Performance and Require an Account](#cgov13---monitor-corporate-performance-and-require-an-account) | Stable | performance; undertaking; accountability; denominator; response. What happened, who must account, and what response is permitted? | CGOV.3 and CGOV.11 for powers and undertakings; OCE.13 when organization-change comparison is needed. |
 | 3 | [CGOV.14 - Decide Whether and How to Change Corporate Governing Instruments and Arrangements](#cgov14---decide-whether-and-how-to-change-corporate-governing-instruments-and-arrangements) | Stable | constitution; amendment; adoption; registration; effectivity. Which acts make the proposed arrangement effective and usable? | CGOV.3 and CGOV.11 for powers and corporate acts; OCE.14 for a substantive arrangement revision. |
-| 4 | [CGOV.15 - Decide Whether and How to Change Corporate-Governance Methods](#cgov15---decide-whether-and-how-to-change-corporate-governance-methods) | Stable | method change; preparation; alternatives; variant; reuse. Which way of governing answers the recurring difficulty, and what should be retained or changed? | C.32.MWA.PP when architectural alternatives need comparison; A.3.1.MV for variants; FPF C.11.DUA for optional inquiry. |
+| 4 | [CGOV.15 - Decide Whether and How to Change Corporate-Governance Methods](#cgov15---decide-whether-and-how-to-change-corporate-governance-methods) | Stable | method change; preparation; alternatives; variant; reuse. Which way of governing can meet the conditions of this class of matters, and what should be retained or changed? | C.32.MWA.PP when architectural alternatives need comparison; A.3.1.MV for variants; FPF C.11.DUA for optional inquiry. |
 | 5 | [CGOV.16 - Reconcile Constituent and Encompassing Corporate Governance Work](#cgov16---reconcile-constituent-and-encompassing-corporate-governance-work) | Stable | constituent work; encompassing work; vertical; capability; simultaneous enactment. Why can a competent local action fail its contribution to the whole? | FPF B.1.5.EW for constituent/encompassing enactment; relevant corporate decision or operating method. |
 | 6 | [CGOV.17 - Deliberately Continue and Change Corporate-Governance Culture](#cgov17---deliberately-continue-and-change-corporate-governance-culture) | Stable | culture; succession; transmission; access; assistance; receiving work; retention. How can participants obtain and use the governing method? | FPF C.36 and C.36.RP for cultural relations and continuation; CGOV.16 for a missing constituent contribution. |
 
@@ -98,7 +98,7 @@ Suppose the supplied rules reserve the transaction to the board, exclude the int
 
 The conflict account identifies the participation conditions. The information account specifies what the summary must convey and what confidential detail can be withheld. A specialist's valuation helps the directors judge terms under its assumptions. Under [CGOV.7](#cgov7---arrange-independent-review-and-a-disinterested-corporate-decision), the existing valuation can suffice when the directors have what they need to judge the terms and no rule requires another report.
 
-Now separate a preparatory commitment from a proposed live deployment. The case permits preparation but requires a technical release for deployment. The board may authorize preparation after the corporate conditions are met; the favourable valuation supplies neither the corporate act nor the technical release. If a director cannot participate, the existing advice remains usable while the decision awaits a permitted participation arrangement. If shareholder disclosure lacks a material assumption, repair that disclosure rather than commission a replacement valuation.
+Now separate a preparatory commitment from a proposed live deployment. The case permits preparation but requires a technical release for deployment. The board may authorize preparation after the corporate conditions are met; the favourable valuation supplies neither the corporate act nor the technical release. If either of the two directors whose approval is required cannot participate, the existing advice remains usable while the decision awaits a permitted participation arrangement. If shareholder disclosure lacks a material assumption, repair that disclosure rather than commission a replacement valuation.
 
 After a decision, use [CGOV.13](#cgov13---monitor-corporate-performance-and-require-an-account) to follow the undertaking and any required conditions. [CGOV.14](#cgov14---decide-whether-and-how-to-change-corporate-governing-instruments-and-arrangements) is useful when the governing arrangement itself needs amendment.
 
@@ -142,7 +142,7 @@ The language keeps inquiry proportional to the decision it can change. Use an ex
 
 ## CGOV.Reference:3 - Solution - Choose the receiving result and connect the necessary methods
 
-The Parts group the methods by the work they support. Enter at the part that supplies the contribution you need. The applicable corporate rules determine who has authority.
+Start from the corporate result the recipient needs. Find the body and power involved, who qualifies for this particular act, which contributions have to reach whom, and what the governing rule requires of them separately or together. A group of people may supply separate advice, cast votes in one decision or act for several corporations under different mandates. Preserve the distinctions that change this act. A threshold can be settled before every vote is known if all permitted completions give the same outcome. When the commission also asks how each person voted, the individual acts remain part of the answer. The Parts below identify the methods that can supply these different results.
 
 | Part | Working contribution | How its result is used |
 | --- | --- | --- |
@@ -279,7 +279,7 @@ Return a proposed transdisciplinary correction to FPF for consideration.
 
 Use this pattern when a request such as “get the owners' approval”, “the group will guarantee it”, or “improve governance” leaves unclear whose act is needed and which rules make it effective. It helps a director, company secretary, owner, executive or adviser turn that request into a corporate matter that the relevant participants can decide or investigate.
 
-Begin with the proposed action and the corporation whose rights, obligations or arrangements it would change. An existing, adequate account can be used directly. The first result is a question such as “Who may authorize this subsidiary's guarantee, under its constitution and the applicable law, before the proposed signing?” A familiar routine purchase within an established delegation can go straight to its ordinary operating method.
+Begin with the action being considered or examined and the corporation whose rights, obligations or arrangements it affects. An existing, adequate account can be used directly. The first result is a question such as “Who may authorize this subsidiary's guarantee, under its constitution and the applicable law, before the proposed signing?” A familiar routine purchase within an established delegation can go straight to its ordinary operating method.
 
 ### CGOV.1:2 - Problem
 
@@ -295,15 +295,15 @@ The practitioner needs a usable question quickly, while differences between enti
 
 #### CGOV.1:4.1 - Recover the act and the corporation
 
-Restate what is proposed in a verb phrase, for example: appoint a director, enter a guarantee, issue shares, approve a distribution, disclose information, challenge a decision, or amend the constitution. If the request combines several acts, separate only those with different participants, authority, conditions or effects.
+Name the action being proposed or examined in a verb phrase, for example: appoint a director, enter a guarantee, issue shares, approve a distribution, disclose information, challenge a decision, or amend the constitution. If the request combines several acts, separate only those with different participants, authority, conditions or effects.
 
 Identify the corporation for each act. Use its legal identity and form rather than a trading name alone. In a group, ask which entity owns the asset, incurs the obligation or has the organ being asked to decide. Include other entities only where a relation between them matters to the proposed act.
 
-State the time at which the answer is needed. A proposed appointment, amendment or transfer may change the answer after taking effect.
+Establish when the act occurs or occurred and which terms, appointments or transfers were effective then. The due date for the answer can be later. If all dates still possible give the same authority for that act, the question can be answered without choosing between them.
 
 #### CGOV.1:4.2 - Find the rules that can change the answer
 
-Start from the rules and qualified interpretations already available for this corporation and matter. Establish which jurisdiction's corporate law governs the question. A cross-border matter can also engage rules for a market, regulated activity, insolvency, employees or a transaction; name an additional regime when it changes the act, rights or conditions being examined.
+Start from the rules and qualified interpretations available for this corporation and matter. Identify the governing jurisdiction and terms to the extent needed for the requested answer. Cross-border activity, a market, insolvency, employment or a particular transaction may bring additional provisions into play. Trace them when they bear on this act, right or duty. If every reading still possible under the applicable instruments gives the same answer to a bounded question, give that answer and preserve distinctions that matter to a later act. Agreement among the drafts at hand cannot settle authority while another operative provision could change it.
 
 Locate the provisions that address the question in the applicable law, constitution and relevant agreements or delegations. Determine how those provisions interact. A shareholders' agreement can create a contractual obligation between its parties without itself changing an organ's legal power. A recommended governance code can guide a choice without imposing the same obligation as law. Where the distinction is decisive and unresolved, obtain a bounded interpretation of that interaction.
 
@@ -337,7 +337,7 @@ The most powerful participant's framing can make a group benefit appear to settl
 
 ### CGOV.1:7 - Conformance Checklist
 
-Can the receiver tell what act is proposed, which corporation it concerns, when the answer applies and what makes the act effective? Are the decisive law, constitutional provisions or contractual terms identified at a usable level? Does any unresolved question change a stated next action? Can sufficient existing work be reused without a new document-collection exercise?
+Can the recipient identify the act, corporation and time in question and use the rule or bound that settles it? For an assignment to frame a disputed matter, state whose power or which condition still needs to be established. For a decision about the act, determine whether any remaining uncertainty could change its effect. Reuse sufficient existing work.
 
 ### CGOV.1:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -377,7 +377,7 @@ FIN.1 frames a financial choice and FIN.16 prepares financial advice; they leave
 
 Use this pattern when a proposed vote, financing, appointment or change of ownership depends on who can receive returns, cast votes, give consent or influence the outcome. It helps a governance practitioner explain those relations for a particular corporation and matter.
 
-Begin with the relevant holders and the rights attached to their interests. A current, sufficient ownership account can be used directly. The first useful result is an answer such as “the founder receives 40% of this distribution but has 400 of the 460 votes on this resolution; this borrowing also requires a separate class consent.”
+Begin with the relevant holders and the rights attached to their interests. A current, sufficient ownership account can be used directly. The first useful result is an answer such as “the founder is entitled to 40% of this distribution and holds 400 of the 460 votes on this resolution. This borrowing also requires a separate class consent.”
 
 ### CGOV.2:2 - Problem
 
@@ -407,7 +407,7 @@ Keep the source and uncertainty with a contested right. Reuse sufficient establi
 
 #### CGOV.2:4.3 - Calculate the relevant entitlement and possible outcome
 
-For the chosen matter, apply its voting or allocation rule to eligible rights. Use the rule's denominator: all eligible votes, votes cast, a class, persons, or another defined basis. Include thresholds, quorum and exclusions when they affect the question. Do not infer an actual passing vote from a count of possible votes; attendance, casting and any additional conditions may remain to be established.
+For the chosen matter, apply its voting or allocation rule to eligible rights. Use the rule's denominator: all eligible votes, votes cast, a class, persons, or another defined basis. Include thresholds, quorum and exclusions when they affect the question. Do not infer an actual passing vote from a count of possible votes; attendance, casting and any additional conditions may remain to be established. To report an adopted outcome, use the competent organ’s act or evidence sufficient under its rules. A certified result for the relevant class can settle passage without a roll call. A vote cast under instruction may establish how the represented interest was voted. A claim about the representative’s own preference requires grounds for that different question.
 
 Follow indirect relations one link at a time. Identify what each link transmits. Proportional economic participation, voting instruction, nomination and a veto are not interchangeable operations. When a coalition matters, distinguish an enforceable or otherwise established agreement from an assumed willingness to cooperate.
 
@@ -430,9 +430,9 @@ Consider a constructed corporation whose supplied, legally applicable terms are:
 | Founder | 40 class A | 10 per share | One equal unit per share in an ordinary distribution |
 | Investor | 60 class B | 1 per share | One equal unit per share in the same distribution |
 
-The founder has 40% of the units in that distribution but 400/(400 + 60), approximately 86.96%, of the eligible votes on this resolution. The investor has 60% of those economic units and approximately 13.04% of those votes.
+The founder has 40% of the units in that distribution but 400/(400 + 60), approximately 86.96%, of the eligible votes on this resolution. The investor has 60% of those economic units and approximately 13.04% of those votes. These fractions determine the entitlements for the stipulated distribution. To say how much a holder received, establish what distribution was made and what reached the holder.
 
-Now include the supplied term that new borrowing above 50 requires class B consent. A proposed borrowing of 80 falls within it. Even if the general resolution receives enough votes, its passage alone leaves that consent unresolved. Use CGOV.3 also to establish which corporate organ may authorize the borrowing. The founder's voting weight answers neither question by itself.
+Now include the supplied term that new borrowing above 50 requires class B consent. A proposed borrowing of 80 falls within it. Even if the general resolution receives enough votes, its passage alone leaves that consent unresolved. Use CGOV.3 also to establish which corporate organ may authorize the borrowing. The founder's voting weight answers neither question by itself. If the sole class B holder votes in favour and that vote also counts as class consent, it supplies the class consent and contributes 60 votes to the general tally. Whether the general resolution passed depends on the whole tally and its rule. One certified record may establish both outcomes.
 
 These are assumed terms. For a live matter, establish the rights that apply to the holdings and corporate act under the governing rules.
 
@@ -440,7 +440,7 @@ These are assumed terms. For a live matter, establish the rights that apply to t
 
 A person holds 60% of Parent, which holds 60% of Subsidiary. Assume the chosen distributions pass proportionally through both companies without deductions, preference rights or other changes. The person's indirect participation in that distribution is 0.6 × 0.6 = 36%.
 
-The calculation establishes economic participation under those assumptions. To answer whether the person can cause Subsidiary to make a particular decision, recover the voting, appointment, delegation and duty relations along the path. Even a demonstrated ability to determine shareholder votes at both companies leaves the powers and duties of their boards to be examined for the proposed act.
+The calculation establishes economic participation under those assumptions. To decide whether the person can cause Subsidiary to act, follow the power the governing rules assign for this act. The answer can turn on a direct appointment right, a vote or a power reserved to the board. When the decision goes through several bodies, carry the required authority, votes and any separate consent through those bodies. A percentage of distributions alone does not establish that path.
 
 ### CGOV.2:6 - Bias-Annotation
 
@@ -489,7 +489,7 @@ FIN.11 compares financing mixes and can use the consequences of a proposed right
 
 Use this pattern when a practitioner must determine who may appoint or remove a holder, authorize a corporate matter, delegate a power, or act under an existing delegation. It helps directors, company secretaries, executives and advisers resolve authority that a title or organization chart leaves ambiguous.
 
-Begin with the corporation, proposed act and time from CGOV.1. The first result identifies the responsible organ or holder, the applicable power and its conditions. If an existing sufficient delegation covers the act, use it; this pattern adds no requirement to seek approval again.
+Begin with the corporation, proposed act and date. Identify the power relevant to the recipient’s question. Existing authority can settle who may act. A limit or an effective-date bound can also settle whether a named person may act today, even if the name of a replacement remains unknown. A request to find someone who can act requires that additional result.
 
 ### CGOV.3:2 - Problem
 
@@ -509,19 +509,19 @@ Name the act and corporation. Identify the provision or qualified interpretation
 
 For an appointment or removal, determine who can initiate, nominate, decide and make it effective. Recover eligibility, consent, term and any other condition that changes the proposed act. A nomination identifies a candidate when the rule still requires another act of appointment. Removal from an office and the consequences for an employment or other contract may require separate answers.
 
-For an existing holder, establish whether the relied-on appointment has taken effect and remains in force. Use the existing authoritative result where sufficient. A disputed date or missing condition requires investigation of that issue.
+For an existing holder, use the appointment and its effective conditions to determine whether it covers the act at the time in question. If every supported effective date is later, the appointment cannot authorize action today. Investigate a disputed date or missing term when it could change the answer needed.
 
 #### CGOV.3:4.2 - Trace a delegation and its limits
 
 Where the act relies on delegation, identify the delegating power, recipient, permitted acts, conditions and effective period. Check whether the source permits the delegation and, where relied on, further delegation. A person's title can help find that basis but does not supply its terms.
 
-Apply the limits to the whole proposed act: for example, amount, kind of transaction, territory or requirement for joint action. A reserved matter is a matter retained for a specified decision or consent. Establish how the reservation limits or qualifies the delegation.
+Read the unit and period of the limit in the delegation. A limit can cover each purchase, connected transactions together, or total expenditure in a period. With two purchases of 60 and a limit of 100, independent per-purchase authority can cover both. A single limit on their combined cost precludes committing to both and may still permit either one. Establish which purchases count together for the act in question. Check any reserved decision or additional consent that applies.
 
 Separate the authority to decide from the authority to communicate, sign or implement the result where different rules govern them. Also retain any other party's required consent. An organ's decision power does not establish that the consent has been given.
 
 #### CGOV.3:4.3 - Determine what can happen now
 
-Apply the recovered conditions to the proposed act and its participants. State who can act under the established authority and retain every condition still to be met. A matter can require both a board decision and another party's consent. Identify the responsible participant for each required act, and distinguish an unperformed act from an unresolved rule about who may perform it.
+Apply the governing conditions to the act and its participants. If the recipient needs a route to authorization, identify who can perform each required act and which consents remain outstanding. For a question confined to one power, a decisive condition can establish its presence or absence. Distinguish a known act still to be performed from uncertainty over the applicable rule.
 
 Return the authority answer to the practitioner who will perform or arrange the corporate act. For a proposed appointment or delegation, the answer identifies who can make it and what governs its effect. It does not make the appointment or delegation; the authorized participants must perform that act under the applicable procedure.
 
@@ -553,7 +553,7 @@ Prestige, shareholding or a senior title can be mistaken for power to act. The r
 
 ### CGOV.3:7 - Conformance Checklist
 
-Can the receiver identify the corporation, act, responsible organ or holder, source of power, limits and effective period? Are nomination, appointment and removal distinguished where their effects differ? Does a relied-on delegation permit this act and any relied-on further delegation? Are decision, signing and other consents separated where necessary? Does the result distinguish established authority from its later exercise?
+Can the recipient tell what authority the named participant has for the corporation, act and date in question? When an affirmative route is requested, does it cover the decision, any further delegation, signing and other consents actually required? Are nomination, appointment and removal distinguished where their effects change? A limit that excludes the proposed act can settle an authority question. Establish exercise separately when the conclusion concerns an act that occurred.
 
 ### CGOV.3:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -596,7 +596,7 @@ OCE.6 uses a corporate appointment or authority result when establishing an orga
 
 Use this pattern when a corporation's board and executive management cannot explain what they need from one another, when directors take over delegated work, or when the board receives a completed proposal too late to influence it.
 
-Begin with one consequential matter: what must be prepared, questioned, decided, carried out and reviewed, and who has the relevant power or duty? The first useful result is a proposed allocation of those contributions, including the information and exception paths that let them work together. An adequate existing arrangement needs no redesign.
+Begin with the matters the arrangement must handle, the people entitled to bring them, and the power or duty of each participant. A commission for one investment decision may finish with an allocation of its contributions. A standing arrangement must support the range of matters and combinations of requests those participants may bring. Determine which preparation, scrutiny, decision, action and review each requires and how their results reach the responsible parties. Reuse a sufficient existing arrangement.
 
 ### CGOV.4:2 - Problem
 
@@ -614,7 +614,7 @@ Design the contributions around corporate matters and the decisions they require
 
 #### CGOV.4:4.1 - Recover the corporate contribution that is failing
 
-Choose a matter that exposes the difficulty: a strategy revision, major investment, executive appointment or another issue under the corporation's governing rules. Identify the required decision and whose interests, duties and rights bear on it. CGOV.1–CGOV.3 can supply the matter, rights and authority when these are unresolved.
+Establish what the arrangement is commissioned to cover. For one matter, identify the required decision, interests, duties and rights. For a recurring class, derive the relevant variations from the governing rules and the work the board and executives must perform. A case can help reveal a consequential difference. Check which other permitted matters or combinations it leaves open. Use CGOV.1–CGOV.3 where authority or rights remain unresolved.
 
 Ask what the responsible organ must accomplish. It may need to set a direction, decide a reserved matter, challenge assumptions, oversee performance or correct a failed arrangement. Select the contribution relevant to this corporation and determine who can provide it under its governing rules.
 
@@ -634,7 +634,7 @@ Compare ways to obtain the missing contribution under the governing rules. A rev
 
 Consider the effect on judgement, response time, information access, capability and burden. Check the whole arrangement: assigning the same scarce practitioner to prepare, review and decide can make an attractive diagram unworkable or defeat the intended challenge.
 
-Ask the affected participants to explain how they would use the proposed arrangement in a representative matter. Resolve disagreements that change a contribution, power or receiving use. Mere agreement with a chart is insufficient when nobody can explain who produces the needed result.
+Show how the participants will obtain the necessary contributions by the time they must act. One finding can serve several recipients if its terms, access and timing meet each need. Separate confidential deliberations can compete for one specialist even though either would be feasible alone. For a continuing arrangement, account for the combinations the participants may require and the permitted means of handling them. Use known commitments and resources directly where they settle feasibility. Ask participants about their work, agreement or interpretation when the answer depends on it.
 
 #### CGOV.4:4.4 - Return the design and the changes needed to use it
 
@@ -646,9 +646,9 @@ Distinguish that design from its adoption and later use. Appointment, access, re
 
 #### CGOV.4:5.1 - A board receives an investment after the choice has been made
 
-In a constructed manufacturer, investment above 500 is reserved to the board. Management can investigate alternatives but cannot commit that expenditure. A proposal for 700 arrives with a supplier selected and a promised delivery date, while the board has seen neither a smaller option nor the consequences of postponement.
+In a constructed manufacturer, investment above 500 is reserved to the board. Management may investigate alternatives. It prefers a supplier for a proposed investment of 700. The supplier has offered a delivery date and the corporation has made no binding purchase commitment. The board has yet to see a smaller option or the consequences of postponement.
 
-The missing contribution is preparation for a real choice. The repaired design has management bring the alternatives, financial consequences and unresolved technical assumptions before making a commitment. A relevant specialist answers the technical question. The board considers the reserved investment; management selects the implementation details within the resulting decision and its existing authority.
+The missing contribution is preparation for a real choice. The repaired design has management bring the alternatives, financial consequences and unresolved technical assumptions while the board can still choose. A relevant specialist answers the technical question. The board considers the reserved investment; management selects the implementation details within the resulting decision and its existing authority. If management has already bound the corporation, first establish the effect of that commitment and what the board may now decide. Changing the procedure for future investments cannot by itself reverse the earlier act.
 
 The proposed arrangement leaves the decision on the investment of 700 with the board. If the board approves it, management handles implementation within the decision and its existing authority.
 
@@ -664,7 +664,7 @@ A familiar national or listed-company model can be mistaken for the corporation'
 
 ### CGOV.4:7 - Conformance Checklist
 
-Can practitioners explain who prepares, receives and uses each result needed for the selected matter? Does the design respect retained powers and preserve ordinary delegated action? Can recipients obtain the information and capability needed to perform their contribution? Are the design, the acts that establish it and its later operation distinguished?
+Does the design allocate the contributions needed for the commissioned matter or range of matters, under the governing powers? Can the responsible people obtain their information and support in time, including when independently permitted calls occur together? What establishes the design, its introduction and its subsequent use respectively? Existing authority and sufficient support can sustain ordinary delegated action.
 
 ### CGOV.4:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -704,7 +704,7 @@ OCE.4 provides contribution-design operations; OCE.5 helps when a stable positio
 
 Use this pattern when a board cannot obtain a needed oversight contribution, when a committee lacks the remit or support to provide it, or when new committees are being proposed without a clear receiving use.
 
-Begin with the question the board or another responsible organ needs answered. Determine whether an existing arrangement can answer it and whether a committee is required by the applicable rules. The useful result is an oversight design: its remit, participants, powers, information access, resources and return to the responsible organ, together with any conditions for putting it into effect.
+Begin with the question the board or another responsible organ needs answered. Determine whether an existing arrangement can answer it and whether a committee is required by the applicable rules. If the commission calls for a design, supply its remit, participants, powers, information access, resources and return to the responsible organ, together with any conditions for putting it into effect. A feasibility question can also end with a reasoned finding that no permitted arrangement can operate by the required date.
 
 ### CGOV.5:2 - Problem
 
@@ -742,11 +742,11 @@ Choose members against the contribution: relevant competence, available time and
 
 Provide access to needed information, specialists and protected ways to raise a concern. Where independent advice is warranted, arrange a usable way to commission and receive it. A member who is formally eligible but cannot obtain the necessary facts may be unable to perform the task.
 
-Check capacity across the arrangement. The same two directors on every committee may have neither the time nor the range of knowledge the combined work needs. When judging their capacity, check the time and expertise available across all their assignments.
+Check capacity across the arrangement. The same two directors on every committee may have neither the time nor the range of knowledge the combined work needs. When judging their capacity, check the time and expertise available across all their assignments. Several committees may each have access to an expert and still hold rights to separate confidential hearings in the same hour. Check what the combined arrangements permit the committees to demand and when someone can resolve conflicting calls. If a single agreed hearing serves them all, count the expert’s time once.
 
 #### CGOV.5:4.4 - Return the arrangement and its use conditions
 
-Return a design that the authorized participants can adopt. Identify any needed appointment, delegation, access provision or resource commitment. The responsible participants carry out those acts under the applicable procedures. Confirm the resulting conditions before relying on the arrangement.
+Return a design that the authorized participants can adopt. Identify any needed appointment, delegation, access provision or resource commitment. The responsible participants carry out those acts under the applicable procedures. Confirm the resulting conditions before relying on the arrangement. If four independent members are required and at most three can qualify by the deadline under every permitted arrangement, the deadline is infeasible. Where qualification is still open, report the missing condition and the choices it affects.
 
 Keep the expected contribution distinct from a performed review. Examine whether the recipient can use the actual returns, whether important matters escape the remit and whether the burden remains justified. Repair the remit or support when needed; retire a temporary arrangement when its work is finished and the applicable rules permit.
 
@@ -776,7 +776,7 @@ An impressive committee catalogue can hide duplicated work and overloaded member
 
 ### CGOV.5:7 - Conformance Checklist
 
-Does the arrangement answer a recognizable oversight need? Are required arrangements distinguished from optional designs? Can members perform the work with their competence, time and access? Are the remit, powers and receiving action clear? Does the result distinguish a design, an effective arrangement and performed oversight?
+Which oversight result was commissioned? Does the design meet the applicable conditions for remit, powers, information and capacity, including demands the members must meet together? If no arrangement can meet the deadline, does the ground cover the permitted alternatives? For a claim that the arrangement took effect or performed its work, which appointments or oversight acts establish that particular result?
 
 ### CGOV.5:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -834,7 +834,7 @@ Recover the conflict as a relation in a particular matter. Identify its conseque
 
 #### CGOV.6:4.1 - Connect the matter, participant, duty and interest
 
-Name the proposed act or decision and the participant's actual contribution: preparing information, negotiating, advising, deliberating, voting or implementing. Recover the duty or participation condition relevant to that contribution. A shareholder, a director and an external adviser need not have the same duties even when they support the same outcome.
+Name the proposed act or decision and the contribution the participant would make or already made: preparing information, negotiating, advising, deliberating, voting or implementing. Recover the duty or participation condition relevant to that contribution. A shareholder, a director and an external adviser need not have the same duties even when they support the same outcome.
 
 Identify the interest or other duty involved. It may involve an economic benefit, a family or business relationship, another appointment, dependence on a participant, or an incentive tied to the outcome. Explain how the interest or other duty could influence this contribution.
 
@@ -860,7 +860,7 @@ Where a legal rule itself is uncertain, obtain the relevant qualified interpreta
 
 Give the practitioner handling the matter the relevant duty, interest, affected contribution, applicable rule and resulting conditions. Identify any required declaration and its recipient, exclusions or other safeguards, while distinguishing a required action from one already performed.
 
-A sufficient answer may be short: the disclosed connection triggers a particular participation restriction; the stated exception applies; no relevant conflict is supported on the present basis; or one named fact prevents deciding. Retain enough reasoning for the receiving use.
+State which participation condition is met and on what grounds. A disclosed connection can trigger a restriction before the participant acts. An applicable exception or a complete declaration acceptable under the rule may settle eligibility. If voting requires a filed declaration and it was not filed by the vote, the person cannot vote under that rule. If filing is unknown, establish whether the available evidence suffices for admission and say what can still be decided. An incomplete search may still reveal a connection sufficient to apply a restriction.
 
 Use CGOV.7 when the matter needs an independent review or an arrangement for eligible participants to decide. Reopen only the affected conclusion if the interests, terms, participants or applicable rule change.
 
@@ -870,7 +870,7 @@ Use CGOV.7 when the matter needs an independent review or an arrangement for eli
 
 In a constructed company, director Arun owns the business offering a warehouse to the company. The supplied corporate rule requires disclosure of that interest and excludes an interested director from deliberation and voting on the purchase, apart from answering factual questions at the eligible directors' request. The rule's other applicable conditions are known.
 
-The matter is the company's purchase; Arun's contribution includes influencing and voting on it; the ownership interest concerns the seller's proceeds. That relation triggers the stated handling conditions. There is no need to prove that Arun lied or that the price is unfair before applying them.
+Arun’s interest in the seller’s proceeds matters because his role would otherwise allow him to influence and vote on the proposed purchase. The supplied participation rule applies before he casts a vote. Its application requires neither a finding that he influenced the board nor proof of an unfair price.
 
 The result identifies Arun’s interest, the required disclosure and his participation limits. Assessing the price and deciding whether the purchase can go ahead remain for the relevant specialists and eligible decision makers.
 
@@ -897,7 +897,7 @@ Can the receiver identify the matter, participant, contribution, duty and releva
 
 ### CGOV.6:9 - Consequences
 
-The corporation can handle a concern before it becomes concealed influence or an unsupported accusation. Valuable knowledge can remain available under appropriate participation conditions. A bounded no-conflict answer also allows work to proceed. Some cases retain unresolved facts or legal interpretations that limit only the conclusions depending on them.
+The corporation can handle a concern before it becomes concealed influence or an unsupported accusation. Valuable knowledge can remain available under appropriate participation conditions. A supported finding on conflict settles that condition for the named role. The other conditions for participation and the act still apply. Some cases retain unresolved facts or legal interpretations that limit only the conclusions depending on them.
 
 ### CGOV.6:10 - Architectural Rationale
 
@@ -926,7 +926,7 @@ PSDA.6 can represent legitimate value disagreements without resolving corporate 
 
 Use this pattern when a corporate matter needs review or decision participation protected from an identified interest, when a required independent contribution is missing, or when an expert opinion is being treated as corporate approval.
 
-Start with the matter, applicable authority and conflict conditions. Determine what must be reviewed, by whom, and which participants can make the later decision. Return the review findings and their limits, together with the arrangement and remaining conditions for a disinterested decision. The decision itself is performed under CGOV.11 or an adequate existing corporate procedure.
+Start with the matter, the applicable authority and the conflict conditions. Identify the question that needs independent judgement, who may answer it and who may decide for the corporation. If commissioned to design the review, specify a workable arrangement. If an opinion is due, obtain its findings and limits. For a corporate decision, apply CGOV.11 or the existing corporate procedure.
 
 ### CGOV.7:2 - Problem
 
@@ -940,7 +940,7 @@ The decision needs useful judgement within its time and resource constraints. In
 
 ### CGOV.7:4 - Solution
 
-Arrange the review and the decision separately, then connect the findings to participants who can use them under the governing rules.
+Establish what judgement the matter requires and who is authorized to decide. One disinterested committee may have power to evaluate the evidence and decide in one reasoned act. Where these responsibilities belong to different participants, arrange for the evidence to reach those who can act on it.
 
 #### CGOV.7:4.1 - Establish the required contribution
 
@@ -972,7 +972,7 @@ Give eligible decision participants the findings with their conditions and mater
 
 Preserve what each result establishes. A price opinion can inform deliberation without approving the transaction. A valid participation arrangement enables a decision without predicting its merits. A conditional opinion remains conditional when included in the board papers.
 
-The result can therefore be complete for this method while the board has not yet decided. State what can proceed and which conditions remain. If eligibility, appointment or information access is still proposed, keep that status visible to the practitioner arranging the decision.
+A design for the review can be delivered before the review takes place. An independent opinion can finish the reviewer’s assignment before the board votes. If the assignment includes a decision, establish the act of the authorized participants. Where the board must exercise its own judgement, establish the decision it reached. A required opinion may have been obtained even when the board rejects the transaction on another sufficient ground. Trace its use where the procedure requires it or the question asks what informed the decision.
 
 ### CGOV.7:5 - Archetypal Grounding
 
@@ -986,7 +986,7 @@ The required review is available under its stated condition. The two eligible di
 
 #### CGOV.7:5.2 - Independence or a further report that adds nothing
 
-Change the proposed valuer's terms: its entire fee is payable only if the purchase is approved. That dependence is relevant to the required independent opinion. The arrangement must be assessed and corrected under the applicable criteria, for example by changing the engagement or selecting another qualified reviewer.
+Change the proposed valuer's terms: its entire fee is payable only if the purchase is approved. That dependence is relevant to the required independent opinion. Assess whether that interest is permitted under the applicable independence criteria and whether any permitted safeguard suffices. If it is disqualifying, change the engagement or select a qualified independent reviewer.
 
 Alternatively, retain the adequate first opinion and suppose a participant asks for a second one “for assurance.” No rule requires it, and the existing result already answers the valuation question under sufficient conditions. The eligible directors can use the first valuation and proceed to the decision.
 
@@ -996,12 +996,12 @@ More reviewers can appear safer even when they examine the same assumption and d
 
 ### CGOV.7:7 - Conformance Checklist
 
-Are the review question and later corporate decision distinct? Are independence, competence, authority and effective participation established for their own uses? Can reviewers obtain and question the needed information? Do findings preserve their assumptions and limits? Can the receiver identify both what is available now and what remains to be done?
+Can the recipient identify the independent judgement and the corporate decision, including who may make each? Are the competence, information, independence and participation conditions established to the extent needed for the commissioned design, opinion or act?
 
 ### CGOV.7:8 - Common Anti-Patterns and How to Avoid Them
 
 - **External means independent.** Examine the relationships and incentives relevant to this matter.
-- **The expert approves the corporate act.** Return the opinion to the authorized decision participants.
+- **An opinion is recorded as approval.** Establish what power the reviewer held and what the reviewer actually did. Where the reviewer only advises, the competent organ still has to decide.
 - **Eligibility is treated as competence.** Obtain the missing specialist contribution or change the arrangement.
 - **Every unresolved question generates another report.** Identify the conclusion that additional work could change and its attainable value.
 - **Conditional advice becomes an unconditional board-paper conclusion.** Preserve the condition through its receiving use.
@@ -1039,7 +1039,7 @@ PSDA.13 helps participants examine claims and preserve material disagreement. FI
 
 Use this pattern when a director, shareholder or other entitled recipient lacks corporate information needed for a decision; when a disclosure duty has arisen; or when confidentiality, selective access or an unreliable report prevents proper provision.
 
-Start with the information, its recipient and the action or right it serves. Recover the applicable duty and restrictions, obtain a usable answer and provide it through a permitted channel at the required time. Return the information with its material limits, or a specific unresolved provision question. An adequate current disclosure can be used directly.
+Start with the information, its recipient and the action or right it serves. For advice about entitlement, identify the right, restrictions, content and terms of provision. When provision is commissioned, supply the permitted material through the required channel by the applicable time, or identify what prevents doing so. An adequate disclosure already made can fulfil that duty.
 
 Use the relevant practice for the underlying financial, technical or other specialist analysis. The applicable corporate rules determine which underlying documents a recipient is entitled to inspect.
 
@@ -1065,7 +1065,7 @@ Identify what the recipient needs to know and why: consider a proposed act, exer
 
 Use CGOV.1–CGOV.3 for unresolved corporate identity, rights or authority questions. Use an adequate existing answer. If the parties or their administrative relations are unclear, use ADM.2 to establish them. If permission to read or disclose the material remains in question, use ADM.8 to check the action against the applicable grants, conditions and restrictions.
 
-Recover the applicable source of the duty or right, its subject, timing, recipient and any conditions. Check a claimed restriction against the same use. An unresolved question about how two rules interact goes to whoever has the competence and authority to settle it. A confidentiality label alone supplies no answer.
+Recover the applicable source of the duty or right, its subject, timing, recipient and any conditions. Check a claimed restriction against the same use. If every applicable reading prohibits release of these data to this recipient, the answer to that request is already settled. Refer a disputed interpretation when its resolution can change what the recipient is entitled to or what the provider must do. A confidentiality label alone supplies no answer.
 
 #### CGOV.8:4.2 - Select sufficient content
 
@@ -1081,19 +1081,19 @@ Apply the permitted treatment to the particular information and audience. A prot
 
 Do not remove the substance of a right through a nominal access offer. An inspection available only after the vote may fail the relevant timing condition. Equally, a right to a summary may leave raw customer records outside the permitted disclosure.
 
-Where disclosure must reach several recipients equally or simultaneously, coordinate the releases. If an error or selective disclosure has occurred, recover the applicable corrective duty and make the authorized correction.
+Where disclosure must reach several recipients equally or simultaneously, coordinate the releases. If an error or selective disclosure has occurred, recover the applicable corrective duty and make the authorized correction. Work out who qualifies on the relevant date and what counts as provision for each. A representative’s receipt may serve several holders when the rule gives it that effect.
 
 #### CGOV.8:4.4 - Provide the information and establish the relevant completion
 
 Assign preparation and release to participants with the necessary capability and authority. Use an existing provision channel when it works. Repair delivery or access under the established right without restarting the entitlement inquiry.
 
-Check completion at the level the duty and use require. Publication, availability, receipt and understanding may be different claims. A public filing duty can require a successful filing; a director trying to interpret a conditional forecast may need an explanation as well. Choose an observation that shows whether the requirement was met or what remains missing.
+Check completion at the level the duty and use require. Publication, availability, receipt and understanding may be different claims. A public filing duty can require a successful filing; a director trying to interpret a conditional forecast may need an explanation as well. Choose an observation that shows whether the requirement was met or what remains missing. For a claim about all entitled recipients, a certified count can suffice if it counts distinct eligible recipients for whom the required provision occurred by the deadline, and the count covers the entire eligible set. Counting messages can count one recipient twice. Name-by-name evidence is needed when the particular claim or delivery terms require it.
 
 Return what was supplied, the material limits and any remaining gap through the normal corporate communication. Keep a record when the applicable duty or later reliance needs one.
 
 #### CGOV.8:4.5 - Maintain the answer through the decision
 
-If a consequential fact changes before the receiving act, determine whether the answer needs correction or supplementation. Give the changed information to the entitled recipients in time for its use. A later correction cannot change what earlier recipients knew at the time.
+If a consequential fact changes before the receiving act, determine whether the answer needs correction or supplementation. Follow the applicable deadline for the change. If a material change starts a fresh notice period, move the vote when needed. When a timely supplement suffices, the scheduled vote can go ahead if the remaining conditions are met. A later correction cannot change what earlier recipients knew at the time.
 
 A missing financial assumption may limit a forecast while the ownership information remains usable. Identify that reach. Obtain further analysis when it can change the decision and warrants its burden, while fulfilling duties that already apply.
 
@@ -1105,7 +1105,7 @@ In a constructed company, a proposed one-year supplier maintenance contract cost
 
 The draft says only that the price is attractive. The underlying analysis assumes renewal of two major customer contracts, and a director owns part of the supplier. The handler puts the one-year maintenance scope, price of 60, director's interest and renewal assumption in the summary. The author of the analysis supplies an explanation of how failed renewal would affect the financial assessment. The handler includes that consequence, removes customer identifiers and delivers the permitted summary to every shareholder at least five days before the vote.
 
-The delivered summary provides the required terms within the supplied timing and privacy conditions. Shareholders can use that information when deciding how to vote. If the renewal assumption changes before the vote, the handler returns to the applicable update duty instead of leaving the attractive-price statement unqualified.
+The delivered summary provides the required terms within the supplied timing and privacy conditions. Shareholders can use that information when deciding how to vote. If the renewal assumption changes before the vote, the handler returns to the applicable update duty instead of leaving the attractive-price statement unqualified. For a change one day before the vote, a fresh five-day entitlement would postpone it. A rule permitting a supplement that day could preserve the date.
 
 #### CGOV.8:5.2 - A valid right and failed access
 
@@ -1119,7 +1119,7 @@ Volume can be mistaken for transparency, while confidentiality can become a habi
 
 ### CGOV.8:7 - Conformance Checklist
 
-Can the practitioner identify who is entitled or obliged to receive what, for which use and by when? Does the content preserve material conditions? Is each restriction supported for that audience? Has the required provision occurred? Can a recipient distinguish a missing answer from a delivery failure?
+Can the practitioner establish who is entitled to which information, under what conditions and by when? An answer about entitlement can finish an advisory assignment. If provision was due, did the required act occur for the entitled recipients in time? Can they tell whether the material they received answers the required question?
 
 ### CGOV.8:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -1233,9 +1233,9 @@ A walkthrough reveals that confirmation uses the new contact number entered from
 
 #### CGOV.9:5.2 - Detection after the useful response window
 
-A small organization reviews payment discrepancies monthly. A new service makes payments irreversible within hours. The existing review can still explain a past discrepancy, but its timing cannot provide the intended early containment.
+A small organization reviews payment discrepancies monthly. Its new service accepts payments on any working day, including immediately after that review. A payment becomes irreversible within hours, and the monthly review is the only current means of detecting a discrepancy. It can explain an earlier discrepancy. It cannot guarantee containment before every permitted payment becomes irreversible.
 
-The practitioner separates those uses. Retain the review where it remains useful, and compare a permitted pre-release control or timely alert and response for the irreversible exposure. If no feasible permitted response meets the needed protection, report that limitation before treating the new service as adequately controlled.
+Retain the review for the retrospective use. For early containment, compare when authorized payments may be released, when a discrepancy can be detected and when someone can stop it. A review tied to the release of every batch might suffice. Where permitted payments can escape that window, consider a pre-release control or a timely alert with an available responder. Report the exposure if no permitted arrangement provides the protection required.
 
 ### CGOV.9:6 - Bias-Annotation
 
@@ -1331,7 +1331,7 @@ When several providers contribute, identify their different coverage and any jus
 
 #### CGOV.10:4.4 - Read what was concluded
 
-Recover the conclusion's subject, criteria, period and strength in ordinary terms. Distinguish an adverse finding, a qualified conclusion, inability to conclude and a matter outside the engagement. A favourable opinion on one subject leaves open any question outside its scope.
+Recover the opinion’s subject, criteria, period and strength. Distinguish an adverse finding, a qualified conclusion, inability to conclude and a matter outside the engagement. When the board asks a different question, identify what the opinion contributes to it. If an issued opinion satisfies a renewal condition, the signed opinion can establish issuance. If the condition requires receipt by a named participant by a given date, establish that receipt. A copy bearing a sufficient receipt record may establish both events. A judgement about a different activity requires a premise that connects the opinion to that activity.
 
 Carry assumptions and limitations into the board paper or other receiving communication. Ask the provider to explain a material ambiguity. Neither a short summary nor a confidence label should enlarge the report's scope.
 
@@ -1359,7 +1359,7 @@ The supplied case has no duty to obtain a second audit for this investment. If a
 
 A new payment control was designed last week. An independent reviewer examined its design against stated criteria and identified no design deficiency within that scope. The board asks whether the control operated effectively for the previous quarter.
 
-The requested operating period predates the control. The design result cannot answer that question. Recover the prior arrangement and its available evidence if that historical question matters; use the new design result for its own purpose.
+This control first came into existence last week, after the quarter ended. Its date answers the board’s literal question: this control could not have operated in that quarter. Whether the payments then had equivalent protection is a different inquiry. Trace the arrangement actually in force and the evidence of its operation if the board asks about that protection. Use the new review for the design it examined.
 
 For future operation, the responsible participants must put the control into effect and generate whatever observations the selected assurance question requires. A fixed waiting period alone supplies no result. If the immediate decision concerns a bounded introduction under known conditions, evaluate that decision.
 
@@ -1533,7 +1533,7 @@ The practice question is how prepared judgement becomes an effective corporate d
 
 A meeting decision, a permitted written decision and an act under effective delegation are alternatives. The [UK private-company model articles, 5 and 7–16](https://www.gov.uk/government/publications/model-articles-for-private-companies-limited-by-shares/model-articles-for-private-companies-limited-by-shares) provide a bounded comparison: delegation has stated limits; collective procedures have eligibility, conflict, quorum, participation and record conditions; the unanimous route can use writing. The constructed cases here supply different rules.
 
-Hold the matter, available information and participants fixed. A written route may avoid convening a meeting but require agreement that a permitted majority procedure does not. A meeting can support needed exchange but adds coordination when an effective delegated route already suffices. Choose the least burdensome permitted route that retains the participation and judgement the matter needs.
+Compare permitted routes for the same corporate matter under the same initial circumstances. Establish who must be available, how participants may exchange information and what consent or quorum each route requires. Written consent can avoid a meeting yet require a holder unavailable before the deadline. A meeting may permit a decision by a quorum and provide time for deliberation. Use the least burdensome permitted route that can provide the judgement and participation the matter needs.
 
 The method adapts these distinctions by comparing the permitted procedures for the same matter and carrying the decision's conditions into its record and communication. Reopen when authority, eligibility, required participation, information or the proposed act changes.
 
@@ -1632,9 +1632,9 @@ Suppose Nira submits a valid election but has not yet paid. The result is the el
 
 #### CGOV.12:5.2 - An exit right names a different obligated buyer
 
-A supplied shareholder agreement gives Ivo a right, after a specified change of control, to require the controller to buy his shares. It requires notice within thirty days, uses a stated pricing formula and makes payment precede registration of the transfer. The trigger has occurred; no company repurchase right is supplied.
+A supplied shareholder agreement gives Ivo a right, after a specified change of control, to require the controller to buy his shares. It requires the controller to receive notice within thirty days, uses a stated pricing formula and makes payment precede registration of the transfer. The trigger has occurred; no company repurchase right is supplied.
 
-Ivo identifies the controller as the obligated buyer and sends the required notice in time. That preserves and exercises the contractual demand under the supplied terms. It does not establish receipt of the price or completed transfer, and sending an invoice to the company would address the wrong participant.
+Ivo identifies the controller as the obligated buyer. A receipt establishes that the controller obtained the required notice on day 29, so Ivo has exercised the demand under this agreement. Payment and registration still lie ahead. A notice delivered only to the company would address a different participant.
 
 If the controller disputes the trigger or price, use the agreement's dispute route and the needed specialist contribution. Preserve the exercised right and identify what still has to be resolved before payment and transfer.
 
@@ -1649,7 +1649,7 @@ Public-company protections, private shareholder agreements and family-company ar
 - The affected holder, act, right, obligated participant and applicable basis are identified.
 - The relevant deadline and the effect of the protective action are recoverable.
 - Available routes are compared with their resources, costs and attainable results.
-- The selected action was performed or the obstacle to performing it is identified.
+- When advice was requested, the holder can tell whether the right can still be exercised, what terms apply or what prevents its exercise. When exercise of the right was commissioned, the result establishes the event the rule requires or what prevents it.
 - Exercise, dispute, remedy and completed transfer are not conflated.
 - The resulting conditions reach the corporate decision or implementation they affect.
 
@@ -1743,7 +1743,7 @@ Use sufficient current observations. Obtain an additional comparison, explanatio
 
 #### CGOV.13:4.3 - Require the account needed for the response
 
-Ask the responsible participants to explain the discrepancy or exception: what occurred, what they knew at the relevant time, what they chose or controlled, what remains uncertain, and what they can now do.
+Use the information already available about the discrepancy. A confirmed threshold crossing and a standing instruction may be enough to take the required action now. When an explanation or a personal account is commissioned, establish what occurred, the information the responsible people could use, their choices and the effects they could influence. Ask them for their account where that contribution is due or the evidence leaves their part open.
 
 Keep the findings distinct. A missed result can arise because necessary work was never assigned or was left undone, means were insufficient, execution was poor, an assumption was wrong, or an accepted uncertainty materialized. More than one can apply. An adverse outcome by itself does not establish misconduct, while a favourable outcome does not erase a violated condition.
 
@@ -1781,7 +1781,7 @@ The governing comparison retains the original undertaking: 36/40, or 90%, with f
 
 At the weekly review, installation and customer-acceptance records establish service at all forty sites. The board closes the four outstanding deliveries. The quarter-end report records 36 of 40 served on time. The weekly report can record 40 of 40 now served and address any further obligation arising from the delay.
 
-Now vary one condition: before that completion, forecast free cash falls to thirty-eight. The standing rule bars new commitments. The executive applies it, reports the changed forecast and prepares permitted alternatives. Successful rescheduling does not waive the cash condition. A proposal to change that condition must reach whoever has the power to decide it.
+Now vary one condition: before that completion, forecast free cash falls to thirty-eight. The standing rule bars new customer commitments. The four deliveries already owed still require a response. The executive can use existing powers for an affordable rescheduling, report the changed forecast and prepare permitted alternatives. Successful rescheduling does not waive the cash condition. A proposal to change that condition must reach whoever has the power to decide it.
 
 #### CGOV.13:5.2 - An accepted uncertainty materializes
 
@@ -1853,9 +1853,9 @@ C.11.DUA guides discretionary inquiry by the difference its result can make to a
 
 Use this pattern when a corporation is considering a change to its governing instruments, powers or arrangements. A delegation may no longer fit the scale of commitments; a committee's remit may omit a needed contribution; or a change in law, ownership or corporate purpose may require a different rule.
 
-Start by identifying the rule or arrangement in question and what currently gives it effect. Compare retaining it, repairing its operation and changing it. For a selected arrangement change, determine who can change it, whose rights must be preserved, and what makes the new arrangement effective. Then perform the required acts and provide the means for using the result.
+Start by identifying the rule or arrangement in question and what currently gives it effect. Compare retaining it, repairing its operation and changing it. For a selected arrangement change, determine who can change it, whose rights must be preserved, and what makes the new arrangement effective. For advice or a draft, explain the change and the acts it would require. When an effective change is commissioned, obtain those acts under the arrangements currently in force. Include operating support when use of the changed arrangement is part of the assignment.
 
-For a selected change, the full result is a changed governing instrument or arrangement effective to the stated extent, with its application and remaining implementation conditions understood. An authorized proposal awaiting consent, registration, appointment or another necessary act is an earlier result. State what remains possible under the current arrangement while that act is outstanding.
+A proposal that explains who may decide, whose rights are affected and when the new terms would apply can complete a commission to design the change. To report the change as effective, establish the consent, registration, appointment or other event that gives it force. Identify what may still be done under the current terms until then.
 
 If a sufficient rule already exists and only its execution has failed, repair that execution. A workload allocation within unchanged powers belongs to ordinary operations. Use this method for the corporate conditions of an arrangement change; obtain a competent legal answer where the applicable basis is unresolved.
 
@@ -1905,7 +1905,7 @@ Make the transition feasible: those who will perform the new contribution need t
 
 #### CGOV.14:4.4 - Obtain the corporate acts and establish effectivity
 
-Perform the required decision and consent procedures under the conditions now in force. CGOV.11 describes the corporate decision; the applicable instruments determine the additional amendment conditions.
+For a commission to put the change into force, perform the required decision and consent procedures under the conditions now in force. CGOV.11 describes the corporate decision; the applicable instruments determine the additional amendment conditions.
 
 Carry out the further acts that the selected route requires. Establish what changed, for whom, and from when. Preserve the difference between an approved text, a filed text, an effective rule and an appointment that has taken effect.
 
@@ -1943,7 +1943,7 @@ In another constructed case, the current rules let the board establish an adviso
 
 The board adopts the expanded remit through its required procedure and communicates the new wording. The amendment is effective. The committee's members lack the relevant control-design competence, so the board also arranges qualified specialist support under its existing powers.
 
-Once that support and necessary information are available, the committee performs the added advisory contribution. The changed charter alone did not supply the competence. The new contribution can inform a later board decision but does not make the committee the holder of that decision power.
+Once support and information are available, the specialist assesses the control design. Under this advisory remit, the committee must consider that assessment and form the advice it gives the board. If its remit only required forwarding the specialist’s opinion, verified delivery could finish that narrower assignment. The board retains its decision power.
 
 ### CGOV.14:6 - Bias-Annotation
 
@@ -1958,7 +1958,7 @@ A dominant participant can describe a rights-reducing change as an efficiency im
 - The proposed text is not used as authority for its own adoption.
 - Approval, effectivity and functioning are distinguished where they occur separately.
 - Continuing obligations and affected pending matters have usable treatment.
-- The needed capability, information and services support the changed arrangement.
+- Where operating capability is required, the necessary people, information and services are available for that work.
 - Any claimed improvement is supported by consequences beyond the amendment itself.
 
 ### CGOV.14:8 - Common Anti-Patterns and How to Avoid Them
@@ -2008,7 +2008,7 @@ CGOV.13 follows the consequence and required response. CGOV.16 helps recover con
 
 ### CGOV.15:1 - Problem frame
 
-Use this pattern when a recurring difficulty calls for a different way of preparing, deciding, overseeing or accounting for a corporate matter. A board may receive every required paper yet repeatedly discover decisive assumptions only after commitment. A procedure borrowed from a widely held company may overlook a controlling shareholder's interest in the transaction. Changed law or ownership may defeat a previously useful way of working.
+Use this pattern when the conditions of a class of matters call for a different way of preparing, deciding, overseeing or accounting for a corporate matter. A board may receive every required paper yet repeatedly discover decisive assumptions only after commitment. A procedure borrowed from a widely held company may overlook a controlling shareholder's interest in the transaction. Changed law or ownership may defeat a previously useful way of working.
 
 Begin with the contribution that fails and the conditions under which it must be obtained. Recover the existing operations, compare a useful alternative, and decide what to retain or change.
 
@@ -2036,11 +2036,11 @@ Recover the needed contribution, distinguish the proposed change, compare ways o
 
 #### CGOV.15:4.1 - Recover the governing task and the existing way of doing it
 
-Name the recurring matter and the practical difficulty: for example, material assumptions arrive too late for deliberation, an interested participant controls the review, or oversight reports conceal an unfulfilled undertaking.
+Name the class of matters and the difficulty the method must address. For example, material assumptions arrive too late for deliberation, an interested participant controls the review, or oversight reports conceal an unfulfilled undertaking. A newly effective rule or an unavoidable conflict in the next matter can expose the difficulty before a repeated failure is observed.
 
 A wider board performance review can be useful when the difficulty cannot yet be located among ways of working, composition, powers or support. Choose a scope that can resolve that uncertainty. Use its finding here when a method change is the question; a known information-access fault can instead return directly to the service that must be repaired.
 
-Recover enough of the existing method to identify its inputs, participants, operations, result and continuation conditions. Use an ordinary completed or pending matter to make these concrete. A school name or a procedure's title leaves that reconstruction unfinished.
+Recover enough of the existing method to identify its inputs, participants, operations, result and continuation conditions. Trace the operations on a completed or pending matter when this helps recover them. A governing rule that already settles the next decision can supply the relevant ground directly. A school name or a procedure's title leaves that reconstruction unfinished.
 
 Use the applicable rights, powers and participation conditions already known through CGOV.1–CGOV.3, CGOV.6 and CGOV.12. Determine which of them constrain the proposed change. Also retain the information, capability and support needed to perform it. When a right, power or participation condition remains unclear, use its corporate method to establish what applies.
 
@@ -2115,7 +2115,7 @@ The supplied governing rules require an unconnected valuation, disclosure to aff
 
 The practitioner uses CGOV.6–CGOV.8 and CGOV.12 to obtain the applicable conflict, review, information and protection contributions and connects them to the corporate decision method. The adapted way of preparing this class of transaction adds operations and continuation conditions; it is more than a renamed performance review.
 
-The resulting method remains available for that class of matter. The simpler performance-review method can remain useful elsewhere.
+The adapted method applies to the class described here. Follow the particular conflict, information or consent condition before carrying it to a further class of related-party transactions. The simpler performance-review method can remain useful for its original work.
 
 ### CGOV.15:6 - Bias-Annotation
 
@@ -2125,7 +2125,7 @@ Internal reports may also favour the sponsor of the change. Compare what the cha
 
 ### CGOV.15:7 - Conformance Checklist
 
-- The recurring difficulty and needed contribution are recognizable.
+- The method addresses a stated difficulty for the class of matters, including one that can be established before its first occurrence.
 - The comparison concerns operations and conditions, with description and support changes distinguished where they matter.
 - Applicable corporate rights, powers and participation conditions remain satisfied or have an identified change route.
 - The selected alternative has stated grounds, limits and a usable continuation.
@@ -2239,13 +2239,13 @@ In presenting an alternative, the needed contributions can include understanding
 
 Stop a branch at an understood operation or an available contribution sufficient for this use. If the operation is unknown, recover it or obtain an explanation. If it is understood but cannot be performed in the combination, practise under those encompassing conditions, obtain support or use another competent contributor. When assigning the work, preserve any participation the corporate procedure requires from its designated holder.
 
-#### CGOV.16:4.4 - Change one condition in each direction
+#### CGOV.16:4.4 - Change one condition in each direction?
 
-Change an encompassing condition and determine what the constituent action must now do. A threshold based on votes cast and one based on all eligible participants can require different denominators even when the ballot marks are unchanged. A proposal changed during discussion can require renewed explanation or notice before it may be decided.
+The operative rule and the actual votes can settle a question about what happened at a meeting. When the question is how an encompassing condition affects a constituent action, hold the action fixed and change the condition. A threshold based on votes cast and one based on all eligible participants can require different denominators for the same ballot marks. A proposal changed during discussion can require renewed explanation or notice.
 
-Then consider a limitation below and determine what performance above becomes impossible or unreliable. An inability to hear the amendment can prevent participation under the applicable rule; an inability to interpret an assumption can prevent informed judgement despite access to the report.
+Where the ability of a constituent to contribute is in doubt, trace the effect of that limitation on the encompassing act. An inability to hear the amendment can prevent participation under the applicable rule. Difficulty interpreting an assumption can prevent informed judgement although the report was accessible.
 
-Use available knowledge for these comparisons. A new trial is useful when it can resolve the relevant uncertainty.
+Follow both directions when the question depends on both. Use existing knowledge of the governing rule and the work for these comparisons. A new trial is useful when it can resolve the relevant uncertainty.
 
 Distinguish failure to meet an achievable requirement from inability to meet it with the available means. If required participation cannot be achieved through the available channel, determine whether another permitted procedure or a different time is available. An unauthorized reduction of the requirement does not repair the performance.
 
@@ -2283,7 +2283,7 @@ The supplied procedure requires each participating director to be able to commun
 
 Being logged in no longer establishes the required participation. Recover the action: hearing and questioning the current proposal contributes to deliberation under the supplied rule. Restore communication and explain the amendment before counting that director as participating in its decision, or use another permitted procedure. Whether the remaining directors may decide depends on their own eligibility, quorum and information conditions.
 
-If the director can hear every word but cannot interpret a material assumption, the communication repair is insufficient. A competent explanation or other suitable contribution is needed. Preparation for this role must include using such explanations in the actual deliberation, not only remembering the agenda or operating the conferencing software.
+If the director hears the amendment but cannot interpret a material assumption, establish the consequence for this vote. The director may need an explanation, more time or an opportunity to abstain. Whether the director counts towards quorum depends on the participation rule. Being unable to explain the assumption alone establishes no automatic change in quorum.
 
 ### CGOV.16:6 - Bias-Annotation
 
@@ -2293,11 +2293,11 @@ The worked examples emphasize decisions because their participation and counting
 
 ### CGOV.16:7 - Conformance Checklist
 
-- A recognizable action and attempted or observed encompassing performance are named.
+- The action and the encompassing performance it contributes to are identified. For a report about execution, there is evidence of what happened. A proposed arrangement can be assessed on the conditions it would need.
 - Each traversed connection explains how the action participates in the whole.
 - Prior, enabling and later contributions remain distinct from constituent enactment.
 - The needed capabilities or obtainable contributions are recovered far enough for this use.
-- A changed encompassing condition and a constituent limitation reveal their effects.
+- The grounds for the decision connect each material condition of the encompassing act to what participants can actually do. Where the question asks how a change propagates, its direction and reach can be explained.
 - The correction addresses the diagnosed difficulty and preserves applicable rights and authority.
 - The result states what is explained or corrected and what performance remains unestablished.
 
@@ -2381,7 +2381,7 @@ Recover the applicable responsibilities, powers and information conditions. Use 
 
 #### CGOV.17:4.2 - Recover the practice that participants actually use
 
-Use available cases, explanations and observations to recover the operations and their results. Identify how participants encountered the method, which aspects they learned or obtained from others, and what they used in the receiving matter.
+Use available cases, explanations and observations to recover the operations and their results. Identify how participants encountered the method, which aspects they learned or obtained from others, and what they used in the receiving matter. For a commission about a team’s performance, establish how its participants contributed to the result. For a commission about an individual’s capability, identify the decisions that person made with the help available.
 
 Keep the cultural claims distinct. Distribution shows that material was sent. A demonstrated receiving use can show a transferred operation. Continued use within an observed period supports a claim about that period. Selection or rejection of a method needs its own basis. C.36 supplies these distinctions.
 
@@ -2439,7 +2439,7 @@ The gap concerns use of the reasoning operation. The chair arranges a demonstrat
 
 In the next board matter, the directors identify that the forecast relies on renewal of an unconfirmed customer contract. They ask for the consequence of non-renewal and use the analyst's answer in deliberation. The board makes its decision under the existing procedure.
 
-Within this constructed case, the receiving use shows the operation being performed with specialist assistance. The board retains the explanation, an authorized route to the analyst and a way to revisit the operation during later induction. Longer persistence and commercial benefit remain separate questions.
+Within this constructed case, the receiving use shows the operation being performed with specialist assistance. The board retains the explanation, an authorized route to the analyst and a way to revisit the operation during later induction. Longer persistence and commercial benefit remain separate questions. The directors could have divided the work of spotting the assumption, choosing what to ask and using the answer. To attribute the complete operation to a particular director, recover that director’s contribution.
 
 If the directors instead understood the operation but received the contract information too late, the suitable repair would concern information provision. Repeating the demonstration would leave that failure unresolved.
 
@@ -2449,9 +2449,9 @@ In this constructed case, a professional association distributes a revised proce
 
 In the first company, an exception reaches the audit committee through an existing authorized channel and changes the requested follow-up. In the second, the supplied rules require this type of exception to reach the audit committee. Staff complete the form but send it only to the executive whose activity is questioned. An independent reporting channel is already authorized but staff cannot access it.
 
-In the second company an exception is already due for consideration. Repairing access gives the employee a usable channel. Completing the report also requires the exception to reach the committee in time. Adopting another code or repeating the form-filling lesson does not supply that access.
+In the second company the deadline for the committee to receive this exception has passed. Restore access, send the overdue exception and handle the missed deadline under the company’s rules. Restoring the channel lets staff use it for future reports. Sending this one now cannot establish timely receipt in the past.
 
-The association can describe distribution to eight companies and the observed uses in two. It cannot infer the other six companies' practice or an improvement in their performance. A company seeking local adoption still applies its own governing conditions.
+The downloads establish distribution to eight companies. The first case establishes use of an existing reporting route. Tracing the choice to the revised procedure would establish that a company had taken up an operation from it. The second company completed the form and failed to forward the exception as required. That missed deadline refutes the claim that every required exception in all eight companies reached its committee on time. Each company might still have forwarded at least one other exception successfully. The two observations leave the other six companies’ conduct open. A company seeking local adoption applies its own governing conditions.
 
 ### CGOV.17:6 - Bias-Annotation
 
