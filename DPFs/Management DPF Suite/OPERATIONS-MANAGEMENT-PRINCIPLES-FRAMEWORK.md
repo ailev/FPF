@@ -4648,7 +4648,7 @@ FPF A.10 governs the fit between evidence and the claim relied on. C.16 supports
 
 **Use this when** an operating alternative appears worthwhile because it raises output, lowers unit cost, releases capacity or brings money sooner. Examples include buying an extra resource window, changing a service mix, deferring work or automating preparation.
 
-Begin with the actual alternatives and the horizon of the decision. Ask which accepted service, resource use, payments and receipts differ. The first useful result identifies the feasible alternatives, their differences and any missing financial or resource result. The responsible party can use that comparison to choose, accept a trade-off or retain the current arrangement.
+Begin with the actual alternatives and the horizon of the decision. Identify the service result each alternative would supply, including any acceptance due, and which resource uses, payments and receipts would change. For a report about completed work, establish what was actually supplied and accepted under the agreement. The first useful result identifies the feasible alternatives, their differences and any missing financial or resource result. The responsible party can use that comparison to choose, accept a trade-off or retain the current arrangement.
 
 This pattern governs the operating and financial consequences of a bounded operations choice. Use financial statements, investment appraisals or funding decisions supplied by qualified practitioners when the comparison needs them. If the comparison depends on a missing result, seek it from its responsible provider or state which conclusion remains conditional. An operating throughput calculation cannot settle them by itself.
 
@@ -4674,9 +4674,9 @@ Comparing only one attractive option compounds the problem. Its positive net cas
 
 #### OPS.14:4.1 - Name the alternatives and the operating change
 
-State the decision, recipient of the comparison, alternatives and horizon. Include current practice or deferral when either is a real option. Establish which alternatives satisfy applicable service, protection and authority conditions; use OPS.12 and OPS.13 when their contribution is needed to establish or change those conditions.
+State who will use the comparison, which organization or participants the financial result concerns, the alternatives and the decision horizon. Include current practice or deferral when either is a real option. Establish which alternatives satisfy applicable service, protection and authority conditions. Use OPS.12 and OPS.13 when their contribution is needed to establish or change those conditions.
 
-Describe the operational difference: what accepted result changes, which demand it serves, what work and resources it requires, which work is delayed or displaced, and what happens after failure. Use a schedule or bounded scenarios when timing matters. Keep unresolved assumptions visible.
+Describe the operating difference. The service due can change, or it can stay the same while the work, resource use or timing of payments changes. Follow the consequences relevant to the recipient, including displaced work or a response to failure. Use a schedule or bounded scenarios when timing matters. Keep unresolved assumptions visible.
 
 Follow the proposed gain to its receiving use. Saving preparation time can matter because it changes a payment, frees a resource for another accepted job or protects service. Name the actual consequence before attaching a monetary value to the saved time.
 
@@ -4698,11 +4698,11 @@ For a suitable model, compare contribution per unit of the scarce resource toget
 
 #### OPS.14:4.3 - Build the incremental financial comparison
 
-For each alternative, identify future payments and receipts that differ because of the choice. State amount, time and the condition that produces the flow. The same unchanged amount in both alternatives cancels in their difference; keep it elsewhere if the receiving account needs the whole operation's cash position.
+For each alternative, identify the future payments and receipts that the choice changes. Record who pays and receives, in which currency, when and on what condition. A flow unchanged on the basis of this comparison cancels in the difference. Keep it in the account if the recipient needs the whole cash position.
 
 Inspect avoidability. A historical payment is not saved by declining future work. An allocated share of rent may remain unchanged, whereas an additional contracted shift or per-use charge can be avoidable. A cost that is fixed this week can become avoidable at a later renewal, so use the period over which the decision can affect that payment.
 
-Include displaced use when it is real. Identify the best relevant foregone alternative and its consequence, or state the qualified premise that no material contribution is displaced. Count that loss once. If the cash comparison already includes the missing receipts and avoided costs of displaced work, do not subtract the same foregone contribution again as an extra opportunity cost.
+Identify the alternative used for this comparison and whether the people making the choice can actually take it. To measure the change from the current plan, follow the work and cash flows that plan would produce. To estimate opportunity cost, identify the best attainable use the choice forecloses. If the current plan leaves a resource idle while another profitable order is available, the two questions have different answers. Count any foregone contribution once. A cash comparison that already includes lost receipts and avoided costs incorporates that effect.
 
 Connect receipts to demand, delivered service, acceptance and payment conditions. Consider adverse cases that could affect the choice or the conditions on which it rests, such as repeat work, delayed acceptance, nonpayment or a lost resource window. A claimed receipt needs its stated basis even when its arithmetic is simple.
 
@@ -4710,9 +4710,9 @@ When a reported contribution deducts labor that will still be paid after redeplo
 
 #### OPS.14:4.4 - Check timing, funding and horizon effects
 
-Calculate the net cash difference the decision requires over a common horizon. State which alternative is subtracted from which. An unknown receipt identical in amount and timing in both alternatives cancels in a comparison of their difference. A question about the actual cash balance of either alternative can still require that receipt. Check funds by each payment date before promising a feasible option.
+Calculate the cash difference over a common horizon and state which alternative is subtracted from which. A receipt of unknown size can cancel if it reaches the same interested party on the same terms in both alternatives. If the recipient changes, the amount may cancel in a consolidated total while changing one payer’s ability to settle. An actual cash balance can also depend on a receipt that cancels in the difference.
 
-Lay out consequential advance payments and later receipts. Determine whether available authorized funds cover each payment when due, taking prior payments, receipt dates and other obligations on the same funds into account. A favorable final balance can coexist with an earlier funding gap.
+Lay out consequential advance payments and later receipts. Determine which party must pay, what cash it can use by the cutoff and what other obligations draw on those funds. A transfer from another participant needs an available route, authority and time to settle. A bound on that payer’s position can establish whether a particular payment is covered. A favorable final balance can coexist with an earlier funding gap.
 
 Show material flows just outside the horizon and test whether extending it changes the conclusion. A timing advantage can be useful for the receiving cash decision; describe its duration and effect. For longer-lived assets, financing, taxes, discounting or statutory accounting, use an applicable qualified result or identify the remaining input needed for that use. The simple undiscounted comparison below does not answer those questions.
 
@@ -4779,7 +4779,7 @@ Consider one constructed working day with four accepted outputs due. Both option
 | Current | 60 at 1 per draft | 0 | 4 / 2 |
 | Alternative | 30 at 0.5 per draft | 10 | 2 / 4 |
 
-Both leave fifty-four drafts unreviewed; rejected work and the paid rework remain unaccepted. The same 240 salary is paid today, with no other payment or receipt. Total payments are 300 versus 280: the alternative saves 20 cash, while payments per output accepted that day rise from 75 to 140. These are daily payment ratios; they do not close the unfinished work. The unchanged salary yields no cash saving, and qualified review capacity remains six decisions per day. Suppose these four current outputs meet the four orders and reach their recipients in time, with no eligible stock covering the alternative’s shortfall. On those terms, retain the current arrangement under confirmed funding and authority. For a later service decision, assess the stock, work and delivery then available.
+Both leave fifty-four drafts unreviewed; rejected work and the paid rework remain unaccepted. The same 240 salary is paid today, with no other payment or receipt. Total payments are 300 versus 280: the alternative saves 20 cash, while payments per output accepted that day rise from 75 to 140. These are daily payment ratios; they do not close the unfinished work. The salary remains payable under either method. The team completed six review decisions that day. Estimating its capacity for a future day also requires the available reviewers, workload and review time. Suppose these four current outputs meet the four orders and reach their recipients in time, with no eligible stock covering the alternative’s shortfall. On those terms, retain the current arrangement under confirmed funding and authority. For a later service decision, assess the stock, work and delivery then available.
 
 #### OPS.14:5.5 - The deferred slot displaces an accepted job
 
@@ -4800,7 +4800,7 @@ The earlier 300 advance-funding gap for the immediate option remains. J's later 
 
 ### OPS.14:6 - Bias-Annotation
 
-An attractive option is easier to defend when its comparator is absent. Describe the same service result, horizon and changed flows for every serious alternative, including deferral where it is real.
+Keep the service question, comparison horizon and external conditions comparable across serious alternatives, including deferral when feasible. Establish the service each alternative would actually deliver and the payments and receipts that would change for the parties concerned.
 
 A budget category or unit-cost display can also dominate attention because it is already reported. Recover the amount that actually changes and the authority needed to act. Show a material delayed receipt even when it lies outside the chosen reporting window.
 
@@ -4812,7 +4812,7 @@ A budget category or unit-cost display can also dominate attention because it is
 | Quantities retain their meaning. | Physical output, contribution, accounting amounts, cash and released capacity have their own units and basis. |
 | Operating feasibility is preserved. | For each alternative, the account states whether demand, resource windows, human conditions, acceptance, rework and displacement support it, or what remains unknown. |
 | The incremental account is causal enough for the choice. | Changed payments and receipts follow from stated actions and conditions; unchanged amounts cancel only in the difference. |
-| Timing is visible. | Advance payments, receipts, funding gaps and material flows outside the horizon are shown. |
+| Timing is visible. | Each material payer can see whether available funding covers its obligations at the relevant dates, including advances, receipts and material flows beyond the comparison horizon. |
 | The result supports the actual decision. | The preference or trade-off, any material uncertainty or authority gap, and the conditions for reconsideration can be recovered. |
 
 ### OPS.14:8 - Common Anti-Patterns and How to Avoid Them
