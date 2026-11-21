@@ -35,13 +35,13 @@ Framework text: Anatoly Levenchuk, with AI assistance. [CC BY 4.0](https://creat
 
 ## Practical entries
 
-These entries help you find a useful first operation. Bring your question; the Table of Contents also provides direct routes for situations not illustrated here. You can ask an assisting agent: “Explain this and give me your comments in ordinary language, without framework jargon.”
+These entries help you find a useful first operation. If you have been asked to choose what to improve, GOALS.1:4.1 starts from the work of the person who will use the result. If the goal has already been adopted, start with the decision you still have to make. The Table of Contents gives further routes. You can ask an assisting agent: “Explain this and give me your comments in ordinary language, without framework jargon.”
 
 ### ACHIEVEMENT — The numbers improved, but the wanted result is missing
 
 - **Situation:** A team completed its planned activities and reports green key results, while customers still lack the promised outcome.
 - **Question:** What would establish that the goal was achieved?
-- **First useful result or blocker:** A corrected achievement test that distinguishes the wanted result from activity and keeps unfinished cases visible; or the observation still needed to decide.
+- **First useful result or blocker:** A test that recognizes the promised result, a judgement about achievement under the criterion in force, or the particular conclusion the evidence still leaves open.
 - **Start with:** GOALS.2, using the actual goal and cases.
 - **Stop or return:** Use sufficient existing evidence directly. Return to GOALS.1 if participants disagree about the result itself.
 
@@ -49,9 +49,9 @@ These entries help you find a useful first operation. Bring your question; the T
 
 - **Situation:** The need, available means or expected outcome has changed during pursuit.
 - **Question:** Should we continue, change the method, renegotiate, pause or end the goal?
-- **First useful result or blocker:** A decision identifying the affected premise, the continuation that remains useful, and any commitment requiring its owner's decision.
+- **First useful result or blocker:** A recommendation grounded in the changed premise, or the decision that takes effect under the governing terms when a change has been entrusted to you. Identify any obligation still due.
 - **Start with:** GOALS.4.
-- **Stop or return:** Preserve unaffected work. Return a resource conflict to GOALS.3 and a disputed purpose to the participants who can settle it.
+- **Stop or return:** Preserve unaffected work. Return a resource conflict to GOALS.3 and a disputed purpose to the participants who can settle it. An existing agreement may already determine the consequence of a change.
 
 ### AGENT — Give an AI a result it can pursue and finish
 
@@ -68,11 +68,11 @@ When teams set goals separately, their combined demands can exceed the available
 #### JOINT-OKR — Make the quarter's goals possible together
 
 - **Situation:** Teams have attractive OKRs, but they depend on the same specialists and continuing service.
-- **Question:** What can we jointly undertake and rely on?
-- **First useful result or blocker:** A coherent shared undertaking that accounts for displaced work and identifies any dependency that prevents a promise.
+- **Question:** Which goals can we achieve together? Which contributions can the teams already rely on, and what would it take to promise the rest?
+- **First useful result or blocker:** A feasible proposal, an established conflict, or the condition that still governs feasibility. For a decision about an undertaking already in force, identify the contributions actually due and their terms.
 - **Mantra:** Connect the wanted result to evidence, reliance and shared means; use what happens to revise the affected connection.
-- **Start with:** GOALS.5, then GOALS.2 and GOALS.3 to establish achievement criteria and joint feasibility; [Reference:2](#goalsreference2---how-a-system-of-goals-holds-together) explains the connections.
-- **Stop or return:** An unresolved priority belongs to the decision owner; an unavailable specialist window remains an unmet condition.
+- **Start with:** GOALS.5 when choosing a joint OKR practice. Use GOALS.2 for what would count as success and GOALS.3 for the rights, timings and shared means that determine joint feasibility. [Reference:2](#goalsreference2---how-a-system-of-goals-holds-together) explains the connections.
+- **Stop or return:** A justified proposal can complete a request for advice. A new undertaking takes effect through the authority or agreement that governs it. A shortfall in provision leaves any existing duty to the recipient in force under its terms.
 
 ## How the methods work together
 
@@ -96,11 +96,11 @@ Work-related personal aims and mixed human–AI work are included. Clinical trea
 
 **Connect the wanted result to evidence, reliance and shared means; use what happens to revise the affected connection.** This reminder names five questions whose answers constrain one another.
 
-First, recover the result and why it is worth pursuing. A desired change, preservation of an adequate condition, inquiry into an unknown and acquisition of a capability are different possible aims. GOALS.1 constructs this interpretation and identifies who may settle or change it. A hypothesis about the means remains revisable even when the purpose is stable.
+First, recover what has already been decided and what the person using the goal leaves you to choose. To propose an aim, follow the recipient's next action to the condition it needs. Consider a change, preservation of an adequate condition, an inquiry into an unknown or acquisition of a capability according to what would help that action. GOALS.1 explains how to choose its scope and who may settle or change it. A hypothesis about the means remains revisable even when the purpose is stable.
 
 Second, construct evidence of achievement in GOALS.2. Asking how a result would be recognized often changes the proposed goal. “Resolve the refund problem” becomes an identified population of customers receiving their due refunds, together with the agreed treatment of genuine exceptions and continuing care of unfinished cases. An information page can help that work without being its completion criterion. A new observation is needed only if present evidence cannot support the decision it serves.
 
-Third, determine reliance and make the demands fit together. An ambition invites a worthwhile search beyond the current expectation; a forecast describes what is expected under stated conditions; a commitment establishes what another participant may rely on under the terms agreed. GOALS.3 combines these meanings with current service, material dependencies and shared capacity. A goal that needs unavailable complements returns for construction, changed scope or an explicit unresolved condition. Lowering a forecast does not perform any of those changes.
+Third, determine reliance and make the demands fit together. An ambition guides a worthwhile search beyond the current expectation. A forecast describes what is expected under stated conditions. The effective terms of a commitment establish what another participant may rely on. GOALS.3 compares new proposals with continuing service, existing duties and the available windows for shared work. A gap in provision changes the forecast and may require recovery or an authorized change. Apply the existing terms to what is already due.
 
 Fourth, people and agents carry out subject work. GOALS.6 helps a person connect an adopted aim to suitable action, competing aims and assistance. GOALS.7 does the corresponding assignment and continuation work for an AI system under its actual capabilities and authority. The subject methods produce the result. [C.39 in FPF](../../FPF-Spec.md) develops a missing way of working. [HCD](<../Human Capability Engineering DPF Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md>) supplies development of a human contribution when that is needed.
 
@@ -110,15 +110,15 @@ These are relations to use as needed. A service with an established goal and val
 
 ### GOALS.Reference:2.1 - The whole changes a constituent action
 
-Consider a company promising both a usable AI-assisted advisory service and staff capability to frame and question its recommendations. During a client case, an employee's framing of the question is part of producing the advice and part of practising the promised contribution. The two results share that action but require different evidence. Client acceptance can establish usefulness of the advice; observation of the employee's framing under the agreed assistance can support the learning claim.
+Consider a company promising both an advisory service and staff able to frame and question its AI-assisted recommendations. An employee can frame the question in a client case and practise that contribution in the same episode. A client's acceptance can complete a service order whose terms make it the closing event. If the goal concerns benefit in the client's subsequent work, follow the advice into that work. For a decision about assigning the employee another case, examine their own framing under the assistance that will then be available.
 
-If the agent now supplies the framing entirely, the service may improve while the practice opportunity disappears. Preserve the service gain and reconsider the learning arrangement: have the employee frame a suitable next case before seeing the agent's version, compare the reasoning and receive qualified feedback; allocate the required time. If that additional result is no longer wanted, its owner can revise the development aim. If it remains promised but no opportunity or support is available, the complete arrangement remains infeasible. Counting more delivered recommendations would leave that gap unchanged.
+When the agent supplies the entire framing, credit the framing to the agent. To judge the client result, establish which recommendation was produced and delivered under the order. If the employee saw the agent's framing, it can serve as a worked example. For a capability decision, look for a comparable case the employee has already framed. If development is needed, have the employee frame a suitable next case before seeing the agent's version, compare the reasoning and receive qualified feedback. Provide time for that work. If practice in this client case was itself promised, account for the missed opportunity under its terms. A claim that staff acquired a capability during the programme also needs a basis for what they could do earlier. Attributing the change to the programme calls for a comparison with what their ordinary work would have produced.
 
 Conversely, a difficult first attempt can reveal that the human framing criterion was too broad for the available preparation. HCD can narrow the next learning contribution while GOALS.3 revisits which later service reliance remains supported. This return changes the whole arrangement through what happens in one constituent action. It also shows why a shared work episode need not make its service and learning results interchangeable.
 
 ### GOALS.Reference:2.2 - Joint conditions and useful partial results
 
-The goal set has conditions that no isolated goal can establish. If three teams need one specialist for 12, 10 and 10 hours in the same week and only 24 hours are usable, individual feasibility claims do not compose. A delivery sequence can remove overlap only if the receiving dates permit it. Count shared work once only when the same performance supplies all the contributions claimed for it. GOALS.3 shows the resulting choice.
+Three teams each need one specialist this week. If their required work occupies the specialist for 12, 10 and 10 separate hours, 24 usable hours leave eight uncovered however the work is ordered. Check whether the same performance could meet more than one team's terms. Count it once where it does. Then place each remaining use in time against continuing work and each recipient's deadline. Moving eight hours out of this week helps only if the later provision and the receiving dates permit it. GOALS.3 uses these findings to compare the available undertakings.
 
 A partial result can still be useful: a completed investigation can allow a decision while implementation remains unfunded; several completed refunds can benefit their recipients while other cases remain open. State what the evidence establishes and what the receiving work still needs. The criterion for stopping the current task is the result it was assigned, including its actual conditions. A broader development programme may continue through newly attainable questions after that task ends.
 
@@ -147,7 +147,7 @@ Use the full methods below when the work raises their questions. Their results c
 | A practice that works in an organization | [OCE.9 and OCE.10](<ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md>) supply realization of a bounded capability and investigation of participation or recurrent-practice difficulties. GOALS.9 identifies the goal-practice contribution needed. | An ineffective assignment, unsupported contribution, displaced service or changed working condition. |
 | A warranted continuation or a missing Method | C.43, C.11.DUA and C.39 in [FPF Core](../../FPF-Spec.md) supply control, appraisal of further work and development of the missing way. | Changed reliance or an additional inquiry whose gain no longer warrants its burden. |
 
-A supplier result can be used as it stands when its question, conditions and evidence fit. Where only the description is available, the contribution must still be performed or obtained. Follow a disputed domain claim to its supplier; changing a goal label cannot repair it. The source return at the end identifies the grounds and refresh conditions of this framework's own contributions.
+A supplier result can be used as it stands when its question, conditions and evidence fit. A description can satisfy a request for a design or explain a method. For a question about a past performance, use a record or other evidence sufficient to establish what happened. A separately promised new performance still needs provision. Return a disputed domain claim to its supplier. The source return at the end identifies the grounds and refresh conditions of this framework's own contributions.
 
 ## GOALS.Reference:5 - A connected organizational case
 
@@ -172,7 +172,7 @@ The separate learning goal is for both employees, by the end of week 4, to frame
 
 ### GOALS.Reference:5.2 - Obtain one feasible undertaking
 
-The shared specialist is the limiting resource in week 2. Payment processing needs 12 hours, the full service repair 10, and the preferred learning provision 10: 32 hours against 24 usable hours after protected current service. Payment funds, ordinary service staff, customer communication and the learners' own time are separately provided. The 24 hours are specialist hours, not the service team's total working time.
+The shared specialist is the limiting resource in week 2. Payment processing needs 12 hours, the full repair 10 and the preferred learning provision 10. Here these are separate uses of the specialist's time. They require 32 hours against 24 usable hours after protected current service. Payment funds, ordinary service staff, customer communication and the learners' own time are separately provided.
 
 The payment and service owners, specialist provider and learning provider compare a qualified substitute, a smaller useful repair and moving contributions whose receiving dates permit it. They agree this arrangement:
 
@@ -182,7 +182,7 @@ The payment and service owners, specialist provider and learning provider compar
 | Repair the service | 8 | The smaller repair is useful with the current manual fallback. The final 2 hours are booked at the start of week 3. O2 remains aspirational. |
 | Develop the two employees' diagnosis | 4 | Six more hours are booked in week 3, with assessment before the learning deadline. No current payment depends on unestablished employee capability. |
 
-Week 2 now uses 12 + 8 + 4 = 24 hours. The provider has confirmed ten available hours in week 3 after other commitments: 2 for repair, 6 for learning and 2 held for consequential exceptions. The service owner can revise improvement scope, the payment owner retains the customer obligation, and the learning provider and participants agree the practice arrangement. Their existing work schedule carries the commitments. If that later booking becomes unavailable, the parties reopen the affected contribution and its deadline.
+Week 2 now uses 12 + 8 + 4 = 24 specialist hours. The providers check the actual schedule against the payment batch, the repair work and the learners' availability. Each has its required window. In week 3 the specialist has ten hours available after other commitments, with the repair and learning providers able to use their booked hours by their deadlines. Two hours are for repair, six for learning and two for consequential exceptions. The service owner can revise improvement scope, the payment owner retains the customer obligation, and the learning provider and participants agree the practice arrangement. Their existing work schedule carries these commitments. A lost booking reopens the affected forecast and calls for a response under those commitments.
 
 ### GOALS.Reference:5.3 - Revise the relation that changed
 
@@ -196,13 +196,13 @@ The decision is made when the interface change is discovered, through the people
 
 By the end of week 2 the service has processed the payment batch. The case evidence shows 82 completed payments, 8 valid final settlements and 10 payments still awaiting completion. Here the eight settlements are customer-chosen credits that the applicable terms allow as final settlement of the obligation; the case evidence shows the customers' agreement and completed credit. The ten pending payments retain their next action, responsible service performer and customer contact. Submitted instructions and useful explanations have not yet settled them. The provider's confirmation information supports a forecast that they will complete before the original deadline; ordinary follow-up remains supplied, with the exception capacity available if needed.
 
-In the completed continuation, by the end of week 4 the remaining ten payments are confirmed. O1 therefore has 92 completed payments and 8 valid final settlements, all with accurate confirmations and the required amount, recipient and authorization checks. Both KRs pass and the original obligation is achieved on time.
+By the end of week 4 the remaining ten payments are confirmed. The 92 payments and eight final credits have the correct amounts, recipients and authorizations. The notices identify each actual settlement and any further action its recipient must take. The delivery register links those notices to the opening cases and establishes that every affected customer received the applicable notice through the agreed channel by the deadline. Both KRs pass. Evidence confined to messages prepared for sending would still leave receipt open.
 
 For O2, the week-3 cohort contains 40 eligible requests. Thirty-nine reach a correct settlement within five working days; the fortieth, received early in week 3, completes on day six, within its ten-day contractual deadline and before the cycle closes. Thus KR2.1 reaches 39/40 = 97.5%, and every contractual deadline is met. Total attributable manual handling is eight hours: 480 minutes / 40 = 12 minutes, meeting KR2.2. The required quality and access conditions also hold. The service improvement was achieved for the stated cohort and window despite its initially lower forecast. Its eight handling hours count the service team's work; they are not an additional draw on the specialist allocation already compared above.
 
 The 480 minutes are the total for these 40 requests. At the former rate of 20 minutes per request, 40 comparable requests would take 800 minutes, a difference of 320 at equal volume. The previous period's total depends on its actual volume and mix. If it had 20 requests averaging 20 minutes, its total was 400 minutes and total effort has risen. If all 400 and 480 minutes are verified and billable at two currency units per minute, the respective bills are 800 and 960. To attribute a difference on these requests to the repair, compare the effort they would have required without it. For the effect on the whole service, include changes in the number and mix of requests, such as repeat contacts avoided by the repair. An adequately supported bound can settle the comparison. A fixed salary could be the same in both periods. Releasing a specialist for another job also depends on when the relevant hours become available.
 
-The learning provider observes both employees making the specified diagnostic contribution across the chosen unfamiliar routine and exception cases, with the procedure available and without an AI-supplied answer. This supports the bounded learning result under those conditions. The bot's service output and the number of practice hours were useful contributions, while the human performance supplies the learning evidence.
+The learning provider observes both employees framing the specified unfamiliar routine and exception cases, identifying missing grounds and routing decisions beyond their authority, with the procedure available and without an AI-supplied diagnosis. This supports assigning each employee that work under comparable conditions. If the question is what they learned during the cycle, compare their present performance with earlier evidence of their own framing under comparable assistance. The bot's service output and the hours of practice identify parts of the provision.
 
 Keep the contrasting period-end result: if week 4 instead ends with 82 payments, 8 valid final settlements and 10 unpaid cases with agreed next contact, O1 remains unmet. Its communications do not compensate for KR1.1. A newly agreed deadline can govern future reliance while the original delay remains part of performance interpretation. If the eight settlements are only unexplained labels or disputed refusals, their adequacy is unresolved too. A successful O2 and a completed learning goal cannot average away that customer obligation.
 
@@ -256,7 +256,7 @@ Evidence of successful local use supports that use. Measured improvement in orga
 
 ### GOALS.1:1 - Problem frame
 
-**Use this when** a wish, target or assignment must become an intelligible basis for action, or participants are using the same goal words with different expectations. The object is the meaning and intended use of the goal. The result is an aim that can guide its next construction or execution, including any unresolved choice.
+**Use this when** you have been asked to choose what to improve or preserve, an assignment needs interpreting, or participants use the same goal words with different expectations. Recover the decision entrusted to you. A recommendation gives its recipient an aim and grounds for adopting it. A decision made under an effective mandate can set the aim. If the aim is already settled, work from its actual terms.
 
 The reader needs access to the affected work, its recipient and the person or arrangement able to decide its purpose. An adequate existing goal can be used directly. If the remaining issue is an operating target and comparison, OPS.21 supplies that method; use its result here only when a wider goal relationship still needs construction.
 
@@ -272,11 +272,11 @@ A goal needs enough stability to orient action and enough revisability to respon
 
 #### GOALS.1:4.1 - Recover the desired condition and its grounds
 
-Ask who needs what result, in which situation and by what useful horizon. Identify who needs the result. Does the goal concern an individual, a measure over a group or a result that several contributions must produce together? Where someone already has a right to a result, recover its terms. An agreement or adopted purpose can already settle the aim. A particular case can establish what its recipient needs, expose a missing condition or supply a premise that applies more widely. For a wider goal, explain which terms or grounds carry the conclusion across its scope. Separate the condition valued by the recipient from a proposed means: a customer needs a usable repaired device; a new scheduling tool is one possible way to improve the repair service. State conditions that must remain protected, such as safe operation, eligibility, workload limits or an existing promise.
+Start with a decision or operation the recipient needs to carry out. What lets it succeed now? Where does it break down, and which condition is worth changing or protecting by when? Follow the work across a handover when a locally successful result can still leave the recipient unable to act. Compare ways the same local result could be used, or ways different contributions could give the recipient the same usable result. Those differences help you choose the scope of the goal and what its achievement criterion needs to distinguish. Use an obligation or an adopted purpose directly when it settles that choice.
 
-Explain why this aim matters now. A known unmet need, a selected strategy, an established obligation, a useful opportunity or an explicit personal purpose can supply that ground. When participants disagree, expose the differing result or value and obtain the decision through the governing practice. A clearer sentence can make the disagreement discussable; it cannot decide whose preference governs.
+For example, a repair workshop asks what would help schools use their instruments again. Follow a repaired instrument to the next lesson. Finishing the bench work earlier helps if repair time is what prevents its use. If the repair is already on time but the pickup desk closes before the school can collect, choose a goal about the instrument being available for the lesson. Changing pickup hours or arranging delivery are possible means. If the school only wants to avoid a wasted trip, an accurate notice before departure can meet that purpose even when the instrument is still at the workshop. One school's timetable grounds a goal for that school. For a promise to every booked school, find out what each is entitled to and which bookings can coincide. If schools draw on the same pickup or delivery service, its promised capacity must cover those combinations.
 
-Choose the goal's scope from the receiving result. An individual contribution can be framed separately when it has a usable recipient and completion basis. When success depends on several jointly necessary contributions, identify the whole result and the relevant relations. Decompose far enough to obtain or assign those contributions without assuming that every organizational level needs a miniature copy of the same number.
+Choose whom the goal serves, what should change or stay adequate, and the horizon from that use. Keep a useful contribution separately assignable when its recipient and completion basis are clear. Where several contributions jointly produce the result, retain the relations that make them work together. Protect other obligations, deadlines and conditions that the proposed aim could displace. Explain why the improvement is worth pursuing now. If priorities conflict, present the consequential alternatives to the person who can choose, or decide within your own mandate. A commission to propose a goal can finish when its holder receives the recommendation and the reasons needed to decide. If the commission calls for an adopted goal, establish which authorized decision or event actually put it into effect under the applicable terms.
 
 #### GOALS.1:4.2 - Distinguish the uses of the statement
 
@@ -287,13 +287,13 @@ Explain which of the following meanings the current statement carries. Several m
 | Desired outcome or maintained condition | What should become true or remain adequate for the recipient. | Construct its achievement or continuation test in GOALS.2. |
 | Ambition | A worthwhile outcome beyond or different from the present expectation. | Expose the gap and search for a feasible way, provision or narrower inquiry. |
 | Forecast | What is expected under stated present assumptions. | Keep the basis and uncertainty available; update them when evidence changes. |
-| Commitment | What another participant may rely on under an effective agreement or obligation. | Obtain the relevant authority, acceptance and means; change it through its actual terms. |
+| Commitment | What another participant may rely on under an effective agreement or obligation. | For an existing duty, identify the operative terms and the event or decision that made them apply. Before making a new promise, establish the authority and provision it needs. |
 | Inquiry goal | The answer or discriminating knowledge needed for a decision. | Specify a question, adequate method and useful possible conclusions. |
 | Learning goal | What the intended performer should become able to do in later work. | Identify the performance, allowed support and evidence; obtain the learning arrangement. |
 
 An aspiration may be deliberately uncertain. A committed investigation can reliably promise a qualified answer or a truthful inconclusive result under its agreed scope, while the desired discovery remains uncertain. A learner can undertake practice without promising that a fixed number of hours will establish mastery. These arrangements become usable when their receiving parties understand the distinction.
 
-In an operating example, ambition 12, forecast 8 and a supported promise of 10 need not be forced into one number. The ambition locates a possible improvement, the forecast informs response and the promise governs reliance. If the means currently support only 8, the supposed promise of 10 needs further provision or renegotiation; writing it on a goal sheet does not supply the difference. Use OPS.13 and OPS.21 to construct the operating target and commitment.
+A service can aim to finish 12 cases, forecast eight this week and already owe ten under an agreement. The ambition locates a possible improvement. A forecast of eight calls for recovery and timely notice to the recipient. Ten remain due unless the applicable terms or an authorized change establish another result. When ten is only a proposed new promise, secure the missing provision before offering it on that basis. OPS.13 and OPS.21 develop the operating target and commitment.
 
 #### GOALS.1:4.3 - Connect the goal to a possible next action
 
@@ -305,11 +305,11 @@ The immediate result may be a task, a request for a missing contribution, a boun
 
 Identify who can establish this goal and what the decision covers. Give those who must act the intended result, its terms and their next action. A valid majority decision can set the common service goal under an existing mandate. If a branch still controls a resource the service requires, obtain its contribution on the applicable terms. Seek individual agreement where the decision depends on it. Use the existing proposal, assignment or conversation if it carries these meanings. Pass achievement questions to GOALS.2 and joint feasibility to GOALS.3. State a material reason to return: changed recipient need, invalid means hypothesis, lost provision or altered participation.
 
-Recognition consists in noticing that the same sentence is being used to mean different things. Assurance requires the actual ground, authority, conditions and evidence for any reliance the sentence creates. A statement may remain a proposal until those conditions are obtained.
+Recognition consists in noticing that the same sentence is being used to mean different things. For a proposal, explain its purpose, scope and consequences for the recipient. For a statement that others can already rely on it, identify its source and the conditions that have taken effect. Evidence that it has been fulfilled comes from the result due under those terms.
 
 ### GOALS.1:5 - Archetypal Grounding
 
-A research team is told to “raise yield to 95% this month.” Current knowledge does not establish a method that can achieve it. The useful decision is whether to fund a new process. The team separates the desired production yield from this month's inquiry: compare two feasible process variants under qualified measurements and return the conditions under which either merits further development. A well-supported finding that neither variant qualifies can complete the inquiry while leaving the production ambition unmet.
+A research sponsor wants a production yield of 95% and must decide this month whether to fund a new process. The sponsor commissions a comparison of two feasible variants under qualified measurements. The research team can complete that commission with a well-supported finding that neither variant merits further development. The desired production yield remains an ambition. Had the team instead undertaken to deliver at 95% this month, a comparison could inform recovery. Substituting the investigation for that delivery would require the change permitted by the undertaking.
 
 Now change the case: the process is established, materials and capacity are available, and the customer has an accepted delivery agreement. Renaming the production promise “learning” after a miss would change its meaning retrospectively. The team uses the promise's actual terms, diagnoses the failure and obtains any needed change. The distinction depends on the original work and reliance, not on whether the reported number is favorable.
 
@@ -321,7 +321,7 @@ The account favors explicit professional purposes that can be discussed with aff
 
 - Can the recipient and desired or maintained condition be identified?
 - Are the meanings of ambition, forecast, commitment, inquiry and learning clear where they change action?
-- Does the next action have an adequate method and conditions, or is the precise missing contribution exposed?
+- For a proposed aim, do its scope, horizon and grounds support the recipient's decision? Where action has also been entrusted, can it proceed under its actual conditions or has the missing contribution been identified?
 - Can the relevant participant change the purpose or reliance through the actual decision arrangement?
 
 ### GOALS.1:8 - Common Anti-Patterns and How to Avoid Them
@@ -355,7 +355,7 @@ GOALS.2 receives the interpreted goal and constructs its achievement basis. GOAL
 
 ### GOALS.2:1 - Problem frame
 
-**Use this when** people need to tell whether a goal has been achieved, whether progress supports a response, or whether a proposed set of key results would establish its objective. The object is the achievement claim and the evidence used for it. The result is a usable test with its population, conditions and limits.
+**Use this when** people need to judge whether a goal was achieved, decide whether to act on progress, or design a set of key results that establishes an objective. For a design commission, return the achievement test and explain why it covers the intended result. For an assessment, apply the criterion in force to the supported facts for the eligible population and period. For a decision about continuing work, state what those facts warrant now.
 
 Use adequate existing subject criteria and observations directly. Designing an elaborate measure is unnecessary when the recipient can already judge the required result competently. A missing professional criterion returns to that practice; goal wording alone cannot supply it.
 
@@ -371,13 +371,13 @@ Simple measures aid attention and comparison; omitted conditions can defeat thei
 
 #### GOALS.2:4.1 - Construct the achievement claim from a good result
 
-Describe a concrete result that would satisfy the goal and a relevant case that would fail it. Identify the subject, eligible population, horizon and protected conditions. For a continuing service, choose the window over which its condition matters. For a finite task, state what closes it and how unfinished work remains visible. For a capability, identify performance under the relevant support and variation.
+Recover what counts as achievement for the recipient. When the criterion needs designing, identify the distinction that would change the judgement. A plausible success and a nearby failure can expose it. Where the applicable rule already settles the distinction, apply that rule. Identify the subject, eligible population, horizon and protected conditions. For a continuing service, choose the window over which its condition matters. For a finite task, state what closes it and how unfinished work remains visible. For a capability, identify performance under the relevant support and variation.
 
 Separate the final result, a qualified intermediate contribution and an early signal. All can be useful observations. State which decision each supports. A completed design may be the entire result of a design task; in a delivery goal it is an intermediate contribution whose downstream realization still matters. The assigned result determines which interpretation applies.
 
 #### GOALS.2:4.2 - Challenge the proposed evidence
 
-Ask whether the proposed observation could look successful while the goal remains unmet. Construct a plausible case using the actual work, such as reducing calls by making the service inaccessible, increasing completed tickets by excluding reopened cases, or improving a learning score through unrecorded assistance. Add or change only the observation or criterion needed to distinguish that case.
+Ask whether the observation could look successful while the goal remains unmet. A reason covering the eligible cases can establish that the observation is sufficient. If the work admits a counterexample, use it to find the missing distinction. For example, fewer calls may reflect loss of access to the service. Repair the evidence or criterion where that difference changes the judgement.
 
 Use qualified existing data when it is adequate. If the missing distinction can change a decision, obtain the smallest suitable observation, subject judgement or inquiry. OPS.15 supplies a decision-specific operating account. A new collection regime also requires usable access, effort and permitted use. Changing visibility, ranking or personnel use can change incentives and participation; examine those consequences when the proposed arrangement introduces them.
 
@@ -385,7 +385,9 @@ A numerical criterion needs a defined numerator, denominator, inclusion rule, ti
 
 #### GOALS.2:4.3 - Test the key results together
 
-For an OKR, first decide whether the objective is worth pursuing. To establish achievement, take each condition of the objective in turn. Identify which key result or combination establishes it for the eligible recipients and period, under which assumptions. Keep each protected condition visible. Check how the KRs combine. For example, settlement may require either a payment or a credit chosen by the customer, with confirmation required in both cases. Identify an admissible way the combination can pass. If it cannot pass, find out why. Repair a test that excludes a legitimate success. If the test accurately expresses an obligation that the available means cannot fulfill, keep the criterion and the obligation in force. Report the shortfall and seek a remedy or an authorized change. If feasibility depends on a missing fact, leave it open. If all the indicators can pass while an obligation is unfulfilled, the gap is real even if every observed case happened to meet it. A single counterexample locates an omission. To establish sufficiency, give the reason the conditions hold whenever the whole set passes.
+When choosing a new objective, first establish why it is worth pursuing. For an adopted objective, use its terms. Trace each condition to what the KRs establish for the eligible recipients and period. A refund can require either payment or a credit chosen by the customer, with confirmation required on either route. Could the KRs all pass while a condition of the objective fails? A single admissible counterexample exposes a gap. To establish sufficiency, explain why the whole set passing establishes each required condition.
+
+Test whether the proposed rule admits legitimate successes. If it rejects one, repair that rule. Then consider what the available people, means and time can actually achieve. A sound test can describe a valid settlement that this service cannot currently deliver. For a feasibility question, an established incompatibility can complete the answer. For a proposed objective, state the missing provision or change its scope under the sponsor's authority. For an existing obligation, report the shortfall and seek a remedy under its terms. Judge what was achieved from evidence of the result by its due time.
 
 Explain how the KRs combine. Some are jointly necessary conditions; some express independent contributions; others are alternatives or diagnostic signals. A mandatory privacy, safety or contractual condition retains its force even when other scores are high. Average scores can summarize a defined compensable set, but an average must not decide a claim whose logic is conjunctive. Keep this decision visible when a tool offers averaging by default.
 
@@ -397,13 +399,13 @@ A genuine final exception is handled according to the goal's actual terms. Defin
 
 For inquiry, specify what makes the investigation adequate and which possible conclusions it can support, including a qualified negative or inconclusive answer. For learning, use HCD.11 for the assessment inference and HCD.12 when transfer is part of the claim. Activity counts can describe effort or provision, while the claimed result needs its corresponding evidence.
 
-Return the achievement test with only the definitions, observations and limits its users need. Recognition finds a misleading success. Assurance establishes why the evidence supports the achievement claim, with stronger professional qualification where the consequence demands it.
+Return what the recipient commissioned. A designed test states which results count, for whom and when, and why the evidence would establish achievement. An assessment reports whether the goal was met by the specified time, or which part of that conclusion remains open. A reliable bound can settle a threshold while individual outcomes remain unknown. When the decision concerns what to do next, explain what the available progress evidence warrants under the continuing obligations.
 
 ### GOALS.2:5 - Archetypal Grounding
 
 A refund objective concerns 100 eligible cases by Friday. Proposed KRs are “FAQ published,” “bot launched” and “contacts down 30%.” All can pass with zero refunds. The team retains the FAQ and bot as possible means and follows each eligible case to paid refund or a valid final disposition under its terms. Open cases retain next action and contact; they remain open in the original cohort.
 
-On Friday, 82 are paid, 8 have justified final dispositions and 10 remain unpaid. The original full result is unmet. If all 100 instead have a clear explanation and a promised answer, the result is still unmet. If the relevant parties agree a valid final settlement in a case, that is handled under the stated terms. A unilateral internal “exception” label establishes less.
+On Friday, 82 cases have been paid, eight have valid final dispositions and the remaining ten are still open. The goal covering all 100 is unmet. For a question confined to whether at least 90 were settled, the first 90 distinct confirmed cases suffice, even if the other ten outcomes are unknown. A threshold report leaves any outstanding duty to those ten customers in force. Giving all 100 a clear explanation and a promised answer still leaves settlement to establish. A final settlement counts when its actual terms have been met.
 
 For a different task, a researcher must supply a decision-ready comparison of two algorithms. A complete report with qualified measurements and an explicit finding that neither meets the operational requirement can achieve that inquiry goal. Requiring deployment success as its only passing result would suppress the answer the decision needs.
 
@@ -413,8 +415,8 @@ Available data tend to privilege easy-to-count and easy-to-reach cases. Include 
 
 ### GOALS.2:7 - Conformance Checklist
 
-- Does the evidence concern the right result, population, horizon and support conditions?
-- What grounds cover every necessary condition of the objective when the applicable KRs pass? Which conditions concern each recipient, and which use a measure over a group?
+- Does the return deliver the requested test, judgement about achievement, or basis for a decision about continuing work? Does the evidence cover the relevant result, population, horizon and support conditions?
+- For a designed KR set, why does passing it establish all necessary conditions of the objective, and does it admit the permitted ways to succeed? For a judgement on a group threshold, does the evidence or a bound settle it over the eligible group?
 - Is each apparent exception final under the applicable terms, with unfinished cases still visible?
 - Do combination rules preserve required conditions and uncertainty?
 - Can existing evidence answer the question without unnecessary new collection?
@@ -452,7 +454,7 @@ GOALS.1 supplies the result and kind of reliance. GOALS.3 uses newly exposed con
 
 ### GOALS.3:1 - Problem frame
 
-**Use this when** several aims or participants depend on the same means, one goal can defeat another, or a proposed priority would alter existing reliance. The object is the joint arrangement of goals, contributions, commitments and resources. The result is a feasible undertaking or a precise unresolved conflict with usable independent work.
+**Use this when** several aims or participants depend on the same means, one goal can defeat another, or a proposed priority would alter existing reliance. Establish which combinations are feasible under the terms that govern the work. Return the feasible proposal, established incompatibility or particular condition on which the answer still depends. To establish what has actually been undertaken, identify the effective decisions and terms.
 
 An independent local task with sufficient means can proceed without this comparison. OPS.19 supplies reconciliation of simultaneous operating work; use that complete result where it answers the question, adding only the goal interpretation or organizational agreement still missing.
 
@@ -478,11 +480,11 @@ Work backward from each goal's result to the necessary contributions, then check
 
 For a cross-team result, decide what needs common ownership and what needs an interface agreement. A shared objective helps when the parties jointly own one result and its trade-offs. Linked local goals can be adequate when one supplies a clear result to another. In either case, identify the result, provider, recipient, timing, acceptance conditions and exception return where the connection is consequential. A copy of the same KR in two lists supplies none of those agreements.
 
-Combine demands on scarce means at the times they must be available. Include interpretation, coordination, preparation, verification, learning, maintenance and recovery when material. When a single performance serves several goals, count its resource use once; retain the different result claims. Cheap AI computation can change the limiting resource to data access, a professional decision or people's response time. Recompute that constraint rather than assuming every former workload remains human work.
+Combine demands at the times the means must be available. Include preparation, coordination, checking, learning, maintenance and recovery where they occupy the limiting resource. A single performance can meet two goals if it supplies both recipients with what their terms require by their respective deadlines. Count its use once. Two separately promised performances each need provision. Access to data, time for a professional decision or a recipient's response can become the limiting condition when AI reduces other work.
 
 #### GOALS.3:4.3 - Compare complete alternatives
 
-Compare the incumbent continuation with feasible changes in scope, sequence, method, provider, support or commitment. For each, trace what result it preserves, what it displaces and where it moves burden or risk. Keep essential conditions binding; compare remaining preferences through the decision owner's judgement. A weighted score is appropriate only when the underlying trade-offs and evidence justify it.
+Compare the incumbent continuation with changes in scope, sequence, method, provider, support or commitment. Trace what each preserves, what it displaces and where it moves burden or risk. For a known set of contributions, a schedule that meets every deadline can establish feasibility. To offer a choice for future work, determine who may choose what and when, what combinations their rights allow, and which information reaches the person allocating the work in time. Show how that person can meet the promised result across those combinations. Keep binding conditions in force and compare remaining preferences through the decision owner's judgement. Use a weighted score only where the trade-offs and evidence justify it.
 
 A limited agenda follows from this comparison. Select a small enough active set for the needed contributions to fit, rather than adopting a universal goal count. An unchosen worthwhile aim can remain a future option with a reason to reconsider. If a short inquiry could change the priority, compare its attainable benefit and full cost through C.11.DUA. Use an adequate present answer when further inquiry would not change the choice.
 
@@ -490,15 +492,17 @@ A limited agenda follows from this comparison. Select a small enough active set 
 
 Use the decision or agreement that makes each required contribution available on terms and dates that fit the same undertaking. An authorized allocation of a reserved service can suffice. If an independent participant retains the choice to contribute, or the new proposal changes terms that require assent, obtain its response to that proposal. Use LDR.2 for negotiation and OPS.13 for the resulting operating commitment. Identify who may act if a dependency fails and what remains deliverable meanwhile.
 
-Preserve an honest forecast even when it is below the ambition. A committed result requires support appropriate to its terms; an aspirational goal can retain uncertainty with agreed allocation and response rules. If the common means cannot support all desired outcomes, choose a smaller or different undertaking or state which resource conflict remains unresolved. Calling the goals aligned does not supply the missing means.
+Preserve an honest forecast even when it is below the ambition or the promised result. Inadequate provision calls for a response to an existing commitment under its terms. For an undertaking still to be chosen, compare a smaller scope, different provision or a bounded inquiry. State an established impossibility where the allowed alternatives cannot meet the conditions. When an unresolved fact could change the answer, identify that fact and the work that can already proceed.
 
-Return the agreed set and its consequential dependencies in the existing working arrangement. The result can be bounded continuation or a precise missing input as well as reconfiguration. Recognition detects incompatible local plans. Assurance requires current capacity, effective authority and qualified evidence for the promised result; a feasible paper plan alone is not execution.
+Return the kind of result commissioned. Advice can finish with a feasible proposal and its dependencies, or with grounds that rule out the requested combination. For a new undertaking, obtain the effective decisions or agreements and put their terms in reach of those who will rely on them. A report on an existing undertaking identifies what took effect. For a question about execution, use the evidence for each promised result under those terms.
 
 ### GOALS.3:5 - Archetypal Grounding
 
-Three teams propose payments work needing 12 specialist hours, a service improvement needing 10 and a capability-development contribution needing 10 in one week. Only 24 usable hours remain after existing service. The sum is 32, so eight hours of required work lack provision. Declaring all three goals “top priority” leaves the eight-hour shortfall.
+Three teams propose payment work requiring 12 specialist hours, a service improvement requiring ten and capability development requiring ten in one week. Their proposed activities occupy the specialist separately. Only 24 usable hours remain after existing service, so eight hours lack provision. If eight of the learning hours could take place during payment work and that same performance meets both parties' requirements, the distinct demand would be 24 hours. Placement, deadlines and the help needed during that work still determine whether the revised arrangement is feasible.
 
-The providers establish that payments have a current deadline, the improvement has a useful 8-hour first contribution whose remainder can follow, and the learning provider can supply a bounded 4-hour episode now and the remaining development later. The chosen week is 12 + 8 + 4 = 24, with revised claims: it promises the payments contribution and the bounded improvement, while the learning goal remains partly open. The later work requires its own available windows.
+In the case with separate uses, payments have a current deadline, the improvement has a useful eight-hour first contribution whose remainder can follow, and the learning provider can supply a four-hour episode now. The providers can place the 12, eight and four hours in their required windows this week. That supports a proposal for the payments contribution, the bounded improvement and this episode of learning. To promise the remaining development by its deadline, include its later windows, the participants and their other commitments. The relevant holders decide what they will undertake.
+
+The holder of the choice matters even when the total hours fit. Two offices may each have the right to choose either of two one-hour windows for a separate, exclusive consultation with the same specialist. One office can use each window on a known schedule, but both offices can also choose the first. The specialist cannot guarantee both choices. If the offices instead authorize the scheduler to assign the two windows and they are both available for either one, the scheduler can make and communicate a feasible allocation by the booking deadline.
 
 Change one condition: the payments cannot be completed without all 10 improvement hours first. The earlier 12 + 8 + 4 arrangement is now inadequate. The specialist confirms that all 10 repair hours can be placed before the 12 payment hours and that the payment work fits the batch window. Two hours also remain at a time the learning provider can use. If that shorter episode meets its terms, the three contributions are feasible. If the only repair hours are after the batch cutoff, the same weekly total leaves the payment promise unsupported. Other options are to obtain another provider or renegotiate the work. If the learning obligation itself requires four hours this week and cannot change, the full set has no feasible arrangement under the stated capacity. An explicit conflict is more actionable than a false promise.
 
@@ -511,9 +515,9 @@ The comparison can favor visible billable work over maintenance, care, recovery 
 ### GOALS.3:7 - Conformance Checklist
 
 - Does the comparison include current commitments and service that can change the choice?
-- Are dependencies confirmed through actual contributions rather than matching labels?
-- Do shared capacity and timing fit together, including material enabling work?
-- Has each required decision or agreement come from its actual holder?
+- Do the dependencies identify the contributions and conditions the proposed work requires? For a claim about past execution, what establishes the contributions actually made?
+- For the agreed requests, do the necessary uses fit in time? For a promise covering later choices, who can allocate the work using the information available then, and does their arrangement meet every combination covered by that promise?
+- For advice, are the feasibility and remaining decisions clear? For an effective undertaking, do the operative terms and actual decisions supply the required authority and reliance?
 - Are displaced, deferred and unresolved contributions still intelligible to their recipients?
 
 ### GOALS.3:8 - Common Anti-Patterns and How to Avoid Them
@@ -582,7 +586,7 @@ Compare the actual result with the achievement basis and the relied-on explanati
 | The recipient's need or governing priority changed. | Reconsider the goal with the authorized owner and affected participants. |
 | The result meets the achievement criteria for the specified population and period. | Close the finite goal or accept this period of service. Continue outstanding or recurring duties under their terms until their agreed ending or an authorized change. |
 
-The same observation can affect several relations. A supplier delay can change the forecast immediately. A change to the promised date requires a separate agreement.
+A supplier delay can change the forecast immediately. Read the agreement to establish its effect on the due date. If the terms extend the date when a qualifying delay occurs, establish that event and apply the extension. If the date is fixed, it remains due unless the holder of the right to change it acts as the terms require. A notice of delay can meet a separate duty to notify.
 
 #### GOALS.4:4.3 - Compare continuations from the present situation
 
@@ -594,15 +598,15 @@ A difficult goal need not be unattainable for another continuation to be prefera
 
 #### GOALS.4:4.4 - Make the change effective and keep history truthful
 
-Obtain the decision or agreement needed for the chosen change. Communicate it to those whose work or reliance changes, including dependent teams absent from the review. Update the current goal, plan, allocation or commitment with the participant who can change it. Keep the earlier basis and the reason for change where later interpretation needs them. A prospective revision can be justified while the earlier promise was missed.
+If asked for advice, return the recommended change, its grounds and the reliance it would affect. When entrusted to put it into effect, apply the decision or agreement required by the existing terms. Tell the participants whose work changes, including dependent teams absent from the review. Keep the earlier basis where later interpretation needs it. A well-grounded prospective revision can follow a missed promise in the previous period.
 
-Close a goal only when its completion test is met or an authorized end has been decided. These are different outcomes. At an end, return the useful result or learning, remaining obligations, released means and any required recovery. Choose a new goal only when the next useful undertaking calls for it. An obsolete aspiration need not be carried into another cycle merely because it is unfinished.
+Apply the terms for completion, expiry or cancellation. Report an achievement only when the result met its criterion. An effective end or expiry can close pursuit while leaving a missed result and recovery work to account for. Identify any obligations that survive, the means that can be released and the useful findings from the work. The next useful undertaking determines whether a new goal is needed.
 
 Use OPS.22 for interpretation of operating performance and GOALS.8 for any personnel decision. Recognition notices which premise the observation can defeat. Assurance supports the claimed result, interpretation and authority of the resulting change; a colored status supplies only its defined signal.
 
 ### GOALS.4:5 - Archetypal Grounding
 
-A product team aims to reduce failed customer imports. Its early KR tracks successful test imports; its final evidence includes representative production cases. Test success reaches the target, but customers still fail because their actual file variants were excluded. GOALS.2 repairs the coverage, and the team changes the parser and test basis. Lowering the production target would not address this failed means assumption.
+A product team aims to reduce failed customer imports. Its early KR tracks successful test imports. Those tests all pass, yet some eligible customers still fail because their file variants were excluded. This establishes a gap in the test coverage. If the goal promised every eligible import would succeed, one confirmed failure defeats it. If the goal specified a reduction in the failure rate, apply the baseline and criterion to the full eligible population or use a bound sufficient for that comparison. The team can repair the parser and the tests while it determines what the earlier period achieved.
 
 Now suppose the customer retires that integration and moves to a different service. Continuing to optimize the old importer would no longer supply the valued result. The owner can end the improvement, preserve any remaining support obligation and redirect the available work. The same technical progress has a different meaning under the changed recipient need.
 
@@ -618,7 +622,7 @@ Visible targets can focus attention away from people who bear the cost or from o
 - Does the diagnosis distinguish the premise whose failure changes the response?
 - Were the continuations compared from present conditions, including other goals and remaining obligations?
 - Is a pause, completion, cancellation or revised promise reported with its actual meaning?
-- Have the affected participants received the effective change?
+- Does the advice identify who is affected, what the existing terms already determine and who may make any decision still needed? If the change is reported as effective, did it take effect under those terms, including any required notice?
 
 ### GOALS.4:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -677,13 +681,13 @@ Choose an initial scope that can perform a complete useful cycle of the required
 
 Start with the useful changes the organization seeks and the current conditions it must preserve. Invite proposals from people close to the work as well as those responsible for direction. Their knowledge can expose a missing opportunity, an infeasible demand or a needed alternative. Clarify the strategic ground through STR when it is unresolved; writing OKRs is not a substitute for that choice.
 
-Select objectives that describe meaningful results for recipients. Use GOALS.1 to distinguish improvement, inquiry, learning and maintained conditions. Keep continuing service and obligations in the feasibility account even when the public OKR agenda highlights only selected change. A service condition may itself deserve an objective when restoring it is the consequential change; an already adequate condition may simply need monitoring.
+Select objectives from the decisions that the improved work would make possible. Follow an actual use through any handovers to find what still prevents it. Compare the gains from changing that condition with what other recipients must retain, then use GOALS.1 to choose the beneficiaries, horizon and scope. A goal can concern an improvement, an inquiry, a capability or maintenance of an adequate condition. Keep continuing service and other obligations in the capacity account even when the published agenda highlights only change.
 
 Limit the active agenda through actual capacity, dependencies and the cost of attention. Decline or defer lower-value proposals with intelligible reasons. A small fixed count is an optional local convenience, not the basis of focus. A team with one unsupported objective is no more focused in practice than a team with five incompatible ones.
 
 #### GOALS.5:4.3 - Build the objective and its KR set together
 
-For each objective, work GOALS.2 through a successful case and a plausible false success. State what the KRs establish together, the relevant population and horizon, required conditions and evidence source. Keep an initiative or activity in the plan where it is a means; retain it as a KR only when its completed contribution is itself part of the wanted result. Qualitative professional acceptance can be more faithful than an invented percentage.
+For each objective, use GOALS.2 to explain what the KRs together establish for the relevant population and horizon, including the required conditions. A successful case and a plausible false success can help locate a missing distinction. Use an existing criterion or a covering argument directly when it already settles the question. Keep an activity in the plan when it is a means, or include it as a KR when the completed activity is itself promised. Qualitative professional acceptance can be more faithful than an invented percentage.
 
 Agree the objective's mode and any distinct modes within its contributions. In a **committed** undertaking, the parties plan and provide for the promised result under its terms and respond promptly to threatened failure. In an **aspirational** undertaking, they deliberately pursue a worthwhile uncertain improvement with agreed effort, evidence and reconsideration. Separate the uncertain outcome from any commitments made to supply particular contributions. A single label over a mixed set can hide what other teams may rely on.
 
@@ -691,7 +695,7 @@ Keep the forecast current and honest. An aspirational objective does not make ev
 
 #### GOALS.5:4.4 - Align through contributions and common means
 
-Use GOALS.3 to reconcile the proposed objectives with service, other goals and shared capacity. Follow horizontal dependencies before finalizing the arrangement. Determine whether a shared objective or linked local objectives best represents the joint result. Use LDR.2 to obtain the actual agreement and OPS.13 for operating reliance. The finished arrangement should let a participant discover who receives their result and whom a change would affect.
+Use GOALS.3 to reconcile the proposed objectives with service, other goals and shared capacity. Follow dependencies across teams and decide whether one shared objective or linked local objectives fits the intended work. Existing authority can allocate an already reserved contribution. Obtain the agreement of a participant whose independent decision is still needed, using LDR.2 for negotiation and OPS.13 for an operating commitment. Each participant should be able to discover who receives their result and whom a change would affect.
 
 Make the relevant goals and current interpretations accessible to those who need them. Explain why information is shared and what remains restricted under its actual grounds. Tools can support visibility, updates and finding neighbors' goals. Choose them for those functions and integrate with useful existing work; a common tool does not resolve inconsistent definitions or commitments.
 
@@ -715,14 +719,14 @@ Recognition identifies where goal display has separated from joint action. Assur
 
 ### GOALS.5:5 - Archetypal Grounding
 
-[The refund-service cycle in Reference:5](#goalsreference5---a-connected-organizational-case) works this method through objectives, KRs, contribution agreements, review and closure. O1 commits to settlement and confirmation for the 100 opening cases. O2 pursues faster, less costly service for a separate incoming cohort, with an honest forecast short of the ambition and preserved contractual conditions. A separate learning goal draws on the same specialist. When repair becomes a prerequisite for payment, the parties change the order and allocation while retaining the customer obligation. The successful ending establishes each result from its own evidence and leads to ordinary service control plus a new inquiry. The contrasting ending keeps ten unpaid cases open even when the other goals succeed.
+[The refund-service cycle in Reference:5](#goalsreference5---a-connected-organizational-case) works this method through objectives, KRs, contribution agreements, review and closure. O1 commits to settlement and confirmation for the 100 opening cases. O2 seeks timely settlement for at least 95% of a separate incoming cohort and lower mean manual handling time per eligible request, while preserving each contractual deadline and the agreed quality conditions. Its initial forecast falls short of the ambition. A separate learning goal draws on the same specialist. When repair becomes a prerequisite for payment, the parties change the order and allocation while retaining the customer obligation. The successful ending establishes each result from its own evidence and leads to ordinary service control plus a new inquiry. The contrasting ending keeps ten unpaid cases open even when the other goals succeed.
 
 
 A software group wants customers to import usable records with less support work. Teams initially propose an importer feature, a help center and a support-call reduction. The group constructs one customer-result objective and tests the KRs against representative import cases, correction burden and the agreed quality conditions. The feature and help center remain initiatives. Support-call reduction is interpreted with successful completion and accessibility so that deterring requests cannot count as the whole success.
 
 The teams discover that the same security specialist is needed for the importer and an existing contractual release. The contractual work has a current commitment; the importer improvement is aspirational. They retain the release, agree a later importer review window and keep a bounded investigation moving now. They do not treat the aspirational forecast as capacity that the release can use. A dependency failure is brought to the responsible parties immediately rather than waiting for the quarter review.
 
-At the period end, customer outcomes improve for the supported file types, while a relevant new type remains unsupported. The group reports the actual coverage and decides whether the new type belongs in the next goal. A colleague who enabled security review and helped another team receives specific recognition; the ownership label on the main objective does not assign all credit. Any promotion decision uses the required personnel evidence under GOALS.8.
+At period end, imports improve for the previously supported file types. A new type is still unsupported. Before choosing the next goal, apply the original scope. A goal confined to the named types can be met on their evidence. If success was due for every eligible type and the new type was eligible, its failed imports defeat that claim. For an aggregate improvement, include eligible imports of the new type and apply the agreed comparison or a sufficient bound. The group can then decide how to serve it in the next period. The colleague who enabled security review receives recognition for that contribution. GOALS.8 supplies the separate grounds for a promotion decision.
 
 Contrast an established service with a clear daily response rule, adequate data and no current cross-team priority problem. Converting each queue measure into a quarterly OKR would add little. It can retain its service control and use a separate improvement objective only when a consequential change warrants one.
 
@@ -797,7 +801,7 @@ Work through a real next episode. What action is required, what discretion and h
 
 #### GOALS.6:4.2 - Locate the difficulty that changes the remedy
 
-Recover a recent attempt and enough of its conditions to distinguish the live alternatives. If the person knows the action but lacks time, access or equipment, obtain or change that provision. If the goal is unclear, use GOALS.1. If the action itself is unknown, obtain the subject method. If the person cannot yet perform a required operation, use HCD to define and develop that contribution. If capable action occurred but failed to help, examine the means hypothesis through GOALS.4.
+Use the grounds relevant to the next assignment. A person's earlier comparable work under the help that will be available can justify a first appointment here. A known lack of access can already settle what must be supplied. When rival explanations of a difficulty lead to different remedies, recover an attempt and its conditions. If the goal is unclear, use GOALS.1. Obtain a missing subject method from its practice. If the person needs to develop a particular operation, use HCD. If capable action failed to help, examine the means hypothesis through GOALS.4.
 
 For a learning goal, state the later task, conditions, allowed assistance and evidence of the human contribution. Compare learning with obtaining a competent result from a colleague, provider or agent, preserving any independent value placed on personal mastery. HCD.2 supplies the full programme comparison. Count practice, feedback and correction alongside current work; adding a course cannot create spare capacity.
 
@@ -813,7 +817,7 @@ Compare the relevant goals together, including current obligations, recovery and
 
 When pursuit becomes less worthwhile or feasible, consider a change of means, a narrower next contribution, a pause or relinquishing the goal. Distinguish the specific target from the wider purpose it serves. Ending one route can preserve another; persisting can remain justified when the purpose and available way still warrant it. Include the remaining opportunity costs and the person's values. Use GOALS.4 to make any affected commitments and continuation explicit.
 
-Return a concrete next action and the help or decision it needs. Arrange feedback from the receiving work at an occasion when it can change the next attempt. Retain successful support when independence is unnecessary; test independent performance only when that is the claim. Recognition identifies the kind of difficulty. Assurance grounds the proposed remedy and the actual capability or outcome claimed.
+Return the next action and any help or decision it needs. When developing an ability, arrange feedback from the work in time to inform another attempt. For a decision about present capability, use sufficient evidence of the person's own work with the support permitted in the assignment. A claim that ability changed needs a comparable earlier basis. To credit a particular learning arrangement for the change, compare with what the person's ordinary work would have produced.
 
 ### GOALS.6:5 - Archetypal Grounding
 
@@ -831,7 +835,7 @@ People differ in purpose, constraints, available help and the cost of disclosure
 
 - Does the action fit the person's actual participation and the role's reliance?
 - Has the remedy addressed the difficulty that can change performance?
-- Are learning, assisted delivery and independent performance distinguished?
+- For a first or later appointment, what establishes the person's contribution under the available assistance? If learning or its cause is claimed, do the grounds also cover the change claimed?
 - Do competing goals and the required help fit the available conditions?
 - Can the person recognize when to keep, adapt, pause or end this pursuit?
 
@@ -918,9 +922,9 @@ Recognition notices an assignment whose text, authority or continuation cannot s
 
 ### GOALS.7:5 - Archetypal Grounding
 
-A maintenance agent is assigned to find why a report misstates totals, repair the authorized source and produce a verified result for review. The existing instruction permits local edits and tests, while publication belongs to another role. The agent recovers the source and consumers, repairs the calculation, performs the relevant checks and gives the reviewer the usable candidate and evidence.
+A maintenance agent is assigned to explain why a report misstates totals, repair the authorized source and return the verified repair for review. The reporting rule counts each eligible posted transaction once in its posting period. The agent follows an overstated transaction through the calculation. Joining the ledger to review notes creates one copy for each matching note. A transaction with two notes was counted twice. The agent changes the calculation to count eligible transactions by ledger identity before the notes are attached and keeps that total independent of how many notes a transaction has. Local edits and tests are authorized. Publication belongs to another role.
 
-For that review, the accounting owner supplies the transaction population and a separately calculated control total. The agent can edit the report code and its unit tests; changing their expected values could make those tests pass while leaving the accounting error intact. The reviewer therefore compares the repaired report with the retained transaction basis and control total. If an authorized correction changes which transactions belong to the period, the accounting owner resolves that criterion and the comparison is rerun. The evidence now concerns the intended accounting result under the agreed criterion.
+The accounting owner supplies the eligible ledger population and an independently calculated control total. Agreement with that total can settle a request for this period's aggregate. For the commissioned repair, the reviewer can also trace which source rows entered the calculation, why the old join changed their contribution, and why the corrected rule includes each eligible transaction once regardless of the number of notes. The reviewer checks that a transaction with no notes is still included and one with several contributes once. An omission and a duplicate could cancel in a single total. If the owner changes the rule for which transactions belong to the period, compare under the authorized rule.
 
 Now change the task: the agent is authorized to carry an accepted change through the actual release path. Returning only a tested patch leaves the assigned result incomplete. The continuation must include the authorized integration, publication checks and recipient access, subject to the actual environment. This difference follows the mandate, not a universal human approval after every tool call.
 
@@ -935,13 +939,13 @@ Capabilities vary by model, configuration, tools and task. Evaluate the required
 - Does the assignment preserve the intended receiving result and its scope?
 - Are consequential actions within effective authority and available means?
 - Can the runtime recover the state required for continuation?
-- Does completion evidence concern the result rather than only the last operation?
+- Does the evidence settle the requested result at its scope, including the cause or behavior under other inputs when a diagnosis or a recurring repair was assigned?
 - What does the evaluation score warrant, and who can alter the criterion, data or evaluator on which that conclusion relies?
 - Are required independent and human contributions preserved without unsupported duplication?
 
 ### GOALS.7:8 - Common Anti-Patterns and How to Avoid Them
 
-**Stopping at the user's example:** recover the broader assigned result and compare it with what remains.
+**Stopping at the user's example:** identify whether the commission concerns this instance, the cause of its failure or a repair that works on future inputs. Use the particular result directly when it answers the commission, and establish the additional grounds for a wider claim when one was made.
 
 **Persistence by assertion:** use an effective continuation mechanism and its actual limits.
 
@@ -1014,7 +1018,7 @@ Choose recognition appropriate to the participant and setting, including prefere
 
 Goal evidence can inform a personnel decision when its interpretation fits that decision. HRM.2 supplies the actual work analysis, assessment inference, comparison and limits. HRM.3 supplies remuneration and progression through their applicable bases and terms; HRM.1 checks the coherent people/work arrangement. Include opportunity, assistance, scope, attribution and relevant changes when comparing contributions.
 
-Avoid a direct universal score-to-pay or score-to-promotion conversion. This preserves legitimate use of achievement evidence: a defined, agreed contribution can be relevant under a qualified reward rule. The rule's authority, validity, fairness and actual terms still govern. Obtain the applicable professional and institutional judgement where it is required; this method does not issue an employment or legal determination.
+Use goal evidence under the actual remuneration or progression rule. Identify the contribution the rule rewards and the evidence and authority it requires. A valid fixed rule can determine an entitlement once its conditions are met. A discretionary award requires the decision entrusted to its holder. HRM.3 supplies the relevant professional process and any further grounds a particular decision requires.
 
 Return the conversation result or qualified input to whoever will use it. Recognition flags an unjustified change of use. For assurance, establish what the evidence supports about the individual, how it may be used and who has authority to act on it for the proposed consequence.
 
@@ -1024,7 +1028,7 @@ Two employees have scores of 1.0 and 0.6. The first had a committed goal with es
 
 In a CFR conversation, the second employee's evidence supports discussion of the search quality, the useful finding and the help provided. The team can recognize those contributions and decide what to pursue next. A promotion panel separately asks whether the employee can perform the proposed wider role. HRM.2 receives appropriate evidence, including relevant goal work, but needs the role-specific inference and comparison.
 
-Change the condition: a valid reward arrangement grants a specified payment for an evidenced contribution, and its terms are met. The separation of CFR and raw scores does not remove that obligation. Those responsible use HRM.3 to make the payment decision and carry it out under the agreed terms.
+Suppose a valid reward arrangement grants a specified payment when a defined contribution has been evidenced. Its conditions are met. The employee's entitlement and amount can now be established under that rule. A rule reserving the award to an authorized panel would instead require its decision. To report that the employee has been paid, use evidence of the transfer or receipt that the applicable terms require. Those responsible use HRM.3 to carry out the remaining work.
 
 ### GOALS.8:6 - Bias-Annotation
 
@@ -1035,7 +1039,7 @@ Visible output can conceal helping, care, coordination and unequal opportunity. 
 - Is the purpose and material use of the conversation or evidence clear to participants?
 - Does feedback concern an observable, changeable contribution with usable help?
 - Is recognition supported and appropriately attributed?
-- Does a personnel conclusion use the full decision-specific evidence and authority?
+- For a personnel conclusion, do the rule, evidence and authority establish what was asked, such as an entitlement, a discretionary decision or a payment already made?
 - Have changed data uses and applicable terms been handled through their actual grounds?
 
 ### GOALS.8:8 - Common Anti-Patterns and How to Avoid Them
@@ -1071,7 +1075,7 @@ GOALS.2 supplies the achievement evidence and GOALS.4 its changing context. LDR.
 
 ### GOALS.9:1 - Problem frame
 
-**Use this when** people or an organization need to become able to use the goal methods, repeated goal-work failures persist, or the present practice should be retained, changed or discontinued. The object is the capability and working arrangement that performs the practice. The result is a feasible acquisition or repair, a supported continuing contribution, or a warranted replacement.
+**Use this when** people or an organization need to acquire or sustain a goal practice, repeated failures persist, or the present practice should change or end. The result depends on the decision at hand. For a proposed launch, establish how the participants could provide the practice. For an appointment, establish the contribution available under the intended conditions. For a report that the practice has continued, use evidence of its use in the period claimed.
 
 If competent participants supply the needed result under current conditions, use that contribution. Add an intervention only for a contribution that is missing.
 
@@ -1087,7 +1091,7 @@ Acquisition uses capacity that also serves current work. Whole-task practice sup
 
 #### GOALS.9:4.1 - Define the contribution the practice must supply
 
-Choose a representative receiving task and a consequential variation. Examples include constructing a defensible objective/KR set, reconciling a shared specialist conflict, using adverse progress to decide help, or revising a goal without erasing a promise. State what a capable performer must notice, construct and decide, and what assistance can remain. The target is performance in this work rather than recollection of terminology.
+Start with the receiving task. What would the performer have to notice, construct or decide, and what help will be available? A particular forthcoming assignment can be supported by comparable earlier work. For a claim spanning different tasks or conditions, identify a variation that could change the needed contribution and what justifies carrying the capability across it. The task might be to design a KR set, reconcile demands on a shared specialist, use progress evidence to decide on help, or revise a goal while preserving a promise.
 
 Inspect available results first. A skilled team with an adequate current practice may already supply the required contribution. Reuse it and address any remaining gap. When a result is missing, distinguish a subject-method omission, a human capability gap, unavailable provision, an ineffective assignment or a participation/consequence conflict. OCE.10 supplies the organizational investigation when rival explanations change the remedy.
 
@@ -1099,7 +1103,7 @@ For human development, HCD.2 supplies the programme comparison. Choose complete 
 
 #### GOALS.9:4.3 - Learn and exercise the needed operations
 
-Demonstrate the difficult operation with its reasons, let the participant attempt it, examine the evidence, give usable feedback and let them correct the attempt. HCD.9 supplies the practice episode. A useful goal-construction exercise asks the learner to find a plausible all-green failure and repair the KRs while preserving the objective. A coordination exercise changes a dependency after local plans were agreed and asks which commitments and means must change.
+Give the participant access to the receiving work and let them exercise the choice being developed. If the aim is to choose a goal, give the participant the actual use and its conditions before suggesting an objective. If the objective is fixed and designing evidence is entrusted, let them decide what evidence would distinguish success and why. A supplied objective and test can still leave the participant a judgement about whether this case passed. Demonstrate a difficult operation with its reasons, give feedback on the participant's own attempt and allow a correction. HCD.9 supplies the practice episode. A comparable earlier attempt can also show a choice the participant made.
 
 Choose variation from the intended work. Varying only numbers will not show whether a person distinguishes research completion from delivery success or human mastery from agent output. HCD.10 supplies selection of variation, spacing and progression; HCD.11–12 qualify performance and transfer when those claims matter. Retain suitable guidance and tools if later work permits them. Observe independence only for the operation that later work requires the person to perform independently.
 
@@ -1109,13 +1113,13 @@ Place the practice in useful work when the conditions support both results. Prot
 
 Use OCE.9 to trace the selected contribution from request through interpretation, decision, execution and a representative exception. Obtain effective access, provider response, authority and service coverage at the crossings that can defeat it. Reuse matching observations already available. Perform another bounded attempt only for the remaining unsupported claim.
 
-Arrange where participants can find the method, examples, current definitions and help. Assign continuing support by actual contribution; a coach or “OKR shepherd” is one possible arrangement. Keep it only when useful, capable and provided. If continuation after the initiator leaves matters, examine a later episode without that initiator supplying the decisive operation. Deliberately retained support remains a valid condition of an assisted capability.
+Arrange access to the method, current definitions and help. Provide continuing support where it contributes, through a coach or another capable provider. To decide before the initiator leaves whether the team can take the next assignment, establish who can supply each necessary contribution and why the new arrangement can deliver them together. Earlier comparable work, qualifications recognized for a first assignment or authorized supervision can supply grounds where their conditions hold. Check that the remaining people have the authority, time and assistance to handle the permitted workload and exceptions by their deadlines, alongside current duties. To report that use actually continued after departure, follow the specified work in that later period. Deliberately retained support can be part of the required capability.
 
 #### GOALS.9:4.5 - Revise the practice by its contribution and full burden
 
 Observe whether the practice addresses the original difficulty and which condition causes a failure. Repair the method, learning, tools, assignment or consequence arrangement at its actual owner. A repeated failure after the same correction calls for reconsidering the explanation of its cause. More sessions or a larger goal template are useful only if they supply the missing contribution.
 
-Compare the new arrangement with the competent baseline. Credit cancellation of earlier meetings, reports or duplicated work only when those activities actually cease and their needed functions remain supplied. Include the transition and continuing work added. Cheap automated analysis can reduce manual effort while retaining checking or increasing interruptions; calculate the actual changed allocation.
+Compare the new arrangement with the competent baseline. For a forecast, include the work expected to cease, its replacement where its functions are still needed, and the grounds for those assumptions. To report savings already realized, establish what actually ceased and what effort the replacement, transition and continuing support required. Cheap automated analysis can reduce manual effort while retaining checking or increasing interruptions.
 
 Retain, simplify, extend, replace or end the practice according to its useful contribution. If leaving OKR, preserve current commitments, adequate observations, needed coordination and help in the replacement arrangement. A name can disappear while its useful functions continue. Return the supported scope, retained help, limits and conditions for reconsideration. Recognition detects a missing practical contribution; assurance requires evidence for the particular human or organizational capability claimed.
 
@@ -1123,7 +1127,7 @@ Retain, simplify, extend, replace or end the practice according to its useful co
 
 A group introduces OKRs through a presentation and a tool. Participants can fill the fields but repeatedly count initiatives as achievement and miss a shared dependency. The difficulty is not lack of field access. A capable provider works with one real objective, shows the false-success test, observes the team's repair and introduces a changed capacity condition. The team must reconstruct the goal set and obtain the affected agreement. Existing service is covered while the participants practise.
 
-The first repaired cycle is useful with the provider's assistance. If routine supported use is the intended arrangement, that can be an adequate result under its conditions. If the organization needs another team to continue after the provider leaves, the additional capability remains to be established in that receiving work.
+The first repaired cycle meets its terms with the provider's assistance. That evidence can close a commission for this cycle. For a promise of continuing supported use, establish that participants and the provider can cover the coming work, including timely help with exceptions. If another team is to continue after the provider leaves, establish how its members and any available support can supply the required work together. Use comparable earlier performance where it establishes that conclusion. To establish that it did continue, use evidence from its work after the departure.
 
 For a constructed cost comparison, 20 participants spend 30 minutes every two weeks on a review: 10 participant-hours per event. Adding 15 minutes adds 5 participant-hours each time. If an existing event actually supplies the same decisions, combine or replace it rather than count both. If the extra time settles an otherwise costly dependency, its burden may be justified. The arithmetic alone says nothing about the decision's value.
 
@@ -1133,11 +1137,11 @@ A successful enthusiastic team can conceal requirements absent elsewhere. State 
 
 ### GOALS.9:7 - Conformance Checklist
 
-- Is the target a useful performance with defined conditions and a meaningful variation?
+- What use, scope and assistance define the target performance? If the claim extends to different work, what grounds the transfer?
 - Were adequate existing capability and alternative provision considered?
 - Does the selected development include needed practice, feedback, correction and real receiving work?
-- Can the organizational contribution and its exception path function with the stated support?
-- Does the burden comparison include transition, retained support and work actually displaced?
+- For a forthcoming assignment, are routine and exception contributions available under the permitted workload and support? For a report of continuing use, what establishes the required work in the period claimed?
+- Does the comparison include transition, retained support and the work the change could displace? For a claim about realized savings, what work or spending actually ceased, and what replaced it?
 - Does replacing the practice preserve the functions and commitments still needed?
 
 ### GOALS.9:8 - Common Anti-Patterns and How to Avoid Them
