@@ -3624,6 +3624,8 @@ Count each actual or proposed supplying effort once. Add the application effort 
 
 Begin at the coarsest time window that can expose a decisive conflict. Refine to a week, shift or booked session when timing could defeat the combination. Include preparation, learning, supervision, integration, feedback, failures, recovery and the work of constructing and maintaining the coordination itself where they are needed. A feasible total can conceal an impossible first week.
 
+Establish who may choose which work arrives, which provider performs it and when a commitment becomes irreversible. For a fixed set of orders a workable allocation in time can be sufficient. For a guaranteed portfolio result, the participants need a feasible way to achieve the agreed result throughout the permitted combinations. A criterion applying to each recipient, a proportion required in each period and an agreed probability of timely service need different grounds. For a probability target, compare the supported risk with the accepted limit. At each choice, group the outcomes the responsible participant cannot yet tell apart. Choose an action with a workable continuation throughout that group. Several schedules each chosen with hindsight can use knowledge the dispatcher will lack. A sufficient standing allocation or common bound with a means of supply can settle the issue without scheduling each case separately. [OPS.13:4.3](https://fpf.tools/OPS.13:4.3)
+
 Keep three accounts distinct where the decision uses them:
 
 - the work and scarce capacity consumed;
@@ -3636,7 +3638,7 @@ To resolve a conflict, change the configuration enough to show how the revised c
 
 Reassess the uses that depend on a changed shared contribution. If research supplies no required input to a delayed product, the research may continue. If both need the same scarce scientist, reallocation may nevertheless change both schedules. Trace the receiving dependency and competition for capacity separately.
 
-If no candidate is feasible, identify the binding resource, timing or authority condition. State what would be needed to change that conclusion where a feasible change is known. Count overtime, volunteer work, financing or future research results only on grounds appropriate to each.
+When refusing the proposed portfolio as infeasible, show why every permissible way of supplying the undertaking can fail its promised criterion. The same attainable shortfall may defeat them all, or different choices may fail under different allowed conditions. A conflict in one tested allocation leaves the others open. If a commitment already binds, identify a remedy or refer a proposed revision to its holder. Count overtime, volunteer work, financing and future research results on grounds appropriate to each.
 
 #### STR.16:4.5 - Compare the portfolios without erasing their purposes
 
@@ -3666,7 +3668,7 @@ Preserve a research allocation for its stated epistemic purpose when the owners 
 
 If a decision or start is requested, establish which resource and commitment rights apply. Use an existing authorization that covers the work. For a new decision, make it within your authority or take the proposal and its trade-offs to the holder. If starting the selected work requires a further commitment, seek the smallest one that will let it begin. Use STR.11 when the distinction between retained alternatives, intended joint use and accepted commitments needs examination. A request for a comparison can finish with the supported trade-off.
 
-For an authorized start, identify the contribution, who accepted it, the time or money allocated, its receiving conditions and who may change the commitment. Identify any work still excluded. Funding alone cannot grant restricted research access, assign a client’s staff or protect an employee’s time. Establish each of those conditions where the work depends on it.
+For an authorized start, identify the contribution, the decision or agreement that put it in force, the time or money allocated, its receiver and conditions of use and who may change the commitment. Identify any work still excluded. Funding alone cannot grant restricted research access, assign a client’s staff or protect an employee’s time. Establish each of those conditions where the work depends on it.
 
 When choosing a first undertaking, identify the usable result it should provide and who can assess it. Examples include a research result, a product construction with its obtaining method, a participant’s complete case with specified help, or an organizational capability increment. A meeting, installation or measurement can contribute if it supplies the result the receiver needs. Use the relevant subject method. OCE.9 can guide representative realization and exception handling for an organizational capability increment.
 
@@ -3812,7 +3814,7 @@ Commercial visibility can make near-term sales appear to be the only result wort
 
 Keep each undertaking’s grounds of worth visible, compare the feasible arrangements, identify displaced work and establish who may accept the resulting trade-off. A fixed funding percentage would need a governing decision or a basis in the aims of this portfolio.
 
-The cases concern organizations making finite commitments. Participants without a common allocator can use the comparison to negotiate a proposal. For each commitment, establish who accepted it and under what authority. Community membership by itself leaves that commitment open.
+The cases concern organizations making finite commitments. Participants without a common allocator can use the comparison to negotiate a proposal. For each commitment, recover the authorized act that established it and whose assent that act required. Community membership alone leaves a voluntary contribution open.
 
 ### STR.16:7 - Conformance Checklist
 
@@ -3821,7 +3823,7 @@ Use the questions below where they bear on the portfolio result the recipient re
 - Can a participant explain the next useful result of each selected undertaking and distinguish its scientific, product, capability or cultural grounds where those differ?
 - For each dependency, can a participant identify the receiving operation, result, qualification and time, and any viable substitute or response to failure?
 - Where support arrangements are being compared, do they account for common and separate production, each receiving application, maintenance, coordination and response to failure?
-- Does the resource account count each supplying effort once and each application effort where it occurs or is expected, and each scarce bearer in the relevant windows?
+- Does the resource account count each supplying effort once and each application effort where it occurs or is expected, and each scarce bearer in the relevant windows? Can the people or agents who control the choices respond in time to every demand covered by the promise?
 - Are payments, capacity, assigned costs, permissions and accepted commitments kept distinct?
 - Does the comparison preserve protected conditions, meaningful scales, uncertainty and displaced work? For a decision already made, does it identify the trade-off its holder accepted?
 - Can a recipient identify what may start under current authority, what is proposed and which condition still blocks work?

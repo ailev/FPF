@@ -4214,7 +4214,7 @@ When the financial grounds are adequate, the seven steps in §4.1 can suffice. S
 #### FIN.19:4.1 - Short working route
 
 
-1. Anchor the question in a representative actual occurrence, or label a future arrangement as prospective. State the financial result at stake and the participants; do not infer performed work from a process diagram.
+1. Identify the financial decision, the parties, the relevant positions or commitments and the dates that matter. A claim, decision record or dated cash position may settle the question. For a later payment, include material intervening receipts, claims and limits on use. To establish which action occurred, use evidence that identifies it. For a proposed arrangement, state the conditions under which the money will be available.
 2. Recover the relations needed to explain the conflict. Distinguish which work overlaps, which entity owns or owes the money, which model describes it for which use, which decisions constrain another, and which provider or capability makes action possible.
 3. Reconcile the material dates, baselines and claim meanings. Several copies can describe the same financial position and preserve the same subject and use. A monthly plan and daily cash forecast can instead preserve different detail; explain the loss when one is used in place of the other.
 4. First use FIN.2 and FIN.9 to test a common dated constraint and feasible allocation under existing authority. Stop this reconciliation when that resolves the conflict, returning any remaining financial choice. When a conflict remains, compare ways of changing the work: for example, change the sequence of commitments or financing arrangement, or revise who decides a limited allocation. Include the cost and limits of each.
@@ -4227,9 +4227,9 @@ When the financial grounds are adequate, the seven steps in §4.1 can suffice. S
 #### FIN.19:4.2 - Recover the conflict from work that can actually occur
 
 
-Start with the commitment, payment or decision that cannot be reconciled, and the useful result it threatens. Follow one representative occurrence far enough to see who supplied the information, who made the choice and what became binding. A treasury procedure may require a common forecast while the investment team actually commits before that forecast is available. The procedure and the occurrence then describe different things; changing the diagram alone will not resolve the conflict.
+Start with the disputed commitment, payment or allocation and the result it threatens. For an event that has occurred, identify the parties and their decisions from the transaction and authority records. Follow an occurrence directly if those records leave a difference that matters. A treasury procedure may call for a common forecast even though the investment team committed before receiving it. A forecast received too late can be excluded as a ground for that decision. If several forecasts were available, use evidence of which forecast the team relied on before attributing its choice to one.
 
-For a proposed arrangement, use a stated prospective case. Identify the future work and the conditions needed for it to occur. A design for a shared treasury centre is not evidence that local forecasts reach it, its bank access works or subsidiaries can use its funding. Keep those implementation questions available for the decision without inventing past performance.
+For a funding decision before payment, a complete dated account can be sufficient. Suppose two subsidiaries each owe five on the same date, one holds ten and the other holds none. The group total covers both if five can reach the second payer in time under the available transfer authority and both can make their payments. If the funds are confined to the first subsidiary and there is no other source, the second payment lacks provision. Checking the authority, dates and means may settle the proposal before either payment occurs. To establish later that the debts were discharged, use the applicable settlement records.
 
 Recover the participants by what they contribute to this result. The operating unit may know the likely receipt date, central finance may compare capital uses, treasury may obtain funding and the party authorized to release a payment may be different again. Contributions can overlap in time, and the same participant can make several of them. Their relationship is not necessarily a hierarchy or a compulsory sequence of departments.
 
@@ -4378,7 +4378,7 @@ A central finance view can erase operational knowledge and local restrictions. A
 
 ### FIN.19:7 - Conformance Checklist
 
-Is the anchor actual or explicitly prospective? Are work, claims, models, authority and provider relations distinguished where they matter? Do the alternatives change the conflict in different ways? Are moved burdens and the next financial decision explicit?
+Can the record, arrangement or bound resolve the named decision for the relevant parties at the dates or decision times that matter? Where the conclusion concerns actual work or payment, what establishes that occurrence? Are claims, models, authority and providers distinguished where their differences matter? Do the alternatives change the conflict in different ways? Are the moved burdens and the next financial decision clear?
 
 ### FIN.19:8 - Common Anti-Patterns and How to Avoid Them
 

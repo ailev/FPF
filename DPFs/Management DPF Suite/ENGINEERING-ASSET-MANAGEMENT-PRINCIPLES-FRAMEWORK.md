@@ -557,7 +557,7 @@ Combine component values for conditions that can occur together in the period be
 
 Form an unchanged-policy baseline before crediting a proposed demand-management measure. Describe a measure's affected users, expected effect, delivery conditions and cost as an alternative for EAM.7. Use its reduction only in the scenario where those conditions hold. A proposed service reduction remains subject to the relevant authority.
 
-Test the drivers that can change eligibility or preference. A justified range or a few explicit scenarios can be sufficient. If an option has 100 units of spare contribution, an uncertain additional demand spanning 90–170 leaves its adequacy unresolved; a range wholly above 100 establishes that this option cannot cover that demand range without another contribution. This threshold can identify a useful further inquiry. Give a scenario a probability only when evidence supports that interpretation.
+Compare a demand estimate with the precise service promise and the capacity available in the same period. With 100 units of spare capacity, a justified upper bound of 100 can settle the load condition if there is a feasible way to deliver the service. If an entitled and attainable demand of 150 can occur and every available response supplies at most 100, the option cannot guarantee service throughout the permitted demands. Tomorrow's exact load may still be unknown. If tomorrow's supported minimum exceeds even the greatest supply available that day, tomorrow's shortfall is already established. A forecast interval of 90–170 may only enclose the possibilities. If its high end combines incompatible peaks, its crossing of 100 does not establish an overload. For a risk target, use an adequately supported distribution or bound on the frequency of exceedance.
 
 A more elaborate forecast is needed when an important dependency, changing population or response to price, weather or restrictions cannot be supported by the simple account. Ask the specialist for the demand at the required boundary and periods, the relevant driver combinations, uncertainty and limitations. Use those conditions to compare the asset options against the forecast.
 
@@ -598,7 +598,7 @@ Observed delivery favors users who currently receive service. Consider excluded 
 
 ### EAM.4:7 - Conformance Checklist
 
-Can the reader recover the observation base and each material driver? Do component sums share a boundary and period, with suppressed use and coincidence addressed where they matter? Are the unchanged-policy baseline and proposed measures distinct? Are commitments, observations and forecasts distinguishable? Does each selected scenario change a decision or claim, and is any probability supported?
+Can the reader recover the observation base, demand drivers and service promise? Do the component sums share a boundary and period, with suppressed use and coincidence addressed where they matter? When a forecast crosses capacity, is a load above capacity attainable under the terms of the promise, or does only the upper estimate cross? Can a bound already settle the decision? Are the unchanged-policy baseline, proposed measures and any probability used adequately supported?
 
 ### EAM.4:8 - Common Anti-Patterns and How to Avoid Them
 

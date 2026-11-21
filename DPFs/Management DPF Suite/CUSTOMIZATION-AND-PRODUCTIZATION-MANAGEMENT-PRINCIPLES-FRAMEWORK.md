@@ -1156,11 +1156,11 @@ When material comes from a customer case, receive the permitted common contribut
 
 #### CUST.6:4.5 - Perform the receiving connection
 
-Give another appropriately prepared performer a case within the declared conditions, the intended materials and the support that will be available for ordinary delivery. Let them perform the work. Identify any intervention by the original author so later users can tell what the receiving performer did and what assistance was needed.
+Establish who can supply the next service, which decisions the performer makes and what assistance will be available. A qualified duty roster can supply the service before a particular individual is named. Where adaptation depends on the performer’s judgement, establish that the person or agent on duty can recognize the condition and make the required choice in time with that support. Earlier comparable work may already show this performer's choices, the result and the help used. Use it when the conditions fit. If the uncertainty concerns tacit work another person or agent must now take over, give that receiving performer an appropriate case, the intended materials and the ordinary support. Observe the contribution at issue, including any intervention by the original author.
 
 Distinguish three outcomes. The performer may obtain the result through the intended method; obtain it only through additional help; or fail to obtain it. In the second case, identify the extra contribution. It can become explicit supported assistance, a construction improvement or a reason to narrow the method.
 
-Use a consequential changed condition to test adaptation. A performer who succeeds only on a copied example has not yet shown how they will handle the claimed variation. Test the operation that changes; do not repeat unrelated qualification merely to increase the number of trials.
+To promise adaptation, identify a variation that could change the receiving action and what enables the performer to handle it. Use a sufficient prior comparison, a justified property of the method or a trial of the operation whose transfer remains open. A separately ordered fresh trial belongs to the delivery. If several teams will depend on the same specialist, check that assistance can reach each under their service terms.
 
 [IS.5 — Sustain, Transfer, Extend or End Implementation Support](../IMPLEMENTATION-FACILITATION-PRINCIPLES-FRAMEWORK.md#is5---sustain-transfer-extend-or-end-implementation-support) supplies the full transfer and continuation method. Its result includes what the receiving practice can obtain and what support must remain. Use that result to decide whether the delivery method is ready for the proposed ordinary use, still assisted, restricted or unavailable. Do not claim universal transfer from a single constructed or rehearsed case.
 
@@ -1196,8 +1196,8 @@ The original expert can also overstate uniqueness. Try explaining and practising
 - Has invisible work been recovered from the first delivery?
 - Is each necessary contribution explained, taught, automated, supplied or excluded?
 - Are inputs, examples, access and support available and permitted?
-- Has another prepared performer used the method with visible assistance?
-- Does a changed condition expose a usable adaptation or return?
+- For the named next assignment, what establishes that the receiving performer can obtain the result with the assistance available there?
+- For promised variation, what establishes the adaptation or the point of return, and which unresolved difference calls for a new trial?
 - Are continued maintenance and support included in the burden and promise?
 
 ### CUST.6:8 - Common Anti-Patterns and How to Avoid Them
