@@ -2006,6 +2006,8 @@ Develop consequence claims for the same receiving question. Align meanings that 
 
 Identify the question, subject or holder, configuration, horizon, affected subjects and alternatives. A compatible `PSDA.5` result can supply the candidate family. Keep a proposal conditional where a missing premise affects eligibility. Use the applicable criterion to determine which comparisons the evidence supports and which remain open.
 
+Determine what the commission holds fixed. To judge two ways of handling the same jobs, compare their consequences for comparable jobs. To judge the service each arrangement would provide under the same external conditions, trace the work each would generate, prevent or shift to someone else. If who can enter the service changes, that difference belongs in the comparison. A fixed set of past jobs may still answer a question about those particular jobs.
+
 Use the relevant subject criteria, common measures and binding conditions. When the question depends on values or trade-offs, use a compatible `PSDA.6` account or other qualified basis. Identify whose values it represents or which rule or assumptions supply them, and any trade-offs still open. Use compatible `PSDA.7` results for claims and uncertainty within their configuration, evidence window and horizon.
 
 Use qualified direct sources where they supply these premises. If a necessary premise is missing, outdated or incompatible, name the affected claim and narrow or withhold it.
@@ -2153,7 +2155,7 @@ Ranking bias prefers closure over partiality. Baseline bias compares change with
 
 ### PSDA.8:7 - Conformance Checklist
 
-- [ ] Alternatives, subject, configuration, affected subjects, horizon, and receiving use are fixed for the comparison.
+- [ ] The comparison identifies its subject, alternatives, receiving use, horizon and the conditions the commission holds in common. It identifies who would be affected and what work would arise under each arrangement. A comparison commissioned for a fixed cohort or set of jobs keeps that cohort or work in view.
 - [ ] Candidate, value, and uncertainty inputs are current and compatible or their gaps are returned.
 - [ ] Each material consequence has a stated subject, timing and evidence path, or the account identifies the missing link and its effect on the comparison.
 - [ ] Where a qualitative network is constructed, relationships have distinct meanings and grounds; opposing and unknown evidence reaches the judgement without arithmetic cancellation.
@@ -2171,7 +2173,7 @@ Ranking bias prefers closure over partiality. Baseline bias compares change with
 | Anti-pattern | Repair |
 | --- | --- |
 | Compare a component's score with a whole arrangement's outcome. | Obtain consequence claims for the same receiving subject and use. |
-| Use favorable conditions for each alternative. | Hold the comparison basis fixed or show explicit conditional branches. |
+| Use favorable conditions for each alternative. | Apply the same external assumptions or give the results under each stated assumption. Follow any changes in work or participation produced by the arrangements when those consequences matter to the recipient. |
 | Sum separately advertised benefits. | Recover overlap, interaction, and the qualified whole-arrangement result. |
 | Treat overlapping uncertainty intervals as equality. | State what relation the bounds support and what joint information is missing. |
 | Rank a failed protected condition by compensatory score. | Keep eligibility separate and return the failure. |
