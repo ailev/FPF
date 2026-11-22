@@ -203,7 +203,7 @@ Symmetry and variation can simplify the same problem while answering different q
 
 [MATH.22](#math22---change-axioms-and-trace-their-consequences) changes the permitted objects or reasoning by changing assumptions. Follow the affected proof steps and constructions, retaining a conclusion when its justification survives or can be repaired. MATH.18 supplies interpretations between accounts; MATH.6 can separate a claimed consequence from what the new assumptions allow.
 
-[MATH.23](#math23---develop-a-conjecture-by-changing-a-construction) turns a variation, obstruction or unexplained regularity into a next mathematical claim and a proving or refuting operation. If equal weighting of group means fails for unequal groups, restricting all groups to equal size abandons the original need. Retaining sums and counts repairs the construction and opens a general question about combinable summaries. Proof construction, countermodels and changed axioms then provide different continuations.
+[MATH.23](#math23---develop-a-conjecture-by-changing-a-construction) turns a variation, obstruction or unexplained regularity into a next mathematical claim and a proving or refuting operation. When each occurrence in a concatenated list counts once, its groups may have different sizes. Their sums and counts recover the pooled mean. If the aim is to count distinct subjects across overlapping groups, identify their shared members or establish a sufficient correction for the overlaps. Which summaries suffice depends on how the inputs combine. Proof construction, countermodels and changed axioms then provide different continuations.
 
 ### MATH.Reference:3.4 - Return a construction to further work
 
@@ -228,17 +228,17 @@ FPF B.1.5.EW helps recover these constituent–whole connections; B.1.5.RS exami
 
 ## MATH.Reference:4 - Worked use - Choose a representation after the question changes
 
-A team receives travel logs from a cart moving along a straight line. Two runs have the same recorded distance, yet one ends at the starting point and the other does not. The immediate question is which runs returned to their start. Starting with a familiar distance formula leaves the missing information unresolved.
+A team must identify which recorded runs of a cart returned to their starting points. The summaries give the same total distance for two runs and say that one returned. What do those summaries establish, and what further information would identify the run?
 
-**Recover the subject account.** B.5.FM asks what can change the answer. Total distance has forgotten direction. Establish where the line's origin and positive direction are, and what a recorded movement denotes. For this small case, each observed movement is a monotone step of one unit, either forward or backward; the cart starts at zero. This is the supplied physical account. If the log only records a commanded movement, the actual displacement remains a question for observation or a supported movement model. B.5.MPC keeps that physical contribution distinct from the subsequent calculation.
+**Recover the subject account.** B.5.FM asks what can change the answer. Reversing the direction of a step preserves its distance and can change the endpoint. Return to the starting point can be checked relative to the start, with either choice of positive direction. A log may record observed movement or only a command. To infer actual displacement from a command, establish the corresponding movement. B.5.MPC keeps that physical contribution distinct from the subsequent calculation.
 
-**Construct and interpret the mathematics.** Use MATH.1 to form finite sequences of forward and backward steps. MATH.5 constructs their displacement map by assigning +1 to a forward step, -1 to a backward step, and addition to concatenation. The empty sequence has displacement zero. Forward-then-backward and forward-then-forward both have total distance two, but their displacements are zero and two. Thus the first run returns to its starting point and the second does not, under the stated account.
+**Construct and interpret the mathematics.** Suppose the observed movements are monotone unit steps. MATH.1 forms finite sequences of forward and backward steps. MATH.5 assigns +1 and -1 to the two directions, zero to the empty sequence and addition to concatenation. Forward–backward and forward–forward both cover distance two, with displacements zero and two. Either run could have either history under the summaries. If the first run’s own log records forward–backward and the second’s records forward–forward, the identified records establish that the first returned. An independently established equality of the endpoints can settle return without a complete step history.
 
 The method needed an operation on sequences, not just names for two kinds of movement. MATH.5's extension explains why adding the elementary displacements evaluates any finite sequence and respects concatenation. C.29 connects the resulting number back to the cart's position. If a program performs the calculation, C.29.2/.3 connect that rule to its input interpretation and implementation. For example, adding absolute distances would compute a different quantity from the one now requested.
 
 **Decide what can be forgotten.** For the return-to-start question, sequences with the same displacement have the same answer. Concatenating another movement sequence adds the same further displacement. MATH.2 therefore permits identification by displacement for these operations and this answer. The compact representation is useful because its retained information has been matched to the continuation.
 
-**Change the requested result.** Now ask whether a run visited position +1. Forward-then-backward visits +1; backward-then-forward does not. Both end at zero. The two histories could be identified for the former question, but their equivalence no longer preserves this new answer. Return through MATH.2 to the forgotten distinction. Retain the path and compute its successive positions; compare each with the queried location. In this unit-step example the recorded endpoints and monotone steps suffice. For a longer continuous movement from 0 to 2, the endpoints already imply a visit to +1. Use the recorded positions and known conditions of movement to answer the visit question. Recover further information only when those conditions leave the answer undetermined: a run that starts and ends at 0, for example, may or may not have reached +1 in between.
+**Change the requested result.** Now ask whether a run visited a marked position. Suppose the log and the mark use the same coordinates: the runs start at 0, forward is positive, and the mark is at +1. Forward-then-backward visits +1; backward-then-forward does not. Both end at zero. The two histories could be identified for the former question, but their equivalence no longer preserves this new answer. Return through MATH.2 to the forgotten distinction. Retain the path and compute its successive positions; compare each with the queried location. In this unit-step example the recorded endpoints and monotone steps suffice. For a longer continuous movement from 0 to 2, the endpoints already imply a visit to +1. Use the recorded positions and known conditions of movement to answer the visit question. Recover further information only when those conditions leave the answer undetermined: a run that starts and ends at 0, for example, may or may not have reached +1 in between.
 
 **Change the working method.** The team can now revise its logging and analysis method: retain the movement information needed by the questions it asks, specify how a calculation interprets it, and return a result with that meaning. An observer can supply displacements, a mathematical contributor can define the representation and its operations, and a programmer can implement them. B.1.5.CM helps describe those proposed contributions and their relations. A.3.1.CC checks the method claims and the description used by their recipients. Each contributor must understand the conditions at the join where another uses the result.
 
@@ -246,7 +246,7 @@ The method needed an operation on sequences, not just names for two kinds of mov
 
 ## MATH.Reference:5 - Worked use - Construct a choice after finding an obstruction
 
-Four positions form a cycle, with costs (1,3,1,3). The required result is one cheapest position. Changing the numbering origin must rotate the selected position along with the input.
+Four positions form a cycle, with costs (1,3,1,3). A one-off commission to name any cheapest position can be met by selecting either minimizer. Here the receiver asks for one deterministic rule using only the supplied cycle and costs: for every numbering origin it must return one cheapest position, and rotating the input must rotate the selection. Is such a rule possible?
 
 MATH.13 first establishes the transformation relation: rotation preserves the cost-minimization question. MATH.8 identifies the relevant transformed cases. A half-turn leaves this input unchanged but swaps its two cheapest positions.
 
@@ -550,8 +550,8 @@ The set examples make existence easy to see. Other choices of objects and allowe
 - Each map has a domain, codomain and meaning; its direction matches the required operation.
 - The permitted maps and their preservation conditions are stated.
 - Fixed objects are separated from the allowed varying instances of use.
-- The universal property identifies the supplied data, the comparison map for every allowed instance, its equations and why uniqueness is wanted.
-- A construction or applicable existence result supplies the object; a claimed construction has its existence and uniqueness arguments.
+- When specifying a universal property, identify the supplied data, the comparison map for each allowed instance, its equations and the role of uniqueness.
+- When an object is claimed, supply it by construction or an applicable existence result and establish the mapping property claimed for it. For a question about whether it exists, a proof of obstruction in the specified setting can complete the answer. A commission to distinguish two requirements can be met by the operation that separates them.
 - A changed requirement is reflected in the construction or its admissible maps.
 - Any computational or subject use obtains the additional operations and premises it needs.
 
@@ -1364,6 +1364,8 @@ A few successful evaluations can hide an equation schema's range. The reusable e
 
 - For typed paths, do the object assignments, generator endpoints and identities determine the extension, and do imposed equations compare arrows with the same endpoints?
 
+If the question is whether an assignment extends to a map, one required equation whose evaluations disagree rules out the extension. Establish that the equation and assignment belong to the specified structures. For a claimed extension, check the following conditions.
+
 - Are the generators, constants and source operations specified?
 - Does each source operation have a defined target operation with the required inputs?
 - Do the evaluation clauses determine every finite expression?
@@ -1581,6 +1583,8 @@ A length bound `L_X(x,y)≤1` consequently becomes `(u-v)^2+v^2≤1`. It does no
 Bijections give full recovery on the declared sets. Many useful summaries and approximate models intentionally retain less information. They can still answer a specific question through a different correspondence method. The elementary examples also make the maps cheap to calculate; a complicated inverse may remove the computational benefit of a representation while leaving its mathematical validity intact.
 
 ### MATH.7:7 - Conformance Checklist
+
+For a claimed transport, check the conditions below. To demonstrate an obstruction to a proposed identification, establish which required inverse or preservation condition fails.
 
 - The receiving question determines the operations, constants and relations to carry.
 - Both inverse equations hold on the sets used by the result.
@@ -2166,7 +2170,7 @@ A dependent-type description can package the output with a proof of its property
 
 #### MATH.4:4.5 - Use the witness and return after a changed requirement
 
-Evaluate the construction for the needed input. Return the object and the property on which its next use relies. Reuse the general argument while its constructors, clauses and premises remain unchanged.
+Return the justified construction when the commission is for a method covering the admitted inputs. When a particular object is requested, evaluate the construction for that input and supply the property on which its next use relies. Reuse the general argument while its constructors, clauses and premises hold.
 
 If the receiver needs another quantity, check whether the current result retains it. If a parameter or formation rule changes, return to the affected base or constructor clause. If constructions are newly identified, check whether the output still defines a function on those identified inputs. A failed clause can supply a counterexample or a more specific construction question.
 
@@ -2990,7 +2994,7 @@ Use this pattern when a mathematical construction can take many steps and you ne
 
 Here an **invariant** is a function whose value is unchanged by each allowed transformation. The method constructs that function from the transformations. It starts with a small family of expressions, derives conditions on their coefficients and uses the resulting expression in a proof. Conserved weighted totals, polynomial relations and residues provide different ways to carry out that construction.
 
-**First useful move:** write one allowed change, substitute it into a candidate expression and calculate what changes. Derive coefficient conditions that make the change vanish, then include the remaining allowed rules. Once preservation holds for them all, compare the invariant at the starting and proposed states.
+**First useful move:** write one allowed change, substitute it into a candidate expression and calculate what changes. Derive coefficient conditions that make the change vanish, then include the remaining allowed rules. Once preservation holds for all permitted changes, the expression and proof can answer a request for an invariant. If the question concerns a proposed state, use the invariant at the relevant starting and proposed states.
 
 The reader needs substitution, elementary algebra and the arithmetic used by the example. The polynomial branch uses collection of like terms and linear equations; the residue branch explains arithmetic modulo two. An available invariant can be used directly after checking that it fits the allowed transformations. When a short explicit sequence already answers the question, constructing an invariant may add no useful result.
 
@@ -3021,7 +3025,7 @@ The result is a constructed invariant with its preservation argument and a conse
 
 Let X be the mathematical state set, and write x → y when one allowed step takes x to y. Retain every condition that enables a step and every component of the state that its calculation uses. A rule may be given as y=T(x) with a condition on x, or as a relation allowing several possible successors.
 
-Name the initial state a and the target question. You may need to exclude a state b, derive the value of an accumulated quantity after a stated number of steps, or restrict the candidates worth searching.
+Identify the allowed state set and the target question. A law of preservation can be requested for any starting state. Name a particular initial state when it enters the conclusion. You may need to exclude a state b, derive the value of an accumulated quantity after a stated number of steps, or restrict the candidates worth searching.
 
 For an invariant I, the required preservation statement is:
 
@@ -3158,10 +3162,10 @@ An easily generated invariant may have little value for the target question. Com
 
 For the construction and use at hand:
 
-1. The state set, initial condition and every allowed transformation are recoverable.
+1. The state set, every allowed transformation and any initial condition used in the conclusion are recoverable.
 2. The candidate expression family and its value arithmetic are stated.
 3. The preservation equations cover all allowed rules, with any stronger polynomial-identity requirement visible.
-4. The constructed expression satisfies those equations and gives the stated initial value.
+4. The constructed expression satisfies those equations. For an initial-value claim, it gives the stated value on the specified starting state.
 5. The finite-sequence argument supplies the reach of the conclusion.
 6. An impossibility claim separates invariant values; a reachability claim also has its sequence or sufficient theorem.
 7. A failed invariant search retains the family and scope searched.
@@ -3826,7 +3830,7 @@ A symmetry claim also depends on what is supplied. Position names used only for 
 - Each selected representative answer is fixed by the representative's whole stabilizer and transports to an allowed answer at every input of its orbit. Preservation of the full permitted-answer relation can establish transport for all candidates at once.
 - When the result promises correspondence of the entire solution sets, that stronger correspondence has been established.
 - Different transformations reaching the same input return the same answer.
-- The claimed range has the required representative and answer construction.
+- For a rule on the claimed range, the construction covers all its inputs, by a direct formula or by the required orbit choices. For an impossibility conclusion, an admitted orbit with no permissible stabilizer-fixed choice can exclude the entire rule.
 - Any changed input, output type or choice requirement is reflected in the returned rule.
 
 ### MATH.9:8 - Common Anti-Patterns and How to Avoid Them
@@ -3935,15 +3939,15 @@ Distinguish a search for one improving change from a claim of local or global op
 
 #### MATH.10:4.2 - Construct changes that remain admissible
 
-Build a family `x(h)` with `x(0)=x`. State the allowed values of the parameter h and substitute the family into the constraints. The parameter may be a scalar, a vector or a discrete choice.
+Choose a change relevant to the comparison you want to make and ask which other parts must move with it for the result to remain admissible. Write their constraints after the change. Solve them for the dependent parts, use a transformation known to preserve the constraints, or construct a set of jointly allowed moves. This produces a family `x(h)` with `x(0)=x`. In a discrete problem h might select an exchange of two assignments. Substitute the family back into the original conditions to find its allowed parameters.
 
-For a fixed total `x1+x2=b`, the change `(x1+h, x2-h)` preserves the total. If both components must stay nonnegative, its range is `-x1 <= h <= x2`. A further capacity limit can shorten that range.
+For a fixed total `x1+x2=b`, choose `x1+h` as the freely changed component. The total then determines the other one as `b-(x1+h)=x2-h`. Nonnegativity gives `-x1 <= h <= x2`. A further capacity limit can shorten that range.
 
 For a history with fixed endpoint values, try `q_h(t)=q(t)+h*eta(t)`, where eta vanishes at both endpoints and has the regularity required by the functional. Check any additional path constraint as well.
 
 A direction tangent to a constraint may preserve it only to first order. At `(1,0)` on the unit circle, `(1,h)` has squared length `1+h^2` and leaves the circle whenever h is nonzero. The curve `(cos(h),sin(h))` stays on it. Use an admissible curve for a finite comparison, or keep a tangent calculation at the first-order scope its mathematical argument supports.
 
-When a useful family cannot yet be constructed, obtain or construct a parameterized family through the candidate whose members satisfy the constraint. State which parameter values are allowed.
+If the constraints block the proposed change, try another free component or a joint exchange. An obstruction that rules out every change relevant to the comparison is itself a conclusion. A single family licenses comparisons along that family; a conclusion about every admissible variation requires grounds that cover them.
 
 #### MATH.10:4.3 - Calculate the effect of the variation
 
@@ -4158,7 +4162,7 @@ These are different constructions of the convergence requirement. Use their defi
 
 #### MATH.21:4.2 - Construct and compare the finite stages
 
-Give the approximating rule and establish the relations on which improvement depends. For nested intervals, prove containment and decreasing width. For compatible prefixes, prove that later stages retain the earlier entries. For a series or iterative construction, obtain a bound on the unresolved remainder.
+Give the approximating rule and establish the relations needed for the requested conclusion. For compatible prefixes, prove that later stages retain the earlier entries. A bounded nondecreasing real sequence has a limit by completeness. Its first N equal terms may still precede a jump, however late N is chosen. For a numerical approximation with a promised error, bound the unresolved remainder or enclose the limit within the required width. For a procedure that must stop, also show how it can recognize that accuracy in the available information.
 
 The same argument must cover the stages used by the conclusion. A finite sample can suggest a bound or expose a failure; a claimed statement about all later stages needs the corresponding argument.
 
@@ -4660,9 +4664,9 @@ The progression has produced a general iteration formula, a closed combining ope
 
 #### MATH.23:5.2 - A failed combination produces a better summary and another conjecture
 
-A computation stores the arithmetic mean of each nonempty group of real numbers. The proposed combining operation takes the mean of those means. For groups [0] and [2,4], it returns (0+3)/2=1.5, while the combined group has mean 2.
+A computation stores the arithmetic mean of each nonempty list of real numbers. The required whole is their concatenation, in which each occurrence counts. The proposed combining operation takes the mean of those means. For groups [0] and [2,4], it returns (0+3)/2=1.5, while the combined group has mean 2.
 
-Inspect the missing mathematical relation. For a group of size n with exact arithmetic mean a, the sum is n·a. A zero mean fixes the sum at zero for every admissible size. With a nonzero mean, two possible sizes give different sums. For two nonempty groups with means a, b and sizes n, m, the pooled mean is (n·a + m·b)/(n + m). The simple mean of a and b gives the same answer when the sizes are equal or the means are equal. Relative sizes suffice for the weighted mean. To combine arbitrary lists repeatedly, retain a summary that carries their weights.
+Inspect the missing mathematical relation. For a group of size n with exact arithmetic mean a, the sum is n·a. A zero mean fixes the sum at zero for every admissible size. With a nonzero mean, two possible sizes give different sums. For two such lists with means a, b and sizes n, m, the pooled mean is (n·a + m·b)/(n + m). The simple mean of a and b gives the same answer when the sizes are equal or the means are equal. Relative sizes suffice for the weighted mean. To combine arbitrary lists repeatedly, retain a summary that carries their weights.
 
 Retain a sum s and count n. Combine (s,n) and (t,m) as (s+t,n+m), then return (s+t)/(n+m) when n+m>0. Associativity and commutativity follow from those of addition in both coordinates; (0,0) is an identity. Thus grouping and order of the combination do not change the final mean in real arithmetic. A finite-precision implementation needs its own error account.
 
@@ -4717,7 +4721,7 @@ For the conjecture being developed:
 
 **Extrapolating the displayed values without the generating law.** The iteration formula in :5.1 is justified by its recurrence and induction. Agreement at a few n values alone would leave other continuations possible.
 
-**Excluding the counterexample and abandoning the required class.** Equal-sized groups rescue the mean-of-means formula in :5.2, but not a requirement to combine arbitrary groups. Sum and count answer that requirement.
+**Narrowing the inputs or changing how they combine.** The pooled mean in :5.2 must work for lists of unequal size. Sum and count compose under concatenation. A request for the mean over distinct subjects in overlapping rosters uses set union. Adding the two sums and counts would give extra weight to the subjects present in both.
 
 **Treating a convenient condition as necessary.** Uniform convergence repairs the continuity argument in :5.3. The final countercase shows why necessity remains a different claim.
 

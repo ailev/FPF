@@ -425,13 +425,13 @@ The calculation changes the proposed way of working: whether to obtain and follo
 
 ### MMP.Reference:4.1 - A total is sufficient until the question changes
 
-Suppose material passes through two cycles in two intermediate buffers. Each incoming portion retains 80% of its amount. Its fractions going to each buffer are unknown but constant across the cycles and independent of the portion's amount. Initially the amounts are `(10, 0)`. Both buffers have sufficient capacity; the material remains there until a receiver is selected and the later transfer begins. Transfer losses are neglected. How much capacity does that receiver need for all the material?
+Suppose material passes through two cycles in two intermediate buffers. Each incoming portion retains 80% of its amount. Its fractions going to each buffer are unknown but constant across the cycles and independent of the portion's amount. Initially the amounts are `(10, 0)`. Both buffers have sufficient capacity; the material remains there until a receiver is selected and the later transfer begins. The selected receiver must hold the whole transfer before any material can leave it. Transfer losses are neglected. How much free capacity must be reserved in it?
 
 MMP.10 represents one cycle by `x_next = A*x`, where the two components of x are the amounts in the buffers. Nonnegative entries of A express the fractions received; each column sums to 0.8. MMP.11 retains the family defined by those conditions. Direct constraints suffice: choosing one fitted matrix would add information the situation has not supplied.
 
-MMP.9 derives a simpler relation for the total `S = x_1 + x_2`: `S_next = 0.8*S`. After two cycles the total is 6.4, so capacity 7 suffices. The unknown distribution does not need to be resolved for this answer.
+MMP.9 derives a simpler relation for the total `S = x_1 + x_2`: `S_next = 0.8*S`. After two cycles the total is 6.4, so 6.4 units of free capacity suffice, including in a receiver with 7 units free. The unknown distribution does not need to be resolved for this answer.
 
-Now transfer only from the first buffer. One admissible model, `A = 0.8*I`, leaves 6.4 there. Another, `A = 0.8*[[0,0],[1,1]]`, leaves none there. Both give the same total. Capacity 7 still suffices. The first model rules out a guarantee that capacity 4 suffices for the first buffer. Whether 4 suffices for the actual transfer is still open when either distribution is possible. Return to the retained model family to ask which differences can affect the local amount. A further observation is useful if resolving those differences can change the receiver choice enough to justify its cost; C.16.IR and C.11.DUA support that question. The revised use changes what the model must preserve while leaving the total calculation valid for its original question.
+Now transfer only from the first buffer. One admissible model, `A = 0.8*I`, leaves 6.4 there. Another, `A = 0.8*[[0,0],[1,1]]`, leaves none there. Both give the same total. Under the same holding requirement, 7 free units still suffice. The first model rules out a guarantee that capacity 4 suffices for the first buffer. Whether 4 suffices for the actual transfer is still open when either distribution is possible. If unloading during transfer is allowed, the receiver needs space for the peak jointly accumulated amount under the allowed transfers and withdrawals. Return to the retained model family to ask which differences can affect the local amount. A further observation is useful if resolving those differences can change the receiver choice enough to justify its cost; C.16.IR and C.11.DUA support that question. The revised use changes what the model must preserve while leaving the total calculation valid for its original question.
 
 Other bodies show different mathematical work: representing partial functions without distorting the requested count, deriving a bound after removing population detail, and constructing an unknown response while preserving its shape. Use their worked cases to learn the corresponding operations and their limits. The choice among those operations follows the difficulty, not the example's subject.
 
@@ -961,7 +961,7 @@ State what the question requires of the result. If it asks whether every permitt
 
 #### MMP.8:4.2 - Recover the order and availability of information
 
-Describe what is observed before each decision and what arrives afterward. Express the available observation as h(w) when it is a deterministic description of the circumstance. It may reveal only part of w. For a random or noisy observation, specify its probability law for each admitted w. An unknown fixed w can index a family P_w of observation laws without having a probability distribution itself. A joint law is needed when the question also treats w as random and averages over it. MMP.7 constructs the recording law.
+Describe what is observed before each decision and what arrives afterward. Express the available observation as h(w) when it is a deterministic description of the circumstance. It may reveal only part of w. For a guarantee with a noisy observation, the possible observations at each w may suffice. If risk, expectation or another probability is required, use the relevant conditional law or enough bounds on it to decide the question. An unknown fixed w can index a family P_w of observation laws without having a probability distribution itself. A population average refers to a joint distribution of circumstances and records. Determine which features of that distribution can change the answer. For example, a conditional risk bound that holds for every admitted w also bounds the population risk for any mixture of them. MMP.7 constructs the recording law when it is needed.
 
 A policy pi selects an action from the information available: `a=pi(h(w))`. Two circumstances with the same h(w) must therefore receive the same action. This uses MATH.2's condition that an answer remains constant on cases identified by a description. Here the observation determines those groups. The information restriction is often called nonanticipativity: the policy does not use distinctions the decision-maker has yet to observe.
 
@@ -984,7 +984,7 @@ For a deterministic success condition G(a,w), these are different questions:
 
 Choose the statement from the work's requirement. The first two can expose possibilities or limits even when the latter two fail. A stronger claim can require a different action or information source.
 
-When the receiving use permits failures with a stated probability, name the event and the randomness over which that probability is calculated. For unknown fixed w and random observation O, the question may require `P_w(failure of pi(O)) <= epsilon` for every admitted w. If w itself is modeled as random and the question concerns performance averaged over circumstances, use the joint law of w and O. An expected cost needs the same choice of what is averaged. Listing possible circumstances specifies neither their probabilities nor the objective. Feasibility, expected performance, tail risk and worst-case performance are alternative questions with different consequences. Use the common choice and characterization methods to decide which matters to the work.
+When the receiving use permits failures with a stated probability, name the event and the randomness over which that probability is calculated. For unknown fixed w and random observation O, the question may require `P_w(failure of pi(O)) <= epsilon` for every admitted w. If w itself is modeled as random and the question concerns performance averaged over circumstances, the average is taken over w and O together. If the available conditional results already establish the requested value or bound for every admissible mixture, use them. Otherwise obtain the features of the joint law, such as mixture weights, that affect that answer. An expected cost needs the same choice of what is averaged. Listing possible circumstances specifies neither their probabilities nor the objective. Feasibility, expected performance, tail risk and worst-case performance are alternative questions with different consequences. Use the common choice and characterization methods to decide which matters to the work.
 
 Preserve dependence within the circumstance set. Independently combining several ranges can create impossible circumstances and overstate a requirement. Conversely, excluding an inconvenient circumstance changes the range of the conclusion and needs a subject reason or an agreed narrower use.
 
@@ -1211,7 +1211,7 @@ At the terminal time, the conditional expected terminal contribution must also d
 
 The comparison covers the actions and histories for which the policy is to be used, including alternatives to the former policy. A match only along recorded behavior can hide distinctions that another action makes consequential. Predicting irrelevant observations is unnecessary when their differences affect neither the criterion nor future choices.
 
-When the test fails, identify the missing distinction and repair the state. An unspent resource, elapsed time, accumulated amount or belief over an unknown mode can be the needed addition. If the repair is expensive, retain the history tree, restrict the claimed use, or use a bound sufficient for the present comparison. Two histories with different forecasts can still support the same action when that action dominates under both.
+When the test fails, determine whether the difference affects the requested value, explanation or choice. Restore the missing distinction when it matters to that result. An unspent resource, elapsed time, accumulated amount or belief over an unknown mode can be the needed addition. If the repair is expensive, retain the history tree, restrict the claimed use, or use a bound sufficient for the present comparison. Two histories with different forecasts can still support the same action when that action dominates under both.
 
 For an approximate summary, determine how its errors can change the action comparison. Carry errors in current gains and in expected continuation through the selected horizon, using an applicable bound or model criticism. If computed action values each have justified absolute error at most e relative to the intended model and criterion, a largest value more than `2e` above every rival has the same maximizing action. Without such separation, preserve the unresolved comparison or improve only the approximation that can change it. A small prediction error on a training sample alone does not supply this guarantee.
 
@@ -2587,7 +2587,7 @@ These constructed population probabilities make the calculations inspectable. Ea
 
 #### MMP.15:5.1 - Separate a production action from the batches receiving it
 
-A production team asks whether enabling a stabilization mode $A=1$, rather than $A=0$, increases the probability of a conforming item $Y=1$. Incoming batch condition $L$ is recorded before mode selection. Half the target batches have $L=0$, half $L=1$. Mode 1 is used on 80% of $L=0$ batches and 20% of $L=1$ batches.
+A production team asks whether enabling a stabilization mode $A=1$, rather than $A=0$, increases the probability of a conforming item $Y=1$. Incoming batch condition $L$ is recorded before mode selection. The batches are equal in size, both modes leave their sizes unchanged, and all items are in the target. Half the batches, and hence half the items, have $L=0$ and half have $L=1$. Mode 1 is used on 80% of $L=0$ batches and 20% of $L=1$ batches.
 
 | Batch condition | $P(Y=1\mid A=0,L)$ | $P(Y=1\mid A=1,L)$ |
 | --- | --- | --- |
@@ -2599,6 +2599,8 @@ The subject account asserts consistency and mean exchangeability given $L$; both
 The selected groups instead give $E[Y\mid A=1]=0.8(0.20)+0.2(0.80)=0.32$ and $E[Y\mid A=0]=0.2(0.10)+0.8(0.70)=0.58$: an association of $-0.26$. Its sign differs because the two modes receive different batch mixtures.
 
 This positive average effect is conditional on the causal account; the table does not prove exchangeability. An already supported account and sufficient estimate need no new experiment.
+
+If batch sizes differ, the fractions of batches alone do not give the two item-level means. In this table the within-condition increases are both 0.10. For the same target population of items under both modes, every mixture of the two conditions therefore gives the same increase. The question about improvement can be settled even when the two separate probabilities remain unknown. If the mode also changes which items are produced, specify the population whose improvement is at issue.
 
 #### MMP.15:5.2 - Use a mediator, then withdraw a pathway exclusion
 
@@ -2988,7 +2990,7 @@ The desired result may be a better decision, a supported prediction, a distincti
 
 This pattern constructs the mathematical design of an observation. It returns what to observe, what records the alternatives would produce, and how those records would change the answer. It can instead return a useful limitation: the available observation choices leave the needed distinction unresolved. The subject practice supplies feasible access and performs the observation; PHY.9 and PHY.10 do that work for a physical readout and test.
 
-Start with the receiving question, the alternative models and the observation law from MMP.7. Set-valued reasoning needs functions and sets. Probabilistic design also needs conditional probability and the inferential meaning chosen in MMP.13. An analyst can supply that mathematics while another participant supplies the observing conditions and interprets the result.
+Start with the receiving question, the alternative models and how each alternative constrains the record the observer can obtain. Disjoint sets of permitted readings can distinguish alternatives without assigning probabilities to them. Use the observation law from MMP.7 when the design depends on the probabilities of possible records. Probabilistic design also needs conditional probability and the inferential meaning chosen in MMP.13. An analyst can supply that mathematics while another participant supplies the observing conditions and interprets the result.
 
 Use the present answer directly when the remaining alternatives make no consequential difference. A new observation is only one possible response to uncertainty. C.11.DUA supplies the comparison with using what is already known, changing the claim or taking another feasible step. Use the existing design when it suffices for a prescribed measurement.
 
@@ -3036,7 +3038,7 @@ When several readings have a common unknown, use the same value for it in those 
 
 A probabilistic comparison integrates unknowns only under a supplied probability law. Otherwise retain them as conditional possibilities or compare performance across their admitted range. Choosing a convenient nuisance value separately for each model can make a design look more discriminating than it is.
 
-For an adaptive design, later observation choices are functions of records already available. Derive their joint law with that dependence. A sequence of fixed-design calculations does not by itself describe an outcome-dependent stopping or sampling rule.
+For an adaptive design, later observation choices depend on the records already available. Follow each admitted history through the next choice it permits. This builds the possible records of the whole design for a guarantee or discrimination question. For a claim about probabilities, derive the features of their joint distribution needed for that conclusion, including the effect of the stopping or sampling rule.
 
 #### MMP.16:4.3 - Find what a design can distinguish
 
@@ -3376,15 +3378,15 @@ Differentiating the mean gives:
 
 `m_dot=-mean(X_i^2)=-m^2-Var(X_i)`.
 
-Replacing this by m_dot=-m^2 sets the variance contribution to zero. Populations with the same mean can have different variance, so first ask whether a bound already answers the question.
+Replacing this by m_dot=-m^2 sets the variance contribution to zero. Populations with the same mean can have different variance, so the initial mean alone need not determine the later one. Derive what it does determine before proposing a different output.
 
 Each member has `X_i(t)=X_i(0)/(1+t*X_i(0))` for t>=0. Since X_i(0)<=M, averaging gives the lower bound `m0/(1+M*t)`. The response `a/(1+t*a)` is concave for nonnegative a and t>=0; the mean of the responses is at most the response of the mean. Thus:
 
 `m0/(1+M*t) <= m(t) <= m0/(1+m0*t)`.
 
-With M=2, m0=1 and t=1, the mean lies between 1/3 and 1/2. A requirement m(1)<=0.55 is established without a variance model or a complete initial distribution.
+With M=2, m0=1 and t=1, the mean lies between 1/3 and 1/2. Both endpoints are possible. A population equally divided between initial values 0 and 2 has m(1)=1/3, while one starting entirely at 1 has m(1)=1/2. Thus the initial information does not determine the requested exact mean. If the recipient instead needs to know whether m(1)<=0.55, the upper bound settles that decision.
 
-Change the requirement to m(1)<=0.4. A population whose members all start at 1 has m(1)=1/2. An equally divided population starting at 0 and 2 has m(1)=1/3. Both fit the supplied initial information, so it cannot settle the changed requirement. Information about the initial population or a different acceptable requirement would change the next move. Treating the zero-variance closure as the whole population would conceal this distinction.
+For a threshold of 0.4, the two populations already exhibited fall on opposite sides. More information about the initial population can then matter to the decision. Choosing the zero-variance closure would silently discard one of the admissible outcomes.
 
 #### MMP.9:5.3 - Decide whether a fast transient can be omitted
 
@@ -3507,7 +3509,7 @@ $$
 r(x)=Q(M(x)),\qquad x\in D,
 $$
 
-where $x$ contains the inputs and $D$ is the intended region of use. The input may be a number, a vector, a history, a function or a discrete configuration. State enough of its meaning to distinguish materially different conditions. If the same listed input gives different deterministic responses because a regime or previous state was omitted, restore that input before fitting a function.
+where $x$ contains the inputs and $D$ is the intended region of use. The input may be a number, a vector, a history, a function or a discrete configuration. State enough of its meaning to distinguish materially different conditions. If an omitted regime gives different responses for the same listed input, check which difference can affect the requested answer. An envelope valid across the regimes can suffice for a threshold or tolerance. To reproduce distinct exact responses, supply the distinguishing input or an equivalent way to recover it.
 
 Choose $Q$ from the receiving operation. A mean, a tail probability and an entire probability law are different targets. So are a field value, its spatial derivative and a quantity integrated over that field. For a random source output $Y_x$, a mean surrogate targets $\mathbb E[Y_x]$; reproducing individual draws or their distribution requires another construction.
 
@@ -3633,7 +3635,7 @@ $$
 
 At demand $3$, the replacement returns $(2.1,0.9)$. It preserves total delivery and nonnegativity throughout the declared interval. Those properties follow from the construction; agreement between the cases has not yet been established.
 
-The receiving question is whether the first delivery stays at or below $2.25$ at demand $3$. The provisional value $2.1$ is only $0.15$ below the limit, and there is no supported error bound for this interpolation. A source query at $3$ returns $(2.4,0.6)$, ruling out the proposed limit. Add its discrepancy $0.9$ and interpolate separately over $[2,3]$ and $[3,4]$. The new surrogate matches all three cases and preserves the balance. Further-input accuracy remains an empirical question or requires a separate bound.
+The receiving question is whether the first delivery stays at or below $2.25$ at demand $3$. The provisional value $2.1$ is only $0.15$ below the limit, and there is no supported error bound for this interpolation. A source query at $3$ returns $(2.4,0.6)$, ruling out the proposed limit. That source answer completes the decision at demand $3$. If the recipient also needs a surrogate for later demands, include the first-channel discrepancy $2.4-1.5=0.9$ from the cheap equal split and interpolate separately over $[2,3]$ and $[3,4]$. The new surrogate matches all three cases and preserves the balance. Further-input accuracy remains an empirical question or requires a separate bound.
 
 Now channel 2 becomes unavailable. The normal-regime fit does not describe this input. Suppose the changed source account states that channel 1 serves all demand up to $3$ units and any excess remains unserved. The needed output now includes unserved demand $u$:
 
@@ -3815,7 +3817,7 @@ Use a coupled approximation only within the conditions supporting it. If feedbac
 
 Combine the component relations and interface conditions for the same modeled situation. Shared boundary values and initial conditions must satisfy that joint formulation. Redundant equations can express a useful invariant; contradictory equations expose incompatible assumptions or a failed identification of the shared quantities.
 
-Compare the jointly attainable outcomes with the outcomes allowed by the proposed simplification. Computing each range separately can admit combinations that no common state permits. In the two-buffer account in MMP.Reference:4.1, each amount after two cycles can lie between zero and 6.4, yet their sum is exactly 6.4. Treating the two ranges as independent would admit a total of 12.8 and lose the guarantee that a receiver of capacity 7 suffices. Such an enlarged range can still give a sufficient upper bound. To claim an overload is possible, exhibit an attainable joint case or give an argument establishing one.
+Compare the jointly attainable outcomes with the outcomes allowed by the proposed simplification. Computing each range separately can admit combinations that no common state permits. In the two-buffer account in MMP.Reference:4.1, each amount after two cycles can lie between zero and 6.4, yet their sum is exactly 6.4. Treating the two ranges as independent would admit a total of 12.8 and lose the guarantee that 7 free units suffice when the receiver retains the entire transfer. Such an enlarged range can still give a sufficient upper bound. To claim an overload is possible, exhibit an attainable joint case or give an argument establishing one.
 
 Feedback can require a joint solve. Suppose the selected same-instant relations are x=1+y and y=x/2. Substitution gives x=2 and y=1. Starting from y=0 and calling the first model once, then the second, returns x=1 and y=0.5; those values fail x=1+y. That call order is only one unfinished computation of the joint relation.
 
@@ -4070,7 +4072,7 @@ For automatic processing of a larger array, the cited paper supplies the constru
 
 #### MMP.20:4.4 - Choose and use a sufficient realization
 
-For the small cases, hand reduction plus event location and the derived restart is sufficient. For a larger composition, obtain a tool that supports the selected mode equations, structural changes, event localization and the chosen restart semantics. Exercise the consequential transition on the actual configuration; a successful single-mode solve does not answer that question.
+Choose support for the question about the composition. Incompatible constraints that must hold on the same connection can rule out a consistent initial state regardless of the number of other components. To predict a particular transition, use hand reduction or a tool that supports the selected mode equations, event location and restart semantics. To determine how a configured implementation actually handles that transition, exercise it or use an existing record that establishes its behaviour there.
 
 [Modelica's reinit operator](https://specification.modelica.org/master/equations.html#reinit), as described in its development specification, applies a supplied state reset at an event. [ModelingToolkit's event API](https://docs.sciml.ai/ModelingToolkit/dev/API/model_building/#Event-handling) provides event effects and DAE reinitialization options. These are ways to execute and reconcile a specified update; the cited API descriptions do not establish that they derive the impulse law above from every multimode DAE. When computing a reset in a callback, preserve the pre-event values before updating any component, then solve the new algebraic conditions.
 
@@ -4453,7 +4455,7 @@ Use CMP.14 when communications or interleaved updates need a computational inter
 
 Carry out the mathematical operation that can settle the question. Compose the functions, derive the resource bound, build a schedule, or explore the allowed transitions. A model name or a diagram is not yet that result.
 
-For a preservation claim, state the condition initially and show why each allowed step retains it. For modular reasoning, establish what each contribution guarantees under its assumptions, then check that the connected contributions and environment supply those assumptions. Two contributions that each wait for the other's result can both satisfy a conditional promise while neither starts. Progress requires an enabling basis and any needed scheduling or delivery assumptions.
+Choose when the claimed property has to hold. For an invariant, establish its initial truth and preservation by every permitted step. For a promised result at handover, relate the entry and handover states. An intermediate change matters if it affects the result or is observable at a point the promise covers. For modular reasoning, establish what each contribution guarantees under its assumptions, then check that the connected contributions and environment supply those assumptions. Two contributions that each wait for the other's result can both satisfy a conditional promise while neither starts. Progress requires an enabling basis and any needed scheduling or delivery assumptions.
 
 To reject a guarantee, establish an admitted input or sequence with the prohibited consequence, or give an argument establishing that such a case must exist. To rule out every admissible arrangement, give grounds covering them all. A necessary condition that none can meet can settle that question directly. For a model counterexample, establish its relevance to the work. An enlarged model can admit an unrealizable sequence, and a model that omits an interaction can miss a real failure. CMP.14 and the applicable mathematical interpretation help restore the distinctions the claim needs.
 
@@ -4739,7 +4741,7 @@ Write the proposed rule in the language of the work, with the mathematical accou
 
 #### MMP.22:4.5 - Compare the candidate and return what is supported
 
-Compare the candidate with the incumbent and any serious alternatives under the same working requirements. MMP.21 supplies a mathematical comparison where useful; C.32.MWA.PP and the existing worth and portfolio methods handle the broader decision.
+For a commissioned transformation, establish that the candidate supplies the required work and justify any claimed gain against its stated basis. For a recommendation among alternatives, compare the incumbent and the serious alternatives with the candidate under the same working requirements. MMP.21 supplies a mathematical comparison where useful; C.32.MWA.PP and the existing worth and portfolio methods handle the broader decision.
 
 Separate the derived consequence from its working assumptions. A formula can establish the expected number of operations under a supplied distribution. It cannot by itself establish the distribution, actual preparation time or a performer's capability. Retain only the unresolved conditions that matter to the receiving decision.
 
@@ -4771,7 +4773,7 @@ The required results agree for every admitted x when the same conversion and inp
 
 Suppose conversion takes 12 minutes, the two analyses take 3 and 5 minutes, and preparing access to the shared result takes 1 minute. Summed effort changes from 12+3+12+5=32 minutes to 12+1+3+5=21 minutes under those assumptions. The total effort alone does not determine the completion time when the operations can overlap.
 
-Now change the situation. The second analysis receives corrected measurements. Reusing y from the old input no longer computes h(f(x_new)). The candidate's reuse rule must identify an unchanged input and conversion, or recompute the affected preparation. The factorization remains correct; its former working precondition has failed.
+Now suppose the second analysis receives corrected measurements. Identify what the correction can change in h(f(x)). If both versions yield the same prepared value, it can be shared. Even when the prepared values differ, h may provably use only an unchanged field. Reuse the result whose equivalence is established for this commission, or repeat the affected work. A request for a fresh execution requires that execution.
 
 In another use, the two original preparations were independent measurements rather than repeated deterministic conversion. Sharing one measured value removes that independence. If the measurement errors are independent and each has variance s^2, averaging the two measurements has error variance s^2/2. Copying one measurement twice and averaging it retains variance s^2. The apparent duplication cannot be eliminated under a requirement for the former error variance. MMP.18 recovers the shared dependence; the mathematical function account must be changed before the work is redesigned.
 

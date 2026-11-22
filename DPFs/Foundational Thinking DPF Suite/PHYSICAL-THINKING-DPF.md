@@ -83,7 +83,7 @@ You can ask an assisting agent, “Explain this and give me your comments in the
 
 **2. Consume each law in the requested prediction.** PHY.6 combines resistance with `m*dv/dt=-D(v)` and `dx/dt=v`. MMP.10 formulates those relations with the preparation; C.29.2 obtains the requested consequence. Eliminating time gives `dx/dv=-m*v/D(v)`. Over the stated speed interval, the linear law gives a distance of 0.5 m, while the quadratic law gives `ln(2)` m, about 0.693 m. With only 0.6 m available, the two accounts give different answers. At a clearance of 0.8 m, both predicted distances fit. This answers a clearance question restricted to those two laws. Under the initial evidence, a cubic law with `D=k*v³`, calibrated to the same 1 N at 1 m/s, is also admissible. Integrating the same equation gives 1 m for that law. The 1 m prediction refutes a guarantee of 0.8 m for every law admitted by the initial conditions. The actual distance remains open. A positive guarantee in a narrower class would need grounds for the additional restriction and a bound valid throughout that class.
 
-**3. Make a consequential difference observable.** If the 0.6 m question still matters, PHY.10 consumes the two response laws to select a comparison at maintained speed 0.5 m/s. They predict 0.5 N and 0.25 N. A supplied calibrated force arrangement with indication error bounded by 0.02 N gives non-overlapping ranges [0.48,0.52] N and [0.23,0.27] N. An indication of 0.25 N would be compatible with the quadratic candidate and incompatible with the linear candidate under these conditions. It would distinguish these two candidates. Other response laws can have the same measured forces and different travel distances. If the required readout is unavailable, [PHY.9](#phy9---construct-a-measuring-interaction-for-a-physical-distinction) takes the predicted force difference as the distinction its measuring interaction must expose; the distance result remains conditional meanwhile.
+**3. Make a consequential difference observable.** To distinguish the two named laws, PHY.10 can compare their predictions at a maintained speed of 0.5 m/s. The linear law predicts 0.5 N and the quadratic law 0.25 N. With a calibrated force indication whose error is bounded by 0.02 N, their ranges are [0.48,0.52] N and [0.23,0.27] N. An indication of 0.25 N would distinguish these two under those conditions. If this force readout is needed and unavailable, [PHY.9](#phy9---construct-a-measuring-interaction-for-a-physical-distinction) helps construct it. For the wider clearance question, other response laws can give the same measured forces and different travel distances. An adequately accurate distance measurement can settle clearance for the measured run. To promise clearance for other runs, establish a bound on the distance integral or justify transfer of the observations to their conditions.
 
 **4. Check the physical transfer, then reopen only what changed.** The maintained-speed comparison informs coasting only if the instantaneous-response and material premises cover both preparations. [PHY.5](#phy5---choose-an-effective-physical-description-by-scales-and-couplings) examines a consequential wake or relaxation time if that transfer is doubtful; memory can require another state in the evolution rather than a changed coefficient. If the medium's material condition changes between force comparisons, recover its effect before treating the later indication as a test of the original candidates. Their conditional integrals remain correct; their applicability to the changed run has reopened. Neither result establishes behavior at zero speed or in a new physical regime.
 
@@ -141,7 +141,7 @@ Physical Thinking supplies methods for constructing and changing those connectio
 
 The reader may conduct an investigation, design a system, interpret a result, or work with specialists and AI. Begin with the consequence that matters. A useful outcome can be a possible construction, a conditional prediction, a bound, a failed physical premise or a next question whose answer would change the work.
 
-You need to follow what the quantities represent and what the proposed physical laws assume, or obtain an explanation of the missing contribution. The mathematical preparation depends on the chosen method: a similarity calculation, a differential evolution and a quantum measurement use different constructions. Each pattern states the preparation for its own cases. Reading a worked solution can help acquire that capability; applying the method to a changed situation tests whether the learner can choose and use the premises there.
+You need to follow what the quantities represent and what the proposed physical laws assume, or obtain an explanation of the missing contribution. The mathematical preparation depends on the chosen method: a similarity calculation, a differential evolution and a quantum measurement use different constructions. Each pattern states the preparation for its own cases. Reading a worked solution can help acquire that capability; application in a changed situation can show which steps the learner carried out with the premises and help available. For a claim that the learner selected the premises, establish which choices the task left to them.
 
 Use a familiar adequate law and procedure directly when they already answer the question. This language is useful when the physical account, its applicability or its connection with observation and computation still needs work.
 
@@ -186,7 +186,7 @@ These choices can occur in theory construction as well as in an applied project.
 
 [PHY.10](#phy10---construct-a-physical-test-that-separates-rival-accounts) constructs a physical contrast between accounts that agree under earlier conditions. It follows the changed preparation through the response and readout, retaining parameter freedom and alternative apparatus explanations. A failed comparison returns to the particular premise that can change it.
 
-[PHY.3](#phy3---derive-a-physical-limit-from-permitted-transformations) derives a bound or impossibility from the complete transformation and an admissible comparison. That result may finish the question or show which physical premise a different construction would have to change.
+[PHY.3](#phy3---derive-a-physical-limit-from-permitted-transformations) derives a bound or impossibility by applying the physical restrictions to the complete transformation. Some restrictions give a bound directly; others become consequential in an admissible comparison. That result may finish the question or show which physical premise a different construction would have to change.
 
 The starting point and stopping point depend on the question. A known response can enter at measurement; an unknown interaction can enter at law construction; a useful impossibility can end work before a device or computation is built.
 
@@ -210,7 +210,7 @@ Consider a body moving through a medium with positive speed v. The work needs to
 
 If the available travel distance is 0.6 m, the two accounts give different answers. At 0.8 m, both meet the clearance requirement within the two-law comparison. The initial measurement also admits a cubic resistance giving 1 m over this speed interval. The cubic law therefore rules out a 0.8 m guarantee over the full admitted class. A tighter class may support a positive guarantee when its added premises are warranted. Report the conditional distances when distance is the requested quantity. Neither of the two-law comparisons licenses extrapolation to zero speed or a new physical regime.
 
-**Expose the difference that matters.** PHY.10 asks for a preparation where the candidates diverge. At a maintained speed of 0.5 m/s they predict force magnitudes 0.5 N and 0.25 N. An available calibrated force arrangement with error bounded by 0.02 N separates their predicted indication ranges. An indication of 0.25 N is compatible with the quadratic account and incompatible with the linear one under these conditions. Selecting between these proposals can settle the original distance only if the accepted class or further bounds justify that inference. If no suitable readout is available, PHY.9 supplies its construction question; the distance comparison remains conditional meanwhile.
+**Expose the difference that matters.** At a maintained speed of 0.5 m/s the two candidate laws predict force magnitudes of 0.5 N and 0.25 N. An available calibrated force indication with error bounded by 0.02 N separates their ranges. If that comparison requires a new readout, PHY.9 supplies its construction. To answer the original clearance question over a wider class, work back from the distance integral over the whole speed interval. Other admissible laws can agree at both measured speeds and differ in between. A sufficient bound on the integral settles clearance throughout its domain. A suitable direct distance measurement can settle it for the observed run.
 
 The steady comparison can inform coasting only if the retained instantaneous-response and material premises cover both preparations. PHY.5 examines a consequential wake, relaxation time or other omitted state if that transfer is doubtful. A memory effect can require a different evolution rather than a new value of the old coefficient.
 
@@ -548,7 +548,7 @@ Derive characteristic sizes or rates from these relations and the proposed regim
 
 Inspect the coupled arrangement. A coupling can change a relaxation rate or create a collective mode. For a proposed rapidly adjusting state, ask whether small departures from its proposed response decay while the retained variables change. A response near loss of stability can become slow even though one component, considered alone, relaxes rapidly.
 
-Scaling the equations as in PHY.1 can put these scales on a common basis. Keep the physical reason for each scale: a narrow gap, driving period or relaxation distance can matter more than the size of the whole apparatus.
+Scaling the equations as in PHY.1 can put these scales on a common basis. A narrow gap, driving period or relaxation distance can matter more than the size of the whole apparatus. These comparisons concern lengths or times in a physical account. To choose which bodies and couplings belong in the account, follow their influence on the required consequence. A model of the whole can retain a fast local effect, and dividing the apparatus into smaller parts can still leave that effect unrepresented.
 
 #### PHY.5:4.3 - Choose how unresolved processes enter the retained account
 
@@ -2115,11 +2115,11 @@ where gamma is a known coupling coefficient and sigma_z has eigenvalues +1 and -
 
 Prepare |0>. Evolution multiplies it by a global phase; measurements of this state cannot reveal that phase. Increasing t alone does not create a readable field dependence.
 
-Instead prepare `|+>=(|0>+|1>)/sqrt(2)`. Evolution produces a relative phase `phi=gamma B t`. Reading sigma_z still gives equal probabilities and is uninformative about phi. A controlled rotation before detection permits a sigma_x or sigma_y measurement. Their means are cos(phi) and sin(phi), so the two preparations for readout can recover phase modulo 2 pi. Each mean requires the corresponding repeated preparation and measurement.
+Instead prepare `|+>=(|0>+|1>)/sqrt(2)`. Evolution produces a relative phase `phi=gamma B t`. Reading sigma_z still gives equal probabilities and is uninformative about phi. A controlled rotation before detection permits a sigma_x or sigma_y measurement. The model predicts means cos(phi) and sin(phi). Together their exact values determine phase modulo 2 pi. Repeated preparations give a finite series of outcomes for each readout from which those means can be estimated.
 
-For gamma=1 rad/(s·field-unit), t=1 s and B=pi/3 field-units, the ideal means are 1/2 and sqrt(3)/2. They select phi=pi/3 modulo 2 pi. A supplied range `-pi < gamma B t <= pi` makes that field value unique.
+For gamma=1 rad/(s·field-unit), t=1 s and B=pi/3 field-units, the ideal means are 1/2 and sqrt(3)/2. They select phi=pi/3 modulo 2 pi. On the supplied range `-pi < gamma B t <= pi` those ideal responses identify a unique field. A finite run can give the same outcome sequence at nearby field values in that range. For a conclusion about the measured field, infer the supported precision or uncertainty from the outcomes and their sampling law.
 
-If the field may instead lie between -4 pi and 4 pi field-units, the same records admit several values. Shorten the initial interrogation, for example to t=0.1 s with the same gamma: the whole supplied range then lies inside the unambiguous phase interval. A later longer interrogation can refine a value once the remaining range supports its interpretation.
+If the field may instead lie between -4 pi and 4 pi field-units, several fields give exactly the same pair of ideal means, however often the readout is repeated at this time. Shorten the initial interrogation, for example to t=0.1 s with the same gamma: the whole supplied range then lies inside the unambiguous phase interval. A later longer interrogation can refine a value once the remaining range supports its interpretation.
 
 Coherence loss, imperfect rotations or an uncertain gamma change the response law. They can be included or constrained where the required estimate needs them.
 
@@ -2258,7 +2258,7 @@ If intervention on the subject is unavailable, look for an accessible physical c
 
 #### PHY.10:4.3 - Construct the experiment that can realize the contrast
 
-Translate the mathematical change into physical preparation and operation. Identify the means of imposing the input, the initial or boundary conditions it requires, and the observable response. Include timing when a transient, memory or change of state is decisive.
+Translate the mathematical change into physical preparation and operation. For a controlled change, establish how the input will be imposed. For a naturally occurring contrast, establish how to recognize the relevant conditions and obtain a comparable observation. In either case identify the required preparation or background and the observable response. Include timing when a transient, memory or change of state is decisive.
 
 Determine which shared conditions must survive. Maintaining geometry, material state or a reference can be more consequential than increasing the number of readings. When the intervention itself changes one of these conditions, either include that change in both predictions or construct another contrast.
 
@@ -2364,8 +2364,8 @@ A finite candidate set can exclude a useful account before the test begins. A re
 
 - The accounts answer the same physical question under corresponding conditions.
 - Their remaining parameter freedom and consequential auxiliary premises are retained.
-- The proposed physical change makes a difference in an observable response.
-- Preparation, drive and readout can realize that change, or their unresolved limit is stated.
+- For a proposed distinguishing test, the chosen contrast gives different observable consequences under the accounts and conditions it is meant to separate.
+- A planned test identifies how the variation can be produced or observed and how the readout can distinguish the responses to the extent claimed. A finding that distinction is impossible covers the permitted conditions and readouts in that finding. If available evidence leaves the test’s feasibility open, identify the unresolved physical condition.
 - Discrimination is judged with the relevant physical and recording uncertainty.
 - Possible results retain their different implications, including agreement with several accounts or disagreement with all supplied accounts.
 - The first result and subsequent physical, mathematical or computational return are usable.
@@ -2429,7 +2429,7 @@ The three numerical cases are constructed comparisons under stated physical laws
 
 Use this pattern when you need to determine what a physical process or device could accomplish before choosing its detailed mechanism, or when a familiar physical prohibition appears to rule out a proposed change. A candidate may have an acceptable energy balance yet require an unavailable preparation, consume a resource that was omitted, or perform differently on inputs that one device is supposed to handle.
 
-The first useful result is a necessary condition on the requested performance, a conditional exclusion of a class of proposals, or a changed premise that opens a different construction. You obtain it by describing the complete physical transformation and constructing a comparison that the applicable physical laws constrain. “Permitted” here means allowed under those physical premises.
+The first useful result is a necessary condition on the requested performance, a conditional exclusion of a class of proposals, or a changed premise that opens a different construction. You obtain it by describing the complete physical transformation and deriving the consequence of its physical laws. A balance can constrain the entire transformation directly. A comparison with another admissible operation can reveal a restriction that is hidden when the proposed transformation is considered alone. “Permitted” here means allowed under those physical premises.
 
 You need a working description of the requested effect, the resources and surrounding systems it may use, and the physical principles relevant to that effect. A qualitative argument can suffice. A quantitative result also needs the quantities and mathematical operations in its chosen comparison. The two worked cases require different preparation: energy exchanges and elementary ratios in the first, state vectors and inner products in the second. Obtain an unfamiliar physical premise or calculation from a suitable source or collaborator and retain the conditions on which its answer depends.
 
@@ -2453,7 +2453,7 @@ Detailed calculation of one design can reveal its failure while leaving other de
 
 ### PHY.3:4 - Solution
 
-Construct the complete proposed transformation, identify the physical restrictions shared by its candidate mechanisms, and use an admissible comparison to derive their consequence. Keep the requested performance and its physical conditions attached to the result. Revisit the premise that matters when the resources, input family or required performance changes.
+Construct the complete proposed transformation, identify the physical restrictions shared by its candidate mechanisms, and derive their consequence for the complete transformation. Use an admissible comparison when the inference depends on what two transformations have in common or what their combination would do. Keep the requested performance and its physical conditions attached to the result. Revisit the premise that matters when the resources, input family or required performance changes.
 
 #### PHY.3:4.1 - Specify the physical change and what must remain usable
 
@@ -2477,7 +2477,7 @@ Use B.5.TU to recover the physical theory's premise and its consequence for the 
 
 #### PHY.3:4.3 - Construct a comparison that exposes the restriction
 
-Choose the operation that fits the available physical structure. The following two constructions address different situations and can be used independently.
+Choose the operation that fits the available physical structure. A law on the whole may give the limit directly. For example, for two connected reservoirs with no inflow or losses, the initial total mass minus the required final mass reserve bounds the mass that can be delivered outside the pair. Transfers between reservoirs cancel in the mass balance. Derive that bound at the boundary where the quantities are defined. The two comparisons below address restrictions that depend on further relations.
 
 **Compose with a reference and cancel selected changes.** Use this when an admitted reference process exchanges the relevant quantities or restores a needed condition. Choose the part of the proposal you want to eliminate from the combined account, then determine the reference's direction, amount and preparation that match it. Establish that the reference can perform that operation under the same connecting conditions. For example, two processes may exchange equal energy but require incompatible temperatures, pressures, phases or forms of delivery. Numerical equality alone cannot establish the physical connection.
 
@@ -2491,7 +2491,7 @@ These constructions can reveal a remaining physical premise rather than a bound.
 
 #### PHY.3:4.4 - Derive the consequence with every remaining physical change included
 
-Carry the quantities, signs, state conditions and input relations through the chosen comparison. Interpret each term by the physical contribution it represents. Check that the canceled effects have compatible units and conditions, and that the uncanceled effects describe the complete remaining process.
+Carry the quantities, signs, state conditions and input relations through the derivation. In a direct balance, identify the boundary at which exchanges enter or leave and the time over which the balance holds. When combining operations, cancel matched effects only under compatible units and conditions, then identify the remaining physical process.
 
 Obtain the requested inequality, an excluded transformation, or the unresolved condition on which either result depends. When using a mathematical invariant, MATH.11 supplies the derivation from the admitted transformation rules. When a computational tool performs the algebra, retain the symbolic relation or a sufficient explanation that lets another participant inspect what the computation establishes. C.29.2 and C.29.3 govern a computation whose formulation or realization needs further work.
 
@@ -2579,7 +2579,7 @@ The worked proofs assume established classical thermodynamics and standard quant
 - [ ] The requested physical effect includes its input family, performance criterion and relevant preparation.
 - [ ] Consumed resources, surrounding systems and any required restoration or continued capability are included where they affect the restriction.
 - [ ] The selected physical account has a stated regime and a reason to cover every process or device to which the conclusion applies.
-- [ ] The comparison uses compatible admitted reference operations, or the same operation on inputs linked by the physical law.
+- [ ] The law gives the bound on the stated whole. Where the derivation needs a comparison, its reference operation or linked inputs meet the law’s conditions.
 - [ ] The derivation retains uncanceled changes and allowed auxiliary outputs.
 - [ ] The result states what the derivation excludes or what condition a proposed mechanism must satisfy. Any claim that a mechanism can deliver an allowed performance has its own grounds.
 - [ ] The explanation shows which changed premise would require another derivation and what the current result enables next.
