@@ -21,8 +21,8 @@ A Suite brings together constituent disciplines and explains how their knowledge
 | --- | --- | ---: | ---: | ---: |
 | [Engineering](Engineering%20DPF%20Suite/) | Designing, realizing, changing and maintaining systems; knowledge access, semantic integration and control architecture design. | 5 | 99 | 2.959 |
 | [Management](Management%20DPF%20Suite/) | Direction, goals, commitments, operations, resources, markets, communities, workforce participation and organizational change. | 14 | 201 | 5.736 |
-| [Foundational Thinking](Foundational%20Thinking%20DPF%20Suite/) | Mathematical and physical accounts, models, algorithms and usable notation. | 5 | 71 | 2.049 |
-| [Human Capability Engineering](Human%20Capability%20Engineering%20DPF%20Suite/) | Human learning and somatic change, connected to capability in later work. | 2 | 34 | 1.291 |
+| [Foundational Thinking](Foundational%20Thinking%20DPF%20Suite/) | Mathematical and physical accounts, models, algorithms and usable notation. | 5 | 71 | 2.050 |
+| [Human Capability Engineering](Human%20Capability%20Engineering%20DPF%20Suite/) | Human learning and somatic change, connected to capability in later work. | 2 | 34 | 1.292 |
 
 For a goal or OKR question, open [GOALS](Management%20DPF%20Suite/GOAL-CONSTRUCTION-AND-REGULATION-PRINCIPLES-FRAMEWORK.md) directly within Management. Its complete language includes organizational OKR/CFR, human professional goals and AI work.
 
@@ -34,7 +34,7 @@ These ten standalone frameworks have their own files here. A shared folder group
 | --- | --- | ---: | ---: |
 | [Decision Design (PSDA)](https://fpf.tools/PSDA) · [Markdown](DECISION-DESIGN-PRINCIPLES-FRAMEWORK.md) | Frame a decision problem, construct alternatives and compare their consequences under uncertainty. Combine the evidence for a recommendation the decision holder can use. | 19 | 0.841 |
 | [Research Method Practice (RMP)](https://fpf.tools/RMP) · [Markdown](RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md) | Frame and design research, obtain and criticize evidence, synthesize sources and return a warranted knowledge claim. Choose units and comparisons to suit the question. | 11 | 0.565 |
-| [Explanation Design (EXD)](https://fpf.tools/EXD) · [Markdown](EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md) | Build a grounded explanation for the recipient’s question. Choose a form, example or dialogue when it helps, and determine which reasoning the reader can recover and use. | 6 | 0.162 |
+| [Explanation Design (EXD)](https://fpf.tools/EXD) · [Markdown](EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md) | Build a grounded explanation for the recipient’s question. Choose a form, example or dialogue when it helps, and determine which reasoning the reader can recover and use. | 6 | 0.163 |
 | [Narrativization and Narrative Studies (NSTD)](https://fpf.tools/NSTD) · [Markdown](Narrativization-and-Narrative-Studies-Principles-Framework.md) | Develop and interpret factual, hypothetical or fictional narratives. For a commissioned explanation, connect the subject grounds to what readers can infer or decide as the narrative unfolds. | 10 | 0.411 |
 | [Implementation Facilitation (IS)](https://fpf.tools/IS) · [Markdown](IMPLEMENTATION-FACILITATION-PRINCIPLES-FRAMEWORK.md) | Help participants introduce, adapt or continue a practice under local conditions. Arrange support they can use and help them develop their capacity to lead future changes when that is their aim. | 7 | 0.212 |
 | [Economic Reasoning and Coordination (ECO)](https://fpf.tools/ECO) · [Markdown](ECONOMIC-REASONING-AND-COORDINATION-PRINCIPLES-FRAMEWORK.md) | Compare exchange, incentives and commitments. Establish whose resource use can change, which claims can be met together and when a unit saving changes total demand. | 10 | 0.154 |

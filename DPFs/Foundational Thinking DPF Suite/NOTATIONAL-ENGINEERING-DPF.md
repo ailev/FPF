@@ -340,7 +340,7 @@ Where modification matters, change an input, component or relation and follow th
 
 Separate the notation's contribution from supplied subject knowledge. In a diagram for composing functions, arrows can expose the order of application; the functions and the ability to apply them supply the numerical result. If the result cannot be obtained because an algorithm or physical law is missing, return that question to the corresponding practice.
 
-An expert walkthrough can establish an explicit loss or a useful candidate change. When it remains uncertain whether the intended reader can recover or perform the operation, use C.2.8 to choose a bounded reading probe with the intended preparation and access. Obtain further evidence only when its outcome could change the design or the permitted use.
+An expert walkthrough can establish an explicit loss or a useful candidate change. When it remains uncertain which structure the intended reader can recover, use C.2.8 to assess recovery with the intended preparation and access. If two cases with the same available signs require incompatible actions before further information arrives, the notation alone cannot guarantee correct performance in both. Where actual performance matters, examine an attempt or other evidence of what the user did under the working conditions. For a claim about what the user can do, establish that the necessary information, skills and support will be available under those conditions. Obtain further evidence only when its outcome could change the design or the permitted use.
 
 #### NOT.1:4.5 - Compare the work enabled and the work displaced
 

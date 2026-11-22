@@ -211,7 +211,7 @@ FPF B.5.RC and B.5.RA recover a construction or argument. MATH.1 and MATH.5 buil
 
 ### Foundational.Reference:3.3 - Choose with incomplete information
 
-**Recover the available information → formulate the allowed choice → compare consequences → act, revise the requirement or obtain a useful missing indication.**
+**Identify what the choice must achieve and who can make it → establish which information each chooser can use in time → compare the available actions or rules against the requirement → act, seek a useful indication or agree a changed requirement.**
 
 [MMP.8](MATHEMATICAL-MODELING-PRACTICE-DPF.md#mmp8---formulate-information-dependent-choices-mathematically) formulates what may depend on information available at the time of choice. When a probabilistic recording question is needed, MMP.7 derives the record's law. FPF C.16.IR addresses what an observation relation distinguishes, including bounded indications. C.11.DUA compares the value and cost of further inquiry. The MMP Readme's observation-to-action entry connects these contributions with a usable instruction.
 
