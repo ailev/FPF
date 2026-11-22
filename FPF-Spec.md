@@ -498,7 +498,7 @@ Use Part and cluster headings to locate content. E.4 explains how Kernel, broade
 | E.10.D1 | **Recovering What “Context” Means in Use** | Stable | *Keywords:* context wording, source-local meaning, claim scope, model use, working situation, architecture, viewpoint, environment, positive wording repair. *Queries:* "What does context mean in this sentence?", "Which exact value or relation changes the claim or next action?", "Can the sentence stay ordinary wording, or does it need a subject-pattern value?" | **Builds on:** E.10, E.10.ARCH. **Coordinates with:** A.1.1, A.2.6, C.30, E.17.0, F.0.1, F.17, F.9, F.19. |
 | E.10.D2 | **EntityOfConcern, Description Episteme, and Specification-Use Discipline** | Stable | *Keywords:* EntityOfConcern, description episteme, specification use, checkable claims, harness, viewpoint, publication, representation, DescriptionContext (legacy cue). *Queries:* "Which entity does this description concern?", "When can I rely on it as a specification?", "Which additional viewpoint, evidence or publication relation does this use need?". | **Builds on:** A.7, E.10.D1, C.2.1, C.2.3. **Constrains:** F.4, F.5, F.8, F.9, F.15. |
 | E.11 | **First-Practical Entry and Pattern-Use Discoverability Discipline** | Stable | Gives each public entry unit one job and compares titles, complete ToC rows and retrieved fragments under the information actually shown. Worked comparisons clarify a first choice when compact cues still leave a genuine ambiguity. *Query:* "Which fact changes my first pattern choice?" A reader starts from a recognizable situation, practical question, first useful result or blocker, opens one direct pattern or small plausible set, and may stop without filling a card. Continue with E.11.PUA after selecting one pattern and with E.11.PUR when applicability, recommendation, coordination, ordering, or reuse of an earlier result is current. Use E.11.PFP when one public FPF, DPF, or LPF edition needs the common publication form; form conformance and pattern count do not establish framework adequacy. | **Builds on:** E.8, E.17.AUD, F.17, F.18. **Leads to:** E.11.PUA, E.11.PUR, and E.11.PFP. **Coordinates with:** A.22.CGUS, E.18, G.11. |
-| E.11.PUA | **Pattern Use in a Working Situation and First Useful Result** | Stable | Uses one inspected direct pattern for one current subject and practical question. Follow the selected Solution and return its contribution to the original question. Carry the work through to the result commissioned, whether the recipient needs one application, the developed explanation of a Method or a result obtained through several contributions. Recover a `MethodDescription`, admitted Method, performer, assignment, dated Work, exact predicate, `ClaimGraph`, or receiving use only when that distinction changes truth, action, stop, or named reliance. Ordinary bounded use may remain conversational; reliance-bearing support stays proportional. | **Builds on:** E.11, E.8. **Coordinates with:** E.11.PUR, E.18, E.18.NET, E.18.1, E.18.3, A.15, and every selected direct pattern. |
+| E.11.PUA | **Apply a Selected Pattern and Use Its Result in the Original Work** | Stable | Uses one inspected direct pattern for one current subject and practical question. Follow the selected Solution and return its contribution to the original question. Carry the work through to the result commissioned, whether the recipient needs one application, the developed explanation of a Method or a result obtained through several contributions. Recover a `MethodDescription`, admitted Method, performer, assignment, dated Work, exact predicate, `ClaimGraph`, or receiving use only when that distinction changes truth, action, stop, or named reliance. Ordinary bounded use may remain conversational; reliance-bearing support stays proportional. | **Builds on:** E.11, E.8. **Coordinates with:** E.11.PUR, E.18, E.18.NET, E.18.1, E.18.3, A.15, and every selected direct pattern. |
 | E.11.PUR | **Pattern-Use Applicability, Recommendation, and Coordination** | Stable | After inspecting candidate uses, decide which apply, which useful first result to recommend, and how the uses relate. When an earlier result is available, check whether it can be reused for the current question and use. An ordinary reversible judgement may remain conversational; separate fit findings and recommendation support appear only under named reliance. When the uses must deliver a joint result, establish how their contributions work together under its conditions. Pairwise order exists only for prerequisite result, method precondition, or shared-constraint resolution; presentation order is not a workflow, WorkPlan, or performed Work. | **Builds on:** E.11, E.11.PUA, E.10.MOVE. **Coordinates with:** E.18.1, A.15, A.21, C.24, C.30, and direct decision patterns. |
 | E.11.PFP | **Framework Publication Form Profile for Markdown** | Stable | Common Markdown form and faithful print or other projections for public FPF, DPF, and LPF editions: compact title, product-owned cues, logical index, Readme entry, source projection, and deterministic checks. Uses all twelve E.8 content functions to explain the whole language and its substantive profiles, with Architectural Rationale, shared sources, inherited answers, and direct pattern entry. Questions: How do the Methods work together? Where can readers find the reasons for this architecture? What changes in a narrower profile? | **Builds on:** E.11, E.17, E.24.PUB. **Used by:** E.4.FPF, E.4.DPF and bounded LPF/DPF publication-form applications. |
 | E.11.DSG | **Architectural Reference** | Stable | Explain the current architecture of a pattern language or a composite whole to its users: its question, selected arrangement, grounds and meaningful alternatives, and consequences for use and reconsideration. Preserve the reader purpose, complete Method ownership and direct returns at framework, Suite and Library scope. | **Specializes:** E.11. **Uses:** E.4:4.2 and E.4.PFAD for Suite architecture, C.2.1 for Reference and DPF editions, and G.5 only for an actual JointUseSet. **Coordinates with:** E.4.PFR, C.2.P, F.9, E.17, E.24.PUB, G.11, E.11.PUA, and E.11.PUR. |
@@ -586,6 +586,10 @@ Use Part and cluster headings to locate content. E.4 explains how Kernel, broade
 | G.11 | **Decide Whether and How to Refresh SoTA Packs and Related Results (Telemetry and Decay)** | Stable | *Keywords:* telemetry, use-qualified currentness, refresh, RSCR, PathSlice, Bridge Sentinels, edition-aware, epistemic debt, deprecation, re-shipping. *Queries:* "Does this trigger change a relied-on use, or can the current result stand?", "Which affected dependencies need a worthwhile feasible refresh?", "What warning does a later receiver need?" Preserve applicable support without an obligatory refresh plan, deprecation or waiver; plan only selected Work and report what was performed. | **Builds on:** G.Core, G.6, G.7, G.5, G.8, G.9, G.10, B.3.4, E.18. **Coordinates with:** G.12, C.18 and C.19, C.23, F.15. |
 | G.12 | **DHC Dashboards (Discipline-Health Time Series and Views)** | Stable | *Keywords:* dashboard, DHC, discipline health, coordinate results, DHCReplayBasis, DHCSeries, time series, views, optional publication, selective refresh. *Queries:* "Which coordinate results and windows distinguish the changes in the discipline that matter for the intended judgement?", "When is a local dashboard view sufficient?", "How do I publish or refresh a view when a receiving use needs it?" | **Builds on:** G.Core, C.21, G.6, G.11, A.19, G.0, F.17/F.18, E.5.2, E.10. **Coordinates with:** G.5 (selector set-result outputs), G.7 (crossings/CL/Φ_plane pins), G.8 (maturity ladder panel), G.10 (shipping inclusion), C.18 and C.19 (QD/OEE telemetry), G.2 (SoTA palette hooks). |
 | G.13 | **External Interop Hooks for SoTA Discipline Packs (conceptual; normative when used)** | Stable | *Keywords:* interop, external index, claim mapper, mapping policy, plane map, embedding spec, `ExternalIndexCard@Context`, `ClaimMapperCard@Context`, `InteropSurface@Context`, CHR-typed SoS features, edition pins, UTS twins, RSCRTriggerKindId, telemetry pin. *Queries:* "How does FPF integrate external scholarly indexes into Part G?", "What do the source definitions and the mapping establish for this record, and where else is the derivation valid?", "How to make interop refreshable with RSCR trigger kinds and edition pins?" | **Builds on:** G.Core, G.2–G.7, G.9–G.12, A.19, A.18, G.0, F.17, E.5.2, E.18. |
+
+### E.11.PUA - Pattern Use in a Working Situation and First Useful Result
+
+This earlier title leads to the full pattern. [Open E.11.PUA, Apply a Selected Pattern and Use Its Result in the Original Work](#e11pua---apply-a-selected-pattern-and-use-its-result-in-the-original-work).
 
 # First Principles Framework (FPF) Readme
 
@@ -103145,7 +103149,7 @@ The result is a formally neat text that authors can defend but practitioners can
 
 A **working move** is ordinary reader-facing wording for one such action or judgement. Reserve `U.Move`, dated `U.Work`, and `U.Transformation` for claims that assert those admitted objects.
 
-`E.11.PUA` governs use of one selected `Solution` to reach the first useful result. When alternatives are formally qualified under `A.22.CGUS`, call them `continuation candidates`; `E.18.3` applies only when the selected CGUS uses a qualifying transformation-flow substrate.
+`E.11.PUA` governs applying a selected `Solution` far enough to supply the contribution the original work needs, and using its result in that work. When alternatives are formally qualified under `A.22.CGUS`, call them `continuation candidates`; `E.18.3` applies only when the selected CGUS uses a qualifying transformation-flow substrate.
 
 **Move wording in pattern prose.** In ordinary prose, say **recommend this pattern use**, **coordinate these uses**, or **show their total order** when those are the claims being made.
 
@@ -109569,7 +109573,7 @@ A reader may arrive with a project question rather than a PatternID: for example
 
 **Practical gain.** The entry connects a project question to a direct pattern and its first useful result. The direct pattern retains the governing explanation; each navigation unit carries its own entry function.
 
-**Not this pattern when.** After one direct pattern is selected, use `E.11.PUA` to follow its `Solution` to the smallest useful result or a stop that states the missing basis. Use `E.11.PUR` to judge applicability, recommendation, coordination, or ordering among candidate pattern uses, and to stop on an earlier result that still answers the concern. Use the direct pattern for the actual result, plan, work, evidence, decision, authorization, or publication claim.
+**Not this pattern when.** After choosing a direct pattern, use `E.11.PUA` to obtain the contribution its `Solution` can make and carry that result back into the original work. Use `E.11.PUR` to judge applicability, recommendation, coordination, or ordering among candidate pattern uses, and to stop on an earlier result that still answers the concern. Use the direct pattern for the actual result, plan, work, evidence, decision, authorization, or publication claim.
 
 ### E.11:2 - Problem
 
@@ -110325,27 +110329,29 @@ These interventions differ from title revision and provide no effect estimate fo
 
 ### E.11:End
 
-## E.11.PUA - Pattern Use in a Working Situation and First Useful Result
+## E.11.PUA - Apply a Selected Pattern and Use Its Result in the Original Work
 
 > **Type:** Pattern-language use pattern (E)
 > **Status:** Stable
-> **Normativity:** Normative within FPF pattern use from a current practical question to the first useful result or honest stop.
+> **Normativity:** Governs applying one selected pattern to obtain the contribution the practitioner needs and using that contribution in the work for which it was sought.
 
 ### E.11.PUA:1 - Problem frame
 
 #### E.11.PUA:1.1 - Use this when
 
-Use this pattern when an agent has a current entity or relation of concern, a practical question, and one plausible FPF pattern, and needs to follow that pattern's `Solution` to reach the smallest useful result that truthfully answers the question, or to stop because the required basis is absent.
+Use this pattern when you have a practical question about a particular subject and have selected an FPF pattern to help answer it. Work through the applicable parts of its `Solution` until you have what that pattern can supply for your question. The original request determines whether this completes your work and what you can now explain, decide or do with the result.
 
 A reader may ask, “This pattern looks relevant. What do I do with it, what useful result should I expect, and when should I stop or return?” Answer that conversationally before considering any durable pattern-use record.
 
-**First useful result.** What the selected pattern has established or produced for the present work. It can answer the originating question, supply a contribution to work still owed, or expose a blocker. Use the originating question to distinguish these outcomes. Name the result in domain language and add exact identity, predicate, Work or reliance details when they change the claim.
+
+The **first useful result** is the earliest finding or product you can use. Determine what the original work requires of this pattern. That contribution may still need reasoning or operations within the same `Solution`. Once you have the contribution, use it for the commissioned result. If a condition rules out one way of obtaining it, consider the other ways allowed by the question. A finding about what is impossible can itself answer the whole question. Give the result in the language of the work, with the grounds the recipient needs.
 
 **Primary EntityOfConcern.** One use of a selected FPF pattern. Its practitioner returns the contribution to the work that called for it. That work determines what must still be explained or done.
 
 **What this buys.** The user gets a direct path from a pattern to a useful subject result without confusing pattern inspection, method description, planning, performed work, and result evidence. An addressable trace remains available when another agent or tool will use the distinctions, or an audit or delayed decision will depend on them.
 
 **Not this pattern when.** While several public entries remain plausible, keep comparing them under `E.11`; begin PUA only after one direct pattern is selected. Use `E.11.PUR` when applicability, recommendation, or coordination among several candidate uses is the current question. Use `E.18.1` when a wider method, plan, work, interpretation, and return flow must preserve accepted problem-side distinctions. Use the A.15 family when intended or performed `U.Work` is itself current.
+
 
 ### E.11.PUA:2 - Problem
 
@@ -110972,11 +110978,11 @@ FPF patterns supply action- or judgement-guiding content for recurring working s
 
 Establish formal `U.MethodDescription` membership under A.3.2 only when the episteme's EntityOfConcern is an admitted Method, at least one claim concerns that Method as a way of doing, and that distinction changes the claim.
 
-The missing middle is neither discovery nor recommendation: use one selected conditional `Solution` to identify the first result with its own identity and basis that answers the current question, or stop when its basis is missing.
+Selecting a pattern settles where to look. Its `Solution` gives the practitioner the grounds and operations for the particular contribution the work needs. More than one operation in that same `Solution` may be needed before its result can serve the original question.
 
 Separating ordinary semantic checking from conditional record materialization protects both usability and rigor. A conversation can be sufficient for a bounded reversible question. Later use by another agent, an audit, an automated use, or an expensive decision can demand addressable support. The same ontology serves both profiles; only the reliance changes the recording granularity.
 
-The first-result boundary prevents proxy completion. A plan, note, simulation, or assessment may be valuable and may be the result at the current pattern-use position. It cannot stand for a later physical, clinical, organizational, or learned change. Stop where the current basis supports value, then continue under the pattern that defines, constrains, or tests the next result or relation.
+A plan, simulation or assessment can complete an order for that result. When subsequent work or an actual change was also commissioned, use the result in the work still owed and establish what occurred. Another pattern contributes when it supplies a needed way of working or a ground the selected one leaves open.
 
 ### E.11.PUA:11 - SoTA-Echoing
 
@@ -111019,7 +111025,7 @@ The `@Context` suffix on these compatibility support names is retrieval wording 
 
 **What this buys.** A team distinguishes applicability from recommendation and presentation order from workflow order. A result that still answers the concern can end a repeated pattern use. A project can preserve exact reasons for a consequential recommendation without burdening ordinary bounded use with five separate forms or copying one result under another stage name.
 
-**Not this pattern when.** Use `E.11` while public entries are still being compared. Use `E.11.PUA` to use one selected pattern and obtain its first result. Use A.15 for work planning or performed work, A.21 for a gate decision, and the direct decision or authorization pattern when those claims are current.
+**Not this pattern when.** Use `E.11` while public entries are still being compared. Use `E.11.PUA` to apply the selected pattern and use its contribution in the work that called for it. Use A.15 for work planning or performed work, A.21 for a gate decision, and the direct decision or authorization pattern when those claims are current.
 
 In this pattern, *next move* is Plain shorthand for the currently recommended pattern use or conditional continuation. It is not a shared `Move` identity, `U.Method`, `U.WorkPlan`, performed `U.Work`, or actual `U.Transformation`.
 
@@ -118821,7 +118827,7 @@ The **compact note, diagram, plan, trace, and publication** are epistemes or pub
 
 **When P2W helps.** Use P2W only when keeping the accepted distinction changes which relation you assert, what result you write, or whether you continue, split, stop, or return. If the relation and result are already settled and another P2W note would add nothing to the decision, apply the pattern whose Solution answers the current question.
 
-E.11.PUA covers a smaller use and may begin without `ProblemCard@Context`: use one selected pattern for one current practical question. Obtain the smallest useful result that answers the question or state why work on it must stop. That ordinary use may stop there; name a receiving use only when the enclosing P2W continuation or another later use is current.
+E.11.PUA can begin with one practical question and a selected pattern. Obtain what its `Solution` can supply and use it to answer that question. An answer sufficient for the entire request can finish without a `ProblemCard@Context`. When it supplies a premise for a wider decision or action, use it in that decision or action.
 
 E.18.1 begins only when the wider work-facing continuation depends on preserving accepted problem-side material. PUA may support one pattern inspection inside a P2W flow, but it does not replace the accepted-problem carry-through.
 
@@ -120773,7 +120779,7 @@ A new need for cyclic member identity, a separately re-identifiable membership o
 
 Builds on: `A.22` for selected-structure identity and non-agentivity; `E.18` for one TFS, its selected internal relations and resolved connection positions, `FlowPositionRef`, valuations, paths, slices, and local state; `A.6.REL`, `A.6.RCD`, and `A.6.P.WMR` for exact relation recovery and `missing-governor`; `C.2.1` for the optional descriptive record; and `F.18` for the stable local name.
 
-Coordinates with: `A.15.6` for actual project Work, project system-of-interest designation, and subject- or claim-centred case closure; `A.1.STM` for a Plain provisional long-mantra display and backward/forward attention use; `E.18.2` and `C.29` for mathematical descriptions; `A.22.CGUS` and `E.18.3` for admitted demonstrative slices; `C.30.TFS-REL` for architecture use; `C.32.CONWAY` for one qualified architecture-influence pair; `A.3.4`, `A.12`, and the A.15 family for actual transformation, causal or acting positions, Work, production, and work-to-change claims; `E.17` for publication; `E.11` for public entry and recognition; and `E.11.PUA` for using one already selected pattern to reach its first useful result.
+Coordinates with: `A.15.6` for actual project Work, project system-of-interest designation, and subject- or claim-centred case closure; `A.1.STM` for a Plain provisional long-mantra display and backward/forward attention use; `E.18.2` and `C.29` for mathematical descriptions; `A.22.CGUS` and `E.18.3` for admitted demonstrative slices; `C.30.TFS-REL` for architecture use; `C.32.CONWAY` for one qualified architecture-influence pair; `A.3.4`, `A.12`, and the A.15 family for actual transformation, causal or acting positions, Work, production, and work-to-change claims; `E.17` for publication; `E.11` for public entry and recognition; and `E.11.PUA` for obtaining the needed contribution from a selected pattern and using it in the original work.
 
 Does not replace: the direct pattern that defines or constrains any selected production, use, participation, evaluation, feedback, dependency, correspondence, supply, evidence, assurance, gate, decision, causal, or work relation. E.18.NET selects already obtaining occurrences for one network use; it does not define their kinds or make them obtain.
 
