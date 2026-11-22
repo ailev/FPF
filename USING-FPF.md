@@ -55,6 +55,8 @@ When a proposed action or evidence demand has unclear value or feasibility, use 
 
 Apply these moves within the current work. Reuse the established receiving use and sound results while their conditions hold. After an interruption or a changed assignment, recover that connection before choosing the next local move.
 
+When writing an FPF pattern, use [E.8, FPF Authoring Conventions](FPF-Spec.md#e802---what-this-buys) while choosing the practitioner’s question, the contribution and its reach. The initial incident can suggest a subject. The initiating need and the domain grounds determine whether the proposed explanation answers it. For an independent admission or refresh review of that pattern, [E.19:4.1](FPF-Spec.md#e1941---define-the-reviewed-pattern-or-subset) takes the reviewer back to the terms of the original commission before using the author’s proposed checks.
+
 ## Choose what to read
 
 If a pattern is already named, find its body directly. Otherwise search the available publications together, using terms for the difficulty and needed result. Include English technical terms when the user's language differs from the sources. You can find an individual method or a connected application without first choosing a Suite, Reference or pattern file.
