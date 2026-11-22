@@ -1,6 +1,6 @@
 # Control Architecture Design Principles Framework
 
-**Edition:** [CAD, 21 November 2026](#cadreference8---names-and-continuing-references).
+**Edition:** [CAD, 22 November 2026](#cadreference8---names-and-continuing-references).
 
 Use this framework when a control design must reconcile what can be observed in time, what the controller must remember, how decisions are divided, which commands remain feasible, and what the implementation can execute. It helps construct and compare those arrangements for an engineered dynamical system, including the choice to keep one sufficient controller.
 
@@ -71,7 +71,7 @@ The intended reader can work with state-space models, feedback laws, bounded set
 
 A controller acts on information that can be partial, old or costly to obtain. Determine when the plant must feel the effect of the command to meet its task. A later decision may come due while earlier commands are still in an actuator queue. Include those commands, the available actuation and the continuation the task requires in the model. When planning and feedback are separated, their different models and time scales add another coupling: an attractive nominal command may be impossible for the lower loop to realize.
 
-The useful result is a control architecture whose information, command meanings, error allowances and execution conditions are mutually consistent for the required task. If no tested realization qualifies, identify which ones violate the task and which remain undecided because a bound is too coarse. To rule out an information arrangement, establish that every permitted policy can encounter a situation in which its available information leaves no action that meets the requirement.
+Start with the decision the control design must support. For one installation the actual configuration can settle which dynamics matter. For a family of installations, establish where each design will be used, whether a single control law must serve the family and what the controller can know when it chooses an action. To qualify one architecture, connect its observations, command meanings, error allowances and execution conditions to the required behavior. To rule out an information arrangement, establish that every permitted policy can encounter a situation in which its available information leaves no way to meet the requirement. A coarse bound can leave that question open.
 
 CAD.5 constructs the information available to a specified controller. CAD.1–CAD.4 develop a planning-and-feedback arrangement when there is reason to separate the decisions. The two branches can be used independently. Their quantitative results connect where an estimate, command or timing claim from one enters the other.
 
@@ -88,6 +88,8 @@ The plant, sensors, actuators and controller computers are systems. A dynamical 
 In CAD.5, a *channel* is a realizable observation alternative with a measurement meaning, uncertainty, sample times, arrival conditions and resource demands. An *information state* retains what is needed to update the compatible possibilities and choose the next action. It can be a history, a sufficient recursive state or a conservative set representation; it is not necessarily another sensor or a physical control layer. The estimate $\hat x$, the true model state $x$, estimation error $\eta=x-\hat x$, nominal state $z$ and tracking error $e=x-Pz$ have different meanings.
 
 In CAD.1–CAD.4, *planner*, *tracker* and *layer* name functional contributions in a control organization. To decide how far to follow one, start with the behavior due at the plant. Which decisions supply it, which control laws implement them and which physical controllers perform them in time? Several functions may share a processor or one function may use several processors. To identify a constituent of the design Method, establish which operation its construction requires. An engineer may instead use the result of an earlier supplier test. To claim that a particular controller executed a command, use evidence of that execution. These relations let the designer change an allocation while retaining the parts of the model on which the required behavior still depends.
+
+Choose the detail of each model for the control question. If two plant states have the same planning description, could they require incompatible commands or give different answers about admissibility? Keep the distinction, establish a bound that settles the question for both, or identify the information needed before acting. When the decisions interact, check whether distinctions removed from their separate models determine which states, commands and delays are possible together. This gives the engineer grounds for using a reduced model at a particular layer. Control layers can use models of comparable detail or models that preserve different distinctions.
 
 | Recurring design question | What its Method constructs | Why the result can be needed independently |
 | --- | --- | --- |
@@ -301,7 +303,7 @@ For the domain construction, a changed plant, measurement model, uncertainty, co
 
 ## CAD.Reference:8 - Names and continuing references
 
-This is the **21 November 2026** edition of **Control Architecture Design Principles Framework (CAD)**, a constituent of the Engineering DPF Suite in FPF Library. Cite the framework and edition together with the full PatternID and section needed for the claim or calculation.
+This is the **22 November 2026** edition of **Control Architecture Design Principles Framework (CAD)**, a constituent of the Engineering DPF Suite in FPF Library. Cite the framework and edition together with the full PatternID and section needed for the claim or calculation.
 
 *Control architecture design* here means designing the organization of observations, retained information, control decisions, exchanges and execution for the engineered dynamical behavior stated in CAD.Reference:1–2. The design can retain a single controller. **CAD** is a local reference code for this named framework in FPF Library, not the general engineering abbreviation for computer-aided design.
 
@@ -324,7 +326,7 @@ For example, an inspection result can arrive after two control updates while a s
 
 This is a specialized method for **sampled linear control with bounded uncertainty**. It constructs a sufficient information arrangement for a specified control task and a given state-feedback law or a finite set of such laws. It also supplies a stronger negative result when indistinguishable situations require incompatible actions. It does not synthesize arbitrary nonlinear controllers, identify an unknown plant, or infer biological mechanisms from a control analogy.
 
-The intended practitioner can use state-space models, bounded sets and feedback laws. Start with the required controlled quantities, admissible state and input sets, operating horizon, a usable plant model, and realizable sensor and execution alternatives. The first useful result is a comparison that connects **available information → one executable action → the required continuation**, with the internal state and update needed to maintain that connection.
+The intended practitioner can use state-space models, bounded sets and feedback laws. Start with the required controlled quantities, admissible state and input sets, operating horizon, a usable plant model, and realizable sensor and execution alternatives. For one workable arrangement, connect the information available at each decision to an admissible action and the required continuation. Establish that the internal state can be updated in time with the resources available. For an architecture choice, compare the arrangements against the same control task.
 
 Retain a simpler qualified arrangement when it works. A current complete observation can remove the need to reconstruct a delayed state. An unobserved but sufficiently bounded component can remove the need for a sensor. If the only question is whether a diagram represents a constructed control structure adequately, use C.30.LCA.
 
@@ -570,7 +572,7 @@ Return according to what failed:
 
 #### CAD.5:4.9 - Make the result executable and reusable
 
-Return the selected and rejected complete arrangements with the controlled task, plant and uncertainty conditions, channel meanings and timing, initialization, internal state and update, control law, and the admissibility calculation. Make the unresolved distinction explicit if no candidate has a sufficient guarantee.
+For a feasible arrangement, return the channel meanings and timing, initialization, internal state and update, control law, and the argument for admissible behavior under the plant and resource conditions. For an impossibility result, give the conflicting histories or other grounds for exclusion. State whether they rule out an action at one decision history, the specified law, or every permitted policy from initialization. A failed sufficient calculation can leave feasibility open. For a comparison, explain which alternatives qualify, which are excluded and which remain undecided.
 
 Connect sample timestamps and identities, executed inputs and the estimator's update to the components that supply and use them in the implementation. Qualify computation and transport deadlines under the proposed shared load. Select an already qualified behavior for missing data, inconsistent data and late completion; “hold the last command” is not automatically safe.
 
@@ -737,7 +739,7 @@ A compelling biological or organizational analogy can suggest a useful design qu
 - Each observation constrains the state at its sample time; admissible sample gaps, delivery modes and resource coupling are included.
 - The internal representation can be updated without discarding a control-relevant dependence; approximations enclose all compatible states.
 - The control conclusion uses one action for the available information, and a continuing guarantee includes a valid error bound and continuation argument.
-- Serious simpler alternatives are compared under the same demand; a changed demand is not disguised as a cheaper equivalent solution.
+- One arrangement meets the commission when its information, admissible actions, required continuation and implementation fit the stated plant and resource constraints. A comparison considers alternatives under that same demand.
 - A changed delay, observation or internal-state reduction returns to the affected calculation.
 - An ablation, a failed sufficient bound and an information-based impossibility have different stated scopes.
 
@@ -803,7 +805,7 @@ A.3.3.PI supplies the general test for retaining information needed by future pr
 
 **Use this when** a control problem seems to call for different planning and reaction times, but “add a strategic, tactical and operational layer” does not tell you which decisions belong where. You may also have an inherited hierarchy whose purpose is no longer clear.
 
-Start by writing one consequential behavior that the entire closed loop must produce, together with the available observations, actuators and execution limits. Then identify the decision that prevents a direct solution. The first useful result is a candidate split and an account of what its parts must jointly preserve.
+Start from the behavior the recipient needs the whole loop to deliver, the operating conditions and the duration of the duty. For a design with several requirements, identify which must hold together and across which changes of mode. Determine which decisions could be separated and which interactions each proposed separation would have to preserve.
 
 If one qualified controller meets the task and implementation constraints, retain it. Layering needs an identified benefit; it is not a requirement for accuracy or sophistication.
 
@@ -830,17 +832,17 @@ State the controlled quantities, objective or preference, hard constraints, oper
 
 Use a centralized mathematical formulation when it helps reveal coupling, even if that formulation is too expensive to run. It can be a finite-horizon objective with dynamics and constraints, a reach-and-avoid problem, or a reference-following requirement. It is the common comparison basis, not a promise that one optimizer must solve everything.
 
-Retain a feasible simple controller as a baseline where available. State what it cannot achieve at acceptable effort: for example obstacle look-ahead, preview-dependent economy or long-horizon allocation. If the baseline's limitation is unknown, test that uncertainty before adding layers.
+When a qualified simple controller is available, establish what it achieves under the stated requirements. If it already suffices, it can answer a request for a workable architecture. For a comparison, identify the benefit another arrangement would have to provide and its cost. Use a bound, analysis, operating record or trial that can settle the remaining difference.
 
 When a qualified existing loop has adequate tracking and disturbance rejection but requested commands violate constraints, compare adding a reference or command governor before redesigning that loop. Use the joint plant-controller model, admissible initial conditions and qualified command-update rule described in [CAD.Reference:4.5.1](#cadreference451---keep-a-qualified-loop-and-govern-its-commands). Check whether the resulting command delay or distortion meets the task. If it does, retain that candidate; if it does not, identify the unmet requirement that a different interface, planner or controller must address.
 
 #### CAD.1:4.2 - Separate decisions because their information and effects differ
 
-For each consequential decision, ask what it changes, which information it needs, how long its effect persists, how quickly a wrong choice becomes harmful, and what resources its computation consumes. Cluster decisions only when those answers support one useful calculation or law.
+For each consequential decision, ask what it changes, which information it needs, how long its effect persists, how quickly a wrong choice becomes harmful, and what resources its computation consumes. Group decisions when their information, effects and timing support one useful calculation or law. For each proposed group, distinguish the control function, the operations that implement it and the equipment that executes them. Several functions may share a processor, and one function can depend on operations performed by several devices. Check the control or execution relation that matters to the original problem before drawing a part–whole conclusion from the layer diagram.
 
 A slow planning decision might choose a route, reference segment or allocation. A faster decision might reject local disturbance or track that reference. This does not imply that the faster model is less detailed: a tracking model may retain actuator dynamics omitted by a planning model.
 
-Generate materially different candidates. Compare a single loop, a planning-and-feedback split, or another separation motivated by the problem. Do not add a third layer merely because the source diagram contains three. A communication boundary can matter more than a time-scale boundary, and a faster processor can make a proposed split unnecessary.
+If the engineer is to choose how to organize control, consider keeping a single loop and derive any proposed separations from the problem. A communication boundary can matter more than a time-scale boundary, and a faster processor can remove the reason for a split. If the assignment is to assess an inherited hierarchy, trace which decisions it separates and which interactions its guarantees must cover. A demonstrated incompatibility can complete that assessment. Proposing a replacement is a further design decision.
 
 #### CAD.1:4.3 - Expose what the split removes
 
@@ -891,7 +893,7 @@ Organizational hierarchies and biological analogies make layered pictures persua
 ### CAD.1:7 - Conformance Checklist
 
 - The unsplit behavior, constraints, information and resource conditions are recoverable.
-- Each separation has a decision-specific reason and a serious alternative.
+- Each proposed separation serves a control need. An assessment of an existing separation identifies what it preserves, what it loses, and how that affects the requested behavior.
 - Removed interactions have explicit receiving treatments or remain visible gaps.
 - Slow choices include material fast consequences.
 - The compared candidates serve the same demand.
@@ -933,7 +935,7 @@ C.39 supplies the general construction of a way to obtain a result; CAD.1 suppli
 
 **Use this when** a planner and a lower controller have been chosen, but their combined behavior is not determined by their separate models. A reference jump, stale state estimate, model reset or held input may be the event that makes the connection fail.
 
-Start with one command received by the lower computation: what quantity it represents, when it applies and how it becomes an actuator action. The first useful result is the connected evolution of plant, planning state and interface error, including the events between updates.
+Recover the commands and exchanges the interface must support. Trace what each command means when issued, when it takes effect and how it becomes an actuator action. A general command rule can cover a whole class. An individual exchange can reveal a mismatch. If the guarantee covers successive commands or a switch of mode, establish the behavior across those transitions. The first useful result is the connected evolution of plant, planning state and interface error, including the events between updates.
 
 If a qualified interface supplies this evolution under the current timing and command conditions, reuse it. A diagram or a matching data type is not that result.
 
@@ -1022,7 +1024,7 @@ Give CAD.3 the combined evolution, initial-error condition, admissible command c
 
 A failed error bound has several possible repairs: change the reconstruction, retain an omitted mode, alter feedforward, reduce command jumps, supply an interpolated segment, shorten latency or choose another split. The error equation identifies which change addresses the failure. Do not reflexively raise every update rate.
 
-Test the exchange implementation with boundary events: simultaneous update, maximum permitted delay, reset, command reversal and missing command. These tests can falsify the model of the interface; they do not prove its physical assumptions.
+For a design, determine the effect of boundary events admitted by the interface contract, such as a simultaneous update, delay, reset or missing command. For a claim about an implementation, establish how it handles the events relevant to the duty. Exercise an event when its effect is unresolved and the test can distinguish the alternatives, or when the test itself is required. Such a test can expose a discrepancy with the interface model.
 
 ### CAD.2:5 - Archetypal Grounding
 
@@ -1069,7 +1071,7 @@ A common output makes unlike models appear interchangeable. Check the mapping an
 
 - The command's meaning, applicability time and between-update behavior are explicit.
 - Projection, reconstruction and controlled-output comparison are distinguished.
-- Combined error dynamics include mismatch and every update or reset mode.
+- The error dynamics include the mismatches, updates, resets and transitions admitted during the duty covered by the claim.
 - The stated initial set and timing class match the implementation being considered.
 - Estimation or delay is represented wherever the law uses it.
 
@@ -1110,7 +1112,7 @@ CAD.5:4.7 supplies the estimate-based version of the interface when exact state 
 
 **Use this when** a connected controller must respect state, output or actuator limits while following commands from another computation. The upper plan may be feasible in its own model while leaving too little authority for correction below.
 
-Start with the actual connected dynamics from CAD.2 and one limiting constraint. Derive the deviation that consumes its margin. For continuing operation, construct a command domain with an invariant error bound and an admissible continuation. For a finite duty, bound the errors through the last required instant and establish the terminal or handover conditions in :4.4. A demonstrated incompatibility returns the design for revision.
+Start with the connected dynamics and the limit or limits the proposed command domain must respect. For each consequential limit, derive how deviation consumes its margin. Establish that the admitted commands and corrections meet the required limits together. One inequality can certify all the required limits when its satisfaction entails them. A command fails the required guarantee if it violates a necessary condition or an admissible realization violates a limit. A loose sufficient bound can leave a feasible command undecided. For continuing operation, construct a command domain with an invariant error bound and an admissible continuation. For a finite duty, bound the errors through the last required instant and establish the terminal or handover conditions in :4.4. A demonstrated incompatibility returns the design for revision.
 
 A simulation establishes the behaviour of its modeled run. To extend that conclusion, show why the simulated cases or a bound cover the commands and disturbances admitted throughout the duty.
 
@@ -1314,7 +1316,7 @@ For feedback on an estimated state, CAD.5:4.7 supplies the extra forcing and inp
 
 **Use this when** several control architectures appear feasible, or a change of model, hardware, rate or operating demand can invalidate an existing arrangement. Tuning each controller independently does not decide which complete arrangement should be built.
 
-Start with the same required behavior and resource boundary for every candidate. The first useful result is a feasible whole configuration, its comparison with serious alternatives, and the conditions under which its implementation and later use remain justified.
+Recover what the recipient will decide. For a choice among architectures, compare feasible whole arrangements under the same demand and resource limits. To qualify one proposed arrangement, establish how its information, commands, dynamics and implementation fit together for the required duty. To assess whether a family of designs could work, identify the design choices allowed to vary and the operating conditions each must cover. A common incompatibility, or grounds excluding every allowed choice, can settle that question. An unsuccessful search leaves the configurations it did not rule out open.
 
 For a fixed, qualified architecture requiring only a local parameter adjustment, use the relevant controller-design method directly and reopen the whole only if that adjustment changes a relied-on interface, resource or constraint.
 
@@ -1338,6 +1340,8 @@ The problem is to choose and realize a configuration whose control, model and re
 #### CAD.4:4.1 - Form complete candidates
 
 Use C.39 to connect the required result to its supplying operations and C.32/SYSE.6 to retain whole alternatives. A candidate specifies the decomposition, model and its operating domain, exchanged command, timing and reset semantics, controller law, feasible command domain, planning continuation and implementation resources.
+
+For an assessment, follow each required behavior to the decisions and physical effects on which it depends. Determine which conditions must hold together, including how loads or delays can coincide and what the controller knows before acting. Choose the detail of each model by whether the distinctions it removes could change that conclusion. A plant-wide bound can answer a question about one output. A component certificate can answer a question about the whole loop when the interface and the other parts preserve its premises and entail the required behavior.
 
 For this comparison, distinguish the choices that define the architecture from the parameters tuned within it. The number of layers, model order, kind of command, sampling periods, planning horizon and processor arrangement can change the problem being solved. Gains, weights and numeric tolerances tune a selected construction. Changing either group can reopen the other.
 
@@ -1424,10 +1428,10 @@ A convenient cost model can favor the hardware at hand. A small parameter search
 
 ### CAD.4:7 - Conformance Checklist
 
-- Complete candidates are compared under the same task and constraints.
+- An assessment answers the stated question about the proposed configuration or design family. A comparison uses the same required behavior and constraints for each alternative.
 - Connected feasibility and continuation are established before performance ranking.
 - A convergence or optimality claim has its own applicable grounds.
-- Execution, communication and scheduling assumptions fit the implemented arrangement.
+- A design conclusion states its execution, communication and timing premises. A conclusion about an installation establishes the premises that matter there.
 - Search limits and unresolved candidates are visible.
 - When conditions change or a fallback is used, the designer identifies any premises that have changed and rechecks the conclusions that depend on those premises.
 

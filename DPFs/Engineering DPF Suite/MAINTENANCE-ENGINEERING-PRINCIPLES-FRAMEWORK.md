@@ -2,7 +2,7 @@
 
 **DocID:** `MNT` within **FPF Library**.
 
-Anatoly Levenchuk · Release: 21 November 2026
+Anatoly Levenchuk · Release: 22 November 2026
 
 Original framework content © 2026 Anatoly Levenchuk, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Third-party sources retain their own terms.
 
@@ -54,7 +54,7 @@ Search for the maintenance difficulty or result you need. Dependencies identify 
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 9 | [MNT.9 - Perform and Record the Maintenance Intervention](#mnt9---perform-and-record-the-maintenance-intervention) | Stable | *Keywords:* performed maintenance, deviation, interruption, actual parts, work record. *Query:* "What work occurred and in what resulting state?" Perform within operative conditions and preserve useful intervention evidence. | [MNT.6](#mnt6---diagnose-condition-and-choose-a-maintenance-response), [MNT.8](#mnt8---isolate-make-safe-and-authorize-the-maintenance-intervention); [FPF A.13](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a13---the-agential-role--agency-spectrum), [FPF A.15.1](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a151---uwork-dated-performed-work-occurrence) |
+| 9 | [MNT.9 - Perform and Record the Maintenance Intervention](#mnt9---perform-and-record-the-maintenance-intervention) | Stable | *Keywords:* performed maintenance, deviation, interruption, actual parts, work record. *Query:* "What work occurred and in what resulting state?" Carry out the commissioned work within its operative conditions, or establish what occurred from applicable evidence when that is what the receiver asks. | [MNT.6](#mnt6---diagnose-condition-and-choose-a-maintenance-response), [MNT.8](#mnt8---isolate-make-safe-and-authorize-the-maintenance-intervention); [FPF A.13](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a13---the-agential-role--agency-spectrum), [FPF A.15.1](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a151---uwork-dated-performed-work-occurrence) |
 | 10 | [MNT.10 - Verify Restored Functioning after Maintenance](#mnt10---verify-restored-functioning-after-maintenance) | Stable | *Keywords:* restored function, representative load, verification, test limits. *Query:* "What required functioning does the evidence support?" Check the actual resulting configuration and return qualified functioning evidence. | [MNT.9](#mnt9---perform-and-record-the-maintenance-intervention); [FPF B.3](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#b3---is-this-claim-supported-for-this-use--trust-and-assurance-calculus), [FPF A.10](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a10---evidence-graph-referring-claim-bound-evidence-and-provenance-graph), [FPF C.16](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c16---measurement--metrics-characterization-mmchr) |
 | 11 | [MNT.11 - Hand Back and Authorize Resumed Use after Maintenance, with Certification Where Required](#mnt11---hand-back-and-authorize-resumed-use-after-maintenance-with-certification-where-required) | Stable | *Keywords:* hand-back, release, certification, control, resumed use. *Query:* "Who can resume which use of the returned System?" Reconcile functioning, state and applicable release conditions while transferring control. | [MNT.8](#mnt8---isolate-make-safe-and-authorize-the-maintenance-intervention), [MNT.9](#mnt9---perform-and-record-the-maintenance-intervention), [MNT.10](#mnt10---verify-restored-functioning-after-maintenance); [FPF A.2.8.PER](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a28per---granted-permission-exercise-and-non-prohibition) |
 
@@ -65,7 +65,7 @@ Search for the maintenance difficulty or result you need. Dependencies identify 
 | 12 | [MNT.12 - Maintain Maintenance Information and Configuration Continuity](#mnt12---maintain-maintenance-information-and-configuration-continuity) | Stable | *Keywords:* maintenance history, serial unit, configuration, effectivity, event coding. *Query:* "Which history and description apply to this installed state?" Restore event and configuration continuity for the receiving decision. | [SYSE.13](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse13---establish-configuration-identity-variants-and-effectivity); [MNT.3](#mnt3---establish-degradation-and-failure-evidence-for-maintenance), [MNT.9](#mnt9---perform-and-record-the-maintenance-intervention) |
 | 13 | [MNT.13 - Coordinate the Maintenance Programme and Fleet Learning](#mnt13---coordinate-the-maintenance-programme-and-fleet-learning) | Stable | *Keywords:* fleet, programme, failure rate, exposure, support, improvement. *Query:* "What programme decision does comparable fleet evidence support?" Return a qualified programme decision with its population and causal limits. | [MNT.2](#mnt2---select-and-reopen-the-maintenance-policy), [MNT.5](#mnt5---prepare-maintenance-service-capability-spares-tools-and-authority), [MNT.12](#mnt12---maintain-maintenance-information-and-configuration-continuity); [FPF E.23](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#e23---quality-improvement-loop-method) |
 | 14 | [MNT.14 - Compare Maintenance Methods for Retention or Change](#mnt14---compare-maintenance-methods-for-retention-or-change) | Stable | *Keywords:* Method comparison, predictive maintenance, practical worth, variant, refresh. *Query:* "Should this way of obtaining maintenance results be retained or replaced?" Compare the same use and whole burden, with conditional trials and useful retain decisions. | [MNT.2](#mnt2---select-and-reopen-the-maintenance-policy), [MNT.13](#mnt13---coordinate-the-maintenance-programme-and-fleet-learning); [FPF C.11.MV](../../FPF-Spec.md#c11mv---compare-the-worth-of-a-method-option), [FPF A.3.1.MV](../../FPF-Spec.md#a31mv---construct-and-maintain-a-method-variant) |
-| 15 | [MNT.15 - Reconcile Simultaneous Maintenance, Operation, and Support Work](#mnt15---reconcile-simultaneous-maintenance-operation-and-support-work) | Stable | *Keywords:* simultaneous work, shared specialist, overload, fallback, coordination. *Query:* "Why do individually feasible jobs fail together?" Resolve shared demands and moved burden at the whole-combination scope. | [MNT.5](#mnt5---prepare-maintenance-service-capability-spares-tools-and-authority), [MNT.6](#mnt6---diagnose-condition-and-choose-a-maintenance-response), [MNT.7](#mnt7---coordinate-maintenance-intervention-and-continuing-operation); [FPF C.32.MWA](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c32mwa---synthesize-an-architecture-account-of-methods-and-their-use); [FPF C.32.MWA.PP](../../FPF-Spec.md#c32mwapp---construct-and-compare-method-performance-and-provision-arrangements) |
+| 15 | [MNT.15 - Reconcile Simultaneous Maintenance, Operation, and Support Work](#mnt15---reconcile-simultaneous-maintenance-operation-and-support-work) | Stable | *Keywords:* simultaneous work, shared specialist, overload, fallback, coordination. *Query:* "Can these jobs and their shared support be provided together?" Resolve shared demands and moved burden at the whole-combination scope. | [MNT.5](#mnt5---prepare-maintenance-service-capability-spares-tools-and-authority), [MNT.6](#mnt6---diagnose-condition-and-choose-a-maintenance-response), [MNT.7](#mnt7---coordinate-maintenance-intervention-and-continuing-operation); [FPF C.32.MWA](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c32mwa---synthesize-an-architecture-account-of-methods-and-their-use); [FPF C.32.MWA.PP](../../FPF-Spec.md#c32mwapp---construct-and-compare-method-performance-and-provision-arrangements) |
 | 16 | [MNT.16 - Deliberately Continue and Change Maintenance Culture](#mnt16---deliberately-continue-and-change-maintenance-culture) | Stable | *Keywords:* maintenance culture, transmission, enactment, recognition, retention. *Query:* "Is the practice being continued or changed?" Separate availability, actual use and effects, and select a supported continuation. | [MNT.13](#mnt13---coordinate-the-maintenance-programme-and-fleet-learning), [MNT.14](#mnt14---compare-maintenance-methods-for-retention-or-change); [FPF C.36](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c36---cultural-evolution-and-cultural-evolution-engineering) |
 
 # Maintenance Engineering and Management Principles Framework Readme
@@ -73,6 +73,8 @@ Search for the maintenance difficulty or result you need. Dependencies identify 
 ## Practical entries
 
 Maintenance methods connect a condition or failure account with the result someone needs, such as advice, a selected intervention, functioning evidence, return to use or a programme decision. Which result is needed depends on the work that will use it. A suitable spare supports readiness; readiness and an operating allowance support a feasible intervention; performed work identifies the configuration to be tested; functioning evidence supports the receiving operating decision.
+
+Start with the maintenance request you have to answer. Who needs the result, what will they do with it and which choices have they entrusted to you? If you are designing an investigation or policy, make a first proposal from the work before reading the cases below. Choose the equipment, work or service whose condition matters and the distinctions that could change the answer. If a procedure already supplies those choices, decide what its use can establish for this request. The [Architectural Reference](#mntreference6---applying-and-checking-the-whole-language) develops this choice from the receiver’s task. Compare your result with the original request when you return from a method or worked case.
 
 These examples show the methods at work. Enter where the question starts, using adequate existing results. The [Table of Contents](#table-of-contents) provides direct pattern access, and the [Architectural Reference](#maintenance-engineering-and-management-principles-framework-architectural-reference) explains the shared conditions and boundaries. You can ask an assisting agent to explain a pattern or comment on your case in the language of your work, without framework jargon.
 
@@ -88,7 +90,7 @@ The cases are constructed. Their equipment, operating, protection and measuremen
 
 1. **Establish the condition and failure evidence for the choice.** In [PS17](#mntapplication1---app-mnt-01--ps17-advice-selected-intervention-and-return-to-use), the question concerns PumpTrain-PS17-B, configuration C41. Use [MNT.4 - Monitor and Interpret System Condition for Maintenance](#mnt4---monitor-and-interpret-system-condition-for-maintenance) to interpret the abnormal, increasing vibration at the bearing location under comparable duty. With [MNT.3 - Establish Degradation and Failure Evidence for Maintenance](#mnt3---establish-degradation-and-failure-evidence-for-maintenance), use the separate inspection and diagnostic findings for that machine: the rolling contact has a localized defect, while the mounting and lubrication findings support replacement under the unchanged design basis.
 2. **Finish the bounded recommendation.** The supplied operating assessment permits a lower-duty arrangement that meets present service needs until the planned outage two days away, while its condition and protection limits hold. Normal demand then returns. Use [MNT.6](#mnt6---diagnose-condition-and-choose-a-maintenance-response) with that temporary operating allowance and the identified defect to recommend replacement at the suitable outage. The two days are a service boundary, not a predicted failure time. The readiness check under [MNT.5 - Prepare Maintenance Service Capability, Spares, Tools, and Authority](#mnt5---prepare-maintenance-service-capability-spares-tools-and-authority) finds the spare physically available, but the specialist has yet to confirm its applicability. The advice is complete; replacement cannot begin. Compatible information, tools and provider preparation can continue.
-3. **Test the whole window after the missing support is supplied.** Suppose the specialist confirms applicability and the intervention is selected. Apply [MNT.7 - Coordinate Maintenance Intervention and Continuing Operation](#mnt7---coordinate-maintenance-intervention-and-continuing-operation) with the separate four-hour operating allowance for reduced-capacity operation. Thirty minutes for shutdown and isolation, 95 for intervention, 45 for controlled testing, 25 for restoration and hand-back, and 30 for contingency total 225 of the 240 minutes. Ninety minutes of preparation occurs before the outage. A further twenty-minute demand beyond all included allowances raises the total to 245: revise the arrangement rather than consume required testing or hand-back time.
+3. **Test the whole window after the missing support is supplied.** Suppose the specialist confirms applicability and the intervention is selected. Apply [MNT.7 - Coordinate Maintenance Intervention and Continuing Operation](#mnt7---coordinate-maintenance-intervention-and-continuing-operation) with the separate four-hour operating allowance for reduced-capacity operation. Thirty minutes for shutdown and isolation, 95 for intervention, 45 for controlled testing, 25 for restoration and hand-back, and 30 for contingency total 225 of the 240 minutes. Ninety minutes of preparation occurs before the outage. An additional twenty minutes of sequential work beyond all included allowances raises the elapsed total to 245: revise the arrangement rather than consume required testing or hand-back time.
 4. **Perform the selected work.** Use [MNT.8 - Isolate, Make Safe, and Authorize the Maintenance Intervention](#mnt8---isolate-make-safe-and-authorize-the-maintenance-intervention) to establish the protection and permission required for the intervention. An uncontrolled shared energy path prevents the affected work from starting. When those conditions are met, use [MNT.9 - Perform and Record the Maintenance Intervention](#mnt9---perform-and-record-the-maintenance-intervention) to perform and record the replacement of bearing R551 with compatible R607. The resulting configuration is C42. Use [MNT.12 - Maintain Maintenance Information and Configuration Continuity](#mnt12---maintain-maintenance-information-and-configuration-continuity) to connect the C41 condition history to those events and the C42 test.
 5. **Return functioning and control at their supported scope.** Use [MNT.10 - Verify Restored Functioning after Maintenance](#mnt10---verify-restored-functioning-after-maintenance) with C42, the applicable acceptance basis and the representative run to judge the immediate-duty claim. A failed flow result returns to diagnosis or engineering while the performed intervention remains recorded. With adequate functioning evidence, use [MNT.11 - Hand Back and Authorize Resumed Use after Maintenance, with Certification Where Required](#mnt11---hand-back-and-authorize-resumed-use-after-maintenance-with-certification-where-required) to reconcile the returned state, obtain any required certification and resumed-use decision, and transfer control. If the receiving authority is unavailable, the test result survives but the intended permission remains outstanding. Return the tested duty and horizon with the permission.
 
@@ -103,7 +105,7 @@ A lost standby train reopens the earlier operating allowance; a finding that a s
 - **Stop or return:** Retain an adequate current policy or fix a known support deficiency on its existing basis. Further inquiry is selected only for a worthwhile attainable answer.
 
 1. **Make the comparison mean the same thing.** In the [48-pump case](#mntapplication2---app-mnt-02--a-fleet-comparison-that-reverses-when-exposure-is-counted), twenty pumps have four relevant failures over 20,000 operating hours; 28 have six over 56,000 hours. The crude rates are 0.20 and approximately 0.107 events per 1,000 hours. Counts favor the first group, rates the second. [MNT.3](#mnt3---establish-degradation-and-failure-evidence-for-maintenance) establishes what counts as a failure, and [MNT.12](#mnt12---maintain-maintenance-information-and-configuration-continuity) attaches events and exposure to the components and intervals to which they belong.
-2. **Propagate a corrected history before changing the policy.** If two of the second group's six records are preventive removals, correct that event classification and the affected rate. Duty, component histories and selection into the groups still limit any causal policy comparison.
+2. **Propagate a corrected history before changing the policy.** If two of the second group's six records are preventive removals, correct that event classification and the affected rate. If only those two records are in doubt and total exposure is settled, even the largest possible rate in the second group is below the first group’s 0.20 per 1,000 hours. Duty, component histories and selection into the groups still limit any causal policy comparison.
 3. **Keep a policy decision separate from a support decision.** Use [MNT.2 - Select and Reopen the Maintenance Policy](#mnt2---select-and-reopen-the-maintenance-policy) to decide whether to retain the current task. You can retain it where the failure-and-response basis remains adequate. The weak comparative data do not establish that adequacy. With [MNT.13](#mnt13---coordinate-the-maintenance-programme-and-fleet-learning) you can separately decide to correct the known shortage, using [MNT.5](#mnt5---prepare-maintenance-service-capability-spares-tools-and-authority) to establish readiness for the upcoming task. A broader redesign of recurring support returns to the relevant enabling-arrangement practice; it need not wait for a causal fleet study.
 4. **Compare the proposed method at the response it can improve.** Use [MNT.14 - Compare Maintenance Methods for Retention or Change](#mnt14---compare-maintenance-methods-for-retention-or-change) to compare the online predictor with current periodic interpretation at the same maintenance use. In its case, existing provider information shows no improvement in feasible response: the same specialist and part constraints dominate, while integration and interpretation add work. Retain the present method for that use and address support. For another family, rapidly changing condition and an available response may warrant reopening the comparison.
 
@@ -164,6 +166,8 @@ Other questions use different connections. [MNT.12](#mnt12---maintain-maintenanc
 
 **Constituent actions in ongoing work.** During a repair, a diagnostic observation may constitute part of locating the fault, and fault location may be part of restoring the equipment's required functioning. The relevant skills lie at several grains: handling the instrument, interpreting the reading under the operating conditions and coordinating the intervention with the maintained service. If the service must remain available through standby equipment, a diagnostic action that would disable that standby changes the whole arrangement. [MNT.15](#mnt15---reconcile-simultaneous-maintenance-operation-and-support-work) compares the affected commitments; B.1.5.EW helps expose the connection. Completed diagnosis leaves the repair, functioning and hand-back questions with their own Methods.
 
+To design a maintenance method, decide which operations it needs and how one result becomes usable by another. A specialist may supply a finding from earlier work, or the order may require a separate inspection now. Establish what the agreement requires before assigning the work. To explain a completed restoration, follow the performances, the configuration on which each acted and the result the next performer actually used. A method description supports a claim about the intended arrangement. A dated record can establish an act even when the person using that record had no part in the inspection.
+
 ## MNT.Reference:3 - What the principal objects mean in practice
 
 A maintained System is the equipment or other System whose contribution is at issue. A part is a constituent; a part number can describe many such individuals. A configuration is the relevant actual arrangement and values over an interval; a configuration description carries claims about it.
@@ -198,11 +202,13 @@ This arrangement has a cost: users sometimes need to reconcile several qualified
 
 ## MNT.Reference:6 - Applying and checking the whole language
 
-Begin by asking what the recipient needs now. Reuse enough identification and evidence to answer that question; select more work only when it can change the answer or satisfies an operative requirement. Continue into physical intervention only when that work is selected and its conditions are met.
+Start with what the recipient must decide, obtain or do. For a decision about taking equipment out of service, trace the service to the parts, connections and standby arrangements that could change the answer. At each scale, keep the distinctions the recipient needs. If two installations look alike in the model but only one can continue serving its users during an outage, establish which configuration will be used, retain the distinguishing connection, or find a bound that settles the decision for both. A qualified result for the whole service can already suffice.
 
-Start with the decision the recipient can make. To decide whether a pump can be taken out of service, follow the promised service to any standby, supply or operating arrangement that could change the answer while the facts about the pump stay the same. For the work, identify which operations its Method requires, who can perform them, and which dated performances actually belonged to the job. A supplier's inspection can provide evidence for the decision. Use its record for the configuration, duty and period it covers. Keep a distinction in the model when it changes what the recipient can recommend, promise or authorize. A qualified result for the whole service can already suffice.
+Follow the relations the conclusion requires. For simultaneous service, establish which unit states and loads can occur together. For successive operations, establish what the first leaves available to the next. For a rule covering alternative operating conditions, establish that the conditions cover the required cases and that the rule gives a warranted answer in each. An aggregate measure can settle a service-wide threshold while concealing a shortage at a particular outlet.
 
-Use the checklist for the result you need. If a recommendation is the request, the supported advice and its action-changing limits complete it. Returning the equipment to service requires the applicable protection, functioning evidence and permission.
+For a proposed admission rule, specify who can authorize intervention, the information available before they decide, and how admitting a job will preserve the service owed while other permitted jobs are in progress. A qualified rule can admit work conditionally before particular jobs or resources have been assigned. If users already have a right to start under specified conditions, show how the rule honors that right as well as protecting service. A rule that defers every job cannot meet a promise of access to maintenance.
+
+When the question concerns the organization of the maintenance work, identify the operations the Method requires and who can perform them. For an account of a particular job, establish which performances belonged to it. A supplier's earlier inspection can provide applicable evidence even when that inspection was outside the job. Use sufficient existing grounds for a recommendation. To return equipment to operation, establish the required protection, functioning and permission.
 
 When using the framework, avoid reading the Parts as stages, treating a closed work order as restored service, taking a prediction score as maintenance value and mistaking a published Method for its adoption. The relevant corrections are embedded in [MNT.6](#mnt6---diagnose-condition-and-choose-a-maintenance-response), [MNT.9](#mnt9---perform-and-record-the-maintenance-intervention)–[MNT.11](#mnt11---hand-back-and-authorize-resumed-use-after-maintenance-with-certification-where-required), [MNT.14](#mnt14---compare-maintenance-methods-for-retention-or-change) and [MNT.16](#mnt16---deliberately-continue-and-change-maintenance-culture).
 
@@ -227,6 +233,8 @@ Use the relevant result from a neighbouring practice. Consult its publication if
 ## MNT.Reference:9 - Returns to engineering and operating practice
 
 Use [SYSE.12](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse12---develop-or-retain-an-engineering-platform-for-practitioner-work) for enabling-platform questions and [SYSE.13](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse13---establish-configuration-identity-variants-and-effectivity) for configuration. The relevant OPS results support management of maintenance Work and provision.
+
+For a maintenance decision that depends on a controller, distinguish the command recorded, the action the equipment took, the condition observed and the use of that observation in the next decision. A receipt can establish issuance of a command when it identifies that event. A logging channel can preserve a reading that never reached the controller in time. If selection of observations or retained state for control is the open design question, [CAD.5:4.1](CONTROL-ARCHITECTURE-DESIGN-PRINCIPLES-FRAMEWORK.md#cad541---fix-the-action-time-and-the-control-relevant-distinctions) works from the actions that must remain feasible at the decision time. Bring the resulting observation, timing and operating assumptions back to the maintenance claim.
 
 For related explanations across the engineering languages, use the [Engineering DPF Suite Reference](ENGINEERING-DPF-SUITE-REFERENCE.md). Direct governing Methods remain with FPF and the named DPF patterns. A source catalogue can help you find the governing work. Its entry provides no independent confirmation of a claim from that work.
 
@@ -274,7 +282,7 @@ A narrow boundary keeps the question answerable, but omitting a shared dependenc
 
 Begin with the requested result: condition interpretation, policy choice, intervention recommendation, actual repair, functioning evidence or return to use. Ask what decision will consume it and by when. This often resolves apparent disagreement: the engineer can finish advice today although the repair remains unready.
 
-Locate the actual unit and maintenance-relevant configuration. Reconcile its tag with installed constituents and applicable descriptions only where a difference could change the answer. For a bearing decision, the actual bearing arrangement and shaft assembly matter; an unrelated cabinet-label discrepancy may not. Keep an unknown configuration detail open. If a decision needs it, resolve it or identify the decision it still prevents.
+For an individual job, locate the actual unit and maintenance-relevant configuration. For a proposed policy, identify which installations, duties and times its terms would cover. A request about one recorded inspection can start with the item and time in that record. Reconcile its tag with installed constituents and applicable descriptions only where a difference could change the answer. For a bearing decision, the actual bearing arrangement and shaft assembly matter; an unrelated cabinet-label discrepancy may not. Keep an unknown configuration detail open. If a decision needs it, resolve it or identify the decision it still prevents.
 
 State required functioning as an observable contribution under an operating envelope. For example, “circulate heating water for the east district at the agreed seasonal flow and pressure” is more useful than “pump healthy.” Include the horizon, permissible loss of service and any qualified fallback. Obtain those operating values from the party responsible for operation.
 
@@ -283,6 +291,8 @@ Then trace the few interactions that can change the decision. A shared electrica
 Recover control at the point where it matters. Establish who can request and receive advice, permit access, stop operation, authorize the proposed intervention and resume use. The same participant may hold several of these roles, but possession of one authority does not establish the others. For an advice-only request, resolve only authority questions that constrain the recommendation or its interpretation.
 
 Return the bounded question in the existing work discussion or record. For example: “For this unit and configuration, under this required use and horizon, decide this maintenance question; this operating limit and this unresolved fact can change the answer.” A separate inventory or new form is unnecessary when the current record already supplies those values.
+
+If the requester has specified a test, decide whether they require its performance, its result for an operating decision, or both. A valid earlier finding may settle the decision. When the job is to devise a test, choose which conditions and observations distinguish answers that would change the receiver’s action. A supplied test can leave interpretation to the engineer. Identify who actually chose the test before using this work as evidence of that ability.
 
 For a consequential reliance claim, inspect the identity evidence, operating-source applicability and actual permission basis. Recognition of the right equipment is a lighter claim than assurance that a proposed act is permitted. A disagreement about the merits of a requirement belongs in a separate appraisal under [FPF C.11.DUA](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c11dua---make-advice-and-evidence-demands-worth-their-burden); it does not silently alter present authority.
 
@@ -302,7 +312,7 @@ Equipment registers favour named, owned assets. Shared utilities, contractor acc
 
 ### MNT.1:7 - Conformance Checklist
 
-For the requested use, can the recipient identify the unit being maintained and the configuration distinctions that affect the answer? Is required functioning tied to the relevant operating envelope and horizon? Are material service dependencies and loss allowances supported? Are access, intervention and resumed-use authorities distinguished where they change the next act?
+For the requested use, can the recipient identify the item or range the claim concerns and the configuration distinctions that affect the answer? If a finding about a constituent decides a question about service, what supports the connection under the required operating conditions? Is required functioning tied to the relevant operating envelope and horizon? Are material service dependencies and loss allowances supported? Are access, intervention and resumed-use authorities distinguished where they change the next act?
 
 An adequate existing answer closes this identification task. These questions do not require a complete inventory, a new permission record for advice or examination of unaffected constituents.
 
@@ -357,7 +367,7 @@ Prevention can avoid an expensive failure but consume useful component life and 
 
 Start from the required function and a failure account sufficient to distinguish policy alternatives. Identify the loss of function, credible mechanisms and consequences. When one policy covers several mechanisms, check each mechanism that could justify a different task. Retain uncertainty where it matters rather than inventing a lifetime distribution from sparse events.
 
-Construct the plausible task alternatives. Use the table to compare when each task family can work and what can defeat it.
+If the choice is open, construct plausible alternatives. For an assignment to assess one prescribed policy, test its requirements directly. Compare other policies when the decision calls for a recommendation, a better choice or a conclusion about which alternatives can work. Use the table to compare when each task family can work and what can defeat it.
 
 | Task family | What can make it useful | What can defeat it |
 | --- | --- | --- |
@@ -374,6 +384,8 @@ For condition-based work, reason across the complete response. The usable interv
 Compare alternatives using the receiving use's relevant values: loss of service, exposure, labour, material, disturbance, environmental effects and uncertainty. Use comparable operating horizons and state deliberately accepted trade-offs. Existing evidence may settle the choice. Select further investigation only when an attainable answer could change it enough to justify acquisition, interpretation, delay and displaced work.
 
 State the chosen policy in actionable terms. Name the applicable population or configuration, task, trigger or interval basis, relevant support assumptions, response to an out-of-scope condition and the evidence or changed use that would reopen it. Where an operative requirement fixes a task, preserve its current force. A separate merits appraisal may support a request to the authorized rule holder; it does not authorize unilateral relaxation.
+
+For a guarantee across installations, ask whether the chosen rule can be followed with the observations, authority and support available by each decision time. Two different alarms can call for separate work by the same specialist in one window. A successful response to either alarm alone settles the individual case. Whether both can be served depends on which alarms may coincide, what work can serve both and what time is available. A common operating limit can settle the policy question across a family before any member has failed.
 
 #### MNT.2:4.1 - Turn a task family into a usable policy
 
@@ -401,7 +413,7 @@ When the forecasting or response rule itself needs development, use FPF C.40:4.7
 
 If model fitting is useful, one implementation tunes the prognostic model using a loss derived from the interventions selected by a chosen policy. Keep that policy's windows and consequences with the fitted model. Such tuning can improve maintenance decisions while worsening a prediction score; any required probability calibration claim still needs its own support. Use [MNT.3](#mnt3---establish-degradation-and-failure-evidence-for-maintenance) for a supported failure and task-effect account, including lifetimes censored by replacement. Keep consequences estimated through that account distinct from outcomes observed in maintenance.
 
-Select a feasible change when the current observations, applicable model or reasoned expert estimate make its expected benefit worth its complete burden under the relevant uncertainty. Use ranges, scenarios or a qualitative comparison when they are sufficient. Return the policy and the next executable preparation or intervention decision, with the assumptions whose change could reverse the choice. New data or a trial are needed only when their attainable contribution warrants the burden; a reasonable estimate can justify acting before an improvement has been observed.
+Select a feasible change when the current observations, applicable model or reasoned expert estimate make its expected benefit worth its complete burden under the relevant uncertainty. Use ranges, scenarios or a qualitative comparison when they are sufficient. Return the assessment or proposed rule at the scope commissioned, with the assumptions whose change could reverse the choice. For an implementation decision, establish the authority, preparation and intervention the selected arrangement requires. A reasonable estimate can justify acting before the improvement is observed. Seek additional evidence for this decision when its attainable contribution warrants the burden. An agreed trial can also be a deliverable in its own right.
 
 #### MNT.2:4.2 - Compare recurring age-replacement costs when that model fits
 
@@ -418,7 +430,7 @@ Compare feasible ages, including continued operation to failure where admissible
 
 ### MNT.2:5 - Archetypal Grounding
 
-For PS17, the constructed condition history supports a bearing-related deterioration concern. The team retains a condition-informed policy for this failure family because the interpreted signal can support a planned response in the stated use. The present recommendation still depends on whether the needed support and access are available; an alarm alone does not establish that replacement can fit the next outage.
+For PS17, the constructed condition history supports a bearing-related deterioration concern. For this configuration and duty, suppose the existing failure and response evidence also covers the task’s detection, warning and response requirements. The team can retain the condition-informed policy in that range. The reading on PS17 can trigger that policy here. Extending it to other installations requires grounds for the conditions on which it relies there. The present recommendation still depends on whether the needed support and access are available; an alarm alone does not establish that replacement can fit the next outage.
 
 Consider instead a cheap, accessible indicator lamp whose failure is obvious and has no protection role. If its loss and replacement demand are acceptable, deliberate run-to-failure can be a sound policy. Scheduling repeated intrusive replacement needs an additional gain to justify its burden.
 
@@ -466,6 +478,8 @@ Breakdowns are conspicuous; unnecessary preventive work and failures introduced 
 Does the policy address a stated functioning loss and credible failure behaviour? Can the selected task detect, prevent, mitigate or restore the relevant failure in time? Are consequence, support and task-induced effects considered where they distinguish the alternatives? Is the chosen applicability and trigger usable by the intended practitioner?
 
 A retain decision can close the question. New trials, a complete failure model and numerical optimization are warranted only when their obtainable contribution changes this choice.
+
+If the engineer was asked to design a rule, can the recipient see which triggers, actions and limits the engineer selected and why they cover the commissioned use? A correct response to a trigger supplied by someone else can finish an order to apply the rule.
 
 ### MNT.2:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -522,7 +536,7 @@ State the functioning question and the failure claim that would change the decis
 
 Establish what the available evidence covers. For a physical component, this can include operating conditions, measurements, photographs, inspection returns, installation and removal facts, applicable configuration and the sequence of earlier work. Preserve when and how observations were obtained. An occurrence reconstructed from an operator's report has a different evidential limit from a directly inspected fracture surface.
 
-Build the smallest useful causal account. Connect the required function to the observed departure, candidate mechanism, local effect, System effect and consequence. A short table can keep alternatives visible:
+Build the causal account the decision needs. For an event classification the inspection and event definition can suffice. When the question concerns loss of service, follow the candidate mechanism from the affected item through its actual connection and operating state to the consequence. A standby may have kept the service available throughout the local failure. Establish a past interruption from evidence of what actually occurred. A short table can keep alternatives visible:
 
 | Candidate explanation | Observation it explains | Evidence that could change the maintenance choice |
 | --- | --- | --- |
@@ -536,7 +550,7 @@ If you need to construct a causal account for the maintenance question or work o
 
 Distinguish what is supported, what remains plausible and what is contradicted. Do not turn a possibility into a cause by placing it in a fault-tree box. Where several explanations support the same immediate recommendation, return that recommendation's evidential basis and leave the stronger causal claim unresolved. Where the alternatives require different actions, identify the smallest attainable observation that could discriminate them.
 
-For population claims, recover the denominator and observation process. Operating hours, starts, cycles, calendar exposure and units under observation answer different questions. A unit still operating at the end of observation has a known survival interval, not a known eventual lifetime. A preventive removal ends or changes that component's exposure; an overhaul may not restore it to an as-new state. Treat those distinctions explicitly before fitting or comparing a failure model.
+For a population claim, identify what counts, the observation process and the coverage needed for that claim. One confirmed event establishes occurrence. A complete count needs coverage of the eligible events, and a rate also needs the exposure appropriate to its denominator. Operating hours, starts, cycles, calendar exposure and units under observation answer different questions. A unit still operating at the end of observation has a known survival interval, not a known eventual lifetime. A preventive removal ends or changes that component's exposure; an overhaul may not restore it to an as-new state. Treat those distinctions explicitly before fitting or comparing a failure model.
 
 When selecting an investigation, compare its obtainable contribution with the whole burden. Include the effect of delay, disturbance, specimen preservation and specialist interpretation. A low-value inquiry can stop while an adequate maintenance answer remains available. If a claim has high consequence, use the applicable evidence and assurance rules for that claim; more records alone do not establish it.
 
@@ -550,7 +564,7 @@ The planner can therefore give the recommendation now. If the selected intervent
 
 The 48-pump example exposes a different error. Group A has four relevant failure events in 20,000 operating hours; group B has six in 56,000. The comparable crude event rates are 0.20 and approximately 0.107 per 1,000 hours. The first group has fewer events but a higher exposure-adjusted rate. Neither comparison proves a causal policy difference: operating conditions, component histories, event coding and selection may differ.
 
-If two of the six records are preventive removals, even that crude rate needs correction before use. Return the corrected event classification and the failure account it supports. The corrected rate alone does not determine a lifetime distribution.
+If two of the six records are preventive removals and exposure stays at 56,000 hours, the corrected rate is 4/56,000, about 0.071 events per 1,000 hours. Even if the classification of those two records is unresolved, group B has at most six failures on that exposure. Its crude rate is lower than group A’s under either classification. Return that comparison now if requested. An exact rate for B still needs the classification or another sufficient result. The rates alone leave the lifetime distribution open.
 
 ### MNT.3:6 - Bias-Annotation
 
@@ -617,6 +631,8 @@ Find the relevant reference: an applicable baseline, a specialist interpretation
 
 Reconcile conflicting channels by their subject and conditions before averaging them. A local temperature rise and a vibration change can concern different mechanisms. A sensor replacement can explain a discontinuity. Missing data can mean a lost measurement, a stopped machine or an unobserved interval; choose only the interpretation that the available evidence supports.
 
+For a claim about the equipment or service, identify what connects the measured point to the required function. Consider configurations in which the instrument would give the same indication with different delivery to the receiver. Follow the branch, valve state or operating mode that distinguishes those configurations if it affects the decision. A measurement at the point of delivery, or a supported bound valid in every relevant configuration, can already decide a threshold question. A mean over an interval can answer a mean limit while leaving a short excursion unresolved.
+
 Return three claims separately where needed: what was observed, what condition is inferred and what is forecast. For a forecast, state horizon, future-duty assumptions and uncertainty relevant to the decision. If those assumptions do not cover the planned duty, limit the forecast's use instead of presenting its central estimate as a deadline.
 
 Consider whether more monitoring is worthwhile. Ask which obtainable observation could change the maintenance response, when it would arrive, whether interpretation and response capability exist and what work it would displace. A technically improved predictor needs a maintenance-use gain to justify deployment. Conversely, a simple repeat measurement can be valuable when it cheaply distinguishes a changed instrument from a real deterioration.
@@ -647,7 +663,7 @@ Visible channels draw attention away from unmeasured mechanisms and missing inte
 
 ### MNT.4:7 - Conformance Checklist
 
-Is the condition question clear? Are measurand, operating context and comparison basis adequate for the inference? Are observations, inferred condition and forecasts distinguishable? Are missing data, uncertainty and future-duty assumptions retained where they change use? Can the intended recipient act on the account or identify its limit?
+Is the condition question clear? Are measurand, operating context and comparison basis adequate for the inference? Are observations, inferred condition and forecasts distinguishable? Are missing data, uncertainty and future-duty assumptions retained where they change use? Does the observation or a supported relation cover the location, time and use the recipient is judging? If a new reading was commissioned, can its performance be established? When the order is only for an answer, a sufficient existing observation can finish it.
 
 Further monitoring is warranted only when what it could add to the decision justifies its full burden.
 
@@ -655,7 +671,7 @@ Further monitoring is warranted only when what it could add to the decision just
 
 A dashboard colour is treated as a diagnosis. Recover the observed quantity, reference and supported inference. A remaining-life estimate becomes a guaranteed repair deadline. Recover its future-use assumptions and uncertainty before using it for scheduling.
 
-An alarm programme is judged only by prediction accuracy. Compare its actual maintenance consequences, including response delay and unnecessary interventions, before selecting an expansion.
+An alarm programme is judged only by prediction accuracy. For a proposed expansion, compare the supported consequences under each arrangement, including response delay and unnecessary interventions. To report the effect an expansion actually had, use evidence from its introduction and a suitable comparison.
 
 ### MNT.4:9 - Consequences
 
@@ -712,7 +728,9 @@ For providers, establish relevant competence, availability, access and action-sp
 
 Compare the time needed to obtain support with the time the maintenance task allows. Distinguish what can be prepared during continuing operation from what requires shutdown or protected access. Include supplier uncertainty, transit, acceptance and replenishment where they change response feasibility. For a repairable pool, consider units already removed for repair and common demands on the same stock; nominal pool size is not available reserve.
 
-Choose the smallest adequate support action. It may be to use an existing spare, reserve a qualified specialist, resolve one applicability question, obtain another window or change the intervention alternative. If the support arrangement itself is inadequate across recurring tasks, return that enabling-arrangement development question to [SYSE.12](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse12---develop-or-retain-an-engineering-platform-for-practitioner-work) and the programme decision to MNT.13.
+For a continuing service, work from the calls it undertakes to answer. Which calls can fall together, what can be reserved for each, and when does the person allocating the stock or specialist learn which call it is? If the second job must wait for the item to return to stores, a return after its deadline excludes that reuse even when the work periods never overlap. Where a direct transfer is authorized, use the time at which the next crew could actually receive and use the item. Conversely, one inspection result can serve two requests when both accept it for their distinct uses. Separate performances promised to two receivers must both be feasible. A bound on the total demand may suffice for a shortage decision before individual jobs are assigned.
+
+Choose the smallest adequate support action. It may be to use an existing spare, reserve a qualified specialist, resolve one applicability question or propose another window or response to the holder of that decision. A lost resource can defeat a plan while the original service remains due under its terms. If the support arrangement itself is inadequate across recurring tasks, return that enabling-arrangement development question to [SYSE.12](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse12---develop-or-retain-an-engineering-platform-for-practitioner-work) and the programme decision to MNT.13.
 
 Return the task-specific readiness result with the condition that can invalidate it. A part reserved for this job can be reassigned; a provider can become unavailable; an installed configuration can change. Reopen only the affected readiness claim. A support deficiency limits the proposed work but need not prevent a useful diagnosis or recommendation.
 
@@ -732,7 +750,7 @@ Inventory systems make material shortages visible while hiding interpretation wo
 
 ### MNT.5:7 - Conformance Checklist
 
-Can the selected task be performed and judged with the part, provider, tool, information and access available for it? Are material compatibility and permission conditions supported? Do obtaining and relief arrangements fit the needed time? Are shared demands and support uncertainties retained where they change feasibility?
+Can the selected task be performed and judged with the part, provider, tool, information and access available for it? Are material compatibility and permission conditions supported? Do obtaining and relief arrangements fit the needed time? For one job, is support available when each step needs it? For a service promise, can the allocation cover the permitted combinations, timing and information available to the allocator? A design for provisioning and an actual reservation each require grounds for their respective claims.
 
 Existing support can establish readiness for the selected task or reveal its deficiency, without building a new service platform or compiling the entire stock catalogue. An advice request can close while a deficiency still prevents the intervention.
 
@@ -785,7 +803,7 @@ Waiting may allow deterioration or loss of service; acting early may waste usefu
 
 Begin with the requested decision and time horizon. Recover the relevant required function, current condition and failure account. Use adequate evidence already available before asking for more. Separate the diagnosis supported now from the stronger causal account that may remain unresolved.
 
-Form the alternatives that can answer this case. Include retaining the present arrangement, deferring with stated conditions, restricting operation, targeted inspection and stopping when they are plausible responses. Repair and replacement can have different support, downtime and recurrence consequences. A candidate without the means or authority to carry it out can remain a recommendation, but it is not a feasible immediate act.
+Recover which decision the recipient has left open. To assess a specified response, judge it against the required use. If the practitioner must recommend or select among responses, form the alternatives that can answer this case. Include retaining the present arrangement, deferring with stated conditions, restricting operation, targeted inspection and stopping when they are plausible responses. Repair and replacement can have different support, downtime and recurrence consequences. A candidate without the means or authority to carry it out can remain a recommendation, but it is not a feasible immediate act.
 
 Compare the alternatives at the same required use. Explain what failure or condition each addresses, the consequence of delay, the expected intervention effect and its material uncertainty. Include disturbance, introduced defects, access, support, service loss and later restoration. Do not conceal an unacceptable condition by averaging it into a favourable cost score.
 
@@ -793,7 +811,7 @@ Test whether the remaining diagnosis uncertainty changes the choice. If all plau
 
 Use [MNT.5](#mnt5---prepare-maintenance-service-capability-spares-tools-and-authority) and [MNT.7](#mnt7---coordinate-maintenance-intervention-and-continuing-operation) where support and operation can change feasibility. A part awaiting applicability evidence can block installation while leaving replacement at a suitable future outage as the best recommendation. If no feasible alternative preserves the required use, return the unmet condition to the appropriate operating or engineering decision.
 
-In terms the recipient uses, say what to do or recommend for the unit and configuration, under which conditions, why it is preferable and what would reopen the choice. Retain only uncertainty and conditions that change the recipient's use. If the request is for advice and the answer is adequate, stop.
+In terms the recipient uses, say what to do or recommend for the unit and configuration, under which conditions, what warrants the response under the requested criterion and what would reopen the choice. If no single action works in every remaining situation, consider whether an authorized person can distinguish those situations in time to act on a conditional recommendation. Retain only uncertainty and conditions that change the recipient's use. If the request is for advice and the answer is adequate, stop.
 
 For performance of a selected intervention, carry the selected scope to [MNT.8](#mnt8---isolate-make-safe-and-authorize-the-maintenance-intervention) and MNT.9. When an operative requirement is disputed, appraise its merits separately: the protected party, relevant harm, baseline and marginal protection, whole burden and displaced harm matter. Preserve present force while the authorized holder considers an amendment. A maintenance recommendation does not amend that requirement.
 
@@ -824,7 +842,7 @@ The available spare, a recent training course or a vendor's diagnostic label can
 
 ### MNT.6:7 - Conformance Checklist
 
-Does the diagnosis support the decision at hand? Have the plausible alternatives been compared at the same use and horizon? Are response feasibility, service effects and material uncertainty visible? Can the recipient tell whether this result is advice, a selected act or an unresolved decision?
+Does the diagnosis support the decision at hand? Does the judgement address the proposed option, the choice among alternatives or the whole set the recipient asked about? When alternatives must be compared, do they answer the same use over the same horizon? Are response feasibility, service effects and material uncertainty visible? Can the recipient tell whether this result is advice, a selected act or an unresolved decision?
 
 An adequate recommendation closes the advice request. Any selected further inquiry has an attainable action-changing contribution; the conditions for carrying out the intervention still apply.
 
@@ -881,6 +899,8 @@ Lay out the intervention's dependency and time demands. Separate preparation tha
 
 Use an elapsed-time model that respects the dependencies. Sum sequential activities. When the arrangement supports overlap, calculate elapsed time from the critical path. Identify whether task estimates already include contingency before adding another allowance. Labour-hours, access-hours and elapsed service-loss time are different quantities.
 
+A critical path computed from precedence alone can leave two activities assigned to one person at the same time. For a positive schedule, put the required people, equipment and control of access on the actual clock as well. A mandatory chain longer than the window can exclude this plan before the other activities have been placed. A policy for future outages needs a feasible continuation for the permitted changes at the time they can be recognized. Several schedules chosen with hindsight can leave the planner without a timely choice.
+
 Compare the resulting demand with the whole available service envelope. If it does not fit, change a real variable: another window, another supported intervention, qualified fallback, additional capable provider, permitted rate adjustment or a justified deferral. A smaller written estimate does not change the work. A rate change is useful only when its service and deterioration consequences are supported.
 
 Agree what happens when a condition changes during the window. The relevant response can be a safe hold, restoration to a supported condition, a separately permitted extension or a revised operating decision. Identify the latest decision point before loss of a viable return becomes consequential. Do not treat an allowance as permission to omit a required check when time runs short.
@@ -902,7 +922,7 @@ The following is the whole-outage calculation for the constructed PS17 applicati
 
 Ninety minutes of preparatory work occurs before the outage and is excluded from its demand. The plan leaves 15 minutes beyond the explicit contingency within the 240-minute operating bound. That arithmetic establishes fit only for the constructed estimates and supported conditions.
 
-If an additional 20-minute demand arises beyond all included allowances, the demand becomes 245 minutes and no longer fits. The team revisits the operating or intervention arrangement. It does not consume testing or hand-back time to preserve the appearance of a four-hour plan.
+If an additional sequential activity extends elapsed outage time by 20 minutes beyond all included allowances, the demand becomes 245 minutes and no longer fits. The team revisits the operating or intervention arrangement. It does not consume testing or hand-back time to preserve the appearance of a four-hour plan.
 
 If the spare applicability return is absent before the planned start, the team does not begin this replacement branch. If the isolation cannot be established, the affected protected work does not start. Those limits preserve the earlier completed recommendation and return a different coordination question.
 
@@ -912,7 +932,7 @@ Repair estimates often reflect the technician's direct work and omit operator pr
 
 ### MNT.7:7 - Conformance Checklist
 
-Does the arrangement consume a valid operating-capacity and service result? Are preparation, protected work, testing, restoration and material contingency accounted for without double counting? Are overlaps compatible with actual resources and protection? Is there a supported response when the plan no longer fits?
+Does the arrangement consume a valid operating-capacity and service result? Are preparation, protected work, testing, restoration and material contingency accounted for without double counting? Are overlaps compatible with actual resources and protection? Does the result establish fit for the proposed timing, a guarantee over the promised conditions or an exclusion covering every allowed arrangement? Is a required response to a change both available and authorized before its deadline?
 
 A coordination result is complete when those responsible can act on its bounded arrangement or know the unmet condition.
 
@@ -951,7 +971,7 @@ The practice question is whether maintenance can fit the operating commitment. T
 
 Use this pattern when a selected maintenance intervention will expose people, equipment or the environment to a hazard that requires controlled access, isolation or other protection. A work order is ready, but the actual protection and permission for the proposed act have not been established.
 
-Use the applicable equipment procedure and competent authorized people to establish, verify and maintain those conditions. Return a supported permission to begin the bounded work or the unmet condition. This framework gives maintenance reasoning, not a substitute isolation procedure. A diagnosis or recommendation can be complete before anyone seeks permission to intervene.
+When assessing the proposed protection, identify what the work would expose, which protections must hold together and how the responsible people could establish them. Before beginning an intervention, competent authorized people must establish, verify and maintain the required protection under the applicable equipment procedure. Give the permission that the governing authority has actually granted, or identify what is still required. This framework gives maintenance reasoning, not a substitute isolation procedure. A diagnosis or recommendation can be complete before anyone seeks permission to intervene.
 
 ### MNT.8:2 - Problem
 
@@ -979,6 +999,8 @@ If a requirement's merits are disputed, use a separate appraisal. Identify the p
 
 Return permission only for the supported work and conditions, or state the missing protection, applicability or authority. Keep evidence proportionate to the actual reliance and applicable requirements.
 
+A request to assess a proposed protection arrangement can be completed before the intervention. Follow any shared exposure or change of state that would matter to the permitted work and identify the conditions the proposal would require. To report that permission was granted for a particular act, use the governing decision and its scope. To start the work, establish the required protection in the actual configuration under the applicable procedure.
+
 ### MNT.8:5 - Archetypal Grounding
 
 In the constructed PS17 case, the specialist part return has arrived and the planned outage is feasible. The authorized personnel establish the applicable isolation and access conditions for the actual configuration before the bearing intervention.
@@ -997,7 +1019,7 @@ A familiar machine can make practitioners underestimate changed stored energy, c
 
 Is the procedure applicable to the actual intervention and configuration? Have competent authorized people established and verified the required protection? Do shared work and planned state transitions preserve it? Is the permission bounded to the supported scope, with a usable response to material change?
 
-These questions apply to the selected intervention. They neither require a permission package for advice nor authorize omission of operative protection because a recommendation is already complete.
+For a review of a proposed arrangement, identify which conditions its design covers and what must still be established at execution. The preceding questions about actual protection apply to starting or reporting the selected intervention. They neither require a permission package for advice nor authorize omission of operative protection because a recommendation is already complete.
 
 ### MNT.8:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -1034,9 +1056,9 @@ For the question “What supports beginning this protected intervention?”, thi
 
 ### MNT.9:1 - Problem frame
 
-Use this pattern when a selected maintenance intervention is being performed and later decisions depend on what actually happened. The planned bearing has been replaced, but an interruption, substituted part or changed setting can leave the work record inconsistent with the machine.
+Use this method to establish what happened during a maintenance intervention or to perform and record the intervention itself. A later decision can depend on which action took place, on the resulting installed state, or on both. An interruption, substituted part or changed setting can make those questions come apart.
 
-Perform the task within its applicable procedure and operative conditions, preserving the material actions and actual resulting configuration. The first result is evidence of the performed intervention, including its incomplete or changed portions. [MNT.10](#mnt10---verify-restored-functioning-after-maintenance) establishes restored functioning and [MNT.11](#mnt11---hand-back-and-authorize-resumed-use-after-maintenance-with-certification-where-required) establishes the hand-back result. A recommendation can answer a request for advice before work begins.
+For a historical question, recover which act, item and time matter, and use the evidence sufficient for that claim. For a commissioned intervention, perform it under the applicable procedure and conditions and record the material actions, any change or interruption, and the resulting configuration. [MNT.10](#mnt10---verify-restored-functioning-after-maintenance) establishes restored functioning and [MNT.11](#mnt11---hand-back-and-authorize-resumed-use-after-maintenance-with-certification-where-required) establishes the hand-back result. A recommendation can answer a request for advice before work begins.
 
 ### MNT.9:2 - Problem
 
@@ -1052,6 +1074,8 @@ The practitioner needs enough freedom to respond to the machine as found while p
 
 Recover the selected task and the operative work conditions before performing it. The applicable equipment procedure supplies the technique, tool use, tolerances and controls. Use this Method to organize the intervention and the account that later users need.
 
+When the order is to establish whether a past replacement occurred, inspect the records or other evidence that can decide it for the item and date in question. A replacement carried out today can meet a new work order. Its completion alone cannot establish when an earlier intervention occurred.
+
 Maintain correspondence between work and actual state. Identify the unit, relevant configuration, selected parts and settings. Where the procedure requires a check before an irreversible or consequential step, perform that check at the point where it establishes the needed condition. A later signature cannot recreate an unobserved state that is no longer recoverable.
 
 When the actual condition differs from the expected one, determine what changes. A harmless access detail may remain within the permitted task. Unexpected damage, a different part interface, a lost protection condition or a larger repair can change competence, permission, time and verification. Use the applicable hold or restoration procedure and return the changed maintenance decision rather than silently extending the scope.
@@ -1060,9 +1084,11 @@ If work stops, prepare for its continuation. Preserve a condition that the next 
 
 Preserve the facts that later users need. These commonly include material actions, installed or removed part identities, relevant settings and measurements, deviations from the selected work and unresolved conditions. Use the existing maintenance record when it serves that purpose. Applicable regulatory or organizational retention requirements remain in force.
 
+When several performers contribute, reconstruct which actions belonged to this intervention. Match the installed item, the times, the authorized scope and any handoff the next action depended on. An earlier report can supply evidence of the installation a specialist observed. Identify the earlier act and the use of its record today. If the order includes a new independent examination, identify the examination performed and its result. A single entry can answer a question about one act when its meaning and coverage establish that act.
+
 Keep statements at their supported level. “Bearing installed using the applicable procedure” concerns the intervention. “The required flow is restored” needs functioning evidence. “This recurring failure has been eliminated” needs a different horizon and causal basis. Link those later results when they exist without assigning them to a task-completion entry.
 
-Give the tester, operator or maintenance-history user the evidence they need about the work performed and the resulting configuration. If the work is incomplete, state the condition in which it stopped and the condition needed for continuation. A partial account should show which planned work remains unperformed.
+Give the tester, operator or maintenance-history user the evidence they need about the work performed and the resulting configuration. If the work is incomplete, state the condition in which it stopped and the condition needed for continuation. Distinguish known unfinished work from work whose performance the surviving records leave unknown. An observation or a complete record of required acts may decide the issue. A blank field in a partial log can leave either history possible.
 
 ### MNT.9:5 - Archetypal Grounding
 
@@ -1080,7 +1106,7 @@ Completion targets reward closed tasks and can discourage reporting deviations o
 
 ### MNT.9:7 - Conformance Checklist
 
-Was the selected work performed within its applicable procedure and operative conditions? Were material deviations, interruptions and changed scope handled by the relevant decision? Can the next user recover the actual installed state and supported work claims? Are incomplete portions and unresolved consequences stated?
+What act, item, time or installed state does the recipient need to establish, and what evidence covers it? For work to be performed, check its procedure and operative conditions and how material deviations, interruptions and changes of scope were handled. For a claim about the completed job, identify what establishes each consequential handoff. An omitted act, an undocumented act and a remaining obligation can call for different next actions.
 
 The result concerns performed intervention. Functioning and resumed-use claims require their own support only when those are the selected subsequent results.
 
@@ -1137,6 +1163,8 @@ Relate the intervention to those claims. Identify the functioning it was intende
 
 Choose checks that can discriminate the relevant success and failure states. Use the applicable equipment procedure, measurement basis and competent providers. Where real operating conditions cannot be represented, state what the test does and does not establish. A measurement needs suitable range, uncertainty and operating context for its acceptance comparison.
 
+Match the evidence to the promised relations as well as the individual thresholds. A flow and a pressure observed on different runs can each reach its minimum without the two doing so together at the required duty. When a claim concerns service at several outlets, work back from what each must receive to the connections and operating states that determine the distribution. A reading of the whole can settle a total-flow requirement directly. A known bound on each branch under the allowed operating conditions can also settle a requirement for each receiver. Select the observations or calculations still needed after using those grounds.
+
 Plan the check's controlled state transitions with [MNT.8](#mnt8---isolate-make-safe-and-authorize-the-maintenance-intervention) and its time with MNT.7. Verification that requires energization or other exposure does not inherit unrestricted permission from the earlier protected repair. The applicable procedure governs how the test state is established and ended.
 
 Compare observed outcomes with the stated basis. Retain the actual subject, load, duration and material limitations. Give the resulting claim for that duty. To extend it, establish how the observed property carries to the proposed conditions and which acceptance basis applies there. A failed result returns to the affected diagnosis, intervention or engineering question; unrelated passing tests do not cancel it.
@@ -1155,6 +1183,8 @@ Under those supplied conditions, the constructed observation is 20.8 litres per 
 
 Those observations establish the immediate-duty result. A winter-peak claim would need a relation covering that load or further evidence there. An as-new lifetime and elimination of the recurrence mechanism each need different engineering grounds. The operator receives that scope explicitly.
 
+Suppose a different order requires each of two outlets to receive at least 9 litres per second throughout the run. For this decision, suppose separate evidence establishes a lower bound of 20.8 litres per second on actual total delivery throughout the run. All delivered flow goes to the two outlets, and a total of exactly 20.8 is possible. Without further restrictions, a split of 10.4 and 10.4 would meet the requirement, while 12.8 and 8.0 would fail it. If the installed arrangement also limits each outlet to 11.5 throughout the run, the other receives at least 20.8 − 11.5 = 9.3. Then both meet the requirement. Without that upper bound, use other applicable delivery evidence or identify the open question. The original pump-duty assessment used its own acceptance rule.
+
 If the loaded test instead reaches only 18 litres per second, the performed bearing replacement can still be correctly recorded while the required functioning claim fails. The team returns to diagnosis or the relevant engineering question. The 18-litre-per-second result remains below the required 20 even if the test is marked complete.
 
 ### MNT.10:6 - Bias-Annotation
@@ -1163,13 +1193,13 @@ The effort already spent on repair creates pressure to interpret a marginal test
 
 ### MNT.10:7 - Conformance Checklist
 
-Does the evidence concern the actual resulting configuration and required use? Can the selected checks expose the intervention's relevant failure or introduced fault? Are measurement and test conditions suitable for the claim? Are unchanged evidence and unresolved portions used at their true scope? Are required specialist or independent returns present where applicable?
+Does the evidence concern the actual resulting configuration and required use? Can the selected checks expose the intervention's relevant failure or introduced fault? Are measurement and test conditions suitable for the claim? How do the observations support the required combination of duties? Establish joint delivery, a handover, or coverage of the operating cases according to the service requested. Can the answer be established by the existing evidence or a sufficient bound, and has a separately required test been performed? Are required specialist or independent returns present where applicable?
 
 A supported current-use answer closes this question. It does not claim long-term reliability or authorize resumed use by itself.
 
 ### MNT.10:8 - Common Anti-Patterns and How to Avoid Them
 
-“Part replaced” is used as evidence of service. Test the functioning the recipient needs. “It ran unloaded” becomes permission for full-duty operation. Qualify the operating envelope or obtain the evidence that changes that use.
+“Part replaced” is used as evidence of service. Establish the functioning the recipient needs with applicable evidence. Perform a new test where the order requires one or the present grounds leave a consequential question open. “It ran unloaded” becomes permission for full-duty operation. Qualify the operating envelope or obtain the evidence that changes that use.
 
 Every historical test is repeated after a small change. Reopen the affected claims, while preserving any concrete requirement for the current verification.
 
@@ -1200,9 +1230,9 @@ The practice question is what evidence warrants a restored-functioning claim aft
 
 ### MNT.11:1 - Problem frame
 
-Use this pattern when maintenance control is being returned to operation and the party taking control needs a supported basis to resume use. The work is complete and functioning has been checked, but restrictions, configuration changes or required release authority are still unresolved.
+Use this method to plan the return to operation, establish whether control has passed, or conduct the hand-back. At the end of maintenance, restrictions, a changed configuration or the release authority can affect which use is permitted.
 
-Reconcile the evidence and actual state, obtain certification where the concrete use requires it, transfer control and establish the operative permission for resumed use. The result can be unrestricted use, supported restricted use or the missing condition preventing that use. An adequate maintenance recommendation can be issued before hand-back.
+For a proposed return, determine which configuration, evidence, authority and event would permit the intended use. To conduct the hand-back, reconcile the evidence with the actual state, obtain any required certification and carry out the transfer. To report a past hand-back, establish which transfer and permission took effect. The result can be unrestricted use, supported restricted use or the missing condition preventing that use. An adequate maintenance recommendation can be issued before hand-back.
 
 ### MNT.11:2 - Problem
 
@@ -1226,6 +1256,8 @@ Resolve remaining limitations through the applicable decision. Some defects or u
 
 Transfer control so that maintenance and operation know who controls the next state change. Communicate the configuration and conditions that change the receiver's action, using the existing hand-back arrangement. One person may hold both responsibilities, but the evidence and decisions remain distinguishable.
 
+Determine which event makes each release effective under the governing terms. An authorized standing decision may permit a specified duty once its recorded conditions hold. Another handover may require receipt of a certificate or a fresh decision by a named authority. For a service shared by several receivers, determine whether a single authorized representative can act for all or whether distinct decisions are required. Establish each event needed for the claim by the relevant deadline. To report that service actually resumed, obtain evidence of operation in the released state.
+
 Record or communicate the resulting permission in the form and level of detail the intended use and applicable requirements call for.
 
 Reopen the hand-back result when its configuration, functioning, restrictions or authority basis changes. A completed maintenance recommendation remains usable within its earlier scope even if the proposed intervention's release is still unavailable.
@@ -1246,7 +1278,7 @@ Aviation illustrates why the distinction matters. EASA's September 2025 Part-145
 
 ### MNT.11:7 - Conformance Checklist
 
-Can the party taking control identify the actual returned configuration and supported functioning? Are material unfinished work and restrictions resolved for the intended use? Are required certificates or independent returns applicable and issued within their authority? Has control been transferred, and is the resumed-use permission supported?
+Can the party taking control identify the actual returned configuration and supported functioning? Are material unfinished work and restrictions resolved for the intended use? Are required certificates or independent returns applicable and issued within their authority? For a claim that hand-back occurred, what established the transfer and the effective permission under the governing terms? For an assessment of a proposed return, what is already supported and which events would still have to occur? A release for one use can settle that use while a separately promised service remains due.
 
 A qualified restricted-use or missing-condition answer can close the hand-back question. It does not automatically complete the intended unrestricted operation.
 
@@ -1301,7 +1333,7 @@ More detail supports future analysis but burdens those recording work under time
 
 ### MNT.12:4 - Solution
 
-Start from the receiving maintenance decision and its required distinctions. A spare-applicability question needs different history from a recurrence study or a hand-back. Identify the actual unit, component individuals and configuration changes that can affect that use.
+Start from the receiving maintenance decision and its required distinctions. A spare-applicability question needs different history from a recurrence study or a hand-back. Select the unit, constituent histories or population and the times that could change that answer. Where several installation histories remain possible, use what all of them establish. Recover exact identities or dates when a difference changes the result or the order expressly requires them.
 
 Recover the configuration basis under SYSE.13. Distinguish actual, intended and unknown installed state; part or variant descriptions; document editions; and the conditions under which a description applies. A date or shared label cannot establish those correspondences by itself.
 
@@ -1337,7 +1369,7 @@ Revise the part of your answer whose grounds differ. Try each changed premise be
 
 Return the result at the scope the receiving question needs. A total-exposure question may use 6; a component-specific duration or restored-function question may require the actual boundary or separate evidence about the new component. Seek that relevant observation or accountable source answer when worthwhile; otherwise retain the uncertainty. Preserve unaffected history.
 
-Apply the same distinctions to one of your own event records and state which premise could change your answer. Use the explanations to correct your answer. The exercise supplies the time window, configuration history and attribution question. A correct solution shows how you used those premises. To assess your own choice of boundaries or evidence, use work in which you made that choice before receiving the answer. An earlier comparable record can suffice when it shows what you decided and what help you had. If that evidence is missing, try a suitable record independently. A claim that practice changed your ability also needs a comparable earlier performance and grounds for attributing the change. Obtain competent feedback on an unresolved step before relying on its attribution.
+When practising transfer to another history, use one of your own event records and state which premise could change the answer. Use the explanations to correct your reading. The exercise supplies the time window, configuration history and attribution question. A correct solution shows how you used those premises. To assess your own choice of boundaries or evidence, use work in which you made that choice before receiving the answer. An earlier comparable record can suffice when it shows what you decided and what help you had. If that evidence is missing, try a suitable record independently. A claim that practice changed your ability also needs a comparable earlier performance and grounds for attributing the change. Obtain competent feedback on an unresolved step before relying on its attribution.
 
 ### MNT.12:5 - Archetypal Grounding
 
@@ -1408,6 +1440,8 @@ Common policies and resources can improve continuity, but equipment, duty and co
 
 Bound the population, service question and horizon. Identify the programme decision at stake: retain a policy, change a task, improve spare readiness, resolve a backlog or compare performance. An equipment-family name alone does not establish that units have comparable duty or failure behaviour.
 
+Work out what the programme would have to achieve for the recipient. Counting failures, counting different machines affected, meeting a rate for the fleet and keeping service available in every district can lead to different decisions from the same history. Several failures on one machine contribute several events but only one affected machine. A delivery record covering the required service and interval can establish continuity directly. Where the conclusion depends on redundancy, identify which machines served the receiver, what could cover their losses and whether their outages overlapped. To establish overlap itself, use evidence of the machines’ states or an established relation that lets you infer them from delivery.
+
 Recover the event and exposure basis under [MNT.3](#mnt3---establish-degradation-and-failure-evidence-for-maintenance) and MNT.12. Distinguish failures, inspections, preventive removals and incomplete observation. Compare units at compatible configuration, operating conditions and consequence where those differences can change the answer. Retain a stratified account when aggregation would conceal the difference.
 
 Relate the observations to possible programme causes and actions. Repeated waiting for an applicable spare can justify a support decision without proving that the preventive policy is ineffective. A changed reporting rule can increase counted failures without worsening the machine. Use the failure and operating evidence to distinguish these interpretations.
@@ -1424,6 +1458,8 @@ Return the decision with the population and evidence limits that affect its use.
 
 APP-MNT-02 is a constructed comparison of 48 pumps. Twenty units have four relevant failures over 20,000 operating hours; 28 units have six over 56,000 hours. The rates are 0.20 and approximately 0.107 events per 1,000 hours. Raw counts favour the first group, while exposure-adjusted rates favour the second.
 
+If the decision instead concerns the number of machines affected, ask which events belong to the same unit. Suppose the records cover the operating exposure of all twenty units and count one failure of one unit as one event. Then the four events involved at most four machines. At least sixteen therefore had none during their observed exposure. That bound settles a minimum of sixteen failure-free units while leaving the exact number open. To judge continuity of the service supplied by those pumps, use the demand, delivery or redundancy evidence appropriate to that service.
+
 Neither result establishes a causal policy effect. The engineer recovers duty, component histories, event definitions and the reasons units entered each group. The answer to “Do these counts justify replacing the fleet policy?” is no on this basis. In the retention branch of this constructed case, the policy's existing failure-and-response basis remains adequate for the stated duties; the counts do not establish that adequacy. Retaining the policy on that existing basis can be the completed decision while the support deficiency below is corrected. If that basis no longer holds, return the unsupported policy choice without waiting for these data to prove a rival policy.
 
 The same current records identify an applicable spare unavailable for a known upcoming task. Correcting that support deficiency can be selected on its own evidence; the engineer does not wait for a new causal fleet study to address it.
@@ -1436,13 +1472,13 @@ Fleet averages can hide the units with the greatest exposure or service conseque
 
 ### MNT.13:7 - Conformance Checklist
 
-Are the population and the programme decision clear? Do event meanings, exposure and observation conditions support the comparison? Are causal and descriptive claims distinguished? Does the selected change improve the intended maintenance contribution without concealing moved burden? If implementation or improvement is claimed, is that claim supported separately from the proposal?
+Are the population and the programme decision clear? Do event meanings, exposure and observation conditions support the comparison? Are causal and descriptive claims distinguished? For a proposal, do the grounds support the expected contribution and account for work or exposure moved to another team? For a claim covering all districts or a guaranteed service level, do the evidence and combination rule cover the districts, demands and periods the commitment names? If implementation or improvement is claimed, is that claim supported separately from the proposal?
 
 An adequate retained programme or qualified fleet account is a completed answer. Further inquiry needs its own attainable contribution and burden justification.
 
 ### MNT.13:8 - Common Anti-Patterns and How to Avoid Them
 
-Fewer failures are read as a better policy without exposure. Recover a compatible comparison. A dashboard target is improved by recoding failures rather than changing functioning. Preserve event meaning and compare the actual programme contribution.
+Fewer reported failures can answer a question about the number reported. To compare event rates, establish comparable events and exposure. To choose a policy, connect the difference to what that policy can change. A dashboard target is improved by recoding failures rather than changing functioning. Preserve event meaning and compare the actual programme contribution.
 
 Every incomplete causal explanation becomes a research programme. Return the supported maintenance decision first and select only the inquiry that can improve the next use.
 
@@ -1475,7 +1511,7 @@ The question is how fleet evidence should change a maintenance programme. This p
 
 Use this pattern when an established way of doing maintenance may no longer be the best answer for the current failure, equipment or operating setting. A new predictive tool is proposed, or a once-useful inspection produces little actionable information.
 
-Compare the pertinent Methods and return a justified retain, revise, replace, branch or stop decision. Here a Method is the reusable way of obtaining a maintenance result; a software product or manual can support or describe it. A new trial is selected only when it can provide worthwhile attainable information.
+Compare the pertinent Methods and return a justified retain, revise, replace, branch or stop decision. Here a Method is the reusable way of obtaining a maintenance result; a software product or manual can support or describe it. For a discretionary trial, establish what it could settle and whether that is worth its cost. A separately commissioned trial carries its own obligation.
 
 ### MNT.14:2 - Problem
 
@@ -1493,17 +1529,19 @@ State the maintenance result and conditions for the comparison. Recover the fail
 
 Describe what would change in practice. Is the candidate a different task, a changed trigger, another diagnostic interpretation, a revised response rule or only a different description or software implementation? Keep those objects distinct when continuity, training or evaluation depends on them. A useful Method change should alter what the practitioner notices, decides, does, needs or obtains.
 
+To design a variant, work from the maintenance decision and choose which observation, interpretation, response or handoff must change and what the remainder of the method must still provide. Validate the proposed substitution against the whole task under its actual support conditions. A specialist can supply a diagnosis for this design. To credit the engineer with devising the diagnostic method itself, establish which diagnostic choices the engineer made. When only a comparison of two supplied methods was commissioned, their assessment can be the finished work.
+
 When a useful predictive alternative still has to be constructed, use [MNT.2:4.1.1](#mnt2411---build-and-improve-a-predictive-maintenance-option) to connect the estimate, intervention rule and obtainable support. Bring back an executable option and its consequence comparison. This can include changing preparation or access, or improving the forecasting rule through the interventions it selects. Use existing alternatives directly when they suffice.
 
 Compare practical worth over a relevant horizon. Include preparation, acquisition, configuration, competence, interpretation, false responses, missed conditions, maintenance of the tool, supplier dependence and exit where they matter. Use [FPF C.11.MV](../../FPF-Spec.md#c11mv---compare-the-worth-of-a-method-option) for the practical-worth comparison and [FPF A.3.1.MV](../../FPF-Spec.md#a31mv---construct-and-maintain-a-method-variant) when variant identity or maintenance of the repertoire needs that more general Method.
 
 Establish which installations and failure modes the decision covers. For one installation a supported comparison there can settle the choice. For a policy that must work in every covered installation and failure mode, establish why the Method works throughout that range. An unlike case can expose a condition that calls for a different Method. A successful trial supports the wider policy when an argument connects its conditions and result to the other installations and failure modes. For a policy judged by an average or a service level, justify the population, observations and inference for that measure. A Method useful for a visible degradation trend may not expose a hidden protection failure. An online predictor may improve timing while remaining unusable where the support lead time is longer than its warning. These differences can justify branching the repertoire instead of replacing one Method everywhere.
 
-Choose a feasible change when current observations, an applicable model or a reasoned expert estimate make its expected improvement worth the transition and continuing burden. Name the first executable move and obtain the support it needs. A sufficient comparison can justify beginning the change before its eventual benefit has been observed; retain the distinction between that expected benefit and the outcome subsequently obtained.
+Choose a feasible change when current observations, an applicable model or a reasoned expert estimate make its expected improvement worth the transition and continuing burden. For a recommendation, return the proposed move and the support on which it depends. When authorized to put the change into operation, obtain that support and carry out the agreed work. A sufficient comparison can justify beginning the change before its eventual benefit has been observed; retain the distinction between that expected benefit and the outcome subsequently obtained.
 
 Use existing evidence first. If it establishes that the candidate cannot support the needed response, reject it for that use without a trial. If it supports retaining the current Method, return that decision. When an uncertainty could change the choice, assess what a feasible trial or analysis could distinguish and the whole burden of obtaining that result.
 
-Select the supported continuation. State the changed or retained Method and its applicability, the description or tool that will carry it, any support the transition needs and the condition for reopening the choice. A selected change remains a proposal until performed. Claims about improved maintenance outcomes require evidence at the relevant use, not just successful installation of a tool.
+Select the supported continuation. State the changed or retained Method and its applicability, the description or tool that will carry it, any support the transition needs and the condition for reopening the choice. Establish when an authorized decision makes a changed rule effective. Adoption can settle which rule governs the next job before anyone has performed that job. For actual use, establish what the performer did. Claims about improved maintenance outcomes require evidence at the relevant use, not just successful installation of a tool.
 
 Refresh selectively when a failure, operating condition, support arrangement or answer-changing source result changes. An annual reminder can prompt attention, but currentness is established by the comparison that matters, not a date stamp.
 
@@ -1525,13 +1563,15 @@ Technology labels and benchmark accuracy favour visible novelty. Familiarity fav
 
 Are the compared Methods and their practical differences identifiable? Do they answer the same maintenance question under comparable conditions? Are their differing implementation, transition and continuing burdens compared where material? Does the decision preserve unlike uses through an appropriate retain, branch or replacement result?
 
-Any trial has an attainable decision-changing purpose. A supported comparison can close without new experimentation or adoption.
+A discretionary trial has an attainable purpose worth its burden. A supported comparison can close while a separately required trial or adoption decision remains due.
+
+A research finding about a laboratory result can establish which assumption to withdraw. For example, if the mechanism is established on the bench but its transfer to service is open, that result alone cannot justify lengthening the service interval. The engineer can still decide the interval from sufficient field evidence and the applicable maintenance criterion. Return to [RMP.Application:1.6](../RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md#rmpapplication16---from-a-corpus-answer-to-the-exact-model-return) when the commissioning question concerns the reach of the research finding.
 
 ### MNT.14:8 - Common Anti-Patterns and How to Avoid Them
 
 A higher model score is treated as a better maintenance Method. Follow the prediction through interpretation, support and actual response. A software upgrade is called a Method change without an action-changing difference. State what the practitioner does differently.
 
-A comparison ends only after a trial because the template requires one. Use current evidence when it settles the choice; select a trial only for the remaining worthwhile uncertainty.
+A template asks for a trial after the available evidence has settled the choice. Return the comparison and explain what a discretionary trial could still contribute. If the commission separately requires a trial, carry it out on its agreed terms.
 
 ### MNT.14:9 - Consequences
 
@@ -1558,9 +1598,9 @@ The practice question is when a new maintenance approach is worth adopting. This
 
 ### MNT.15:1 - Problem frame
 
-Use this pattern when individually plausible maintenance, operating and support plans cannot be performed together. Two jobs fit their own windows but need the same qualified specialist; an operating fallback depends on equipment that another job intends to isolate.
+Use this pattern to establish whether maintenance, operating and support work can be performed together or to resolve a known conflict. Two jobs fit their own windows but need the same qualified specialist; an operating fallback depends on equipment that another job intends to isolate.
 
-Recover the actual shared demands and choose a feasible coordination change, or state the unmet combined commitment. A simple resource or dependency bound can be enough. Use [FPF C.32.MWA](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c32mwa---synthesize-an-architecture-account-of-methods-and-their-use) or [FPF C.32.MWA.PP](../../FPF-Spec.md#c32mwapp---construct-and-compare-method-performance-and-provision-arrangements) only when the question requires a broader practice-architecture comparison across different structures.
+Recover the shared demands and determine whether the proposed arrangement can meet them together. A supported assessment can settle that question. For a commissioned change, give a feasible arrangement, grounds excluding the permitted arrangements, or the missing condition that still determines feasibility. A simple resource or dependency bound can be enough. Use [FPF C.32.MWA](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c32mwa---synthesize-an-architecture-account-of-methods-and-their-use) or [FPF C.32.MWA.PP](../../FPF-Spec.md#c32mwapp---construct-and-compare-method-performance-and-provision-arrangements) only when the question requires a broader practice-architecture comparison across different structures.
 
 ### MNT.15:2 - Problem
 
@@ -1574,7 +1614,7 @@ Shared resources improve utilization while making simultaneous commitments fragi
 
 ### MNT.15:4 - Solution
 
-Name the combined commitment and the conflict that changes it. Use the actual or proposed work and operating horizon. A prospective schedule is not evidence that the work occurred.
+Name the combined commitment and identify the dependencies that could determine whether it can be met. Use the actual or proposed work and operating horizon. A prospective schedule is not evidence that the work occurred.
 
 Choose only the structures needed to explain the conflict. For a shared specialist, work duration and provider availability may suffice. For simultaneous isolation and fallback, the maintained Systems, operating dependencies and protection authority also matter. A description's nesting does not establish work order or resource independence.
 
@@ -1582,11 +1622,13 @@ For each promised job, identify its required result, recipient, deadline and spe
 
 Compare the whole combination. If a requirement applies independently to every job, checking every covered job against it establishes that requirement. For a common specialist, standby unit or isolation boundary, establish that the permitted uses can occur together. One workable schedule establishes feasibility under its stated conditions. A service promise covering a range of arrivals needs a workable response throughout that range with the information and authority available when the response is chosen. Locate the overload, interference or unsupported transition and determine which alternatives change it: defer a supported job, select another window, obtain another qualified provider, change permitted operating rate or revise the intervention arrangement.
 
+Check which choices belong to which people. If the coordinator may assign either crew to a job after the request arrives, a conditional allocation may work. If two sites can reserve the same crew independently and their choices must be honoured, the programme has to cover their permitted combination. Check what each site can know before it commits. When one bound excludes the proposed combination, return that answer to a request about this plan. A finding that no plan can meet the order needs grounds covering the other arrangements the order permits.
+
 Evaluate what each apparent repair moves elsewhere. A second provider may need access, familiarization and its own support. Deferral changes the failure consequence. A longer shift changes fatigue and protection conditions. A shared outage can remove the recovery option that made each individual plan acceptable.
 
 If the conflict requires a different organization of the practice, use [FPF C.32.MWA](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c32mwa---synthesize-an-architecture-account-of-methods-and-their-use) or [FPF C.32.MWA.PP](../../FPF-Spec.md#c32mwapp---construct-and-compare-method-performance-and-provision-arrangements) to compare the relevant Method, Work, System, provider and description structures. Preserve their actual relations rather than making one universal layer stack. If the simple bound already answers the question, stop there.
 
-Return the selected arrangement or the combined commitment that cannot be met. Identify who has authority over the changed work and operation. Reopen when a shared resource, interruption, protection condition or service requirement changes.
+Return a supported arrangement, a commitment excluded on the available grounds, or the condition on which the answer still depends. If the order asks only whether a given plan fits, that judgement can finish it. Identify who has authority over the changed work and operation. Reopen when a shared resource, interruption, protection condition or service requirement changes.
 
 ### MNT.15:5 - Archetypal Grounding
 
@@ -1608,7 +1650,7 @@ Local planners see their own job's benefits and can assume a shared resource is 
 
 ### MNT.15:7 - Conformance Checklist
 
-Does the comparison include every shared demand that can defeat the combined commitment? Are quantities, resource availability and dependencies compatible? Does the selected change alter a real constraint? Are moved burden, failure consequences and protection conditions retained? Do the relevant decision holders control the changed arrangement?
+For a positive commitment, can all required contributions hold together under the allowed choices? For a negative answer, does the conflict exclude the one plan, a guarantee over its promised use, or every arrangement the order allows? Are quantities, resource availability and dependencies compatible? Does the selected change alter a real constraint? Are moved burden, failure consequences and protection conditions retained? Do the relevant decision holders control the changed arrangement?
 
 A supported simple bound can complete the question. A comprehensive architecture model is needed only when its additional relations change the answer.
 
@@ -1661,17 +1703,19 @@ Shared practice supports continuity but can retain a stale or harmful habit. Loc
 
 ### MNT.16:4 - Solution
 
-State the maintenance population, period and receiving question. Identify the method in use and the work or result whose continuation matters. Name a variant when the comparison supports a difference in the reusable way. Use ordinary terms before introducing a cultural label such as school, tradition or maturity.
+State the maintenance population, period and receiving question. Identify the practice or proposed change and the work or result whose continuation matters. If the order concerns access to the new instruction, an applicable delivery or access record can answer it. To judge use, establish which method was enacted. Name a variant when the comparison supports a difference in the reusable way. Use ordinary terms before introducing a cultural label such as school, tradition or maturity.
 
 Recover the cultural relations that the available basis supports. A manual can transmit a description; a mentor can demonstrate a technique; practitioners can enact it in actual work; peers or supervisors can recognize and reward it; the population can retain or abandon it. These are different claims. Use [FPF C.36](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c36---cultural-evolution-and-cultural-evolution-engineering) when their distinction changes the account.
 
 Connect an enactment claim to actual practitioners, work and maintained Systems at the scope needed for that claim. A selected class of technicians or a training plan does not supply an observed occurrence. If a precise performed-Work claim is needed, [FPF A.13](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a13---the-agential-role--agency-spectrum) and [FPF A.15.1](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a151---uwork-dated-performed-work-occurrence) govern the performer and occurrence; assignment-bound attribution is added only when the claim depends on that assignment.
 
+To explain how a shift works together, identify what its members had to accomplish together and trace how their contributions affected that work. For example, in a handover, follow the technician’s account of the returned state through to the authorized operator’s decision. A correct entry might have been supplied by a specialist or filled from a template. Credit each person with the judgement their contribution shows. A shift can carry out a handover through several people with different duties. If the question is whether one person can design that arrangement, look for the allocation and decision conditions that person chose with the help available.
+
 Compare plausible explanations for the current pattern of use. A variant may persist because it works under local conditions, because suitable tools are available, because reporting rewards it or because another variant cannot be enacted with the available time. State how much support each hypothesis has. A population-wide causal explanation may remain unresolved while a bounded current account is complete.
 
 Select a deliberate change only when its attainable contribution warrants the whole burden. The action might change access to applicable descriptions, mentoring, recognition, provider support or the conditions that discourage reporting. Compare keeping, revising, branching and stopping the arrangement. Include effects on practitioners and operation, not just attendance or publication counts.
 
-Keep proposal, performed intervention, changed practice and measured maintenance effect separate. If an intervention is performed, judge it by the relevant actual-use and maintenance consequences. Training completion can establish a training result; it does not by itself establish adoption, reliability improvement or safer work.
+Keep proposal, performed intervention, changed practice and measured maintenance effect separate. A completed, authorized change to terminal access can satisfy an order for access. To establish a change in practice or functioning, compare the relevant earlier and later work or performance on a suitable basis. To attribute that change to the intervention, also establish how the intervention contributed. Training completion can establish a training result; it does not by itself establish adoption, reliability improvement or safer work.
 
 Return the supported continuation and its population, period and uncertainty. A new survey or experiment is selected only for a worthwhile attainable answer. When the existing evidence supports retaining a practice or fixing a known access problem, return that answer without requiring a full cultural study.
 
@@ -1679,7 +1723,7 @@ Return the supported continuation and its population, period and uncertainty. A 
 
 In a constructed two-shift maintenance team, a revised hand-back description separates performed work, functioning evidence and permission. Six practitioners receive it. That establishes availability to those recipients, not use.
 
-Three observed hand-backs are then described in the teaching case. Two include the relevant configuration and functioning limits; one still treats a closed work order as the complete release. The supported account is limited to those observations. It does not establish the practice of the whole team or a reduction in equipment failures.
+Three observed hand-backs are then described in the teaching case. Two include the relevant configuration and functioning limits; one still treats a closed work order as the complete release. One observed use of task closure as the entire release refutes a claim that every hand-back distinguished completion from permission. If the three records cover every hand-back in the period and identify which included the functioning limits, they also give the exact count with those limits for that period. For a claim about each practitioner, future shifts or an effect on equipment failure, establish the relevant participation, continuing conditions or comparative evidence.
 
 The lead finds that the second shift's terminal opens the older hand-back instructions. Correcting that known access problem is a supported intervention option. A new survey is unnecessary to establish the mismatch. Later actual-use observations could support a broader conclusion, but commissioning them is a separate value-and-burden choice.
 
@@ -1691,7 +1735,7 @@ Visible experts and day-shift work can dominate the account while contractors an
 
 ### MNT.16:7 - Conformance Checklist
 
-Are the population, period, method actually used and receiving use clear? Are transmission, enactment, recognition, selection and retention distinguished where the conclusion depends on them? Are proposed changes, performed actions and observed effects separately supported? Does a selected intervention address an actual relation or condition rather than only a label?
+Is the question about availability, enactment by particular practitioners, a joint handover, or change across the stated population and period? Can the available evidence settle it, including a threshold or a claim disproved by one observed omission? Are transmission, enactment, recognition, selection and retention distinguished where the conclusion depends on them? Are proposed changes, performed actions and observed effects separately supported? Does a selected intervention address an actual relation or condition rather than only a label?
 
 A qualified current account or supported continuation can close the request. New inquiry and stronger causal claims need their own attainable contribution and evidence.
 
@@ -1741,7 +1785,7 @@ In the performed branch, [MNT.9](#mnt9---perform-and-record-the-maintenance-inte
 
 [MNT.10](#mnt10---verify-restored-functioning-after-maintenance) then checks the immediate-duty claim under the constructed operating basis, using its stated measurements and limitations. [MNT.11](#mnt11---hand-back-and-authorize-resumed-use-after-maintenance-with-certification-where-required) reconciles the returned state, transfers control and obtains the operative resumed-use decision. A successful function test does not automatically establish that permission or an untested broader duty.
 
-Long-horizon recurrence remains unresolved. [MNT.13](#mnt13---coordinate-the-maintenance-programme-and-fleet-learning) can retain the current programme account, and [MNT.16](#mnt16---deliberately-continue-and-change-maintenance-culture) can describe the team's observed use only within the constructed case. A further investigation or practice intervention is selected for its worthwhile attainable contribution; it is not required to make the local recommendation or repair result true.
+Long-horizon recurrence remains unresolved. The local repair and test have their stated use. For a programme decision, use [MNT.13](#mnt13---coordinate-the-maintenance-programme-and-fleet-learning) to establish which installations share the failure, response and support conditions that made this intervention appropriate, or use independent grounds for the wider choice. For a claim that further shifts adopted this way of working, [MNT.16](#mnt16---deliberately-continue-and-change-maintenance-culture) connects the proposed change to what those shifts actually did. Neither further inquiry is required for the original recommendation.
 
 
 
@@ -1750,6 +1794,8 @@ Long-horizon recurrence remains unresolved. [MNT.13](#mnt13---coordinate-the-mai
 The constructed fleet contains 48 pumps in two groups. One has fewer counted failures but also substantially less operating exposure. [MNT.13](#mnt13---coordinate-the-maintenance-programme-and-fleet-learning) contains the numerical comparison and its decision: the crude rates do not establish a causal policy advantage. Retaining the current policy rests on its existing failure-and-response basis remaining adequate for the stated duties; the rates do not establish that adequacy.
 
 [MNT.3](#mnt3---establish-degradation-and-failure-evidence-for-maintenance) determines what counts as the relevant failure; [MNT.12](#mnt12---maintain-maintenance-information-and-configuration-continuity) connects events and exposure to actual components and configurations. If records mix preventive removals with failures, that discrepancy changes the rate before it changes any policy. A qualified current account is useful even when the data cannot support a strong causal comparison.
+
+For a request about the recorded rate ordering alone, the first group’s 0.20 per 1,000 hours exceeds even the second group’s upper bound of six relevant failures over 56,000 hours. Resolving two disputed classifications can improve the exact count and rate. A change of policy or a claim about the continuity of district service requires its own connection to functioning.
 
 [MNT.2](#mnt2---select-and-reopen-the-maintenance-policy) and [MNT.14](#mnt14---compare-maintenance-methods-for-retention-or-change) then examine which task or Method fits the actual failure and response conditions. A known applicable-spare deficiency can be addressed without waiting for a new fleet study. A low-consequence obvious failure and a hidden protective-function failure remain materially different policy cases.
 
@@ -1761,7 +1807,7 @@ A proposed further comparison needs a question that the available population, ti
 
 In the constructed packaging-plant case each job requires its own four hours of one qualified specialist within the same six-hour access window. The specialist needs eight hours for the two jobs. If the contracts instead allow one two-hour inspection to serve both, followed by two hours on each job, the specialist can finish both in six hours when the service and handover conditions permit that order. [MNT.15](#mnt15---reconcile-simultaneous-maintenance-operation-and-support-work) contains the whole-demand calculation and the alternatives that change it.
 
-[MNT.5](#mnt5---prepare-maintenance-service-capability-spares-tools-and-authority) establishes whether another provider is available and capable. [MNT.6](#mnt6---diagnose-condition-and-choose-a-maintenance-response) supplies the consequences of deferring either job. [MNT.7](#mnt7---coordinate-maintenance-intervention-and-continuing-operation) relates the chosen arrangement to continuing operation. Select a change to allocation or timing, or a supported change to operation, that makes the combined work feasible. If none does, state the commitment the team cannot meet.
+[MNT.5](#mnt5---prepare-maintenance-service-capability-spares-tools-and-authority) establishes whether another provider is available and capable. [MNT.6](#mnt6---diagnose-condition-and-choose-a-maintenance-response) supplies the consequences of deferring either job. [MNT.7](#mnt7---coordinate-maintenance-intervention-and-continuing-operation) relates the chosen arrangement to continuing operation. If the commission includes devising a change, determine whether a different allocation, timing or operating arrangement can meet the combined demands. If the change itself was commissioned, preserve the existing obligations until the governing terms or their holders authorize a revision. To report impossibility of the whole order, account for its permitted alternatives. If only the proposed window has been ruled out, return that narrower conclusion and the condition still open.
 
 Preparation that can overlap production remains useful but does not resolve a shared-person overload. An unplanned extension also changes the capability and fatigue conditions. The team revises allocation or timing rather than treating greater attention as additional capacity.
 
