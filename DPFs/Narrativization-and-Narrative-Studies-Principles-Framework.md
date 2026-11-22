@@ -284,16 +284,16 @@ One possible construction follows.
 
 1. With NSTD.1, select content for the learner’s task. A first-use lesson may need the recognizable difficulty, the first operation and its result. Introduce another method when the result needs further work.
 2. With NSTD.2, place the necessary distinctions before an exercise relies on them, or provide the reference the learner is expected to use. Keep a usable return to source conditions omitted from the lesson.
-3. Use NSTD.3 to identify the connections learners should reconstruct. For a session on applying a method, ask them to connect the relevant source, the operation and the result it can support.
+3. Use NSTD.3 to identify the connections learners need. When the session teaches application, have them use a pattern on a working question and produce the answer, recommendation or other result that question requires.
 4. Use NSTD.5 to choose an example or expression that draws attention to that connection. Preserve any source return needed for the task.
-5. Use NSTD.8 to design a short sequence around a recurring case, a reconstruction or application task, and the support required at that point. While drafting a slide, check whether its task uses a term or distinction before the lesson has made it available. An existing trial can supply separate evidence about what a learner encountered. Try the sequence where the learning question warrants it. Keep the route accessible when others need it for teaching or revision.
-6. With NSTD.6, assess what the sequence lets the intended reader recover. Use a learner’s response and the help they used for a claim about actual recovery. If an essential relation is absent, inspect the source selection, expression and route to the source. Compare amounts only for defined units, selected relations and conditions.
+5. Use NSTD.8 to design a short sequence around a recurring case, the application task and any reconstruction it requires, and the support required at that point. While drafting a slide, check whether its task uses a term or distinction before the lesson has made it available. An existing trial can supply separate evidence about what a learner encountered. Try the sequence where the learning question warrants it. Keep the route accessible when others need it for teaching or revision.
+6. With NSTD.6, assess whether the result answers the learner’s working question, and which parts of the work the learner did with the permitted help. To assess reconstruction as a separate objective, examine the connections the learner recovered. If an essential relation is missing, inspect the source selection, expression and return to the source.
 
 The introductory route leaves out advanced formal variants and neighbouring patterns that the exercise does not require. Give a usable source reference where a later task needs that detail.
 
 E.17 and E.17.AUD help design the teaching publication and its audience units. NSTD.6 addresses narrative quality. Use the subject sources for what the lesson teaches. Use A.10 when the link between evidence and its use is unclear or must remain recoverable, and G.2 or G.11 when a state-of-the-art synthesis needs developing or updating.
 
-If learners enjoy a session but cannot reconstruct how to apply a pattern, that observation can answer what they did under the stated conditions. For an explanation or repair, examine the chosen content, sequence, task and help. Change the part shown to need it.
+A learner may enjoy the session and accurately explain how a pattern works. For a conclusion about applying it, look at what the learner produced on the assigned work. If that result falls short, examine the chosen content, sequence, task and help, then repair the part responsible.
 
 
 
@@ -712,7 +712,7 @@ When the narrative concerns the same incident as its source, identify which sour
 #### NSTD.1:5.1 - Worked slice: FPF seminar from source spine to narrative route
 
 
-A seminar author is asked to tell a motivating story about FPF. To develop a lesson, the author chooses what learners should be able to do: recognize a situation, select a suitable pattern and apply its conditions. The following example records the choices so a colleague can use them in teaching.
+A seminar author is asked to tell a motivating story about trying FPF. What decision might make a practitioner want to open a pattern? The author chooses a team that has to decide who can take on its next order.
 
 ```text
 NarrativePurposeIntake@FPFSeminarOrientation:
@@ -723,22 +723,22 @@ NarrativePurposeIntake@FPFSeminarOrientation:
     - Solution as admissible move under conditions
     - neighboring-pattern exits
     - quality and improvement loop entry
-  sourceStructureSelectionRationale: the learner needs to recognize the method's applicable conditions, first operation, result and next useful move
+  sourceStructureSelectionRationale: the story needs a decision its audience cares about and a reason the selected method could help
   sourceTemporalPosture: prospective planned learning route over current FPF source corpus
   renderingMediationMode: direct-source-structure
   renderingContribution: seminar author
   intendedReaderOrListener: new FPF practitioner; team lead evaluating local adoption
   readerInterestOrUseHypothesis: reader wants a first usable route through FPF without learning every pattern first
-  intendedReaderOrListenerUse: recover an appropriate pattern-use route and identify any further pattern the case needs
-  narrativePurpose: connect the opening question to a use of the pattern in which the source conditions matter
+  intendedReaderOrListenerUse: decide whether this method is worth trying on a question in their own work
+  narrativePurpose: show how consulting a pattern could change a consequential decision
   sourceReturn: selected FPF pattern body and relation record
   additionalClaimQuestion: none unless the seminar makes assurance, policy, or affected-party claims
-  refreshCondition: FPF edition or selected-source pattern changes; learner reconstruction test fails
+  refreshCondition: pattern conditions or audience work change, or the story loses its connection to the reader’s decision
 ```
 
-The opening asks learners to choose a pattern for a difficulty they recognize. The next passage explains how the pattern’s conditions, forces and neighboring exits affect that choice. The exercise returns to the selected pattern so the learner can use those conditions in a case.
+The story opens as the team accepts an order completed with a specialist. The lead is ready to assign the next one to the team. A colleague opens the capability pattern and asks which choices the team made this time and who will be available for the next order. The lead finds an earlier job in which the team made the needed choice itself. They can now assign that work and arrange help for the one decision the specialist still makes. The audience has a reason to try the pattern wherever a good delivery leaves the next assignment in doubt.
 
-To examine the lesson with `NSTD.6`, use a learner’s response to another case. Did the learner choose a pattern, explain the relevant conditions and use its body for the needed method? A response that repeats the opening question establishes which words the learner supplied. To count that as recall, check whether the words remained on display or were prompted. Applying the pattern to the new case requires the relevant conditions. If the teacher needs to explain the difficulty, examine the supplied material, the task, the learner’s preparation and the help used. Change the selection, explanation or practice when the diagnosis supports that change.
+For the motivating story, examine whether its audience can recognize the decision at stake and see what using a pattern might change for them. A reader can have good reason to leave the pattern aside. If the question is whether readers actually chose to try it, use evidence of their choices. A seminar can also be asked to teach application. For that additional purpose, have learners use the pattern to produce the result their task requires. Supply the pattern or the case when the later work supplies it. Leave selection to the learner when that choice belongs to the later work. Assess the result with the help the learner had.
 
 For a seminar draft produced with an LLM, specify the relevant contributions separately.
 
@@ -923,7 +923,7 @@ If the choice is unclear, compare the passage using the questions below.
 | Hidden relations | Does the reader need a connection before it is disclosed? | Put it where the reader needs it or give a usable route to it in time. Keep a delayed disclosure if the earlier task can already be completed on its grounds. |
 | Misreading | Which feature of this sequence could support a mistaken inference? | Where a correction is warranted, choose a sentence, marker or change of order that identifies the needed relation. |
 
-Compare the inferences available at the chosen point with those available at the end. A later disclosure can give grounds to revise an earlier interpretation. A whole story can also support several readings. Use NSTD.9 if those interpretations need developing or comparison. For a claim about what a particular reader understood, or when they understood it, use NSTD.6 with evidence from the relevant reading and point in time. An anticipated response is sufficient for planning its examination.
+Follow the inferences at the points where someone must use them. If a second reader has to act partway through the account, establish what is already available to that reader. A disclosure at the end may explain in retrospect an action that could not have been chosen on those grounds earlier. For an interpretation requested after the whole reading, use what is then available. A later disclosure can give grounds to revise an earlier interpretation. A whole story can also support several readings. Use NSTD.9 if those interpretations need developing or comparison. For a claim about what a particular reader understood, or when they understood it, use NSTD.6 with evidence from the relevant reading and point in time. An anticipated response is sufficient for planning its examination.
 
 A lesson can introduce an example, recount the discovery that made a distinction interesting and then supply its proof. A live account can follow observed events in time, while a later recap examines causes. A story can show effects before revealing their cause. Make the transition recognizable when the reader’s task depends on which relation the order expresses. For a decision made before a later update, reconstruct when the fact was observed, when the decision holder could have received it and when the choice was made. A dated observation can establish what happened. A receipt or another warranted account of access can establish what was knowable to that actor. What reached the reader in the opening scene may have reached the actor only after the choice.
 
@@ -1198,7 +1198,7 @@ Examine how a connector works in its sentence before choosing a repair.
 | "shows that" | What does the observation, argument or example establish? | Match the conclusion to its grounds. Use `A.10` when the connection to the evidence needs recovery or must be reproducible. |
 A proof may be presented as a sequence of questions and inferences, and an architecture choice as a comparison of trade-offs. If you invent a scene of discovery to illustrate a proof, distinguish the imagined events from the premises and inferences that establish the result.
 
-Make the required reconstruction concrete. For example, ask a reader to do one of the following.
+Derive the reconstruction from the reader’s job. The task may supply a kind of connection and still leave the reader to identify which events it connects or what supports it. Leave open whichever of these choices the reader is to make. Name the connection itself when the job is to explain one already identified. Each question below leaves some work to the reader. Choose its wording according to which connection the reader is to identify or explain.
 
 - Name the proposed mechanism and the relation still unresolved.
 - In a live account, identify an observation, an inference and a prediction.
@@ -1453,7 +1453,7 @@ Choose properties that can guide the passage, such as address, rhythm, imagery, 
 
 Distinguish what appears in this passage, what recurs across relevant examples and what the editor is choosing now. A single accepted passage can be sufficient as the model for this use. A claim about a broader tendency needs evidence across the occasions it claims to cover. Keep working notes when someone will use them again.
 
-A writer might use the direction “Begin with a concrete discrepancy, let the reader inspect it, then state the limited conclusion.” It specifies how to develop the next thought.
+To see how a voice can carry across subjects, consider an author who invites the reader to inspect a discrepancy before drawing a conclusion. In an account of one incident the author can start with what happened and trace its cause. In a chapter about a recurring practice, the same voice can invite the reader to examine which feature of the practice would produce that difficulty again. An incident can introduce that inquiry. Carry the reader back to the relation in the practice and the grounds for expecting the problem to recur. That return preserves what the chapter undertook to explain.
 
 #### NSTD.4:4.3 - Compose a natural fragment without losing its thought
 
@@ -2134,7 +2134,7 @@ Identify the object before assigning a value.
 | Object-kind case | Handling |
 | --- | --- |
 | Narrative account, whether candidate or accepted | Evaluate every characteristic whose failure would defeat the intended use. |
-| Narrative rendering below a required floor | Report the supported value, the loss for this use and the smallest repair that could address it, if one is available. |
+| Narrative rendering below a required floor | Report the supported value and what the reader loses. Choose a repair that reaches the work entrusted to the editor. A local correction can restore one passage. For a recurring failure, inspect the source, authoring direction or review criterion that could keep producing it. |
 | The question concerns another object | Evaluate that object under its own criteria, such as reliability across a generator’s operating range or authenticity of a source archive. |
 | The object proves to be another kind after the evaluation has begun | State the mismatch and stop assigning values to this object under the narrative criteria. |
 
@@ -2227,7 +2227,7 @@ Carry out the parts of the evaluation that answer the question.
 2. Select evidence for the claim. Inspect the subject and rendering for present quality, compare the named source and result for promised fidelity, or establish the claimed work from evidence of its performance. A single admissible route can show that an outcome is possible. One admissible route that misses a deadline refutes a claim that every admissible route meets it. A reader who must choose a route as conditions change needs the rule for that choice and a way to recognize when it applies. Assess that content even when the illustrated route is correct.
 3. Identify the work this reader or listener needs the account for and the conditions under which the judgement holds. State limits that affect reliance on the result.
 4. Evaluate every characteristic whose failure would defeat the declared use or make it unsafe. Select additional characteristics only when their result matters to the question.
-5. When a value falls below its floor, identify the loss. Give the smallest repair that would address it, or specify what is still needed to find one.
+5. When a value falls below its floor, identify the loss for the intended reader. For a repair of this account, change the passage or underlying source that prevents the reader from completing the intended work. If the commission concerns recurring failure across accounts, establish what in their production or acceptance permits it. Check what an author following the proposed change would produce. Use the affected passages to judge that change and state what further evidence a claim about its frequency would require.
 6. Before claiming an improvement, re-evaluate the affected characteristics if the version or selected source basis changes.
 
 Missingness and lowering rules:
@@ -2525,7 +2525,7 @@ For fiction or an explicitly hypothetical real scenario, distinguish choosing ev
 
 Choose a further probe when its attainable result can answer a material question about the method, narrative or intended use at a worthwhile cost. Use an adequate existing result when available.
 
-1. **Source perturbation.** Change a constraint that requires a difference in the answer and compare the resulting outputs. If the pertinent relation stays wrong or fails to change, examine how the generator used the source. A successful comparison establishes what happened for the tested change and conditions.
+1. **Source perturbation.** Choose a change for which the subject grounds establish the expected effect on the recipient’s answer or its justification. To test sensitivity, change a relation the account must now express differently. To test preservation, change a detail the question permits the account to omit. In either case, compare what the generated passage now lets its reader infer. An unchanged answer can be sound with different grounds. This comparison establishes what happened under the tested conditions.
 2. **Structure recovery.** Use a reader’s response to the selected task, with access and help specified. To test what can be recovered under conditions excluding the prompt, keep the prompt out of that attempt. Retain the first response and identify what help was used. If a relation is missing, examine whether content, order, access or other conditions explain the loss. When earlier expert readings repeatedly missed this kind of loss, use F.19:4.5 for an actual first reading under the promised conditions. If you need to rely on the reviewer to distinguish sound explanations from plausible substitutes, use C.41.QC and establish the expected judgements independently. Test both errors when the decision depends on both. One established missed defect can already refute a guarantee to catch every such defect. A reader who reconstructs an omitted step from expertise supplies evidence about that reader.
 3. **Responsibility.** Follow the claim to the party that owes the action or the party entitled to decide, correct or withdraw it. If the question is who owes someone a correction, identify the undertaking and its beneficiary. For authorization, establish the corresponding authority. A generated note can convey an existing authorization when its issuer and terms support that use. Verify the actual grant if the wording is the only apparent basis.
 
@@ -3068,7 +3068,7 @@ Different courses can use the same design questions.
 
 | Course | Source material | Possible narrative devices | What to examine |
 | --- | --- | --- | --- |
-| FPF onboarding | Pattern entry, object of concern, forces, solution, relations, checks and improvement. | Practitioner problem, contrasting uses, recurring source question. | How the learner chose an applicable method and reconstructed a pattern-use route. |
+| FPF onboarding | Pattern entry, object of concern, forces, solution, relations, checks and improvement. | Practitioner problem, contrasting uses, recurring source question. | For orientation, which use the learner identified. For application, what the learner produced with the selected method and whether it answers the working question. |
 | Mathematical explanation route | Definitions, examples, theorem prerequisites, proof-status boundaries. | Analogy, diagram story, dependency sequence, counterexample. | Learner marks where analogy stops and returns to formal statement. |
 | Architecture explanation route | Candidate structures, characteristics, decisions, trade-offs, telemetry. | Trade-off story, viewpoint over stakeholder role, decision-memory path. | Learner separates architecture description, decision, realized structure, and telemetry. |
 | Generated teaching material | The source relations and the intended learner operation. | Generated examples or slides examined through NSTD.7. For architectural work, C.35 also applies. | Compare the material with its sources for fidelity. A learner’s response can show performance on the task. To claim learning, establish a change in capability. To credit this material, establish its contribution to that change. |
@@ -3090,7 +3090,7 @@ Modular source publications support reference. Reusing the modules as lessons ca
 | --- | --- |
 | `CC-NSTD8-1` | The design names the intended learner action and the source relations it requires. |
 | `CC-NSTD8-2` | The order serves the learner’s task, and the learner can reach the sources needed for it. |
-| `CC-NSTD8-3` | The task lets the learner perform the action promised. For reconstruction, the required source relations can be recovered. For application, the learner can use them for the assigned decision. For design, the learner can select the relevant relations or test with the permitted help before seeing the author’s choice, and can justify the design if the commission requires its grounds. Judge an individual response from that learner’s work. |
+| `CC-NSTD8-3` | The task lets the learner perform the action promised. For reconstruction, the required source relations can be recovered. For application, the learner can use them for the assigned decision. For design, the learner makes the choices entrusted to them with the permitted help. A prescribed method can leave the correspondence or adaptation open. A worked example can leave the reader to decide how far its reasoning applies. Look for the learner’s own grounds when justification is part of the task. |
 | `CC-NSTD8-4` | Lessons, exercises and other learning materials make their needed source relations and tasks available at the point of use. |
 | `CC-NSTD8-5` | The comparison supports a claimed improvement on the affected outcome, at acceptable cost and with protected qualities preserved. Use NSTD.6 for the assessment and E.22 or E.23 for the improvement work the case requires. |
 | `CC-NSTD8-6` | Distinguish source organization, episode order and reasoning within episodes. The intended learner action determines what to compare, what should remain accessible together and what help is appropriate. For a spaced return, choose separately when it occurs and what learners must retrieve. |
@@ -3350,7 +3350,7 @@ A generated draft can propose possibilities through NSTD.7. Examine their conseq
 
 #### NSTD.10:4.5 - Keep the sufficient result and reopen affected choices
 
-Finish with a usable scene or possibility, the premises it needs and any consequential open choice. NSTD.6 helps assess the presented narrative for its intended use. Claims about an actual audience require evidence of the relevant response under the conditions of reception.
+For an order to develop a possibility, return the scene or arrangement, the premises it needs and any consequential open choice. If the order asks whether the desired course of events is possible under fixed premises, a demonstrated incompatibility answers it. Explain which premise would have to change before proposing a different story when that proposal is wanted. NSTD.6 helps assess the presented narrative for its intended use. Claims about an actual audience require evidence of the relevant response under the conditions of reception.
 
 When a premise changes, follow the events and interpretations that depended on it. Earlier disclosure of a secret to a character can make their later ignorance untenable. Changing the desired experience from inevitability to uncertainty may allow the world events to stay as they are while the author changes disclosure to the reader. Revise what the change affects.
 
@@ -3387,10 +3387,10 @@ Planning from a goal suits stories whose important changes can be expressed as a
 ### NSTD.10:7 - Conformance Checklist
 
 - The question being explored and the premises that constrain it are recognizable.
-- The proposed scene or sequence develops the event, relationship or possibility needed for the intended effect.
+- When the author is asked to develop a scene or sequence, it develops the event, relationship or possibility needed for the intended effect.
 - Consequential prerequisites and effects are followed under the chosen world conditions.
 - The author's desired outcome remains distinguishable from participant knowledge, motives and choices.
-- The scene supports the intended interpretation or gives readers grounds to see which issue remains open.
+- For a commissioned scene, its events support the intended interpretation or let readers see which issue remains open. For a question about possibility alone, an admissible course of events can establish possibility. To rule out the ending, show why the fixed premises exclude it through every permitted course.
 - A changed premise reopens the dependent construction while sufficient unrelated content is retained.
 - For a real-world scenario, distinguish what is observed, what is assumed and which feasibility conclusions the grounds support. A promise of service across choices or to several people at once covers the combinations those people are entitled to require.
 

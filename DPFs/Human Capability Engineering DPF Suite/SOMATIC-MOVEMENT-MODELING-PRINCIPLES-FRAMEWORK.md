@@ -47,7 +47,7 @@ An agent can help interpret a description, compare observations or formulate a q
 
 - **Situation:** You know the movement's purpose but cannot tell what bodily difference an instruction refers to.
 - **Question:** What comparison would let you notice the required bodily difference?
-- **First useful result or blocker:** A difference you can notice again, with the conditions that made it distinguishable, or a finding about what is missing, such as suitable support or instruction.
+- **First useful result or blocker:** A comparison ready to try when its design is commissioned. For a question about performance, a difference you can notice again under stated conditions, or a finding about what prevents a supported conclusion.
 - **Start with:** [SOM.2](#som2---make-a-bodily-change-distinguishable), using the working question from SOM.1.
 - **Stop or return:** Noticing the difference and controlling it are separate results. Return to the task if noticing it answers the question or the distinction has no further use there. Work on regulation when the movement requires control the performer still lacks.
 
@@ -125,7 +125,7 @@ In the salsa figure below, the dancer must turn, keep time and make the continua
 
 To use this method for another movement, change a condition the practice allows while keeping the same question. If a partner could give the signal later and the performer would then need to act differently, keep the timing of both actions. If several ways of organizing the body all give the required result and the task permits them, the choice between them can stay open. These are different from choosing how many beats or movements the record covers. A detailed account of this whole figure can still concern just one turn.
 
-Adequate strength, a steady stance and recall of the figure can coexist with failure in motion. The failed turn locates the problem. To decide whether to work on bodily regulation, change the shared cue or alter another condition, use evidence that could separate those explanations. A reduced task can prepare the turn. Where the required skill is responding to a partner, preserve a real opportunity to respond during the assessment. The partner may be indispensable to showing what this dancer can do.
+Adequate strength, a steady stance and recall of the figure can coexist with failure in motion. The failed turn locates the problem. To decide whether to work on bodily regulation, change the shared cue or alter another condition, use evidence that could separate those explanations. A reduced task can prepare the turn. For a response to an unfamiliar signal, preserve the information, timing and choice the dancer will have. A recorded sequence may provide them. If each partner must adapt to the other, the arrangement must also let a changed response affect the next signal.
 
 The performer reports experience and attempts regulation. The teacher can supply technique, observation and learning support. The partner contributes to the shared movement. An agent can compare the available observations or develop questions when it has the necessary evidence. A conclusion about what the dancer felt depends on the dancer’s account.
 
@@ -207,7 +207,7 @@ Use the bodily detail the question requires. A change meant to guide the perform
 
 #### SOM.1:4.1 - Choose the action interval
 
-Identify the required result and the interval in which the question arises. Identify the conditions whose variation could change the answer or its grounds, such as support, contact or timing. Identify what was happening at the same time that mattered to the movement, including what must continue during any proposed correction.
+Begin with the required result. For a question about one adjustment, choose the interval in which it could affect that result. If the result depends on how actions fit together across a phrase or a longer performance, follow those actions far enough to establish their relation. Matching finishes can conceal a different cue or a late handover earlier in the phrase. Identify the conditions whose variation could change the answer or its grounds, such as support, contact or timing. Identify what was happening at the same time that mattered to the movement, including what must continue during any proposed correction.
 
 For a dancer, the interval may include transferring support during a turn while steps and partner interaction continue. For a writer, it may be the part of a stroke where forearm support changes. Use the technique and criteria of that practice. If the learner is to choose what to model, give them the movement and the purpose of the account before naming a bodily region or prescribing a test. Have the learner work back from the correction or explanation the recipient needs. If two ways of making the same visible stroke would call for different corrections, let the learner choose what could distinguish them and explain why the available evidence suffices or what it leaves open. A teacher who supplies the region and the contrast can still leave the learner to interpret what occurred.
 
@@ -269,7 +269,7 @@ A teacher’s preferred body map may suggest useful questions. It may also influ
 
 ### SOM.1:7 - Conformance Checklist
 
-Identify the interval and the required movement result. Use the observations of experience, deliberate action or movement result needed for the question. When the conclusion depends on their relation, connect them under the relevant support and movement conditions. State what the evidence supports and where an account is unavailable. If proposing a change, identify a result that could count against it and use the observations to select any further work the task requires.
+Identify the required movement result and the part of the performance on which it depends. For a claim that spans several intervals, show what connects them. Use the observations of experience, deliberate action or movement result needed for the question. When the conclusion depends on their relation, connect them under the relevant support and movement conditions. State what the evidence supports and where an account is unavailable. If proposing a change, identify a result that could count against it and use the observations to select any further work the task requires.
 
 ### SOM.1:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -306,7 +306,7 @@ Use SOM.2–SOM.5 for the missing bodily learning or coordination. Use FPF A.6.P
 
 ### SOM.2:1 - Problem frame
 
-Use this Method when a bodily instruction is hard to act on because the performer cannot distinguish the location, direction or developing change it names. Report the difference the performer can notice again under suitable conditions, or the conditions under which they could not distinguish it. Identify what prevented recognition when the evidence supports that explanation. Assess control from evidence of regulation.
+Use this Method when a bodily instruction is hard to act on because the performer cannot distinguish the location, direction or developing change it names. If the assignment is to design the comparison, explain why the proposed variants could reveal the required distinction. If the assignment concerns what the performer can actually distinguish, report the observed result under its conditions. Identify what prevented recognition when the evidence supports that explanation. Assess control from evidence of regulation.
 
 Start with the distinction the movement requires. Use SOM.1 if its relevance is uncertain. If the performer already distinguishes the change, use that finding and address any regulation or combination the movement still needs. For practice, choose familiar comfortable conditions or obtain suitable instruction from a teacher before using unfamiliar loading.
 
@@ -325,6 +325,8 @@ Choose a contrast large enough for the performer to notice and suitable for the 
 For a new comparison, choose comfortable conditions that give the performer an opportunity to experience the relevant difference. The performer can make a familiar change themselves, or suitable support or an instructor can supply a change that the performer is being asked to recognize. Vary the support, intended direction or amount as needed to make that contrast accessible. Keep other conditions alike where possible and note any differences that could also explain the observation.
 
 A return to the first variant can help the performer notice a contrast again. Use an existing observation when it answers the question. For an assignment to recognize the change as it occurs, distinguish what the performer felt from what the announced order or the teacher's cue already told them. Vary the order or ask for the performer's judgement before identifying the change when that distinction affects the answer. Keep any support that belongs in the task.
+
+If the teaching task is to choose a useful comparison, give the performer the movement question and the familiar options available within the practice. Let them decide which conditions to compare and what difference they could notice. If the teacher chooses the contrast, the performer can still learn to distinguish or describe it. Look for evidence of the particular contribution the assignment leaves to them.
 
 In familiar writing, compare the usual pen hold with a slightly lighter hold while the forearm rests in its usual supported position. Return to the usual hold. Do not deliberately increase load to obtain a stronger sensation.
 
@@ -358,7 +360,7 @@ A performer may agree with the teacher’s description without recognizing the c
 
 ### SOM.2:7 - Conformance Checklist
 
-Identify the needed action, the variants compared and the conditions that made a comparison suitable. Report what the performer could distinguish, with what support, or what remained indistinguishable. State the evidence for its use in the receiving action if that is part of the question. Keep claims about regulation within the evidence of deliberate control.
+Identify the needed action and why the proposed variants could reveal the required difference. For an assessment of actual discernment, identify the variants used, the support available and what the performer could distinguish or found indistinguishable. To credit the design of the comparison, identify who chose the variants and why they answer the movement question. State the evidence for its use in the receiving action if that is part of the question. Keep claims about regulation within the evidence of deliberate control.
 
 ### SOM.2:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -629,7 +631,7 @@ For an adjustment that needs a cue, work back from the action still available to
 
 Use a suitable observation of the adjustment with its cue, or try them together when a new attempt is needed. Identify a teacher’s prompt or temporary marker as part of the support. To claim performance without it, use observations under that condition. If the cue or response is missing, identify which contribution the task still needs.
 
-A partner's changing cue can belong to the task. Keep it available when assessing the performer's ability to respond to it. Look for the cue the performer actually had and an action that distinguishes using it from following a memorized sequence. If the commission only calls for completing that sequence together, evidence of its completion can settle the decision.
+A partner's changing cue can belong to the task. Keep it available when assessing the performer's ability to respond to it. For an observed performance, establish whether the performer used the cue. A reliable record of its use can settle that question even when memory would have suggested the same action. For a test of one-way response, a timely unfamiliar cue may suffice. For mutual adjustment, preserve both directions of influence. If the commission only calls for completing that sequence together, evidence of its completion can settle the decision.
 
 #### SOM.5:4.5 - Return to the required action
 
