@@ -27,7 +27,7 @@ Use Financial Domain Modeling to establish whose financial position a model desc
 | FDM.Sources:2 | [Source locators](#fdmsources2---source-locators) |  |
 | FDM.Sources | [Financial Domain Modeling Principles Framework Sources and Edition Notes](#financial-domain-modeling-principles-framework-sources-and-edition-notes) |  |
 
-**Patterns**
+**[Financial modeling methods](#financial-modeling-methods)**
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | --- | --- | --- | --- | --- |
@@ -41,9 +41,9 @@ Use Financial Domain Modeling to establish whose financial position a model desc
 
 ## Practical entries
 
-Start with the financial question and the results already established. To explain what a service contributed, you may need an account of a position or event. A newly established payment may require revising an earlier claim about what funds were available. Use the Table of Contents to go directly to a method. The cases below show how to combine them.
+Start with the question someone has to act on. When you are to construct the model, work from the actual request and its terms. Before using a prepared example as your model, decide what you must establish, for whom and by when. Set out your first account using the distinctions you judge necessary. For practice, you can use an open question from your work or revisit an earlier account you constructed. If an existing position or bound settles the question, give the answer and its grounds. If the request also calls for a particular payment, calculation or document, identify that deliverable. Use the Table of Contents to go directly to the method you need. The cases below illustrate choices made for two particular requests.
 
-**FDM** is the reference code for this framework. FDM.3:4.2 identifies section 4.2 of pattern 3. You can apply the methods yourself or ask an agent to model the case or explain it in the language of your work. The examples stipulate their terms and facts. For an actual arrangement, use the applicable financial and institutional interpretation.
+**FDM** is the reference code for this framework. FDM.3:4.2 identifies section 4.2 of pattern 3. An agent can explain a case or supply a model. When the choice of model belongs to you, use assistance for the work you delegate and justify the choices you make. In the two cases below the author supplies the question and much of the model. The examples stipulate their terms and facts. For an actual arrangement, use the applicable financial and institutional interpretation.
 
 ### FDM-E1 — A score is presented as a financial benefit
 
@@ -66,10 +66,10 @@ For unclear terms, use FDM.1 or FDM.3. For a disputed occurrence, use FDM.4. For
 ### FDM-E2 — A group's cash is used to justify one entity's payment
 
 - **Situation:** A group's cash balance is used to claim that one member can pay a debt.
-- **Question:** Which funds can this entity actually use by the due date?
-- **First useful result or blocker:** The resources available to the entity by the due date and any shortfall, or the particular support term or receipt that remains uncertain.
+- Question: Can this entity meet its payment by the due date? If the recipient also needs to know which funds it can use, what gives this entity timely access to them?
+- First useful result or blocker: A supported payment decision, the usable sources or amount requested, or the unresolved condition that could change the answer.
 - **Start with:** FDM.2 for the payment boundary, then FDM.1 and FDM.3 for support terms and FDM.4 for what occurred. A usable lower bound can establish the debtor's ability to pay by the deadline even when the exact balance is unknown. If the holder of a common facility must choose the beneficiary in advance, consider what that holder will know then.
-- **Stop or return:** Report what the entity could use by the due date. Revisit a conclusion about availability or support if a relevant event or term changes.
+- Stop or return: Give the payment decision if the available funds or a sufficient bound settle it. If the recipient needs the sources or the exact amount, give those with their basis or identify what remains unresolved. Revisit a conclusion about availability or support if a relevant term or event changes.
 
 X owes 100 on day 7 and has 20 of unrestricted cash available then, after all its other receipts and obligations. Y has 150. X and Y share a founder. Use [FDM.2](#fdm2---choose-party-and-group-boundaries-for-financial-modeling) to distinguish exposure to the founder group from X’s ability to pay. On the supplied facts X is short of 80. Adding the two balances establishes no right or means for X to use Y’s cash.
 
@@ -77,7 +77,7 @@ Suppose Y undertakes to transfer 80 to X before day 7. Use FDM.1 to establish th
 
 Use FDM.4 to examine the event that would make the funds usable. A support commitment, transfer permission or sent payment instruction can precede receipt. Suppose Y transfers 60 under its support obligation and X can use it before day 7, with nothing else in the cash account changed. X now has 80 and is short of 20. Y has performed 60 of its commitment of 80. Update X’s payment account with the confirmed receipt. If the deadline is still ahead, receiving the remaining 20 in time remains a conditional scenario until its outcome is established. Revise any conclusion inconsistent with the established events.
 
-The question can end with the amount available or with a precise limit if receipt is unknown. When a financing or payment choice is needed, the responsible party can use that result to compare its options. For portfolio risk, common dependence on the founder may matter even when X cannot use Y’s funds. Keep the group exposure distinct from the cash available to X.
+Return the eligibility of the sources, amount available or payment decision that the recipient requested. If receipt remains unknown, give what the available bounds establish. When a financing or payment choice is needed, the responsible party can use that result to compare its options. For portfolio risk, common dependence on the founder may matter even when X cannot use Y’s funds. Keep the group exposure distinct from the cash available to X.
 
 # Financial Domain Modeling Principles Framework Architectural Reference
 
@@ -85,7 +85,9 @@ The question can end with the amount available or with a precise limit if receip
 
 Financial work connects institutional relations with resources, records and possible future events. A borrower can have an obligation before a reporting system displays it. A displayed receivable can be disputed or already discharged. Money in a related company's account can be relevant to an exposure analysis while remaining unavailable for the borrower's next payment.
 
-Establish the parties, meanings, event conditions and effects that a financial question, service or connected model needs. A table, diagram or software model can express the answer. Its claims depend on the applicable terms, events and their evidence.
+Begin with the intended use. A request to release a shipment after payment calls for the condition that authorizes release. A request to explain a balance may end with the position at the cutoff. For a request to design a payment service, work out who can instruct, who must receive what and what may still be unknown when someone has to act. Use the operative terms to decide which of these relations the model needs. A table, diagram or software model can express the answer.
+
+Where several things must fit together, trace them separately from that use. Which claims make up the balance? Which actions together count as settling it? Who is entitled to direct those actions or rely on the result? A processor's confirmation can supply a fact to your model even when its internal process is outside your work. If you must explain the settlement process itself, follow the instructions, receipts and rules far enough to establish which actions accomplished it. At each step ask whether two arrangements represented alike could require different answers or different grounds for the requested explanation. Keep the distinction that matters and return the resulting conclusion to the person who needs it.
 
 Consider a loan with an advance of 100 and a contractual payment of 105 on day 30. A scoring method, the calculator implementing it and the score in this case are different objects. An authorized decision maker can use the score. An agreement creates rights and obligations under its formation conditions, funding can make proceeds available, and a later payment may discharge part of what is due. Trace the relevant steps to identify the score’s contribution or where it fell short.
 
@@ -97,17 +99,21 @@ With sufficient terms and party identities, use FDM.3 to derive what the contrac
 
 When a flow must be derived, use FDM.1:4.2 to establish the operative terms and interpretations that matter. In FDM.3:4.2–4.3, connect each condition to its consequence, identify the relevant state and dates, then derive the amount and next state. The partial-payment and guarantee cases show how to adapt the construction. For a settled fixed payment, the two-row account in FDM.3:5.1 can suffice.
 
-Use FDM.5 to trace a service output through its use to a participant’s financial result. If the connection depends on the meaning of a position or the effect of an event, establish that contribution. In the other direction, a known financial change may raise a question about whom it served. Follow the connection needed for the task. For a transfer within a group, trace the dated debit, the recipient’s usable funds and any amount still in transit. Across a period that includes both postings, the fee may be the group’s only external cash cost. Which of these answers the question depends on whose funds are at issue and which alternative is being compared.
+Use FDM.5 to trace a service output through its use to a participant’s financial result. If the connection depends on the meaning of a position or the effect of an event, establish that contribution. In the other direction, a known financial change may raise a question about whom it served. Follow the connection needed for the task. When the answer depends on the path or timing of a transfer within a group, trace the debit, receipt and any funds still in transit far enough to establish the position at the relevant cutoff. Across a period that includes both postings, the fee may be the group’s only external cash cost. Which of these answers the question depends on whose funds are at issue and which alternative is being compared.
 
 Interpreting a payment under a contract can be part of deriving the remaining obligation and thus of explaining the borrower’s position. Use [FPF B.1.5.EW — Recover How Constituent Actions Enact Encompassing Work][EW] when you need to establish how those actions contribute to the present modeling work or which capability is missing. FDM.4:5.2 shows why correct subtraction may leave the position unresolved. The bank transfer itself is an occurrence the modeler can observe, even while building the account.
 
 ## FDM.Reference:3 - Connect models by the financial question
 
-Begin with the decision the financial model will support. Identify the party, position or instrument and the date that matter to that decision. Work out which financial situations are consistent with the available account and terms. If none is, resolve the incompatible premises or qualify the answer. Can two situations with the same account require different actions? If so, retain the distinguishing right, event or term, or obtain evidence for it. If the answer is the same throughout, use it even when the underlying histories differ. A model may group several entities, represent the other side of a contract or describe the position after settlement. To decide whether one model strictly refines another, fix the question and explain how the new model is read in the earlier one. Establish a feasible case of the new model, show that every such case satisfies the earlier assertions under that reading, and identify a formerly possible answer now excluded. Check the conditions attached to a sum. A replacement that allows payment without the security previously required can break the old rule even if it lists fewer payment amounts. When strict refinement holds, the earlier model is more abstract for that question. On returning to it, recheck any payment conclusion that relied on a condition the more abstract model leaves open. Two models can give the same yes or no about today's payment and permit different, even incomparable, sets of exact balances. [Compare models for refinement](https://fpf.tools/B.5.MR:4.2)
+Begin with the decision the financial model will support. Identify the party, position or instrument and the date that matter to that decision. Work out which financial situations are consistent with the available account and terms. If none is, resolve the incompatible premises or qualify the answer. Can two situations with the same account require different actions? If so, retain the distinguishing right, event or term, or obtain evidence for it. If the answer is the same throughout, use it even when the underlying histories differ.
+
+When two models must work together, choose the detail on each side for the same decision. Two installments due to the same creditor in the same month can be combined for a question about the total due in that month, once their amounts, currency and inclusion are established. Before promising to pay each installment on time, connect its deadline to funds and an authorized payment route usable then. To establish timely performance, the total paid during the month can conceal a late first payment. Match the settlements and their effective times to the installments. A reliable statement that both were settled by their due times can answer directly. An explanation of how the payment service achieved that result also needs the actions that brought it about.
+
+A model may group several entities, represent the other side of a contract or describe the position after settlement. To decide whether one model strictly refines another, fix the question and explain how the new model is read in the earlier one. Establish a feasible case of the new model, show that every such case satisfies the earlier assertions under that reading, and identify a formerly possible answer now excluded. Check the conditions attached to a sum. A replacement that allows payment without the security previously required can break the old rule even if it lists fewer payment amounts. When strict refinement holds, the earlier model is more abstract for that question. On returning to it, recheck any payment conclusion that relied on a condition the more abstract model leaves open. Two models can give the same yes or no about today's payment and permit different, even incomparable, sets of exact balances. [Compare models for refinement](https://fpf.tools/B.5.MR:4.2)
 
 Suppose a lending model stores “loan amount = 100” for the principal, while a payment model requires the amount payable at maturity. Equal-looking field names do not establish an adequate correspondence.
 
-Use FDM.1 and FDM.2 to check that both models refer to the same lender, borrower and contract. The terms used with FDM.3 give principal of 100 and a payment of 105 in the stated currency on day 30. With [SIE.4][SIE], connect the principal field to the principal input and derive the maturity value from the terms. Copying 100 into the maturity field would understate the amount due by 5.
+For this principal-to-maturity calculation, use FDM.1 and FDM.2 to check that both models refer to the same lender, borrower and contract. The terms used with FDM.3 give principal of 100 and a payment of 105 in the stated currency on day 30. With [SIE.4][SIE], connect the principal field to the principal input and derive the maturity value from the terms. Copying 100 into the maturity field would understate the amount due by 5.
 
 Use [SIE.5][SIE] to preserve the party and contract identities and [SIE.6][SIE] to combine statements with their meanings, currency and time. Use [SIE.3][SIE] to assess whether the models answer the receiving question or need an extension.
 
@@ -120,7 +126,7 @@ For this example, assume the advance of 100 has occurred and sufficient evidence
 | What was actually paid? | An adequately established payment of 60. | The actual occurrence, with its relevant dates. |
 | What remains due after that payment? | 45 under the supplied application rule, with no further fees or interest. | The effect of payment on the obligation. |
 
-Use FDM.4 to establish the advance, the payment and what remains due. Keep the original contractual schedule alongside the observed performance when reporting or modeling risk needs both. The connection is adequate when it answers the receiving question or shows precisely which premise remains unresolved.
+If the requested statement depends on funding, payment or discharge, use the corresponding established event or effect. FDM.4 helps establish it when it is still in question. Keep the original contractual schedule alongside the observed performance when reporting or modeling risk needs both. The connection is adequate when it answers the receiving question or shows precisely which premise remains unresolved.
 
 [FIBO][FIBO] describes financial concepts and their relations. [ACTUS][ACTUS] supplies logic for deriving scheduled contractual events from terms. A model may need either or both. To implement a correspondence, inspect the definitions, terms, encoding and outputs on which it relies.
 
@@ -132,13 +138,13 @@ Give the criterion and use for each grouping. To sum balances, check the parties
 
 Suppose X and Y have 100 between them in the same currency. Both balances are nonnegative, available by the due time, and there are no other claims, transfers or sources. Can X pay 60? Balances of 20 and 80 or of 80 and 20 both fit the total and give opposite answers. If Y can hold at most 40, X has at least 60 and can pay. If a different report puts the total available to both at no more than 55, X cannot pay 60. Neither decision needs an exact split. A reporting elimination of an intragroup receivable and payable affects that report. For a change to the debt itself, establish the effective agreement or event.
 
-The same discipline applies within a loan. The lender's right, the borrower's duty, a bank-account record, usable proceeds and equipment acquired with those proceeds are different subjects. Their relationships explain the financial service.
+A financial service can depend on several kinds of relation. An agreement can contain a guarantee clause. The creditor holds the right it grants, and the guarantor may perform by paying the creditor. The creditor may then spend the cash received on equipment. A service model can connect those actions, parties and positions without treating the creditor or the acquired equipment as parts of the agreement. To choose how far to follow each relation, change the use of the same payment: its receipt can answer a collection question, while a question about discharge also needs the application of the receipt under the terms.
 
 For a common funding facility, ask when the person allocating it can find out who needs the money. A facility of 100 can meet a single request for 60 from either X or Y if the authorized allocator can learn the payee and direct the funds there in time. If funds must be reserved by account in advance and cannot move later, a guaranteed 60 at each possible account would require 120. If both may call simultaneously, one timely message still leaves the facility 20 short. A scenario forecast can use stated assumptions. For a service-probability target, identify the relevant population and probability of timely service, including both demand and the ability to respond. A supported lower bound can establish the target. Service in every allowed outcome meets any probability threshold up to one. [Dated funding](https://fpf.tools/FIN.2:4.4) · [Shared claims](https://fpf.tools/FIN.23:4.3)
 
 ## FDM.Reference:5 - Practical gain, cost and evidence
 
-The first gain is a smaller, better defined question. A payment report may need only a corrected party reference or a distinction between due and paid. A service design may need to locate who actually uses a score. A disputed obligation may require the applicable institutional rule and evidence of the event it recognizes.
+A useful model resolves the question at the scope of the recipient's decision. A finding for one party can finish a request about that party. For a promise to several parties, return that finding to the promise and establish what their rights and the common resources permit together. A payment report may need only a corrected party reference or a distinction between due and paid. A service design may need to locate who actually uses a score. A disputed obligation may require the applicable institutional rule and evidence of the event it recognizes.
 
 Detailed models take time to build and maintain. Begin with what existing accounts establish. Add detail when a plausible difference matters to the requested finding or action. The result can be a supported position or model, a finding that nothing changed, or a precise limit on what is known.
 
@@ -158,9 +164,13 @@ Where two models join, check that they refer to compatible parties, positions, t
 
 If an amount field is substituted for the amount due, recover the contractual meaning. If group cash is treated as available to one member, check that member’s access. If a service output is credited as a participant’s outcome, trace its actual use and contribution. Preserve unrelated conclusions that still have adequate grounds.
 
+Return to your initial account if you undertook the modeling exercise in the Readme. Explain why your chosen boundaries and distinctions support the requested action over the circumstances it must cover. Look for a change of holder, use or timing that your model treats alike and that could change the required answer or its grounds. Revise the account if one is possible. An argument from the terms may already cover the whole range. If you were given the parties, grouping and rule, the resulting calculation shows how you applied them. To demonstrate your own choice, use work in which that choice was yours, including a suitable earlier account.
+
 For source qualifications, citation and edition information, see the [Sources and Edition Notes](#financial-domain-modeling-principles-framework-sources-and-edition-notes).
 
 ## FDM.Reference:End
+
+# Financial modeling methods
 
 ## FDM.1 - Recover the Financial Position Behind a Record
 
@@ -197,7 +207,7 @@ A right to future payment can be established while the payment itself remains un
 
 #### FDM.1:4.1 - State the financial question and relevant party
 
-Identify what the record is meant to establish. It might concern who owes or may receive an amount, who bears a loss or what resources are available. Name the party whose position matters and any counterparty needed to interpret it. Use the stated question directly or obtain clarification where its meaning is unresolved.
+Start from what the recipient must be able to say or do. Whose claim would a payment discharge, whose duty would remain, or who could draw on the money? Follow the operative relation to its holder and to any other party whose position the answer depends on. If the named account could belong to an agent acting for someone else, ask whether substituting that holder would change the financial conclusion. An established holder can be used directly. Clarify a choice of perspective only when it matters and the request leaves it open.
 
 If the answer depends on a disputed identity or group boundary, use FDM.2 or [SIE.5][SIE]. A trading name, group identifier or database key can locate records. Check the entity it identifies before relying on it to resolve the dispute.
 
@@ -221,7 +231,7 @@ Use [FPF A.2.8][DUTY] to establish whether a particular duty exists. Use [FPF A.
 
 Identify what each source describes, the time it concerns and any limitation affecting reliance. A contract description, a servicing record and a customer's statement can refer to the same loan while differing in date, purpose or evidential support.
 
-Establish separately which resources the relevant party can use. A borrower may still owe repayment after spending all the proceeds. A lender may have a right to payment even though the borrower cannot pay now. A displayed balance can be evidence when its account meaning, date and availability conditions support the claim.
+When the question concerns resources, establish which of them the party can use at the required time. A borrower may still owe repayment after spending all the proceeds. A lender may have a right to payment even though the borrower cannot pay now. A displayed balance can be evidence when its account meaning, date and availability conditions support the claim.
 
 Describe a prospective position under its conditions. A score or offer can inform a decision. A valid agreement can create duties at formation before disbursement. To establish a particular position, use the conditions that actually apply to it.
 
@@ -251,8 +261,8 @@ For an ownership interest or a conditional instrument, establish the relation an
 
 Check whether the proposed interpretation meets these criteria.
 
-1. The actual party and financial question are identifiable.
-2. The right, obligation or other interest has an adequate basis, content, conditions and time.
+1. The question and the scope of the party or parties whose position matters are clear. A claim identifying a particular holder is supported at that level.
+2. The account gives adequate grounds for the position asserted, its absence or the limits of a finding, with the conditions and time on which that conclusion depends.
 3. Assertions and records about the position remain distinguishable from the position itself.
 4. Claims about available resources or expected future performance have the grounds they require in addition to the established position.
 5. The result supplies an adequate answer or names the particular identity, term, rule or evidence still missing.
@@ -324,7 +334,7 @@ Separate-entity accounts can miss correlated exposure or an actual support arran
 
 ### FDM.2:3 - Forces
 
-An aggregate simplifies comparison when it retains the distinctions that affect the conclusion. Check membership and support at the time the question concerns.
+An aggregate simplifies comparison when it retains the distinctions that affect the conclusion. Check the membership or support used in the conclusion at the time the question concerns.
 
 A relation can establish a duty or power, or support an expectation of voluntary action. State which applies. An expected transfer can inform a scenario. A claim of committed funding also needs evidence of the commitment.
 
@@ -332,13 +342,13 @@ A relation can establish a duty or power, or support an expectation of voluntary
 
 #### FDM.2:4.1 - Start with the financial consequence being examined
 
-Identify whose payment, position, exposure, control or report is at issue and the relevant time. Use the underlying entities and accounts to interpret the group label.
+Start with the consequence the recipient needs: the exposure of a group, the position of any one member, or what several holders can do under the same arrangement. A total can describe the first and leave the other two open. Hold one member's position fixed and consider a change in the other members' rights or draws. Then hold the total fixed and vary who can use it by the required time. Follow a difference down to the accounts, claims or rules that explain it. Stop at the group when its established account already answers the question.
 
 For a payment, identify the obligor and the funds it can use by the due date. For a portfolio question, identify the investments or exposures and what their aggregation means for risk. For a report, identify the framework adopted or required for the entity and period. Use its purpose and applicable authority to select the rules. Use [SIE.5][SIE] if entity identity or continuity is disputed.
 
 #### FDM.2:4.2 - State why these members belong together
 
-Choose the grouping criterion for the question. It may be a common founder, control, contractual support or inclusion under the applicable consolidation rule. Establish which parties meet the criterion at the relevant time. Retain the underlying positions needed to interpret a group result.
+Choose the relation that defines the group for this question, such as a common founder, control, contractual support or inclusion under a reporting rule. Establish membership at the relevant time to the extent the answer depends on it. A complete list calls for grounds for both inclusion and coverage. A supported total or restriction covering every admissible member can settle a threshold without naming them individually. A request for the list itself still calls for the list.
 
 Different criteria can produce overlapping groups. Keep them connected when the receiving use needs them. A single hierarchy need not carry every financial relation.
 
@@ -354,6 +364,8 @@ When a transfer is expected, state the reason for the expectation and its role i
 
 Combine only amounts whose meaning, time, currency and inclusion rule are adequate for the receiving use. Preserve restrictions and conditional relations that can change the result.
 
+For example, a creditor asks whether two debts of 60 each are fully covered if both default and both demands qualify. The guarantees cover qualifying principal up to their stated limits. Each debt, considered alone, fits under a limit of 80. Do the contracts grant two independent limits or must both claims draw on one limit of 80 for the period? With one limit of 80 that cannot replenish between the two demands, at least 40 of the 120 lies outside that cover, even when the demands arrive on different days. Under two independent guarantees each covering its own debt up to 80, all 120 is within cover under those conditions. An answer about one named debt may also depend on priority, allocation or which demand has already consumed the available cover. To establish what the creditor has received, use evidence of payment. For the original question about full cover the terms and the joint limit suffice.
+
 For a reporting result, use the provisions governing consolidation, recognition, measurement or elimination, including material exceptions, or a responsible accountant’s supported treatment. If control determines a disputed boundary, establish the relevant ownership and decision rights. Apply an available qualified determination or seek one for the entity and period if the result requires it. Until then, identify which aggregate remains unresolved.
 
 Use an established reporting boundary and treatment to identify included entities, align their accounting bases and make required adjustments. If amounts remain incompatible, explain why they have to stay separate. Use [MA.4][MA4] for account construction and reconciliation. A valuation, conversion or netting operation needs its own applicable rule.
@@ -362,7 +374,7 @@ For a disputed treatment, identify the rule or judgement that determines the ope
 
 For a payment question, derive the debtor’s usable funds at the due time after other relevant receipts and obligations. Count support from another entity according to its terms and established availability under §4.3. For a risk question, retain shared exposures and dependencies relevant to the scenarios. An exposure aggregate and a payment balance require their own meanings.
 
-Establish that the report and the applicable restrictions admit an allocation, then test the payment over the allocations they allow. If the total and the account limits conflict, identify the incompatible premises. A separately established limit on the debtor can still decide the payment on its own grounds. If all leave the debtor enough, the balance need only be bounded. To show that the report leaves payment open, find two permitted allocations with the same report, one sufficient and one short, or show why both exist. For a shared line, include the authorized draws that can coincide and the time at which the allocator learns which account needs funding. For a promise to serve any eligible payee, a reservation made before the payee is known must cover whoever can still request service. For a service target expressed as a probability, use its population and criterion. A sufficient lower bound on timely service can settle that question. To establish that a particular payment occurred use the effective settlement or other evidence for it.
+Establish that the report and the applicable restrictions admit an allocation, then test the payment over the allocations they allow. If the total and the account limits conflict, identify the incompatible premises. A separately established limit on the debtor can still decide the payment on its own grounds. If all leave the debtor enough, the balance need only be bounded. To show that the report leaves payment open, find two permitted allocations with the same report, one sufficient and one short, or show why both exist. For a shared line, include the draws that can consume the same capacity before it is restored, the authority to allocate it and the time at which the allocator learns which account needs funding. For a promise to serve any eligible payee, a reservation made before the payee is known must cover whoever can still request service. For a service target expressed as a probability, use its population and criterion. A sufficient lower bound on timely service can settle that question. To establish that a particular payment occurred use the effective settlement or other evidence for it.
 
 #### FDM.2:4.5 - Return the boundary and its financial meaning
 
@@ -401,7 +413,7 @@ Evidence of past voluntary support can inform an expectation. It does not by its
 
 Check the following for the stated use of the boundary.
 
-1. The financial question, relevant time and underlying parties are clear.
+1. The financial question, relevant time and scope of the parties or positions are clear. A conclusion about joint use preserves any common limit and conditions of allocation on which it depends.
 2. Group membership follows an identified criterion adequate for that question.
 3. Liability, control, support, permission and expected behavior remain distinct where their differences matter.
 4. An aggregate retains the necessary time, currency, restrictions and applicable composition rule.
@@ -431,7 +443,7 @@ A single reporting tree is adequate when its rule and the receiving use match. S
 
 C.32.MWA explains how several useful structures can coexist. In a financial model, membership by founder, control or support can differ. Use SIE.5–6 when identifying the entities or composing their claims requires further work.
 
-In §§4.1–4.4, select the boundary for the financial question, preserve the members’ positions and examine support separately. Identifying the debtor and any support relation can expose a shortfall hidden by the founder-group total. Extend the model when another material relation is needed.
+In §§4.1–4.4, select the boundary for the financial question, preserve the member positions and support conditions on which the requested conclusion depends. Identifying the debtor and any support relation can expose a shortfall hidden by the founder-group total. Extend the model when another material relation is needed.
 
 [AASB 10 §19 and B86–B88][AASB10] illustrate the reporting operation. Consolidated statements on that basis require consistent accounting policies and adjustments eliminating intragroup balances. Apply the provisions that govern the report once its boundary is established. A different reporting basis calls for its own treatment.
 
@@ -484,7 +496,7 @@ Simplification is useful when it preserves the receiving answer. It becomes misl
 
 #### FDM.3:4.1 - Recover the arrangement and intended question
 
-Identify the relevant parties, instrument or arrangement, version of the terms and time from which the model starts. Use FDM.1 or FDM.2 for missing positions or boundaries.
+Start from the use of the resulting flow. Work backwards from the payment, receipt or finding in question to the parties and operative provisions that could change it. A provision of a separate agreement may use the unpaid principal from this loan as its input. Use the version, dates and opening state that its rule needs. A later state certified on the required basis may supply the starting point. Use FDM.1 or FDM.2 for a missing position or boundary.
 
 Specify the requested result, such as the contractual schedule, an adverse funding scenario or the consequence of an option. To find the borrower’s next required payment, establish its obligation and the applicable event conditions. To find what it has already discharged, use evidence of performance. For its ability to pay, establish usable funds by the due date. Reuse adequate terms and schedules under their stated assumptions.
 
@@ -502,7 +514,7 @@ Assess a suitable available model against the operative rules. Check whether the
 
 Check whether the model’s definitions and event rules express the required allocation, calendar and exercise conditions. Use a fit directly, extend a separable missing behavior when the rest remains valid, or report what the model cannot support. A software default can support a conditional scenario if stated. Use the agreement to establish its actual terms. [SIE.3][SIE] helps decide whether the model suffices and SIE.4 helps connect different representations.
 
-For an [ACTUS][ACTUS] implementation, inspect the selected contract type’s schedule, state initialization, payoff and transition rules, together with the dictionary and implementation edition. Supply the operative terms, supported starting state and any external inputs the model needs. Compare its events with the agreement-based derivation in this case. A successful sample run establishes what that sample executed. Applying the model to another contract needs a correspondence for that contract. For a family of contracts, identify the common starting states, terms, event rules and combinations covered. Show that the implementation gives the required amounts, dates and next states throughout that family. The correspondence can follow from the event rules and their composition, a preserved relation sufficient for the receiving question, or a complete comparison over a finite family. One permitted mismatch refutes the proposed correspondence at the affected output.
+For an [ACTUS][ACTUS] implementation, inspect the selected contract type’s schedule, state initialization, payoff and transition rules, together with the dictionary and implementation edition. Supply the operative terms, supported starting state and any external inputs the model needs. Compare its events with the agreement-based derivation in this case. A successful sample run establishes what that sample executed. Applying the model to another contract needs a correspondence for that contract. For a family of contracts, identify the allowed starting states, terms and event combinations at the scope of the claimed result. For agreement on a full payment schedule, establish every required dated flow throughout the family. Relate the internal states to the extent needed for that argument. Establish their transitions as well when the receiving use requires them. For a payment decision, a preserved bound at the relevant date can determine the answer throughout even when exact amounts or intermediate states differ. The correspondence can follow from the event rules and their composition, a preserved relation sufficient for the receiving question, or a complete comparison over a finite family. One permitted mismatch refutes the proposed correspondence at the affected output.
 
 ##### FDM.3:4.2.2 - Construct enough state and preserve the different dates
 
@@ -526,7 +538,7 @@ At an event, bring any required accrual to the applicable boundary. Determine th
 
 At the due date, derive what is payable. A forecast may assume that the borrower pays it. To report an actual discharge, use FDM.4 with evidence of the event the terms recognize. Keep outstanding principal and interest until discharge or another effective change is established. A forecasting engine that clears its balance at scheduled maturity establishes only the state of that forecast.
 
-Give the receiving user the starting position, operative rule, event condition, dates, amount and next state needed to reconstruct the result. A short table can suffice. An executable model can help with repeated or interacting calculations. Where users must inspect its result, show how a representative event answers their financial question.
+Give the receiving user the grounds needed to reconstruct the requested conclusion. A dated position and the clause that fixes its payment may suffice. For repeated or interacting calculations, a table or executable model can expose the starting state, event rules and updates. A worked event can answer for that event. For a conclusion about all the events or contracts in scope, show what carries the conclusion across them.
 
 Check the derived payments, dates and state changes against the agreement at the coverage claimed. A worked event can show how the model calculates it. For a rule claimed throughout a family, derive the result for all allowed terms and event sequences that affect it, or cover the finite alternatives exhaustively. A shared rule for how events change the state may establish the correspondence throughout. Check a boundary when crossing it could alter the answer. Correct arithmetic still depends on the party, meaning of the amount and starting state. Use a simple two-row account for a fixed-payment loan when it suffices. Add branches or an executable model for behavior the question needs.
 
@@ -540,7 +552,7 @@ For a financing choice, valuation or funding question, supply the qualified flow
 
 #### FDM.3:4.5 - Return and adapt the model for its receiving use
 
-Return the contractual or conditional flows with the parties, timing rules and assumptions the question needs. An unknown future market value can leave a usable formula. Competing readings of a term may give different formulas or dates. When no single value is established, give the supported range, conditional branches or precise unresolved amount.
+Return the contractual or conditional flows with the parties, timing rules and assumptions the question needs. An unknown future market value can leave a usable formula. Competing readings of a term may give different formulas or dates. If the permitted values differ, return any conclusion they already establish for the intended use. Give the range, branches or remaining uncertainty when the requested result depends on them.
 
 For a cash threshold, test it against the amounts due in every reading still supported. In §5.2, if the earlier receipt is established and the two stated interest end dates exhaust the uncertainty, the amounts due are 2,675.95 and 2,677.41. A provision of 2,678 is enough either way and 2,675 falls short either way. A provision of 2,676 leaves readiness dependent on the end date. If the receipt is also uncertain, bring its permitted outcomes into the calculation.
 
@@ -610,13 +622,15 @@ For a funding question, use [FIN.2][FIN2] with the qualified amount, due date an
 
 Suppose G separately guarantees L up to 2,000 of B’s unpaid principal on the loan in §5.2. Payment requires the principal due date to have passed, two following business days to have elapsed without cure, and G to have received a valid demand. It falls due two following business days after that demand. Use the same weekday-only calendar. Can this guarantee give B funds for the payment on 4 May?
 
+B cannot use this guarantee to fund the 4 May payment. Its beneficiary is L and its payment conditions require events after that due date. This answers B's question for every permitted default amount and demand date under these terms. If L instead needs to know what it could demand from G and when payment would fall due, construct the following event model.
+
 Construct the condition as a conjunction. A principal shortfall alone supplies only one part. Keep the outstanding covered principal from the loan, the end of the cure interval and the demand's validity and receipt as distinct inputs. When all activation conditions hold, the amount is the lesser of covered unpaid principal and 2,000; the recipient is L. A scenario assumption about default cannot substitute for an actual valid demand.
 
 Suppose B makes no maturity payment and no intervening event reduces principal. The two following business days are 5 and 6 May. A valid demand received on 7 May makes payment due on 11 May, with 8 and 11 May the two following business days. Covered principal is 2,665, so 2,000 of the guarantee is due to L on this branch.
 
-The guarantee provides B with no funds for 4 May. It may protect L against part of a later loss or affect a separate offer of financing. For an actual guarantee payment, use FDM.4 to establish its effect on L’s claim and any claim G acquires against B. A payment of 2,000 to L can change the holder of a claim without reducing B’s total obligations by the same amount.
+The guarantee may protect L against part of a later loss or affect a separate offer of financing. For an actual guarantee payment, use FDM.4 to establish its effect on L’s claim and any claim G acquires against B. A payment of 2,000 to L can change the holder of a claim without reducing B’s total obligations by the same amount.
 
-Derive the trigger, qualifying action, beneficiary and due date together. Entering the guarantee limit as a loan payment omits the conditions that produce the event. If demand validity is unresolved, give the conditional event. Use a qualified determination of validity if the question needs a definite outcome. Other established loan amounts remain available.
+For L’s payment schedule, derive the trigger, qualifying action, beneficiary and due date together. Entering the guarantee limit as a loan payment omits the conditions that produce the event. If demand validity is unresolved, give the conditional event. Use a qualified determination of validity if the question needs a definite outcome. Other established loan amounts remain available.
 
 ### FDM.3:6 - Bias-Annotation
 
@@ -626,9 +640,9 @@ A familiar simple loan can also bias the interpretation of another instrument. U
 
 ### FDM.3:7 - Conformance Checklist
 
-Check the following for the intended use of the flows.
+Check the following at the scope of the result requested. A conclusion that follows from the beneficiary and the trigger, as in §5.3, can be inspected directly in the operative terms.
 
-1. The arrangement, parties, relevant terms and initial state are identified.
+1. The relevant arrangements, parties and terms are identified, with an adequate starting state where the answer depends on it.
 2. Event conditions, amounts, currencies, timing and state updates follow the applicable terms or explicit assumptions.
 3. The representation retains the branches and ordering that can change the answer.
 4. Contractual, scenario, expected and actual flows remain distinguishable.
@@ -710,7 +724,7 @@ Records can disagree about time, party, meaning or whether an action succeeded. 
 
 #### FDM.4:4.1 - Name the claimed change and prior position
 
-Identify the claimed change, party, arrangement and relevant time. Establish the previous position as far as needed to explain the effect. Use FDM.1 for a missing position and FDM.2 for a party boundary that still matters.
+Identify the claimed change, party, arrangement and relevant time. A current position can be established directly at the relevant time. To explain a change, establish its basis and the earlier position to the extent the explanation depends on it. To confirm one particular transaction or how it was carried out, establish the occurrence or actions the request identifies. Use FDM.1 for a missing position and FDM.2 for a party boundary that still matters.
 
 Distinguish a change in permission, duty, usable resources, recorded information or business outcome. For a message marked “approved,” establish what decision the message reports and who issued that approval before relying on it for another claimed result.
 
@@ -722,9 +736,11 @@ Use [FPF A.2.8][DUTY] for duties, [FPF A.2.8.PER][PER] for permissions and [FPF 
 
 #### FDM.4:4.3 - Establish what actually occurred
 
-Inspect the evidence relevant to that rule and effect. Match the parties, arrangement, amount and occurrence. Distinguish an instruction from its execution and a provider's local result from the recipient's result where those differences matter.
+Inspect the evidence relevant to that rule and effect. For a claim about a particular occurrence, match the evidence to the relevant parties, arrangement, amount and time. If the question concerns only the resulting position, use an adequate statement of that position or the effect common to all admissible histories under §4.4. Distinguish an instruction from its execution and a provider's local result from the recipient's result where those differences matter.
 
 Use the dates that matter to the question. The occurrence, effective date, posting and actual availability can differ. Evidence that the provider received an instruction can answer that question while leaving the recipient’s access to funds unresolved. A confirmation received later can establish that the position changed on an earlier day. To explain an action taken on that day, determine what its decision maker could know and what grounds they used then.
+
+For a payment run, recover what was commissioned. Acknowledgement of submission in the agreed form can finish an order to submit a batch. For a promise to settle each invoice, use the terms that determine what discharges it. A payment instruction in the payer's records and the matching credit in the recipient's records can describe stages of one transfer. Two references to an amount do not establish two settlements. Conversely, one transfer to an authorized collection agent can discharge two invoices if its amount, allocation and the agent’s receipt meet the terms of both. A reliable confirmation covering both named invoices, their amounts and discharge by the cutoff can answer the balance question directly. To explain how the payment run accomplished this, connect the relevant instructions and receipts to the rule for each discharge.
 
 If sources disagree, compare their subjects, dates and meanings. Investigate a remaining factual discrepancy when the requested conclusion needs it and the inquiry can resolve it at justifiable cost. Otherwise report the supported result and limit. Use a source for the claim it can establish.
 
@@ -738,7 +754,7 @@ A forecast can clear its modeled balance at maturity. To establish actual discha
 
 Relate the calculation to its financial meaning. When the arithmetic is possible but the position it would establish is unclear, use [FPF B.1.5.EW][EW] to locate the missing operation. A contractual interpretation may be supplied by a qualified colleague or another adequate source. An incorrect computation calls for a computational correction.
 
-If evidence establishes that the recognized event did not occur, report that the claimed change did not arise through that event. A different waiver, payment or recognized act can still matter. If either the rule or occurrence remains unresolved, identify the missing premise and the effect that remains open.
+If evidence establishes that the recognized event did not occur, report that the claimed change did not arise through that event. A different waiver, payment or recognized act can still matter. If the route remains uncertain, return any position or bound common to the permitted histories. Identify the missing premise for a conclusion that still depends on the route.
 
 Suppose the opening debt was 105 and reliable evidence establishes that, by Friday, either a payment was received in settlement of 60 or an authorized set-off for 60 took effect. These are the only possibilities and there were no other changes. The debt is 45 either way. Whether money reached the creditor is still open. If the second possibility were a refundable deposit that did not discharge debt, the possible balances would be 45 and 105. At least 45 would still be outstanding. For an attainable minimum or maximum, justify the bound throughout and show that a permitted history reaches it. A tight bound need not be attained. For example, if all permissible rates are below 5% and some are arbitrarily close to 5%, 5% is their least upper bound even though no contract pays that rate. A threshold decision may need only a valid outer bound.
 
@@ -758,7 +774,7 @@ Suppose 105 is due on day 30 and the borrower pays 60 to the lender. Evidence es
 
 A servicing report showing all 105 unpaid disagrees with the established position. Report the remaining 45 and the discrepancy. Retain the original contractual payment of 105 and the actual payment of 60 in their respective accounts.
 
-Suppose the evidence instead shows only that the borrower sent an instruction for 60. That establishes submission. It leaves the payment event and reduction to 45 unresolved. To establish the residual position, determine whether the event recognized by the terms occurred.
+Suppose the evidence instead shows only that the borrower sent an instruction for 60. That establishes submission. It leaves the payment event and reduction to 45 unresolved. If receipt is the only way the debt could have changed here, evidence of receipt or its absence can settle the residual. An adequate statement of the residual may already answer a balance inquiry while leaving the route open.
 
 In a separate case, suppose the competent parties validly modify a lender’s conditional advance obligation before funding. The supplied terms give that modification its effect. Report the changed undertaking from the effective event even though no money has yet moved.
 
@@ -782,9 +798,9 @@ When the available sources cannot establish whether the event occurred, retain t
 
 Check these criteria for the particular effect claimed.
 
-1. The affected party, prior position, claimed change and relevant time are clear.
+1. The affected party, the requested occurrence, effect or residual position and its relevant time are clear. The account establishes the prior position where the conclusion needs it.
 2. The applicable rule and its action, authority or occurrence conditions are established where required.
-3. Evidence and operative terms support the reported event or the effect shared by all admissible histories. An inference from a missing entry accounts for the recognized routes and cutoff.
+3. Evidence and operative terms support the reported position, the event claimed or an effect established across the admissible histories. An inference from a missing entry accounts for the recognized routes and cutoff.
 4. The derived effect and any residual obligation follow the applicable terms.
 5. Records, effective relations and resource availability remain distinct where their differences matter.
 6. The result distinguishes supported change, supported non-change and unresolved effect.
@@ -813,7 +829,7 @@ A transaction log is sufficient when it already supplies adequate evidence for a
 
 For an actual financial change, apply FPF’s distinctions among duties, permissions and communicative acts. Use ADM.3 and ADM.9–10 when the case turns on effectivity, usable provision or fulfillment. These distinctions help determine what a decision, message or record can establish.
 
-In §§4.2–4.4, identify the rule, establish the recognized occurrence and derive the position. This distinguishes “60 instructed” from “60 paid” even when a local display says “complete.” Investigate further if a remaining premise matters to the requested finding or downstream use and the inquiry is worthwhile.
+In §§4.2–4.4, use the rule and evidence to establish the requested occurrence or the financial effect. When alternative histories all produce the same residual, give that residual and preserve any uncertainty about the actual route. This distinguishes “60 instructed” from “60 paid” even when a local display says “complete.” Investigate further if a remaining premise matters to the requested finding or downstream use and the inquiry is worthwhile.
 
 Actual local rules and event evidence govern an actual result. Reopen the account when either changes or when a later use requires a broader effect claim.
 
@@ -862,7 +878,7 @@ A longer-term outcome may depend on conditions outside the service provider’s 
 
 #### FDM.5:4.1 - Name the participant and intended result
 
-Identify the participant and the result at issue. Examples include usable funds, a justified lending decision, timely payment or better understood exposure. Establish the time horizon. For an improvement claim, identify the comparison it requires.
+Start from what the recipient wants to do with the result and by when. For a proposal, identify whose action the proposed service must enable and which choices those people retain. For a past contribution, identify whose work or position is claimed to have changed. Several people can use the same output for different decisions. Ask what each was promised and whether their uses must work together, draw on the same funds or require separate performances. For an improvement claim, select the comparison for the participant and period in question.
 
 Where several participants matter, preserve their different objectives and consequences. The lender and borrower can seek different results. If a disputed objective or choice criterion affects the answer, use the governing financial or management basis or obtain a decision from its holder where needed. Report distinct supported views if the question asks for those. A difference in group cash on a comparable basis answers a question about that change over the specified period. To establish earlier liquidity or a minimum held by each participant, apply the corresponding dates and restrictions. Where one participant gains and another loses, a recommendation for both also depends on which trade-offs they accept or who may decide. A statement of the separate effects can complete a request for their distribution.
 
@@ -870,7 +886,7 @@ Where several participants matter, preserve their different objectives and conse
 
 Identify the service output and its intended or actual use. Distinguish the scoring method, implemented calculator, calculation performed in the case and resulting score where the conclusion depends on the difference.
 
-Trace how the output enters the receiving work. Use suitable records, observations or the receiver’s account. If the service applies its own result under an existing mandate, establish that action directly. For delivery, establish what reached the recipient. For a claim that the output influenced an action, establish the use and the link to that action.
+For a proposed service, trace how the receiver could act on the output and identify any authority, information and time the design assumes. A promise of timely use also needs grounds that those conditions can be secured. For a factual account, trace the delivery or use that the question asks about through records, observation or the receiver's account. If the service acts on its own output under a mandate, establish that action where claimed. A receipt can establish delivery. A claim of influence on a decision also needs grounds that the recipient used the output in making it.
 
 A supplier asked to provide information can complete its assignment by delivering a usable result to the intended recipient. To credit it with a further financial outcome, establish the connection through the relevant use and effect.
 
@@ -878,7 +894,7 @@ A supplier asked to provide information can complete its assignment by deliverin
 
 Identify the decision or action the output supports and the financial position or resource that could change through its use. To explain a factual contribution, establish which part occurred. Use FDM.1–4 where a missing position, term or effect is material.
 
-For a proposed contribution, explain the mechanism and assumptions. For an actual contribution, establish the parts claimed, such as delivery, use or the resulting financial effect. A service already delivered can also have a prospective benefit whose conditions remain open. For a group result, identify the same transfer across the parties and reconcile the dated debit, net receipt, any conversion, fees and amount still in transit. Apply the valuation and cutoff needed for the group question. Show separately the cash a particular holder could use then. If X sends 60 on Friday, an intermediary retains 2 and Y can use 58 on Monday, establish who controlled the funds over the weekend. For a debt of 60, use the terms for bearing the fee and recognizing partial payments. The full 60 can be settled if the creditor bears the fee. If the debtor bears it and the 58 received count towards the debt, 2 remain. Terms that accept only the full payment could instead treat the 58 as a refundable advance and leave the debt at 60.
+For a proposed contribution, explain the mechanism and assumptions. For an actual contribution, establish the parts claimed, such as delivery, use or the resulting financial effect. A service already delivered can also have a prospective benefit whose conditions remain open. For a group result, determine which participants and positions the requested measure includes and how their contributions combine. An established consolidated figure can already answer for the group at its stated cutoff. If the effect of an internal transfer has to be constructed, link the entries for that transfer across the parties and reconcile the debit, receipt, fees, conversion and funds in transit as relevant at the chosen cutoff. For a holder's payment decision, establish that holder's timely usable cash. For example, X sends 60 on Friday, an intermediary retains 2 and Y can use 58 on Monday. A question about a weekend position may turn on who controlled the funds then. For Y's Monday receipt, the confirmed amount can suffice. For the residual debt, establish which party bears the fee and how the terms treat partial payments. The full 60 can be settled if the creditor bears the fee. If the debtor bears it and the 58 received count towards the debt, 2 remain. Terms that accept only the full payment could instead treat the 58 as a refundable advance and leave the debt at 60.
 
 Follow the connection as far as the participant’s question requires. Funding can make proceeds usable. The equipment bought with them may never arrive, or changed demand may defeat the hoped-for business return. Report the established funding contribution in its own scope and qualify any later outcome separately.
 
@@ -920,7 +936,7 @@ Tool metrics may show a genuine improvement in the output. A sponsor interested 
 
 Check the following for the service contribution claimed.
 
-1. The relevant participant, intended result and horizon are identifiable.
+1. The result identifies the recipient, the relevant parties, the promised or claimed contribution and its horizon. Where the claim concerns joint use, the grounds cover the relations between uses on which that claim depends.
 2. The service output and receiving use have adequate meanings and boundaries.
 3. When a financial effect is claimed, the account connects it through the applicable decision, action and terms, with its actual or proposed status clear.
 4. Output quality, actual use, financial effect and later participant outcome retain their different evidence and uncertainty.

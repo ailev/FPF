@@ -70,7 +70,7 @@ Use these Methods to examine how a plan can work economically. A price may be op
 
 The following cases connect Methods to address larger questions. For a question one Method can answer, use the Table of Contents.
 
-Use what you know about the relevant plans and resources to answer the economic question. If you obtain help from a practitioner or agent, explain the question and its intended use and ask for an answer in the language of your work. The result may be an explanation, feasibility assessment or recommendation. State which conclusions depend on assumptions.
+Start with the decision the economic analysis must support. A buyer may need one payable amount, an undertaking it can offer several customers, or a way to price future orders. Use a reliable answer already available for the use it covers. If the job is to design the arrangement, begin with what its users must be able to decide. Work out which choices belong to them, which conditions you can set and which facts a specialist can supply. A quotation can establish the price at the stated quantity. The decision about which quantities to compare may still be yours. Give the result in the language of the receiving work, with the assumptions on which it depends.
 
 ### ECO-VENTURE - Turn a useful idea into a feasible service arrangement
 
@@ -98,7 +98,7 @@ Now suppose a reusable interface and another qualified supplier become available
 - **First useful result or blocker:** A supported finding about the shared constraint, a feasible allocation with a way to adopt or adapt it, or an incompatibility the current arrangements leave unresolved.
 - **Start with:** Use [ECO.7](#eco7---coordinate-use-and-renewal-of-a-shared-resource) to relate withdrawal, renewal and access. Use [ECO.8](#eco8---join-direct-cooperation-with-a-wider-economic-order) when local arrangements need a wider coordination relation. Use [ECO.9](#eco9---decide-whether-and-how-to-change-economic-rules-through-their-working-practices) if the question is whether to preserve, modify or replace a rule, taking account of the practices and capabilities each option requires.
 
-For each access right, find out whom it lets draw on the resource, when and how much. Compare the draws that can occur together with supply at the point of use. A rule reserving a minimum for one group can determine which requests the other groups may make. To tell how much they actually took, use their withdrawals or a balance that determines them. If the task calls for a new allocation, identify who can adopt it and act in time when supply changes.
+For an allocation, start with the use or condition to be protected, where it matters and by when. Trace who can affect it. Separate the amount available over the whole period from what can reach the protected user in time. Compare the withdrawals that the rights holders can make in the same resource account, including successive draws from the same stock. A reservation for one group can limit what the others may take. For an account of actual use, a meter or a balance that determines the delivery can suffice. To design a new rule, find a decision within someone's authority that would protect the required use, then check what choices the rule still leaves to others.
 
 Now suppose the water supply recovers but some users cannot operate the new digital access procedure. The water calculation still answers its physical question. Investigate the access problem and, if asked to restore access, assess assistance, a different procedure or the capability the users need. HCD and MDPE can help develop the relevant capability or practice. Publishing the digital rule establishes neither access nor ability to use it.
 
@@ -131,7 +131,9 @@ Economic reasoning asks how different plans, knowledge, purposes and rights can 
 
 Use these Methods to examine economic calculation, exchange, resource commitments, adaptation, shared resources and the rules that coordinate their use. They also address what happens to feasible activity and total demand after an efficiency improvement.
 
-Identify the intended result, relevant parties and scarce resources. Use qualified financial, technical, legal or statistical contributions when the economic conclusion depends on them. A practitioner can supply a contribution within their competence or obtain it from another source. Keep its conditions with the result.
+Start with what the recipient needs to decide or explain. A sufficient offer, agreement or observation can already answer the question. If you must build an account, trace the proposed action to the parties who can take or authorize it, the work they would have to do and the resources it would use. Follow each connection as far as a change could affect the answer. The buyer's organization, the people contributing to one delivery and the holders entitled to draw on the same resource can have different boundaries.
+
+Choose how much detail to retain by trying a change which the proposed account would conceal. Keep the group total fixed and move a payment to another holder or a later date. Could the participant still make the promised purchase? Keep a supplier's capacity fixed and change what its other customers may call for. Could it still promise this delivery? Restore the distinction that changes the action or its required explanation. To give a guarantee, establish a feasible arrangement and an authorized choice that meets the promise in every case the participant must cover before further information arrives. If the participant may choose later, identify what they can learn and do by then. A total, a bound or an applicable rule can already settle the question. Obtain a financial, technical, legal or statistical contribution when the economic conclusion depends on it.
 
 ## ECO.Reference:2 - Problem and forces - Locally sound contributions can fail together
 
@@ -162,7 +164,7 @@ Mises’s calculation argument asks what makes unlike productive means comparabl
 
 Use a monetary comparison for the participant’s stated purpose. Identify alternative uses of the resources and consequences of the options that the monetary account leaves out. The comparison need not measure everyone’s welfare. If a market price is missing, a physical comparison or a comparison against the purpose may still be possible. Use the relevant MA and FIN Methods for accounting and financial calculations.
 
-Begin with the choice that someone will make. Follow each alternative to the holders whose rights, resources or actions can change its outcome. What will each be able to do, when, and what prior use must they forgo? For a group cash comparison, trace the payment through both members and any intermediary. Reconcile the dated amounts, currency conversion, fees and funds still in transit at each cutoff. Identify which funds each holder could actually use then. Show separately the resources consumed, external payments and consequences for each holder whose position matters. A payment inside the group may cancel in its total while leaving one member unable to pay a supplier. If all that was requested was the amount a member owes, the effective agreement can settle it. [Financial incidence](https://fpf.tools/FIN.1:4.2) · [Displaced uses](https://fpf.tools/FIN.6:4.1)
+Begin with the choice that someone will make. Follow each alternative to the holders whose rights, resources or actions can change its outcome. What will each be able to do, when, and what prior use must they forgo? A current total established for the required group and cutoff can answer a question about its cash. If the member accounts cover all the group's cash once on the same basis at that cutoff, adding branch totals by region and then adding the regions gives the same result as adding the branches directly. A parent total and one of its included accounts overlap. When the cutoff or coverage leaves the treatment of a transfer open, reconcile the entries, fees, currency conversion and any funds in transit that could change the requested total. For a holder's payment decision, establish what that holder can use by the deadline. Show separately the resources consumed, external payments and consequences for each holder whose position matters. A payment inside the group may cancel in its total while leaving one member unable to pay a supplier. If all that was requested was the amount a member owes, the effective agreement can settle it. [Financial incidence](https://fpf.tools/FIN.1:4.2) · [Displaced uses](https://fpf.tools/FIN.6:4.1)
 
 Hayek explains why a participant can adjust to a price change while the cause of the price change is still open. Use ECO.2 to examine the local response. Use ECO.3 to develop a new exchange if the available alternatives do not meet the parties’ plans.
 
@@ -174,7 +176,9 @@ Suppose a manager can compute a financial total but cannot establish whether a n
 
 A commitment can connect the supplier’s manufacturing work with the buyer’s plan. To treat manufacturing as a constituent of the buyer’s reasoning method would require another relationship. Trace separately the flows of resources, contract dependencies, organizational assignments, constituent work and transmission of a practice.
 
-Choose how much of each to model from the receiving decision. Compare an undertaking that commissions a supplier to perform part of the delivery with one that uses a report the supplier produced earlier. In the first, failure to carry out that performance can prevent the promised delivery. In the second, access to a usable report may already suffice. Keep the people or organizations able to choose, the work included in the undertaking and the available rights or resources as far as a change in any of them can alter the choice. The accounting group may have a different boundary from the jointly deliverable work.
+To see which connections the decision needs, compare a service that commissions a supplier to perform one part of a delivery with a service that uses a report the supplier produced earlier. In the first, identify which performance completes the delivery. In the second, establish whether the available report supplies the needed grounds. To design a way of evaluating future offers, trace each judgement the evaluator will need back to the operation or available information that can supply it under the proposed terms. Different parties can perform those operations. A contract with a supplier, a step in the evaluation and a payment inside the reporting group each serve a different part of this inquiry.
+
+Consider a cooperative whose purchasing policy requires an authorized signature at every branch and at its central office. The applicable policy can establish that requirement for all the offices it covers. Whether a central reservation changes what a branch may buy depends on which fund the reservation binds and which right the branch holds. To promise both purchases from a common fund, establish that the funds and purchasing powers can cover the two commitments when due. Use the conclusion the commission needs. Reporting the signature rule alone can finish a request about who must authorize a purchase.
 
 Allocate the work according to capability, access and authority. A practitioner or service may perform the whole analysis, or several participants may supply parts. A model can calculate an offer while acceptance belongs to a party with authority to commit resources. The arrangements must make the relevant capabilities, resources and results available where the work needs them.
 
@@ -186,7 +190,7 @@ Use [ECO.3](#eco3---discover-an-exchange-between-different-plans) to identify wh
 
 Use [ECO.5](#eco5---choose-exchange-terms-for-private-information-and-effort) to assess whether the proposed terms make the required quality and effort worthwhile for those providing them. With [ECO.6](#eco6---arrange-adaptation-in-a-dependent-trading-relationship), compare protection for dedicated tooling and a less dependent standard process. Include an organizational alternative if it offers a credible response. Use the relevant MA, FIN, OPS and EAM results in the comparison.
 
-The standard process may be preferable if it gives the required result at an acceptable cost with less dependence. If it cannot meet the requirement, the dedicated arrangement may remain preferable under stated conditions. If nobody can make the next contribution at acceptable exposure, identify the failed condition. Develop a different proposal if the task calls for one.
+The standard process may serve the customer at an acceptable cost with less dependence. If it misses the required quality, assess whether the parties can undertake the dedicated arrangement on the stated terms. A demonstration can finish an order for evidence about the equipment. To recommend an offer for the whole service, follow the same proposal through the customer's conditions, the supplier's investment and the funder's release of money. A signed order for one specification and a financing offer for another can both be genuine while leaving this service unfunded. Locate the unfulfilled condition. If asked to design a way forward, change a term or contribution you are entitled to propose and check the resulting arrangement with all who must take part.
 
 Reusable tooling and interchangeable suppliers change the parties’ dependence. Recheck the affected conclusion and use the earlier calculations where their costs, quantities and terms still hold. Reorganization requires its own grounds.
 
@@ -239,7 +243,7 @@ Reconsider a Method when new evidence changes its explanation, a relevant instit
 
 ## ECO.Reference:9 - External contributions and entry
 
-This DPF relies on the general meanings and selected methods in [FPF Core](https://github.com/ailev/FPF/blob/main/FPF-Spec.md), including B.1.5 for constituent and encompassing methods, C.11 for proportionate inquiry and C.36 for cultural continuation. The dependence is from ECO to Core.
+Use [FPF B.1](../FPF-Spec.md#b1---holon-aggregation-and-part-whole-construction) when an economic conclusion about a whole depends on how results for its parts combine. B.1.5 explains the relation between constituent and encompassing methods. For a financial comparison where the parties' holdings or the boundary of a group matter, [FDM.2](FINANCIAL-DOMAIN-MODELING-PRINCIPLES-FRAMEWORK.md#fdm2---choose-party-and-group-boundaries-for-financial-modeling) helps construct the account. Use FDM.3 for a disputed contractual event or conditional flow. C.11 supports proportionate inquiry and C.36 explains the continuation of practices.
 
 Use the Management Suite for the cited financial, accounting, operating, asset, organizational or corporate work. Explanation Design (EXD) addresses explanation. Human Capability Development (HCD), in the Human Capability Engineering Suite, addresses human learning. Use existing qualified contributions directly. Obtain or develop a missing result when the economic question depends on it.
 
@@ -276,7 +280,7 @@ Use enough detail to distinguish the alternatives open to the participants. A pr
 
 #### ECO.1:4.1 - Identify the economic question and the quantities that matter
 
-Identify what the calculation is meant to establish, whose use or choice it concerns and the period in which the resources matter. Distinguish alternatives that give different results or carry different obligations. Reuse a suitable resource or cash-flow account from MA or FIN.
+Identify what the calculation must establish, whose use or choice it concerns and when the resources matter. If you are choosing the account, start from an action the recipient could take and ask which differences between admissible alternatives could change it. A consolidated cash balance can answer a question about group cash. Hold that balance fixed and move the funds between members. If the question is whether a particular member can pay a bill today, retain who controls the funds, and which transfers can be authorized and completed by the deadline. For a group obligation, follow the rule that makes one member's funds available for another's use. Reuse an MA, FIN or FDM account when it preserves the distinctions that the question requires.
 
 Trace the quantities whose interpretation matters to the answer. For each, establish whether it denotes an offer, a completed transaction, a budget allocation, an anticipated exchange, a forgone use or a model weight. Identify relevant quantity, quality, location, timing and access. To apply “steel at 500,” determine the unit, terms and supply to which 500 refers.
 
@@ -292,7 +296,7 @@ Keep model weights with the objective and constraints that define them. A shadow
 
 Use the supported quantities and time conditions in the accounting or financial calculation where one is needed. State important consequences outside the monetary account, such as access for an affected community. With several criteria the evidence may leave alternatives incomparable.
 
-When a change helps one participant and harms another, give the effects in their own accounts. Use an agreed group criterion or a comparison the participants' accepted preferences already settle. Suppose a group consists of X and Y, one alternative adds 12 to X’s cash and takes 5 from Y’s compared with the other, and these are the only changes at the same date in the same currency. Group cash rises by 7. A condition that each must at least break even rules out that distribution. If compensation is permitted, evaluate the terms of that alternative separately. If the group has left that trade to its members, give them the distribution and the choice that remains. For an order to report the distribution, show the affected holders, amounts, dates or other consequences at the detail the recipient needs. [Comparing consequences for the decision](https://fpf.tools/PSDA.6:4.1)
+When a change helps one participant and harms another, give the effects in their own accounts. Use an agreed group criterion or a comparison the participants' accepted preferences already settle. Suppose a group consists of X and Y, one alternative adds 12 to X’s cash and takes 5 from Y’s compared with the other, and these are the only changes at the same date in the same currency. Group cash rises by 7. A condition that each must at least break even rules out that distribution. To design a distribution, derive the transfer from both participants' conditions. Suppose a fee-free payment from X to Y is allowed, can reach Y on that date, and has no other consequences. After a payment of t, the changes are 12 − t for X and t − 5 for Y. Both break even or gain for any t from 5 through 12. Group cash still rises by 7. If a transfer is restricted or costly, apply those terms before recommending it. If the group has left that trade to its members, give them the distribution and the choice that remains. For an order to report the distribution, show the affected holders, amounts, dates or other consequences at the detail the recipient needs. [Comparing consequences for the decision](https://fpf.tools/PSDA.6:4.1)
 
 If a missing price matters, identify what can already be established from a range, physical limits or the intended use. A matching offer or a new exchange under ECO.3 may resolve a remaining question. Seek it when the likely gain warrants the work. Stop when the evidence supports the requested finding, comparison or choice, including a conditional answer where appropriate.
 
@@ -322,7 +326,7 @@ A convenient number can be mistaken for the exchange or constraint it represents
 
 ### ECO.1:7 - Conformance Checklist
 
-What do the consequential quantities mean and when do they apply? If the question concerns availability, identify who can obtain the resource, the conditions under which it is attainable or the grounds for finding it unavailable. Does the comparison preserve alternative uses, obligations and important unpriced consequences? Return the finding or choice the evidence supports, identifying any unresolved exchange or physical constraint.
+What does the recipient need to establish, and do the quantities, holders and dates in the calculation distinguish the alternatives that could change that answer? Where an aggregate supplies the answer, give the grounds for using it. For a resource claim, establish who can obtain what under the terms considered. Keep relevant forgone uses, obligations and unpriced consequences with the resulting comparison. Identify any unresolved exchange or physical constraint that limits it.
 
 ### ECO.1:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -375,7 +379,7 @@ A price can convey information beyond one participant’s knowledge while omitti
 
 Compare unit, specification, quantity, time, location, payment and access. Identify what changed and whether existing obligations fix the terms for this work. A change in delivery or service can matter even when the quoted amount stays the same.
 
-Establish the terms for the next unit the plan could use. A bulk offer might exceed the storage available. The price paid for earlier units may differ from the price now attainable. Use ECO.1 when the meaning of an input remains in question.
+Choose the quantity over which the decision changes expenditure. For a purchase of one additional unit, establish the terms for that unit. For a change of supplier or order size, follow the terms across the units they cover. A volume discount may reprice the whole order, and a setup charge may be incurred once for several orders. Price each feasible purchase at its actual terms and include any storage or delivery it requires. The price paid for earlier units may differ from the price now attainable. Use ECO.1 when the meaning of an input remains in question.
 
 #### ECO.2:4.2 - Construct feasible responses
 
@@ -411,7 +415,7 @@ A newly published price may not apply to the participant’s work. A preferred s
 
 ### ECO.2:7 - Conformance Checklist
 
-Which terms changed, and do they apply to the exchange in question? For a proposed response, are its complements and obligations feasible? State what the evidence establishes about the price, the response or its cause, according to the question. Identify the conditions that matter to any proposed commitment.
+Which terms changed, and do they apply to the exchange in question? For a proposed response, does the comparison cover the quantity priced together, any shared changeover and the obligations the producer must still meet? Establish that the necessary complements are feasible. State what the evidence establishes about the price, the response or its cause, according to the question.
 
 ### ECO.2:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -462,7 +466,7 @@ Learning about another participant’s plan takes work and can expose private in
 
 #### ECO.3:4.1 - Recover the relevant parts of the separate plans
 
-Identify each party’s purpose, missing contribution and attainable offer. Use existing information about delivery windows, specification, spare capacity, access, skills or exposure. Clarify an unresolved condition when it matters to the proposed exchange.
+Start at the result one party wants to obtain. What would make another party's spare capacity or proposed service usable for that result? A new exchange might supply a missing service or improve on the timing, cost or exposure of an existing one. Identify which conditions the recipient must keep and which features of the route or terms could change. Look for an existing whole offer or for contributions that could meet the receiving conditions together. Establish what each party undertakes and how the contributions together meet the receiving conditions. Where one contribution passes to another party, check the handover, any change of responsibility and whether the recipient can use it in time. Use a missing contribution to direct the search for a participant. A complete existing offer can finish a search for one feasible exchange.
 
 Establish separately what the party understood, whether it agreed and which resources it can supply. Someone who understands the offer may prefer the current plan. Silence or expressed interest alone leaves commitment open.
 
@@ -478,7 +482,7 @@ Trace the additional contributions required to realize the proposal. Use ECO.4 i
 
 Use current records, calculations and agreements for the claims they support. If a question remains, establish whether an attainable analysis or interaction could resolve it. A capacity calculation, discussion of terms, matching offer, sample, conditional order or limited use can each answer a different question. Use STR.7 to assess the value and cost of a proposed test. If a condition cannot be resolved, return the proposal or finding within the limits the evidence supports.
 
-If a party understands the proposal and declines, the search can stop or consider different terms or counterparties. If a required contribution is unavailable, state the condition and what it prevents. Use an adequate agreement directly. Fulfil it through the appropriate operating and contractual work when performance is required.
+A refusal can answer whether this party accepted these terms. If the assignment is to find an exchange, consider what can still change in the terms, the division of the work or the parties. To conclude that none of the permitted arrangements works, establish what excludes each of them. The obstacles can differ. Where the search ends with an option unexamined, give the supported proposal or the limit of the search. Use an adequate agreement directly. Fulfil it through the appropriate operating and contractual work when performance is required.
 
 Return the finding or proposal the task requires. Preserve evidence from a rejected proposal when it can inform a later search. Use the relevant FPF or Strategy Methods for a wider search or a different framing of the problem.
 
@@ -490,7 +494,7 @@ Suppose a courier has spare capacity on a return trip leaving at 18:00. A bakery
 
 The nearby chilled store has staff and a cooled van. It offers to collect the goods at 16:00, reach the store by 16:15 and store them until courier collection at 18:00, for €15. Under the proposed terms, the store would maintain the agreed temperature until handover and the courier would then maintain it and deliver to the café by 19:00. Both this route and the €70 service meet the specified delivery and temperature requirements under the assumptions of the example. The store and courier accept their respective terms and have the necessary capacity. If the bakery uses the combined service, its outlay will be €15 + €35 = €50, a €20 saving before any extra arranging costs.
 
-The bakery can now decide whether to commit to the combined service. Its acceptance would let the parties schedule the work. Establish actual pickup, temperature control, handover and delivery from the work performed. If temperature control or responsibility at handover is unresolved, the proposal remains conditional. If storage damages the goods, the route fails the quality requirement despite its lower price.
+Collection and long-distance delivery can be bought separately here because the store can take custody of the goods and preserve them until the courier takes over. The bakery can decide whether to commit to that combination. Its acceptance would let the parties schedule the work. Establish actual pickup, temperature control, handover and delivery from the work performed. If responsibility at handover remains open, so does the proposal. If storage damages the goods, the route fails the quality requirement despite its lower price.
 
 #### ECO.3:5.2 - A useful disclosure produces no trade
 
@@ -502,7 +506,7 @@ Enthusiasm for mutual gain can hide unequal burdens, unavailable contributions a
 
 ### ECO.3:7 - Conformance Checklist
 
-For each party, identify the contribution, expected result and relevant alternative. Account for necessary complements, intermediary work and unresolved commitments. State whether the evidence supports a possibility, a conditional proposal, an agreed exchange or a completed delivery.
+Which parts of the parties' plans does the exchange connect, and why can each party supply its promised contribution on terms it can accept? For a proposed combination, establish the conditions on which the contributions fit together, including any handovers or intermediary work it requires. What has been proposed, agreed or delivered? If the question was confined to one offer, return the supported answer about that offer.
 
 ### ECO.3:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -555,7 +559,7 @@ A participant may have grounds to act even when a novel venture has no complete 
 
 #### ECO.4:4.1 - Recover the missing contribution and the reason it is missing
 
-Identify the venture step being assessed and what it requires, such as an order, access, finance, capability, supply or permission. Use an applicable OPS or MA account of production and resources. Establish separately what is available, what has been offered or reserved and what a party has bound itself to supply.
+Start at the delivery or commitment the recipient is asking about. Work backward to what must already be available when each party acts. A lender may need a signed order by the date funds are released. The customer may need a demonstration before signing. This identifies two different acts, the producing work, and the conditions under which each result can serve the next party. Identify who can supply an order, access, funds, capability or permission where it is needed. Use an applicable OPS or MA account for production and resources. Keep what is available, what has been offered or reserved and what a party has bound itself to supply distinct.
 
 If a contribution is unavailable, establish what prevents it. A record may already identify the reason. Ask the party when its understanding, decision or account is needed. For an unclear proposal, use EXD to supply a relevant explanation. For disagreement, consider whether different terms or participants could help. For missing means or capability, establish what can be obtained or developed. A supported finding of the obstacle can answer a diagnostic question.
 
@@ -563,7 +567,7 @@ If a contribution is unavailable, establish what prevents it. A record may alrea
 
 For each material commitment, identify what is promised, by whom, to whom, when it can take effect and on what terms it can be released or withdrawn. Use the effective agreements where they supply these facts. Check the party’s ability to supply the contribution and its authority to commit it.
 
-Trace which commitments depend on others. If the supplier needs payment to start and the investor pays only after delivery, there is no first action unless someone can fund the start or an available mechanism can satisfy the conditions together. For simultaneous commitments, establish the parties’ resources, authority and means of execution. If those conditions fail and another design is needed, consider a deposit, limited funded trial, staged supply, reservation, another provider or a smaller result. Compare who bears the exposure and what would be lost if the venture stops.
+Trace which commitments depend on others. If the supplier needs payment to start and the investor pays only after delivery, there is no first action unless someone can fund the start or an available mechanism can satisfy the conditions together. For simultaneous commitments, establish the parties’ resources, authority and means of execution. If those conditions fail and another design is needed, consider a deposit, limited funded trial, staged supply, reservation, another provider or a smaller result. Establish whether a smaller step supplies a prerequisite for the existing order or would change what the customer receives. A change of the promised result needs the customer's agreement. Compare who bears the exposure and what would be lost if the venture stops.
 
 Use a demonstration when it can answer a needed question, such as whether a process handles a customer’s sample or a service fits the customer’s work. Establish any funding, order or authority from the relevant terms and commitments.
 
@@ -597,7 +601,7 @@ A founder may interpret interest as agreement, and a technical specialist may tr
 
 ### ECO.4:7 - Conformance Checklist
 
-Which contributions are available, and under what conditions? Can an attainable first action or a feasible simultaneous execution satisfy the dependencies? If neither works, identify the obstruction. Distinguish authority, capacity, resources and willingness when they affect the finding or the proposed next step.
+What did the recipient ask the parties to undertake? For a first action, identify what enables it. To establish that several commitments can take effect, show how their conditions can be met together. To promise the resulting deliveries, also establish that resources, powers and timing cover what each party may still choose. If that result is still open, identify what the first action establishes and what remains to be secured. If the evidence rules it out, give the obstruction and the range of arrangements it excludes.
 
 ### ECO.4:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -650,7 +654,7 @@ Information has acquisition and verification costs. Incentives and risk sharing 
 
 Identify the information or action that matters and who can know or control it. Existing quality, intended use or financial condition may be privately known before agreement. Later maintenance, care or effort may be privately chosen. The same exchange can involve both. Evaluate separately whether changed payment terms affect an action and whether a choice reveals an existing fact.
 
-Identify the choices each party can make under the actual terms. They may disclose or withhold information, select an offer, decline, change effort, manipulate a measure, withdraw or seek new terms. Include the alternatives available to the participant, including ones the designer would prefer them not to take.
+Follow the desired work to whoever chooses the action and the proposed payment to whoever gains or loses from it. They may be different people. If a firm receives a quality bonus and a subcontractor chooses the care, establish how the firm's terms or supervision affect that choice. A comparison at firm level can suffice for a question about whether the firm accepts the offer. To predict the care taken, keep the subcontractor's available actions and consequences where they can change the answer. Include alternatives the designer might overlook, such as changing another job to improve a shared measure, declining, withdrawing or seeking new terms.
 
 #### ECO.5:4.2 - Construct terms from the choices they must change
 
@@ -721,7 +725,7 @@ A precise-looking calculation may conceal disputed probabilities, power or a bad
 
 ### ECO.5:7 - Conformance Checklist
 
-Which private fact or later action matters, and what do the terms imply for the participant’s available choices, including nonparticipation? Establish what the specified observation or enforcement arrangement can support. Identify any tie, infeasible term or unresolved condition and the assumptions on which a numerical comparison depends.
+Which private fact or later action matters, who can choose, and what do the terms imply for that participant's alternatives, including nonparticipation? Establish what the agreed observation and enforcement arrangements can support. For a proposed exchange, check the participation and action it requires of the other parties. A calculation about one choice can be returned on its own when that is what was requested. Identify any tie, infeasible term or open assumption that limits the conclusion.
 
 ### ECO.5:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -778,13 +782,13 @@ Dedicated resources may improve performance while narrowing outside options. Saf
 
 Identify who bears the investment or other contribution and what its alternative uses would be. Consider tooling, location, integration and relationship-specific learning where relevant. Compare the outside options before and after commitment. Use EAM or FIN when an exit or redeployment cost still needs to be established.
 
-Identify disturbances the terms need to handle, such as a volume change, new specification, input cost, delay or new use. Establish which the current arrangement covers and which would leave an adaptation unresolved. State why the dependence matters under the conditions examined.
+Identify the disturbances relevant to the promise, such as a volume change, new specification, delay or loss of a source. For a decision about one cancellation, the operative terms and outstanding amounts can settle the question. For an arrangement intended to handle a range of disturbances, start with a choice a participant would have to make. Hold the apparent loss or order volume fixed and change what has failed or which other use of the asset remains open. If the participant must do something different, retain that distinction and establish who can learn it before action is due. Determine which responses the present terms and resources allow.
 
 #### ECO.6:4.2 - Compare feasible constructions
 
 Where a change is being considered, examine whether a standard interface, redeployable equipment, buffer or other source would reduce dependence. Use available fit and cost evidence. A reduction in dependence may justify a performance cost if the full comparison supports it.
 
-Where applicable, compare reciprocal commitments, price-adjustment rules, staged investment, asset or knowledge rights, joint adaptation decisions and routes for dispute or exit. Establish who can propose a change, who can decide and who bears its cost. A continuing relationship can support cooperation when future opportunities matter to the parties.
+Where different responses are needed, work back from the adjustment to the person who can authorize and supply it. Set terms for what that person can observe in time. For a guarantee that comes due while the cause is still unknown, find a response that works across the remaining cases or an agreed way to defer the choice while protecting the service. For a stated risk limit, assess the outcomes against that limit. An asset right, staged investment, price adjustment, joint decision or exit provision can make such a response possible. Compare who bears its cost and whether it remains workable when several customers rely on the same asset. A continuing relationship can support cooperation when future opportunities matter to the parties.
 
 Consider common ownership or organizational change when decision rights, incentives or adaptation costs make it a credible alternative. Include the costs of directing the work after the change. If this alternative is chosen, use OCE and CGOV for the required organizational construction and corporate actions.
 
@@ -818,7 +822,7 @@ The buyer can overlook the supplier’s exposure, and the supplier may request g
 
 ### ECO.6:7 - Conformance Checklist
 
-Which dependence and disturbance does the arrangement address? Establish who bears exposure, who can authorize an adjustment and what the exit terms permit. If choosing among arrangements, compare credible technical, contractual and organizational alternatives at compatible scopes.
+Which dependence and disturbance does the arrangement address? Establish who bears the exposure, who can authorize an adjustment and what the exit terms permit. A ruling on one cancellation can follow from its terms and the event. For an arrangement covering future disturbances, can the parties recognize and carry out a suitable response in time throughout the range promised? If choosing among arrangements, compare the credible technical, contractual or organizational alternatives for the same service and conditions.
 
 ### ECO.6:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -871,15 +875,15 @@ Observing withdrawals, upkeep and exclusion can cost time and money. Participant
 
 #### ECO.7:4.1 - Recover the resource and the actions that affect it
 
-Identify the resource, the units or services obtained from it, the condition that matters and the relevant period. Distinguish withdrawal from provision or renewal. Determine whose actions affect availability, quality or renewal, including parties outside the initial group.
+Start with the use or condition that someone must protect, its location and its deadline. Trace the resource to the users, places and periods where a withdrawal, replenishment, loss or change of quality could affect it. Hold total stock fixed and change where or when it is accessible. If the same total permits different deliveries, keep the local stocks, connections or access times needed to distinguish them. Identify who can change those conditions, including parties outside the original group. For a question about one protected outlet, an adequate reading there can already establish what it received.
 
-Use an adequate physical or operating account directly. Use PHY, MMP or OPS when a missing fact or model matters. An allocation must fit the available flow. Establish rights to that flow from the applicable rules or agreements.
+Use a physical or operating account that fits the resource. Water delivered to a site can be subject to a flow limit and a required reserve. For a shared manual the copies may be freely reusable while qualified support time is scarce. Locate the scarce contribution before choosing what to count. Use PHY, MMP or OPS when a missing fact or model matters. Establish rights to use the resource from the applicable rules or agreements.
 
 Identify the current rights of access, exclusion and withdrawal. Compare them with what participants can do and what they have done. A proposed allocation takes effect through the applicable decision or agreement.
 
 #### ECO.7:4.2 - Construct a workable combination of rules
 
-Start with the rules that govern the question. They can concern entry, quantities, timing, upkeep, observation, dispute resolution or authority to change the arrangement. Use suitable existing rules. If a different combination is needed, compare how the proposed arrangements address the actual difficulty.
+Start with the rules that govern the question. They can concern entry, quantities, timing, upkeep, observation, dispute resolution or authority to change the arrangement. Use suitable existing rules. To design one, identify an allowed action or omission that could defeat the protected use, and find who could change that outcome in time. A withdrawal limit may protect a downstream flow. It leaves an unfunded maintenance duty open. Work back from each required result to the decisions or contributions that would secure it. Check whether the proposed combination is attainable and retains the rights the parties must preserve.
 
 Assess whether participants have the means and incentives to comply. Include the costs of observation and response, especially for smaller users. Before treating an event as a violation, check what the observation establishes. A missed reading may be a measurement problem. For an established violation, match the response to its effect and the applicable rule.
 
@@ -887,7 +891,11 @@ Trace effects beyond a local arrangement. Several communities may use one catchm
 
 #### ECO.7:4.3 - Test ordinary use and changed conditions
 
-Choose the receiving site and period. A complete reading at the outlet may give the delivered amount directly. To calculate it from an upstream reading, follow the resource from that point to the outlet. Deduct withdrawals and losses along that route. Add intervening inflows, including returns or replenishment that reach it in time. For storage on the route, use either the net change in stock or the gross flows into and out of storage. With an inflow of 100, 10 stored and 5 released in time, 95 reach the outlet if nothing else changes. Subtracting the net increase of 5 already accounts for that release. Identify which withdrawals can all occur within the period, including sequential draws on the same stock. For delivery, establish the quantity or quality guaranteed at the receiving point, or a sufficient bound. For renewal, start with the resource’s condition and stock, allow for regeneration by the relevant date, and check the reserve or condition required then. A fishery can deliver its whole authorized catch this season and still leave too little breeding stock for the next. Test the promise the rule actually makes. A right to ask for 50 can coexist with a rule that guarantees less to that holder while protecting a common reserve. A permitted combination that breaches the promised minimum or coverage refutes that guarantee for the proposed rule. To exclude every rule, show why each authorized rule, acting on the information available at each choice, would breach that same promise in some permitted conditions. Before the requester is known, two branches of a canal could require mutually exclusive early releases even though either request could have been met with advance notice. If rights are independently exercisable, capping their joint take may require changing the agreement.
+Choose the receiving site and period. A complete reading at the outlet may give the delivered amount directly. To calculate it from an upstream reading, follow the resource from that point to the outlet. Deduct withdrawals and losses along that route. Add intervening inflows, including returns or replenishment that reach it in time. For storage on the route, use either the net change in stock or the gross flows into and out of storage. With an inflow of 100, 10 stored and 5 released in time, 95 reach the outlet if nothing else changes. Subtracting the net increase of 5 already accounts for that release.
+
+Identify which withdrawals can all occur within the period, including sequential draws on the same stock. For delivery, establish the quantity or quality guaranteed at the receiving point, or a sufficient bound. For renewal, start with the resource’s condition and stock, allow for regeneration by the relevant date, and check the reserve or condition required then. A fishery can deliver its whole authorized catch this season and still leave too little breeding stock for the next.
+
+Test the promise the rule actually makes. A right to ask for 50 can coexist with a rule that guarantees less to that holder while protecting a common reserve. A permitted combination that breaches the promised minimum or coverage refutes that guarantee for the proposed rule. To exclude every rule, show why each authorized rule, acting on the information available at each choice, would breach that same promise in some permitted conditions. Before the requester is known, two branches of a canal could require mutually exclusive early releases even though either request could have been met with advance notice. If rights are independently exercisable, capping their joint take may require changing the agreement.
 
 To report what was used, read a suitable meter or derive the amount or a bound from the physical balance. A positive lower bound can show that a particular holder used the resource even when the exact quantity is unknown. An access right supports a claim about permitted use. A complete record of requests can establish what people asked for. Deriving physical use from it also requires a connection to what was delivered or taken. If entry, a missed upkeep payment or conflicting readings can change the service, establish who can detect the change and who can respond under the applicable rules. An earlier case or test may already show how the rule works under the conditions in question. Return the supported allocation, guarantee, observation or limit needed for this decision. Reconsider it when the inflow, delivery losses, access rights or available response change.
 
@@ -913,7 +921,7 @@ Identify dispersed or downstream users who bear consequences even if better-orga
 
 ### ECO.7:7 - Conformance Checklist
 
-Which uses can the rights holders choose together? What supply or renewal will reach the protected user under those choices, and what can the participants do in time? Distinguish the guaranteed amount from the quantity that actually passed. Can the participants sustain the resources and authority the arrangement uses? When a change or trial is requested, identify who can put it into effect and what observable result would warrant adapting it.
+For a report on actual use or delivery, establish what the reading, balance or bound supports for the named user and period. For a promised allocation, establish which rights can be exercised together and what can reach the protected user within the promise. For a continuing arrangement or a proposed change, establish how the required provision or adaptation can be sustained. When a change or trial is requested, identify who can put it into effect and what observable result would warrant adapting it.
 
 ### ECO.7:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -948,7 +956,7 @@ Use ECO.8 for wider coordination and ECO.9 when the rules or their implementatio
 
 ### ECO.8:1 - Problem frame
 
-Use this Method when a rule from one relationship is being applied to another. An expectation of voluntary help can fail in an external service agreement, while pricing every small contribution can disrupt direct cooperation. Identify the interaction and the conditions that make it work. Establish which parts need direct coordination, agreed terms, prices or a wider rule.
+Use this Method to decide how participants in one undertaking can coordinate their contributions, or when a rule from one relationship is being applied to another. An expectation of voluntary help can fail in an external service agreement. Pricing every small contribution can disrupt direct cooperation. Identify the interaction and the conditions that make it work. Establish which parts need direct coordination, agreed terms, prices or a wider rule.
 
 The result can be a supported finding about the relationship, an adjustment that addresses a mismatch or the condition still unresolved.
 
@@ -966,7 +974,7 @@ Direct coordination can use rich local knowledge but is costly to extend. Genera
 
 #### ECO.8:4.1 - Recover the interaction and its coordination conditions
 
-Identify the result and the participants or services that supply its contributions. Establish what sustains each relevant relation, such as shared purpose, personal knowledge, an assignment, a continuing agreement, a price and specification, a general rule or a shared-resource arrangement.
+Start with the result the coordination must support. Identify which participants make decisions that can change it and the rule that connects those decisions. Their use of separate contributions can be linked by a common limit. Where one party supplies another, vary the timing, specification or amount and ask who can decide what the other receives and on what terms. Trace the relationship up to a wider agreement or shared resource when it constrains that decision. Follow it inside an organization when people within it have different powers, information or commitments. A rule for the whole service can suffice when it already determines the answer. For the relations that matter, establish what sustains the required contribution, such as shared purpose, personal knowledge, an assignment, a continuing agreement, a price and specification, or a general access rule.
 
 Personal knowledge can support cooperation. Authority to direct another participant’s work requires its own basis. A contract can connect two separately performed contributions, while a constituent operation forms part of the encompassing work. Distinguish the relations relevant to the supply chain, institution and composition of Methods.
 
@@ -974,7 +982,7 @@ Personal knowledge can support cooperation. Authority to direct another particip
 
 Assess how the proposed rule would work in the receiving relationship. Which information, agreement, trust, authority or capacity to bear cost does it require? Check whether those conditions are present and whether using the rule would remove a needed contribution.
 
-If a mismatch is established and a repair is needed, address its cause. Define the result an external supplier can deliver, retain local discretion that enables adaptation, give unknown participants access under a general rule, or use ECO.7 for a shared constraint. Different relations can call for different arrangements.
+To arrange coordination, work backward from the required result to the decisions that must fit together. Identify what participants may decide for themselves, which decisions someone can direct and which changes require another party's agreement. Build on the discretion, terms or common rule that can secure that result. For shared constraints use ECO.7. Where an existing rule has been proposed for a new site or relation, preserve or adapt it according to which of these conditions still hold there.
 
 Compare whose purposes and alternatives the repair serves and what it costs others. A current price helps strangers exchange without common goals, but cannot by itself settle every affected right or shared-resource effect.
 
@@ -994,7 +1002,7 @@ Suppose volunteers at a community kitchen rearrange tasks in conversation and he
 
 Volunteers’ expectations of mutual help do not secure a response from the contractor. Pricing every small favour among volunteers would change the kitchen’s internal cooperation. The kitchen keeps that cooperation and specifies the coverage and contact terms it needs from a paid service. Use ECO.4 to establish whether that service can be obtained and ECO.6 where later dependence on the contractor affects adaptation.
 
-If a volunteer is also the contractor, the two relations still differ. The person needs to know when the kitchen requests voluntary help and when it invokes the paid commitment.
+If a volunteer is also the contractor, the two relations still differ. The person needs to know when the kitchen requests voluntary help and when it invokes the paid commitment. A request to explain who covers a breakdown can be answered from the effective service terms. To design an arrangement for the next breakdown, start with the response the kitchen must secure. Establish who can recognize the incident, call on coverage and get someone to the equipment in time. Paid stand-by, help inside a shift or a combination can serve if the undertaking's authority, timing and resources support it.
 
 #### ECO.8:5.2 - Local water agreements share a wider constraint
 
@@ -1006,7 +1014,7 @@ Identify which cooperation or exchange the relation can support and who could be
 
 ### ECO.8:7 - Conformance Checklist
 
-Which relation is being examined and what supports it? If a rule has been transferred, establish whether it works under the receiving conditions. For a proposed adjustment, identify any direct cooperation it depends on. If it requires an external contribution, check the terms on which that contribution can be obtained. Distinguish constituent work, contractual dependence, authority and wider coordination where the difference matters.
+Which use does the coordination have to support, and which decisions may participants make under each relevant relationship? For a rule used in another setting, establish whether its conditions hold there. For a proposed arrangement, establish how the contributions together meet the requirement under the applicable rule. Include any necessary handovers, terms for external services and decisions or shared limits that can change the result. When the order concerns a single relationship, return the conclusion that its terms support.
 
 ### ECO.8:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -1058,7 +1066,7 @@ Recovering tacit know-how takes time, and delay can prolong harm. A trial may yi
 
 #### ECO.9:4.1 - Recover the practice and the pressure for change
 
-Establish what participants do, expect and can rely on. Compare the written rule with evidence of actual practice. For a proposed change, identify the difficulty, who experiences it and the intended improvement in access, supply, accountability or adaptation.
+Start with the use of the rule that matters to the recipient. To establish who is entitled to apply, the effective rule and its scope may suffice. To explain what happened to an applicant, follow that person's case to the decision and its grounds. To design a change, identify which part of the present arrangements creates the difficulty, who experiences it and what access, supply, accountability or adaptation must be secured. A rule on the books, the practice people carry out and their means of supplying the service can each change separately.
 
 Recover the useful contributions and burdens of the existing rule. Use a representative observation or a sufficiently grounded reconstruction. Obtain participants’ accounts when the question depends on their experience or information they hold. An existing record can suffice for what took place under the rule.
 
@@ -1078,7 +1086,7 @@ Compare attainable gains, transition burdens and costs of waiting. An establishe
 
 For a proposed change or trial, identify what evidence would support continuation, adjustment or withdrawal. Use ordinary records when they supply it. After implementation, examine the practice people can perform and whether a previous contribution was lost. Return a supported finding or, if repair is needed, address the affected rule, provision or capability.
 
-For an access claim, distinguish the right to apply, a usable opportunity and actual uptake. If the existing service remains available at its previous capacity and an authorized, staffed channel lets a formerly excluded person obtain the service in time, that person's opportunity has widened even before a first application. To estimate uptake or its change across the eligible population, account for who could apply, who participated or was displaced, and what would have happened under the previous arrangement. Ten willing participants completing a trial establish ten completions. The same observation allows better or worse access for other users. A documented denial can settle one access complaint. A sufficient bound on demand and provision can justify the next trial.
+For an access claim, distinguish the right to apply, a usable opportunity and actual uptake. If the existing service remains available at its previous capacity and an authorized, staffed channel lets a formerly excluded person obtain the service in time, that person's opportunity has widened even before a first application. To describe uptake, identify the population, period and unit the question concerns. Complete records of distinct participants can give their number. Several services received by one person can change a service count while leaving the participant count unchanged. To compare actual uptake across periods, allow for changes in eligibility and membership where they affect the comparison. For a causal claim, compare the same outcome with what would have happened under the earlier arrangement in comparable conditions. A bound on that counterfactual can establish the direction or minimum size of the effect. Include effects on people displaced or newly able to participate where the question covers them. Ten willing participants completing a trial establish ten completions. The same observation allows better or worse access for other users. A documented denial can settle one access complaint. A sufficient bound on demand and provision can justify the next trial.
 
 ### ECO.9:5 - Archetypal Grounding
 
@@ -1102,7 +1110,7 @@ A long-lived rule may no longer serve its users, and a new one may create fresh 
 
 ### ECO.9:7 - Conformance Checklist
 
-What does the current rule do, for whom and under what conditions? For a proposed change, can participants supply the learning, resources, authority and transition work it needs? If the proposal is a trial, do the stakes, remaining uncertainty and available capacity justify it? State the supported finding or how the parties can respond if a premise fails.
+Which question about the rule has been answered? Establish an entitlement from the applicable terms and the facts on which it depends. A report on use needs evidence about the people and period covered. A claim that the rule changed an outcome needs a comparison with what would otherwise have happened. For a proposed change, can participants supply the learning, resources, authority and transition work it needs? If the proposal is a trial, do the stakes, remaining uncertainty and available capacity justify it? State the supported finding or how the parties can respond if a premise fails.
 
 ### ECO.9:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -1157,7 +1165,9 @@ Physical efficiency, price, demand and total use can refer to different activiti
 
 #### ECO.10:4.1 - State the comparison
 
-Identify the useful result and choose a unit that preserves its performance. Establish the resource, activities included and period. For a cap, compare use over that boundary with the allowed amount. An adequate reading or bound can finish the job. For the effect of an improvement, also establish how much service would be provided, with what quality and mix, in the comparable period without it. Account for cost, energy and emissions in their respective units. When the decision uses another unit, establish the conversion for this supply, boundary and period. A range for the emissions per unit of energy can already establish whether a planned change stays below an emissions cap.
+Identify the useful result and the resource, activities and period the decision concerns. Choose the unit by asking what two services counted as equal must both deliver. If the same number can conceal a different mix of jobs, quality or human completion work that changes the conclusion, keep the relevant types separate. To calculate total resource use from unit rates, apply each rate to the volume of its own type under that arrangement. Count a shared setup or run once when it serves several orders. A unit selected for billing can differ from the one needed to compare resource use.
+
+For a cap, compare use over the regulated boundary and period with the allowed amount. An adequate reading or bound can finish the job. For the effect of an improvement, also establish how much service would be provided, with what quality and mix, in the comparable period without it. Account for cost, energy and emissions in their respective units. When the decision uses another unit, establish the conversion for this supply, boundary and period. A range for the emissions per unit of energy can already establish whether a planned change stays below an emissions cap.
 
 To separate the technical saving from the demand response, calculate three totals on the same resource account. Find use without the improvement, use with the improvement at the counterfactual output before any induced response, and use with the response. Subtract the second from the first for fixed-output saving. Subtract the second from the third for the response-induced change. Include relevant equipment, infrastructure and transition costs in the appropriate totals. A burden that arises at fixed output belongs in the second total as well as in the third if it continues. Use applicable PHY, MMP, OPS, MA or FIN results.
 
@@ -1175,7 +1185,7 @@ For one unchanged service with resource use e per unit and output q, total use i
 
 For a comparison of total use, state whether use with the response is below, equal to or above use without the improvement. When the fixed-output saving is positive and well defined, divide the response-induced change by that saving if the requested result needs the fraction offset. A fraction above one indicates backfire under this account. When there is no positive, well-defined fixed-output saving, report the totals and induced change directly. Identify the accounting boundary, since including new equipment or transition can change both the saving and the percentage.
 
-For a resource cap, assess whether aggregate use remains within the limit and whether released capacity needs allocation. If the goal is useful growth, compare the additional output’s value and cost. For a proposed policy, assess feasibility and effects on the parties concerned. A rebound estimate can inform those choices.
+For a resource cap, use the boundary in the rule. A single cap on the combined plant can be checked from the plant's total over the regulated period. Separate limits at each site or in each shift require grounds covering each one. A valid upper bound can settle several of them if it applies to all of them. If the decision also concerns reallocating capacity, trace who is entitled to use it. If the goal is useful growth, compare the additional output's value and cost. For a proposed policy, assess feasibility and effects on the parties concerned. A rebound estimate can inform those choices.
 
 To offer the saving to another activity, trace what becomes usable by its recipient. A fixed electricity payment may stay due when metered energy falls. A reduction in machine time may release a shift only after other orders, necessary equipment and the holder's allocation rights are taken into account. For an actual cash saving, compare payments under the relevant terms on the two alternatives. For a feasible new assignment, check the receiving job's needs and deadline.
 
