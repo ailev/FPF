@@ -456,7 +456,7 @@ Frascati 2015 serves as a statistical-methodology comparator. The National Acade
 
 Begin with the question and available material in RMP.1:4.3. Use F.1 to find or select sources for the answer, F.0.1 to recover the source’s meaning of a consequential expression, and A.10 to relate evidence and provenance to a particular claim. For a claim about the best-known current answer, use E.8:11 to compare the relevant SoTA contributions. State what the sources answer and which question their conditions or omissions leave open.
 
-Reuse an existing answer when its question, sources and conditions fit. For a conceptual synthesis in framework authoring, F.0.2 may supply the needed contribution. For a broader, refreshable SoTA collection, use G.2 within its declared frame. For appraisal and synthesis of a research corpus, use RMP.7.
+Reuse an existing answer when its question, sources and conditions fit. When different practices use a concept differently, F.0.2 helps establish whether, and under what conditions, their claims can support the conclusion the inquirer needs. If the commission is to devise a research method, show how the resulting distinction changes the observations, comparisons or inferences the researcher will make. For a broader, refreshable SoTA collection, use G.2 within its declared frame. For appraisal and synthesis of a research corpus, use RMP.7.
 
 Use FPF C.16 when specifying an observation under RMP.3 or distinguishing an instrument indication, measurement result and derived value under RMP.4. Use the field’s methods for the instrument, its validity and any case-specific measurement result.
 
@@ -643,7 +643,7 @@ Use F.1 to select sources that bear on the answer. For a best-known current answ
 
 Recover the assumptions, conditions and support for each proposed answer. For a claimed improvement, compare the earlier limitation with what the new approach repairs and what it leaves open. Consult the earlier source if the comparison depends on it. Historical influence and evidence that the current approach works answer different questions. State trade-offs where alternatives improve different characteristics or identify what would distinguish them.
 
-Give the conclusion of the comparison and its consequences for the answer, applicability, remaining research question or stopping point. Use RMP.7 if a new corpus conclusion needs appraisal and synthesis. F.0.2 serves conceptual synthesis for framework authoring. G.2 serves a broader, repeatedly refreshed SoTA collection under its declared CG-Frame. A sufficient comparison can finish here.
+Give the conclusion of the comparison and its consequences for the answer, applicability, remaining research question or stopping point. Use RMP.7 if a new corpus conclusion needs appraisal and synthesis. Use F.0.2 when the conclusion depends on a relationship between the concepts used in the sources. Recover what each means where it was used, establish which relationships hold, and follow their consequences for this research question. For a task to select a study design, use that conclusion to choose what must be observed or held constant. G.2 serves a broader, repeatedly refreshed SoTA collection under its declared CG-Frame. A sufficient comparison can finish here.
 
 #### RMP.1:4.4 - Nearest Non-Members and Exact Returns
 
@@ -890,7 +890,7 @@ Use field evidence for the truth of a claim, competent sources for its instrumen
 - **`F.1` — Find and Select Sources for a Current Question.** Use it to find material a reader can inspect and identify limits on search or access. Its source-selection branch can supply a question-relative `SourceCutNote`.
 - **`F.0.1` — Source-Local Meaning Recovery.** Use it to establish what a consequential expression means in its source.
 - **`A.10` — Evidence Graph Referring.** Trace the evidence and provenance of the particular claim and state the limits on its use. Truth, assurance, permission and actual work need grounds appropriate to those claims.
-- **`F.0.2` and `G.2`.** Use F.0.2 for conceptual synthesis in framework authoring and G.2 for a broader refreshable SoTA collection. Section 4.3 gives the ordinary source-answer route.
+- **`F.0.2` and `G.2`.** Use F.0.2 to synthesize source concepts for a research question, a working method or a framework and G.2 for a broader refreshable SoTA collection. Section 4.3 gives the ordinary source-answer route.
 - **`E.8:11`.** Use its SoTA comparisons in §4.3.2 for a claim about the best-known current answer. Report what the comparison establishes about the answer, applicability, research question or stopping condition.
 - **Core Method development and A.3.1.MI.** Use Core for Method identity, repertoire, requirements, qualification, trial, fit, worth, variants and provenance. A.3.1.MI addresses introduction and revision. RMP.1 addresses what makes this particular inquiry research and what knowledge question remains.
 - **`RMP.6` — Choose the Credibility Test That Bears on the Research Claim, or Answer without New Testing.** With a bounded claim, basis and threat, consider a suitable examination, including replication with new data under a supplied design. The value of obtaining a test and a finding without another test depend on the threat and the attainable contribution.

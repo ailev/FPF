@@ -4,7 +4,7 @@
 
 FPF Library brings together the **First Principles Framework (FPF Core)** and domain frameworks for people, AI agents, teams and organizations. Its methods connect reasoning, research, design, management and learning. Each is explained as a pattern: a recognizable difficulty, the conditions in which it arises, a way to obtain a useful result, worked cases and limits.
 
-**Use FPF with the AI assistant and workflow you already have.** Start with one method when it fits. When the job calls for several kinds of expertise, combine methods to decide what to do and what to check. Include learning when the team needs new skills for later work. You can use one method for one calculation, design, decision or learning need and stop there.
+**Use FPF with the AI assistant and workflow you already have.** Start with one method when it fits. When the job calls for several kinds of expertise, work out what each practice can contribute and where the contributions must fit together. Ask what a difference in their assumptions would change for the people who use the result. Include learning when the team needs new skills for later work. You can use one method for one calculation, design, decision or learning need and stop there.
 
 Obtaining a result, acquiring the capability to produce it, and improving how you develop further capabilities call for different work and evidence. FPF helps connect them: engineering can establish what will work, management can organize its delivery, and learning methods can help the intended performers acquire what they need. Choose the contributions your work requires.
 
@@ -69,13 +69,13 @@ Use the result for the question the comparison can answer. To estimate what woul
 
 ## What is available
 
-**FPF Core** contains 408 patterns in 18.999 million characters. It supplies transdisciplinary concepts and methods, including methodological work, architecture construction and comparison, and open-ended development. **36 Domain Principle Frameworks (DPFs)** supply subject-specific methods: 26 belong to four Suites, and ten have their own files directly in the DPF catalogue.
+**FPF Core** contains 408 patterns in 19.030 million characters. It supplies transdisciplinary concepts and methods, including methodological work, architecture construction and comparison, and open-ended development. **36 Domain Principle Frameworks (DPFs)** supply subject-specific methods: 26 belong to four Suites, and ten have their own files directly in the DPF catalogue.
 
 A DPF describes one field through a connected pattern language. A **Suite** describes a composite discipline through its constituent fields and their relations. An **Architectural Reference** explains how the relevant language is arranged and why: within a framework, across a Suite, or across the Library.
 
 | DPF Suite | Working subject | DPFs | Patterns | Text, M characters |
 | --- | --- | ---: | ---: | ---: |
-| [Engineering](DPFs/Engineering%20DPF%20Suite/) | Designing, realizing, changing and maintaining systems; knowledge access, semantic integration and control architecture design. | 5 | 99 | 2.961 |
+| [Engineering](DPFs/Engineering%20DPF%20Suite/) | Designing, realizing, changing and maintaining systems; knowledge access, semantic integration and control architecture design. | 5 | 99 | 2.962 |
 | [Management](DPFs/Management%20DPF%20Suite/) | Direction, goals, commitments, operations, resources, markets, communities and organizational change. | 14 | 201 | 5.737 |
 | [Foundational Thinking](DPFs/Foundational%20Thinking%20DPF%20Suite/) | Mathematical and physical accounts, models, algorithms and usable notation. | 5 | 71 | 2.051 |
 | [Human Capability Engineering](DPFs/Human%20Capability%20Engineering%20DPF%20Suite/) | Human learning and somatic change, connected to capability in later work. | 2 | 34 | 1.292 |

@@ -649,7 +649,7 @@ The cost is source-local reading and coordination with publishers, stewards, dom
 
 ### SIE.2:10 - Rationale
 
-When constructing an integration, use the meanings recovered from the source to guide mappings that must preserve them. Source-local recovery also prevents a shared vocabulary from becoming a hidden replacement for source authority. Qualification by use keeps the inventory finite and prevents documentation breadth from substituting for a workable package.
+When constructing an integration, recover what a recipient must be able to decide from the combined sources. Determine whether their assertions concern the same object and conditions, overlapping populations, different states, or different relations the decision needs together. For each mapping used, establish what the source permits the recipient to infer. A correct inventory may supply one missing premise. When commissioned to design the integration, also select how the mapping, an additional observation or bounded separate uses will make the result dependable under allowed changes. Keep local sources and their authority identifiable.
 
 ### SIE.2:11 - SoTA-Echoing
 
@@ -657,7 +657,7 @@ The best-known line combines terminology work, metadata-registry discipline, pro
 
 | Source line | Adopt, adapt, or reject | Role and limit |
 | --- | --- | --- |
-| Current FPF `F.0.1` and `F.0.2` | adopt | Recover source-local meaning and episteme identity; do not establish a cross-source correspondence or domain truth. |
+| FPF `F.0.1` and `F.0.2` | adopt | Recover each claim in its source with F.0.1. When the integration depends on what several claims mean together, use F.0.2 to construct or assess the needed relation and its consequences for the receiving use. A qualified inventory can complete a request for source meanings and limits. A mapping design calls for grounds that it will support the intended use. To claim implementation or actual performance, establish the relevant facts under the conditions of that claim. |
 | [ISO 704:2022](https://www.iso.org/standard/79077.html) | adapt | Distinguish objects, concepts, definitions and designations with ISO 704. Use the receiving contract to decide which distinctions the integration must preserve. |
 | [ISO/IEC 11179-3:2023](https://www.iso.org/standard/78915.html) and its [item-mapping amendment](https://www.iso.org/standard/89914.html?browse=tc) | adapt | Contribute registry-item identity, versions, definitions, and mapping metadata; no automatic cross-source identity or fitness follows. |
 | [PROV-O](https://www.w3.org/TR/prov-o/) | adapt | Distinguishes entities, activities, agents, derivation, revision, invalidation, attribution, and primary source; provenance establishes neither truth nor permission. |
