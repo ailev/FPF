@@ -5,14 +5,14 @@
 > A domain pattern language for creating, performing, transmitting, and deliberately developing music and dance practices and the environments that sustain them.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version designation:** 21 November 2026. To cite the text used, see [MDPE.Sources:1](#mdpesources1---edition-return).
+- **Version designation:** 22 November 2026. To cite the text used, see [MDPE.Sources:1](#mdpesources1---edition-return).
 - **Status:** Eternal alpha: a published working framework, already used in analyses and worked applications, while continuing to evolve.
 - **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
 - **Publication:** [FPF Library repository](https://github.com/ailev/FPF)
 
 Begin with the question you have about a performance, rehearsal, teaching encounter, style-development project or the environment that sustains a practice.
 
-Search the Table of Contents by a familiar term or working question. Open the relevant pattern and compare its situation with yours. Use its method and worked cases to address your question about the performers, material, practice or supporting arrangement. Use another pattern when you need the result it supplies.
+Search the Table of Contents by a familiar term or working question. Open the relevant pattern and compare its situation with yours. Use the method for the work someone needs to do. Playing a scored entrance, devising the ensemble’s cue and explaining yesterday’s entrance can concern the same music. Establish which choice the score settles, which choice the player or bandleader must make, and what would change their answer. Use another pattern when you need the result it supplies.
 
 The Readme follows several performance, teaching and practice-development cases. The Architectural Reference explains their shared distinctions. For other questions, use the Table of Contents to find a method, its limits and its worked cases. Creation, rehearsal, performance, observation and development can overlap.
 
@@ -112,7 +112,7 @@ Search the Keywords & Search Queries column for the performance, teaching, pract
 
 ## Practical entries
 
-Bring your question about performance, teaching or practice development. These selected examples show how one pattern's result changes what another method can do, where a useful branch can stop, and what changes when the conditions do. If no example fits, use the [Table of Contents](#table-of-contents) to open a pattern by its working question. Use a direct specialist method when it already supplies the needed result.
+Bring your question about performance, teaching or practice development. These selected examples show how one pattern's result changes what another method can do, where a useful branch can stop, and what changes when the conditions do. A case can feature the same music and serve another job. Compare the result its method gives you with the decision, explanation or design you owe. For work still open, use the [Table of Contents](#table-of-contents) to find the method by its question. Use a direct specialist method when it already supplies the needed result.
 
 The [Architectural Reference](#music-and-dance-practice-engineering-principles-framework-architectural-reference) explains the shared language and its Music and Dance profiles. You can ask an assisting agent: “Explain this and give me your comments in the language of my work, without framework jargon.”
 
@@ -126,9 +126,9 @@ The [Architectural Reference](#music-and-dance-practice-engineering-principles-f
 
 In the [constructed social-dance and live-music case](#mdpeapplication1---a-constructed-social-dance-and-live-music-development-decision), a rehearsed pair and a live coder have performed a successful showcase. The organizers want unfamiliar pairs to sustain partner-responsive timing in a monthly social event. MDPE.8 separates that recurring practice from the showcase and from a possible later style line. MDPE.1 bounds the present project to one twenty-minute block. MDPE.21 compares the showcase arrangement with a social-practice arrangement: the latter needs varied partners, readable timing, a host, usable sound and floor conditions, and another opportunity to practise. The organizers choose to try the second arrangement because it supports the intended social use.
 
-Using [MDPE.22](#mdpe22---test-a-support-environment-change-for-a-music-or-dance-practice), the organizers set aside the event block for practice. They secure participants, a host, floor space and permission for the trial. [MDPE.5](#mdpe5---integrate-production-and-presentation-for-performed-music-or-dance-work) brings the music, dance, sound, and event contributions together for a pair's performance. [MDPE.12](#mdpe12---observe-and-compare-music-or-dance-performance-and-cultural-results) guides observation of eight pairs. Three sustain the intended timing. Five return to a memorized phrase after a dense accent change, and four on the far side report difficulty locating the pulse.
+Using [MDPE.22](#mdpe22---test-a-support-environment-change-for-a-music-or-dance-practice), the organizers set aside the event block for practice. They secure participants, a host, floor space and permission for the trial. [MDPE.5](#mdpe5---integrate-production-and-presentation-for-performed-music-or-dance-work) brings the music, dance, sound, and event contributions together for a pair's performance. [MDPE.12](#mdpe12---observe-and-compare-music-or-dance-performance-and-cultural-results) guides observation of eight pairs. In three pairs the entrance follows a release whose timing the partner chose, and the dancers identify that release as their cue. Five return to a memorized phrase after a dense accent change, and four on the far side report difficulty locating the pulse.
 
-The organizers use [MDPE.14](#mdpe14---choose-a-response-to-conflicting-music-or-dance-results) to examine whether the musical changes and partner cue allow dancers to maintain their timing in the same performance. A longer verbal explanation would leave the sound and timing difficulty unresolved. The team compares constraining the musical changes, keeping the showcase arrangement, and maintaining separate showcase and social configurations. It selects the split. The team implements its choice with [MDPE.15](#mdpe15---make-and-test-a-local-music-or-dance-practice-change). The musician moves large accent changes away from the partner-cue interval, and the sound operator re-aims the monitor. In the later round, six pairs sustain the timing and two still need teacher cues. Both the sound and musical configuration changed, and the pairs had already practised, so these observations do not isolate either change's effect.
+The organizers use [MDPE.14](#mdpe14---choose-a-response-to-conflicting-music-or-dance-results) to examine whether the musical changes and partner cue allow dancers to maintain their timing in the same performance. A longer verbal explanation would leave the sound and timing difficulty unresolved. The team compares constraining the musical changes, keeping the showcase arrangement, and maintaining separate showcase and social configurations. It selects the split. The team implements its choice with [MDPE.15](#mdpe15---make-and-test-a-local-music-or-dance-practice-change). The musician moves large accent changes away from the partner-cue interval, and the sound operator re-aims the monitor. In the later round, the same observations establish partner-responsive timing for six pairs. The other two use the teacher’s cue. What they could do unaided is still open. Both the sound and musical configuration changed, and the pairs had already practised, so these observations do not isolate either change's effect.
 
 With [MDPE.7](#mdpe7---choose-the-next-music-or-dance-development-work), the organizers use the changed configuration and the observations to compare the larger festival slot, another transfer trial, capability development, and stopping the social branch. In this case the team chooses an unfamiliar-partner trial and keeps the current event block for a month. The showcase branch remains useful for its own audience. [MDPE.16](#mdpe16---keep-music-or-dance-alternatives-available-for-later-use) can maintain that branch when its performers, material, equipment, and permissions remain available. Another receiving group or a season-long continuation promise would require evidence for that group or interval.
 
@@ -236,11 +236,11 @@ same time.
 
 Start with the action someone needs to take. A bandleader might have to arrange an entrance that leaves the singer’s last word audible and brings the band in together. Ask what could make the leader choose a different arrangement. Follow each possibility out to the people who must hear or act together and in to the sound, gesture or decision that could change their result. A person in the audience can hear the word clearly while a player on stage misses the cue. A clean recording of the band’s entrance can settle a question about its timing while leaving open what the players followed.
 
-Use the views below to decide how far to follow each connection. If the task is to design a way to cue the band, trace who may choose the cue, who can receive it, and when each player must prepare. If it is to explain yesterday’s entrance, trace the actions that actually made up that entrance and what the available records preserve about them. A school may have taught the cue, a genre may favour it, and the venue may supply a monitor. These relations alone establish neither membership in the band nor inclusion in its cueing method. A way of obtaining a cue can be part of the method even when the venue supplies the device that carries it.
+Hold one player’s action fixed and vary how the other players receive the cue. Could the entrance fail although that player enters in time? Then the way the cues reach the group belongs in the arrangement. Now hold the recorded entrance fixed. If following the bandleader and following a private count give the same timing, the recording can settle a timing question. To explain who followed whom, keep the cue source and the players’ responses distinguishable. Use the views below to decide how far to follow each connection. If the task is to design a way to cue the band, trace who may choose the cue, who can receive it, and when each player must prepare. If it is to explain yesterday’s entrance, trace the actions that actually made up that entrance and what the available records preserve about them. A school may have taught the cue, a genre may favour it, and the venue may supply a monitor. These relations alone establish neither membership in the band nor inclusion in its cueing method. A way of obtaining a cue can be part of the method even when the venue supplies the device that carries it. To devise an entrance, the bandleader can work back from when each player must commit and choose a cue they can all use in time. To teach another bandleader to devise it, give them the entrance to arrange and leave them the choice of cue and the grounds for it. A score that fixes the cue can already serve an ensemble commissioned to play it.
 
 The following views distinguish relations that can affect the decision.
 
-- **Method composition.** Which smaller Methods or parts contribute to the larger Method, and how do they fit together?
+- **Method composition.** Which operations must the larger method’s performers carry out, which smaller methods do they use within it, and which results can they obtain from someone else?
 - **Method unfolding.** Which result or condition enables a later move?
 - **Performed Work.** Which Methods did this occurrence enact? Which other occurrences overlapped it
   or formed part of a larger bounded work, such as an event or rehearsal?
@@ -254,7 +254,7 @@ drawing, earlier training or developing the means to perform a later task does n
 relation within ongoing work. Use `MDPE.14` when a conflict depends on a part–whole relation, scale order,
 simultaneous work, a slower constraint or a representation that helps locally but compromises another result.
 
-**Constituent actions in ongoing work.** Identify how the constituent actions enable or limit the whole performance. In a constructed dance case, the dancer can recall the figure and maintain strength and static axis control, but loses balance during rotation. The missing coordination connects muscular actions to the figure. MDPE.10 can help develop and test that capability. MDPE.17 asks whether another performer can reproduce the Method. If developing that coordination is the task, obtain the necessary instruction and practice conditions, vary the combinations and return to the whole figure. An account of the earlier rotation can use the observation already available. B.1.5.EW helps identify those connections. Use MDPE.14 if a conflict between results remains. A description can persist after a practice becomes unreproducible, and one success by a dancer does not establish retention across the population.
+**Constituent actions in ongoing work.** Identify how the constituent actions enable or limit the whole performance. In a constructed dance case, the dancer can recall the figure and maintain strength and static axis control, but loses balance during rotation. The observation locates the loss of balance during rotation. To choose a remedy, establish what the dancer can already do in the relevant conditions. For example, a late partner cue can disrupt a turn whose muscular coordination is available. When the observations identify a coordination the dancer needs to develop, use MDPE.10 to develop and test it. MDPE.17 asks whether another performer can reproduce the Method. If developing that coordination is the task, obtain the necessary instruction and practice conditions, vary the combinations and return to the whole figure. An account of the earlier rotation can use the observation already available. B.1.5.EW helps identify those connections. Use MDPE.14 if a conflict between results remains. A description can persist after a practice becomes unreproducible, and one success by a dancer does not establish retention across the population.
 
 ## MDPE.Reference:3 - Performance, recognition, selection, and continuation are different results
 
@@ -784,7 +784,7 @@ If the subject remains unclear, say which ambiguity prevents an answer. A record
 
 #### MDPE.8:2.2 - Identify the subject of the claim or change
 
-Choose the subject and the detail of its description together. Ask which difference could change the action or explanation the recipient needs. Enlarge the subject when the answer depends on another contribution, then follow that connection only as far as it can affect the answer. For the same subject, keep enough detail to distinguish possibilities that lead to different answers. The band entrance in MDPE.Reference:2 and :5 illustrates both choices. Common subjects include the following.
+Choose the subject and the detail of its description together. Ask which difference could change the action or explanation the recipient needs. Follow a needed contribution to the point where it can change the answer. A monitor can explain which cue one player could hear. If the question is how the ensemble achieved its entrance, trace the contributions that produced it. A timing record may already settle whether the entrance met the score. Establish which contributors belong to the whole when that distinction affects the answer. For the same subject, keep enough detail to distinguish possibilities that lead to different answers. The band entrance in MDPE.Reference:2 and :5 illustrates both choices. Common subjects include the following.
 
 - musical or movement material;
 - one performance occurrence or its production and presentation arrangement;
@@ -1304,8 +1304,7 @@ or MDPE.1 to clarify it. A commission for one work can be completed by its direc
 
 #### MDPE.21:2.2 - Recover the current reproduction architecture
 
-Trace an observed performance to the conditions that made it possible and to the conditions for reuse. For a design,
-use a representative proposed performance and state the premises. Examine the relations relevant to the question.
+For a historical question, trace the performance to the conditions that made it possible. To assess what a current or proposed arrangement permits, use the rules and provision that apply to the occasions in question. A rule excluding improvisation can settle whether an improvised entry is admissible before anyone submits one. If performances share people or equipment, check the conditions under which they must work together. Trace the conditions for reuse when the question concerns recurrence.
 
 | Architecture concern | Practical question |
 | --- | --- |
@@ -1474,7 +1473,7 @@ result includes reproduction across variants, performers, conditions or generati
 | Check | Failure it prevents | Repair |
 | --- | --- | --- |
 | Intended recurrence | A new label or list of traits leaves the intended use unclear. | Identify what later performers or recipients should be able to perform, recognize, transmit or recover. |
-| Current reproduction | A proposed diagram is treated as a history of the practice. | Use evidence from a representative occurrence for its work, capability, systems and enabling relations. State a design comparison under its premises. |
+| Current reproduction | A proposed diagram is treated as a history of the practice. | Use the rule or provision in force for the constraint it establishes. Use evidence of the occurrence for what performers did and of the relevant occasions for actual recurrence. State a design comparison under its premises. |
 | Concurrent concerns | Generation, training, performance, recognition and memory are put into an unsupported sequence. | Identify what occurs together, what forms part of a larger action, and which temporal dependencies the chosen method requires. |
 | Alternatives | A candidate is chosen without considering an available arrangement that would change the comparison. | Include relevant alternatives and retention where feasible. Develop another candidate when its possible contribution could change the answer. |
 | Authority and action | A proposal attributes a local decision to an entire culture, market or platform. | For a proposed change, identify who could decide, the work, system or method affected, and the signal, access, contact, participation, observation or selection relation on which it depends. |
@@ -3248,7 +3247,7 @@ For a proposed performance, use the pair’s established joint capabilities or s
 
 #### MDPE.26:4.2 - Examine the shared passage and its constraints
 
-Examine a suitable observation of the passage or arrange a comfortable attempt when the remaining question warrants one. Identify where both partners continued or where the required relation became unavailable. For a claim about what someone felt or intended, use evidence of their experience. To decide whether a partner could use a cue in time, look for a response that depended on it while the choice was still open. Foot placement can establish the movement and its timing. A common count can explain two simultaneous steps even when neither dancer followed the other. When the cause matters and remains uncertain, use a comparison that can distinguish the explanations if it is attainable and worth its cost. Otherwise state the limit of the evidence.
+Examine a suitable observation of the passage or arrange a comfortable attempt when the remaining question warrants one. Identify where both partners continued or where the required relation became unavailable. For a claim about what someone felt or intended, use evidence of their experience. Evidence that a partner used a cue to make a timely choice can establish both actual use and its feasibility on that occasion. To judge feasibility from the timing, establish when the partner can detect and interpret the cue and whether they can complete the required response in the time then remaining. An upper bound on the time they need may settle this question. To attribute an observed choice to the cue, establish how it informed that choice. A partner who understood a timely cue may choose to pause. Foot placement can establish the movement and its timing. A common count can explain two simultaneous steps even when neither dancer followed the other. When the cause matters and remains uncertain, use a comparison that can distinguish the explanations if it is attainable and worth its cost. Otherwise state the limit of the evidence.
 
 | Observation | A comparison that could distinguish the difficulty | What the result can change |
 | --- | --- | --- |
@@ -3285,7 +3284,7 @@ A performer can return attention to a familiar detail to change movement quality
 
 Identify the entry conditions of the next organization, including support, free body parts, direction, ongoing movement, an accessible cue and musical time. Compare these with the actual or specified exit from the preceding passage. Check the connection for both participants. The same foot label may have different functions for the two partners.
 
-When the exit supplies what the entry needs, prepare and signal the change in time for the partner. Otherwise construct a connecting action that provides the missing support, facing, free part or preparation time. Place it in the musical phrase. For an actual performance claim, examine evidence of the pair using that connection.
+When the exit supplies what the entry needs, establish how both partners know when to change. They may enter on the same agreed musical event. Where the entry depends on one partner’s choice, make that choice perceptible before the other must act. If the exit leaves a required condition missing, construct a connecting action that provides the needed support, facing, free part or preparation time. Place it in the musical phrase. For an actual performance claim, examine evidence of the pair using that connection.
 
 Examine the whole interval across the change. Could the partner detect the preparation in time? Did the partner use it? Did both arrive with usable support and retain the musical relation? Was continuation available? If the question concerns what followed, did they continue? For a claim about their choice, what evidence supports it? Assess felt clarity, movement and musical timing from the evidence for each.
 
@@ -3483,7 +3482,7 @@ fix an articulation that an ensemble or social partner allows the performer to v
 #### MDPE.11:2.4 - Identify the performer’s method and choices during performance
 
 Perform the passage using the relevant domain method, or establish which methods contributed to the performance being studied. A dancer can use balance and timing,
-partner interaction and an Urban Kiz method simultaneously. When these relations matter, establish the temporal order from the performance. To identify one method as a part of another, establish which contribution the encompassing method calls for.
+partner interaction and an Urban Kiz method simultaneously. When these relations matter, establish the temporal order from the performance. To identify a submethod, establish which operation the encompassing method requires or accepts as one way of producing a required contribution. A passage can call for a cue to be prepared as part of performing it, or allow the players to use a cue prepared elsewhere. Which operation belongs to the method depends on those arrangements. To find which one the players used, examine the performance.
 
 When sound, movement, a partner’s or audience’s response, running code, equipment or safety changes what can be done
 next, use FPF situation-responsive work steering. Choose among the available actions from the facts, intended result,
@@ -3642,7 +3641,7 @@ relation among material, its description and the conditions of performance remai
 | Prescribed and actual conditions | Specified contact is treated as an observed relation between partners. | Read the agreement or score for the prescription. Use suitable evidence of the named participants’ interaction to establish which relation actually held. |
 | Preservation and variation | “Improvised freely” leaves a consequential constraint unclear. | State what was fixed, what the performer could vary and which facts, permissions or stop conditions mattered to the choice. |
 | Direct domain Method remains primary | A generic pattern replaces music, dance, live-coding, partnering, or control practice. | Use `MDPE.11` only for material–Work integration. |
-| Simultaneous methods | Concurrent contributions are taken to show a teaching sequence or that one method includes another. | Identify the concurrent contributions and establish any temporal order from the work. To show inclusion, identify the contribution that the narrower method supplies within the encompassing one. |
+| Simultaneous methods | Concurrent contributions are taken to show a teaching sequence or that one method includes another. | Identify the concurrent contributions and establish any temporal order from the work. To show inclusion, identify an operation the encompassing method calls for or admits. When a performer uses a result supplied elsewhere, identify the operation that uses it. A question about the method can include alternatives the performers did not select on this occasion. |
 | Performance and a later development choice | Authority to choose a change is inferred from who performed. | Identify who performed. If a development choice matters, identify who held the authority and, for a past decision, what they decided. |
 | The evidence fits the claim | A recorded image is interpreted as a direct measurement of pressure, felt control or audience experience. | State what the observation supports. If further evidence is needed, use a suitable existing source, seek a worthwhile observation or report the remaining limit. |
 | Cost of keeping traces | Documenting each choice interrupts the performance. | Preserve the information the receiving question or subsequent use requires. |
@@ -3948,7 +3947,7 @@ Retain the respectful response, the conditions for a wanted action and the evide
 > **Status:** Stable
 
 > **Pattern type:** Music-and-Dance production-and-presentation integration pattern
-> **Public result:** Depending on the task, develop a feasible arrangement for one bounded music or dance performance, establish what happened and what was available, or deliver the performance with the production it requires. Identify any relevant containing event, artifacts and limits.
+> **Public result:** Depending on the commission, assess a proposed arrangement, develop a feasible one, establish what happened on a past occasion, or deliver the performance or programme. A supported finding that a proposed programme cannot be run as arranged can finish a feasibility assessment. Identify the performances and contributions whose coordination affects the recipient’s result, including any conditions they must meet together.
 
 ### MDPE.5:0 - Use This When
 
@@ -3964,7 +3963,7 @@ system can operate as specified while dancers lose the cue for a weight change.
 A venue can admit spectators while giving them no space to join in. In each case
 the production question concerns what the combined arrangement lets someone do.
 
-Start with one intended or past performance, its performers and recipients. Name the relation that matters, such as
+Start with the performances and recipients the order covers. It may concern one take, several sets that must run together or an arrangement for the acts admitted by a programme. Name the relation that matters, such as
 hearing a response in time, and what existing results establish about it. Depending on the commission, deliver the performance, propose a feasible arrangement, or report a supported finding
 or a specific limit when it answers the request. Name the remaining integration question when there is one.
 
@@ -3985,7 +3984,7 @@ MDPE.13 for a recurring recognition and selection arrangement, or MDPE.19 for cu
 
 ### MDPE.5:1 - The Recurring Difficulty
 
-The subject is one bounded music or dance performance. An actual performance is U.Work by the performers who enact the relevant music or dance method. A soloist, pair, ensemble or an autonomous robot can perform. In planning, specify the intended performance and the conditions on which it depends.
+Let the commission determine the extent of the performance work. It can concern one take, several sets that share performers or equipment, or the programme they form. Follow their connections where these affect what the performers and recipients need. An actual performance is U.Work by the performers who enact the relevant music or dance method. A soloist, pair, ensemble or an autonomous robot can perform. In planning, specify the intended performance and the conditions on which it depends.
 
 A score or choreography specifies material. Rehearsal can show what someone did under rehearsal conditions. A configured instrument or a
 capable performer can support a future performance. To report that the performance took place, use evidence of the occasion. A recording,
@@ -4014,7 +4013,7 @@ its participants need. A stage-front view suited to theatre can miss their excha
 
 ### MDPE.5:2 - Solution
 
-Connect the production arrangement with one identifiable music or dance performance and the use in question. Work from its requirements when planning. In performance, coordinate the contributions on which the music or dance depends. Use evidence of the occasion when reporting what happened.
+Connect the production arrangement to the performance or performances it must serve. Identify the part of the programme whose conditions can change the answer and the resources and cues those performances rely on together. Work from its requirements when planning. In performance, coordinate the contributions on which the music or dance depends. Use evidence of the occasion when reporting what happened.
 
 #### MDPE.5:2.1 - Identify the performance and the use in question
 
@@ -4030,8 +4029,7 @@ process or use a recording. For a past use, ask what the arrangement made possib
 
 Choose an extent that fits the question. A festival organizer may coordinate a
 programme of several performances. A pair can investigate one dance at a party.
-A recording team may trace one take into a later release. Identify the relevant
-performance even when the production decision covers the containing event.
+A recording team may trace one take into a later release. For a programme, establish what the promise covers and which performances share a constraint. Two simultaneous sets may each require the same sound operator at a different stage throughout the interval. Their requirements and the operator’s availability can settle that scheduling question before either set plays.
 
 #### MDPE.5:2.2 - Find the specialist results relevant to the use
 
@@ -4100,12 +4098,12 @@ the report. If someone is considering another performance, identify the conditio
 
 > **Production and presentation result**
 >
-> - **Performance and use.** Identify the bounded intended or past performance, its period or occasion and what recipients needed from it.
+> - **Performance and use.** Identify the intended or past performance or programme, its period and what recipients need from it. For a programme, include the shared arrangements and connections that affect the result across performances.
 > - **Performers and method.** State who is to perform or who performed and the relevant music or dance method.
 > - **Relations to preserve or investigate.** Name the musical, movement, interaction, authorship or participation relation that matters for the use.
 > - **Production basis.** Identify the specialist results that apply under these conditions and what they establish about the combined arrangement.
 > - **Any unresolved connection.** Identify any remaining uncertainty. If a trial was used, describe what it showed under its conditions. Record any consequent choice and who made it when relevant.
-> - **Result requested.** For a design, give the proposed arrangement and its grounds. For a past occasion, report what took place, including a cancellation if established. For performed work, identify the performance, material and actual conditions.
+> - **Result requested.** For assessment, explain what establishes feasibility, rules out the proposal, or leaves the decision open. For a design, give the proposed arrangement and its grounds. For a past occasion, report what took place, including a cancellation if established. For performed work, identify the performance, material and actual conditions.
 > - **Access and use.** State what the arrangement made or can make available. Distinguish delivery from participation, listening or other actual use. Report each to the extent established.
 > - **Event, artifacts and publication.** Relate any containing event, recording or later release to the performance where relevant.
 > - **Limits.** Name any blocked use or unsupported conclusion. If a future attempt or decision is requested, give the conditions it needs.
@@ -4817,7 +4815,7 @@ Report the recognizer’s response and the cues and assistance present. Reappear
 
 For a transfer claim, use applicable existing evidence or compare a qualified reference performance with performance under changed conditions representative of the intended use. Use held-out material when the claim involves unfamiliar examples. Keep the target relation and the permitted support, and vary cues relevant to the transfer claim. For retention, compare an earlier performance with a suitable later observation, taking elapsed time and intervening practice into account. A teaching choice or a finding about one occasion can finish without a stronger claim.
 
-Choose a response that shows whether the named holder recognizes the target distinction in the stated task with the help it permits. If the ensemble must recognize a change together and give one answer, use evidence of that joint response. Separate replies can show which musicians recognized the change individually. For recognition alone, choose a response the holder can give without an additional motor skill.
+Choose a response that shows whether the named holder recognizes the target distinction in the stated task with the help it permits. If the ensemble must recognize a change together and give one answer, use evidence of that joint response. Separate replies can show which musicians recognized the change individually. If the group’s agreed answer is the majority of the recorded votes, those votes and the rule can also establish its answer. To establish that the ensemble changed tempo together, follow the musicians’ actions in the same passage. For recognition alone, choose a response the holder can give without an additional motor skill.
 For a classifier, hold out performers, recordings, devices, venues or styles as the intended use requires, and examine the error distribution as well as any overall score.
 
 Return the result that answers the question. Possible outcomes include the following.
@@ -5406,7 +5404,7 @@ Where a choice is needed, examine the following alternatives as they apply.
 | **Use as obtained** | The identified source result meets the binding receiving requirements and no relevant incompatibility requires a change. |
 | **Revise before use** | A described feasible change can address the incompatibility while preserving any alternative that needs to remain available. |
 | **Branch** | Both versions have a use, or keeping them separate preserves a distinction that matters in the changed conditions. State their derivation and limits. |
-| **Stop or defer this use** | No available treatment meets the binding conditions, or the use lacks a required permission, decision authority, capability or safe operating condition. |
+| **Stop or defer this use** | The holder can decline a feasible use when its contribution would not justify the work it displaces, or defer commitment while a necessary condition is unsettled. To rule out the use, establish why every permitted treatment fails at least one necessary condition. Permission can rule out one treatment and a performance constraint can rule out another. One condition can also rule them all out. |
 
 Use options feasible under the stated conditions. If a new arrangement or action still needs designing, identify the missing contribution and use the relevant creation method, MDPE.9 or C.18. Reframe an unresolved next action through the applicable FPF method when needed. Following an authorized decision, the responsible practitioner can implement a chosen change through the relevant domain work. For an inquiry about an earlier occasion, use the evidence to distinguish the change selected from the change carried out.
 
@@ -5724,7 +5722,7 @@ Describe an unsuccessful attempt if the evidence establishes it. When a possible
 
 #### MDPE.17:3.6 - Identify the receiving method and its possible use
 
-When a receiving performance is at issue, describe the relations it preserved, changed, added or omitted and any that remain unknown. For a design, identify the relations the intended receiving work should preserve or may change. When change is at issue, identify what changed or what the proposal would change in the method, its description, the material, the configuration or a performer’s capability. A new phrase can be taught by the same method, and a new model can be used by the same performer in the same way. Identify a candidate variant when the repeatable way of coordinating or deciding changes. If the same rule admits both performances, describe how the performances differed. Identify a change in the setting or material only when one occurred and matters here.
+When a receiving performance is at issue, describe the relations it preserved, changed, added or omitted and any that remain unknown. For a design, identify the relations the intended receiving work should preserve or may change. When change is at issue, identify what changed or what the proposal would change in the method, its description, the material, the configuration or a performer’s capability. A new phrase can be taught by the same method, and a new model can be used by the same performer in the same way. Identify a candidate variant when the repeatable way of coordinating or deciding changes. Choose the detail needed for the receiving question. Two pairs can meet the same instruction to enter on the next beat. If timing is the question, that instruction and the observed entries can suffice. To teach a partner-led entry, establish who chooses when to enter and how their partner can use the cue in time. To explain yesterday’s entry, establish whether the partners used that cue or anticipated the beat independently. The timing rule admits both ways. Identify a change in the setting or material only when one occurred and matters here.
 
 If a further choice is required, keep an arrangement already adequate for the use. Compare the likely contribution of a change with its cost and delay. A different carrier, demonstration, exercise, cue, partner, feedback method, tool setting or source comparison may address the particular limitation. Narrow or stop the proposed use when its requirements cannot be met.
 
@@ -6276,7 +6274,7 @@ Identify what reproduction would require, or whether it occurred, for whom, wher
 - the relations that must persist and the variations that still count, and
 - any change of personnel, resources or setting that the question specifically requires.
 
-Use a criterion that lets a reader tell what would satisfy or defeat the claim. For example, a Tarraxo school may promise that during the next season at least two teacher-organizer pairs can run social practice with varied partners and music in the lead teacher’s absence. Establish whether each of at least two distinct teacher-organizer pairs can provide such a session, with dancers using the specified timing, partner response and improvisation method.
+Use a criterion that lets a reader tell what would satisfy or defeat the claim. For example, a Tarraxo school may promise that during the next season at least two teacher-organizer pairs can run social practice with varied partners and music in the lead teacher’s absence. For that promise, establish that at least two distinct pairs can do the work under the stated conditions. A supported lower bound can answer the question before the pairs are named. If the school promises that either of two specified pairs can take over, establish the organizing work, correction and support available to each. If two sessions can be owed at once, check whether both can run with the teachers, rooms and partners available at the same time. In either case the session must support the specified timing, partner response and improvisation. A request to name one available substitute can finish once one suitable pair is established.
 
 If the question cannot be answered until the representative work or criterion of continuity is identified, obtain that distinction from `MDPE.1`, `MDPE.18` or the relevant music or dance practice.
 
@@ -6361,7 +6359,7 @@ Return the conclusion about the specified practice, conditions and period. If fu
 
 For example, the school deciding how to cover an absence might report the following.
 
-> The class-and-social practice currently depends on the lead teacher-organizer. In the absence trial one assistant supplied the needed correction, but neither completed the organizing work needed to hold the social session. The school will retain that corrector, prepare the other assistant for organizing Work over the next six sessions, and then try the combined arrangement with varied partners and music. The gap concerns provision in this arrangement; it does not require both assistants to become complete replacement teachers. Until representative reproduction succeeds, the school retains the qualified dependence claim.
+> The lead teacher-organizer has supplied the organizing work so far. In the absence trial one assistant supplied the needed correction, but neither completed the organizing work needed to hold the social session. The school has yet to establish cover for the combined work. The school will retain that corrector, prepare the other assistant for organizing Work over the next six sessions, and then try the combined arrangement with varied partners and music. The gap concerns provision in this arrangement; it does not require both assistants to become complete replacement teachers. Relevant earlier work and confirmed provision could already establish that the team can cover the absence. To report that the team actually held the session without the lead, the school needs evidence of that session.
 
 Include the decision holder, authority, affected participants, cost and grounds for reconsideration where these matter to the use. For an account of a past decision, establish whose authority and resource commitments applied at the time.
 
@@ -7081,7 +7079,7 @@ A usable entry is:
 
 #### MDPE.14:3.2 - Select and support the conflict branch
 
-For every branch used, state the two subjects and the relation between them.
+Establish what each account concerns. A question about one phrase can sometimes be answered within it. Trace the phrase into the larger performance when its place there changes the answer. For example, partners who perform the same sequence can rely on different cues. Two descriptions can concern that same phrase. A list of steps can establish their order, while a record connecting a cue to the other player’s choice can distinguish following from anticipation. Choose the distinctions that could change the answer to the question about the phrase.
 
 | Question | What establishes the relation |
 | --- | --- |
@@ -7461,7 +7459,7 @@ Participants may reproduce increasingly difficult sequences in class yet struggl
 
 The result can be an explanation of what the arrangement made possible, or a feasible way to preserve participation, develop skill and try, recognize and retain variants. The organizers may keep activities separate, choose a narrower arrangement or stop when the conflict cannot be resolved within their means.
 
-**First useful move.** Follow the connection in a representative past or proposed occasion. What did participants want to do, or what should they be able to do? Which conditions helped, impeded or would constrain them? If a change is sought, identify a connection the people responsible can alter.
+**First useful move.** Start with the opportunity at issue. It might be admission on one evening or continued access to the social floor throughout a season. Follow the teaching, entry or scheduling decision to the people and occasions it can affect. What did participants want to do, or what should they be able to do? Which conditions helped, impeded or would constrain them? If a change is sought, identify a connection the people responsible can alter.
 
 Use a direct teaching, rehearsal, production or event method when it supplies the needed result. MDPE.20 addresses a forecast of the practice's development.
 
@@ -7491,11 +7489,11 @@ A clearer explanation can leave a teacher with less income, an organizer with mo
 
 Identify the contributions that sustain the practice, what each supplied or could supply to the shared activity, and the evidence for any effects attributed to it. To design a response, identify the intended participation, the actual or suspected difficulty, the means available and who can change or supply what the proposal requires.
 
-Start with the connection the question concerns. An earlier explanation, timetable, test or supported proposal may answer the question. For a design, use the intended occasion to identify what its parts need to supply. Check that their requirements can be met together, and use evidence of what actually happened for claims about provision, use or continued participation.
+Start with the connection the question concerns. An earlier explanation, timetable, test or supported proposal may answer the question. For a design, use the occasions the arrangement must support to identify what each requires and which people, spaces or resources they share. Check that their requirements can be met together, and use evidence of what actually happened for claims about provision, use or continued participation.
 
 #### MDPE.25:4.1 - Start from the participation that should remain possible
 
-Choose an occasion representative of the question. A newcomer at a social evening may want to arrive without a regular partner, find willing partners, enjoy dancing, recover from an unfamiliar response and come back. An ensemble may want to retain its recognizable sound while a new member introduces a variation. For a past occasion use what is known about the participants' aims and experience.
+Identify the opportunity the participants are to retain. A question about one evening can be settled for that evening. For a season, establish which opportunities must remain available, to whom and when. The timetable can show whether the only evening a newcomer can attend is available. To count that evening as an opportunity to join, establish that the entry rules and practical conditions allow this newcomer to take part. Where those are known, the timetable can settle the remaining question. A newcomer at a social evening may want to arrive without a regular partner, find willing partners, enjoy dancing, recover from an unfamiliar response and come back. An ensemble may want to retain its recognizable sound while a new member introduces a variation. For a past occasion use what is known about the participants' aims and experience.
 
 What preparation, access and support does each occasion require? A social evening can welcome newcomers while a demanding competition requires preparation. Preserve both opportunities when both are wanted and feasible.
 
@@ -7505,7 +7503,7 @@ An existing arrangement that meets the requirements can be retained. A failed us
 
 #### MDPE.25:4.2 - Trace the connections in a past or proposed occasion
 
-Take an observed episode or state the premises of a constructed one. Trace relevant preparation, selection and support before it, then what followed or could follow under the proposed conditions. Determine which contributions and consequences the evidence connects to the episode and where an explanation remains open.
+Use an observed episode for a question about what happened. An entry rule or a timetable in force can establish who may join or when the floor is available across the occasions it covers. For a proposed occasion, state the premises. Trace relevant preparation, selection and support before it, then what followed or could follow under the proposed conditions. Determine which contributions and consequences the evidence connects to the episode and where an explanation remains open.
 
 A learner completes a memorized sequence with the instructor, then interrupts an unfamiliar partner who pauses. Perhaps the instructor supplied an unnoticed cue, the lesson rewarded sequence completion, or the contest encouraged practice of a fixed routine. Compare these explanations with limited practice, an unclear signal, an unsuitable track or a partner choosing another activity. What in the record distinguishes them?
 
@@ -7541,7 +7539,7 @@ When continuity matters, identify the feature to preserve and the allowed variat
 
 #### MDPE.25:4.4 - Compare whole arrangements, including who bears the change
 
-Follow each serious proposal through the occasion. Include the current arrangement when retaining it is possible, and use the same requirements for each comparison.
+Follow each serious proposal through the occasions it must support and check which demands on a teacher, room or social floor can coincide. Include the current arrangement when retaining it is possible, and use the same requirements for each comparison.
 
 Count each real use of space and instructor time, including simultaneous demands and the work of making the resources available. Count a shared contribution once when it serves both activities. A second room needs the floor, sound, staff and affordable access the activity requires. Moving advanced practice to another day can exclude people unable to attend twice. Welcoming newcomers can create a paid or unpaid demand on skilled participants.
 
@@ -7882,7 +7880,7 @@ When the claim calls for performance evidence, use evidence suited to it, includ
 Use the performed work to determine which account fits. `A.15.1` and `B.1.5.EW` explain occurrence and part–whole relations.
 
 - One occurrence can serve both change and observation. Count that occurrence once. Account for each participant’s time and other resources used.
-- A separately identifiable trial may be part of a larger change attempt if its work contributes to that attempt.
+- A trial forms part of a change attempt when carrying it out is among the actions that constitute that attempt. An earlier independent rehearsal may supply evidence the team uses in making the change.
 - Other work may overlap or follow the attempt, or supply evidence about it. Editing an arrangement today and rehearsing it tomorrow are separate occurrences.
 
 Sera and Dima spend forty seconds adjusting the size of Sera's torso cue in a constructed partner exercise. They keep the agreed phrase, music, comfortable contact and stop signal. Sera reduces the cue, Dima responds within the phrase and both report comfortable continuation. The pair adjust the cue and use the response to judge its readability in the same forty elapsed seconds. Together the two dancers contribute eighty person-seconds. The changed cue and the observations are distinct results. A claim about durable skill or the independent effect of the adjustment would require other evidence.
@@ -8099,7 +8097,7 @@ You may encounter the following situations.
 
 The practical question is:
 
-> Which materially different alternatives could be used for this purpose at the time in question? If any should be kept or restored, what would that require?
+> What could be used for this purpose at the time in question, and which alternatives does the recipient need to identify separately? If any should be kept or restored, what would that require?
 
 A musician, dancer, teacher or organizer can identify what could be reconstructed, rehearsed, performed, taught or tested under the stated conditions. A project can use that finding to retain alternatives or identify what would make a currently unavailable option usable.
 
@@ -8121,7 +8119,7 @@ If the evidence leaves the use, branch or availability uncertain, report what is
 
 | Name | Meaning here |
 | --- | --- |
-| development alternative | An identified existing branch or proposed arrangement offering a materially different answer to the same question, for example through a different method, structure, use, performance characteristic or failure mode. |
+| development alternative | An existing branch or proposed arrangement distinguished for the receiving use by its identity, method, structure, availability, performance characteristic or failure mode. |
 | variant | An identified version related to a source or another version by variation, derivation, transformation, lineage or another stated family relation. Establish the relation for the claim being made. |
 | live alternative | A branch whose availability for a specified use is supported under the stated conditions. A title, file, earlier performance or maintenance plan can have value even when one of those conditions remains unknown. |
 | branch availability | A performer or performing arrangement can use the branch as claimed with the necessary skills, dependencies, rights, resources, access and configuration at the time in question. |
@@ -8166,7 +8164,7 @@ Keeping alternatives takes resources. A catalogue can survive the loss of player
 
 ### MDPE.16:3 - Solution
 
-Identify the alternatives that answer the same question differently and the date, occasion or future use at issue. Establish which were or are usable, unavailable or uncertain from the actual performers, resources, rights and configuration. That finding can answer a historical, current or prospective availability question. To keep alternatives usable, compare the benefits and cost of maintenance, repair or reconstruction. Use a required trial for the claim it qualifies. For an optional trial, weigh its attainable contribution against its full cost and delay. Use actual deadlines for rights, resources or qualifications. For a suspected selection pressure, distinguish the observed trace, an applicable constraint, a hypothesis and a supported causal conclusion.
+Identify the alternatives the recipient needs to distinguish and the date, occasion or future use at issue. Two permitted editions can sound alike while both belong in a catalogue. For a performance choice, that same distinction may have no bearing on what to play. Establish which were or are usable, unavailable or uncertain from the actual performers, resources, rights and configuration. That finding can answer a historical, current or prospective availability question. To keep alternatives usable, compare the benefits and cost of maintenance, repair or reconstruction. Use a required trial for the claim it qualifies. For an optional trial, weigh its attainable contribution against its full cost and delay. Use actual deadlines for rights, resources or qualifications. For a suspected selection pressure, distinguish the observed trace, an applicable constraint, a hypothesis and a supported causal conclusion.
 
 The same work may rehearse a branch, maintain its availability and test it. Identify which work was actually done when effort or results are being attributed.
 
@@ -8175,7 +8173,7 @@ The same work may rehearse a branch, maintain its availability and test it. Iden
 Identify the following where they affect the question.
 
 - The music or dance subject and relevant configuration.
-- The question that the candidate branches answer differently.
+- The recipient’s question and what makes alternatives distinct for that use, including edition identity where it matters.
 - The use in performance, teaching, reconstruction, comparison, return to a source or combination that gives each branch its value, if any.
 - The relevant date or horizon and any choice still to be made.
 - Who maintains or maintained the branches, if that matters.
@@ -8190,7 +8188,7 @@ Identify who holds the relevant rights, controls resources or can perform the wo
 
 #### MDPE.16:3.2 - Identify or develop alternatives for the same question
 
-For each candidate, identify the material, method, performer or arrangement involved and the materially different answer it offers to the same question.
+Identify what counts as a distinct alternative for the receiving job. Two authorized editions can specify the same audible part. One may suffice for a player who needs a playable part. A catalogue of every usable edition must identify both and account for the scope of its search. If the editions give different players the right to play, keep that difference when deciding who can use them.
 
 A score or recording may supply material, a dancer or robot may perform, and a method or event format may organize the work. Compare proposed or existing branches as different ways to answer one question, including those whose feasibility remains open. Separate genuinely different questions, and examine components together when their joint contribution matters.
 
@@ -8391,7 +8389,7 @@ Recognize a complete first result when a practitioner can answer:
 
 For assurance, check the distinctions on which the finding relies.
 
-- The branches each answer the same question differently. Components of one arrangement have their own uses.
+- The comparison retains the alternatives the recipient needs to distinguish, including separate editions with the same musical result when their identity matters. Components used together are assessed as one arrangement when that is the proposed alternative.
 - A file, snapshot, plan or former capability is used only for the availability conditions it helps establish.
 - A claim of availability identifies the branch, time, use, capable performer and needed conditions, with suitable evidence. If upkeep was necessary, identify its authority and achieved result.
 - Keep availability, archive and front membership, pool policy, selection and the current `OptionSet` distinct when a claim relies on them.
@@ -8612,9 +8610,9 @@ Identify credible explanations and the developments each would support. Differen
 - **transmission, retention, and loss:** variants reproduce with transformation, remain locally available, split across populations, or cease to be enacted; and
 - **drift, branching, or no stable attractor:** change has no stable basin under the selected horizon, or several branches remain viable.
 
-Retain serious rivals when they affect the forecast or its use. Different developments can still justify the same preparation.
+Retain serious rivals when they affect the forecast or its use. If the commission is to choose a preparation, establish whether the same action will serve across the developments still possible. A rehearsal room reserved on terms that cover either programme can settle the booking while the forecast remains open.
 
-For each serious trajectory give its mechanism, conditions, expected direction or distribution, uncertainty and observations it makes more or less likely. Use `A.3.3` for an actual state-space and transition-law claim, and `C.28` when the question depends on attributing a causal contribution.
+For a forecast, give each serious trajectory’s mechanism, conditions, expected direction or distribution, uncertainty and observations it makes more or less likely. Use `A.3.3` for an actual state-space and transition-law claim, and `C.28` when the question depends on attributing a causal contribution.
 
 #### MDPE.20:3.5 - Derive observations that distinguish the trajectories
 
@@ -8915,7 +8913,7 @@ These mistakes can waste preparation time, prompt premature expansion or leave o
 
 ### MDPE.7:4 - Solution
 
-For a present choice, identify the finite options addressing one music or dance development question and the criteria for comparing them. The rule and options together determine which `C.11 ChoiceResult` the comparison supports. The authorized holder may make the choice. An analyst may report a supported earlier decision or give a recommendation, even when someone else has authority to choose. For a historical question, use the decision and other evidence of what was considered, under which conditions and with what outcome. An adequate record can finish that task. For intended work establish its own permission, capability and resources. Use `A.22.CGUS` when the branching or return structure itself needs to be selected, recorded or compared.
+Establish what the chooser needs from the present decision. A request for one way to run tonight’s rehearsal can be answered by an available arrangement that meets its conditions. For a choice among alternatives, identify the finite options that address the same question and the criteria for comparing them. To recommend the best across a wider permitted set, include the remaining possibilities or give grounds that none could improve the result. The rule and options together determine which `C.11 ChoiceResult` the comparison supports. The authorized holder may make the choice. An analyst may report a supported earlier decision or give a recommendation, even when someone else has authority to choose. For a historical question, use the decision and other evidence of what was considered, under which conditions and with what outcome. An adequate record can finish that task. For intended work establish its own permission, capability and resources. Use `A.22.CGUS` when the branching or return structure itself needs to be selected, recorded or compared.
 
 #### MDPE.7:4.1 - Name the chooser, subject, and decision extent
 
@@ -9130,7 +9128,7 @@ Use an existing decision or a suitable direct artistic, rehearsal, teaching, eve
 | --- | --- |
 | **CC-MDPE7-01 — Choice** | The particular development question, time and scope of the recommendation, decision or historical inquiry. |
 | **CC-MDPE7-02 — Chooser identity** | `DecisionSubject`, granularity, practice-developing Agent, later Work performer, and affected Systems are separated where needed. |
-| **CC-MDPE7-03 — Bounded OptionSet** | The options considered for the same question, including which were feasible, could be investigated, failed a requirement or remained uncertain. |
+| **CC-MDPE7-03 — Bounded OptionSet** | The options required by the question, their feasibility and any consequential uncertainty. An order for one workable course can finish with one. A comparison of named options or a claim about all permitted options must cover the corresponding set. |
 | **CC-MDPE7-04 — Relevant evidence** | The grounds used, the subjects and conditions they cover and how they bear on the comparison. |
 | **CC-MDPE7-05 — Domain ChoiceRule** | The rule exposes Music-or-Dance characteristics, must-constraints, affected Systems, uncertainty, probe value, and alternative loss that matter. |
 | **CC-MDPE7-06 — ChoiceResult** | Where a choice is reported, what the evidence establishes about its outcome and grounds, including selecting an option, rejecting the set, selecting a further probe or identifying a different question. |
@@ -9239,12 +9237,7 @@ secures permission for the live coder. The musician and sound operator configure
 music and the sound at event volume. The team can now establish that these conditions
 were available. To find out how the pairs danced, it uses observations of their work.
 
-With `MDPE.5`, the team examines how the dancers’ actions, live-coded music, sound and event arrangements combined in one representative
-pair’s two-minute performance. With `MDPE.12`, it compares observations of all eight pairs. Three keep responding to
-their partners through the musical changes. Five revert to a memorized phrase after a dense change in accent. Four pairs
-on the far side say the pulse became hard to locate. These observations identify the recorded timing responses and the
-reported difficulty on that side. They leave open how much the musical change, the sound there or another condition
-contributed. Applause indicates an audience response. The short video in this case leaves the use of partner cues open. A recording that shows a cue and a particular partner’s response can support a finding about that pair.
+With `MDPE.5`, the team examines how the dancers, live-coded music, sound and event arrangements contributed to one pair’s two-minute performance. With `MDPE.12`, it then compares observations of all eight pairs. In this constructed trial one dancer in each pair can choose when to resume after a pause while the music keeps the same count. In three pairs the other dancer adjusts the entrance to that choice and identifies the partner’s release as the cue used. In five pairs the dancers return to a memorized phrase after a dense accent change. Four pairs on the far side report difficulty locating the pulse. These records support the findings about the observed entrances and the difficulty people reported there. The contributions of the musical change, sound and other conditions remain open. The short video can show when two dancers entered. For the claim about following the partner, the team also uses the different release times and the dancers’ accounts of their choices. Applause answers a question about the audience’s response.
 
 
 
@@ -9259,18 +9252,14 @@ retains the showcase and chooses a trial of a separate social-practice arrangeme
 
 To carry out the selected trial (`MDPE.15`), the live coder moves large changes
 of accent outside partner-cue intervals. The sound operator re-aims the monitor
-toward the social floor. In the second round, six of eight pairs preserve
-partner-responsive timing and two still depend on teacher cues. The team can use
-that outcome in its next decision. Both the music and monitor changed, and the
-pairs had encountered the material in round one. The comparison leaves open the
-contribution of each change and whether this result would recur with other pairs.
+toward the social floor. In the second round the same observations of release, entrance and the cue each dancer used establish partner-responsive timing for six of the eight pairs. In the other two, dancers enter on the teacher’s cue and report using it. What those two pairs could do on their own remains open. Both the music and monitor changed, and the pairs had encountered the material in round one. The comparison leaves open the contribution of each change and whether the result would recur with other pairs.
 
 
 
 ### MDPE.Application:1.5 - Choose the next Work and stop before a cultural claim
 
 With `MDPE.7`, the team compares buying the festival slot, trying unfamiliar partners with
-the round order reversed, arranging capability development for the two cue-dependent pairs,
+the round order reversed, offering practice to the two pairs who used a teacher cue,
 and stopping the social trial while retaining the showcase. It considers partner readability
 and safety, performer effort, the time available and what another observation could
 change for the intended social use. It chooses one unfamiliar-partner transfer trial,
@@ -9542,7 +9531,7 @@ A recording may show features by which a style can be recognized while hiding th
 
 #### MDPE.Application:5.3.2 - Compare a style through declared changes and distinctions
 
-Identify the material, intended use and stylistic distinctions that matter. Specify the changes under which each distinction should remain. Use a suitable existing comparison when it answers the question. To establish the range of a distinction or separate plausible accounts, choose an example, a relevant variation and, where needed, a case that breaks it.
+Identify the material, intended use and stylistic distinctions that matter. Specify the changes under which each distinction should remain. Use a suitable existing comparison when it answers the question. For a claim covering a range, establish what preserves the distinction through the allowed changes. A property of the organization of a phrase may supply those grounds throughout the range. Examine a variation where plausible accounts give different answers. One admissible failure can rule out a claim that the distinction always survives.
 
 A different camera position may hide a cue while the performed movement stays the same. Another partner may make the same method harder to apply. Slower music may make a cue available for longer and change the expressive result. Mirroring can change the partnering convention. Choose which variation to examine, and distinguish its effect when a claim depends on it.
 
@@ -9558,7 +9547,7 @@ When the question concerns a reusable way of performing, establish what the perf
 
 One method can permit several stylistic results. Different methods can produce performances that look alike under a coarse comparison. A style may also be a convention for recognizing and selecting performances. Use the identity conditions in A.3.1 to decide whether a change preserves the method, refines it for a narrower use or requires another method.
 
-To reconstruct a method, trace the required result back to its conditions and actions, then follow them through a complete case. If the existing record does not expose a choice, use another suitable source or a revealing attempt when that difference matters. Where neither is available, give the reconstruction within its limits. State which relations the record shows, which are inferred and which came from a further source.
+To reconstruct a method, trace the required result back to its conditions, choices and actions. Complete instructions can establish what the method prescribes. Follow them through an actual performance if the question is how the performers used them. A trial can resolve a remaining question about feasibility under its conditions. If the existing record does not expose a choice, use another suitable source or a revealing attempt when that difference matters. Where neither is available, give the reconstruction within its limits. State which relations the record shows, which are inferred and which came from a further source.
 
 #### MDPE.Application:5.3.4 - Make granularity a declared comparison choice
 
@@ -9657,7 +9646,7 @@ If help is wanted, establish what support is already available and arrange the m
 
 ## MDPE.Sources:1 - Edition return
 
-The version designation printed with the author’s name is 21 November 2026.
+The version designation printed with the author’s name is 22 November 2026.
 This publication brings together the Readme, Table
 of Contents, Architectural Reference, twenty-eight methods, their
 shared methods and constructed applications, and these edition

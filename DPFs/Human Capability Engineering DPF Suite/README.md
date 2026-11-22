@@ -21,7 +21,7 @@ Framework and method links open readable text on fpf.tools; **Markdown** links o
 | How do explanation, varied experience and participation combine in learning? | [Connected learning cases (HCD.Application:10)](https://fpf.tools/HCD.Application:10), covering language, partnered movement, a clerk's work and an engineering team. |
 | Why does a familiar movement fail when bodily experience and voluntary regulation do not connect to the action? | [Model the bodily contribution to a movement (SOM.1)](https://fpf.tools/SOM.1). Suitable technique and physical conditions remain necessary. |
 
-To decide whether to accept a performance, assign a person the next job, or arrange practice for a pair, start with [how the participants’ actions work together (HCE.Reference:3)](HUMAN-CAPABILITY-ENGINEERING-DPF-SUITE-REFERENCE.md#hcereference3---how-do-the-contributions-meet-in-a-whole-action). The same performance can settle the first decision and leave open who made the choice that the next job requires.
+Choose an entry by the work it will let you do. For example, a performance can settle whether to accept today’s result. To assign a person the next job, identify the actions they must take with the support they will have. To design practice, identify the action learners must perform, the choices entrusted to them and the conditions the work requires. A task with a fixed partner can be practised as given. If later work includes a change of partner or setting, establish what the learner must be able to adjust. When the result depends on several contributions, trace [how the participants’ actions work together (HCE.Reference:3)](HUMAN-CAPABILITY-ENGINEERING-DPF-SUITE-REFERENCE.md#hcereference3---how-do-the-contributions-meet-in-a-whole-action).
 
 Read the full conditions and cases, including the competence needed to provide the teaching. A course, completed exercise or another performer's output alone does not show the person's capability in later work.
 
@@ -29,8 +29,8 @@ Read the full conditions and cases, including the competence needed to provide t
 
 | Framework | What you can work on | Patterns | Text, M characters |
 | --- | --- | ---: | ---: |
-| [Human Capability Development (HCD)](https://fpf.tools/HCD) · [Markdown](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md) | Connect later work to capability demand, personal programmes, learning products, individual and shared practice, feedback, assessment, transfer and retention. | 29 | 1.201 |
-| [Somatic Movement Modeling (SOM)](https://fpf.tools/SOM) · [Markdown](SOMATIC-MOVEMENT-MODELING-PRINCIPLES-FRAMEWORK.md) | Connect bodily experience, regulated effort and coordinated movement; adapt within a familiar movement practice as support or load changes. | 5 | 0.074 |
+| [Human Capability Development (HCD)](https://fpf.tools/HCD) · [Markdown](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md) | Connect later work to capability demand, personal programmes, learning products, individual and shared practice, feedback, assessment, transfer and retention. | 29 | 1.212 |
+| [Somatic Movement Modeling (SOM)](https://fpf.tools/SOM) · [Markdown](SOMATIC-MOVEMENT-MODELING-PRINCIPLES-FRAMEWORK.md) | Connect bodily experience, regulated effort and coordinated movement; adapt within a familiar movement practice as support or load changes. | 5 | 0.079 |
 
 **Patterns** counts full pattern bodies. **Text, M characters** measures each complete Markdown framework, including its embedded Architectural Reference, in millions of Unicode characters with spaces and original line breaks, rounded to three decimals. These are scope indicators.
 
