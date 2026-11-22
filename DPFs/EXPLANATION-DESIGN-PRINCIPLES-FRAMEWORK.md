@@ -548,6 +548,8 @@ Use one representation when it suffices. Add another when its contribution justi
 
 Distinguish changes to content, expression and help. Adding the relation between group count, mean and sum supplies explanatory content. Displaying that same relation in a table changes its expression. A prompt supplied during the calculation changes the help available. Attribute a result to the change the comparison can isolate.
 
+For an explanation shared between practices, derive the needed representations from what each recipient must understand and what the recipients must understand together. Two sheets can accurately show each service's part while leaving both readers unable to see why a choice in one service changes the other's result. Make the connection recoverable by each recipient who needs it, where and when they need it. One shared passage may suffice. Different accessible forms can also serve when their claims and references let the readers relate the same contributions under the same conditions. For a question confined to one service, establish the connection that reader needs.
+
 #### EXD.3:4.2 - Make the correspondence available where it is used
 
 Use consistent names, units and referents. Put a label beside the quantity or feature it names, or give an unambiguous cross-reference when the medium prevents proximity. Make a line, arrow or spatial arrangement's meaning explicit when it could denote different relations.
@@ -830,6 +832,8 @@ Specify what the learner’s response should show. Keep the initial response whe
 
 Identify the question, learning purpose where relevant, and warranted subject relation. Choose or inspect a product that could show it, such as an explanation of one step, a labeled diagram, a worked correspondence or a demonstration that shows what its actions represent.
 
+Read the task on its own, as the learner will receive it. What would a correct response have to explain? If the commission asks why the same starting point can have different consequences, the task must elicit the relation that accounts for the difference. A learner can establish it with a general argument or by following what changes under admissible conditions. An accurate history of a single outcome can leave that relation open. For a commission to explain just that history, its own grounds may suffice.
+
 Set the criterion from the learning purpose. If the groups already partition the people, the learner can show what the denominator counts and reconstruct each group’s sum. If the learner must choose the unit and decide what to do about shared membership, give the reporting purpose and the available records first. Credit the unit, treatment of overlaps and sufficiency of the information that the learner actually justifies. A filled-in denominator can still serve a lesson on carrying out the calculation.
 
 Use [EXD.2](#exd2---build-and-bound-an-explanatory-example) when the instance and contrast need construction. Keep legitimate tools available when the intended performance allows them.
@@ -845,6 +849,8 @@ If the learner needs a component that the task does not supply, provide it where
 #### EXD.5:4.3 - Locate the error and support its correction
 
 Compare the response with the criterion for the question actually asked. A wrong relation, an unavailable prerequisite, an unclear expression and a changed question can produce similar answers. For example, a learner who gives branches equal weight may be answering a request about the average branch. If the task was about the average visitor, return to the choice of unit before correcting the calculation. Use [EXD.1](#exd1---establish-and-revise-what-a-recipient-needs-explained) or [EXD.4](#exd4---co-construct-and-repair-an-explanation-in-dialogue) when a change of question or a response in the exchange needs interpretation.
+
+Judge the reader’s response separately from the outcome of the underlying work. A reader may understand the explanation and correctly defer an action while an authorization, resource or other condition is missing. Change the explanation when the needed relation was missing or misleading. When the reader already understood it, locate what the commissioned work now requires of its participants. If the task itself permitted an answer to a different question, repair the task.
 
 When correction is the learning task, help the learner identify the wrong relation, explain why it fails in this case, construct the corrected relation and explain how to use it. Give feedback tied to the criterion. For example, “Your denominator counts two groups, but this question asks about eight individuals.” If the learner also needs the mean-to-sum relation, supply the necessary ground.
 

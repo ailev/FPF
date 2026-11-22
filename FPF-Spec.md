@@ -485,7 +485,7 @@ Use Part and cluster headings to locate content. E.4 explains how Kernel, broade
 | E.8 | **FPF Authoring Conventions & Style Guide** | Stable | Governs practitioner-first pattern authoring, discriminating titles that retain useful technical terms, and one bounded material-revision loop over actual predecessor and proposed prose. Materiality follows an actual change in subject, recognition, action or judgement, first result, boundary, cited contribution, enumeration, or affordability—not its label or physical size. Recover useful predecessor ideas, draft the positive path before guards, compare at comparable effort, remove non-discriminating apparatus, keep assurance after the first result, and close determinate discovery and true-consumer projections. Develop missing instructions by tracing the required result back to its supplier and attempting the connection forward; establish the conditions for the promised use and preserve the reader’s own work in a short entry or separately issued task. Divide a competent-reader method account from pedagogical companions; test whether instruction can be constructed without inventing an omitted part of the Method. Reuse the twelve content functions and Architectural Rationale for whole-framework and substantive-profile accounts through E.11.PFP. | `E.6`, `E.7`, `E.8.ECSPF`, `E.9`, `E.10`, `E.19`, `E.21`, `F.18`, `F.19` |
 | E.8.ML | **Construct a Pattern Language for Connected Methods** | Stable | Recurring Method questions need a connected language. Construct independently usable bodies and their result dependencies, alternatives and returns, retaining a sufficient direct description as an exit. | E.8; E.4.CM; E.11.PFP; A.3.2.DE; F.0.2.MA and F.0.2.RC; C.39.MC; B.1.5 only for a Method-whole claim. |
 | E.8.ECSPF | **Author an FPF Pattern from an Accepted Evaluation CharacteristicSpace Specification** | Stable | Guides an author in carrying an accepted evaluation characteristic-space specification into practitioner-facing FPF pattern content: recognition and qualification, every required and triggered value, worked evaluation use and result form, non-scalar trade-off protection, and the concrete contributions used from neighbouring patterns. It keeps the specification, its `CharacteristicSpace`, the authored pattern, a later evaluation, and its result distinct. | **Builds on:** E.8, A.19.ECS. **Coordinates with:** E.21, E.9.DA, E.2.DA, E.22, E.23, F.18, F.19, C.25. |
-| E.9 | **Design-Rationale Record (DRR) for FPF Content Decisions** | Stable | Records one bounded FPF content decision as a readable working problem, positive selected answer, practical change, selected loci and obligations, first drafting action, rationale and consequences, and boundary or reopen condition. Exact method, work, `ClaimGraph`, assessment, or authority identities are conditional on the decision or named reliance. A broad authoring rule is piloted on an actual predecessor/proposed host pair before fanout; only material alternatives and Pillar or lens effects remain in the current record. | `E.2`, `E.8`, `E.9.DA`, `E.10`, `E.19`, `E.22`, `F.19` |
+| E.9 | **Design-Rationale Record (DRR) for FPF Content Decisions** | Stable | Connect the FPF content decision its users need with the alternatives, grounds, consequences and drafting work it entails. Exact method, work, `ClaimGraph`, assessment, or authority identities are conditional on the decision or named reliance. Compare a broad authoring rule on the actual host before distributing it. For a claim beyond that host, explain why the grounds reach the other uses. | `E.2`, `E.8`, `E.9.DA`, `E.10`, `E.19`, `E.22`, `F.19` |
 | E.9.DA | **Evaluate a DRR for Its Declared Authoring Use (Decision-Adequacy CharacteristicSpace)** | Stable | Checks one exact DRR for one declared FPF authoring use. An ordinary bounded check reads the decision and any triggered actual-host effect, then returns a precise finding, repaired text, or the unchanged checked DRR when clean, plus the first drafting action or repair, stop or return, and reopen condition. A non-use boundary is added only for a grounded competing reading; a complete reusable coordinate result and exact assessment identities appear only when explicitly requested or consumed by a named later reliance. | **Builds on:** E.9, A.19.ECS. **Coordinates with:** E.8, E.10, E.19, E.21, E.22, E.23, F.19. |
 | E.10 | **Unified Lexical Rules for FPF** | Stable | Plain-first cue and router for word, head, and use precision. Use F.19 for the whole passage. For unresolved FPF meaning, distinguish an obtaining world-side relation, a reusable relation declaration, a claim/report episteme, and a representation with explicit correspondence. Supplies register, morphology, naming, and trigger-registry rules; routes claim-bearing learning wording through E.10.LRN, work/method-boundary wording through A.6.P.WMR, authority wording through A.2.8, A.2.8.PER and A.2.9, development or evolution ambiguity through E.10.DEV, and independent move or trajectory ambiguity through E.10.MOVE. Return readable wording or an exact blocker; retain the direct result when a governed claim is current. Trigger words are cues, not verdicts. | **Builds on:** A.7, E.5, F.5, F.18. **Coordinates with:** E.10.ARCH, E.10.LRN, E.10.DEV, E.10.MOVE, A.6.P, A.6.P.WMR, A.6.RCD, A.6.5, C.2.1, C.29, A.3.2, A.15.2, A.15.PROD, C.2.P, A.19.SPR, A.6.6, A.10, B.3, A.2.8, A.2.8.PER, A.2.9, E.24.CD, E.24.PUB, F.19. |
 | E.10.LRN | **Recover What “Learning” Means in This Claim** | Stable | *Keywords:* learn, learning, learned, taught, trained, teaching Work, capability, model fitting, inference, information acquisition, learned representation, cultural change, learning product. *Queries:* "What exactly changed in this learning claim?", "Which participant, Work, Method, result, evidence, and use are hidden?", "Which direct pattern should receive each split claim?" | **Builds on:** E.10 and E.10.ARCH. **Returns to:** the direct capability, Work, Method, statistical-model-fitting, inference, experiment or data-acquisition, representation, product or publication, cultural, evidence, or decision owner. **Coordinates with:** F.17 and F.18; creates no generic Learning result or UTS row. |
@@ -499,21 +499,21 @@ Use Part and cluster headings to locate content. E.4 explains how Kernel, broade
 | E.10.D2 | **EntityOfConcern, Description Episteme, and Specification-Use Discipline** | Stable | *Keywords:* EntityOfConcern, description episteme, specification use, checkable claims, harness, viewpoint, publication, representation, DescriptionContext (legacy cue). *Queries:* "Which entity does this description concern?", "When can I rely on it as a specification?", "Which additional viewpoint, evidence or publication relation does this use need?". | **Builds on:** A.7, E.10.D1, C.2.1, C.2.3. **Constrains:** F.4, F.5, F.8, F.9, F.15. |
 | E.11 | **First-Practical Entry and Pattern-Use Discoverability Discipline** | Stable | Gives each public entry unit one job and compares titles, complete ToC rows and retrieved fragments under the information actually shown. Worked comparisons clarify a first choice when compact cues still leave a genuine ambiguity. *Query:* "Which fact changes my first pattern choice?" A reader starts from a recognizable situation, practical question, first useful result or blocker, opens one direct pattern or small plausible set, and may stop without filling a card. Continue with E.11.PUA after selecting one pattern and with E.11.PUR when applicability, recommendation, coordination, ordering, or reuse of an earlier result is current. Use E.11.PFP when one public FPF, DPF, or LPF edition needs the common publication form; form conformance and pattern count do not establish framework adequacy. | **Builds on:** E.8, E.17.AUD, F.17, F.18. **Leads to:** E.11.PUA, E.11.PUR, and E.11.PFP. **Coordinates with:** A.22.CGUS, E.18, G.11. |
 | E.11.PUA | **Pattern Use in a Working Situation and First Useful Result** | Stable | Uses one inspected direct pattern for one current subject and practical question. Begin with the subject, question, selected Solution, first useful result or blocker, and stop or return; the agent doing the work uses the pattern's guidance to act or make a judgement. Recover a `MethodDescription`, admitted Method, performer, assignment, dated Work, exact predicate, `ClaimGraph`, or receiving use only when that distinction changes truth, action, stop, or named reliance. Ordinary bounded use may remain conversational; reliance-bearing support stays proportional. | **Builds on:** E.11, E.8. **Coordinates with:** E.11.PUR, E.18, E.18.NET, E.18.1, E.18.3, A.15, and every selected direct pattern. |
-| E.11.PUR | **Pattern-Use Applicability, Recommendation, and Coordination** | Stable | After inspecting candidate uses, decide which apply, which useful first result to recommend, and how the uses relate. When an earlier result is available, check whether it can be reused for the current question and use. An ordinary reversible judgement may remain conversational; separate fit findings and recommendation support appear only under named reliance. Pairwise order exists only for prerequisite result, method precondition, or shared-constraint resolution; presentation order is not a workflow, WorkPlan, or performed Work. | **Builds on:** E.11, E.11.PUA, E.10.MOVE. **Coordinates with:** E.18.1, A.15, A.21, C.24, C.30, and direct decision patterns. |
+| E.11.PUR | **Pattern-Use Applicability, Recommendation, and Coordination** | Stable | After inspecting candidate uses, decide which apply, which useful first result to recommend, and how the uses relate. When an earlier result is available, check whether it can be reused for the current question and use. An ordinary reversible judgement may remain conversational; separate fit findings and recommendation support appear only under named reliance. When the uses must deliver a joint result, establish how their contributions work together under its conditions. Pairwise order exists only for prerequisite result, method precondition, or shared-constraint resolution; presentation order is not a workflow, WorkPlan, or performed Work. | **Builds on:** E.11, E.11.PUA, E.10.MOVE. **Coordinates with:** E.18.1, A.15, A.21, C.24, C.30, and direct decision patterns. |
 | E.11.PFP | **Framework Publication Form Profile for Markdown** | Stable | Common Markdown form and faithful print or other projections for public FPF, DPF, and LPF editions: compact title, product-owned cues, logical index, Readme entry, source projection, and deterministic checks. Uses all twelve E.8 content functions to explain the whole language and its substantive profiles, with Architectural Rationale, shared sources, inherited answers, and direct pattern entry. Questions: How do the Methods work together? Where can readers find the reasons for this architecture? What changes in a narrower profile? | **Builds on:** E.11, E.17, E.24.PUB. **Used by:** E.4.FPF, E.4.DPF and bounded LPF/DPF publication-form applications. |
 | E.11.DSG | **Architectural Reference** | Stable | Explain the current architecture of a pattern language or a composite whole to its users: its question, selected arrangement, grounds and meaningful alternatives, and consequences for use and reconsideration. Preserve the reader purpose, complete Method ownership and direct returns at framework, Suite and Library scope. | **Specializes:** E.11. **Uses:** E.4:4.2 and E.4.PFAD for Suite architecture, C.2.1 for Reference and DPF editions, and G.5 only for an actual JointUseSet. **Coordinates with:** E.4.PFR, C.2.P, F.9, E.17, E.24.PUB, G.11, E.11.PUA, and E.11.PUR. |
 | E.12 | **Didactic Primacy & Cognitive Ergonomics** | Stable | *Keywords:* didactic, cognitive load, ergonomics, usability, Rationale Mandate, HF-Loop. *Queries:* "What cognitive benefit must formal assurance explain?", "When should we review the cognitive load imposed by FPF?", "What is the 'So What?' test in FPF?". | **Builds on:** E.2 (P-2). **Complements:** E.13. |
 | E.13 | **Pragmatic Utility and Proxy-to-Value Alignment** | Stable | *Keywords:* pragmatic utility, proxy-to-value alignment, Goodhart, Campbell, surrogation, minimally viable value slice. *Queries:* "How does FPF keep measures from replacing value?", "What got worse when the score improved?". | **Builds on:** E.2 (P-7). **Complements:** E.12 and E.14; coordinates with E.8, E.19, E.21, E.22, E.23, E.9.DA, and E.2.DA. |
-| E.14 | **Human-Centric Working-Model: Readable Claims and Recoverable Assurance** | Stable | Keep the readable Working-Model claim first and its necessary support recoverable underneath. Stop with the direct claim when no current assurance requirement applies; otherwise expose only the Mapping, Logical, Constructive, or Empirical support the use requires. Questions: "How can practitioners use a claim without reading all its assurance machinery first?", "When is a separate assurance account needed?" Direct claim validity, Work, gate passage and permission remain with their governing patterns. | **Builds on:** E.7, E.8, C.2.3. **Coordinates with:** B.3.5, C.13, E.10. |
+| E.14 | **Human-Centric Working-Model: Readable Claims and Recoverable Assurance** | Stable | Keep the readable Working-Model claim first and its necessary support recoverable underneath. A request to identify the claim can end there. For an explanation or design, supply the relations that let the reader understand or choose. Expose the Mapping, Logical, Constructive or Empirical assurance its use requires. Questions: "How can practitioners use a claim without reading all its assurance machinery first?", "When is a separate assurance account needed?" Direct claim validity, Work, gate passage and permission remain with their governing patterns. | **Builds on:** E.7, E.8, C.2.3. **Coordinates with:** B.3.5, C.13, E.10. |
 | E.15 | **Pattern Change, Edition Continuity, and Impact Analysis** | Stable | Changes one existing FPF pattern edition by comparing an exact predecessor and candidate, classifying the effects on practitioners and on meaning, repairing actual dependent uses, preserving predecessor functions independently, and verifying proportionately. The ordinary path is one bounded repair; alternative generation opens only for a real unresolved design choice. *Queries:* "What changed between these pattern editions?", "Which uses must be reopened?", "Is a wider alternative search worth its cost?". | **Builds on:** E.8, E.9, E.10, F.0.1, F.1. **Coordinates with:** E.19, E.21, E.22, E.23, C.18, C.19, F.15, F.9, E.24.PUB, and landing preservation. |
 | E.16 | **RoC‑Autonomy Budget & Enforcement** | Stable | *Keywords:* autonomy budget, guarded enactment, autonomy ledger, override speech act, scout/probe/commit checkpoint. *Queries:* "How does FPF make autonomy enforceable and auditable?", "How do bounded specialization budgets stay separate from committed rollout?" | **Builds on:** A.13, A.15, A.21, B.3. **Coordinates with:** C.24, G.4, G.5, G.9. |
-| E.17.0 | **Viewpoint and View Recognition for Multi-View Describing** | Stable | Decide whether exact candidate episteme E conforms to one already defined exact viewpoint edition P. Apply P's fixed five-part predicate; if it obtains, the same E is a `U.View`; otherwise state the failed rule or exact unresolved condition and stop. Author a new P, selected convention structure, evaluation, evidence, correspondence, or publication only when a named receiving use needs it. *Queries:* "Does E conform to P?", "Which fixed rule fails or remains unresolved?", "Does this use need more than the direct E/P judgment?" | **Builds on:** C.2.1, C.13, A.22, A.6.5, A.6.3, E.10.D2, E.24.PUB, C.29. **Used by:** E.17, E.17.1, E.17.2, E.18, and domain patterns that compare views. |
+| E.17.0 | **Viewpoint and View Recognition for Multi-View Describing** | Stable | Decide whether exact candidate episteme E conforms to one already defined exact viewpoint edition P. Apply P's fixed five-part predicate; if it obtains, the same E is a `U.View`; otherwise state the failed rule or exact unresolved condition and stop. To choose or construct P, work from the distinctions and relationships the reader needs at each relevant scale. Select the conventions and any cross-view correspondences that preserve them. *Queries:* "Does E conform to P?", "Which fixed rule fails or remains unresolved?", "Does this use need more than the direct E/P judgment?" | **Builds on:** C.2.1, C.13, A.22, A.6.5, A.6.3, E.10.D2, E.24.PUB, C.29. **Used by:** E.17, E.17.1, E.17.2, E.18, and domain patterns that compare views. |
 | E.17.1 | **Viewpoint Bundle Library — Reusable Viewpoint Reference Bundles** | Stable | Reuse one already admitted catalogue edition L, retrieve its local declaration through the family designator, and resolve only the needed exact `U.ViewpointRef` subset to admitted viewpoint editions P. Open `<G_L, K_L, R_L>` constitution only for authoring, admission, disputed identity, or a named use that needs those premises. Labels and compact locators do not identify L or grant viewpoint membership. *Queries:* "Which exact catalogue edition and declaration are reused?", "Which references are needed now?", "Does cross-project reuse resolve the same L and members?" | **Builds on:** C.2.1, E.17.0, C.13, A.22, A.6.2-A.6.4, A.7, E.7, E.10, E.24.PUB, C.29. **Used by:** E.17.2, E.18:5.12, and materialized domain-local viewpoint families. |
 | E.17.2 | **TEVB — Project-local Typical Engineering Viewpoint Bundle Template for Holons** | Stable | Author one project-local four-position family for functional, procedural, allocation-responsibility, and module-interface descriptions of holons. This pattern ships only a template: no catalogue, family designator, reference, or viewpoint edition exists until a project constitutes exact L, binds four exact local `U.ViewpointRef` values to admitted P editions, and preserves their resolution. One later use may select one member and stop. *Queries:* "Have the local catalogue and four bindings been materialized?", "Which one reference is needed now?", "Is another concern better kept in a separate local family?" | **Builds on:** E.17.0, E.17.1, C.2.1, C.13, A.22, A.6.6, A.6.3, E.24.PUB. **Used only after local materialization by:** E.18, E.17, architecture-description patterns, and domain patterns needing that exact family. |
 | E.17 | **Multi‑View Publication Kit** | Stable | Publish a source-backed face or face set for the named readers without changing the accepted engineering account; add a form only when a current use needs it. An `MVPK face` defaults to the exact publication form; source or receiving episteme, bounded-use declaration, publication occurrence, and carrier remain separate. Add exact viewpoint, publication, evidence, gate, or assurance relations only when a named receiving use needs them. *Queries:* "Which reader needs which publication face?", "What is preserved or omitted, and how does the reader return to source?", "Which stronger relation is required for reliance?" | **Builds on:** E.17.0, C.2.1, E.24.PUB, A.7, E.10, C.2.P. **Coordinates with:** E.17.1, E.17.2, E.17.EFP, E.17.ID.CR, E.17.AUD, A.6.3, A.10, B.3, A.20, A.21. |
 | E.17.EFP | **ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces** | Stable | First decide whether the text expresses the source ClaimGraph or a separately identified target episteme; a changed target retains the source relation and support required by its claim before EFP classifies explanation use. Use C.28 for causal support and B.5.2 when a new explanatory hypothesis is needed. For an ordinary note, a source locator plus one sentence stating the bounded or blocked use may be enough. EFP creates neither episteme identity, source relation, evidence, assurance, gate, work, nor release authority. *Queries:* "Same source claims or a different target?", "Which explanation class changes the next use?", "What stronger use remains blocked?" | **Builds on:** E.17.0, E.17, A.7, E.10.D2, A.6.B, F.9, F.18. **Coordinates with:** A.6.3.CR, A.6.3.RT, A.6.3.CSC, C.28, B.5.2, E.17.ID.CR, A.6.4, A.10, A.15, A.15.4, B.3, A.20, A.21. |
 | E.17.ID.CR | **Compare Sources Within a Shared Review Frame (ComparativeReviewUnit)** | Stable | Recover the receiving review question and the relevant claims, conditions and support in each source. Establish their comparison basis and derive a bounded contrast or the exact missing basis. Keep an explicit downstream limit when the wording or use needs it. A source-linked paragraph or small table can suffice. | `C.2.2a`, `A.16.0`, `F.9`, `E.14`; coordinates with `E.17.EFP`, `E.17.AUD.LHR`, `E.17.AUD.OOTD`, `A.6.3.*`, `A.15`, `A.20`, `A.21` |
-| E.17.AUD | **Keep a Publication Unit Stable (PublicationUnit Stability Discipline)** | Stable | Check whether one bounded publication unit keeps its primary subject, carried publication move, and outside boundary clear for the present use. Return `stable for current use` and stop when they already suffice; otherwise choose local head restoration, whole-unit stabilization, bounded comparison, or the applicable neighboring pattern. | `C.2.2a`, `A.16.0`, `A.7`, `E.10`, `F.18`, `E.14`, `E.19`; coordinates with `E.17.AUD.LHR`, `E.17.AUD.OOTD`, `E.17.ID.CR`, `E.17.EFP` |
+| E.17.AUD | **Keep a Publication Unit Stable (PublicationUnit Stability Discipline)** | Stable | Compare the work the recipient brought with the question this note, table or section actually answers. Trace its primary subject, move and boundary through the passage. Return `stable for current use` and stop when they already suffice; otherwise choose local head restoration, whole-unit stabilization, bounded comparison, or the applicable neighboring pattern. | `C.2.2a`, `A.16.0`, `A.7`, `E.10`, `F.18`, `E.14`, `E.19`; coordinates with `E.17.AUD.LHR`, `E.17.AUD.OOTD`, `E.17.ID.CR`, `E.17.EFP` |
 | E.17.AUD.LHR | **Restore the Local Meaning of an Overloaded Word or Phrase (Local Head Restoration)** | Stable | Repair one overloaded local lexical head inside one publication unit before the whole publication unit inherits ambiguity; recover its kind and local reading, any active primary entity or relation, the carried action or question, and the outside-work boundary. | `A.6.P`, `A.7`, `E.10`, `C.2.P`, `F.18`, `E.14`; coordinates with `E.17.AUD`, `E.17.AUD.OOTD`, `E.17.ID.CR`, `E.17.EFP` |
 | E.17.AUD.OOTD | **Clarify the Primary Subject of a Publication Unit (PublicationUnit Primary-Subject Discipline)** | Stable | Keep one bounded note, memo, table, screen, or short section explicit about what it is mainly about, the claim or communicative move it carries, and the wider work, use, decision, or reliance claim that remains outside. The local `publicationUnitPrimarySubject` is not a `U.` kind or C.2.1 participant by default; equate it with `EntityOfConcern(E)` only for one identified episteme E whose claims concern that exact entity. One natural-language sentence or two may be the complete result; the six prompts are optional diagnostics. | **Builds on:** A.6.P, A.7, E.10, F.18, E.14, E.19, C.2.2a, A.16.0. **Coordinates with:** E.17.AUD.LHR, E.17.ID.CR, E.17.EFP, A.6.3, A.10, A.15, B.3, A.20, A.21. |
 | E.18 | **Transformation Flow Structure** | Stable | Selects one exact transformation-flow structure whose participant positions resolve to independently identified constituents, including independently grounded transformations and adjacent governed values, and whose connection positions resolve to selected obtaining relations with their complete participants. It supports local valuations, paths, crossings, and parent-relative `SubflowRef` portions. Selected adjacency and relation occurrences do not by themselves establish composition of the transformations. A structural `GateCrossing` identifies changed state bindings at one A.21 gate; it does not establish an F.9 semantic `Bridge`, which requires two exact F.17 cells and its own obtaining relation while bounded use and reliance remain separate. Several valuations or one internal subflow do not create a network; independently identified TFS values connected across their boundaries return to E.18.NET. *Queries:* "Is this one TFS, one internal subflow, or independently identified members?", "Which state remains local to this TFS position?", "When is the visible graph a mathematical description or publication rather than the selected structure?" | **Builds on:** A.3.4, E.17, E.8, E.10, A.7. **Coordinates with:** E.18.NET, A.15.1, A.15.PROD, A.6.RCD, E.18.1, E.18.2, C.29, A.20, A.21, A.2.6, F.9, F.17, G.5, G.9, G.11, C.30.TFS-REL. |
@@ -810,7 +810,7 @@ Use `A.3.3` to construct a missing state account and `C.16` for a needed measure
 - **Question:** Do you need to check one view, reuse related views, show the same subject differently, see enough structure, compare named sources, or use an architecture description in a decision?
 - **First useful result or blocker:** A checked view, a reusable viewing approach, another presentation of the subject, an account of sufficient or missing structure, a source comparison, the architecture-description result needed now, or the specific obstacle to obtaining it.
 - **Mantra:** Start from each recipient’s work. Choose the claims, relations and form it needs. One account can serve several users. Compare the relevant features on a common basis. For joint operation, check that the conditions can hold together. For rival accounts, trace what follows under each. Distinguish the document, its subject, decisions and performed Work.
-- **Start with:** `E.17.0` for checking one view against its viewpoint; `E.17.1`/`E.17.2` for recurring use; `A.6.3.RT` for representation change; `C.33` for structural information; `E.17.ID.CR` for source comparison; `C.30.AD` for architecture-description use; otherwise use the direct pattern for the document result.
+- **Start with:** `E.17.0` to choose a viewpoint for the reader's work or check view conformance. Use `E.17.1`/`E.17.2` for reusable bundles, `A.6.3.RT` for representation changes, `C.33` for structure, `E.17.ID.CR` for comparing sources and `C.30.AD` for architecture descriptions.
 - **Stop or return:** Stop when the requested uses have the accounts or decisions they require. Return when a use or the content changes.
 
 
@@ -104695,7 +104695,9 @@ Either a direct edit to Core or a DRR that documents the apparatus but leaves th
 
 ### E.9:4 - Solution — state the decision before distributing it
 
-Present the `Decision` account first in plain, precise language. Before a reader meets a DRR identity schema, a Method or Work account, or a catalogue of alternatives, they must be able to recover, in this order:
+Recover the decision the receiving practice commissioned. Who will use it, which alternatives can they choose, and what changes for them if those alternatives differ? Where the choice concerns several wholes, identify the relevant parts of each and the connections on which the result depends. Where it concerns alternative models, identify what their differences allow the practitioner to decide about the same subject. A decision about how to describe an architecture can contribute to a decision about that architecture. State that contribution and what the architect still needs to settle.
+
+Present the `Decision` first in plain language. Before introducing the DRR schema, a Method or Work account, or a catalogue of alternatives, let the reader recover the following:
 
 1. the working FPF problem and why it matters now;
 2. the selected answer stated positively;
@@ -104729,6 +104731,8 @@ Keep a rejected alternative only when it explains the selected answer, a live bo
 
 Before adopting a language, ontology, or authoring rule for wider use, apply it to at least one real host and its proposed replacement, including their dependencies. At comparable effort, compare the recognizable entry, required inputs, first action, practitioner vocabulary, formality and assurance burden, first useful result, stop or return, preserved useful ideas, and direct consumers.
 
+Use that comparison for the uses and conditions it reaches. For a rule proposed across a wider range, show which feature of the rule preserves the required work as the objects, their organization or the reader's conditions vary. A general argument can occur inside the host comparison. A successful use with the original conditions supplies a result for those conditions.
+
 The proposed wording must pass the E.8 first screen and the `F.19` kind-preserving plain-rewrite test. A schema, invented fact pack, unrelated lane test, checklist, or promised review cannot replace this comparison. If the pilot makes the host harder to use without a compensating semantic gain, repair or reject the rule before applying it elsewhere.
 
 A DRR records the selected answer. When exact identity or reliance makes the distinction material, separately identify the decision work and method, selected-answer result, C.2.1 DRR episteme, source-use relations, assessment and result, any acceptance or authority, and later realization work. An exact DRR episteme then follows C.2.1 identity by `<ClaimGraph, EntityOfConcern, effective ReferenceScheme>`; ordinary use does not require materializing that whole account.
@@ -104752,7 +104756,7 @@ A nontrivial DRR must also make the following parts of the decision available fo
 | **Selected-answer stability boundary** | Which elements of the selected answer are fixed now for later FPF drafting, and which later elaborations may strengthen wording, examples, source-use rows, or validation evidence without reopening the selected answer. | Decision and Consequences. |
 | **Impact, practical gains, and remaining validation evidence obligation** | Affected patterns and selected non-pattern FPF kind-reference pairs, practical gains/costs, authority or release consequences when they follow from the content decision, and the remaining validation evidence obligation that constrains later authoring or landing. | Consequences. |
 | **SoTA and competitive-positioning account when load-bearing** | Current best-known problem-solving source anchors and source-derived moves under E.8 that discipline the decision, what problem-owning domain or practice they answer to, which official, popular, or legacy alternatives they reject or bound when relevant, and what unresolved uncertainty would materially change the selected answer. | Problem frame, Rationale, and Consequences. |
-| **Actual-host predecessor/proposed replay when a broad authoring rule is selected** | One dependency-aware real host comparison at comparable effort: recognizable entry, inputs, first action, vocabulary, formality and assurance burden, first useful result, stop or return, preserved useful ideas, and direct consumers. The proposed wording passes E.8 and F.19; a proxy or promised later review does not substitute. | Decision and Rationale, with the selected rule and pilot effect carried into the locus obligations. |
+| **Actual-host predecessor/proposed replay when a broad authoring rule is selected** | One dependency-aware real host comparison at comparable effort: recognizable entry, inputs, first action, vocabulary, formality and assurance burden, first useful result, stop or return, preserved useful ideas, and direct consumers. Use E.8 and F.19 on the proposed wording. For a wider conclusion, explain which conditions of this comparison carry to the other promised uses and what grounds that inference. | Decision and Rationale, with the selected rule and pilot effect carried into the locus obligations. |
 | **Campaign problem-solution unfolding carry-through when triggered** | For campaigns changing README entries, path-shaped patterns, pattern families, DPF entries, or first-practical routes: the map from admitted problem-side record refs or cues, accepted starting records, current starting structures, and entry cues to selected solution architecture, affected unfolding families, loci added or changed, governing-pattern map, content assigned from DRR or README into patterns or unfolding structures, and any independently grounded overread that a plausible intended reader could make. | Decision, selected-locus map, and Consequences. |
 
 These blocks supply the content of the decision. Four headings cannot tell a later author the grounds, first-minute working situation, naming choice, distribution, sufficiency or necessity of a pattern or non-pattern FPF kind-reference pair, treatment of overlap, impact, or remaining uncertainty. Make those answers recoverable in the DRR without creating separate process paperwork.
@@ -104836,7 +104840,7 @@ If the answer is unknown, start with the difficulty and the material available. 
 
 Use a provisional expression to bring a consequential relation into view: juxtapose two cases, arrange competing explanations, trace a dependency, or compare an intended use with the result currently available. E.8:4.2.1.2 and A.6.3.RT.OE supply the expression construction. Identify what the arrangement lets you infer and what remains unsupported. A question mark can make an unresolved interpretation visible; it supplies no premise for choosing one answer.
 
-Let the result change the decision question when it reveals that the original question conflated different work. Retain live alternatives only for the comparison they support. Replace a classification by format, tool or package name when the deciding difference concerns the operation or conditions of use. A working table can therefore be revised or discarded after it has produced the useful distinction.
+When the evidence reveals several questions inside the original commission, distinguish them and show how their answers bear on the recipient's decision. Return any open choice to the person entitled to make it. For example, agreeing where a decision will be recorded settles its publication only. If the commission also assigns a choice between architectures, compare their consequences for the work they must support. Retain a working table while its distinctions help make or explain that choice.
 
 Before another author relies on the selected answer, resolve each premise that can change its selected obligation, or bound the result so that the remaining uncertainty does not defeat that obligation. If neither is possible, state where the decision must stop. Use the four kernel components and the applicable inspection content in §4.1 to inspect that closure. Material already recoverable in the account need not be copied into another answer column. A source pointer without the needed substantive contribution is not recoverable decision content.
 
@@ -104900,7 +104904,7 @@ This bias annotation applies to every FPF semantic change governed by `E.9`. It 
 |----|-------------|---------|
 | **CC-DRR.0 (ordinary decision first, exact distinctions when material)** | The working problem, selected answer, practical change, loci, first drafting action, and nearest boundary are recoverable before optional method/work/application or episteme apparatus. If identity or named reliance changes the claim, the relevant method, work, result, record, source use, assessment, authority, and realization remain distinct. | Keeps the DRR usable without losing exact distinctions when they matter. |
 | **CC-DRR.0a (optional exact DRR identity)** | When exact DRR identity is needed, its ClaimGraph, bounded decision-question/change-set EntityOfConcern, and effective ReferenceScheme are recoverable; carrier, rendering, route state, status, or later Core edit is not an identity constituent. | Preserves a recoverable claim episteme without making every ordinary DRR start from the schema. |
-| **CC-DRR.0b (actual-host replay for broad rules)** | Before distributing a broad language, ontology, or authoring rule, replay it on at least one real host and its proposed replacement, accounting for their dependencies. The replay compares entry, inputs, action, vocabulary, formality and assurance burden, result, stop, useful predecessor ideas, and direct consumers at comparable effort; proxy evidence does not substitute. | Prevents a clean-looking abstract rule from degrading use of the affected patterns. |
+| **CC-DRR.0b (actual-host replay for broad rules)** | Before distributing a broad language, ontology, or authoring rule, replay it on at least one real host and its proposed replacement, accounting for their dependencies. The replay compares entry, inputs, action, vocabulary, formality and assurance burden, result, stop, useful predecessor ideas, and direct consumers at comparable effort. Establish how the result bears on uses outside that host before making a claim about them. | Prevents a clean-looking abstract rule from degrading use of the affected patterns. |
 | **CC-DRR.0c (positive decision and restrained alternatives)** | The current DRR carries the positive selected decision. A rejected alternative remains only when it explains the answer, a live boundary, or a reopen condition; Pillar and taxonomy-lens effects are recorded only where they changed the decision. | Prevents negative catalogues and ritual completeness from displacing the authoring source. |
 | **CC‑DRR.1** | For a Delta-2 or Delta-3 semantic change, the DRR **SHALL** make Problem frame, Decision, Rationale, and Consequences recoverable before Core drafting. Any exact decision-work/application account or authority to realize the answer is added only when that identity or reliance is current and remains a separate governed claim. | Prevents undocumented semantic edits without imposing the high-reliance account on ordinary use. |
 | **CC‑DRR.1a** | A DRR whose proposed change is expressed as a new or revised pattern written in the standard template (E.8) **MAY** satisfy that minimum kernel by **pointing to** the corresponding pattern sections rather than duplicating prose. | Avoids copying the argument a second time while keeping it recoverable. |
@@ -104972,6 +104976,8 @@ content answer that FPF is selecting.
 
 [ISO/IEC/IEEE 42010:2022](https://www.iso.org/standard/74393.html) distinguishes an entity's architecture from its description and leaves architecting processes and recording media outside its scope. E.9 likewise keeps its decision record distinct from the selected architecture and the work that realizes it; the standard does not supply the FPF content decision or its admission result.
 
+[Van Heesch, Avgeriou and Hilliard](https://doi.org/10.1016/j.jss.2011.10.017) distinguish viewpoints on decision detail, relationships among decisions, chronology and stakeholder involvement. A reader reconstructing why two decisions constrain each other needs their relationship. A reader arranging a review may need who was involved. Choose the content of the record from the decision its recipient needs to make or understand.
+
 To improve the choice of content when a decision has substantial semantic consequences, the deciding work settles the answer, alternatives, losses, boundary, and loci. The DRR episteme lets another author replay that selection before drafting. Any durable rule, example, or obligation useful after realization belongs in the selected FPF pattern or non-pattern kind-reference pair, not in the DRR as permanent shadow canon.
 
 When an identified source shapes the answer—for example a prior decision, standard, plan, or review packet—the DRR records how it is used and which payload is selected or left behind, including any material loss, destination locus, stop or return, reopen condition, and non-use boundary admitted by `F.19`'s grounded-contribution test. Name the exact source episteme, publication, and source-use relation when the decision or a named later reliance depends on those identities. A citation supplies traceability; every stronger receiving claim needs its direct result or relation.
@@ -105032,7 +105038,7 @@ Recurring failures:
 
 ### E.9.DA:4 - Solution
 
-Start with the decision itself. Read the DRR under review in its declared authoring use. Can a practitioner or author recover the working problem, selected answer, practical change, selected loci, first drafting action, and boundary without inventing decisions or decoding avoidable formality? Settle that question before constructing any optional evaluation materials.
+Read the commissioning problem beside the proposed DRR. Recover the choice, who needs it and what that person is entitled to decide. Follow the record to its conclusion, including what it settles about the relevant wholes, parts or model alternatives. Would a clear record of a different decision also pass the stated test? Restore the question or the missing reasoning where the answers diverge. Then establish whether an author can draft from the selected answer, consequences, loci, first action and boundary.
 
 The following result suffices for an ordinary bounded review.
 
@@ -105054,7 +105060,7 @@ Before assigning coordinates, make one bounded search for an important question 
 
 In either branch, distinguish the checked DRR, evaluation specification, action or Work, application, result, record, evidence use, status use, authority, and later repair. A compact result can omit identities its receiving use does not need. A claim that asserts Work must still establish the facts required for that Work.
 
-For a broad language or ontology rule, use the predecessor and proposed versions of the actual host to judge `DraftingActionability`, `LexicalAndNamingClosure`, and precision restoration. A promise in the DRR, complete table, test in another lane, or invented fact pack cannot establish how a practitioner can use that host. Require both formal precision and plain comprehensibility.
+For a broad language or ontology rule, use the predecessor and proposed versions of the actual host to judge `DraftingActionability`, `LexicalAndNamingClosure`, and precision restoration. A promise in the DRR, complete table, test in another lane, or invented fact pack cannot establish how a practitioner can use that host. Require both formal precision and plain comprehensibility. For a claim about other uses, establish why differences in the objects, the reader's work or the alternatives leave the claimed conclusion warranted.
 
 #### E.9.DA:4.1 - Local names and kind settlement
 
@@ -105187,7 +105193,7 @@ If reliance depends on a viewpoint or grounding claim, give the basis for that c
 | 2 | `partiallyExpressedForDeclaredUse` | The coordinate is present but incomplete, fragile, or too narrow. |
 | 3 | `sufficientlyExpressedForDeclaredUse` | The coordinate can carry the declared authoring use, with limits visible. |
 | 4 | `wellExpressedForDeclaredUse` | The coordinate is clearly expressed with direct evidence and boundary protection. |
-| 5 | `exceptionallyExpressedForDeclaredUse` | The coordinate is exceptionally expressed across reinforcing loci and cases without hiding cost or neighbour loss. |
+| 5 | `exceptionallyExpressedForDeclaredUse` | The grounds settle the coordinate throughout the commissioned use and expose any consequential cost, trade-off or condition on that conclusion. A decisive relation may be expressed once. |
 
 When a complete reusable coordinate evaluation is produced, each ordinal value is a content-evaluation claim about the exact checked DRR under the declared use and window. In an ordinary bounded review, the same scale may guide judgement without materializing a measure, Work record, result episteme, assurance, acceptance, or reward.
 
@@ -105208,7 +105214,7 @@ A correct list of suppliers, a suitable carrier, closed alternative rows, or suc
 
 | Coordinate | Evaluation question |
 |---|---|
-| `BoundedDecisionQuestionRecoverability` | Can the reader recover the FPF content decision question named by value and adjacent questions outside it? |
+| `BoundedDecisionQuestionRecoverability` | Can the reader trace the question the DRR answers to the content decision the receiving practice commissioned, including any entrusted choice still open? Which adjacent decisions fall outside it? |
 | `SelectedAnswerDecisiveness` | Does the `DRR` record the selected answer as a decision made now rather than left for drafting? |
 | `SourceUseAndDecisionInheritanceCarryThrough` | Does needed source use or accepted decision inheritance change selected answers, boundaries, obligations, cases, architecture choices, stops, or reopen conditions by value? |
 | `AlternativeDispositionCompleteness` | Are the alternatives needed to explain the selected answer, live boundary, or reopen condition closed, while irrelevant discussion history is absent from the current DRR? |
@@ -105246,10 +105252,10 @@ Common calibration points:
 
 | Coordinate family | `3` | `4` | `5` |
 |---|---|---|---|
-| Decision question and selected answer | The decision can guide limited drafting, but unsettled or ambiguous material remains visible. | The selected answer and outside questions are directly recoverable for declared authoring use. | The decision is reinforced across question, alternatives, consequences, selected loci, and first drafting action without hidden unsettled branches. |
-| Source-use and inheritance | Sources or inherited decisions are relevant, but payload mutation or rejection is compact or incomplete. | Source-use relation, adopted payload, rejected payload, currentness, and selected-locus obligation are explicit. | Source distinctions are replayable across selected answer, cases, boundaries, and first drafting action. |
-| Selected-locus and architecture closure | Loci are named, but some obligation, non-obligation, split, architecture choice, ordinary reference relation, or phrase apparatus remains generic. | Loci are named by value and content obligations are closed for declared use without precision-restoration defects or architecture-memo prose in the future pattern body. | The split, merge, concrete pattern or relation for each outside claim or boundary, and lost-structure or source-use distinctions are replayable across cases and consequences while product prose remains positive-subject first. |
-| Drafting actionability | A skilled author can proceed, but must infer some governed `EntityOfConcern`, first move, selected-locus relation/decision, user-facing action, boundary disposition, or reference/architecture disposition from scattered material. | The DRR directly exposes the governed `EntityOfConcern`, first substantive drafting move, exact selected-locus relation or decision, user-facing action, and only necessary boundary/reference pointers as positive subject kind and action guidance; ordinary references remain references, apparatus stays out of pattern prose, and an evaluation row is neither future method nor work. | Drafting can proceed across heterogeneous selected loci from the decided content, without inventing missing decisions or importing local negative catalogues, reference boilerplate, phrase apparatus, architecture-memo prose or unsupported Method/Work claims. |
+| Decision question and selected answer | The decision can guide limited drafting, but unsettled or ambiguous material remains visible. | The selected answer and outside questions are directly recoverable for declared authoring use. | The grounds explain why the answer settles the commissioned choice across its admissible alternatives and show what could require a new decision. |
+| Source-use and inheritance | Sources or inherited decisions are relevant, but payload mutation or rejection is compact or incomplete. | Source-use relation, adopted payload, rejected payload, currentness, and selected-locus obligation are explicit. | An author can trace a consequential source distinction to the selected answer and tell when a change in the source would affect the resulting work. |
+| Selected-locus and architecture closure | Loci are named, but some obligation, non-obligation, split, architecture choice, ordinary reference relation, or phrase apparatus remains generic. | Loci are named by value and content obligations are closed for declared use without precision-restoration defects or architecture-memo prose in the future pattern body. | The architecture and assignments explain why the proposed change belongs where it does and what an affected practitioner will gain or lose. The reasoning covers the selected scope, including dependencies on other loci where those affect the answer. |
+| Drafting actionability | A skilled author can proceed, but must infer some governed `EntityOfConcern`, first move, selected-locus relation/decision, user-facing action, boundary disposition, or reference/architecture disposition from scattered material. | The DRR directly exposes the governed `EntityOfConcern`, first substantive drafting move, exact selected-locus relation or decision, user-facing action, and only necessary boundary/reference pointers as positive subject kind and action guidance; ordinary references remain references, apparatus stays out of pattern prose, and an evaluation row is neither future method nor work. | The author can act from the DRR at every locus the decision actually changes, with the required relations, limits and user consequences recoverable. A decision confined to one locus can meet this grade there. |
 
 #### E.9.DA:4.5 - Local result status and stop condition
 
@@ -105359,7 +105365,7 @@ A small editorial decision can use `E.9` directly. In an ordinary DRR review, ju
 | Check | Requirement |
 |---|---|
 | `CC-E9DA-0` | Make the semantic judgement first. For an ordinary bounded review, name the exact DRR, required authoring use and source, effective floor and source, substantive findings, repaired text or unchanged checked DRR when clean, first action or repair, stop or return, and reopen. Add a non-use boundary only when an independently grounded competing reading is plausible and action-changing; do not require a formal dossier. |
-| `CC-E9DA-0a` | When a broad language, ontology, or authoring rule is selected, use one replay comparing the predecessor and proposed versions of the same actual host, accounting for their dependencies. Evaluate recognizable entry, inputs, first action, vocabulary, formality and assurance burden, first result, stop, preserved ideas, and direct consumers at comparable effort. A proxy does not substitute. |
+| `CC-E9DA-0a` | When a broad language, ontology, or authoring rule is selected, use one replay comparing the predecessor and proposed versions of the same actual host, accounting for their dependencies. Evaluate recognizable entry, inputs, first action, vocabulary, formality and assurance burden, first result, stop, preserved ideas, and direct consumers at comparable effort. For a wider claim, examine the grounds for carrying the result beyond that use. |
 | `CC-E9DA-0b` | Before coordinate closure, make one bounded search of the governed problem, problem-owning practice, current sources, strongest live alternative, failure and recovery cases, and direct consumers for an important question the DRR omitted. Return an answer-changing question as a substantive finding and reassess every affected coordinate under its value rule. A clean ordinary review needs no separate search ledger; a reusable result records only the basis its receiving reliance needs. |
 | `CC-E9DA-1` | Keep the exact DRR, required authoring use and its source, selected-locus map, qualification window, and effective floor recoverable. Method, A.6.1 application, and dated Work are independently conditional. Add each identity only when the receiving claim uses it. If dated `U.Work` is asserted, establish the enacted Method, every precise performer's A.13 core and independent A.15.1 admission in 4.2. Add the application and its relation to Work only when independently established and used by the receiving claim; add F.6 only for precise assignment-bound attribution. |
 | `CC-E9DA-2` | When a complete reusable coordinate evaluation is explicitly required, evaluate every coordinate with value, adjacent-value rationale, and evidence locus. Otherwise perform the focused content review requested and return its findings or repairs without creating unused coordinate records. |
@@ -105467,7 +105473,7 @@ Use `E.10` when a word, head, or short phrase in FPF-governed text still hides i
 
 **What this buys.** `E.10` supplies cheap cues and the shortest exact route to an existing FPF rule. It does not turn ordinary prose into a lexical record or make every candidate word open an ontology exercise.
 
-**First useful move.** Read the complete natural span with `F.19`. If its object, predicate, participants, referents, purpose and list meaning are clear, make the plain repair and stop. Use the cue surface below only to locate an unresolved FPF wording use; then open the smallest applicable lexical or subject pattern.
+**First useful move.** Read the complete natural span with `F.19`. Identify the work the reader needs to do with these words. When ordinary wording conveys the intended claim and leaves that work possible, keep or repair it and stop. Use the cue surface below only to locate an unresolved FPF wording use; then open the smallest applicable lexical or subject pattern.
 
 **Not this pattern when.** Use `F.19` for general plain-language repair, missing operands, predicate compatibility, grounded contrasts, referents, coordination, list load, and information order. Use the subject pattern directly when the object and the rule or operation needed from it are already clear. For non-FPF source prose, use `C.2.P` source-expression unpacking mode and borrow an `E.10` cue only when preparing a possible FPF use.
 
@@ -105475,11 +105481,13 @@ A cue is neither a ban nor a verdict. Its absence is not semantic clearance, and
 
 #### E.10:0.0a - One-screen cue and route
 
-1. Read one complete sentence, row, paragraph, list, or small coherent section rather than classifying a word in isolation.
+1. Read the complete sentence, row or passage with the request it answers. What must the reader identify, explain, decide or do? What in the text is an example, a fixed condition or a choice still entrusted to the reader?
 2. Apply the connected `F.19` reading. If ordinary meaning settles the issue, write the repaired text and reread the changed sentence with only its meaning-dependent neighbors.
 3. If an FPF wording question remains, name that one question: head or kind, register, morphology, durable name, direct relation and participant, reusable declaration, claim or report, representation, source or publication use, or another exact governed object.
 4. Use the applicable subject pattern directly when the object and claim are already recoverable. Use the detailed `E.10` rows only for the selected lexical question. Open `E.10.ARCH` when the distinction among a world-side fact, reusable declaration, claim or report, and representation is unresolved.
-5. Check the replacement for another umbrella head, an unintended kind or scope change, and a newly introduced relation. If one remains unresolved, state the blocker instead of filling the sentence with possible interpretations.
+5. Try the replacement in the reader’s work. For a claim about composition, what whole does the word pick out and which relation to its parts matters? For a comparison of models, which alternatives must the reader distinguish for the same question? Use C.39.SA:4 if the range still needs choosing. Use F.19:4.3.1.1 to return a result about another subject, scale or model to the original task. State a conclusion common to the supported readings when it settles the request, and identify any difference that still matters.
+
+“Why did this review pass the submission?” may ask about the decision in one meeting. “Why do our reviews keep passing these submissions?” calls for the way the review practice produces that result. The minutes may answer the first question. They can also supply grounds for the second if they establish the operative rule, how it is used and how far it applies. Choose the subject from the question before sharpening the word *review*.
 
 A complete reading can preserve clear conversational wording or an exact locally defined meaning. Where something remains unresolved, distinguish a sentence repair under an existing rule, a needed distinction or relation for which the defining rule is absent, and facts still missing to decide the meaning or claim. Unavailable facts do not establish an ontology gap. An applicable pattern supplies its stated rule; its presence does not prove that every encountered case is covered.
 
@@ -105981,7 +105989,7 @@ Do not perform a global string replacement. Use search only to locate candidates
 
 ##### E.10:0.2c.23 - `case`, `scenario`, `example`, `pilot`, `anti-case`
 
-Use `F.19` to decide whether the text needs several cases, whether each changes recognition or action, and whether an illustrative series could plausibly be mistaken for a complete classification. State the proposition or kind first and mark examples as non-exhaustive when that ambiguity is live.
+Use `F.19` to decide whether the text needs several cases, whether each changes recognition or action, and whether an illustrative series could plausibly be mistaken for a complete classification. Usually give the proposition first. When starting from a case, show the reader what decision or distinction it illustrates in time to interpret it, then bring its contribution back to the question. Mark an illustrative series as open where needed. An argument within one case may cover the full range. If the reader must choose a case or construct the explanation, show what guides that choice.
 
 If the word also carries an exact FPF use, name that use directly—for example a project situation, worked example, pilot, negative control, evidence case, comparison case, or source example—and apply its subject pattern. Do not reproduce this menu in the repaired prose.
 
@@ -106201,7 +106209,7 @@ If the declared scope is the whole document or corpus, representative examples d
 
 Closure is the repaired text, the concrete result of the one selected subject pattern, or a blocker. A pattern citation or trigger label alone is not closure.
 
-After any wording or syntax change, rerun `F.19` on the changed sentence and only the neighboring text needed to settle its meaning. Check that the replacement preserves the intended kind, relation, scope, and action without introducing another umbrella or unsupported branch.
+After a wording change, reread the affected passage through `F.19` as far as the instruction or conclusion that uses it. Check the subject, relation, scope and action against the original task. When the sentence provides one premise, retain the connection or open question at the point of use.
 
 When the positive sentence settles the use, close with that sentence and return to the domain task. Additional evidence belongs only to a receiving review or decision that needs it.
 
@@ -106461,7 +106469,7 @@ Twin entries pass the **Twin Harness** (see F.15): *Head term*, *Kind consistenc
 
 ### E.10:7 - Minimal Generality and Domain Anchoring (MG-DA) — names neither parochial nor vacuous
 
-> **Principle (MG-DA).** A minted name is **as general as necessary and no more**, and its **head noun is anchored to the FPF kind being named**. First classify the **NameToken** using **`LEX.TokenClass`**, then apply the guardrails corresponding to that class: kernel tokens unify **across domains**; discriminator tokens and existing `ContextToken` values make one recovered local source, practice, scheme, subject, or use legible from the name itself. `ContextToken` is the existing token-class identifier; it denotes no Context object. Names too general to have an obvious domain fail MG-DA.
+> **Principle (MG-DA).** A minted name is **as general as necessary and no more**, and its **head noun is anchored to the FPF kind being named**. First classify the **NameToken** using **`LEX.TokenClass`**, then apply the guardrails corresponding to that class: kernel tokens unify **across domains**; discriminator tokens and existing `ContextToken` values make one recovered local source, practice, scheme, subject, or use legible from the name itself. `ContextToken` is the existing token-class identifier; it denotes no Context object. The name and its definition should let the intended reader distinguish the governed value from a plausible alternative at the scope where the term will be used.
 
 #### E.10:7.1 - `LEX.TokenClass` (meta‑lexical; not a USM Scope)
 **Definition.** `LEX.TokenClass : NameToken → {KernelToken | ContextToken | DiscriminatorToken}`.
@@ -106469,7 +106477,7 @@ This is a local lexical classification function on NameTokens with the closed va
 It is **not** a USM scope and carries **no** truth or validity semantics.
 
 #### E.10:7.2 - `KernelToken` — Minimal Generality (MG‑K)
-**MG-K1 (Tri-domain witness).** A DRR note or Glossary note provides at least three heterogeneous arenas where the invariants hold, for example manufacturing, healthcare, and cloud operations. Otherwise reject or narrow the `KernelToken` candidate and recover each word or qualifier under the object and rule that define it. Use a `ContextToken` only after the exact local source, practice, scheme, meaning, and receiving use are recovered. Use an A.19 `CharacteristicSpace` only when one named `U.Characteristic`, one declared CSLC scale, and the exact receiving use make that construction current; an assignment-state relation remains under A.2.5.
+**MG-K1 (Ground the shared meaning).** In the DRR or Glossary note, state what the candidate designates, where the designation will be used and which defining property or relation is preserved in those uses. Test an admissible variation that could change the meaning or the decision. The defining rule may itself establish the full reach. Where a different domain supplies a needed premise, show how it applies there. For an admission or placement decision about a universal-core U-kind, apply A.8:3 and E.24.UK, including their three-domain test or an applicable previous result. A designation for an already defined object retains that object’s admission basis. Use a `ContextToken` only after the exact local source, practice, scheme, meaning, and receiving use are recovered. Use an A.19 `CharacteristicSpace` only when one named `U.Characteristic`, one declared CSLC scale, and the exact receiving use make that construction current; an assignment-state relation remains under A.2.5.
 
 **MG-K2 (No parochial nouns).** Kernel names contain no domain nouns such as *Ticket, Microservice, Patient,* or *Developer*. Domain-looking wording is a recovery trigger, not a destination: it may denote a C.3 local kind, exact system-role kind, system-role assignment, system or architecture object, episteme or record kind, declared Characteristic and scale, source wording, ordinary qualifier, recovered local-use `ContextToken`, or another value whose kind and use are already defined. Bare *role* has no default Tech reading. `SystemRole` appears only inside a concrete local kind designation admitted through C.3 and A.2; lexical shape alone creates neither that kind nor an assignment.
 
@@ -106497,7 +106505,7 @@ It is **not** a USM scope and carries **no** truth or validity semantics.
 **DA-D7 (Ban generic combinators).** Reject vague composites like *NameUseMode*, *NamingScope*, `RowFacet`, `RowPlane`, or `RowLane`. Each candidate passes **DA-D1** and **DA-D3** for a kind-anchored head, explicit classified kind, and closed-value interpretation under its classification rule. Require a `CharacteristicSpace` only when one named `U.Characteristic` and its CSLC scale have independently been declared.
 
 #### E.10:7.4  - Global tests (apply after 7.2 and 7.3)
-**MG-DA-T1 (Three-arena witness).** A **`LEX.TokenClass`(t)=KernelToken** candidate includes the tri-domain witnesses from MG-K1. Other token classes document at least one contrasting arena.
+**MG-DA-T1 (Reach of the designation).** For a `KernelToken`, check the grounds for the common meaning under MG-K1. For a local or discriminator token, check that the definition distinguishes its intended value under the relevant scheme. A contrast is useful when the alternative would change identification or use.
 
 **MG-DA‑T2 (Object‑of‑talk).** The head noun uniquely signals the subject area; avoid free-floating metaphors.
 
@@ -106523,7 +106531,7 @@ The LEX registry defines `AllowedScopes(c)` (for example, `KernelToken` use in n
 
 Mentioning `LEX.TokenClass`, `LEX.Reserved-Names`, or `LEX.AllowedScopes` does not create the values needed to admit a durable token. Before a NameCard can become current, the selected `FPFCoreReferenceScheme` must resolve four things: (1) the `U.NameToken`; (2) its current TokenClass classification assertion; (3) the current reserved-name or other authoritative collision-set value and the collision result; and (4) the current allowed-scope policy and a passing use-scope assertion. A prose example, full-text absence, heading, registry-shaped table, or intended policy supplies none of them by implication.
 
-**Worked near-miss.** Suppose `SelectedRuleContentSubgraphDesignation`, `derivedUsingRuleContent`, and `evaluatedAgainstRuleContent` are proposed as `KernelToken` candidates. They can pass the tri-domain and object-of-talk tests through assembly-rule content selected in manufacturing derivation, protocol content used in healthcare derivation while evidence separately warrants case facts, and deployment-policy content selected for cloud release evaluation while service-provision Work and operational support remain separate. Even if their spellings do not collide in the inspected corpus, corpus absence is not a reserved-name or allowed-scope result. Do not publish their F.18 NameCards or F.17 rows until all four prerequisites resolve; a placeholder card or row closes none of them.
+**Worked near-miss.** Suppose `SelectedRuleContentSubgraphDesignation`, `derivedUsingRuleContent`, and `evaluatedAgainstRuleContent` are proposed as `KernelToken` candidates. Assembly-rule content can be a premise of a manufacturing derivation, protocol content a premise of a clinical derivation, and deployment-policy content a criterion for a cloud release decision. What would make a name travel across these uses is its defining relation: for example, a derivation used the selected content as a formal premise, irrespective of the field. Evidence for case facts, evaluation against a criterion and operational support have different relations. F.18:4.2d gives the three candidate meanings. Even if their spellings do not collide in the inspected corpus, corpus absence is not a reserved-name or allowed-scope result. Do not publish their F.18 NameCards or F.17 rows until all four prerequisites resolve; a placeholder card or row closes none of them.
 
 Using these names as candidate designators in declaration content changes no predicate semantics and does not admit them as public names, enumerations, Characteristics, CharacteristicSpace values, relation kinds, or U-kinds.
 
@@ -106549,7 +106557,7 @@ For all eight names, Plain wording that silently turns the token into a neighbor
 #### E.10:7.6 - Metaphor guidance (informative heuristics)
 
 Prefer **object‑anchored heads** to metaphors. If a metaphor is unavoidable, ensure it is (a) explicitly defined by a pattern here, and (b) unambiguous within the **NameClass**. Example families (use sparingly):
-* **Progression metaphors** (*level, tier, ladder*): only where a **gate or upgrade** is defined by the pattern.
+* For *level*, *tier* or *ladder*, identify what is ordered and by which relation. A holon can have constituent and enclosing wholes. Models of the same question can admit different answers under B.5.MR. A functional control layer may group responsibilities. Use a gate or upgrade criterion when advancement is actually the relation in question.
 * **Separation metaphors** (*lane, track*): only where parallel, non‑interfering flows are enforced by rules.
 * **Grouping labels** (*family, class*): name the classified kind or grouping and use its governing membership rule. For a closed enumeration, state its value set and classification rule; a kind or family governed by another membership condition is not limited to an enumeration.
 
@@ -107185,7 +107193,7 @@ Re-review your prose when any of these happen:
 
 ### E.10:20 - Quick card
 
-> Read the complete natural span with `F.19`. Use E.10 cues to notice an overloaded head, doubtful agentive or causal predicate, ungrounded contrast, missing operand or referent, grouping or list pressure, loaded qualifier, or source/representation ambiguity. If ordinary meaning settles it, repair the text and stop. Otherwise open one exact lexical or subject route. The result is repaired text or a blocker, never a mandatory form or catalogue of possible meanings.
+> Read the complete natural span with `F.19`. Use E.10 cues to notice an overloaded head, doubtful agentive or causal predicate, ungrounded contrast, missing operand or referent, grouping or list pressure, loaded qualifier, or source/representation ambiguity. Try the wording against the reader’s original task. When the claim and its grounds are clear enough for that task, keep or repair the text and stop. Where its subject, composition scale, model distinctions or entrusted choice shift, return through F.19:4.3.1.1. Open a subject rule for the distinction still needed. The result is repaired text or a blocker, never a mandatory form or catalogue of possible meanings.
 
 - Use sections 5–9 only for the selected register, token, morphology, or overloaded-head problem.
 - Use `E.10.ARCH` only while fact, declaration, report, and representation remain confused; use the subject pattern directly once the claim is clear.
@@ -107269,12 +107277,12 @@ The repair must preserve familiar language while preventing those transfers. The
 
 Recover the current claim from its participants, subject, operation, result, and use rather than from the word *learning*.
 
-1. **Bound the wording use.** Quote or locate only the sentence or source expression whose interpretation changes a claim, inference, or action.
+1. **Bound the wording use.** Locate the expression and read as far as the question or decision that gives it its meaning. An example of what one person did can supply evidence in a question about the team or its practice. Keep the requested subject and reach in view.
 2. **Recover the grammatical commitment.** Identify who or what is said to have taught, trained, learned, changed, produced, inferred, or acquired something. Grammar foregrounds a claim but does not fill missing causal participants or evidence.
 3. **Name the changed subject.** State whether the current claim concerns a named holder's capability, an episteme, a model and parameters, a probability distribution, a representation relation, an organization or population, a product, a Work occurrence, or another exact subject.
 4. **Separate Work, Method, and result.** Name inquiry, teaching, practice, training, optimization, inference, experiment, data acquisition, assessment, publication, or cultural-continuation Work only when it is current. Keep its performer, Method, inputs, and dated occurrence separate from the result attributed to another subject.
 5. **State the evidence and any material transfer boundary.** Name what was observed or assessed and the task, population, configuration, window, support arrangement and use conditions required to interpret that evidence or rely on the claim. Identify a stronger reading as unsupported only when independent local grounds make it plausible and the distinction changes use.
-6. **Select one direct branch.** Use the branch table below. When one sentence contains several branches, keep the claims distinguishable and route each separately.
+6. **Select the direct branch for each claim.** When the decision requires several claims together, explain the connection that matters. A lesson was delivered and a team subsequently performed better. To attribute the improvement to the lesson, establish how the taught practice could change that team’s work and what supports the attribution.
 7. **Stop after recovery.** Return the repaired claim and direct pattern, or an exact missing-information, missing-governor, quote-only, ordinary-use, or blocker result. Do not create a generic learning record, role kind, process, progress scale, or causal relation.
 
 #### E.10.LRN:4.1 - Direct branches
@@ -107308,7 +107316,7 @@ Passive and active grammar can also shift attention without changing ontology. �
 
 Constructivism and constructionism remain source-local theories and Method families. Constructionism shares the learner-side construction emphasis and adds a design commitment to making something public or shareable. This commitment guides FPF Method and evidence design. A model, program, explanation, dance, diagram, or other external construction can expose distinctions and Methods for inspection.
 
-The construction does not prove capability, authorship, independent use, transfer, or retention. Pair construction tasks with representative later-Work tasks and direct evidence when those claims matter. Reciting a poem or reproducing a pattern may establish a narrow remembered performance; it is not automatically action-guiding capability in a new situation.
+The construction does not prove capability, authorship, independent use, transfer, or retention. Examine what the participant chose and performed in the construction, with the help then available. It can supply the needed evidence if it already exercises the claimed work under the relevant conditions. Use an adequate earlier performance or a further task for the capability, transfer or retention question still open. Reciting a poem or reproducing a pattern may establish a narrow remembered performance; it is not automatically action-guiding capability in a new situation.
 
 An FPF pattern is an action-guiding episteme. In a named cultural case it can also be a retained, transmitted, selected, or reconstructed cultural variant under `C.36`. It is not the universal atomic unit of knowledge, a “meme” kind, the holder's internal state, or the holder's capability merely because it was copied or published.
 
@@ -107380,7 +107388,7 @@ A claim that people changed their practice needs the relevant Method, assignment
 6. Are public constructions, recall performances, patterns, and cultural variants kept distinct from holder capability and internal state?
 7. Is source-local wording preserved as quotation where needed without becoming FPF ontology?
 8. Did the repair avoid a generic `Learning`, `Learner`, `Teacher`, `LearningProgress`, or `LearningResult` kind or UTS row?
-9. Did each recovered claim return to its direct pattern and stop there?
+9. Does each recovered claim reach its direct rule, with the connection needed when several support one conclusion?
 
 ### E.10.LRN:8 - Common Anti-Patterns and Repairs
 
@@ -107535,7 +107543,7 @@ These cases permit different choices: improving a known performance measure and 
 
 A workshop needs music for listeners who are familiar with 4/4 and are beginning to work with 7/8. “Choose moderately complex rhythms; they are the most interesting” hides both the response sought and the listeners' preparation.
 
-Recover the request as “choose material that helps these listeners maintain the beat and want to move while encountering 7/8.” The facilitator can start from simpler 7/8 material and adjust from the listeners' response. If the purpose is instead to exercise a skilled drummer's coordination, that practice question needs its own choice of material.
+Ask the facilitator what the material should help these listeners do and whose response matters. Suppose the workshop aims to help them maintain the beat and enjoy moving in 7/8. The facilitator can start with simpler 7/8 material and adjust after observing the group. A workshop for a skilled drummer’s coordination needs a different basis for choosing the material.
 
 Spiech and colleagues found that Western listeners' groove ratings peaked at moderate complexity in 4/4, while simpler rhythms received the highest ratings in the less common meters tested. Here *groove* means the pleasurable urge to move. The study supports adapting the comparison to listener and meter. The workshop's teaching method supplies the exercise.
 
@@ -107652,12 +107660,12 @@ Without a shared way to recover the claim, these mistakes arise.
 
 Recover the current claim from the subject and use rather than from the umbrella word.
 
-1. **Bound the wording span.** Open only the expression whose interpretation changes a claim, inference, or action.
+1. **Read the expression in its intended use.** Follow the wording to the decision or explanation that depends on it. A named change in one member can be relevant to a question about the organization. Establish what connects it to the result being claimed.
 2. **Name the exact changed or represented subject.**
 3. **State continuity or membership.** Name only the identity, reidentification, membership, generation, lineage, edition, or retention rule needed by this use.
 4. **Expose direction or value only when claimed.** Name the objective, characteristic, scale, polarity, viewpoint, and evidence needed by the receiving use. The word *development* does not establish improvement.
 5. **State posture.** Mark the claim's posture—for example, actual, observed, reconstructed, predicted, simulated, proposed, recommended, or planned.
-6. **Choose one direct branch.** Split the sentence when it carries several independently actionable claims.
+6. **Use the direct rule for each claim.** Distinguish independently actionable claims. If the recipient also needs a connection between them, recover what establishes it. A programme can develop a team’s ability through changed coordination even when its members’ individual qualifications stay the same.
 7. **Stop after recovery.** Choose one of six recovery outcomes—a repaired claim, ordinary non-use, quote-only use, missing information, the direct owner, or an exact architecture gap. State the next use or stop for the selected outcome.
 
 #### E.10.DEV:4.1 - Optional DevelopmentEvolutionWordingRecoveryLine
@@ -107704,7 +107712,7 @@ The phrase *development trajectory* does not by itself require two full repairs.
 - Continue to `E.10.MOVE` only when the trajectory itself still carries a separate claim about position space, order, segment identity, actual, predicted, or planned posture, or representation.
 - Start with `E.10.MOVE` when the bearer and development claim are already clear and only the path or trajectory posture is unresolved. Invoke `E.10.DEV` afterward only if a distinct development or evolution ambiguity remains.
 
-Both routes must converge on the same direct subject claim or exact gap. Neither child creates a `DevelopmentTrajectory` kind, and no recovery note is required for a clear local sentence.
+Return each result to the original question. One clarification may settle both expressions. If the proposed route and the development it is intended to produce concern different subjects or times, keep both and state the relation the conclusion needs. Neither child creates a `DevelopmentTrajectory` kind, and no recovery note is required for a clear local sentence.
 
 ### E.10.DEV:5 - Worked Slices
 
@@ -107895,7 +107903,7 @@ Restore the governed target before choosing replacement wording:
    For a Plain long mantra, recover the intended connected reasoning and the particular question now at issue. State the answer or blocker, the subject pattern that supplies it, and the other answers whose use depends on its conditions. A whole-account question may require comparing those answers rather than finding one final result or one missing map location. Do not invent a demonstrated row, collapse the long map into one pattern's Solution, or treat any branch as Work order.
 4. When `move`, `movement`, `direction`, or similar wording predicts a later evaluation result, recover the coordinate-and-scale-qualified prediction, its proposal basis, and protected tradeoffs under `E.23`. Use `ExpectedEvaluationResultChange@Context` only when E.23's conditional account is needed for the receiving use. The prediction is not an operation, transition, movement, work occurrence, or proof of improvement.
 5. For every other governed use, name the exact recovered value or relation, its kind, and its subject pattern. For a relation claim, name the admitted direct predicate and actual participants. Add a `RelationSignature` reference only when an admitted reusable typed declaration is current and the receiving use needs that declaration. If the governed value is already clear, use its pattern directly.
-6. Split the text when one phrase carries more than one governed value. A recommendation, method, transformation, readiness claim or result, gate decision, publication relation, and performed Work do not become one value because the same word was used for them.
+6. Distinguish the governed claims carried by one phrase and retain the connection the reader needs. For readiness to work together, identify the performances to be combined and the conditions they must satisfy together. Two crews can each be ready for a lift while their simultaneous lifts require the same crane. For a question confined to permission, a single authorization covering both crews can suffice.
 7. Preserve `RemainingReaderUse`: the repair is complete only when a practitioner can still tell what can be inspected, selected, evaluated, planned, performed, or returned to next.
 
 #### E.10.MOVE:4.1 - MoveAndReadinessWordingRepairNote
@@ -108136,7 +108144,7 @@ The method foregrounds Onto/Epist distinctions and direct subject ownership. The
 | ID | A conforming repair… | Check |
 | --- | --- | --- |
 | `CC-E10MOVE-1` | names the governed text span, claim being made, and object under wording repair before choosing a replacement. | Resolve the kind from the current claim and its direct pattern. |
-| `CC-E10MOVE-2` | assigns one wording-use disposition and does not treat that local enumeration as project ontology. | Demonstrated row, evaluation-result prediction, direct governed use, imported source wording, ordinary prose, and quotation cases remain distinct. |
+| `CC-E10MOVE-2` | assigns the applicable wording-use disposition to each recovered use, retaining any connection required for the original claim. | Demonstrated continuation, evaluation-result prediction, direct governed use, imported source wording, ordinary prose, and quotation retain their stated meanings. |
 | `CC-E10MOVE-3` | for an FPF-governed use, names the exact recovered governed value, value kind, and non-semantic PatternID locator for the subject pattern whose content defines, constrains, or tests that value. For a relation claim, it names the admitted direct predicate and actual participants; it includes a `RelationSignature` reference only when an admitted reusable typed declaration is current and the receiving use needs it. | Confirm the recovered project value under its direct pattern. Any relied-on MethodDescription identity needs independent A.3.2 admission, as in §4.1. |
 | `CC-E10MOVE-4` | blocks root `U.Move`. | No durable move kind is minted by wording pressure. |
 | `CC-E10MOVE-5` | preserves remaining reader use. | The repaired text still says what the practitioner can do or inspect next. |
@@ -108237,7 +108245,7 @@ Use this pattern when a recurring FPF-governed wording problem survives the `F.1
 
 | Wording | Applicable result | Grounded distinction in this near-miss |
 | --- | --- | --- |
-| `MethodDescription_NormalizeCustomer`, which describes one exact `U.Method` `NormalizeCustomer`, says “input x is CustomerRow_17” beside the worked formula `normalize(x)`. | The use is clear. Preserve the argument's representation relation and bypass further restoration. Use C.29 only for a separate question about choosing, transferring or relying on the mathematical representation. Keep `Arg_x` as the representation element and state the explicit correspondence from `Arg_x` to the described value `CustomerRow_17`. Write “In the worked formula `normalize(x)`, argument `x` represents `CustomerRow_17`.” | The worked formula's argument place and the value it represents. |
+| `MethodDescription_NormalizeCustomer`, which describes one exact `U.Method` `NormalizeCustomer`, says “input x is CustomerRow_17” and explicitly defines the `x` in the worked formula `normalize(x)` as representing that row. | The use is clear. Preserve the argument's representation relation and bypass further restoration. Use C.29 only for a separate question about choosing, transferring or relying on the mathematical representation. Keep `Arg_x` as the representation element and state the explicit correspondence from `Arg_x` to the described value `CustomerRow_17`. Write “In the worked formula `normalize(x)`, argument `x` represents `CustomerRow_17`.” | The worked formula's argument place and the value it represents. |
 
 **Not this pattern when.**
 
@@ -108384,14 +108392,14 @@ If the attempted repair exposes a missing or unstable domain distinction, stop t
 Use this five-step object-preserving order only for the ontology question that remains after the `F.19` and compact `E.10` pass:
 
 1. **Bound the wording and use.** Name the exact text span or publication unit, the recurring wording, its sentence function and register, and the working claim or use that makes it consequential. Keep `semanticAreaBaseConcept`, `semanticArea`, and `semanticAreaSenseFamily` as author-facing routing coordinates rather than as candidate project ontology.
-2. **Recover the exact subject and claim.** For wording that designates a governed entity, value, or episteme, identify the particular one. For an obtaining direct relation, identify the relation and its actual participants. For a row, report, or card that states the claim, identify the claim-bearing episteme. When representation is current, identify both the represented object and the representation use without treating the representation as obtaining. When metonymy or compression is plausible, keep both the literal and intended candidates explicit until their defining or testing rules and exact relations or claims distinguish the uses or rule one out.
+2. **Recover the exact subject and claim.** Identify what could bear the property the reader has to explain or act on. The wording may concern one entity, a kind under its membership rule, or how a practice repeatedly produces a result. A passage about one occurrence can help establish any of these when its grounds reach that far. For an obtaining direct relation, identify the relation and its actual participants. For a row, report, or card that states the claim, identify the claim-bearing episteme. When representation is current, identify both the represented object and the representation use without treating the representation as obtaining. When metonymy or compression is plausible, keep both the literal and intended candidates explicit until their defining or testing rules and exact relations or claims distinguish the uses or rule one out.
 3. **Bypass restoration when the subject and predicate are clear.** Once the object, relation, assertion, description, publication, representation, work, result, structure, or architecture claim has a clear predicate and governing rule, state or use that claim and stop the restoration detour. Use the PatternID to locate the rule; identify an exact `ClaimGraph` only when the receiving use depends on it.
 
    If actual authoring or repair Work is part of the claim, recover each exact performer and obtaining assignment through A.13 and A.2.1, then let A.15.1 independently admit the dated Work. Add F.6 only when this architecture account also consumes precise assignment-bound attribution. State Method, MethodDescription, and responsibility claims separately only when they matter.
 4. **Add only receiver-needed apparatus.** Add a reusable `RelationSignature` and A.6.5 `SlotSpec` values, relation-occurrence identity, participant designations, designators, references, publication forms, or C.29 representation elements only when a named later use needs that additional object. Keep each item under the rule that defines its identity or use, and cite the pattern containing that rule. Use an E.24 `onticSlotRelation` only after durable ontic settlement makes that exact relation current.
 
    If the same entity participates in several direct relations, is designated in several assertion or occurrence-description epistemes, or corresponds to several representation elements, keep those uses distinct under their separate predicates. Shared entity identity does not merge the relations, epistemes, designations, or representation correspondences.
-5. **Write the shortest usable sentence.** State the governed object, direct relation or claim, and admissible action-facing use so the working reader need not consult the applicability row. Add a guard only when the `F.19` plausible-intended-reader test warrants it. A type-correct but inert sentence is not a completed repair.
+5. **Write the shortest usable sentence.** State the governed object, direct relation or claim, and admissible action-facing use so the working reader need not consult the applicability row. Add a guard only when the `F.19` plausible-intended-reader test warrants it. Try the repaired sentence in the receiving work. A decision that needs the installation record and an applicable approval, for example, depends on their concerning the same installation. Carry that connection, or what remains open, into the wording.
 
 Perform a terminology-source audit only when source ontology can change the governed object, direct relation kind, participant meaning, actual participant kind, declaration-local `SlotSpec`, assertion-side participant designation, exact use, admissible use, or the defining or testing rule selected for the claim. Stable ordinary prose remains ordinary. A source tuple or argument place remains representation-side until an explicit correspondence to a declared `SlotSpec` is current.
 
@@ -108571,7 +108579,7 @@ Using `E.10.ARCH` creates none of those objects; the author returns to the rules
 | `CC-E10ARCH-6i` | Work and Method boundary wording uses `C.2.P` first for an epistemic source side, bypasses to a clear defining or testing rule, and otherwise uses `A.6.P.WMR` for exactly one of its four result families. Use `F.18` to name performed Work only after occurrence grounding. Classification, a generic result label, or a designation that merely type-checks against a declaration does not close the case. |
 | `CC-E10ARCH-7` | `function`, `functional`, `functionality`, and `effect` wording keeps `A.6.F` as first unpacker when the governed FPF object, direct relation, claim-bearing episteme, view, or defining or testing rule is hidden; it does not default to architecture. |
 | `CC-E10ARCH-8` | `semanticArea`, `ontologicalNeighborhood`, and `pattern nest` follow `E.8` placement discipline: `semanticArea` is the Part-F semantic unit, `ontologicalNeighborhood` is its applicability neighborhood, and `pattern nest` is placement. |
-| `CC-E10ARCH-9` | Repair preserves one useful admissible reader use and states it positively. Add a negative boundary only when the `F.19` plausible-intended-reader test warrants it. Type-correct but inert wording is not recovered by value. |
+| `CC-E10ARCH-9` | Check the repaired wording in the work commissioned of its readers. When several uses are required, identify the meaning and grounds each needs, including a link between them when the result depends on it. One use can suffice for a single-use commission. Add a negative boundary when the F.19 plausible-intended-reader test warrants it. |
 | `CC-E10ARCH-10` | Validation covers duplicate recognition tables, broad placeholder heads, declaration/participant collapse, representation-as-obtaining, one-description/many-object collapse, optional apparatus without a receiver, practitioner-row bureaucracy, shadow restoration apparatus, and entry or index drift. |
 | `CC-E10ARCH-11` | A DPF-local entry begins only from a demonstrated recurring wording problem and identifies the DPF claim, DPF edition, defining or constraining rule, and the PatternID that locates that rule. The entry stays beside the claim whose wording it restores; `F.19` supplies the final rewrite. A separate profile is a claim-bearing episteme with a named receiving use and edition, and exists only when several entries are maintained together. The profile can be published as a table. No domain trigger is copied into the FPF-wide table, and wording repair does not establish or revise domain doctrine. |
 
@@ -108732,7 +108740,7 @@ Use the sentence's intended claim, not the trigger word, to select the result.
 4. Apply the selected pattern only as far as the receiving claim needs. Add a Tech designation, occurrence identity, predicate, assertion, reference, evidence, or assurance only when omitting it would change truth, action, reuse, or reliance.
 5. For one recovered claim, stop when you have selected its particular object or relation and the applicable pattern. Otherwise identify the claim that lacks a governing rule (`missing-governor`), state what information is missing, or return the quote-only or ordinary-non-use result.
 
-If recovery shows that the same bounded phrase carries several distinct claims at once, rewrite them as separate ordinary sentences and apply steps 3–5 to each sentence. Ambiguity by itself is not evidence of several claims.
+The same phrase can carry several claims. Give each its direct rule and keep the connection the reader needs. “Alice reviewed the manuscript under her assignment” depends on the work and the assignment being hers for this manuscript. Ambiguity alone leaves it open which claim is meant.
 
 Use A.6.C **Contract Unpacking for Boundaries** only when its contract-like boundary-language trigger holds; otherwise apply the direct rule for each recovered claim. Do not create a multi-claim record or an umbrella role object.
 
@@ -108815,7 +108823,7 @@ The pattern favors Onto/Epist precision, which can tempt an author to expand eve
 7. Are functioning, capability, Work, deontics, access, authority, responsibility, evidence use, and results kept under their direct relations?
 8. Does ordinary prose stay ordinary when no technical distinction changes the receiving claim?
 9. Does the repair add a qualifier only for a live alternative and avoid a fixed formal expansion?
-10. For each recovered claim, does the repair stop after one exact object or relation and its applicable rule are selected?
+10. Does the reader have the particular object or relation and its rule for each claim, and the grounds for connecting them when the assignment calls for that conclusion?
 
 ### E.10.ROLE:8 - Common Anti-Patterns and How to Avoid Them — Role-Word Repairs
 
@@ -108938,7 +108946,7 @@ Treating these uses as one `Context` participant, `ContextId`, or two-part `Sens
 Start with the sentence and the practical use that makes it matter.
 
 1. Mark the phrase containing *context* and state what a reader would do differently under another interpretation.
-2. Select the smallest branch in `E.10.D1:4.1` that answers that difference.
+2. Use the smallest branch in `E.10.D1:4.1` that settles the receiving question. If a phrase combines different conditions, recover the ones needed together. For example, restarting a pump may require both the authorized procedure for this site and the operating conditions that procedure permits.
 3. Apply the named subject pattern and recover its value, relation, claim, or situation. For source-local meaning, reuse an adequate current `F.0.1` result or apply `F.0.1` only when that meaning remains unclear. Do not create a generic Context participant as an intermediate step.
 4. Rewrite the sentence with the recovered content and state the next action or stop.
 5. If the same defect recurs across framework contributions, use the shared method in `E.10.ARCH`. Keep this pattern as the word-specific branch and keep the recovered content in its subject pattern or DPF.
@@ -108969,7 +108977,7 @@ An F.1 Source-Cut Card is a memory aid for one retained source edition and its a
 
 #### E.10.D1:4.3 - Short working script
 
-Name the meaning, its basis and the reader’s next move.
+Name the meaning, the grounds for this use and what they allow the reader to do. When several conditions must hold together, show how they apply to the same case.
 
 ```text
 This phrase uses “context” to mean [identified value, relation, scope, scheme, situation, or use].
@@ -109008,7 +109016,7 @@ If release review depends jointly on model applicability, actual assigned-Work u
 A use of `E.10.D1` conforms when it meets these conditions.
 
 1. the sentence and the action-changing ambiguity are named;
-2. one recovery branch supplies the smallest sufficient content;
+2. the recovered meaning supplies the conditions the receiving use needs, including their connection where several apply;
 3. the repaired sentence names the relevant value, relation, scope, scheme, situation, or use and the contribution of any cited pattern;
 4. source-local meaning reuses an adequate current `F.0.1` result or applies `F.0.1` when that result is absent or inadequate, then cites a basis relation only when it obtains;
 5. an A.1.1 structure is selected only when the organization of its direct facts changes the decision;
@@ -109093,7 +109101,7 @@ Begin with the receiving use:
 4. What exact `U.Entity` is the `EntityOfConcern` of that claim-bearing whole?
 5. Which effective `ReferenceScheme` supplies the designation and interpretation rules that make those claims readable about that entity?
 
-The last three answers recover the C.2.1 `EpistemeConstitutionRelation`. If identity is all the receiving use needs, stop there. Otherwise open only the neighboring object or relation needed for the next visible sentence or action.
+The last three answers recover the C.2.1 `EpistemeConstitutionRelation`. A request for that identity can end here. If the recipient needs to decide something else, recover the additional facts on which the decision depends and, where several must hold together, establish that they concern the relevant edition, participants or work.
 
 Not this pattern when the live question is already an exact evidence path, assurance claim, work occurrence, gate decision, commitment, Bridge, publication occurrence, representation correspondence, or state fact. Use its direct governor. Return here only if the wording also obscures which entity is being described or which episteme carries the claims.
 
@@ -109134,11 +109142,11 @@ For the current passage or artifact:
 2. **Recover the episteme constitution.** Identify the exact claim content G, exact EntityOfConcern, and effective `ReferenceScheme`; test whether `EpistemeConstitutionRelation` obtains under C.2.1.
 3. **Classify the expression or use.** Decide whether the current object is the claim-bearing description episteme, a specification use of it, an assertion about another object, a publication form, a carrier, or a representation. Do not infer the answer from a suffix or medium.
 4. **Open only a needed neighbor.** Add empirical grounding, viewpoint, view, claim scope, model-use structure, evidence, edition, specification evaluation, publication, form, carrier, currentness, or representation only when the named receiving use depends on its direct relation.
-5. **Stop at the smallest sufficient result.** Do not produce a universal description card. A readable sentence naming the receiving use, the recovered episteme, its EntityOfConcern, and the one needed neighboring relation is normally enough.
+5. **Stop at the smallest sufficient result.** Name the receiving use, the recovered episteme and its EntityOfConcern. Add the relations on which the answer depends. For example, deciding from an approval and a use record whether an operator used the approved instructions requires both to identify the same edition.
 
 A short statement usually suffices.
 
-> For `<receiving use>`, episteme `<E>` carries claims `<G>` about exact EntityOfConcern `<T>` under effective scheme `<R>`. `<One named neighboring relation>` is additionally current because `<the next action depends on it>`.
+> For `<receiving use>`, episteme `<E>` carries claims `<G>` about EntityOfConcern `<T>` under scheme `<R>`. `<The additional relation or combination of relations>` supports `<this conclusion>` under `<these conditions>`.
 
 If no neighboring relation is needed, omit the second sentence. If the C.2.1 triple or the required direct governor cannot be recovered, return that exact blocker instead of filling a generic context field.
 
@@ -109380,9 +109388,9 @@ If the training use adds another publication occurrence with another form or car
 
 #### E.10.D2:11.8 - Minimal dashboard repair
 
-A project note says, “The architecture dashboard approves the deployment role.” The immediate receiving use is an operations discussion of the release candidate. Recover the smallest truthful result:
+A project note says, “The architecture dashboard approves the deployment role.” The operations team needs to know which architecture description it can discuss and whether deployment has been authorized. Suppose the dashboard legend identifies the named description, its claim content, its subject and the scheme in which the team can read it. The team can then recover the following:
 
-* `PaymentServiceArchitectureDescription` is the C.2.1 episteme about the exact `PaymentService` holon; its claims identify the selected structure and state whether C.30's `ArchitectureRelation` obtains;
+* `PaymentServiceArchitectureDescription` is the C.2.1 episteme about the exact `PaymentService` holon; read its claims to establish which structure is described and what, if anything, the description asserts about C.30's `ArchitectureRelation`;
 * the receiving use is the operations discussion; record the exact operations viewpoint only if it changes what that discussion reads or checks or may conclude, and otherwise omit viewpoint selection;
 * the dashboard may be a publication form, carrier, representation, or view only under the recognition rule for that exact use;
 * no checkable-claims-plus-harness basis has been named, so specification force is not admitted;
@@ -109404,7 +109412,7 @@ If the operations audience can obtain the selected edition for its discussion fr
 
 The account distinguishes the subject being described from the claim-bearing use of a C.2.1 episteme. Each identity is recovered independently; C.2.1 permits the same episteme to serve both uses in a self-description. Specification is a checkable use of that episteme. Viewpoint selection, view membership, scope, model-use structure, grounding, evidence, assurance, edition, publication, carrier, representation, and work have different reasons to obtain and different identity rules.
 
-Making those neighbors fields of a description tuple would erase those rules and make formality, publication, approval, or a shared context label look constitutive. Requiring all of them for every description would also make ordinary use needlessly heavy. Receiving-use-first routing preserves both reliability and economy: recover the exact constitution, add the one neighbor needed for the next action, then stop.
+Making those neighbors fields of a description tuple would erase those rules and make formality, publication, approval, or a shared context label look constitutive. Requiring all of them for every description would also make ordinary use needlessly heavy. For an identity question the constitution can suffice. For another decision, recover the applicable facts and show how they support it together. Where they concern an edition, establish which edition each fact concerns. Stop when those grounds answer the recipient's question.
 
 ### E.10.D2:14 - SoTA-echoing and source use
 
@@ -109449,7 +109457,7 @@ Use these repairs on live prose; retain old spellings only as quoted source-side
 9. Route permission, evidence, assurance, gate, decision, promise, commitment, work, publication, view, Bridge, retargeting, currentness, and representation claims to their exact direct governors.
 10. Replace “role of this description, source, standard, evidence, or publication” with the exact typed use relation. Use one exact occurrence of a directly declared `U.SystemRoleAssignment` species only for an independently admitted `U.System` assigned to one exact local system-role kind; an acting holon is eligible only after that exact entity has independently passed `U.System` admission for the claim.
 11. Delete mandatory context recursion for descriptions of epistemes; recover the described episteme as EntityOfConcern under C.2.1, including its permitted self-description case.
-12. Stop when the recovered constitution and one needed neighboring relation make the next action clear; do not complete a universal description card.
+12. Stop when the constitution and any further relations the question requires support the receiving action or expose the particular missing ground.
 
 ### E.10.D2:17 - Conformance checklist
 
@@ -109484,14 +109492,14 @@ Use these repairs on live prose; retain old spellings only as quoted source-side
 
 ### E.10.D2:19 - Didactic memory
 
-Use the short memory **use, claims, entity, scheme, one needed neighbor**:
+Use the short memory **use, claims, entity, scheme, grounds for this action**:
 
 1. **Use.** What exact work, decision, inquiry, comparison, preservation, teaching, or publication use needs the description?
 2. **Claims.** What exact ClaimGraph is being used?
 3. **Entity.** What exact independently identified EntityOfConcern are those claims about?
 4. **Scheme.** What effective ReferenceScheme makes the claims readable about that entity?
-5. **One needed neighbor.** Does the next action need a describing-use viewpoint, specification checking, grounding, scope, model-use structure, evidence, edition, currentness, publication, carrier, representation, Bridge, or work use?
-6. **Stop.** Add only that direct relation, or stop after constitution if none is needed.
+5. **Grounds.** Which further relation would change what the reader can conclude? If several are needed, how do they connect for this use?
+6. **Stop.** Use the constitution alone when it suffices. Otherwise give the relations on which the answer depends, or the ground still missing.
 
 ### E.10.D2:End
 
@@ -109541,7 +109549,7 @@ Attempts to help can create a second problem. Public guidance becomes a numbered
 
 ### E.11:4 - Solution - Give Each Entry Publication Unit One Job
 
-Write the short public entry first: recognizable working situation, practical question, first useful result or blocker, direct pattern or small plausible set, and ordinary stop or wrong-turn return.
+Start from the work the practitioner brings to the entry. Write the short route from that question to the first useful result or blocker, the direct pattern or small plausible set, and the stop or return. If the entry helps with one part, say what the practitioner can now do about the original question.
 
 If that prose is truthful and sufficient, stop expanding the entry. Add an expansion, exact result basis, or durable comparison only when ambiguity or a named receiving reliance needs it. The entry returns to the full architectural reference and pattern bodies when their explanation is needed.
 
@@ -109686,7 +109694,7 @@ Use `demonstrativeSliceRef` only when the example independently passes A.22.CGUS
 
 ##### E.11:4.1.1 - Cold-reader recognition and grounded public value
 
-Test every public entry against a first-time engineer, engineer-manager, or assisting agent who has not studied FPF. The heading and first sentence name a recognizable working situation; the next useful sentence names an imaginable first result or blocker and one direct-pattern distinction that changes the next action. PatternIDs, FPF kind names, internal quality language, and exact assurance fields remain later.
+Read the public entry as someone in its intended practice who has the stated prerequisites and has never used this route. For an entry to an engineering decision this might be a practising engineer or an assisting agent. The heading and opening sentence should let the recipient recognize their own question. The next sentence should identify an attainable result or blocker and the distinction that changes the next action. Introduce PatternIDs, FPF kind names and assurance fields where the reader needs them.
 
 A public value claim is grounded when the reader can recover the project need, first useful result or blocker, why one direct pattern can help, and the ordinary boundary. Add the exact potential-result kind, identity or obtaining basis, result-relative object, or conditional receiver only when omitting it would change the truth, the starting choice, the stop, or a named later reliance. The entry may stay readable prose; the reader never has to fill a card before opening the direct pattern.
 
@@ -109698,7 +109706,7 @@ Some readers arrive before a practical-use key is recognizable: a familiar relat
 
 Keep four moments distinct. **Recognize** why the ordinary situation matches this entry. **Select** the direct pattern whose `Solution` tells the practitioner how to obtain the expected first object. **Use** only the branch needed now. **Return** the smallest usable result or a named blocker. A direct result exists, or a relation obtains, only when the applicable pattern's conditions are satisfied; the entry cue creates neither.
 
-Apply the same compact entry shape each time: recognizable situation; practical distinction; expected first object; direct pattern; smallest usable result or honest blocker; ordinary stop; and one neighboring exit. Stop before signatures, card schemas, full Methods, pattern catalogues, or copied `Solution` prose.
+Keep the entry short enough to consult in the work. Give the situation, the distinction the practitioner needs, what the direct pattern can yield and where to go on a wrong turn. A first result can complete a lookup. If it supplies a premise for a wider explanation or design, show how to use that premise and where the remaining work belongs.
 
 - **An obtaining relation must be referred to, and perhaps distinguished from a repeated episode.** First name the exact participants and the readable direct relation, then open the pattern whose content defines or tests that relation. A current assertion can stop there when later work only needs to know whether the relation obtains.
 
@@ -110323,7 +110331,7 @@ Use one selected pattern through a short result-oriented procedure. Keep the sub
 
 #### E.11.PUA:4.0 - Cheap first screen before formal work identity
 
-Start with five ordinary values: the working subject, the practical question, the selected pattern's `Solution`, the first useful result or blocker, and the stop or return. For a bounded reversible use, those values are sufficient when the result and boundary are truthful.
+Start with five ordinary values: the working subject, the question the recipient commissioned, the selected pattern's `Solution`, the first useful result or blocker, and the stop or return. For a bounded reversible use, those values are sufficient when the result serves that use and the boundary tells the practitioner what has been accomplished.
 
 When following a pattern exposes a costly, infeasible or apparently unhelpful demand, use `C.11.DUA` to examine what that work can change and repair the continuation. Follow the selected method through its first useful completion, including any prescribed fields or records. Keep the result and its useful basis; retain a reason or limitation when the current decision or a later recipient needs it. An inactive inquiry adds no omission account. This route is conditional on the demand being in question.
 
@@ -110345,7 +110353,7 @@ Open these distinctions only when candidate retention, selection, result declara
 
 #### E.11.PUA:4.1 - The ordinary seven-step use
 
-Before making any pattern-use record, answer: “What exactly do I have now, what is the smallest useful result, and what would make me stop or return?”
+Before making any pattern-use record, ask what the recipient needs to decide, explain or do. What can this use of the pattern establish for that work? Stop when the commissioned result is available. If this result is one premise, carry it back to the outstanding question.
 
 1. **Recognize the working situation.** Name the subject or relation in ordinary domain language and ask the current practical question. State an exact kind now only when a nearby kind difference can change the pattern or result.
 2. **Inspect one direct pattern.** Read its Problem frame, Problem, Forces, Solution, Consequences, ordinary boundary, and nearest stronger neighbor. Do not select from its title or one trigger word alone.
@@ -110997,7 +111005,7 @@ Evaluate candidate uses against five fit aspects. An ordinary reversible judgeme
 
 Before repeating a recommended use, apply the result-reuse branch in `4.2.1`. Materialize separate findings or a recommendation episteme only when a named later use needs addressable support.
 
-Coordinate several candidates with an explicit local ordering mode and add pairwise precedence only when the applicable pairwise condition holds.
+When coordinating several candidates, recover the result their use together must support. Specify order where one use requires something from another. Also identify any common condition or compatibility on which the result depends, including when either use can come first.
 
 #### E.11.PUR:4.1 - Fit and applicability
 
@@ -111108,7 +111116,7 @@ The candidate pattern use, the earlier result episteme, a later reliance relatio
 
 #### E.11.PUR:4.3 - Coordination without forced order
 
-For ordinary local coordination, state the candidates, whether they are unordered, partially ordered, or totally ordered, any real precedence basis, and the stop boundary in readable prose. Materialize the rationale and coordination epistemes, including references to any established pairwise ordering relations, only when a named later use needs that coordination to remain addressable.
+For a question about sequence, state the candidates, whether they are unordered, partially ordered or totally ordered, the reason for any precedence, and the stop boundary. For a question about their joint use, follow each required contribution into the same decision or work and check that the contributions can serve together under its conditions. Two uses in the right order can concern different versions of the object. The order answers the sequencing question. Version compatibility can decide whether the resulting conclusion is usable. Retain the rationale and any established ordering relations as addressable epistemes when a later use needs them.
 
 ```text
 PatternUseOrderingModeValue = unordered | partialOrder | totalOrder
@@ -111197,7 +111205,7 @@ A changed closure can change readiness without changing the prospective dependen
    State the aggregate separately when the current question needs it. If step 5 supports a recommendation, include it there; when a reliance-bearing applicability finding exists, the two result values agree.
 5. Compare an applicable candidate with the other serious continuations, including continuing the present work without a new pattern use. Recommend it only when its expected receiving value warrants its full burden; use C.11.DUA when that judgement is unclear. Finish without a positive recommendation when no candidate warrants one. The expectation is not an achieved result.
 6. Before repeating a recommended use, compare any earlier result through `4.2.1`. Reuse a matching result or reopen only the affected result question.
-7. Coordinate several candidates as unordered, partially ordered, or totally ordered. Establish each needed pair under §4.4's branch predicate.
+7. Establish the ordering the receiving work needs under §4.4. When the commission concerns a combined result, use the rationale to explain how the contributions fit that result, including any joint condition the ordering leaves open.
 
    For prerequisiteResult, name exact required content, the selected supplier-use basis and its expectation.
 
@@ -111617,6 +111625,8 @@ E.8:4.2.1.3 governs the choice and continuation of examples: a connected account
 
 At a narrower scope, state what changes in the situation, contribution, combination, evidence, result, or boundary. When an answer is missing, say which question remains open, which promised use it limits, and what remains usable.
 
+Distinguish a shorter account of the same Method, an account of a constituent method and a more abstract model that admits additional ways to do the work. A profile may make any of these moves. Show what the practitioner can still decide and which relationships or distinctions the promised use requires.
+
 Develop a missing instruction in the underlying account through E.8:4.2.1.1 before choosing how to present it. Then follow the promised use through the resulting publication, including any return to a supplying explanation. The reader must still obtain the input meanings, necessary operation, intermediate result and action-changing conditions that make the continuation possible.
 
 A short entry may rely on its reachable developed destination; it must keep any condition needed before taking its first action. A full explanation elsewhere does not close a gap if the reader cannot find or use it under the declared access conditions.
@@ -111633,7 +111643,7 @@ Restore missing content at its source or repair its presentation and return, the
 | Bias-Annotation | Which assumptions, perspectives, exclusions, or access conditions affect whose work the language serves and where its claims travel? |
 | Conformance Checklist | Which substantive questions establish correct use at this scope? Which answers can be inherited, and which changed conditions need their own judgement? |
 | Common Anti-Patterns and How to Avoid Them | Which documented failures, text-invited misreadings, or consequential neighbouring cases need a practical correction? Apply the grounded-guard rule in E.8 and F.19. |
-| Consequences | What practical gains, costs, residual limits, and subsequent moves follow from using this arrangement? |
+| Consequences | For the practitioners using this language, what changes in the work named in its commission? Which conditions support that gain, what does it cost, and where does it end? Relate an outcome in a worked case to the range for which you claim it. |
 | Architectural Rationale | Why does this organization of Methods serve the declared use? Which serious alternatives and trade-offs explain its boundaries, profiles, composition, and reuse, and when should a different choice be made? |
 | SoTA-Echoing | Which current answers and source contributions shaped the Methods and their shared architecture? What was adopted, adapted, or rejected against a serious alternative, and what would reopen that choice? |
 | Relations | Which specialization, bounded-use projection, composition, reuse, dependence, or publication-grouping relations actually hold, and where does each named contribution become useful? |
@@ -112040,7 +112050,7 @@ Recommendation, alternative, dependency, compatibility, and co-listing remain se
 
 #### E.11.DSG:4.4 - Test sufficiency and each item's necessity
 
-Call a combination sufficient when it satisfies the required result and sufficiency rule within the recoverable candidate boundary. The boundary is the resources actually inspected through the entry and its direct source returns, not every publication that might exist.
+Start from the result and range in the commission. For a request to find one usable combination, check the selected resources against that result and the sufficiency rule. If asked for the smallest combination or for all eligible alternatives, establish what makes a resource eligible. Track which eligible resources the search or a general bound covers. When the entry exposes only part of that range, a sufficient set found there can still be used. State the range within which any stronger conclusion follows.
 
 To test one deletion, remove the item, keep the other resources and conditions fixed, and judge whether the promised result is still available. Report which deletions defeat this particular combination.
 
@@ -112195,9 +112205,9 @@ The composite discipline, Suite edition, constituent DPFs, external suppliers, R
 Use this pattern in either of two working situations:
 
 - **An assurance claim has no clear practical benefit.** An author or reviewer can see the proof or assurance level but cannot say what it helps the intended user understand or decide. Apply the Rationale Mandate in §4.2: explain that benefit in ordinary language, or leave the claimed benefit unexplained pending a substantive answer. The assurance-level judgement retains its own B.3.3 profile.
-- **A reader gets stuck, or a work demand appears excessive.** Identify the passage or workflow at issue, the reader's task, stated prerequisites and missed or costly action. Apply the bounded HF-Loop in §4.3 to compare a justified alternative while preserving the method and controls. Return a supported repair, no change or the exact evidence limit; §4.4 shows a no-change result.
+- **A reader gets stuck, completes a different task fluently, or encounters a costly demand.** Compare the work the intended recipient brought with the task and help available in the passage. Use §4.3 to locate the lost choice, missing support or unnecessary demand and test a repair against the original use.
 
-The first route asks why formal assurance helps. The second investigates a concrete obstruction or burden; a general complaint about complexity alone does not diagnose it. A missing subject prerequisite, a necessary control or a difficult decision may remain after the wording is clear. Keep the inquiry's cost proportionate to the useful result it can change.
+The first route asks why formal assurance helps. The second investigates the work a passage actually elicits, including a different choice made smoothly. A missing subject prerequisite or unsuitable assignment may call for a different intervention from a repair to the explanation.
 
 ### E.12:2 - **Problem**
 
@@ -112242,24 +112252,24 @@ Name the decision the assurance makes possible. To claim that the work now takes
 
 #### E.12:4.3 - Mechanism 2: The Human-Factor Loop (HF-Loop)
 
-Use this bounded inquiry when an intended reader encounters a specific consequential obstruction in a named passage or workflow under its stated prerequisites, or when a concrete work demand may cost more than it contributes to the receiving value. A workload report can identify a concern; it does not diagnose its cause or establish a psychometric threshold.
+Use this inquiry when the working result gives reason to examine what a passage or workflow asks of its intended reader. Difficulty can be visible as delay, an unsuccessful attempt, excessive work or a fluent answer to a different question. A workload report or a smooth performance can justify looking closer. Establish what the reader was actually doing before attributing a cause.
 
-1. **Recover the working question.** Name the reader's task, passage or workflow, stated preparation/access prerequisites, failed or costly action, and the result it should support.
+1. **Recover the working question.** Read the recipient's commission beside the task they actually received. Identify who had to decide or explain what, which objects and conditions mattered, and which choices the instructions or ordinary help already supplied. Follow the difference to its consequence for the intended work.
 
    Preserve the relevant assurance and control conditions. If the suspected demand cannot change a worthwhile result, C.11.DUA can justify stopping the inquiry at that limit.
-2. **Inspect the initial attempt before explaining.** For an actual reading inquiry, retain what the reader initially understood and tried with the public passage and stated task inputs, including where the action stopped or went wrong.
+2. **Inspect the initial attempt before explaining.** Retain what the reader understood and did with the published passage, task inputs and ordinary permitted support. Include a successful answer to a different task when it helps locate the change of question.
 
    Distinguish an implicit condition, a missing stated prerequisite and an unavoidable subject question.
 
    Choose the inquirer for this question; profession, competence, assignment and amendment authority remain distinct.
-3. **Compare a meaning-preserving alternative.** Make an implicit condition explicit, reduce an unnecessary demand or change the expression only where the suspected obstruction warrants that comparison.
+3. **Compare an alternative for the original use.** Make a condition explicit, remove an unnecessary demand or restore the decision the reader was commissioned to make. Distinguish a change to the wording or help from a change to the work assigned.
 
-   Hold task, prerequisites and assurance constant. Check the full connected passage under F.19; a shorter text that removes a needed condition has not preserved the method.
+   Keep the commissioned task, ordinary prerequisites and assurance requirements constant when comparing expressions. If the previous assignment asked for a different result, record that difference and judge the repaired assignment against the original commission. Use F.19 on the connected passage.
 
    Evaluate the attainable inquiry's burden under C.11.DUA.
 4. **Qualify the evidence.** An expert walkthrough judges recovery from the public text; it is not an observed reader response.
 
-   Preserve an actual reader's unassisted first attempt. A repeat after explanation is assisted and familiar, not another independent first reading or proof of reduced workload.
+   Preserve the first attempt and the support available to the reader at the time. Unaided recognition requires an unaided first attempt. In a practice with ordinary help, observe what the reader can do with that help. A repeat after the reviewer's explanation shows performance under the changed conditions.
 
    Psychometric or causal conclusions require their own selected domain methods and data.
 5. **Stop with the supported result.** Return a justified wording/content repair, no change, or the exact evidence limit and any worthwhile next question.
@@ -112285,8 +112295,8 @@ A second attempt after explaining the list can support only a qualified assisted
 ### E.12:5 - **Conformance Checklist**
 
 *   **CC-E12.1 (Rationale Mandate):** Every key assurance episteme or publication, including an assurance case or proof publication, **MUST** contain a non-empty, human-readable `rationale` that satisfies the "So What?" test. Any `AssuranceLevel` claim separately cites its applicable `B.3.3` profile and shows that the target meets that profile's criteria.
-*   **CC-E12.2 (Bounded inquiry trigger):** A significant workflow **SHOULD** make consequential reader obstructions or doubtful work demands recognizable. An inquiry names the task, passage/action, prerequisites and relevant assurance boundary; a conceptual workload threshold alone is insufficient.
-*   **CC-E12.3 (Inquiry and stop):** For a live trigger, apply §4.3 at a burden warranted by C.11.DUA. An actual reading inquiry preserves the initial unassisted attempt before explanation and compares any proposed alternative at unchanged task/prerequisites/assurance. Return a supported repair, no change or the exact evidence limit; qualify assistance and leave amendment authority separate.
+*   **CC-E12.2 (Bounded inquiry trigger):** Examine a consequential mismatch between the commissioned work and the work the passage elicits, an obstruction or a doubtful work demand. Recover the task, passage, prerequisites and assurance the use requires.
+*   **CC-E12.3 (Inquiry and stop):** Apply §4.3 at a burden warranted by C.11.DUA. Preserve what the reader did before the reviewer's explanation and the help ordinarily available. Compare the candidate with the commissioned task and its intended conditions. State the repair, the grounds for retaining the passage or what the evidence leaves open. A reader's success supports conclusions about the work that reader actually did.
 *   **CC-E12.4 (Didactic Primacy in DRRs):** Any DRR proposing a change to a normative pattern **MUST** include a section analyzing its impact on cognitive ergonomics and didactic clarity.
 
 ### E.12:6 - **Common Anti-Patterns and How to Avoid Them**
@@ -112308,7 +112318,7 @@ A second attempt after explaining the list can support only a qualified assisted
 
 ### E.12:8 - **Rationale**
 
-The `Rationale Mandate` requires a clear explanation of the cognitive purpose of each key assurance episteme or publication. The bounded Human-Factor inquiry examines an actual reader obstruction or work demand while retaining the method's prerequisites and assurance. It does not require a speculative threshold or a refinement proposal when none is supported.
+The `Rationale Mandate` connects formal assurance to its cognitive purpose. The Human-Factor inquiry examines a consequential difference in the reader's work, including apparent success on an easier assignment. Its result may justify a repair, retention or further inquiry.
 
 A purely conceptual workload warning would leave the reader without a next action; a stronger psychometric or causal method would require separately justified observations and design.
 
@@ -112403,7 +112413,7 @@ Typical failures include:
 2. **Evaluation loops become reward functions.** A checking reader asks for improvement; the author adds fields, guards, source rows, proof sketches, and relation catalogues until the visible evaluation looks better.
 3. **Unmeasured value is damaged.** Usability, safety margin, maintainability, learning, domain fit, affordability, or operator action quality gets worse while the proxy improves.
 4. **The proxy's use is unspecified.** The same metric is treated as orientation cue, target, incentive, gate, and release proof without saying which use applies.
-5. **No value slice exists.** The text claims practical payoff, but gives no minimally viable case that shows the value being realized.
+5. **The payoff has no grounds in the work.** The account neither connects the proposal to the intended value under its stated conditions nor supports a claim that the value was realized.
 
 ### E.13:3 - Forces
 
@@ -112466,15 +112476,15 @@ Whenever a proxy improves under optimization pressure, ask what became worse or 
 
 Check at least usability, affordability, safety or harm boundary, maintainability, domain fit, source preservation, decision quality, learning, and neighboring-pattern fit when they are live in the case.
 
-Report the affected decisions, protected qualities and interactions covered by the comparison. A gain for one shift can be established even while the effect on another is unknown. If both shifts depend on the same specialist in the same hour, examine what the specialist can deliver to both before claiming a gain for the service as a whole.
+Report whose decisions, protected qualities and interactions the comparison covers. An effect on each part, a dependence between parts and an effect of their organization are different claims. For example, if two shifts need one specialist at the same time, their joint outcome depends on how that time is allocated. A claim about the improvement of one shift can be settled with the other shift's outcome still open.
 
 #### E.13:4.4 - Require a Minimally Viable Value Slice
 
-Require a minimally viable value slice: one compact case, worked slice, observation, trial, user/operator moment, or decision replay where the intended value is visible enough for the declared use.
+A minimally viable value slice gives the recipient enough grounds to judge the practical value claimed. For an expected consequence, relate the proposed change to the recipient's work and establish the conditions under which the consequence follows. A general argument, a worked comparison or an available observation may supply the needed grounds. For a claim about actual improvement, examine use and the comparison needed to attribute the change.
 
-State whether the slice is an illustration, desk replay, or observed use, and what conclusion it supports.
+Identify the grounds the value slice supplies, whose outcome it concerns and which variations its reasoning covers. A consequence of a binding obligation and an observed change in someone’s work support different claims.
 
-The slice may be small. It must show the intended value for the declared use. A proxy reading alone is insufficient.
+A short account is sufficient when the recipient can recover the connection over the range in question. If a measure concerns a proxy, explain why it bears on the intended value.
 
 A worked illustration can explain how a proposed repair would serve that value; it does not by itself establish an observed gain. Keep any claim about actual improvement within the comparison and evidence that support it.
 
@@ -112488,9 +112498,9 @@ When the proxy has displaced the value, choose one or more of these repairs:
 
 - where the governing rule permits it, change the proxy use from target/gate/incentive to orientation or bounded measure. If a binding requirement must change, propose the amendment under its authority and keep the current requirement in force until that amendment takes effect;
 - add a protected quality or counter-metric that names the value at risk;
-- change the work or design so the value slice improves, not only the proxy;
+- change the work or design where the proxy can improve while the intended value deteriorates, and assess what the change does to that value.
 - split the claim: one measure report, one value claim, one assurance or gate claim if needed;
-- stop the value claim until a value slice or better proxy relation exists.
+- suspend an unsupported claim, or state the consequence and conditions the available grounds already establish.
 
 ### E.13:5 - Archetypal Grounding
 
@@ -112515,7 +112525,7 @@ In evaluator-satisfaction bias, a team adds apparatus to satisfy an evaluation s
 | `CC-E13-1` | The repair names the intended value or objective before the proxy. |
 | `CC-E13-2` | The proxy or visible measure is typed by current use: orientation, measure, target, incentive, gate, release argument, decision driver, reputation signal, or repair target. |
 | `CC-E13-3` | If a proxy improved, the repair asks what got worse and names checked loci or protected qualities. |
-| `CC-E13-4` | A minimally viable value slice shows the intended value for the declared use, or the value claim is lowered. |
+| `CC-E13-4` | The ground for the claimed value reaches the recipient, use and conditions named in the claim. Where it reaches only part, identify that part and what would support the wider claim. |
 | `CC-E13-5` | The repair does not treat evaluation values, source counts, review praise, all-`5` posture, assurance level, or release status as value by itself. |
 | `CC-E13-6` | Stronger claims are governed by their direct patterns: measurement by `C.16`; quality evaluation by `E.21`, `E.9.DA`, or `E.2.DA`; assurance by `B.3`; gate passage by `A.21`; choice among options by `C.11`; decision authority by the applicable domain rule; and value and proxy alignment here. |
 | `CC-E13-7` | The repair changes value movement, proxy use, protected qualities, claim split, or stop condition; it does not close by adding proof apparatus alone. |
@@ -112529,13 +112539,13 @@ In evaluator-satisfaction bias, a team adds apparatus to satisfy an evaluation s
 | Source-count proof | More citations or source rows are treated as better decision quality. | Ask what changed in the substance of the decision. |
 | Dashboard myopia | A visible dashboard metric improves while unmeasured harm rises. | Add protected qualities and split measure from value. |
 | Proxy as gate authority | A proxy is treated as authority for release or gate passage without satisfying the rule that governs that decision. | Apply the governing release rule for release, `A.21` for gate passage, and `B.3` for an assurance claim; keep proxy use bounded. |
-| Value slice missing | Practical payoff is asserted but never shown in a case. | Add a minimally viable value slice or lower the payoff claim. |
+| Unsupported payoff | A passage promises a gain without showing why it follows for the recipient or what happened in use. | Supply the missing connection or observation. Limit the conclusion to what those grounds support. |
 
 ### E.13:12 - Consequences
 
 - FPF can use scores and metrics without making them the object of optimization.
 - Improvement loops gain a simple value-proxy stop condition.
-- Practical payoff claims need at least a small value slice.
+- An expected consequence can follow from the structure of the work. A claim about achieved improvement needs evidence of the work and an appropriate comparison.
 - Some attractive proxy improvements are rejected, split, or lowered.
 - The cost is a small proxy-to-value check whenever a visible measure becomes a target, incentive, gate, release argument, or repair target.
 
@@ -112577,7 +112587,7 @@ Use this pattern when FPF text needs to stay readable as one human working model
 
 **What this buys.** A working reader sees one small model first, while assurance readers can still recover mapping, logical, constructive, and empirical grounding without forcing that machinery back into the Working-Model vocabulary.
 
-**Ordinary route.** Write the shortest practitioner sentence that says what the claim is about, what it claims, and what use it supports. If no assurance-bearing reliance question is current, let the reader stop there.
+**Ordinary route.** Name the claim, its subject and what the recipient came to learn, decide or do. A short statement can close a request to identify the claim. An explanation may also need the relation that makes it follow. Someone designing a way to choose needs grounds they can use when the choices change. Supply what the commissioned work requires and add the assurance route when warranted.
 
 When an assurance-bearing reliance question is current, place only the needed Mapping, Logical, Constructive, or Empirical support underneath that sentence and cite the pattern that defines or tests each supporting claim.
 
@@ -112645,7 +112655,7 @@ Publish one human-facing Working-Model with its assurance available underneath.
 #### E.14:4.1 - Human-Centric principles
 
 ##### E.14:4.1.1 - Recognition text and assurance text
-Keep the same EntityOfConcern in the recognition and assurance text. The working reader should not meet one object in the recognition text and a different ontological kind in the assurance text.
+Keep the target assertion, its EntityOfConcern and its scope recoverable in both recognition and assurance. A supporting premise may concern a part, another kind of subject or another model. Show which relation lets the reader use that premise for the original assertion and under which conditions it holds.
 
 If the pattern distinguishes an EntityOfConcern, the interpretive or operational move applied to that object, and the wider review or work process around it, the text should distinguish them explicitly instead of changing nouns as though the object, move and work were interchangeable.
 
@@ -112677,7 +112687,7 @@ Add F.6 when precise assignment-bound attribution is consumed, keeping the assig
 
 An ordinary result may omit identifiers it does not consume while keeping all facts needed for its use recoverable.
 > **E.14-P.1 – Working-Model first, assurance when current.**
-> Operate one **Working-Model** for all human-facing discussion and state the direct claim first. If neither the publication nor a named current requirement calls for assurance, the author may stop there.
+> State the direct claim in one **Working-Model** for human-facing discussion. The reader can stop when that claim and its ordinary explanation answer the commissioned question. Supply additional grounds when the reader needs them to understand, choose or act. Add the formal assurance called for by the publication or current requirement.
 >
 > When assurance is current, declare only the posture and forms of support required by the applicable pattern: **Mapping** to align a term with the chosen model value it names; **Logical** to state label meaning, scope, constraints, and limits; **Constructive** to make independently grounded construction facts inspectable; or **Empirical Validation** to support a bounded reliance on a domain result.
 >
@@ -112806,7 +112816,7 @@ Under B.3/B.3.3, Empirical Validation contributes what its result establishes fo
 
 #### E.14:5.6 - Purpose-selected support for a single Working-Model statement
 
-Start with the direct Working-Model arrow **A –Component-of→ B**. If no assurance-bearing reliance question is current, the author may stop there. If a profile or named current requirement is active, add only the support it calls for:
+Start with the direct Working-Model arrow **A –Component-of→ B**. It can settle which whole a specified part belongs to. To explain how an arrangement works, connect that membership to the relationships on which the result depends. When a profile or current requirement calls for assurance, add its prescribed support:
 
 1. **Mapping**, when source-word alignment matters, shows that *A* and *B* are the chosen labels for their model values and records background labels without making them Working-Model names.
 2. **Logical**, when the relation reading needs assurance, states what **Component-of** means here and the boundaries of that use.
@@ -112909,7 +112919,7 @@ The **Working-Model layer remains the canonical publication face** for authors a
 1. **Exact skid assembly -> “Component Of”**
    For PumpSkid 7, recover the pump, frame, reservoir, valve set, and other constituents; the direct fastening, coupling, enclosure, terminal, flange, and seal occurrences that obtain; the applicable skid assembly rule; and the skid reidentification rule.
 
-   The team may publish each truthful **Component Of** claim and stop there. If the publication elects `B.3.5`, keep that readable claim first, link it to one current C.2.1 `sum` trace that reports the basis, and declare `validationMode=axiomatic`.
+   A commission to state these **Component Of** relations can end with the established memberships. A commission to explain the identity of the assembled skid also needs the relation and reidentification conditions below. If the publication elects `B.3.5`, keep the readable claim first, link it to one current C.2.1 `sum` trace that reports the basis, and declare `validationMode=axiomatic`.
 
    The same parts unconnected or assembled differently do not thereby form PumpSkid 7. A permitted pump replacement may preserve PumpSkid 7. The direct relations and reidentification rule decide; the trace and posture do not.
 
@@ -113129,7 +113139,7 @@ Then test each probe against the candidate:
 * **retired:** an explicit decision removes it and states the affected use;
 * **lost or unresolved:** repair it or return it before claiming continuity.
 
-For text copied unchanged, identity may establish preservation. After a large deletion, compression, move, or rewrite, line count, author intent, and a high-level summary cannot establish what happened to every predecessor function.
+For text copied unchanged, identity can establish preservation of wording. To establish preservation of a working function, compare the reader's question, referents, conditions and available support before and after the move. A passage that still names the same operation can lead its new recipient to do a different job. For a deletion, compression, move or rewrite, follow each affected predecessor function to its destination or identify the loss.
 
 The independent inventory need not become a permanent row-by-row file when the receiving workflow needs only the verified candidate and aggregate result, but the inspection must be complete.
 
@@ -113224,7 +113234,7 @@ The method biases toward continuity and inspectability (**Arch**, **Onto/Epist**
 | **Version number supplies semantics** | `major`, `minor`, or `patch` is treated as proof of compatibility. | Decide continuity first; use a version label only to communicate that decision. |
 | **A new trace for every change** | DRR, review, source, check, and landing facts are copied into another authoring-trace record. | Keep the minimum change account in the receiving workflow and cite existing results. |
 | **Precise fragment, unreadable pattern** | A formal repair passes a token check while the whole pattern loses recognition and practical entry. | Read the whole changed pattern for practitioner recoverability and simplify non-load-bearing formal language. |
-| **Self-log as practitioner guidance** | The pattern publishes its own authoring history and calls it Work or quality evidence. | Keep one worked practitioner case in the pattern; keep actual work and evaluation evidence in their direct records. |
+| **Self-log as practitioner guidance** | The pattern publishes its own authoring history where a practitioner needs grounds to act. | Explain the method at the reach promised to its users. Use a worked case when it makes a needed relation recoverable and carry that relation back to their own work. Keep actual work and evaluation evidence in their direct records. |
 
 ### E.15:9 - Consequences
 
@@ -113428,6 +113438,8 @@ Every budget **MUST** reference an `overrideProtocolRef` that defines the availa
 * **NarrowAutonomy(budgetId, Δscope)** - apply stricter limits;
 * **Escalate(budgetId)** - hand over through the declared override-authority path.
 
+Narrowing this authorization can change who may do part of a service while the commission for the service still stands. For a request about the budget, the new limit can complete the answer. If a recipient also needs the service, establish which authorized performer or arrangement can supply the rest, or take the unresolved commitment to the person empowered to revise it.
+
 The declaration names the A.2.7 incompatibility species and its predicate. Before a proposed pause, resume, narrowing or escalation, identify that bounded override action, its real holder/assignment and independent authority. The target navigation Work may already exist; the proposed override is not yet override Work.
 
 Apply the actual-Work species when its condition concerns the existing target Work, or the separately declared prospective species when the policy concerns allocation to the proposed override action. Resolve both actual assignments, holders, relevant subject identity, windows and applicability; reject a known prohibited joint allocation. Different labels or assignment IDs alone do not establish separation.
@@ -113563,7 +113575,7 @@ Telemetry and selection lenses are optional.
 ## E.17.0 - Viewpoint and View Recognition for Multi-View Describing
 > **Status:** Stable
 
-**At a glance.** Use `E.17.0` to decide whether one identified engineering account is a view under the existing viewpoint you are testing. Test the viewpoint’s rules even when the account’s label, layout, generation history, bundle position or publication suggests it is a view.
+**At a glance.** A viewpoint specifies what descriptions made for a purpose must cover. To choose one, start from what the reader needs to decide or explain (§4.8). To recognize an existing view, test the identified account against the specified viewpoint’s rules (§§4.1–4.5). Its label, layout, generation history or place in a bundle can help locate the account.
 
 **Use this when.** A description, model slice, query result, diagram, or other claim-bearing episteme is being called a functional, safety, maintenance, architecture, or other view, and the next reading, comparison, construction, or publication depends on whether that claim is warranted.
 
@@ -113571,7 +113583,7 @@ Telemetry and selection lenses are optional.
 
 **What this buys.** One stable test works for directly authored and derived epistemes. Identify the candidate E, resolve the viewpoint edition P, and test P's fixed conformance predicate. Both epistemes retain their identities.
 
-**First action.** Recover candidate E through C.2.1, resolve an existing `U.ViewpointRef` to P, and read the target, concern-coverage, semantic-form, completeness, consistency, and admitted-omission rules fixed by P. Do not author a new viewpoint or bundle merely to perform this test.
+**First action.** For selection, identify an alternative that changes the reader's action or the grounds for it, then use §4.8 to choose the distinctions the description must preserve. Use §4.6 if a needed convention must be authored or revised. For recognition, recover candidate E through C.2.1, resolve the existing `U.ViewpointRef` to P, and read the rules fixed by P. The first result of that test is the conformance judgment below.
 
 **First useful result.** State one readable judgment: either `episteme E conforms to viewpoint edition P`, in which case the same E is a `U.View`, or `E does not conform to P`, naming the failed fixed rule without inventing a negative relation occurrence. Keep the identities of E and P recoverable. If missing identity or interpretation prevents the fixed predicate from being evaluated, report the unresolved condition rather than manufacturing a negative result.
 
@@ -113626,6 +113638,8 @@ A common error is using the wrong object to justify the next action. For example
 ### E.17.0:4 - Solution
 
 **Recognition test.** Identify the candidate episteme. Resolve the existing viewpoint episteme. Test their fixed conformance predicate. If it obtains, recognize the same episteme as a view; if it fails, name the failed rule and stop or repair. Add construction, selection, correspondence, evaluation, or publication only for the current use.
+
+When the question concerns choosing what each account must show, use §4.8 before selecting a convention. If available conventions omit a needed distinction, §4.6 governs creating or revising one. For the question whether a particular account conforms to an already specified viewpoint, apply the following recognition test.
 
 See §§4.1–4.11 for the object distinctions, obtaining rules and stopping conditions behind this reminder.
 
@@ -113759,7 +113773,7 @@ The first row sets the ordinary architecture. The second demonstrates the narrow
 
 ##### E.17.0:4.6.1 - Author the smallest self-contained viewpoint episteme
 
-Identify the independently admitted target kind `K_target` that the candidate epistemes' EntitiesOfConcern must satisfy. For a local kind, recover its candidate domain, operative membership condition, intended member/non-member boundary, and continuity rule. Use a practice or source boundary only to find or compare that membership rule. Use an exact C.3.2 `KindSignature` edition and `U.ContextSlice` only as separate inputs when the membership test needs them.
+Start from what a reader must be able to decide or explain from a description made under P. Which subjects can that question concern? Which changes to a subject or its use would require a different conclusion? Use those answers to choose the target and concerns and to justify which omissions a conforming description may admit (C.39.SA:4). Identify the independently admitted target kind `K_target` that the candidate epistemes' EntitiesOfConcern must satisfy. For a local kind, recover its candidate domain, operative membership condition, intended member/non-member boundary, and continuity rule. Use a practice or source boundary only to find or compare that membership rule. Use an exact C.3.2 `KindSignature` edition and `U.ContextSlice` only as separate inputs when the membership test needs them.
 
 Constitute P under C.2.1 as `<ClaimGraph(P), K_target, ReferenceScheme(P)>`; the target kind is P's EntityOfConcern because P states how epistemes about members of that kind are to be read. P's fixed ClaimGraph:
 
@@ -113977,7 +113991,9 @@ Changing only J, an assertion or occurrence description, evaluation result, basi
 
 #### E.17.0:4.8 - Keep selection for one describing use separate
 
-For one current describing use, always name the use. Add one singular `viewpointRef : U.ViewpointRef` only when selecting P changes what the use reads or checks or what a relying use may conclude; otherwise omit the reference. When present, resolve it under the effective reference scheme to P. `ViewpointId` is P's designator; designator, reference, episteme, and describing use remain different objects.
+For one current describing use, name the question the reader must answer. When you are to choose the viewpoint, start with a difference that could change the reader’s action or its explanation. For each kind of holon whose composition matters, identify the whole and constituents on which that difference depends. At each needed scale, ask which cases the description may treat alike. Choose a viewpoint whose concerns require the necessary distinctions (C.39.SA:4). For a claim that model C strictly refines model A, fix the inquiry and interpretation. Establish that C has an admissible completion and that every such completion, read in A’s terms, satisfies A’s assertions. Also identify an answer admitted by A that no completion of C can give (B.5.MR:4.2).
+
+One description may supply the entire answer. When it takes several, trace each needed conclusion to what the descriptions establish for the original question. Identify what relates their subjects and conditions. If their claims must hold together, establish that they concern compatible objects or situations. If the descriptions express alternative readings, check what follows on each. In a question about joint work, a change in one participant’s choice can alter what another must do for the common result. Follow that dependence through the descriptions the participants can use. A similar label on both pages can leave it invisible. Use C.37.MM:4.1.1 where the inference needs a correspondence. If the commission asks only whether E conforms to a specified P, §§4.1–4.5 give the complete test. Add one singular `viewpointRef : U.ViewpointRef` only when selecting P changes what the use reads or checks or what a relying use may conclude; otherwise omit the reference. When present, resolve it under the effective reference scheme to P. `ViewpointId` is P's designator; designator, reference, episteme, and describing use remain different objects.
 
 When the viewpoint matters, select P only for that describing use. The selection does not establish conformance or `U.View` membership, give E a new C.2.1 identity, reidentify E, or create a universal selection relation, legacy context tuple, bounded-context object, or generic model-use identity field. Another use may select another P while E remains unchanged. A use needing several viewpoints first identifies the C.13 collection and its exact membership; it does not overload `viewpointRef` with a collection value.
 
@@ -114266,7 +114282,7 @@ When you name a family designator for a describing use, resolve catalogue editio
 - every candidate episteme E used under a member is independently identified under C.2.1 and is a `U.View` only when `EpistemeViewpointConformanceRelation(E,P)` obtains; and
 - every one-viewpoint selection for one describing use carries a single `viewpointRef`; importing the family neither selects P for that use nor establishes conformance.
 
-A local subset names catalogue edition L, the source family designator, and the member references actually used, and identifies omitted members as unused or intentionally excluded.
+A local subset identifies its source catalogue edition L, family designator, members used and omissions. When the project also asks you to choose a subset for a practical question, use §14.1.
 
 A multi-library use preserves each `<editionDesignator(L), familyDesignator>` source and member provenance rather than flattening everything into one unnamed family. If one use selects several viewpoints, it constructs their C.13 collection with membership. It does not overload one reference or infer a new family from adjacency.
 
@@ -114419,7 +114435,7 @@ A `MultiViewDescribing` use may import only a subset of a bundle's viewpoint ref
 - which viewpoint members are in local use,
 - and whether the omitted members are unused or are intentionally excluded because the local scope does not require them.
 
-The local family must not speak as if it had imported the whole bundle while silently dropping inconvenient viewpoints.
+To choose a subset, recover the question the descriptions must answer. Which claims would let the recipient act or explain the result? Select the viewpoints whose rules call for those claims. A single member may cover a whole service. If the decision depends on how two parts of the service work together, establish that the descriptions can be related under the conditions of that decision. If the catalogue leaves a needed claim uncovered, identify where to obtain it. A commission confined to importing a specified subset ends when its members and provenance are recoverable.
 
 #### E.17.1:14.2 - Local overlays vs new bundles
 
@@ -114553,7 +114569,7 @@ Local teaching aliases may be added for readability, but the alias must identify
 ### E.17.1:19 - Bundle Projection and Comparative Use
 
 #### E.17.1:19.1 - Projection to local subsets
-A description family may project only a subset of a reusable bundle. This is admissible if the description of the local subset identifies the omitted members. Projection keeps bundle provenance intact while acknowledging that local publication rarely uses every member.
+A description family may project only a subset of a reusable bundle. Identifying omitted members makes the extent of the import clear. Use §14.1 to judge whether the subset will serve a particular question. Projection keeps bundle provenance intact while acknowledging that local publication rarely uses every member.
 
 #### E.17.1:19.2 - Comparative bundle use
 
@@ -114570,7 +114586,7 @@ A reviewer can test a viewpoint bundle library with five questions:
 
 1. **Do the member viewpoints still have explicit standalone meaning?**
 2. **Does the declaration retrieved by the family designator describe one coherent recurring family rather than one convenience list?**
-3. **If a subset is imported, can the reviewer see which members were omitted?**
+3. **Can the reviewer see which members were omitted and, if the subset is recommended for a task, how the retained descriptions can support that task?**
 4. **If several bundles interact, is provenance preserved, and does each comparison use its subject method with F.9 added only for a semantic relation between distinct local senses?**
 5. **Has a publication face started impersonating the library?**
 
@@ -114587,15 +114603,15 @@ Prefer small, provenance-preserving declarations inside editioned catalogues ove
 
 **What this buys.** TEVB supplies a four-position authoring template. Once a project has constituted its own catalogue L and bound four local references to four viewpoint epistemes, that project can reuse the resulting local family while keeping candidate episteme, described holon, conformance, cross-view relations, and publication separate. One use may select just one bound member.
 
-**First action.** Resolve the already admitted project-local catalogue edition L and the local declaration designated by `f_eng`, then resolve only the `U.ViewpointRef` needed for the present question. If L or the declaration is new, missing, or disputed, use E.17.1:4.2 to constitute or verify `<G_L, K_L, R_L>` for that edition. If a needed P edition is missing, author and admit it under E.17.0 before binding its reference.
+**First action.** Resolve the already admitted project-local catalogue edition L and the local declaration designated by `f_eng`, then use the engineering question to choose which member references to resolve (§4.3). If L or the declaration is new, missing, or disputed, use E.17.1:4.2 to constitute or verify `<G_L, K_L, R_L>` for that edition. If a needed P edition is missing, author and admit it under E.17.0 before binding its reference.
 
 Reuse those results while the catalogue edition, effective scheme, declaration, and relied-on premises remain unchanged.
 
-**First useful result.** A materialized local family has one project-local L, ordinary family designator `f_eng`, four local references `r_functional`, `r_procedural`, `r_allocation`, and `r_module`, and four local P targets to which those references resolve under `R_L`. For a later use, the result consists of the admitted L and declaration, one needed reference resolving one P, and a readable E/P conformance judgment.
+**First useful result.** A materialized local family has one project-local L, ordinary family designator `f_eng`, four local references `r_functional`, `r_procedural`, `r_allocation`, and `r_module`, and four local P targets to which those references resolve under `R_L`. For recognition of one view, the result is the admitted L and declaration, the reference resolving P, and the E/P conformance judgment. When the question concerns the engineering work itself, use the claims of the relevant views to answer it.
 
 Before the four bindings exist, the result is only an authoring template, not a reusable family value.
 
-**Ordinary stop.** For materialization, stop when the local catalogue triple, declaration claim block, four reference bindings, and four P targets are recoverable. For later use, stop after resolving the admitted L and declaration, the one needed P, and its E/P judgment. Reopen full catalogue constitution only under the E.17.1:4.2 triggers.
+**Ordinary stop.** For materialization, stop when the local catalogue triple, declaration claim block, four reference bindings, and four P targets are recoverable. For recognition under one specified viewpoint, stop at its E/P judgment. For an engineering question, stop when the claims and any relations the answer depends on warrant that answer. Reopen full catalogue constitution only under the E.17.1:4.2 triggers.
 
 Add another member, structured viewpoint-authoring witness, C.13/A.22 organization, construction history, cross-view relation, evaluation, or publication object only when a named receiving use depends on it.
 
@@ -114750,6 +114766,8 @@ The dependency relation in this table is `ViewpointConventionDependencyRelation`
 When an A.22 selection judgment needs an explicit claim that one obtaining dependency occurrence is admissible for that use, identify the separate decision-use episteme described by E.17.0. Do not insert that decision, its evidence, or its evaluation result into the dependency relation or S identity.
 
 #### E.17.2:4.3 - Keep the four concern conventions distinct
+
+Choose among these concerns from the engineering question. Which difference in the holon, its use or its parts could change the answer? For example, a plant-wide flow bound during a pump change can establish a minimum total flow. If each outlet has a separate minimum, the same total can hide a loss at one outlet. Trace which paths serve which outlets during the change. Where supply depends on switching order, relate the operations of the switching Method to the equipment available at each stage. A claim that yesterday’s crew actually switched in that order draws on its work. A single view can already carry all the grounds for the particular answer.
 
 **Functional.** A conforming candidate episteme foregrounds transformations, capabilities, effects, functional elements, or transformation-flow relations of its holon. It does not identify a module structure by functional vocabulary and does not mint `U.Function`. Any neighboring responsibility claim keeps the admitted System, local system-role kind, current C.3.2 classification judgment, assignment, kind-relation structure, capability, transformation, and direct responsibility relation separate. Use A.2, C.3.2, A.2.1, A.2.7, or the direct responsibility pattern for the claim made.
 
@@ -114959,7 +114977,7 @@ Responsibility/allocation is retained because it changes the practical question 
 11. Every cross-view relation names its predicate, participants, obtaining test, and applicable pattern; a diagram edge, correspondence label, citation, shared holon, or common template is insufficient.
 12. Form expression, carrier bearing, five-participant publication and recurrence, rendering work, mathematical representation under C.29, and any publication-side viewpoint remain distinct and make no represented world-side relation obtain.
 13. Cross-project reuse is claimed only for the same resolved L, declaration, and member references. Equal TEVB position labels or independently filled templates establish no shared family.
-14. Later ordinary reuse resolves the admitted L and declaration, then one needed P, and stops after the readable conformance judgment unless a named receiving work needs more structure. It reopens full catalogue constitution only under the E.17.1:4.2 triggers.
+14. Later reuse for recognition under one viewpoint stops after the readable conformance judgment. An engineering answer must be supported by the claims in the selected views and any cross-view relation on which it relies (§§4.3, 4.6). It reopens full catalogue constitution only under the E.17.1:4.2 triggers.
 
 ### E.17.2:End
 
@@ -114980,9 +114998,9 @@ Responsibility/allocation is retained because it changes the practical question 
 
 **First output.** One useful publication face, or the smallest necessary set, that names the source, intended reader/use, what it preserves or omits, and how to return to the source. No ClaimGraph, formal profile, viewpoint bundle, evidence package, or four-face completion is required for this ordinary result.
 
-**Working publication move.** Select the current source and the minimum face set for the named readers. Copy or conservatively arrange only source-backed claims. Mark material omissions, state the bounded use, then publish and stop. If a face will carry safety, release, evidence, cross-context, or other consequential reliance, strengthen only that face with the relations and records that the reliance needs.
+**Working publication move.** Select the current source and the minimum face set for the named readers. Copy or conservatively arrange only source-backed claims. Try the work each reader is meant to do using the face and the sources available in time. If the source supplies only part of the commissioned answer, identify the supported contribution and return the missing question to the source author or the person commissioning the work. Publish that contribution on its own when a permitted partial delivery serves the reader. For a commission on the complete set, keep the missing grounds visible before issuing it as complete. If a face will carry safety, release, evidence, cross-context, or other consequential reliance, strengthen only that face with the relations and records that the reliance needs.
 
-**Ordinary formality rule.** A source pointer, reader/use line, readable face, and visible omission or return note are enough when the face is used for orientation, inspection, explanation, comparison, exchange preparation, or planning preparation and no downstream identity depends on it.
+**Ordinary formality rule.** A source pointer, reader/use line, readable face and visible omissions can suffice for ordinary publication. For source-finding, test whether the reader can reach the source. For explanation, test whether the reader can recover the relation and grounds that answer the question. Add formal identities only when the use depends on them.
 
 **When reliance changes the engineering move.** Identify the source edition. Resolve the viewpoint and E.17.0 conformance only if `U.View` membership matters. Identify the E.24.PUB publication occurrence, form, carrier, and bounded use when their identities matter. Cite the concrete evidence, gate, release, provenance, or assurance record that carries the downstream claim. These additions do not turn the face into that record.
 
@@ -115411,7 +115429,7 @@ These are local field names, not members of a catalogue of public kinds. A forma
 
 1. **Name source and reader/use.** Point to the current source account and say what this reader must understand or do.
 2. **Choose the minimum face set.** Start with one face; add another only when a different reader/use needs different detail or form. Copy no claim that the source does not carry, and state material omissions.
-3. **Try the reader's intended use.** If the reader needs to locate the source, a usable return to it can finish the task. If the reader must decide or act, follow that decision using the face and what the reader can access with the necessary permission and time. Carry a missing condition from the source onto the face, or provide a usable return to it. Stop when the declared use is served. Add viewpoint, scope, occurrence, pin, bridge, evidence, gate or assurance records only where their identities matter.
+3. **Try the reader's intended use.** If the reader must explain how the practice works, follow the relation and its grounds through the face. If the reader must choose a method or arrangement, recover what the source gives them for making that choice. When several readers must act together, check that their faces concern compatible conditions and retain the dependency their work requires. If the reader needs to locate the source, a usable return to it can finish the task. If the reader must decide or act, follow that decision using the face and what the reader can access with the necessary permission and time. Carry a missing condition from the source onto the face, or provide a usable return to it. Stop when the declared use is served. Add viewpoint, scope, occurrence, pin, bridge, evidence, gate or assurance records only where their identities matter.
 
 For the optional morphism profile, declare `F_face`, pin numeric or comparable content once, and establish the composition or promotion claim at its stated extent under §6. A *-Lite* face may omit optional fields and retains the strength and scope of the source claims.
 
@@ -115466,7 +115484,7 @@ Use these examples to test the MVPK invariants. A source’s reputation does not
 
 **Ordinary two-reader publication.** An accepted interface account already states the service boundary, messages, and failure conditions. A project lead needs a short explanation and an integrator needs the typed details. Publish one `PlainView` and one `TechCard`, both pointing to that same account and stating what they omit. Do not create `InteropCard`, `AssuranceLane`, a new viewpoint bundle, or a formal composition witness unless a later use needs them. The face labels establish neither `U.View` membership nor assurance.
 
-Suppose the interface account permits a retry after an explicit rejection before processing and requires a status inquiry after a lost acknowledgement. A short card for finding the interface account can stop at its reference. A card for deciding whether to retry must make the two cases distinguishable before the next send. An integrator can follow the reference to the identified rule in time. An offline shift can use a checked local copy of that edition too. If the shift has no timely authorized route to the rule, put its operative terms on the card with the source edition, or limit the card to orientation.
+Suppose the interface account permits a retry after an explicit rejection before processing and requires a status inquiry after a lost acknowledgement. A short card for finding the interface account can stop at its reference. A card for deciding whether to retry must make the two cases distinguishable before the next send. An integrator can follow the reference to the identified rule in time. An offline shift can use a checked local copy of that edition too. If the shift has no timely authorized route to the rule, put its operative terms on the card with the source edition, or limit the card to orientation. If the lead must explain why the actions differ, a list of the two instructions can leave the question open. The source may establish that the first request could already have taken effect when an acknowledgement is lost. Carry that ground into the lead’s account. If the source gives only the instructions, publish those and identify the missing ground for the requested explanation.
 
 The remaining examples exercise optional formal or load-bearing branches.
 
@@ -115581,10 +115599,10 @@ Multi-view publication is needed because one account can serve several concerns 
 **Ordinary publication**
 
 * **Current source/account:** `<recoverable source and edition or current subject>`
-* **Reader and use:** `<who needs what understanding or action>`
+* **Reader and use:** `<the question or choice the reader must be able to handle, alone or with others>`
 * **Minimal publication-form set (MVPK faces):** `<one or only the needed forms>`
 * **Bounded-use declaration for each form:** `<reader, permitted use, and blocked stronger use>`
-* **Preserved and omitted:** `<claims retained; material omissions or narrowing>`
+* **Preserved and omitted:** `<which source claims and connections support that use, and what remains open for the original question>`
 * **Return to source:** `<where the reader checks or reopens the source>`
 * **Stop:** `<why no additional face or apparatus changes this use>`
 
@@ -115610,7 +115628,7 @@ Multi-view publication is needed because one account can serve several concerns 
 
 Omitting other source content neither claims whole-source coverage nor by itself constitutes another episteme. A changed assertion, concern or effective scheme needs its own identity decision.
 
-**First identify the episteme and test the expression (ontic first screen).** Before assigning an explanation class, identify the source and the intended reader use.
+**First identify the episteme and test the expression (ontic first screen).** Recover the reader’s question from the request for an explanation. An editor may declare a narrower use that the expression can already serve. If so, establish what that use contributes to the requested explanation (C.39.QR:4.1). Identify the source and the claims and grounds the reader needs before assigning a class.
 
 1. Recover the exact source edition's ClaimGraph, EntityOfConcern and effective ReferenceScheme under C.2.1. Equal displayed words alone do not establish this identity.
 2. Test whether the text expresses enough of that edition for the declared use under E.24.PUB §4.2. Preserve every qualification that changes the answer for that use, keep the source return, and disclose use-relevant omissions. A partial expression may qualify. A missing required condition leaves source sufficiency unresolved or fails the test, even when each displayed sentence is individually true. Omission alone does not create a target episteme. Apply A.6.3.RT as well when a representation-change claim is current.
@@ -115819,7 +115837,7 @@ When one rendering needs its own narrower bounded claim or effect line, blocked 
 A publication-side reviewer starts with five questions:
 
 1. Which source edition is intended: what ClaimGraph, EntityOfConcern and effective ReferenceScheme identify it?
-2. Does the text express enough for the declared use, retaining action-changing qualifications, source return and use-relevant omission disclosure? Whole-source coverage is not required. An omitted answer-changing condition blocks this use even if the displayed sentences are true.
+2. What explanation did the reader ask for? Can the reader recover from this text and its accessible source the relation that explains the result over the requested range? If the request includes choosing how to proceed, can the reader also recover how to make that choice? A few claims can supply the full explanation. Retain the qualifications, return to source and omission disclosures that affect this use. An omitted answer-changing condition blocks this use even if the displayed sentences are true.
 3. Does the text assert changed content or concern another entity or effective scheme? If so, which exact target and independently obtaining source-to-target relation support its expression?
 4. Which E.24.PUB expression or applicable A.6.3.RT representation expresses the identified episteme, and which explanation class changes the reader's next action?
 5. Has the expression begun carrying another unsupported claim, relation, reliance or deliberately coarsened use that must return to its direct pattern?
@@ -116003,6 +116021,8 @@ To retain the sentence, constitute exact target episteme `E_robustnessClaim` and
 
 The selection relation and both limits are explicit in the source, so this is ordinary same-ClaimGraph re-expression. It needs no `addedLinkPolicy`. It is not evidence that work occurred, a gate decision, or engineering justification.
 
+These facts can explain this choice of M-2. Suppose the reader must choose a method for a later job in which the window may change. The account of this selection alone leaves open what to do then. If the source gives a selection rule and the grounds for using it across those conditions, carry them into the explanation, even if the source develops them inside this one case. Otherwise return the supported explanation of this choice and identify what remains to learn about choosing a method.
+
 Selection use concerns exact `U.Method` M-2. Planning concerns `U.WorkPlan` WP-17 under A.15.2. Any claim that work occurred requires a dated `U.Work` under A.15.1. Evidence, engineering-justification, or gate use remains under A.10, B.3, A.20, or A.21 only for a claim of that kind.
 
 #### E.17.EFP:5.2.c - Partial source expression and a mixed-face bundle
@@ -116100,7 +116120,7 @@ Use core ordinary checks first. Conditional rows open only when reader-fit, bund
 #### E.17.EFP:7.1 - EFP-Core ordinary checks
 
 0. **CC-EF-0 — Exact episteme and sufficient expression are recoverable.**
-   Identify the source through ClaimGraph, exact EntityOfConcern and effective ReferenceScheme. The expression conveys enough for the declared use, preserves answer-changing qualifications, returns to the source and discloses use-relevant omissions. Whole-source coverage is not required. Insufficiency returns the exact gap, not an invented target. A changed target needs its own identity and an independently obtaining source-to-target relation. A speculative causal or counterfactual claim belongs to a separate B.5.2 hypothesis episteme.
+   Identify the source through ClaimGraph, exact EntityOfConcern and effective ReferenceScheme. Compare the declared use with the reader’s original question. For a promised explanation, the expression and its accessible source supply the relation and grounds the reader needs, or identify the part the expression supports and the question still open. Preserve answer-changing qualifications, source return and use-relevant omissions. Whole-source coverage is not required. Insufficiency returns the exact gap, not an invented target. A changed target needs its own identity and an independently obtaining source-to-target relation. A speculative causal or counterfactual claim belongs to a separate B.5.2 hypothesis episteme.
 1. **CC-EF-1 — Explanation class follows identity.**
    The class is named for the publication expression after CC-EF-0. It is not used as episteme identity or source-to-target evidence.
 2. **CC-EF-3 — Source reference and blocked downstream use are explicit.**
@@ -116198,7 +116218,7 @@ EFP keeps the identity and bounded-use check when it changes the permitted use o
 
 **Use this when.** A team needs a small note, comparison sheet, or guided aid to compare available source epistemes or source publications. The unit should make one bounded contrast or a small set of contrast rows available for inspection, keep their shared review frame visible, and leave downstream claims and effects to the work that establishes them.
 
-**First-minute working moment.** A team has two or more source-pinned notes, sheets, views, or review aids on the table. They need one comparison unit for their review: two design options for one release, two methods for one task family, two vendor bulletins for one control scope, two research syntheses for one uncertainty question, or two programme strategies for one initiative. The note compares the sources. Action selection, approval, ontology repair and wider control of the work remain separate. A comparison alone cannot decide among the options.
+**First-minute working moment.** A team has two or more source-pinned notes, sheets, views, or review aids on the table. They need one comparison unit for their review: two design options for one release, two methods for one task family, two vendor bulletins for one control scope, two research syntheses for one uncertainty question, or two programme strategies for one initiative. The note compares the sources. Action selection, approval, ontology repair and wider control of the work remain separate. A comparison can settle which option meets an agreed criterion. Use the governing decision rule for a commissioned choice, and establish who is entitled to make or approve it when that matters.
 
 **First output.** One bounded comparison whose minimum content for ordinary use can be recovered in the unit or its immediate review context. A source-linked paragraph or small comparison table may suffice. The card below helps recover that content. The card can stay in the review context unless a receiving contract requires its separate publication. Include a blocked-use or boundary field only when it changes this comparison’s interpretation or use:
 
@@ -116284,6 +116304,8 @@ When a source is silent, report the missing coverage. Infer absence only when an
 
 Recover a missing interpretation from the source's definitions or cited basis. Use the subject's comparison Method for the claim being compared: C.16 for measurement conditions, for example, or F.9 when a required semantic correspondence connects distinct local senses. If the correspondence or required fact remains unavailable, split the contrast into what each source establishes and state the exact missing basis for the stronger comparison. Different conditions can themselves be the useful contrast.
 
+If the sources concern different constituents or give models at different levels of abstraction, recover what each establishes for the same review question. To judge whether their results hold together, identify the shared conditions or the relation under which one result constrains the other (C.37.MM:4.1.1). One source can supply sufficient grounds for the whole contrast when it compares both alternatives under that criterion. A claim about one alternative can also settle a request for one eligible option.
+
 **Derive and bound the result.** State what follows from the aligned claims and show the reason that connects them. For textual emphasis, identify the content or allocation of discussion that warrants the contrast; this alone says nothing about the described alternatives' actual performance.
 
 For a claim about the subject, preserve its applicable comparison rule and evidence. Distinguish a contrary result from insufficient support. Do not force a common ranking when the sources support different dimensions or incomparable conditions. A precise question such as “obtain B's restoration bound at production load L” is a usable return when that answer is necessary for the requested comparison.
@@ -116296,7 +116318,7 @@ The resulting note can say: “A establishes an upper bound of ten minutes at L;
 
 The comparison identifies the next inquiry: inspect A's bound derivation for an applicable tighter result, or obtain B's qualified bound at L from its validation or analysis. Select further testing only if the available support cannot answer the receiving question and that answer is still needed.
 
-Now suppose B supplies a qualified seven-minute upper bound at L with the same restoration endpoint and applicable conditions. The comparison can establish that B supplies a bound meeting the eight-minute requirement while A's stated bound does not establish that fit. It still cannot infer that every B execution is faster than every A execution.
+Now suppose B supplies a qualified seven-minute upper bound at L with the same restoration endpoint and applicable conditions. The comparison can establish that B supplies a bound meeting the eight-minute requirement while A's stated bound does not establish that fit. If the brief asks for one plan with an established bound, this result supports putting B forward. Choosing B under a standing rule to use the first plan with a demonstrated bound meeting that requirement needs that rule, which may already be in the brief. Ranking actual execution times would require different evidence.
 
 If B instead says nothing about restoration time, the result is a source-coverage gap. The same construction applies to non-numerical sources: align the claims and their conditions, then state only the contrast that those claims support.
 
@@ -116524,7 +116546,7 @@ A working reader can usually say, in one short paragraph:
 - which crossed claim is still outside this pattern and which neighboring pattern would govern that claim if it became primary;
 - and which boundary condition shows that the primary claim is no longer a bounded `ComparativeReviewUnit` claim.
 
-If the reader cannot give that account clearly, the review unit is no longer bounded enough to stay here; narrow it, clarify it, or make the governing neighboring pattern primary for the crossed claim.
+If the reader cannot tell what the comparison establishes, return to the receiving question. Clarify the source claim or the inference that bears on it. If the review unit supports only a narrower comparison, say what that comparison supplies and pursue the missing ground for the original question. The person who commissioned the work can agree to a different question.
 
 #### E.17.ID.CR:4.4 - Branch-discipline summary
 
@@ -116987,14 +117009,14 @@ Without a named publication-unit stability discipline:
 
 ### E.17.AUD:4 - Solution
 
-> Name what the unit is mainly about, the publication move it carries, the claim that remains outside, and one repair choice. Apply another pattern only when that choice requires it.
+> Recover the question the unit was meant to answer. Read what it actually asks the reader to understand or do. If the two questions differ, decide what the passage contributes to the original one (C.39.QR:4.1). Name its subject, the move it carries and any boundary that changes the reader’s use. A request confined to identifying what a passage says can end with that reading.
 
 A joint decision may require two subjects and the relation between them. Keep that connection readable. A note assessing agreement between the catalog and checkout must let the reader compare the responses the catalog can return with those checkout can handle. The connected claims can share one short passage or occupy marked sections that the reader can use together. For a scope notice, simply identifying the subjects and the question can suffice.
 
 #### E.17.AUD:4.0 - Plain working terms
 
 - `publication unit under review` = one note, memo, sheet, table, screen, or short section that readers inspect as one unit;
-- `primary subject` = what the unit is mainly about. `publicationUnitPrimaryEntityOfConcern` names the primary `EntityOfConcern` of the claim-bearing episteme or episteme-side view carried by the unit. When no such EntityOfConcern applies, use the non-claim-bearing kind named by value or an ordinary topic or subject without inventing an `EntityOfConcernRef`. An ordinary topic or subject value is not a claim about a C.2.1 entity participant;
+- `primary subject` = what the unit is mainly about. Use `publicationUnitPrimaryEntityOfConcern` only when the unit’s primary subject is also the exact `EntityOfConcern` of the claim-bearing episteme or episteme-side view it carries. A unit can use claims about several entities to explain a relation between them. For other subjects, use the non-claim-bearing kind named by value or an ordinary topic or subject without inventing an `EntityOfConcernRef`. An ordinary topic or subject value is not a claim about a C.2.1 entity participant;
 - `carried publication move` = the claim, interpretation, comparison, or explanation move the unit makes about that primary subject;
 - `outside boundary` = a decision, gate, `U.Work`, work planning, reliance claim, or continuing engineering work that remains outside the unit;
 - `local lexical head` = one word or phrase such as `review`, `interpretation`, `note`, or `text` whose meaning is unstable inside an otherwise stable unit;
@@ -117060,7 +117082,7 @@ When a wider repair needs these distinctions, use the seven questions to recover
 
 | Row | Ordinary prompt |
 | --- | --- |
-| 1 | Which publication unit is under review? |
+| 1 | Which publication unit is under review, and what question did its reader need it to answer? |
 | 2 | What is the unit mainly about? Which subjects must the reader consider together if their relation matters? |
 | 3 | What does the unit assert or ask the reader to do? If it carries linked moves, how do they contribute to the reader’s question? |
 | 4 | What downstream `U.Work`, work planning, decision, gate, or reliance claim remains outside this unit, and is that boundary mainly a neighboring pattern application, downstream claim or effect, or ongoing engineering-process continuation? |
@@ -117189,7 +117211,7 @@ For a reader using the pattern, this matters in the Problem frame and slices 5.1
 1. **CC-AUD-1 — One publication unit under review is explicit.**
    The case names one note, memo, sheet, table, screen, or short section as the unit under review. Its presentation-form label alone does not identify that unit.
 2. **CC-AUD-2 - Primary subject and carried publication move are explicit enough to identify the applicable pattern.**
-   The case keeps visible the unit’s primary subject and the publication move it makes about that subject.
+   The case identifies what the unit does for the reader’s question. When a passage turns to a constituent, another model or a worked example, the connection back to that question remains recoverable. A local move can supply one premise, settle the whole question or leave a gap.
 3. **CC-AUD-3 — Outside-work boundary is explicit.**
    The case states what downstream `U.Work`, work planning, decision, gate, or reliance claim remains outside the publication unit under review, including neighboring pattern application, downstream claim or effect, or ongoing engineering-process continuation when that distinction matters.
 4. **CC-AUD-4 — The active repair choice is named.**
@@ -117241,7 +117263,7 @@ For a reader using the pattern, this matters in the Problem frame and slices 5.1
 
 The local result is the repaired head, its kind and reading, the primary entity or relation when one is active, the action or question under repair, and the boundary with outside work.
 
-**Success condition.** LHR succeeds when a careful reader can identify the local lexical-head kind, the primary entity or relation when one is active, carried action or question under repair, and outside-work boundary for this sentence or small unit. If that is enough and the publication unit no longer shifts, stop. Apply `E.17.AUD.OOTD` only when the whole publication unit still cannot keep one primary subject, one carried move, and one outside boundary stable after the local repair.
+**Success condition.** LHR succeeds when a careful reader can identify the local lexical-head kind, the primary entity or relation when one is active, carried action or question under repair, and outside-work boundary for this sentence or small unit. If that is enough and the publication unit no longer shifts, stop. Apply `E.17.AUD.OOTD` only when readers still cannot follow which subjects and moves the unit needs to connect for their question, or where its claim ends.
 
 **When another approach applies.** Use another approach when:
 - the same publication unit still has unstable primary-subject or carried-move reading after local repair and now needs one stable answer to what it is about, what move it carries, and what remains outside;
@@ -117361,7 +117383,7 @@ Use this order when one local lexical head is carrying too much:
 1. name the overloaded word;
 2. restore the lexical-head kind;
 3. recover the supported reading. If several remain, state what still holds and check a distinguishing fact only when the difference matters to the reader’s work;
-4. restore the active primary entity or relation when one is active;
+4. restore the active entity or relation, including the relevant whole or part when the same word can name either. For instance, both an entire review Method and one constituent can be called `the method`. Read the sentence in light of the question the reader needs it to answer.
 5. restore the carried action or question under repair, if any;
 6. restore any family, governing pattern, primary entity, active relation, and nearest outside-work boundary the sentence is relying on;
 7. choose the disposition the repaired unit supports: stay with local repair, apply bounded comparison, or apply publication-unit discipline.
@@ -117408,7 +117430,7 @@ Local repair first:
 - carried move = make one boundary visible;
 - outside work = responsibility assignment.
 
-The repaired unit can now either stay with the boundary review or explicitly become a responsibility-assignment publication. Without the repair, this note overclaims by leaving the change of job unmarked.
+If the request was to report the service boundary, the note can end with that boundary. If the same commission also calls for assigning responsibility, identify who can make the assignment and how the boundary bears on that choice. The authorized assignment has its own grounds. A proposal to change the job belongs with the person who commissioned it.
 
 #### E.17.AUD.LHR:5.2 - A published text is mistaken for the policy it describes
 
@@ -117447,7 +117469,7 @@ Local repair:
 - move = bounded comparison;
 - outside work = wider architecture strategy.
 
-The paragraph now states its bounded comparison without claiming to explain the package.
+The repaired paragraph can answer a request for that comparison. If the reader asked how the whole package works, retain the comparison as a contribution and supply the connection between the compared parts and the organization of the package (C.39.GA:4).
 
 #### E.17.AUD.LHR:5.4 - Local repair selects bounded comparison
 
@@ -117647,6 +117669,8 @@ Without a named publication-unit discipline:
 >
 > It becomes necessary when local repair is no longer enough and the publication unit still shifts among subject, concern, description, carrier, process, or downstream use while sounding unchanged.
 
+First recover what the reader needed to understand, choose or do before this text was written. Ask where the property or relation in that question could arise. The reader may need an account of how a practice repeatedly produces a result, while the draft explains one participant’s choice. Trace what that choice establishes about the practice. Keep the incident as the subject when the request concerns that incident. When the wider question remains, recover the organization or rule that connects the pertinent cases and show the reader how to use it (C.39.QR:4.1, C.39.SA:4).
+
 Examples of statements that clarify a unit’s scope include:
 - `this memo is about the architecture boundary, not yet about the rollout plan`;
 - `this review note is about the incident episode and the observed contrast, not yet a production-action recommendation`;
@@ -117665,7 +117689,7 @@ If the problem is still confined to one vague local lexical head, start with `E.
 - **Carried move** = what the unit asserts, compares, explains, recommends, or otherwise communicates about its subject; it may also say that it only stabilizes the reading without adding a new claim.
 - **Downstream use** = what a reader is invited or permitted to do with the unit, such as understand, compare, approve, rely, assign, or act.
 - **Outside-work boundary** = what wider review, execution work, non-admissible downstream decision, or reliance claim stays outside the current unit.
-- **Explicit transition** = the unit names which of subject, concern, carried move, or downstream use has changed so readers can see the transition.
+- **Explicit transition** = the unit shows which subject, concern, move or use changes and why the new passage bears on the reader’s question. A move to one part, a model at another level of abstraction or a worked case may contribute a premise. Return from it to the conclusion its grounds support.
 
 #### E.17.AUD.OOTD:4.1.b - What can change
 
@@ -117814,6 +117838,8 @@ Here the primary subject broadens from the selected section to the whole overlay
 - what concern and move it carries over that subject;
 - and what wider architecture strategy remains outside the current unit.
 
+If the commissioned question is the packaging strategy itself, inspect what the section establishes for it. For example, a distribution option that requires every section to stand alone can be ruled out by one section whose essential definition is available only in another. That finding can settle a request to assess this option. To design a workable distribution, establish which definitions readers need together and how each reader will obtain them when needed. The list of required terms from this one section can contribute to that design.
+
 #### E.17.AUD.OOTD:5.4 - Unit stabilizes and bounded comparison becomes primary
 
 A review note first shifts between the selected interface boundary, the move it is making over the current evidence, and the rollout implications around that boundary.
@@ -117866,7 +117892,7 @@ To counter that bias, name the primary subject, concern, carried move, downstrea
 4. **CC-OOTD-4 - Concern, carried move, downstream use, and outside work are distinct.**
    The unit states which question it foregrounds, what it asserts or communicates, how readers may use it, and which wider work, approval, execution, decision, or reliance remains outside.
 5. **CC-OOTD-5 - Any transition is typed and explicit.**
-   If subject, concern, claim or carried move, downstream use, or the entity participant changes, the unit names which change occurred so readers can distinguish that change from the others.
+   For a change of subject, concern, carried move, downstream use or entity participant, the reader can tell why the passage shifts and what conclusion returns to the original question. A wider conclusion needs grounds across its stated range.
 6. **CC-OOTD-6 - Choose between local and publication-unit repair.**
    Use `E.17.AUD.LHR` when one local head or qualifier is the defect. Apply this pattern when that repair cannot settle the unit's subject, move, use, or outside boundary.
 7. **CC-OOTD-7 - Neighboring-pattern boundary is explicit.**
@@ -134637,13 +134663,13 @@ Consider the following R7 naming candidates under the by-value `FPFCoreReference
 
 Suppose the E.10 TokenClass, reserved-name and allowed-scope prerequisites have not yet been established for these candidates. They remain naming candidates. There is no current NameCard or public row to cite until the lexical prerequisites and naming decisions for that row are settled. These naming uses require no semantic correspondence and make no Bridge claim.
 
-| Candidate expression | Exact local sense and governed value | Covered head families and rejected overread | Three-arena invariance | Reopen/close condition |
+| Candidate expression | Exact local sense and governed value | Covered head families and rejected overread | Illustrative uses of the proposed sense | Reopen/close condition |
 | --- | --- | --- | --- | --- |
 | `SelectedRuleContentSubgraphDesignation` | use-relative designation resolving the exact nonempty base subgraph selected in one identified derivation or criterion-selection claim; governed node `SelectedRuleContentSubgraphDesignation@RuleContentBasisFindingDefinition-R7` | selected subgraph/designation, selected basis/reference, and rule-bearing classifier families were compared; reject intrinsic `RuleBearing...`, generic `Base`, and reference-only heads because the value is selection-relative and by-value | manufacturing assembly-rule selection; healthcare protocol-premise selection; cloud deployment-policy criterion selection | close only when exact `LEX.TokenClass`, `LEX.Reserved-Names`, and `LEX.AllowedScopes` values and assertions pass under `FPFCoreReferenceScheme`; reopen on R7 semantic or scheme change |
 | `derivedUsingRuleContent` | predicate true only when an identified derivation claim used exact base content as a formal premise under a declared inference rule/application to produce exact dependent content; governed node `derivedUsingRuleContent@RuleContentBasisFindingDefinition-R7` | derived-using, derived-from, supported-by, and based-on families were compared; reject `derivedFrom` because source/provenance and semantic derivation are broader, and reject `supportedBy`/`basedOn` because they hide actual formal-premise use | manufacturing configuration derivation; healthcare dosage derivation with evidence kept separate; cloud configuration derivation | same lexical prerequisites as above, plus exact R7 predicate identity |
 | `evaluatedAgainstRuleContent` | predicate true only when an identified criterion-selection claim selected exact base content for one bounded evaluation claim concerning exact dependent content; governed node `evaluatedAgainstRuleContent@RuleContentBasisFindingDefinition-R7` | evaluated-against, assessed-under, governed-by, and checked-with families were compared; reject `governedBy` and generic `checkedWith` because they hide criterion selection and can imply authority, Work, or tool use | manufactured configuration evaluation; healthcare protocol-conformance evaluation; cloud release evaluation against deployment policy while operational Work stays separate | same lexical prerequisites as above, plus exact R7 predicate identity |
 
-A collision-free text search does not establish the missing governed lexical values. In this situation, quote the spellings as candidates when discussing the R7 declaration; cite a current NameCard or public term row only after the lexical prerequisites and naming settlement are established.
+The examples show how to read each candidate expression under its stated rule. To justify an expression for a wider vocabulary, establish which defining relation its uses share and where that reading fails. For a proposed universal Kernel **kind**, use the independent projections required by A.8. For the name of an already qualified predicate or designation, justify that lexical choice for its intended uses. A current NameCard or public row also requires the lexical prerequisites and naming settlement.
 
 #### F.18:4.2e - Architectural Reference NameCard
 
