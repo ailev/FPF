@@ -1982,7 +1982,7 @@ One System may hold both authorities. If a required authority is missing, identi
 
 An approaching deadline or a disputed priority can make this method relevant. To rely on a claim about a deadline already in force, establish the applicable terms and when they took effect. To change a priority or revise a promise, establish the consequences of the proposed change and who may authorize it. Obtain any specialist decision the action requires.
 
-Use `OPS.8`–`OPS.13` for wider queue, constraint, capacity and service-commitment questions, and `OPS.18` for operating quality and reliability. Clinical triage and release require their own authoritative decisions. Use `C.27` for an intervention-sensitive claim about a change in rate, rhythm, recovery or regime.
+Use `OPS.8`–`OPS.13` for wider queue, constraint, capacity and service-commitment questions, and `OPS.18` for operating quality and reliability. Clinical triage and release require their own authoritative decisions. When timing bears on the commitment, use `C.27` to establish what the available history or a proposed intervention can tell you about it.
 
 #### OPS.7:0.1 - Working Distinctions
 
@@ -2036,7 +2036,7 @@ Use a progressed state or unmet condition from `OPS.6` while it applies to this 
 
 #### OPS.7:4.2 - Qualify the temporal claim before interpreting it
 
-State the defining event, clock, observation time, horizon, and conditions. Decide whether the claim is current state, age, time remaining, rate, trend, or an intervention-sensitive temporal claim. Use `C.27` only when an intervention is claimed to change rate, rhythm, recovery, inertia, or regime; keep the `C.27.TA` time-window, cadence, and currentness discipline for all temporal uses.
+Start with the work whose timing matters. For an existing commitment, establish when it begins, what fulfils it and which intervals count under the agreement. To judge urgency in work with no promised date, determine what delay could change, what time is still available to respond and who can act. A dated acceptance or the times of submission and delivery may settle the deadline for the whole service. Trace the handoffs, waits and possible overlap when the overall interval remains open or when the service must explain or change how that interval arises. Use `C.27.TA` for the relevant window, cadence or currentness. Use `C.27` when the conclusion depends on what a state, rate or course of change establishes. An attribution to an intervention also needs grounds connecting that intervention to the change.
 
 #### OPS.7:4.3 - Relate time to the decision-bearing consequences
 
@@ -2106,7 +2106,7 @@ The authorized System may revise the issue's coordination priority or trigger an
 | queue-rank collapse | Current priority becomes one universal queue position. | Bound the disposition and return queue policy to its owner. |
 | commitment-preservation bias | An earlier promise is preserved despite unsupported conditions. | Revalidate parties, content, conditions, horizon, authority, and feasibility evidence. |
 | local-to-system overreach | One reprioritization is reported as a service-wide promise or capacity result. | State the local result and return to `OPS.13` or the wider owner. |
-| intervention-story bias | A change in rate or recovery is attributed to the chosen action without adequate temporal support. | Apply `C.27` only to the intervention-sensitive claim and preserve evidence limits. |
+| intervention-story bias | A change in rate or recovery is attributed to the chosen action without adequate temporal support. | Establish the observed course and what connects the action to the change claimed under `C.27`. |
 
 ### OPS.7:7 - Conformance Checklist
 
@@ -2114,7 +2114,7 @@ The authorized System may revise the issue's coordination priority or trigger an
 - [ ] For any relevant existing commitment, the account gives parties, content, conditions, horizon, authority, status, and evidence limits.
 - [ ] Any `OPS.6` result is used as evidence only at the matching configuration and horizon.
 - [ ] State, age, time remaining, rate, trend, and intervention-sensitive temporal claims are distinguished.
-- [ ] `C.27` is used only for an intervention-sensitive rate, rhythm, recovery, inertia, or regime claim.
+- [ ] The temporal evidence supports the service conclusion at the scale of the commitment. A claim about recovery or the effect of an intervention has grounds for that further conclusion.
 - [ ] Urgency names the consequence, commitment, risk, recovery, or supported use that delay can change.
 - [ ] Priority, queue rank, clinical triage, economic value, permission, and commitment remain distinct.
 - [ ] For a decision to set priority or revise a commitment, identify the authority required for that act. Check the applicable terms for an inquiry into an existing commitment.
@@ -2132,7 +2132,7 @@ The authorized System may revise the issue's coordination priority or trigger an
 | local escalation becomes queue policy | One disposition silently reorders every item. | Bound the coordination result and return the queue decision. |
 | promise by label | A service target or desired date is treated as an obtaining commitment. | Recover parties, content, conditions, authority, and status. |
 | record change becomes stakeholder agreement | A revised field is treated as renegotiation or receipt. | Use the established commitment and communication relations and preserve evidence of acceptance. |
-| temporal overanalysis | Ordinary age or rate triggers unnecessary dynamics modelling. | State the event, interval and clock. Use `C.27` only when the intervention-sensitive claim is current. |
+| temporal overanalysis | Ordinary age or rate triggers unnecessary dynamics modelling. | Use the dated event or a bound directly when it settles the obligation. Examine the trajectory or the effect of an intervention when the conclusion depends on it. |
 
 ### OPS.7:9 - Consequences
 
@@ -2154,12 +2154,12 @@ For section 5.1, a capable fixed-date or expedite policy can already prefer the 
 
 If the incumbent service policy already records the response window, the affected recipients and effective agreement, use it unchanged. The additional burden otherwise is estimating the relevant response, obtaining the missing authorized decision and maintaining the applicable promise. Those calls and confirmations consume time too; include them in feasibility and prefer a direct rule when it settles the matter. No precise score compensates for absent safety, clinical or legal authority.
 
-FPF `C.27.TA` qualifies event, interval and currentness claims; `C.27` applies only to a consequential intervention-sensitive temporal claim. DEMO's commitment distinctions help inspect parties and agreement without assigning their authority. OPS.13 supplies service-level support and response construction. Reopen when consequence, required response, parties or agreement conditions change, or an incumbent achieves the same action and truthful promise account at lower total effort.
+FPF `C.27.TA` qualifies event, interval and currentness claims. `C.27` establishes what state readings, trends or interventions warrant for the operating question. DEMO's commitment distinctions help inspect parties and agreement without assigning their authority. OPS.13 supplies service-level support and response construction. Reopen when consequence, required response, parties or agreement conditions change, or an incumbent achieves the same action and truthful promise account at lower total effort.
 
 ### OPS.7:12 - Relations
 
 - Use the progressed state or unmet condition from `OPS.6` when it applies to the configuration and horizon and bears on priority, a commitment or the grounds for retaining either. Establish authority for changing priority or changing a promise separately.
-- `C.27.TA` governs temporal aspect, window, cadence, and currentness. `C.27` governs intervention-sensitive rate, rhythm, recovery, inertia, or regime claims; neither supplies Operations priority or authority.
+- `C.27.TA` governs temporal aspect, window, cadence, and currentness. `C.27` qualifies conclusions drawn from observed trends and from proposed or actual interventions. Operations priority and the authority to change commitments depend on the service and its agreements.
 - `C.11` governs comparison only when several admissible live dispositions require choice. `A.10` governs evidence reliance.
 - `OPS.5` retains admission and explicit-start conditions. A current priority relation neither admits demand nor establishes start permission or Work.
 - `OPS.8`–`OPS.11` retain queue, buffer, constraint, capacity, variability, and interacting-structure decisions. `OPS.13` retains the credible whole-service commitment account. `OPS.18` retains operating quality and reliability questions.
