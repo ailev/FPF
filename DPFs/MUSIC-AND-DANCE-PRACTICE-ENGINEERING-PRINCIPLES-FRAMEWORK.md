@@ -6958,7 +6958,7 @@ Ask which conflict the account must establish.
 > Which results conflict here, through what relation, and with what consequences? If a response is wanted, which option protects the needed results
 > and who would bear its cost?
 
-Existing evidence can establish the conflict, a past choice or the grounds for a present recommendation or decision. Use it directly when it covers the question.
+Existing evidence can establish a conflict, a past choice or grounds for a present recommendation. For a prospective conflict, establish that the demands can meet in a performance covered by the proposed arrangement. For a reported conflict, establish which conditions came together in that performance, including a possible departure from the agreed rules. Separate observations can each be sound and come from incompatible settings. A common bound or a conclusion that holds in every case consistent with the records can answer a threshold question. Give a recommendation when selecting a response belongs to the commission.
 
 For a conflict across declared scopes, `C.30.ILC` can identify the remaining incompatibility
 and `C.32.MLAO` can develop responses when needed. Use a sufficient result from

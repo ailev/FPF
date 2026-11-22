@@ -1260,7 +1260,7 @@ Use this pattern when an organization concept has been selected or narrowed, but
 
 Begin with a compatible `OCE.1` focus, `OCE.2` current account, and `OCE.3` concept comparison or equivalent content. Use an adequate existing design directly. State any gap that limits the design and what can be decided on the available grounds.
 
-The first useful result is small: one organization concept, a few decision-bearing contribution-relation specifications, their intended suppliers and receivers, the selected specialization boundaries, and the conditions under which later Work may realize or reopen them.
+An organization concept specifies which results each participant must obtain, from whom and under which conditions the contributions will fit together. Its necessary reach follows from the service, capability or explanation commissioned. A question about one handover can be settled by its supplier, receiver and enabling conditions. A design spanning several units also has to show how those contributions can be available to the recipients that depend on them.
 
 Use `C.30` directly when the question is only whether one actual or candidate structure is architecture-relevant. Use `OCE.5` for position identity, `OCE.6` for holder assignments and enabling relations, `OCE.7` for paired product-or-service and organization architecture decisions, and `OCE.9` for realization and organization-capability evidence.
 
@@ -1329,7 +1329,7 @@ This is one bounded design result, not evidence that the supply relation already
 8. **Return the design or make the requested choice.** Return a description or proposal with its scope and conditions to the intended recipient. For a requested selection, use `C.32.PAD`, `C.11` or the applicable domain method. Identify the competent decision holder, the choice and its constraints, any accepted losses or open refinements, and grounds for rejecting alternatives or reopening the decision. Distinguish proposed relations from those in effect.
 9. **Return position and paired-architecture questions.** Use `OCE.5` when continuity or eligibility warrants a position question and `OCE.7` when a product or service decision interacts with the organizational boundary. Keep holder, authority, capability, and realization questions with their owners.
 10. **Specify realization evidence.** Name which later Work and observations can show that each specified relation obtains, fails, or remains unresolved. Supply design constraints to `OCE.9` without reporting organization capability.
-11. **Stop at contribution sufficiency.** Return when affected practitioners can name the contribution path, boundaries, contribution-relation specifications, any accepted burdens or open refinements, and observations that reopen the design.
+11. **Test the contribution path against the commission.** For an organization concept, follow the promised result through the participating units and establish that the contributions fit together in time, authority and usable form. Check the alternatives the participants can still choose and the conditions that would reopen the design. An explanation of current operation needs grounds for which of those connections actually sustained it. An order to introduce the arrangement continues through the changes and their use in Work.
 
 The steps are a reasoning aid. Existing structures may be repaired, new boundaries may be tried, and participant evidence may reopen an earlier decision at any time.
 
