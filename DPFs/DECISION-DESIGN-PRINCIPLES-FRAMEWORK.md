@@ -1301,7 +1301,7 @@ Construct or complete the alternatives the question needs. Give each one enough 
 
 #### PSDA.5:4.1 - Recover the receiving question and useful inputs
 
-Identify the subject, question, horizon and any current arrangement. Establish applicable protections and resource limits. For advice or a proposed commitment, identify the recipient and the holder of the relevant decision or resource right where the task depends on them. Name any missing purpose or authority that limits what can be returned.
+Derive the subject from the judgement the recipient has to make. For one usable way, an eligible proposal can suffice. A comparison calls for the material differences among the specified alternatives. To design a continuing search, use C.40:4 to connect generation, examination and retention. To recover what people actually considered, follow the records or testimony of that deliberation through the alternatives examined and discarded. A proposal you can construct today gives no evidence by itself that they considered it. Qualify any claim to a complete historical list by the coverage of the evidence. Identify the horizon and any current arrangement. Establish applicable protections and resource limits. For advice or a proposed commitment, identify the recipient and the holder of the relevant decision or resource right where the task depends on them. Name any missing purpose or authority that limits what can be returned.
 
 Use `PSDA.1` where different formulations suggest different actions. Use a `PSDA.3` model account where it distinguishes mechanisms or exposes a missing consequence. A `PSDA.13` result may contribute an agreed observation or a contested claim that affects candidate construction.
 
@@ -1339,7 +1339,7 @@ Use `C.17` to characterize a claim about novelty, diversity or usefulness. Use `
 
 Check whether a favoured formulation, a familiar technology or a powerful participant’s concern has obscured another material mechanism, baseline, combination or staged probe. Merge names for the same action and conditions. Retain differences that change consequences, eligibility or the grounds for use.
 
-Stop when the candidates or stated gaps cover the material differences for the requested comparison, each candidate is intelligible and protected-condition exclusions are clear. Continue searching where an attainable additional alternative would warrant the effort.
+Stop when the candidates or stated gaps cover the material differences for the requested comparison, each candidate is intelligible and protected-condition exclusions are clear. Continue searching where an attainable additional alternative would warrant the effort. For a commission to design the search, return the means for generating and distinguishing alternatives and how its results can change the next step. A sound selection from an existing list may finish a different commission.
 
 If the recipient needs one eligible option, a supported option can finish the search. Report it as the only one, or the requirement as infeasible, only on grounds covering the permitted alternatives. A common constraint can rule out a whole family at once. If the search found none and some possibilities remain open, report that result with its scope.
 

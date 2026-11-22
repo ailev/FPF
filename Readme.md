@@ -30,7 +30,7 @@ You do not need to read the Library from beginning to end. Bring a situation, th
 | --- | --- |
 | Diagnose why an AI agent repeatedly fails and choose what to change | [AI capability and execution (Library.Reference:9.3.4)](https://fpf.tools/Library.Reference:9.3.4). Compare the available information, instructions, recovery, tools and model; use the observed failure to select the repair. |
 | Find a way to obtain a result when the familiar answer is insufficient | [Find and develop a way to obtain a result (FPF C.39)](https://fpf.tools/C.39). It connects existing answers, missing constructions and the use that needs the result. |
-| Bring partial findings back to the original question or develop an account of a whole subject | [Return results to the original question (FPF C.39.QR)](https://fpf.tools/C.39.QR) connects the obtained result, its grounds and the receiving use. [Develop an account of the whole subject (FPF C.39.WA)](https://fpf.tools/C.39.WA) supplies the common explanation and relations when that is the missing contribution. |
+| Work out what question to answer, bring a finding back to it, or explain how a whole works | [Return results to the original question (C.39.QR)](https://fpf.tools/C.39.QR) helps you choose the work before your first reply. Ask what could have the property or undergo the change the recipient wants to understand, and how the material in front of you bears on it. [Develop an account of the whole subject (C.39.WA)](https://fpf.tools/C.39.WA) shows how to explain its organization and the contributions of its parts. |
 | Develop your own, a team's or an organization's ability to continue beyond its present limits | [Construct and continue open-ended development (FPF C.40.OD)](https://fpf.tools/C.40.OD), together with the domain methods needed for the change. |
 | Design, acquire, integrate or maintain a functioning system | [Engineering](DPFs/Engineering%20DPF%20Suite/). |
 | Make direction, promises, resources and collective work fit together | [Management](DPFs/Management%20DPF%20Suite/). |
@@ -69,7 +69,7 @@ Use the result for the question the comparison can answer. To estimate what woul
 
 ## What is available
 
-**FPF Core** contains 408 patterns in 18.941 million characters. It supplies transdisciplinary concepts and methods, including methodological work, architecture construction and comparison, and open-ended development. **36 Domain Principle Frameworks (DPFs)** supply subject-specific methods: 26 belong to four Suites, and ten have their own files directly in the DPF catalogue.
+**FPF Core** contains 408 patterns in 18.961 million characters. It supplies transdisciplinary concepts and methods, including methodological work, architecture construction and comparison, and open-ended development. **36 Domain Principle Frameworks (DPFs)** supply subject-specific methods: 26 belong to four Suites, and ten have their own files directly in the DPF catalogue.
 
 A DPF describes one field through a connected pattern language. A **Suite** describes a composite discipline through its constituent fields and their relations. An **Architectural Reference** explains how the relevant language is arranged and why: within a framework, across a Suite, or across the Library.
 
