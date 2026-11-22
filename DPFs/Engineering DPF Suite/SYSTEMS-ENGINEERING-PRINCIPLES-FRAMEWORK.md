@@ -244,7 +244,7 @@ For six lots of 347 items, suppose comparable evidence supports mental decomposi
 
 That current task can end with its used result. Repeated wrong choices open a different question. For example, an agent repeatedly retrieves a maintenance procedure. If it sees the applicable premise yet asks again without a need, [SYSE.50](#syse50---construct-and-calibrate-an-agents-assistance-policy) constructs the assistance rule. If the next input lost a needed observation or unresolved effect, [SYSE.52](#syse52---prepare-working-material-and-tools-for-an-agents-next-step) restores the working material. If the input and return are usable but the controller routes back to retrieval, [SYSE.47](#syse47---construct-and-revise-an-agents-execution-procedure) repairs that transition. [SYSE.42](#syse42---use-a-selected-tool-and-apply-its-result) still binds the call, reconciles an uncertain effect and uses the observed state; a generated prediction supplies no observation.
 
-[SYSE.46](#syse46---test-an-agent-and-its-support-in-representative-work) obtains the discriminating evidence and tests the changed arrangement. Compare matched work without optional documentation, with the source operation supplied, and with the agent choosing whether to obtain it. Keep required execution and checks common. The trace distinguishes an omitted necessary call from a malformed call, lost input or ignored return. Making fewer calls helps only with correct result use, necessary access and appropriate stopping. [SYSE.49](#syse49---construct-informative-tasks-and-feedback-environments-for-agent-work) constructs missing informative experience. These tests can qualify a fixed-model repair; training and division of work remain separately selected alternatives.
+[SYSE.46](#syse46---test-an-agent-and-its-support-in-representative-work) obtains the discriminating evidence and tests the changed arrangement. Use the existing trace when it establishes the failed transition. If the question is how optional support affects the work and whether the agent can choose it, compare matched work without that support, with the source operation supplied, and with the agent choosing whether to obtain it. Keep required execution and checks common in that comparison. The trace distinguishes an omitted necessary call from a malformed call, lost input or ignored return. Making fewer calls helps only with correct result use, necessary access and appropriate stopping. [SYSE.49](#syse49---construct-informative-tasks-and-feedback-environments-for-agent-work) constructs missing informative experience. These tests can qualify a fixed-model repair; training and division of work remain separately selected alternatives.
 
 Choose the body that supplies the missing operation:
 | Needed contribution | Full Method and first result |
@@ -302,7 +302,7 @@ engineering move. Depending on the question, obtain a selected alternative, a bo
 a justified reliance decision, a discriminating trial, or a missing contribution.
 
 The patterns describe a repertoire of Methods. A project can use one Method directly or combine several.
-Start with the System, receiving use and decision that matter now. Reuse adequate concepts, configurations,
+Start with what the recipient must decide, deliver or explain. For a decision about a product, identify the System and its receiving use. A commission may instead concern a proposed engineering Method, what particular Work accomplished, or the grounds for a decision. Reuse adequate concepts, configurations,
 specialist conclusions and evidence. Follow a further pattern when its result is needed, and return the result
 to the engineering decision that consumes it. For example, an obtaining comparison in `SYSE.24` can expose a
 missing provider commitment for `SYSE.18`; an integration result obtained through `SYSE.11` can support, but does
@@ -619,11 +619,11 @@ answer; their stipulated observations are not evidence about the reader's own pr
 a combination, ask the following questions about the intended decision.
 
 - **What must the recipient be able to do?** For one workable design, give one complete configuration that can actually be built and used. A claim about every admissible configuration needs grounds across that range; a service-level estimate needs a defined population, measure and inference. If no configuration meets the order, identify the incompatible requirements or exclude the available alternatives. For separate customers, check what each can receive in time and under its permissions. One signed measurement may answer both. If the customers must witness the same test, the engineer must also find a common window and an admissible observation for both. For a request to explain a choice, give the reasoning for that choice and the conditions under which it changes.
-- **Do the contributions concern compatible subjects and uses?** Recover the project System and the relevant
+- **Do the contributions concern compatible subjects and uses?** Identify what each result refers to. For a result about the project System, recover the relevant
   configuration, variant, interval and operating conditions through the existing answers for `SYSE.1`,
   `SYSE.13` and the patterns being used. Resolve any interpretation difference that changes whether the
   results can be used together.
-- **Which scales and distinctions can change the recipient's action?** Start with what the recipient must decide, perform or explain. Follow a possible change in that answer to the System and its relevant parts, the Method and its required operations, the Work actually performed and the supporting claims and premises. Choose the extent separately for each. A whole station can be one observed case; an interface rating can cover a class of components. At each extent retain the distinctions that could change the answer. To combine results, establish which records, interfaces, operations and operating conditions belong together. One direct result or one common action can suffice if it covers every case still possible. If the operator can choose differently, establish what distinguishes the cases, when the operator learns it and who may act. `C.39.SA:4` develops this choice for other kinds of engineering decision.
+- **Which scales and distinctions can change the recipient's action?** Start with what the recipient must decide, perform or explain. Follow a possible change in that answer. It may turn on how the System’s parts function together, which operations constitute a proposed Method, which performances made up the Work at issue, or how a claim follows from its premises. Include each relation the answer needs and choose its extent separately. A design for future work can be justified before anyone has performed it. A whole station can be one observed case; an interface rating can cover a class of components. At each extent retain the distinctions that could change the answer. To combine results, establish which records, interfaces, operations and operating conditions belong together. One direct result or one common action can suffice if it covers every case still possible. If the operator can choose differently, establish what distinguishes the cases, when the operator learns it and who may act. `C.39.SA:4` develops this choice for other kinds of engineering decision.
 - **Is each needed result available with an applicable basis for this decision?** A usable MethodDescription tells
   the practitioner how to obtain a result. A supplied observation, model conclusion or permission must have
   its own applicable basis. Use `SYSE.9` for a missing professional contribution; keep independent work moving.
@@ -1251,7 +1251,7 @@ obtain any missing specialist result from its domain before relying on it.
 
 #### SYSE.16:4.1 - Perform the Move
 
-1. **Bound the use and decision.** State the actual System or intended System referent selected for engineering, its use situation, configuration or variant, decision, relevant place, horizon and description sources. When it is a creator, retain the products or classes of use that ground the required contribution and local acceptance. Keep the descriptions separate from the Systems and situation. To choose the bounds, keep the proposed System fixed and vary a surrounding connection or another permitted use. Then keep the reported overall condition fixed and vary the distribution or timing of contributions. Follow the difference that changes the decision through the relevant parts or operations. Otherwise use the common bound or explanation.
+1. **Bound the use and decision.** State the actual System or intended System referent selected for engineering, its use situation, configuration or variant, decision, relevant place, horizon and description sources. When it is a creator, retain the products or classes of use that ground the required contribution and local acceptance. Keep the descriptions separate from the Systems and situation. Choose the bounds from differences that could change the recipient’s action or its grounds. The same System can serve different uses; a change in a surrounding connection may therefore change the answer. When the available account combines contributions, ask which different arrangements could yield the same reported condition. Trace any consequential difference back to its parts or operation. A condition common to all admitted arrangements can already settle the decision.
 2. **Find the containing and receiving Systems that bear on the decision.** Identify the larger Systems whose part–whole relations matter and those whose receipt or use of a result could change the answer. Account for every recipient when complete coverage is commissioned. For each relevant connection, establish whether it is actual or proposed.
 3. **Recover functional organization.** Identify the transformation flows, interactions, and contributions in
    which the System participates, including the changed or receiving Systems and conditions. Use `A.6.F` for
@@ -1558,7 +1558,7 @@ Use separate grounds for preferences, representation or operating scenarios when
    and the engineering decision that can use the result. Establish what qualifies a System for inclusion, which scope choices belong to the engineer, and the configuration for comparison if the decision depends on a difference. Use the same horizon and comparable external conditions while allowing the proposed change to alter its own demands.
 2. **Generate consequence-producing situations.** Consider Work and events that may expose the alternative's
    consequences—for example, realization, intended use, maintenance, plausible misuse, failure, recovery,
-   retirement, or later modification. Retain situations whose consequences bear on the receiving decision. To choose the bounds, vary the surrounding use with the component configuration held fixed, then vary the distribution among users or times while keeping the reported total fixed. Retain the difference that changes the engineering choice, or establish a bound that covers it. A System outside the project can bear a consequence.
+   retirement, or later modification. Retain situations whose consequences bear on the receiving decision. Follow the relation by which the proposed change could alter something a recipient relies on. Hold fixed what the current description says and vary an admitted use, connection or interpretation. For a whole described by a total, different distributions among users or times can matter. For a changed interface, identify which receiving Systems depend on the feature or meaning that changed. Keep the distinction needed for the engineering choice, or establish a sufficient conclusion across the alternatives. A System outside the project can bear a consequence.
 
 3. **Trace outward without promoting hypotheses to facts.** Follow supported obtaining relation occurrences
    separately from modal consequence-path claims. For each modal path, name candidate participants and proposed
@@ -7337,8 +7337,8 @@ do not preserve a separate SYSE.3 account merely because it was started.
 
 ### SYSE.11:0 - Use This When
 
-Use this pattern when locally completed parts or changes have accumulated and a decision depends on whether
-one actual engineered System can support a stated use. Integration is the broader engineering concern;
+Use this pattern to design the progression by which contributions will form a usable whole, to carry out that integration, or to assess the use an
+actual engineered System can support. The commission determines the result to deliver. Integration is the broader engineering concern;
 this pattern develops the bounded move from available contributions to a configuration that supports
 one receiving use. It includes choosing the integration progression, correcting discovered incompatibilities
 and assessing the resulting whole.
@@ -7346,8 +7346,8 @@ and assessing the resulting whole.
 Begin with the use and what already exists. For a change, identify the existing System and its current configuration. For a first assembly, identify the existing constituents, the intended whole and the relations that must first obtain for that whole to exist. Use any applicable integration strategy or assessment already available. A strategy can supply the grouping, assembly and check order directly. A
 current qualified result covering the same configuration and use can finish an assessment directly. If the order requires a new assembly, connection or witnessed run, establish which occurrence must be performed and what the authorized recipient can accept. A ready configuration can settle its own fitness in advance. For integration work still needed, choose a sufficient joint change, expose consequential interactions and assess the resulting System with evidence applicable to it.
 
-The first useful result is a **bounded usability assessment**: an episteme stating what the actual System can
-support, on what grounds, for which configuration, conditions and interval, and with what limits and fallback.
+A **proposed integration strategy** can finish a design commission when the receiving engineer can use its grouping, order and criteria to decide when to proceed, correct or stop.
+For an assessment of use, the first useful result is a **bounded usability assessment** of the actual System in its configuration, with grounds, operating conditions, interval and any limits or needed fallback.
 The changed System, the Work and transformations that produced its configuration, and this assessment remain
 distinct. Permission and release are separately governed decisions.
 
@@ -7387,7 +7387,7 @@ of the System to assess the bounded use. Make further observations when the asse
 
 ### SYSE.11:2 - Problem
 
-Before relying on a claimed increment for a decision, the responsible engineers need answers to these questions.
+For a strategy, establish which interactions the planned progression must expose, when it must expose them and what result would justify the next step. To assess an actual increment for a decision, the responsible engineers need answers to the following questions.
 
 1. Which existing System and configuration will change, or from which actual constituents will the first configuration of the intended whole be formed?
 2. Which receiving use, operating conditions, affected Systems, and interval bound the result?
@@ -7421,12 +7421,12 @@ configuration that anyone can use.
 ### SYSE.11:4 - Solution
 
 Work back from the receiving use to the relations that must hold together. Use a suitable integration strategy or choose a feasible progression that can expose consequential incompatibilities before they become more costly to correct.
-Use adequate evidence for relations already established. Establish any remaining relations and correct any discrepancies.
-Assess the resulting configuration for the intended use, using a sufficient existing assessment when available.
+For a commission to design the progression, show why the proposed grouping, order and transition criteria serve the receiving use. That strategy can be delivered before assembly.
+When the commission includes integration, establish the remaining relations and correct discrepancies. For an assessment of the resulting configuration, use the evidence already adequate for its intended use and obtain what is missing.
 
 #### SYSE.11:4.1 - Perform the Move
 
-For an assessment, use sufficient evidence of the configuration and its intended use. It can settle the question before any new integration. Apply the steps concerning assembly, change or a witnessed test when the commission includes that work or the decision still needs it.
+For a strategy, use the design operation in :4.1.1 and supply the conditions and decisions the integration team will need. For an assessment, use sufficient evidence of the configuration and its intended use. It can settle the question before any new integration. Apply the steps concerning assembly, change or a witnessed test when the commission includes that work or the decision still needs it.
 
 
 1. **Name the System and use.** For a continuing System, identify its starting configuration. For a first assembly, identify the actual constituents, intended System and the conditions under which they first constitute it. On completion, establish that the required relations obtained in that assembly. Bound the receiving use, affected Systems, operating conditions, interval, behaviour and deciding Agent. A demonstrated episode supports a claim about later use only with grounds for that extension.
@@ -7547,14 +7547,14 @@ the separate assurance activities in SYSE.4 unless an assurance claim is being m
 #### SYSE.11:4.2 - Record the Result
 
 Use the existing configuration, integration and assessment records where they already carry the needed
-content. The following are questions to keep answerable, not a mandatory second form.
+content. Use the rows that support the commissioned result. A strategy prepared before integration can identify proposed configurations, transition criteria and evidence to obtain. A conclusion about an achieved change depends on the configuration and work that actually occurred.
 
 | Content | What the receiving engineer needs |
 | --- | --- |
-| System and use | Existing System and its starting configuration, or constituents and first-assembly criteria; the actual resulting System and configuration, receiving use, affected Systems, conditions, interval and deciding Agent. |
-| Boundary and progression | Why the included changes belong together, the selected intermediate configurations and checks, conditions for proceeding, actual fallback and stop. |
+| System and use | Starting configuration or constituents and first-assembly criteria, intended receiving use, affected Systems and conditions. For an assessment of achieved usability, identify the resulting System and configuration, relevant interval and deciding Agent. |
+| Boundary and progression | Why the changes belong together, which intermediate configurations are required, when to proceed or stop, and which fallback is available or was used. |
 | Supplied inputs | Results relied on, their applicability and evidence windows, and any unresolved blocker or qualified substitute. |
-| Work and actual change | Dated Work, Agents, Methods, subjects, results, transformations and obtaining relations; discrepancies, corrections and their resulting configurations. |
+| Work and actual change, when at issue | Dated Work, Agents, Methods, subjects, results, transformations and obtaining relations, including discrepancies, corrections and their resulting configurations. |
 | Usability | What each observation or qualified result supports, the consequential inference to the use claim, limits, any unsupported claims and conditions for reconsideration. |
 | Separate decisions | Any assurance, permission, release or specialist decisions that remain to be made for the receiving use. |
 | Later work, when selected | The separate comparison and choice, attainable contribution, burden, alternatives and reopen condition. No later-work record is required when the assessment completes the current question. |
@@ -7694,13 +7694,13 @@ receiving Agent selects the use and any authority relation remains separately su
 
 ### SYSE.11:7 - Conformance Checklist
 
-- [ ] The existing System and its starting configuration, or the actual constituents and criteria for first forming the whole, are identified. The usability assessment concerns the actual resulting System for the named use, conditions, interval and deciding Agent.
+- [ ] The proposed strategy identifies its starting conditions, constituents, receiving use and criteria for forming or changing the whole. A claim about achieved usability identifies the actual resulting System and configuration for the named use, conditions, interval and deciding Agent.
 - [ ] Where integration is required, the needed behavior and interactions justify the proposed joint change and progression. An existing strategy can supply those grounds.
 - [ ] Inputs apply to the receiving subjects, uses and evidence windows directly or on a justified correspondence, and were available before the Work or decisions that relied on them.
 - [ ] A commissioned assembly, change or witnessed operation is accounted for under its acceptance terms. Where integration or correction was needed, evidence of the actual change establishes what the next step can rely on. An existing result can complete a separate assessment within its scope.
 - [ ] Work, transformation, actual configuration and the claims in its description remain distinguishable.
-- [ ] The assessment explains what supports the whole-use claim and any extension beyond observed conditions, using a sufficient direct result or SYSE.10.
-- [ ] Fallback is feasible for its own supported use; unresolved discrepancies and unsupported claims have a concrete stop or return.
+- [ ] For a proposed progression, can the receiving engineer establish when to advance, correct a mismatch or stop, and why that decision serves the intended use? For an assessment of actual usability, is the whole-use claim supported, including any extension beyond observed conditions, by a sufficient direct result or SYSE.10?
+- [ ] If the recipient relies on a fallback, its feasibility is established for its own use. Unresolved discrepancies or unsupported claims that affect the decision have a concrete stop or return.
 - [ ] Separately governed assurance, permission, release and specialist decisions retain their own grounds.
 - [ ] If later modernization or inquiry is selected, its separate comparison and choice justify the attainable contribution and burden. Otherwise the current result can finish.
 - [ ] Reopen conditions identify the configuration, use, evidence or relation whose change matters.
@@ -11624,7 +11624,7 @@ The recurring tensions are:
 
 Describe the actual or proposed arrangement through the structures that bear on the engineering question. Establish which operations can overlap, which depend on a result or condition, and why.
 If the question concerns suitability, test the arrangement against its specified use, including resource conflicts and material burdens. Return the supported conclusion and its limits.
-If a choice is requested, use or construct materially different alternatives. The authorized Agent decides whether to retain or change the arrangement and states the grounds and scope.
+A request for one feasible arrangement can close with a construction that satisfies the stated conditions. To choose among offers or establish which arrangement is preferable, compare the relevant alternatives on the required basis. The authorized Agent decides whether to retain or change the arrangement and states the grounds and scope.
 
 #### SYSE.20:4.1 - Pattern-Use Unfolding
 
@@ -11645,9 +11645,9 @@ order; the order of this explanation does not establish or prescribe its timing.
 5. **Conflict and moved burden.** Identify any conflict or burden on which the requested answer depends. For an assessment or choice, establish whether the relevant results and
    constraints are compatible and what that means for the engineering result. State which Agent, System, decision or time interval receives any material burden moved
    by a local gain. If two recipients need a result, trace its delivery and deadline for each. One performance may serve both. Distinct operations using the same person or facility need compatible windows. A joint demonstration also needs all required participants together.
-6. **Alternatives for a choice.** When a choice is requested, use a finite set. Identify the relation distinguishing each proposed change. Develop a missing alternative
+6. **Alternatives for a choice.** Identify what can vary in the work and what would make one arrangement suitable or preferable. Compare named alternatives when that is the commission. An admissible family may instead be described by a rule or a range. Develop a missing alternative
    by changing a named relation. Include the present arrangement when retaining it is feasible.
-7. **Authorized choice.** For that decision, the authorized Agent uses `C.11` or a domain decision Method to compare the fixed option set on one
+7. **Authorized choice.** For that decision, the authorized Agent uses `C.11` or a domain decision Method. Establish feasibility for one suitable choice, compare the offered options for a preference among them, or justify an optimum over the required family. Use the
    stated basis and choice rule. Record the actual outcome: a selected alternative or retained tie-set with its
    grounds; rejection of the current set with its reason; a chosen next probe and the comparison defect it would
    resolve; or rerouting to a named receiving question. Retain accepted losses, preserved constraints, missing
@@ -11829,7 +11829,7 @@ Reuse adequate accounts and models. Explain an omission when the recipient could
 | companion structures | Structures on which the answer relies, with each structure’s subject, use, consequential correspondences and losses. Section 1 gives examples. |
 | order and suitability | State the supported overlap or required order and the grounds for each material relation. If assessing suitability, state what the arrangement can deliver for the specified use and what a remaining conflict or unknown prevents. |
 | moved burdens | Each material burden, the scope that loses it, and the scope that receives it. |
-| alternatives and choice, when a decision is requested | Fixed options, changed relations, comparison basis, choice rule and authorized outcome: selected option, retained arrangement or tie-set with grounds, rejected set with reason, chosen probe with the gap it could resolve, or a named receiving question. Retain applicable losses and protected constraints. |
+| alternatives and choice, when a decision is requested | Offered options or a defined family of arrangements, changed relations, comparison basis, choice rule and authorized outcome: selected option, retained arrangement or tie-set with grounds, rejected set with reason, chosen probe with the gap it could resolve, or a named receiving question. Retain applicable losses and protected constraints. |
 | continuation | Identify the supplied result and its receiving use. State any missing contribution, further question, permitted Work or change that would require reconsideration. Include implementation and later representative Work when the choice calls for them. |
 
 When an authorized choice has been made, its bounded record states the outcome and reason. A dependency or suitability account can independently supply
@@ -11838,7 +11838,7 @@ a design constraint to `SYSE.12` or a project-local Method variant to `SYSE.21`.
 #### SYSE.20:4.3 - What Changes in Practice
 
 Engineers can establish which Work may overlap, what must wait, which Methods are enacted and
-whether the arrangement serves its intended use. If asked to choose, they compare feasible alternatives and any burdens transferred to other work,
+whether the arrangement serves its intended use. For a requested arrangement they show how its parts can work together. For a comparison they examine the alternatives and burdens transferred to other work,
 with implementation and assessment conditions made explicit. The account preserves the reasons for those dependencies so they
 remain visible when a diagram or process label changes.
 
@@ -11999,7 +11999,7 @@ Watch for these recurring interpretation biases:
 - [ ] Provider or enabling Work, capability-development Work, and cultural change keep their own relations.
 - [ ] Each selected structure supports the requested answer. Its consequential correspondences and losses are clear.
 - [ ] Every local gain names any material moved burden and its receiving scope.
-- [ ] If a choice is requested, the fixed options differ by a named relation and are compared on a stated basis and rule.
+- [ ] For a choice, the allowed variations, receiving criterion, sufficient grounds and authority support the selected result. When alternatives are being compared, the comparison uses the stated basis and rule.
 - [ ] An observed overlap identifies the intersecting Work intervals. For a proposed or assessed overlap, the account states which work can start, the conditions
       for that start and any reconciliation needed before the result is used. It identifies any consequential limit of preliminary information.
 - [ ] When the answer depends on the feasibility of the whole arrangement, it accounts for shared resources, support, interpretation
@@ -12020,7 +12020,7 @@ Watch for these recurring interpretation biases:
 | A connected model is treated as the integrated engineering reality | Name the model epistemes, their subjects, correspondences, losses, and receiving uses. |
 | A platform service is assumed usable whenever dependent Work runs | State the provider Work, service condition, compatibility evidence, access, and moved maintenance burden. |
 | One local activity becomes faster while the engineering result still waits | Use an adequate measurement of the receiving result or obtain one. Identify the limiting contribution and any burden moved elsewhere. |
-| A selected option lacks a comparison rule or authority | Recover the fixed option set, basis, rule, deciding Agent and authority before calling it a decision. Name a next probe only when further inquiry is the selected continuation. |
+| A selected option lacks a comparison rule or authority | Recover the eligible arrangements, grounds for the required choice, deciding Agent and authority before calling it a decision. Name a next probe only when further inquiry is the selected continuation. |
 | A preliminary result is accepted because it is labelled provisional | Recover its allowed use, change sensitivity and reconciliation; wait or obtain the missing qualification when these cannot be supplied. |
 | Separately feasible tasks require the same resource simultaneously | Construct a joint resource order or obtain qualified capacity, then recompute the first usable whole result. |
 | A feedback arrow is removed from a drawing and the dependency is forgotten | State the starting assumption, perform the informative iteration and reconcile the coupled results. |
@@ -12845,7 +12845,7 @@ SYSE.25 helps decide whether to retain or change provision for the task, or what
 
 Use this pattern when independent changes by platform users, contributors or providers can break a supported interaction, or when every useful variation waits for one central team to implement it. Start with one proposed change and the actual consumers whose result it can alter. Recover the interface they use, the behavior they rely on and the contribution they need to make.
 
-The first result is a bounded interface/contribution evolution decision, including consumer effects and a usable way to test a contribution. An interface may be an API, configuration format, template, physical connection or agreed operational exchange.
+The first result is a bounded interface/contribution evolution decision, with grounds for its effects on the consumers. When supporting other contributors is part of the decision, give them a usable way to test a proposed change. An interface may be an API, configuration format, template, physical connection or agreed operational exchange.
 
 Do not create an extension mechanism for one private implementation with no independent consumer. Use SYSE.29 when an already selected change requires migration, and SYSE.18 when another governing Agent's decision is indispensable. This pattern changes the supported technical interaction; organizational contribution design and actual assignments remain separate questions.
 
@@ -12865,6 +12865,8 @@ The recurring task is to choose how the proposed contribution can enter the prov
 | Technical acceptance | Tests can establish a bounded behavior; they cannot grant permission to change another party's provision. |
 
 ### SYSE.27:4 - Solution
+
+Start with the decision about the receiving use. A compatibility assessment can finish when an applicable interface contract and evidence about the two behaviors settle that decision. Design and compare changes when a change is requested or a remedy is needed. Prepare the contribution arrangements in :4.3 when other contributors are to develop or maintain the change.
 
 #### SYSE.27:4.1 - Recover the consumed behavior
 
@@ -12896,13 +12898,13 @@ Compare the shared core with a maintained adapter, a separate supported profile 
 
 #### SYSE.27:4.3 - Make contribution possible at the supported boundary
 
-State what a contributor may change and what remains controlled by the provider. Supply a reproducible way to exercise the interaction, examples of supported old and new use, relevant acceptance checks, and enough failure information for a contributor to repair a rejected proposal.
+For an assessment alone, return the evidence that settles the stated use. When contributors are to make changes at this boundary, state what they may change and what the provider controls. Supply a reproducible way to exercise the interaction, examples of supported old and new use, relevant acceptance checks, and enough failure information for a contributor to repair a rejected proposal.
 
 Make dependencies explicit: a contribution may require a toolchain, resource, permission or domain Method not yet supplied. Preserve the distinction between a technically valid proposal, an accepted contribution and a deployed provision. A contribution test should not expose release credentials or unrestricted provider access.
 
 Choose a maintained extension point only where independently changing use justifies it. A small parameter or documented composition may be enough; an open-ended plugin system can cost more to secure, qualify and support than the variants it enables.
 
-Explain to contributors which user result the boundary protects, why the fixed conditions matter and which alternatives remain acceptable. Provide a small example they can adapt and a way to see whether their proposed result can be consumed. When a proposal fails, return the failed condition and the observed case so that the contributor can revise the technical idea.
+When preparing a boundary for independent contributions, explain to contributors which user result the boundary protects, why the fixed conditions matter and which alternatives remain acceptable. Provide a small example they can adapt and a way to see whether their proposed result can be consumed. When a proposal fails, return the failed condition and the observed case so that the contributor can revise the technical idea.
 
 Agree the continuing work before offering a new supported extension. The contributor may supply domain implementation and examples while the platform provider supplies integration, distribution and first-line diagnosis. Establish who handles an incompatible update, an absent maintainer or an urgent failure. An experimental contribution can remain available under an explicit experimental scope until those conditions are supplied. Acceptance into a repository and a promise of continued support are different decisions.
 
@@ -12910,7 +12912,7 @@ For copied templates, explain how future change reaches existing instances: a ma
 
 #### SYSE.27:4.4 - Exercise effects on consumers
 
-Run or construct the selected compatibility cases against the old and proposed behavior. Include normal use and the defaults, limits, failures or unsupported requests that can change acceptance under the applicable contract.
+Use adequate existing evidence for the compatibility decision. Where it leaves consequential behavior open, construct or run cases against the old and proposed behavior. Include normal use and the defaults, limits, failures or unsupported requests that can change acceptance under the applicable contract.
 
 Use the intended result consumer to interpret the outputs. A request that is syntactically accepted but receives a different unit, deadline or configuration is not compatible merely because the interface returns success.
 
@@ -12959,8 +12961,8 @@ Active consumers and easy demonstrations are easier to see than dormant recovery
 ### SYSE.27:7 - Conformance Checklist
 
 - Actual consumers and their relied-on behavior are identified at the grain that can change the decision.
-- Internal change, extension, adapter, break and refusal are compared by effects rather than labels.
-- Contributors can exercise the supported interaction and understand a rejection.
+- When choosing a change, the relevant alternatives are compared by their effects on the receiving use. For an assessment of a given change, the evidence supports the compatibility decision for the versions and behaviors in question.
+- Where the decision supports independent contributions, contributors can exercise the promised interaction and understand the grounds for a rejection.
 - Evidence covers the behaviors and consumer versions included in the compatibility promise, including adverse conditions that can change a receiving result.
 - Technical acceptance, actual assignment, permission and deployed configuration remain distinct.
 - Each migration need, outside-provider decision or missing specialist Method is returned to the practice or holder that can address it.
@@ -14038,7 +14040,7 @@ Infrastructure descriptions solve only part of the problem. A declared database 
 
 Name the task, the software/configuration it exercises, its relevant dependencies, and the observations that will establish readiness for that use. Distinguish a local editing environment, a build worker, an integration test environment and a deployment target when their requirements differ.
 
-Recover the current working conditions from a representative attempt. Identify the runtime and toolchain, resolved packages or images, network/service dependencies, resource needs, test data and access references. Separate relevant constraints from incidental machine history. Return any unresolved condition that could change what the test establishes.
+Recover the conditions needed for the claim from the applicable configuration, operating requirements and available records. Examine an actual attempt when behavior in use is at issue or a material dependency is still unknown. Identify the runtime and toolchain, resolved packages or images, network/service dependencies, resource needs, test data and access references. Separate relevant constraints from incidental machine history. Return any unresolved condition that could change what the test establishes.
 
 Choose an equivalence criterion appropriate to the use. A behavior test may require the same database semantics and fixture content without requiring the same machine identifier. A timing claim may require additional resource and load conditions. An environment suitable for the first task is not automatically suitable for the second.
 
@@ -14052,7 +14054,7 @@ Decide which information may be discarded, which must be retained, and what a re
 
 #### SYSE.33:4.3 - Choose a creation and change mechanism
 
-Compare a controlled push procedure with a pull-and-reconcile arrangement for the actual resources and operating conditions. A push procedure can be adequate for a bounded short-lived test environment. Continuous reconciliation may help where drift and continuing desired state are material. Neither choice removes the need to observe the resulting environment.
+When selecting a provisioning mechanism, compare the available arrangements under the actual resource and operating conditions. A push procedure can be adequate for a bounded short-lived test environment. Continuous reconciliation may help where drift and continuing desired state are material. Neither choice removes the need to observe the resulting environment.
 
 The [OpenGitOps v1.0.0 principles](https://opengitops.dev/) call for versioned declarative desired state, automatic retrieval and continuing attempts to reconcile observed state. Use it where those conditions fit. Do not infer successful convergence from a committed declaration or an agent's presence.
 
@@ -14133,7 +14135,7 @@ A familiar workstation can become an accidental standard, while a production-lik
 | Misuse | Repair |
 | --- | --- |
 | Clone the one working machine indefinitely. | Recover required conditions and exercise a clean construction. |
-| Declare the environment in Git and report it ready. | Observe actual state and run the named task. |
+| Declare the environment in Git and report it ready. | Establish the required state and its use from applicable evidence. Run the named task when its performance was ordered or its result is needed to settle readiness. |
 | Treat infrastructure recreation as data restoration. | Obtain and exercise the separate information-recovery procedure. |
 | Retry all creation after timeout. | Recover partial effects and repeat only qualified operations. |
 
@@ -15058,9 +15060,9 @@ Automation can preserve the underlying cause and add its own maintenance, except
 
 #### SYSE.39:4.1 - Recover the recurring activity and its result
 
-Name the trigger, user, intended result and recurring operations. Use observations of representative ordinary and exceptional attempts. Separate effort that is necessary to produce the result from effort caused by missing information, a broken interface, repeated repair or unnecessary coordination.
+Name the trigger, user, intended result and recurring operations. Identify the decision about the recurring work. Applicable records or observations of ordinary and exceptional attempts can establish how the work is performed. A decision about a proposed replacement can also turn on a requirement it would lose. Separate effort that is necessary to produce the result from effort caused by missing information, a broken interface, repeated repair or unnecessary coordination.
 
-Count occurrence over a meaningful interval. Recover user and provider active effort, waiting, interruptions, rework and errors with enough consistency for the intended comparison. Do not add elapsed waiting to active labor as though they were the same quantity.
+For a claim about total burden, define whose work and which interval the comparison covers. Use occurrence counts and effort per occurrence when their combination supplies the total. Direct totals or bounds can establish the decision without recovering every occurrence. Include waiting, interruptions, rework and errors where they affect the comparison. Do not add elapsed waiting to active labor as though they were the same quantity.
 
 Include those who perform the work, including users to whom provider effort has shifted. Determine whether the activity requires unfamiliar diagnosis or necessary professional judgment, and whether a missing capability contributes to the difficulty. Return these distinctions before deciding whether the activity should be automated.
 
@@ -15074,7 +15076,7 @@ If the activity no longer serves an accepted need, consider ending it with whoev
 
 #### SYSE.39:4.3 - Compare whole-task alternatives
 
-Compare retaining the current method, simplifying the task, removing the cause, improving the supported interaction, and automating the qualified operation. Use SYSE.25 when this intervention competes with other platform improvements; use SYSE.24 only when the question concerns whole ways of obtaining the result.
+For an assessment of one proposed replacement, establish whether it supports the promised interaction. When the user needs a choice of intervention, compare retaining the current method, simplifying the task, removing the cause, improving the supported interaction, and automating the qualified operation. Use SYSE.25 when this intervention competes with other platform improvements; use SYSE.24 only when the question concerns whole ways of obtaining the result.
 
 Keep the user result and conditions comparable. Include construction, maintenance, exceptions, support, failure handling and work transferred to users or other providers over a stated horizon. If the evidence does not discriminate the options, retain the unresolved comparison. Choose a bounded probe when its attainable result can improve the choice enough to justify its full cost and delay; use C.11.DUA when that judgement is unresolved. Otherwise give the present bounded answer and continue only work whose conditions are already supplied.
 
@@ -15161,9 +15163,9 @@ Operator-visible work is easier to count than user search, interruptions or aban
 ### SYSE.39:7 - Conformance Checklist
 
 - The recurring activity and supported user result are recognizable.
-- Occurrence, user/provider effort and exceptional work are compared on a stated basis.
+- The evidence establishes the quantity or condition that decides the receiving question. A burden comparison covers the relevant users, providers, period and exceptional work.
 - Necessary judgment, learning and physical work are not mislabeled merely because they are inconvenient.
-- Cause removal, simplification, retention and automation receive a fair comparison.
+- For a choice of intervention, the relevant alternatives receive a fair comparison. For an assessment of one proposed interface, its behavior and the remaining work support the judgement.
 - Any selected intervention preserves permission, correctness and usable exception handling.
 - Construction, continuing maintenance and transferred burden remain in the comparison.
 - Claimed gain distinguishes calculation, pilot observation and continued use in operation.
@@ -16580,7 +16582,7 @@ Distinguish imagined observations, outputs predicted by a model, and state actua
 
 Derive checks from the supplied result predicates. Prefer direct state or effect checks where they establish the claim. Use a judgment model only for a contribution that needs it, with an explicit basis and disagreement return. A favorable narrative cannot overrule an observed failure of a required condition.
 
-Test whether the feedback rejects misleading acknowledgements, forbidden duplicate effects or needless mutations. On a task that cannot succeed, check whether it recognizes warranted restraint. Choose the challenge from the actual contract.
+Use the commission to construct a plausible answer that would pass an easy check while failing the recipient. For a commission to explain when a method applies, an accurate account of one case can leave the recipient without grounds for deciding which cases the method covers. Check whether the feedback detects that missing inference and accepts a sufficient general argument, including one expressed in a single case. If the commission asks what caused one actual outcome, check whether the explanation identifies the mechanism operating on that occasion. A catalogue of possible causes can leave that question open. For tasks that change a system, a misleading acknowledgement, a duplicate effect or an unnecessary change can instead reveal the defect. Include warranted restraint when action is impossible or unauthorized.
 
 Challenge shared generator/verifier errors using an independently grounded check or reader. Independently generated prose from the same mistaken premise is insufficient. Executable code that runs without errors establishes runtime consistency, not the validity of its success rule.
 
@@ -16698,11 +16700,11 @@ Choose signals obtainable before the decision. For a person these may include ob
 
 #### SYSE.50:4.2 - Obtain evidence of useful and necessary assistance
 
-Assemble representative decision inputs with independently qualified target answers or allowed continuations. Preserve the evidence available to the performer. Distinguish a contribution indispensable to the result from an aid that improves reliability or reduces burden despite adequate unaided ability. Compare the result and burden of the complete assisted way with the feasible alternative, including obtaining, checking and using its return. Another person's or teacher model's tool use does not establish this performer's need.
+For an empirical comparison, assemble representative decision inputs with independently qualified target answers or allowed continuations. For a commissioned rule, derive the permitted responses from the task, observable inputs and conditions of help. Preserve the evidence available to the performer. Distinguish a contribution indispensable to the result from an aid that improves reliability or reduces burden despite adequate unaided ability. Compare the result and burden of the complete assisted way with the feasible alternative, including obtaining, checking and using its return. Another person's or teacher model's tool use does not establish this performer's need.
 
 Use paired conditions where they discriminate need: present versus withheld premise, ambiguous versus settled target, applicable versus revised rule. Use actual assistance returns when qualifying a policy that relies on them. An existing suitable observation can establish what was returned. An oracle answer unavailable in deployment cannot qualify the deployed help branch.
 
-For a claim about use beyond construction cases, compare policy performance on cases kept outside rule construction. When calibration is selected, give it separate calibration examples. Select enough variation for the consequence and reliance; do not infer population calibration from a few illustrative examples. SYSE.49 can construct the missing distinction and challenge the labels. A disputed label remains unresolved until its result meaning has grounds. When the target is human acquisition, use HCD's practice purpose and permitted help: a hint and a complete answer can have different effects on the action being learned.
+Choose the grounds for the claimed reach of the policy. A rule can entail a prescribed response for every input meeting its conditions. Establish the implication for its permitted inputs. To claim that a performer actually follows the rule, link that conclusion to its execution. For an empirical claim about performance beyond the cases used to construct the policy, use independently qualified cases outside construction. When calibration is selected, give it separate calibration examples. Select enough variation for the consequence and reliance; do not infer population calibration from a few illustrative examples. SYSE.49 can construct the missing distinction and challenge the labels. A disputed label remains unresolved until its result meaning has grounds. When the target is human acquisition, use HCD's practice purpose and permitted help: a hint and a complete answer can have different effects on the action being learned.
 
 #### SYSE.50:4.3 - Construct the rule and its fallback
 
@@ -16716,7 +16718,7 @@ Define behavior outside qualification. If a change in the performer, model or wo
 
 #### SYSE.50:4.4 - Test the acted policy and return the right defect
 
-Use the rule in the person’s procedure or the technical controller. Use SYSE.47 for a missing implementation and SYSE.46 for the evidence the intended reliance needs. Reuse applicable whole-task results; for a comparative claim, use a feasible incumbent or direct rule. For the claimed scope, test unsupported continuation and unnecessary help. Include shared-source error, unavailable assistance or drift where they can defeat the rule. Calibrated scores alone do not establish that the selected help is timely, accurate or consumed.
+To qualify how the rule works in practice, use it in the person’s procedure or the technical controller. A commission to specify a rule can finish with the rule and grounds that it prescribes an allowed continuation for its stated inputs. Use SYSE.47 for a missing implementation and SYSE.46 for the evidence the intended reliance needs. Reuse applicable whole-task results; for a comparative claim, use a feasible incumbent or direct rule. For the claimed scope, test unsupported continuation and unnecessary help. Include shared-source error, unavailable assistance or drift where they can defeat the rule. Calibrated scores alone do not establish that the selected help is timely, accurate or consumed.
 
 Inspect the actual next input and transition when a supported premise is requested again. Return missing input to SYSE.52 and ignored return to SYSE.47. Repair the assistance rule here only when the decision uses the relevant input yet selects the wrong help behavior. Reassess the affected rule when a relied-on condition changes. Reopen calibration if the rule relies on it and the change affects its basis. Stop at the bounded rule and evidence, or its qualification gap.
 

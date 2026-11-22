@@ -308,7 +308,7 @@ A supplied Method guides the work; an inaccessible source, unresolved meaning, m
 | --- | --- | --- |
 | use contract | `SIE.1` | receiver, use, answer claims, tolerated loss/uncertainty, freshness/latency/quality, authority, evidence needed and required tests, stop and reopen |
 | source manifest | `SIE.2`; SIE.3 qualification when needed | assets, schemes, editions/effectivity, meanings and identifiers used, owners/authority, provenance/access, gaps, and references to required model qualifications |
-| correspondence set | `SIE.4` | endpoints, relation or incompatibility, orientation, bounded use, permitted loss, justification/evidence, source versions, counterexamples and unresolved rows |
+| correspondence set | `SIE.4` | endpoints, relation or incompatibility, orientation, bounded use, permitted loss, justification, source versions, material counterevidence and any unresolved relations |
 | cross-source identity disposition | `SIE.5` | load-bearing endpoints, grain and interval, disposition kind, resolution rules and contexts or assignments and their issuers, evidence, authority boundary, downstream references for the relied-on identity; an explanation of unused identity only when it affects interpretation or later reliance |
 | source-qualified claim composition | `SIE.6` | source claims, scope, interval, authority, uncertainty, derivation, relied-on identity premises, comparable/conflicting/non-comparable/unresolved relation, qualified view or explicit conflict |
 | mapping specification | `SIE.7` | schemes, accepted semantic inputs, rules, conditions, cardinalities, units/codes, defaults, errors, loss, trace, examples and tests |
@@ -851,7 +851,7 @@ Reopen the comparison if one required answer depends on a selected query or infe
 > **Status:** Stable
 > **Normativity:** Normative method guidance within SIE; examples are constructed and non-normative.
 >
-> **Primary working result:** a `QualifiedCorrespondenceSet@Use` whose rows identify exact source-local endpoints, relation or incompatibility, orientation, bounded use, permitted loss, justification and evidence, source versions, counterexamples, confidence where meaningful, and accepted, rejected, unresolved, or incompatible disposition.
+> **Primary working result:** a `QualifiedCorrespondenceSet@Use` whose rows identify exact source-local endpoints, relation or incompatibility, orientation, bounded use, permitted loss, justification and evidence, source versions, any known exceptions or counterevidence bearing on the relation, confidence where meaningful, and accepted, rejected, unresolved, or incompatible disposition.
 
 ### SIE.4:1 - Problem Frame
 
@@ -880,7 +880,7 @@ When candidate generation and qualification collapse, downstream mapping code in
 
 ### SIE.4:4 - Solution
 
-Separate candidate discovery, direct relation judgment, and bounded-use qualification. For each row, identify exact source-local endpoints, state the relation or incompatibility and orientation, justify it with evidence and counterexamples, then decide whether that relation may support the named use under a stated loss boundary. Keep the direct relation and its use qualification independently inspectable.
+Separate candidate discovery, direct relation judgment, and bounded-use qualification. For each row, identify exact source-local endpoints, state the relation or incompatibility and orientation, establish it from the evidence applicable to those endpoints and use a counterexample when it distinguishes disputed relations, then decide whether that relation may support the named use under a stated loss boundary. Keep the direct relation and its use qualification independently inspectable.
 
 #### SIE.4:4.1 - Pattern-Use Unfolding
 
@@ -999,13 +999,13 @@ Reopen when an endpoint meaning or edition changes, a counterexample defeats the
 > **Status:** Stable
 > **Normativity:** Normative method guidance within SIE; examples are constructed and non-normative.
 >
-> **Primary working result:** a `CrossSourceIdentityDisposition@Use` that states, for each load-bearing endpoint pair or set, the required entity grain and interval, identity-related disposition, the source entries, the rules and contexts or assignments and issuers that resolve them, evidence, authority boundary, unresolved cases, and the exact mappings, claim compositions, interfaces, and tests that may consume it.
+> **Primary working result:** a `CrossSourceIdentityDisposition@Use` that states, for each load-bearing endpoint pair or set, what counts as the same entity for the decision and any interval on which that judgement depends, identity-related disposition, the source entries, the rules and contexts or assignments and issuers that resolve them, evidence, authority boundary, unresolved cases, and the exact mappings, claim compositions, interfaces, and tests that may consume it.
 
 ### SIE.5:1 - Problem Frame
 
 **Use this when** an integration needs to decide whether records or identifiers from different sources concern the same entity, a part, a version, a variant, an alternate description, a family, or different or unresolved entities. The recognizable failure is a join, merged key, or `sameAs` assertion that makes identifiers appear unified while erasing their issuers, grains, intervals, and authority.
 
-For one bounded cross-source identity question, state the entity grain and time or effectivity interval at which sameness matters for the named use. The first result is a disposition that downstream work can inspect and challenge without replacing source identifiers or master-data authority.
+For one bounded cross-source identity question, establish what must remain the same for the named use. If time or effectivity can change the attribution, identify the relevant interval. The first result is a disposition that downstream work can inspect and challenge without replacing source identifiers or master-data authority.
 
 The payoff is that the integration can join only warranted cases, identify which branches remain unresolved, and preserve source trace. Do not use SIE.5 to create identifiers, choose enterprise master identity or survivorship, decide authoritative values, or prove a source claim true. Those decisions remain with identifier owners, MDM, or the direct domain authority.
 
@@ -1028,15 +1028,15 @@ If an integration collapses those distinctions, the merged record no longer show
 
 ### SIE.5:4 - Solution
 
-Frame identity as a source-qualified, grain- and interval-specific disposition for one receiving use. Preserve every source identifier and the applicable context or assignment, including its issuer when it was issued. Compare the entity criteria, relation evidence, version/effectivity, and authoritative decisions that matter. Return same, different, part, version, variant, alternate-description, family, or unresolved only at the precision supported; do not force every useful relation into identity.
+Decide what the source entries designate at the grain required by the receiving use. Establish the interval when the attribution depends on time. Preserve every source identifier and the applicable context or assignment, including its issuer when it was issued. Compare the entity criteria, relation evidence, version/effectivity, and authoritative decisions that matter. Return same, different, part, version, variant, alternate-description, family, or unresolved only at the precision supported; do not force every useful relation into identity.
 
 #### SIE.5:4.1 - Pattern-Use Unfolding
 
 1. **Name the receiving identity question.** State which mapping, claim composition, query, or decision needs an identity premise and what a wrong merge or split would change.
-2. **Fix entity grain and interval.** Name the relevant individual or occurrence kind, part-whole level, version/configuration, lifecycle state, jurisdiction or organization, and time/effectivity interval.
+2. **Set the identity criterion for the receiving use.** Identify the kind of individual or occurrence and what counts as the same referent for this decision. Include composition, version, state, jurisdiction, issuing organization or effectivity when differences there could change the attribution. Two identifiers can designate the same visit by their assignments even when no part of the visit is in question.
 3. **Resolve each source entry.** Use SIE.2 to establish what each entry can designate. Recover its assignment and issuing authority when it was issued, or the rule and context used to interpret it. Retain the applicable syntax, restrictions, source edition and provenance. If the evidence leaves several candidates or fails to identify one, record that outcome.
 4. **Separate candidate relation kinds.** Consider same individual at the stated grain, different individuals, part/whole, earlier/later version or specialization, variant, alternate description, an individual satisfying a type criterion, or membership in a declared product family. When several readings still fit, check which trace or decision differs between them. Return an answer common to every admissible reading at the requested grain. Preserve any finer relation still in doubt.
-5. **Collect discriminating evidence.** Use issuer records, source assertions, configuration/effectivity, provenance, physical or domain characteristics, event histories, and counterexamples. A shared string or co-occurrence is only candidate evidence.
+5. **Collect discriminating evidence.** Use the evidence that establishes the relevant attribution, such as an issuer record, source assertion, physical characteristic or event history. Examine configuration, effectivity or a possible counterexample when it can change the conclusion. A shared string or co-occurrence is only candidate evidence.
 6. **Recover authority.** Identify who may bind a source identifier, govern the master identity, decide authoritative values or establish the domain relation. SIE records the disposition for its stated use under those authorities.
 7. **Assign the narrowest warranted disposition.** State conditions, confidence or uncertainty where meaningful, rejected alternatives, and unresolved evidence. Preserve source IDs even for accepted same-entity rows.
 8. **Link consumers to the identity disposition.** Reference the disposition from every mapping, claim composition, interface row, and identity test that relies on it. Never copy only the merged key.
@@ -1044,13 +1044,13 @@ Frame identity as a source-qualified, grain- and interval-specific disposition f
 
 #### SIE.5:4.2 - Record the Result
 
-| Identity position | Required content |
+| Identity question | What to record for the decision |
 | --- | --- |
 | identity question and use | receiver, dependent action, wrong-merge/wrong-split consequence |
-| entity boundary | kind and grain, part-whole level, version/configuration, interval/effectivity, relevant context |
+| entity boundary | kind and criterion for the same individual or occurrence. Include part–whole relations, version, configuration, effective interval and context where they can change the attribution |
 | source identifiers | each source entry, the supported referent, remaining candidates or unresolved designation, the relevant rules and context or the assignment and its issuer, restrictions, edition and provenance |
-| candidate relations | same, different, part, version/specialization, variant, alternate description, family, unresolved alternatives |
-| warrant | evidence, counterevidence, counterexamples, uncertainty/confidence, rejected alternatives |
+| candidate relations | alternatives that matter here, such as the same entity, a part, version, variant or alternate description, and any distinction the sources still leave open |
+| warrant | the grounds for the disposition. Record material counterevidence, exceptions, rejected alternatives and uncertainty where they affect the conclusion or its use |
 | authority | scheme-local, master-data, domain, and receiving-decision scopes |
 | disposition | narrowest warranted relation or unresolved result, conditions, source-ID preservation rule |
 | downstream and reopen | mapping/composition/interface/test references and the change or observation that reopens the disposition |
@@ -1086,11 +1086,11 @@ Tests cover reused package identifiers, a die split/merge error, contradictory s
 ### SIE.5:7 - Conformance Checklist
 
 - [ ] The receiving action and wrong-merge/wrong-split consequence are named.
-- [ ] Entity kind, grain, part-whole level, version/configuration, and interval/effectivity are explicit.
+- [ ] The referent kind and identity criterion are clear. The conclusion retains the distinctions in composition, version, context or interval on which that criterion depends.
 - [ ] Each entry can be traced to its source and edition. The rule and context or the assignment and its issuer, the restrictions and the available evidence support the stated result, including an unresolved result.
 - [ ] Useful non-identity relations are not compressed into a boolean same/different field.
 - [ ] Shared strings, co-occurrence, and crosswalk membership are treated only as candidate evidence.
-- [ ] Evidence, counterevidence, counterexamples, and uncertainty are inspectable.
+- [ ] The evidence supporting the disposition is inspectable, together with any material counterevidence, unresolved uncertainty or counterexample.
 - [ ] Scheme-local, master-data, domain, and receiving-decision authority scopes remain separate.
 - [ ] Accepted same-entity rows do not delete source identifiers.
 - [ ] Every dependent mapping, composition, interface, and test references the disposition.
@@ -1820,7 +1820,7 @@ Steps 3–10 locate the grounds for the claim at issue. A supported finding can 
 3. **Validate carrier and schema.** Test parseability, declared schemas/shapes, required fields, datatypes, cardinalities, identifiers, and branch encodings. Treat a pass as structural only.
 4. **Validate semantic-model and endpoint adequacy.** Test whether source and target concepts, types, relations, constraints, units/codes, and any supplied model express the required distinctions throughout the scope claimed. Use discriminating cases where these distinctions remain in doubt.
 5. **Validate correspondences and mappings.** Challenge the accepted `SIE.4` relations under the conditions of use. Establish whether the `SIE.7` rule preserves selection, cardinality, conversion, defaults, errors, loss and trace where the claim relies on them. For implementation behaviour, use suitable execution evidence or a conformance argument that covers the actual implementation.
-6. **Validate identity and authority.** Test every load-bearing `SIE.5` disposition at its grain and interval, including issuer, version, part-whole, reuse, split/merge, and unresolved branches. Verify required authority and permission inputs rather than inferring them from data access.
+6. **Validate identity and authority.** For each identity disposition used in the conclusion, establish what the source entries designate at the grain the decision requires. Check the issuer, version, effective interval, part–whole relation, reuse or split/merge where differences there could change the attribution. Preserve an unresolved branch that affects the decision. Verify required authority and permission inputs from their governing basis.
 7. **Validate claim composition.** Test `SIE.6` comparability, conflict, non-comparability, supersession, incomplete-source, and uncertainty branches. Confirm that source claims and derivation remain recoverable.
 8. **Validate realization and interface behavior.** Test currentness, latency, availability, snapshot/caching, invalidation, source failure, partial results, access/protection, provenance, error semantics, and challenge paths required by `SIE.8` and `SIE.9`. A timed response establishes this execution’s elapsed time. For a guarantee across loads, establish a bound under the admitted joint request and resource conditions. A percentile requires evidence for the specified request population and measure.
 9. **Validate provenance, currentness, and quality.** Check that every relied-on output can recover its source and rule premises, that source/version/time status satisfies the use, and that selected quality measurements meet their action-changing thresholds. Do not treat provenance or process conformance as truth.
@@ -2412,9 +2412,9 @@ Necessary coordination is part of obtaining the result: establish who can perfor
 
 Use [SIE.8:4](#sie84---solution) to establish that a proposed realization can supply the accepted mapping behaviour. When a choice or comparative preference remains part of the commission, develop the alternatives needed to support it. Bring the semantic dependencies and the shared conditions into that comparison. Include required trace, failure and recovery behavior in the workload. Query permission, replication permission and disclosure permission remain separate inputs.
 
-Test the combined demand against each applicable limit. Count the distinct requests in one allowance window, including the retry behavior on which the service promise depends. For time, follow the operations that must finish before the receiver can act; parallel operations and serial dependencies have different effects. For storage or access, apply the conditions that govern what the arrangement retains or makes accessible. A common resource limit concerns the combination even when every component fits alone.
+Test the combined demand against each applicable limit. Where providers share a quota, establish what consumes the allowance, in what units and over which window. Combine the charges for the calls that may be needed together, including retries according to the actual charging rule. When reusing approved information, the common condition may instead be that the source editions and interpretations are applicable together. For time, follow the operations that must finish before the receiver can act; parallel operations and serial dependencies have different effects. For storage or access, apply the conditions that govern what the arrangement retains or makes accessible. A common resource limit concerns the combination even when every component fits alone.
 
-Keep a common source or derivation visible when several contributions rely on it. Agreement among results that share a premise is not independent corroboration of that premise. Likewise, several pairwise comparisons do not establish a condition over all contributions together.
+Keep a common source or derivation visible when several contributions rely on it. Agreement among results that share a premise is not independent corroboration of that premise. Use pairwise comparisons for a joint requirement when their conjunction establishes that requirement. For instance, if each edition is applicable throughout one closed interval on the same timeline, pairwise overlap among a finite set of editions implies a shared instant: the latest start is no later than the earliest end. That argument does not extend to arbitrary sets of permitted versions. In that case establish the jointly allowed combination or leave the joint claim open.
 
 If the proposed whole fails, compare the continuations the contract permits. A narrower answer must retain the semantic premises, trace, access and interpretation required for that answer. An authorized contract change or a different realization can reopen the choice. Dropping a required provenance contribution or quietly redefining completeness cannot repair the same promise.
 
@@ -2500,7 +2500,7 @@ Recognize this problem when the receiver still cannot obtain an answer from othe
 - Each required answer claim can be followed to its semantic premises and the operations that produce it.
 - For each operation, the input results warrant their use in that operation for the subjects and conditions in question. Correspondence, identity and claim composition have distinct roles.
 - The next missing result is chosen for its effect on the receiving answer, with an obtainable supplier or an explicit blocker.
-- The complete arrangement is compared under relevant shared limits, permissions, trace and failure conditions; local or pairwise feasibility is not substituted for that comparison.
+- To conclude that the complete arrangement can serve its intended use, establish joint feasibility under the relevant shared limits, permissions, trace and failure conditions. For a negative conclusion, show which required use cannot be provided and what that excludes: the proposed arrangement, its guarantee under permitted choices, or every available arrangement. When local or pairwise results supply the answer, establish the conditions that carry them to the whole.
 - The supplied interface preserves the qualified meanings, material absence and conflict branches, and the receiver's required interpretation.
 - A positive use claim has evidence for every load-bearing premise and joint condition within its scope. A negative conclusion states the obligation it defeats and the reach left unexamined.
 - A useful intermediate return identifies the promised work still due. A final partial answer has the agreed scope and retains the premises needed at that scope. A changed premise reopens its dependent contributions and uses while adequate unaffected results remain reusable.
