@@ -2281,7 +2281,7 @@ How can an organiser investigate the contribution and its limits well enough to 
 
 ### CB.10:4 - Solution
 
-Begin with the decision and a specific experience or contribution. If later use matters to the decision, trace what the recipient did with the contribution as far as the evidence allows. Compare the account with observations that could support, limit or contradict it, and state what the missing cases leave unknown. Return the supported result to participants and those who can act. If they change a condition, observe what follows.
+Begin with the decision and what could settle it. A record or bound can answer a question about coverage. To find out what someone experienced or did with a contribution, investigate the relevant occasion. If later use matters to the decision, trace what the recipient did with the contribution as far as the evidence allows. Compare the account with observations that could support, limit or contradict it, and state what the missing cases leave unknown. Deliver the supported result to those entitled to receive it and give contributors the return agreed with them. If the commission concerns the effect of a later change, establish what followed and what the observations can support.
 
 
 
@@ -2303,15 +2303,15 @@ Find where the promised result would become visible. A participant can report wh
 
 An indicator needs a recoverable unit and population. For returning participation, distinguish people from visits and say who could have returned during the period. For response, distinguish an initial acknowledgement from a useful answer. If the observation method changes, retain that difference before interpreting a trend.
 
-Use activity patterns to find informative accounts. Include a relevant contrast: someone who returned, someone who left after one attempt, a quiet user, or a contributor whose work stopped. Select the contrast because it can change the explanation. A few purposeful conversations can expose a repair without representing the whole population.
+When personal accounts could resolve the question, use activity patterns to find them. A relevant contrast might involve someone who returned, someone who left after one attempt, a quiet user, or a contributor whose work stopped. Select the contrast because it can change the explanation. A few purposeful conversations can expose a repair without representing the whole population.
 
 Provide an appropriate way to answer. People may need a private conversation, an accessible format or someone other than their organiser to receive criticism. Explain how the account will be used, obtain permission for attributed reuse and retain only detail needed for the inquiry. A refusal or missing response remains missing evidence.
 
-Keep collection proportionate. Start with a small number of useful observations and cases; expand when plausible alternatives still change the decision. If the question needs specialist sampling or causal identification, obtain that contribution instead of treating more informal interviews as an equivalent.
+Keep collection proportionate. Use the evidence already sufficient for the decision. Collect more where the plausible alternatives still differ in a consequential respect. If the question needs specialist sampling or causal identification, obtain that contribution instead of treating more informal interviews as an equivalent.
 
 #### CB.10:4.3 - Recover the path from experience to use
 
-Ask for one particular occasion, preferably in the recipient’s own account. Find out what happened, what the recipient obtained, what they did with it and what difference that made. An account can start with a later result and work backwards. Check the order of events and identify where the evidence ends.
+To investigate a participant’s experience or use of a contribution, ask about a particular occasion, preferably in that recipient’s own account. Find out what happened, what the recipient obtained, what they did with it and what difference that made. An account can start with a later result and work backwards. Check the order of events and identify where the evidence ends.
 
 For social learning, the Guidebook's four basic value cycles help ask different questions:
 
@@ -2366,7 +2366,7 @@ If the inquiry exposes a different purpose, return to CB.1 with the affected par
 
 #### CB.10:4.7 - Return the result and keep the learning loop useful
 
-Return what was learned to those who supplied the experience and those who can act. Explain the supported benefit or failure, the limit on the conclusion and the decision the result supports. Use the detail needed by each receiver while preserving consequential uncertainty and permission for reuse.
+Deliver the commissioned finding to its recipients. Where participants supplied accounts, return what was agreed with them, using information they are entitled to receive. Explain the supported benefit or failure, the limit on the conclusion and the decision the result supports. Use the detail needed by each receiver while preserving consequential uncertainty and permission for reuse.
 
 Let participants use the account to improve their own practice. A failed application can become a correction to shared guidance; a successful adaptation can become a candidate for another context. CB.14 and Core's Method-development family qualify any wider method claim. A sponsor's summary can draw on that same grounded account without replacing it with an unsupported impact total.
 
@@ -2422,7 +2422,7 @@ For the intended decision, check that:
 - Useful contrary observations, burdens and unsuccessful uses are included where they can change the judgement.
 - Reports, observed occurrences, contribution explanations and causal claims retain their different evidence requirements.
 - A recommendation reaches the person who can use it. When the change is to be tried or introduced, its permissions, people and resources are available.
-- Participants receive a usable return, and continued collection has a reason.
+- The recipient obtains the commissioned finding. Where people contributed accounts, give them the agreed return. Further collection has a reason.
 
 A coherent local account can support a bounded improvement. A broader claim needs evidence with the corresponding reach.
 
@@ -2971,7 +2971,7 @@ Use this pattern when participants in a common activity need shared decisions bu
 
 The governed object is the arrangement that makes specified shared decisions possible: their subjects, participants, source of authority, decision method, limits and means of reconsideration. This is one branch of community governance. Performing an already assigned organising task belongs to CB.7; applying an established participation rule to an incident belongs to CB.8.
 
-**First useful result:** those entitled to establish the arrangement have put a usable mandate into effect for the named questions, with its limits and challenge route understood. If they cannot do so, the result is the exact unresolved authority or agreement question and the work that may still proceed under existing conditions.
+**First useful result:** for a question about an existing mandate, a grounded answer about who can decide the matter, within which limits and for how long. For a design commission, a proposal the authorized participants can assess, with its consequences and the decisions they retain. To institute a mandate, those entitled to do so put the arrangement into effect with its limits and challenge route understood. When authority or agreement is missing, identify what remains open and what work can proceed.
 
 Start with a concrete decision the participants need to make. Identify whose contributions or rights it could change.
 
@@ -2998,7 +2998,7 @@ The problem is to construct enough shared authority and procedure for the actual
 
 ### CB.13:4 - Solution
 
-Construct the arrangement around a few real questions, compare forms that could settle them, test their ordinary and disputed use, then obtain the acts and conditions that make the selected mandate effective. Keep the constitution of authority separate from each later decision made under it.
+For a question about a current mandate, apply its governing basis to the subject, holder and date. An agreement may confer the power directly or require an appointment or another act. In the latter case, establish whether that act took effect for this holder. The applicable provision and evidence of its effect can settle the question before anyone exercises the power. To design a new arrangement, construct it around a few real questions, compare forms that could settle them, test their ordinary and disputed use, and return the proposed arrangement to those who will decide. If commissioned to introduce it, obtain the acts and conditions that make the selected mandate effective. Keep the constitution of authority separate from each later decision made under it.
 
 #### CB.13:4.1 - Separate the shared questions and affected parties
 
@@ -3079,13 +3079,13 @@ Select this option only where those participation terms and limits on discussion
 
 #### CB.13:4.6 - Adopt the arrangement and make it effective
 
-Test the proposed arrangement before adoption with an ordinary case and a consequential dispute. Check whether the named participants can carry it out with available time, information, access and support. Repair a missing contribution or revise the option.
+For a design or adoption decision, establish how the proposed arrangement handles ordinary questions and consequential disputes. Rehearse or try a case where the workings remain open or a trial has been commissioned. Check whether the named participants can carry it out with available time, information, access and support. Repair a missing contribution or revise the option.
 
-Present the resulting proposal and its consequences to those who can adopt it under the existing basis. Show the scope of the proposed authority, what remains with participants or local groups, the commitment required and how it can change or end. Obtain the required agreement or decision through the applicable procedure.
+Present the resulting proposal and its consequences to those who can adopt it under the existing basis. Show the scope of the proposed authority, what remains with participants or local groups, the commitment required and how it can change or end. Delivery of the proposal and its grounds can complete a design commission. If adoption is due, follow the applicable procedure to obtain the required agreement or decision.
 
 If this is the first limited voluntary agreement, make acceptance and its boundary explicit. Provide a way to decline. Record whose activity and contributions it governs and what happens to a person who leaves. Leave external obligations with their holders. A discussion of a proposal is not its adoption.
 
-Make the mandates and conditions effective: complete the required appointment or acceptance, provide access, obtain the promised resource contribution and tell participants where decisions and challenges go. Use OCE.6 for assignments and enabling relations when needed. A person can be selected while an essential condition remains unavailable; retain that distinction and reduce the dependent promise.
+For a commission to introduce the arrangement, complete the required appointment or acceptance, provide access, obtain the promised resource contribution and tell participants where decisions and challenges go. Use OCE.6 for assignments and enabling relations when needed. A person can be selected while an essential condition remains unavailable; retain that distinction and reduce the dependent promise.
 
 Keep the usable rule and current appointments discoverable. A short agreement can suffice for a small joint activity. A larger association may need its established constitutional and decision records. Use the existing form that preserves the needed scope, term, result and amendment route.
 
@@ -3173,9 +3173,9 @@ For the shared decision arrangement, ask:
 - Does the authority to adopt it come from an actual agreement or applicable institution?
 - Is consultation distinguishable from the procedure that produces a decision?
 - Where the arrangement uses representatives, can they obtain views, act within a bounded term and return reasons, and can their constituents replace them?
-- Can an ordinary question and a dispute pass through proposal, decision, execution and challenge with available people and resources?
-- If a named external procedure is selected, have these participants accepted its obligations, including its treatment of abstention, absence and amendment?
-- Has adoption occurred, and have the appointment, access and support conditions become effective?
+- When the arrangement itself is being designed or assessed, are there workable ways to decide ordinary and disputed questions, carry decisions into effect and hear a challenge?
+- If the design proposes an external procedure, can the participants assess its obligations, including its treatment of abstention, absence and amendment? If it is presented as binding, what gave it effect here?
+- For a claim about a present mandate, what established it and what does it cover now? For a commission to introduce a new arrangement, have its required adoption, appointment, access and support taken effect?
 - Is there a workable amendment, expiry and challenge route, including a challenge involving the decision-makers?
 
 A small voluntary agreement can answer these questions briefly. A stronger institutional or legal claim needs its own applicable evidence and qualified result.
@@ -3534,7 +3534,7 @@ Start with the result the receiving practice needs and identify the contribution
 
 #### CB.15:4.1 - Locate the difficulty where the practices meet
 
-Start with an actual request, referral, shared material, decision or outcome. Ask each side what it was trying to achieve, what it needed from the other, what it supplied and what happened. Recover a case where the connection worked as well as the difficulty when that contrast could change the explanation.
+Start with the work the parties need to connect. For a proposed collaboration, find what each practice must receive, which choices and permissions already apply, and how one contribution could become usable by the other. To explain an outcome already observed, recover what each side actually supplied and used. Compare a successful and a difficult case when that contrast could change the explanation.
 
 Let practitioners describe their own work and constraints. An organiser's account can identify a lead, but someone who performs or receives the contribution may expose a different problem. Use CB.1 and OCE.2 when the relevant participants, affected interests or working relations are still unknown.
 
@@ -3572,7 +3572,7 @@ Keep the commitment and authority bounded. Participants may offer their own time
 
 #### CB.15:4.4 - Clarify meanings through the shared work
 
-Have each side explain the relevant action through a concrete case. Ask what starts it, what material it needs, what decision is made, what result leaves and who uses that result. Where the accounts conflict, locate the difference before proposing a shared term.
+Establish what each side means by the action or result on which the other will rely. Where their terms leave a consequential difference open, examine a case that distinguishes the possible uses. Ask what starts it, what material it needs, what decision is made, what result leaves and who uses that result. Where the accounts conflict, locate the difference before proposing a shared term.
 
 Compare consequential expressions in use. If one group calls a request “ready” when all fields are filled and another means a qualified practitioner has accepted it, preserve both meanings and say which condition the joint work needs. A short explanation or distinct wording may suffice.
 

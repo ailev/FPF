@@ -646,6 +646,8 @@ Retain joint or sustaining costs at the level their explanation supports when th
 
 When the receiving purpose requires distribution beyond supported tracing, select or obtain the rule appropriate to that purpose. State the basis and why it is usable here. An applicable agreement or reporting rule may determine it.
 
+When the task is to design the rule, start from the decisions the recipients of the account will make. Establish which resource use can be traced to particular work and which costs remain shared. Construct alternative ways of assigning the shared amount. Hold the total fixed and follow what each party could gain, lose or cease to report under each rule. Recover what the joint service needs from all of them. Use MA.9:4.0 for the operating consequences and return a proposed change in agreed terms to those who may adopt it. For a charge already governed by an applicable rule, the rule and facts can settle the amount.
+
 Apply the rule consistently to the defined source total and recipients. Retain rounding, excluded items or residuals where they affect reconciliation. Distinguish a change in the total from a change in its assignment.
 
 Where plausible rules could change a consequential interpretation, show that sensitivity or return the disputed rule.
@@ -675,6 +677,8 @@ The example uses an agreed internal convention.
 ### MA.3:7 - Conformance Checklist
 
 For a charge, can the recipient establish the period, the rule and the facts that determine its amount? For a full distribution, do the assigned amounts and explicit residuals reconcile to the pool?
+
+For a proposed allocation rule, can the parties see how its effects on their decisions support the shared service, which transfers it makes and who can agree it? Several rules can reconcile to the same total and leave different incentives to report or request work.
 
 For a question about an avoidable payment, does its amount or a sufficient bound follow from the change in the relevant terms and work? Making a decision about closing a whole activity can require additional consequences.
 
@@ -1740,6 +1744,8 @@ An unresolved premise can leave a conditional alternative, a justified next expe
 
 Return the supported alternatives and remaining conditions to those who choose or authorize the work. Make clear which commitments the chosen arrangement needs and which conclusions would change if they are not obtained. MA.9 arranges the use of the account when participants otherwise lack a workable way to act on it.
 
+If the commission is to assess feasibility, identify which arrangements the parties are allowed to change. A bound common to all of them can settle the question, as can a comparison that covers the whole permitted set. If only one design has been ruled out, return the finding about that design and identify the alternatives that could still change the decision. A commission to compare specified designs can finish when their comparison is complete.
+
 After a trial or implementation, compare the observed activity and consequences with the relationships used in the design. MA.7 can locate a cost or margin difference; further evidence establishes its cause. Revise a resource dependency, demand assumption, contractual interpretation or information use where warranted. Retain knowledge whose conditions still hold. If the intended result or economic requirement changes, reconsider the affected design rather than merely issuing a new cost target.
 
 ### MA.10:5 - Archetypal Grounding
@@ -1773,10 +1779,12 @@ A stated target can anchor attention on cost reduction and obscure a better resu
 ### MA.10:7 - Conformance Checklist
 
 - The intended result, economic criterion, scope and authority to change them are distinguishable.
-- The proposed improvement changes an explained relationship, work arrangement or term; it is not only a lower estimate.
+- When an improvement is proposed, it changes an explained relationship, work arrangement or term. Its consequences can be traced through the estimate.
 - The combined account retains shared-resource constraints, dates, surviving obligations and material effects on other participants.
 - Technical, operating, market and financial conditions have adequate results or remain explicit conditions of use.
 - Changed evidence can be traced to the design, requirement and dependent account it would reopen.
+
+- For a finding of infeasibility, does the reason cover the arrangements the commission allows? For an unresolved assessment, which possibility keeps the question open?
 
 ### MA.10:8 - Common Anti-Patterns and How to Avoid Them
 

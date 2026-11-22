@@ -51,7 +51,7 @@ If one of these situations fits, follow its starting link. If your question does
 
 **Question.** What does that evidence warrant for the actual work and decision?
 
-**First useful result.** A supported comparison and recommendation, or a specific evidence gap.
+**First useful result.** A supported judgement about the person’s contribution to the specified work, a comparison or recommendation when required for the appointment, or a consequential evidence gap.
 
 **Start with.** [HRM.2](#hrm2---substantiate-a-personnel-assessment-and-selection).
 
@@ -467,7 +467,7 @@ AI assessment needs an identified model/procedure and evidence relevant to its u
 
 #### HRM.2:4.4 - Compare candidates under the justified rule
 
-Apply the supported procedure to the eligible population. Separate missing evidence from unfavorable evidence and record material uncertainty. A person denied a relevant opportunity should not silently receive the same interpretation as one who demonstrated failure. Seek a proportionate clarification or another valid opportunity when it can change the choice and is permitted.
+Use the procedure for the person or group the decision concerns. When the selection rule requires a comparison across eligible candidates, account for that population. Separate missing evidence from unfavorable evidence and record material uncertainty. A person denied a relevant opportunity should not silently receive the same interpretation as one who demonstrated failure. Seek a proportionate clarification or another valid opportunity when it can change the choice and is permitted.
 
 Distinguish minimum conditions from compensable preferences. A required professional permission cannot be compensated by a high interview score. Among candidates who meet binding conditions, use the explained comparison relevant to the work. Do not construct weights retrospectively to select a favored person. When candidates are not distinguishable on the evidence, use the applicable tie or further-evidence procedure and state what the evidence leaves unresolved.
 

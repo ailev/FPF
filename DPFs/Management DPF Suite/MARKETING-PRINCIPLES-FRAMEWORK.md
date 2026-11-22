@@ -94,8 +94,8 @@ Bring your working question. If none of these examples fits, search the Table of
 ### MKT-ENTRY-PROGRAMME - Share preparation while keeping promises feasible
 
 - **Situation:** Several organisations could use related services, but shared preparation competes with local exceptions and existing work.
-- **Question:** Which whole programme can the team support for the intended result and period?
-- **First useful result or blocker:** A supported combination of common work and separate continuations, or the capacity, permission or capability that defeats it.
+- **Question:** For these related services, which programme can the team support for the intended result and period?
+- **First useful result or blocker:** A programme that delivers the promised results, or the condition that prevents it. Derive which work can be shared, which must be supplied separately and what the customer needs from their combination.
 - **Start with:** [MKT.14](#mkt14---develop-and-change-a-programme-for-selected-customer-organisations), using MKT.1/12, MKT.2/6, MKT.11 and MKT.13 where their results are missing; follow [the B2B application](#mktapplication3---app-mkt-organisations---turn-a-programme-comparison-into-actual-customer-work).
 - **Stop or return:** Remove or change the affected opportunity when a condition fails. Recompare the whole programme when the changed opportunity alters common preparation or scarce support.
 
@@ -1689,7 +1689,7 @@ Connect a particular customer's useful result and consequential conditions to ac
 
 Identify the immediate decision, the useful result, its recipient and the work it will serve. Distinguish selecting an offer, selecting help for an acquired service and constructing a new service. The relevant information differs: a purchaser's spending limit may matter to the first decision, while access and present ability may determine the second.
 
-Ask what difference would change the suitable action. Start with the required use, available time, access, necessary ability, support, material constraints and preferences that affect the result. For each proposed attribute, explain which alternative it can select or exclude. Omit an attribute whose value cannot change the decision. A broad market group can provide a useful starting hypothesis through [MKT.1](#mkt1---qualify-a-market-problem-and-differences-between-customers); it does not settle this customer’s conditions.
+Ask what difference would change the suitable action or the explanation the customer needs. Start with the required use, available time, access, necessary ability, support, material constraints and preferences that affect the result. For each attribute, identify the decision or ground that depends on it. Two customers may qualify for the same service through different permissions. If the order calls for explaining who authorized access or when it must be renewed, retain that difference. A broad market group can provide a useful starting hypothesis through [MKT.1](#mkt1---qualify-a-market-problem-and-differences-between-customers); it does not settle this customer’s conditions.
 
 When the required result is unclear, use [MKT.6](#mkt6---jointly-shape-a-useful-result-and-help-achieve-it) to obtain an agreed contribution before choosing its variant. When sufficient conditions are already known, proceed without asking the customer to repeat them.
 
@@ -1770,7 +1770,7 @@ Visible attributes are easy to collect and can be mistaken for useful selection 
 
 ### MKT.9:7 - Conformance Checklist
 
-- The decision and action-changing customer differences are explicit.
+- Does the account preserve customer differences that change the decision or the explanation the customer needs for it?
 - Information retains its subject, source, currentness, use conditions and material uncertainty.
 - Does the selection meet the customer’s conditions? Where preference or a complete menu was requested, does the comparison support that further result?
 - Combined work preserves compatibility, performers able to do the work, access, support and timing.

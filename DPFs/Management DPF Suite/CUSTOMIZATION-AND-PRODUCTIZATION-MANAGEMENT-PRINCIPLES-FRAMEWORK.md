@@ -796,7 +796,7 @@ Use the results from the cited engineering and marketing Methods within their pr
 
 Use this method when a supported family offers meaningful choices, but selecting a valid configuration or arranging customer-specific work remains difficult. It also applies when early preparation creates waste or late customization creates unacceptable delay.
 
-Begin with the customer's use and the family’s actual conditions. Select a fitting combination and decide which work can be done before the customer is known and which must await their order, information or participation.
+Begin with the customer’s use, the family’s actual conditions and who is entitled to choose. A recipient may need one fitting combination, a recommendation or a way to choose later from the supported family. Establish which work can be done now and which must await the order, information or choice.
 
 If the required result is outside the family, return the difference to CUST.2 or CUST.3. A configurator is not a reason to force the customer into an unsuitable result.
 
@@ -826,13 +826,13 @@ Check understanding where a term can change selection. “Managed” might mean 
 
 #### CUST.4:4.2 - Help the customer navigate the solution space
 
-Eliminate combinations that violate a necessary condition. Compare the remaining alternatives by the differences that matter for the intended use. Present a manageable subset with the reason for exclusion or preference; preserve access to a qualified exception when the subset does not fit.
+Eliminate combinations that violate a necessary condition. Compare the remaining alternatives by the differences that matter for the intended use. For a recommendation, present a manageable selection and its grounds. When customers retain the choice among all qualified configurations, give them a usable way to find and exercise any of those choices, including one outside the shortlist. A rule can express the full range.
 
 A direct configurator suits choices whose consequences the recipient can understand and whose rules are sufficiently expressed. Assisted selection suits unfamiliar consequences, coupled options or incomplete information. A demonstrated example can expose meaning better than another field in a form. Obtain the customer's missing input only when it can change the choice.
 
 Use defaults and recommendations as explained assistance, not hidden commitments. When a choice transfers work to the recipient, show that work. For example, customer-hosted delivery may require local monitoring, updates and access arrangements that provider-hosted delivery supplies differently.
 
-The result is a selected or short-listed combination with fit grounds and remaining conditions. If no combination fits, say what fails and return the substantive difference. An option the form will accept still needs qualified fit and provision. A recommendation can name one fitting member. If customers retain the right to choose later, identify what supply choices must remain possible until their decision arrives.
+The result can be a selected combination, a recommendation or an account of the full range the customer can choose, with fit grounds and remaining conditions. If no combination fits, say what fails and return the substantive difference. An option the form will accept still needs qualified fit and provision. A recommendation can name one fitting member. If customers retain the right to choose later, identify what supply choices must remain possible until their decision arrives.
 
 #### CUST.4:4.3 - Place common work and customer-dependent work
 
@@ -867,7 +867,7 @@ Observation alone is not influence over an outcome. A provider need not control 
 
 #### CUST.4:4.6 - Make the selected configuration usable and revisable
 
-Give the recipient and delivery participants the chosen result, variations, required contributions, timing, support and acceptance conditions. Where choices are reversible, preserve a cheap return; where changing them later creates rework or obligation, make that consequence visible before commitment.
+When the customer has chosen, give the recipient and delivery participants the configuration, contributions, timing, support and acceptance conditions. When the choice stays open, give the customer the agreed alternatives or rule for selecting them, the decision time and a way to exercise the choice. Establish how the provider can act on each permitted choice in time. Preserve inexpensive reversibility where feasible and explain the consequences of changing a commitment before it is made.
 
 Return a mismatch to CUST.3 when it challenges the promise for a member the family admits. One order within that promise can reveal the need to revise the rule or the provision. Repeated requests outside the stated family can remain local under CUST.2, or inform a proposal to extend it. Preserve the configuration actually selected for support and CUST.8 transitions.
 
@@ -890,6 +890,8 @@ The production vocabulary can overfit material flows. Use subject-specific model
 ### CUST.4:7 - Conformance Checklist
 
 - Are live choices expressed through the customer's result and consequences?
+
+- When the recipient is entitled to choose from a whole range, can they reach each qualified configuration, and what establishes coverage of that range?
 - Are infeasible combinations excluded for stated reasons?
 - Does a recommendation expose transferred work and responsibility?
 - Is the customer-dependent work placed where its inputs and capacity are obtainable?

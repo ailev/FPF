@@ -81,7 +81,7 @@ People agree that something matters, but interpret the situation differently or 
 
 People understand parts of a proposal, yet advice, objections, commitments and actual work do not connect into a supported beginning. Use [LDR.4](#ldr4---prepare-a-proposal-for-decision-and-first-use) to connect the proposal to its real consequences and obtain the contribution needed next. Missing authority, means or agreement remains explicit.
 
-Name the receiving work and keep sufficient help. Obtain trusted judgement, examine the consequences, and answer objections or retain an unresolved concern. Agree feasible contributions and obtain effective authority. Make the same start mutually visible, complete the first useful handover, and continue with the help still needed. Reopen the affected question when conditions change. These moves need not become a sequence of meetings.
+Name the receiving work and keep sufficient help. Obtain trusted judgement, examine the consequences, and answer objections or retain an unresolved concern. For an order to prepare a proposal, deliver the recommendation, its grounds and the decisions still reserved to their holders. For an order to launch, agree feasible contributions, obtain effective authority and put the start into effect on terms the participants can rely on. If the commission includes a first delivery, follow the handover through the agreed receiving action. Arrange continuing help where further use requires it. Reopen the affected question when conditions change. These moves need not become a sequence of meetings.
 
 Trusted advice can improve a proposal without authorizing it. An answer can be sound without being acceptable to a contributor. Acceptance can be real while its required budget remains unavailable. A shared start can be understood while the first handover still fails.
 
@@ -673,7 +673,7 @@ FPF B.5.QD.CF examines conflicting assumptions, D.4 handles ethical mediation an
 
 Use this pattern when a promising proposal must become understandable, examinable and supported by real contributions before joint work can begin, or when an announced decision has not yet reached its first useful result. The proposal may concern a new practice, a one-off collaboration or an ordinary task that needs renewed preparation.
 
-Begin with the receiving work and the result the proposal is meant to improve. If that direction or the basis for participation is unsettled, use LDR.5 and the necessary subject method rather than assume that preparation will justify the initiator's preferred proposal. Obtain the judgement people actually need, examine consequences and objections, revise the proposal, secure the required decisions and contributions, make the accepted start mutually visible, and follow the first handover into use.
+Begin with the receiving work and the result the proposal is meant to improve. If that direction or the basis for participation is unsettled, use LDR.5 and the necessary subject method rather than assume that preparation will justify the initiator's preferred proposal. Obtain the judgement people actually need, examine consequences and objections, revise the proposal, and deliver the resulting proposal to the decision holder. For a launch, secure the required decisions and contributions and put the accepted start into effect on terms visible to those concerned. For a first delivery, follow the handover to the receiving action the parties agreed.
 
 R10 calls this preparation “propitka” (soaking), comparing it to a sponge taking up water: knowledge about the proposed change spreads through people’s conversations. The practical work is to make the proposal understandable through explanation, advice and revision. Here it is not a campaign to suppress objections. A real disadvantage, inadequate basis or unavailable resource can warrant a changed proposal, refusal or deferral.
 
@@ -885,9 +885,9 @@ A conforming use makes the following recoverable where they affect the proposal:
 - the receiving work, first useful result and adequate existing alternative;
 - how participants can obtain and share an examinable explanation as permitted, how consequential questions return for examination, and any trusted judgement the decision requires;
 - the consequences at the scale of the requested decision, the grounds for carrying a finding across uses, real burdens and responses to substantive objections;
-- the revised whole proposal, actual decisions, accepted contributions and outstanding conditions;
-- the mutually visible start on the same effective terms;
-- the performed first contribution and the receiver's use, including retained assistance;
+- the proposal and its grounds, the decisions still to be taken and, for any claimed commitment, the effective decision and outstanding conditions;
+- for a commissioned launch, the mutually visible start on the same effective terms;
+- for a commissioned first delivery, the performed contribution and the receiver’s use where it matters, including retained assistance;
 - the next warranted continuation and the question reopened by a changed condition.
 
 For a prepared routine action, use the terms and working arrangements already in place.
