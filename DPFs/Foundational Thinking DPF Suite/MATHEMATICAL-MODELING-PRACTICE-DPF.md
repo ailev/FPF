@@ -5,7 +5,7 @@
 > Methods for constructing mathematical representations of a question, connecting unknown relations, observations and available actions, and revising the resulting models.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version:** 24 October 2026
+- **Version:** 22 November 2026
 - **Status:** Eternal alpha: a growing language of general modeling methods.
 - **License:** © 2026 Anatoly Levenchuk. Original framework text: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). Cited sources retain their own terms.
 - **Publication:** [FPF Library repository](https://github.com/ailev/FPF)
@@ -91,7 +91,7 @@ The methods in this language work together through the results they produce. A f
 
 Enter where the difficulty occurs and reuse results you already have. If the question is not yet mathematical, FPF B.5.FM helps choose participants and propose relations; B.5.TU helps interpret an unfamiliar theory. C.29 connects the construction with what it represents. For example, a cart's total distance does not determine its final position. Signed displacements and a starting position answer that question on a straight path; a question about visits along the way needs further information. Once the needed objects are recognizable, MMP.10 expresses their constraints; MMP.11 constructs a family when a relation remains unknown.
 
-The worked connections below show how an intermediate result changes the next operation. Use the Table of Contents for other questions and the pattern bodies for the methods, prerequisites and further examples. FPF supplies shared reasoning methods; Mathematical Thinking supplies reusable mathematical constructions.
+For an entry that resembles your situation, ask what result its method can deliver and what you were asked to supply. A worked connection can give that whole answer or a needed contribution to it. If constructing the model is your task, first try choosing a unit, an admissible variation and a way to distinguish two consequential cases from the terms of your own problem. Then compare that reasoning with the example. The Table of Contents leads to other operations. FPF supplies shared reasoning methods and Mathematical Thinking supplies mathematical constructions.
 
 You can ask an assisting agent: “Explain the result and give feedback in the language of my work, without framework jargon.”
 
@@ -124,7 +124,7 @@ B.1.5.CM:4.1 helps examine the proposed composition: what each method contribute
 
 - **Situation:** A fitted model produces an answer, but ambiguity in the unknowns or in the observing procedure may change what that answer supports.
 - **Question:** Which conclusion do the records warrant, and what must be revised when a consequential assumption fails?
-- **First useful result or blocker:** An identifiable target and an inferential result with a stated meaning, or the unresolved difference that still changes its use.
+- **First useful result or blocker:** A conclusion warranted by the records for the intended use. This can be an estimate of a determined target, a bound sufficient for the decision despite ambiguity, or a difference the available records leave unresolved.
 - **Start with:** [MMP.7](#mmp7---construct-a-probability-model-of-the-recorded-data) for the record law, [MMP.12](#mmp12---formulate-an-inverse-problem-and-choose-whether-and-how-to-use-regularization) for recovery and ambiguity, [MMP.13](#mmp13---infer-unknowns-statistically-under-a-stated-observation-model) for inference, and [MMP.14](#mmp14---find-and-repair-a-mathematical-models-failed-predictions) when a prediction needs repair.
 - **Stop or return:** Use a sufficient result under its stated assumptions. Additional diagnostics or observations are needed only when they can change the warranted use. A changed target, recording rule or dependence returns to the contribution it affects.
 
@@ -154,7 +154,7 @@ The same joins support other observing procedures. Their general contribution is
 
 - **Situation:** A model omits internal distinctions, and reconstructing them may cost more than the requested answer needs.
 - **Question:** Which consequences are shared by the remaining possibilities, and do they already decide the question?
-- **First useful result or blocker:** A bound that settles the stated threshold, or the distinction whose unresolved value still changes the answer.
+- **First useful result or blocker:** The conclusion supported despite the omitted detail, or the remaining possibilities that lead to different answers. In the example below, the question asks whether a total falls below a threshold.
 - **Start with:** [MMP.9](#mmp9---derive-a-reduced-mathematical-model-of-state-evolution) for lost evolution information; [MATH.20](https://github.com/ailev/FPF/blob/main/DPFs/Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-PRACTICE-DPF.md#math20---bound-a-mathematical-unknown-by-comparable-constructions) for bounds; FPF C.29 for subject interpretation and C.11.DUA when further inquiry is a live choice.
 - **Stop or return:** Use a settled answer under the supplied premises. A changed threshold, observation, law or time horizon returns to the affected comparison.
 
@@ -277,7 +277,7 @@ The example's expected losses are conditional on its supplied class, probabiliti
 
 #### Worked connection for MMP-REPLACE-AND-COUPLE
 
-Two components contribute distinct amounts u and v to a total, in the same units and over the same interval. MMP.18 establishes that the required combination is u+v and that neither contribution already contains the other. MMP.17 selects surrogates for these two amounts on the input region being used.
+Two components contribute distinct amounts u and v to a total, in the same units and over the same interval. The stipulated balance counts each amount once. Under that premise the required combination is u+v. In your own application establish which transfers enter which component accounts and whether one already includes a contribution to the other (MMP.18). MMP.17 selects surrogates for these two amounts on the input region being used.
 
 For the present input, suppose their estimates are 0.42 and 0.48, with supported absolute error bounds 0.03 and 0.04. The resulting total is in [0.83,0.97]. It is below a threshold of 1 throughout that interval. No independence assumption is needed for this worst-case sum bound. Errors measured only on a few training cases would not, by themselves, supply the stipulated bounds.
 
@@ -307,7 +307,7 @@ The mathematical account and the subject supply different parts of the reasoning
 
 The needed preparation depends on the operation. Finite arrangements can use sets, functions and elementary counting. Probabilistic recording needs conditional probability and sums or integrals. Evolution and reduction can require differential equations. Each body states its prerequisites and works small cases. When another participant supplies the mathematics, ask for the meaning of its inputs, its conditions and the result the next part of your work can use. You can ask for that explanation in the language of your work.
 
-Begin with the [Readme](#mathematical-modeling---readme) when the useful entry is unclear. Enter a body directly when its Problem frame matches the difficulty.
+Begin with the [Readme](#mathematical-modeling---readme) when the useful entry is unclear. Enter a body directly when its operation supplies what your own inquiry still needs. Carry its conclusion back to that inquiry with the conditions on which it depends.
 
 ## MMP.Reference:2 - Problem and forces - Choose what the model must retain
 
@@ -334,6 +334,10 @@ The requested answer determines how far to develop the model. A bound can settle
 ### MMP.Reference:3.1 - Form the first account and recover its interpretation
 
 If there is no mathematical question yet, use B.5.FM: identify the participants, propose the relations relevant to the difficulty, work a small consequence and return it to the question. B.5.TU helps when an available theory supplies those relations. Mathematical Thinking provides constructions of objects, operations, representations and arguments when the needed mathematics itself must be developed.
+
+Before choosing variables, describe an answer that would let the recipient act or explain the outcome. Which objects, operations and relations could change that answer? A succession of operations may require matching an output of one to an input of the next. A rate or an average needs a unit. For example, one request can generate several operations and records. Mean elapsed time per request and mean duration per operation answer different questions. If one operation serves two requests, the work done once and the results received by the two recipients have different units. Establish the connections needed for the intended calculation or return the result under the stated assumptions.
+
+Choose the extent of each description separately. A part and its containing system may both matter to the outcome. A method specifies how work may be done, a particular performance has the operations that took place, and a record supplies evidence for a claim about it. To decide where to stop, hold a local result fixed while varying its connection to the whole, then hold the reported whole fixed while varying the contributions in it. Retain a distinction that changes the required action or explanation. A common law or bound can cover the range directly. A new use may restore a distinction that the old calculation could safely discard.
 
 Recover what a request to use a model means in this situation. A structure satisfying stated axioms answers a different question from a representation used to predict an observed process. Both can be useful mathematical work. E.10 clarifies the intended use when the word *model* conceals it; keep the subject's established vocabulary when it is already clear.
 
@@ -369,6 +373,8 @@ This formulation can expose a change needed in the work itself: observe earlier,
 
 An information-dependent instruction needs both an obtainable report and a participant able to act on it at the stated time. Check this condition for the combined method. A correct reporting law and a correct decision calculation can still describe an instruction that the proposed work cannot perform.
 
+For several choosers, establish what each can observe and do by the time of their own decision. A policy based on pooling their reports requires a way to obtain those reports and direct the actions in time. Local policies can also meet the joint requirement if their choices fit together for all the circumstances covered by the promise.
+
 [MMP.16](#mmp16---design-observations-to-separate-mathematical-model-alternatives) constructs the records that alternatives would produce under feasible designs. Compare the distinction an observation could resolve with its contribution to the receiving question and its burden. An informative report can still leave the preferred action unchanged.
 
 [MMP.8.SD](#mmp8sd---construct-a-sequential-decision-model-from-information-and-consequences) develops continuing choice: retain a state or belief sufficient for the proposed decisions, construct transitions and observations, and derive how a present choice and its continuation determine the accumulated consequence. This joins observation design to action when timing, information or changes caused by observing matter.
@@ -399,7 +405,7 @@ The Readme illustrates two further connections: carrying intervention consequenc
 
 While constructing a model of recorded observations, summing over unrecorded alternatives can be part of forming the observation law, within the modeling inquiry already under way. If the observing procedure changes from recording a below-threshold result to omitting the case entirely, that local operation must follow the changed selection rule. Mathematical calculation and knowledge of the subject may both be available while the intermediate description of observation is missing. MMP.7 helps construct the recorded-data law; the applicable conditions of that procedure come from its source or a qualified contributor.
 
-FPF B.1.5.EW helps recover these constituent–whole connections; B.1.5.RS examines a proposed replacement. Examine the constituent–whole relations that can change the present result. Carrying out a Method described here can require additional capability, available support and compatible resources for its constituent operations or for the larger work it contributes to.
+FPF B.1.5.EW helps recover these constituent–whole connections; B.1.5.RS examines a proposed replacement. For a decision about the model, follow the recorded-data law into the inference that uses it. For designing the inquiry, establish whether its method requires the investigators to derive that law themselves or permits an applicable result from the measuring team. To say how a particular investigation obtained its result, identify the derivation or supplied calibration that it actually used. These questions need different evidence even when the reported probabilities agree.
 
 ### MMP.Reference:3.8 - Compare or construct the way work is performed
 
@@ -425,7 +431,7 @@ MMP.10 represents one cycle by `x_next = A*x`, where the two components of x are
 
 MMP.9 derives a simpler relation for the total `S = x_1 + x_2`: `S_next = 0.8*S`. After two cycles the total is 6.4, so capacity 7 suffices. The unknown distribution does not need to be resolved for this answer.
 
-Now transfer only from the first buffer. One admissible model, `A = 0.8*I`, leaves 6.4 there. Another, `A = 0.8*[[0,0],[1,1]]`, leaves none there. Both give the same total. Capacity 7 still suffices, but the total alone cannot justify using a cheaper receiver of capacity 4. Return to the retained model family to ask which differences can affect the local amount. A further observation is useful if resolving those differences can change the receiver choice enough to justify its cost; C.16.IR and C.11.DUA support that question. The revised use changes what the model must preserve while leaving the total calculation valid for its original question.
+Now transfer only from the first buffer. One admissible model, `A = 0.8*I`, leaves 6.4 there. Another, `A = 0.8*[[0,0],[1,1]]`, leaves none there. Both give the same total. Capacity 7 still suffices. The first model rules out a guarantee that capacity 4 suffices for the first buffer. Whether 4 suffices for the actual transfer is still open when either distribution is possible. Return to the retained model family to ask which differences can affect the local amount. A further observation is useful if resolving those differences can change the receiver choice enough to justify its cost; C.16.IR and C.11.DUA support that question. The revised use changes what the model must preserve while leaving the total calculation valid for its original question.
 
 Other bodies show different mathematical work: representing partial functions without distorting the requested count, deriving a bound after removing population detail, and constructing an unknown response while preserving its shape. Use their worked cases to learn the corresponding operations and their limits. The choice among those operations follows the difficulty, not the example's subject.
 
@@ -434,7 +440,7 @@ Other bodies show different mathematical work: representing partial functions wi
 For the combination being used, ask:
 
 - What question does the result answer, and how will that answer be interpreted or used?
-- What do the chosen mathematical objects represent? Which cases, operations and distinctions are retained or excluded?
+- Which units does the subject question count or relate? Which descriptions and operations did the problem supply, and which were chosen for this use? Could two cases merged in a part or in the combined model require different conclusions?
 - Which relations come from the subject, which follow mathematically, and which remain hypotheses or adjustable contributions?
 - What operation obtains the answer, and what information or capability does its performer need?
 - Do the connected contributions agree on the situation, timing, admissible variation and required consequence?
@@ -538,15 +544,15 @@ The difficulty is to construct the mathematical expression of the intended possi
 
 #### MMP.10:4.1 - Recover what varies and what the question asks
 
-Describe a candidate before choosing scalar variables. Is it an amount, a collection, a sequence, an assignment, a function or another mathematical object? Which distinctions can change the answer? A set retains membership; a multiset also retains multiplicity; a sequence retains positions. Choose among them from the question.
+Describe a candidate before choosing scalar variables. Is it an amount, a collection, a sequence, an assignment, a function or another mathematical object? Which distinctions can change the answer? A set retains membership; a multiset also retains multiplicity; a sequence retains positions. Choose among them from the question. If the question concerns several recipients or periods, decide from their use whether an object is one local allocation, a jointly available arrangement, or a rule for choosing later. An assignment to each recipient can be attainable on its own while several assignments share a limiting condition.
 
 Separate supplied quantities from unknowns. Among unknowns, distinguish what is to be inferred, what can be chosen and what can vary independently of that choice. If a choice uses an observation, specify when the observation becomes available; MMP.8 constructs the resulting information-dependent requirement. An unknown value does not become a freely selectable design variable merely by appearing in the same equation.
 
-State the requested result. Existence asks whether at least one admissible object can be constructed. Inference asks what a quantity can be across admissible objects. Selection adds a preference among them. Counting and sampling depend on how individual objects are distinguished. Keep those requests separate while choosing the representation.
+State the requested result. A mathematical existence question asks whether an admissible object exists. A theorem can settle it. Supplying a witness, computing it in time and identifying which object actually occurred require the corresponding construction or evidence. Inference asks what a quantity can be across admissible objects. Selection can require one permissible choice or a preference among them. Counting and sampling depend on how individual objects are distinguished.
 
 #### MMP.10:4.2 - Construct variables that represent the object
 
-Choose an expression from which a candidate can be recovered. Give each variable a domain and any unit or reference point needed by its operations. A machine label ranges over names; arithmetic on the label requires a separate meaning. A count ranges over nonnegative integers; an amount may be divisible. State a finite bound when the task supplies one. Adding a bound solely to finish a search restricts the question to that bound.
+Choose an expression suited to the result. When a candidate must be delivered, show how to recover one with the required properties. To decide a threshold, a summary or enclosure can suffice if its relation to the subject carries the decision. Give each variable a domain and any unit or reference point needed by its operations. A machine label ranges over names; arithmetic on the label requires a separate meaning. A count ranges over nonnegative integers; an amount may be divisible. State a finite bound when the task supplies one. Adding a bound solely to finish a search restricts the question to that bound.
 
 For a structured object, compare representations by the operations you need. A function on a finite set can use one output variable for each input. Alternatively, a table of Boolean indicators can say which input-output pairs belong to its graph. The first expression makes function evaluation easy to state. The second makes some relations among pairs visible, but needs conditions to make the table a function. For a partial function, represent undefinedness as well as defined values.
 
@@ -568,7 +574,7 @@ Additional constraints can expose consequences and help the obtaining method. De
 
 #### MMP.10:4.4 - Make the answer correspond to the question
 
-Define how to recover the requested object or quantity from a satisfying assignment. Then work in both directions: represent an intended admissible case, and interpret an allowed assignment. Use the construction and its conditions to establish the reach of this correspondence. A small case can expose a mistake; a claim about every case needs the corresponding argument.
+Choose the direction of the correspondence from the conclusion the recipient needs. A feasible witness needs an interpretation as an admissible subject candidate. A uniform bound or proof of impossibility in an enclosing model can cover the subject when every relevant subject case maps into it and the property has the required interpretation there. To characterize exactly what is possible, justify both inclusion and attainability for the requested quantity. A small case can disprove a direction. A single general argument can establish it throughout its domain. For example, to guarantee that demand stays at or below a capacity, an upper bound at or below capacity suffices. A larger upper bound leaves the guarantee open. To refute it with an overload, establish that at least one admissible subject case actually requires more than capacity, or prove that such a case exists.
 
 Match that reach to the requested result:
 
@@ -642,7 +648,7 @@ Compactness can hide duplicate records or omitted possibilities. Judge the repre
 - Do domains, units, shared quantities and definedness express the intended possibilities?
 - Which conditions make the representation denote an object, and which express requirements on it?
 - Do conditions that must hold together refer to the same assignment? Are alternatives and conditional restrictions preserved?
-- Can intended cases be represented and satisfying assignments be interpreted at the reach required by the question?
+- Does the correspondence support the direction of inference used here, including recovery of a subject witness, coverage for a bound or impossibility claim, or both directions for an exact feasible set?
 - Does the requested value, preference, count or probability survive the representation, including auxiliary values and duplicate records?
 - What conclusion does the obtaining method establish, and which changed requirement reopens which construction?
 
@@ -943,7 +949,7 @@ Which quantities can be chosen, on what information, and what result must the ch
 
 ### MMP.8:4 - Solution
 
-Separate choices from circumstances, express the relations that must hold, and state which information each choice may use. Formulate the requested result over those objects, then test the formulation against a small contrasting pair of circumstances. Preserve any useful conditional answer when a stronger requirement is unavailable.
+Separate choices from circumstances, express the relations that must hold and state what information each chooser may use. Construct the policy or establish the requested consequence for the range in the commission. A pair of circumstances that requires conflicting responses can reveal a failure. A common permitted action or a general argument can settle the question directly.
 
 #### MMP.8:4.1 - Name choices, circumstances and consequences
 
@@ -958,6 +964,8 @@ State what the question requires of the result. If it asks whether every permitt
 Describe what is observed before each decision and what arrives afterward. Express the available observation as h(w) when it is a deterministic description of the circumstance. It may reveal only part of w. For a random or noisy observation, specify its probability law for each admitted w. An unknown fixed w can index a family P_w of observation laws without having a probability distribution itself. A joint law is needed when the question also treats w as random and averages over it. MMP.7 constructs the recording law.
 
 A policy pi selects an action from the information available: `a=pi(h(w))`. Two circumstances with the same h(w) must therefore receive the same action. This uses MATH.2's condition that an answer remains constant on cases identified by a description. Here the observation determines those groups. The information restriction is often called nonanticipativity: the policy does not use distinctions the decision-maker has yet to observe.
+
+If different participants control parts of the action, choose a policy for each participant using the observations that participant can receive in time. With local reports h1(w) and h2(w), the joint action has the form (p1(h1(w)), p2(h2(w))) unless timely coordination gives them more information. An action selected from both reports may be possible for a coordinator and impossible for the two local choosers. If another participant is free to choose independently and the result is promised for any permitted choice, cover those choices in the guarantee.
 
 For repeated interaction, use the observation history available at each decision. A policy may remember earlier observations or actions. Omitting that memory is a substantive model choice. Global termination is unnecessary when the question concerns a continuing response; specify the response or progress condition that matters under the admitted inputs.
 
@@ -984,7 +992,7 @@ Preserve dependence within the circumstance set. Independently combining several
 
 For each circumstance w, let A(w) be the actions satisfying the requirement under the modeled relations. For a fixed robust choice, seek an action in the intersection of A(w) over the admitted circumstances. An empty intersection refutes that fixed-choice requirement.
 
-For an observation-dependent choice, group circumstances by the observation they produce. For each obtainable observation o, intersect A(w) over the circumstances with h(w)=o. An action in this intersection works throughout that observationally indistinguishable group. In a finite problem, choosing one such action for each observation constructs a policy. One empty intersection proves that this observation cannot support the required policy.
+For an observation-dependent choice, group circumstances by the observation they produce. For each obtainable observation o, intersect A(w) over the circumstances with h(w)=o. An action in this intersection works throughout that observationally indistinguishable group. In a finite problem, choosing one such action for each observation constructs a policy. One empty intersection proves that this observation cannot support the required policy. This construction assumes that the chooser sees the observation defining the group and can carry out the selected action. For several local choosers, choices for different joint reports must also agree in each action component wherever its owner receives the same local report.
 
 For a noisy observation and an all-cases guarantee, construct the allowed pairs (w,o) from the observation mechanism's admitted realizations. This relation, rather than a positive probability for each individual report, determines compatibility. For example, if O=w+E with E uniform on [-1,1] and all errors in that closed interval are admitted, the boundary error E=1 remains in an all-cases guarantee despite having probability zero. An almost-sure or specified-probability requirement is a different claim; state that choice.
 
@@ -996,7 +1004,7 @@ When several outcomes remain possible for one action and circumstance, apply the
 
 #### MMP.8:4.5 - Interpret the result and change the working method
 
-Follow the resulting action or policy through one modeled case and a consequential change. Return the consequence to the original requirement. If a planned response depends on a distinction absent from the available observation, revise the observation, defer the decision, choose a more tolerant action or change the stated goal with the responsible party.
+Return the action, policy or obstruction to the original requirement. Trace a case or changed condition when its interpretation remains in doubt. A proof covering the permitted information and actions can settle the original order directly. If a planned response depends on a distinction absent from the available observation, revise the observation, defer the decision, choose a more tolerant action or change the stated goal with the responsible party.
 
 Compare these options by what they change and cost. A more informative observation can enlarge the feasible policy set, but it may arrive too late or cost more than a sufficient fixed choice. C.11.DUA supplies that comparison. An infeasible guarantee can still leave a useful bounded, conditional or risk-qualified proposal.
 
@@ -1065,7 +1073,7 @@ Optimization tools encourage viewing every variable they can assign as an availa
 ### MMP.8:7 - Conformance Checklist
 
 - Are choices, circumstances and consequences distinguished by what the acting system can change?
-- Does each choice depend only on information available at its decision time?
+- Is each decision assigned to a participant who can take it using the information available there in time? Where choices are distributed, do the local rules work together under the allowed combinations?
 - Do the quantifiers express the intended possibility, guarantee, policy or probabilistic question?
 - Are dependent circumstances and remaining possible outcomes preserved in the formulation?
 - Does a witness, empty intersection, policy or bound have the claimed meaning?
@@ -1350,7 +1358,7 @@ A model with one decision maker can also conceal information held separately by 
 - The proposed state has an obtainable initialization and update. Its sufficiency or approximation is tied to the selected actions, criterion and horizon.
 - The accumulated consequence includes the relevant terminal contribution, resource constraint or remembered progress.
 - The continuation relation preserves the order of observation, choice and aggregation over uncertainty.
-- A worked comparison returns a useful policy consequence, bound or unresolved distinction; any real changed premise is propagated to its affected use.
+- The derivation, applicable result or comparison establishes the requested policy consequence, bound or unresolved distinction. A changed premise is followed to the decision it affects.
 - Additional data or computation is selected for its possible effect on the decision. A sufficient result can be used directly.
 - The mathematical model, computed policy and subject performance have distinct claims and required contributions.
 
@@ -1449,7 +1457,7 @@ Construct the possible recorded outcomes from the observation procedure. Combine
 
 #### MMP.7:4.1 - Choose the target and the recorded outcome separately
 
-State what the answer concerns: a rate in a population, a property before measurement, a future response, or another quantity selected by the work. Specify the population, conditions and time range when they change its meaning. Use C.16 for the characteristic being measured and C.16.MR for the relation from the property to an indication.
+State what the answer concerns: a rate in a population, a property before measurement, a future response, or another quantity selected by the work. Specify the population, conditions and time range when they change its meaning. Use C.16 for the characteristic being measured and C.16.MR for the relation from the property to an indication. For a count, rate or proportion, establish what contributes one unit to the target and which observations that unit can produce. If the target is per recipient and one recipient may generate several reports, model that relation before using a report count as the denominator. A complete report total can be the answer when reports themselves are the requested unit.
 
 Describe one complete outcome of the observing procedure. It may contain a value and an inclusion flag, a duration and a timeout flag, or several related readings. The mathematical outcome space must distinguish every report the procedure can produce that affects the inference.
 
@@ -1505,7 +1513,7 @@ For a future record, specify whether its recording procedure is the same. For th
 
 #### MMP.7:4.5 - Test a consequence and revise the construction
 
-Check normalization and a small case that follows the procedure. Enumerate a finite outcome space or generate subject cases and pass them through the recorder. Compare that construction with the probabilities or summaries derived from the observation law. C.29.2 supplies a computational construction when enumeration or integration needs further work.
+Establish normalization from the recording law on its stated domain. If its treatment of an actual recording step is in doubt, trace a distinguishing case, enumerate the finite outcome space or pass generated outcomes through the recorder, then compare the result with the probabilities or summaries the law predicts. C.29.2 supplies a computational construction when enumeration or integration needs further work.
 
 When the inclusion rule, timeout, shared calibration or receiving question changes, revise the affected relation and carry its consequence through the calculation. Compare a plausible alternative condition when the comparison can change the intended use or returned claim. Under unchanged conditions, a sufficient construction can be used directly.
 
@@ -1559,7 +1567,7 @@ The visible dataset invites treating its rows as the whole observation procedure
 
 ### MMP.7:7 - Conformance Checklist
 
-- Can a reader identify the target and all possible reports that affect the inference?
+- Can a reader identify the unit and scope of the target, how the observing procedure turns those units into records, and every distinction between reports that can affect this inference?
 - Do the subject and recording factors describe the stated procedure, including what it fixes and what it reveals?
 - Are unobserved alternatives removed by a justified sum, integral or conditioning operation?
 - Does the joint law preserve common influences and any information about excluded cases?
@@ -1642,7 +1650,7 @@ The problem is to formulate recovery so that the required target, observation re
 
 ### MMP.12:4 - Solution
 
-Construct the forward relation for the requested target, locate the consequential loss of distinction or amplification, and choose the smallest justified restriction that changes that difficulty. Formulate its strength together with the error account. Return the target with the dependence and loss introduced by that choice.
+Construct the forward relation for the requested target and determine what the existing information can settle. Where the target remains unstable or ambiguous and a reconstruction is wanted, choose and justify the additional restriction or preference and its strength. Return the consequence and explain how it depends on that choice.
 
 #### MMP.12:4.1 - Construct the forward relation from the modeled situation
 
@@ -1887,7 +1895,7 @@ Specify the target and the intended uncertainty claim. Combine the record law wi
 
 #### MMP.13:4.1 - Fix the target before choosing a fitting routine
 
-Write q=g(theta), where theta denotes the unknowns in the observation model. It can index a distribution or unknown function, not just a finite vector. State the population, conditions and time range that make q meaningful. Distinguish unknowns needed only to explain the records from the target being returned.
+Write q=g(theta), where theta denotes the unknowns in the observation model. It can index a distribution or unknown function, not just a finite vector. State the population, conditions and time range that make q meaningful. Distinguish unknowns needed only to explain the records from the target being returned. When the target aggregates contributions, choose their weights from the population and quantity requested. A mean giving equal weight to each site and a mean giving equal weight to each person can differ when site sizes vary. When people occur at several sites, establish how often each is to contribute. A site average can answer a site question directly.
 
 For prediction, instead name the new outcome Y_new and its observing conditions. A conditional mean of Y_new is a function of theta; the realized Y_new also varies under the model. A proposed intervention requires a supplied causal identification argument before a fitted association can be interpreted as its effect.
 
@@ -2084,7 +2092,7 @@ Bayesian and frequentist results are compared by the conclusions they support. A
 
 ### MMP.13:7 - Conformance Checklist
 
-- The inferential target and its subject conditions are stated separately from nuisance unknowns and the subsequent decision.
+- The unit, weighting where relevant, conditions and scope of the inferential target fit its receiving use. Nuisance unknowns and the subsequent decision remain identifiable separately.
 - The observation law retains consequential recording, dependence and stopping assumptions.
 - The estimator's repeated-use claim or the posterior's conditioning assumptions are recoverable; normalization or coverage has an applicable basis.
 - Joint uncertainty is propagated to the target. Parameter uncertainty, future-observation variation and numerical error are distinguished.
@@ -3005,7 +3013,7 @@ The problem is to construct a feasible observation whose possible records suppor
 
 ### MMP.16:4 - Solution
 
-State the disagreement that matters. Derive the records each alternative can produce under feasible observation choices. Construct a comparison of those records that improves the receiving answer, and compare the attainable benefit with the work involved. Obtain the selected observation only when that comparison supports it; otherwise use the present result or change the question or access.
+Derive which records a feasible observation design could produce and whether they distinguish the possibilities that matter to the recipient. For a design commission, return the design and its warranted resolving power or limitation. For a decision about discretionary acquisition, compare its attainable benefit with the work involved. Carry out an observation when the order includes that performance and its conditions are met. A result already known can answer an inquiry within its scope.
 
 #### MMP.16:4.1 - Locate the consequential disagreement
 
@@ -3013,7 +3021,7 @@ Write the answer that would differ. It may be a threshold response, a predicted 
 
 Recover what the present observations and assumptions leave possible. MMP.11 constructs the family of models; MMP.12 exposes a recovery ambiguity; MMP.13 supplies probabilistic conclusions when used. Group equivalent parameterizations by the behavior relevant to this question.
 
-Ask which remaining disagreements change the intended answer or a worthwhile later inquiry. If all retained alternatives already support the same sufficient answer, return it.
+Ask which remaining disagreements change the intended answer or a worthwhile later inquiry. If all retained alternatives support the answer the recipient needs, give it with the grounds for their coverage. If the commission also calls for an observation design, use the agreed purpose to specify what to observe and how to interpret it. A separately commissioned observation still needs to be carried out by the observing practice.
 
 #### MMP.16:4.2 - Construct the law of the obtainable records
 
@@ -3070,7 +3078,7 @@ Use the contrast to generate alternatives: observe where responses differ, resol
 
 For a small set of designs, calculate the selected criterion directly. For a large set, use the applicable search or numerical method from Computational Thinking. Count the cost of evaluating a design as part of the work. If approximate criteria cannot reliably order close candidates, return that uncertainty, retain several designs, or refine the calculation where a changed ranking matters.
 
-Compare against using current information. C.11.DUA governs the attainable contribution, delay, displaced work and any disputed evidence demand. When an information-only design has a bound on its possible benefit below its cost, that bound can end the comparison without computing its criterion more accurately.
+If the decision includes whether to obtain a new observation, compare it with acting on current information. Use C.11.DUA to consider the attainable contribution, delay, displaced work and any disputed evidence demand. For a design valued solely for information, an upper bound on its benefit below its cost can settle that comparison. For a commissioned procedure or observation, compare the feasible ways to provide it when a choice between them matters.
 
 For a sequence of observations, decide whether the immediate comparison represents the intended horizon. An apparently uninformative first step may enable a later separating observation. Construct that continuation with MMP.8.SD when it changes the choice; do not require a full sequential optimization for a sufficient one-step design.
 
@@ -3155,13 +3163,13 @@ A small named model set also favors choosing a winner. Keep the possibility that
 
 A constructed design supports its intended use when:
 
-- the remaining disagreement and the answer it could change are identifiable;
+- The design states the agreed purpose of the observation and how the resulting records will serve it. For a question about distinguishing alternatives, it identifies the answer that could differ or establishes why the alternatives give the same answer.
 - its predicted records follow from the alternatives and the actual selection and recording procedure;
 - shared unknowns and adaptive choices retain their dependencies;
 - the claimed separation, error property or expected improvement follows from a reconstructible comparison;
 - any criterion based on information names the unknown being learned and its receiving use;
-- feasibility and burden are compared at the scope needed for the decision, using present information as an available alternative;
-- the result explains how the selected records change the answer and when an incompatible record returns to the model or observation assumptions.
+- the proposed design is feasible within the required resources. For a decision about whether to observe, its burden and attainable benefit are compared with using present information;
+- the result explains what could be learned from the design, including answers that would leave a choice unchanged, and when a record would challenge the assumptions. A claim about an observation actually obtained uses the corresponding performance or record.
 
 These conditions concern the mathematical design and its stated assumptions. They do not establish that the observation was performed, that its subject assumptions hold, or that access is authorized. Stronger assurance belongs to the intended use.
 
@@ -3767,7 +3775,7 @@ Choose the combined answer. Recover the meaning and conditions of each consequen
 
 #### MMP.18:4.1 - Identify what the models share and what they exchange
 
-Start from the required result and trace which component supplies each quantity it uses. Recover the quantity's referent, unit and reference point, as well as any time interval, spatial region or probability conditioning that changes its meaning.
+Start from the required result and trace which component supplies each quantity it uses. Recover the quantity's referent, unit and reference point, as well as any time interval, spatial region or probability conditioning that changes its meaning. Choose the component boundary from that use. Try varying the organization of the parts while keeping their local outputs fixed. Could a route, shared input or timing relation change the whole result? If so, include that relation. A model that supplies an input to another can describe the same physical system from a different viewpoint. The exchange of model results alone establishes no physical part–whole relation.
 
 Distinguish a shared quantity from a transferred result. If both models describe the same unknown offset, retain one common offset or a justified relation between their coordinates. If one supplies an estimated offset to the other, specify whether the receiving calculation uses its uncertainty or only an approximation by a point value.
 
@@ -3807,6 +3815,8 @@ Use a coupled approximation only within the conditions supporting it. If feedbac
 
 Combine the component relations and interface conditions for the same modeled situation. Shared boundary values and initial conditions must satisfy that joint formulation. Redundant equations can express a useful invariant; contradictory equations expose incompatible assumptions or a failed identification of the shared quantities.
 
+Compare the jointly attainable outcomes with the outcomes allowed by the proposed simplification. Computing each range separately can admit combinations that no common state permits. In the two-buffer account in MMP.Reference:4.1, each amount after two cycles can lie between zero and 6.4, yet their sum is exactly 6.4. Treating the two ranges as independent would admit a total of 12.8 and lose the guarantee that a receiver of capacity 7 suffices. Such an enlarged range can still give a sufficient upper bound. To claim an overload is possible, exhibit an attainable joint case or give an argument establishing one.
+
 Feedback can require a joint solve. Suppose the selected same-instant relations are x=1+y and y=x/2. Substitution gives x=2 and y=1. Starting from y=0 and calling the first model once, then the second, returns x=1 and y=0.5; those values fail x=1+y. That call order is only one unfinished computation of the joint relation.
 
 Choose between a common solve and separate interacting computations from the available capabilities and error needed by the answer. For time-dependent components, specify which inputs are held, interpolated or extrapolated between communication times, how events are synchronized, and whether a proposed step can be repeated. These choices describe the computation. To attribute a delay or sampling pattern to the subject, give its basis there or state it as a subject assumption.
@@ -3815,7 +3825,7 @@ Compare the obtained exchange against the joint conditions and the required resu
 
 #### MMP.18:4.5 - Combine uncertainty without duplicating information
 
-When components are probabilistic, construct a joint law for the common quantities and the component-specific quantities. Marginal distributions alone generally leave dependence unspecified. Obtain the needed dependence from the modeled mechanism, a conditional law or an explicit additional assumption.
+When components are probabilistic, identify the joint event or quantity the recipient needs. Construct enough of the dependence between shared and component-specific quantities to obtain or bound it. Marginals determine the sum of expectations for integrable contributions regardless of their dependence. A probability that both exceed their limits can depend on their joint law. Use a supported mechanism, conditional law or bound for the dependence that matters.
 
 For components sharing z, one possible factorization is:
 
@@ -3907,7 +3917,7 @@ The examples use small equations with known solutions. A large coupled formulati
 
 The coupled construction supports its stated use when:
 
-- the requested combined result and the component contributions needed for it are recoverable;
+- the receiving question determines which component contributions, connections and joint conditions are needed. The answer returns to the subject under the correspondence or bound that supports its use;
 - shared quantities retain their subject meanings and relevant units, reference points and conditions;
 - each consequential exchange has a relation that connects what is supplied to what is used;
 - aggregation or scale change retains, obtains or bounds the information the receiving operation needs;
@@ -4362,15 +4372,15 @@ Separate physical specification, mathematical processing and numerical realizati
 
 ### MMP.21:1 - Problem frame
 
-**Use this when** materially different ways of ordering, combining or allocating method contributions are plausible, and their interaction can change the receiving result. Two checks may compete for the same performer. A parallel summary may discard a distinction needed later. A reordered operation may preserve the final object while changing the answer on which someone acts.
+**Use this when** the interaction of operations can decide whether a proposed arrangement meets a requirement, or which of several arrangements to use. The order in which results become available, the resources several tasks need together, or information lost in a summary can affect the recipient’s answer.
 
-Begin with one consequence that could change the choice, then construct the smallest mathematical account that can distinguish the arrangements. The first useful result is a derived property, feasible construction, bound or counterexample, interpreted back into the method comparison.
+Identify which consequence could decide the question. Model the operations and conditions needed to derive that consequence for a given arrangement, or to distinguish alternatives if the choice is open. The result may be a feasible construction, a property, a bound or an obstruction. Show what it establishes for the work.
 
 This method refines C.32.MWA.PP's comparison of arrangements. Here an arrangement concerns how contributions are connected for the selected work; it need not form one Method whole. The mathematical model represents the relevant operations, observations and shared resources. C.29 supplies the correspondence to the working situation. B.1.5.CM supplies the separate judgment about whether participant Methods and their whole relations obtain.
 
 Preparation requires the ability to describe the proposed work and its criteria, elementary algebra, and reasoning about functions, inequalities or finite sequences. A larger concurrent model may require a specialist using CMP.14. The specialist's result must expose the property, assumptions and decisive construction or counterexample needed by the method decision.
 
-Use ordinary C.32.MWA.PP comparison when the consequences are already clear and another model would add nothing. A different diagram of the same arrangement is not a rival. If only the status of a proposed Method whole is at issue, use B.1.5.CM. This method compares arrangements; constructing and introducing a changed way of working requires its own design and realization.
+Use the existing C.32.MWA.PP assessment or comparison directly when its grounds already settle the question. Two diagrams of one arrangement may support the same conclusion. If the question concerns the status of a proposed Method whole, use B.1.5.CM. Designing or introducing a changed way of working requires its own construction or realization.
 
 ### MMP.21:2 - Problem
 
@@ -4393,15 +4403,15 @@ A mathematical model can resolve these questions only if it retains the distinct
 
 MMP.10 supplies the mathematical formulation and its answer correspondence. MMP.18 supplies compatible exchanges when component models must first be coupled. This Method uses those contributions for a different choice: which proposed connection, order or allocation of working operations preserves the receiving consequence under shared conditions? Its construction below retains the observations and capacities needed to distinguish the arrangements and derives the conditional comparison. You can use an existing formulation that represents the conditions needed to answer the question.
 
-Select the consequence, model the competing arrangements and their interactions, derive the difference, and return what it changes in the Method decision.
+Select the consequence the recipient needs, model the relations that can affect it and derive what follows. For an assessment of a prescribed arrangement, compare that result with its requirement. When the choice is between arrangements, derive the differences that can affect the choice.
 
 #### MMP.21:4.1 - Fix the receiving question and the actual alternatives
 
-Take the receiving result and its criteria from C.39.RQ, or reuse an adequate account already available. Take the serious alternatives from C.32.MWA.PP. State how their proposed ordering, result use, allocation or shared resources differ. Keep a feasible incumbent in the comparison when it remains an option.
+Recover the result and criteria from the receiving work or a sufficient existing account (C.39.RQ). Identify what has already been fixed and which choices of order, allocation and result use remain open. For a comparison, use the serious alternatives already developed (C.32.MWA.PP) or construct the ones the commission leaves to you. For a feasibility question about a prescribed arrangement, compare its consequences with the requirement. A feasible incumbent belongs in an open comparison when it remains an option.
 
 Choose the property that matters now. Examples include preserving an answer after regrouping work, completing before a deadline with the available capacity, preventing an obsolete result from being used, or ensuring that a required response eventually occurs. Name the inputs, variations and operating conditions over which it is required.
 
-Distinguish an existence question from a guarantee. Finding one schedule establishes that the model admits that schedule; it does not show that every allowed scheduling policy will meet the deadline. Finding one successful sequence does not establish that all allowed interleavings preserve the result.
+Distinguish an admissible schedule, a workable policy and a guarantee under independent choices. For a prescribed schedule, check the required conditions on that schedule. For a request for one policy that guarantees a deadline, construct an implementable policy whose decisions use information available in time, and establish its result for every circumstance covered by the promise. Another permitted policy may fail. If dispatchers have independent rights to choose actions, include their information and cover every combination their rights permit. A timetable available to a central planner may require knowledge or authority the dispatchers lack.
 
 Retain each alternative's status. A proposed allocation, available tool, performed operation and obtaining Method relation are different facts. Carry a proposed arrangement's unconfirmed conditions into the result.
 
@@ -4445,7 +4455,7 @@ Carry out the mathematical operation that can settle the question. Compose the f
 
 For a preservation claim, state the condition initially and show why each allowed step retains it. For modular reasoning, establish what each contribution guarantees under its assumptions, then check that the connected contributions and environment supply those assumptions. Two contributions that each wait for the other's result can both satisfy a conditional promise while neither starts. Progress requires an enabling basis and any needed scheduling or delivery assumptions.
 
-For a failure claim, give the input or sequence that produces the prohibited consequence. One admitted counterexample defeats a universal assertion. Check whether it represents a possible working case; an over-broad abstraction can introduce a sequence the work cannot realize. Conversely, a model that omitted a real interaction can miss a failure. CMP.14 and the applicable mathematical interpretation supply the needed refinement.
+To reject a guarantee, establish an admitted input or sequence with the prohibited consequence, or give an argument establishing that such a case must exist. To rule out every admissible arrangement, give grounds covering them all. A necessary condition that none can meet can settle that question directly. For a model counterexample, establish its relevance to the work. An enlarged model can admit an unrealizable sequence, and a model that omits an interaction can miss a real failure. CMP.14 and the applicable mathematical interpretation help restore the distinctions the claim needs.
 
 For a finite construction, exhaustive exploration can establish the property over the explored state space. A few simulation runs establish their observed outcomes. A bound may settle the question without enumeration; if even an optimistic capacity bound misses the deadline, searching more schedules under the same conditions cannot repair that alternative.
 
@@ -4453,9 +4463,9 @@ Keep the scope of equivalence explicit. Equality of final outputs can be suffici
 
 #### MMP.21:4.5 - Compare the consequences without hiding moved burden
 
-Return the result in the quantities and conditions chosen in :4.1. Explain which alternative preserves the required answer, which fails, which remains unresolved, and why. Where alternatives trade off time, effort, retained information or another criterion, keep the distinct consequences available to C.32.MWA.PP and the applicable C.11 choice.
+Return the result in the quantities and conditions chosen in :4.1. For an assessment of one arrangement, explain which requirement it meets or fails and which question remains open. For a choice between arrangements, show where they differ on the receiving criteria. If they trade off time, effort, retained information or another criterion, keep those consequences available to C.32.MWA.PP and the applicable C.11 choice.
 
-Include burden moved by the arrangement: a faster central step may require more preparation elsewhere; releasing a checked snapshot may require storage while a newer revision awaits review; independent instruments may still require the same operator. A local improvement is useful only to the extent that the receiving comparison can accept those effects.
+Include work shifted elsewhere when it bears on the receiving decision. A faster central step may require more preparation elsewhere. Releasing a checked snapshot may require storage while a newer revision awaits review. Independent instruments may still require the same operator. A saving at one step can settle a question about that step. To claim a saving for the whole operation, account for the shifts that could change that conclusion.
 
 Compare the chosen model with a cheaper sufficient argument. A two-step trace can expose an ordering failure without a model checker. A workload lower bound can rule out a schedule without detailed simulation. Use a larger construction when it can change an unresolved consequence or support a broader claim that the decision needs.
 
@@ -4576,7 +4586,7 @@ When the comparison is used for a decision, the following content must be recove
 
 | Check | Required content |
 | --- | --- |
-| Working question | The receiving consequence, criteria and materially different arrangements. |
+| Working question | The receiving consequence, criteria, prescribed conditions and any open choices. A comparison among arrangements identifies the materially different alternatives it covers. |
 | Correspondence | What the model represents, with decision-changing omissions and assumptions. |
 | Connection | Applicable inputs and outputs, relevant order or overlap, and shared resources represented once with their stated capacity limits. |
 | Mathematical result | A derivation, construction, bound or reproducible counterexample at the stated scope. |
@@ -4687,7 +4697,7 @@ Relate the existing way of working to its mathematical account. Transform that a
 
 Take the difficulty and requirements from the receiving work. State the gain sought and the properties that the change must retain. For example, the recipient may need the same acceptance decision with less effort, a result before a deadline, or a new result the incumbent cannot produce. These are different transformation questions.
 
-Retain requirements about intermediate contributions when they matter. An early indication, an independent assessment or an explanation of every failure can be part of the needed result. Equality of a final number does not include them automatically.
+Retain requirements about intermediate contributions when they matter. An early indication, an independent assessment or an explanation of every failure can be part of the needed result. Equality of a final number does not include them automatically. Identify which performances must constitute the commissioned work and which outside results it can use. For a required independent judgement, ask what must be independent: two assessors may each judge the same supplied record. If independent measurements are promised, copying that record does not obtain them.
 
 Recover the allowed variation. The method may permit a different order or performer while requiring an independent second observation. A proposed change of that requirement is a separate decision under C.39.RQ; omitting it from the model does not amend it.
 
@@ -4801,7 +4811,7 @@ The proposed transformation supports its stated use when:
 - the mathematical operations have recoverable meanings in the work;
 - the transformation's assumptions and retained or changed result are stated;
 - the claimed gain follows under a supplied comparison basis;
-- the candidate specifies a changed reusable operation or rule that performers could carry out;
+- the candidate identifies the reusable rule and what each performer can do under it. Where designing the change was commissioned, the proposal explains the choices made in constructing the rule. An application of a supplied rule establishes the contribution it actually produces;
 - required information, capabilities and other realization conditions are available or remain visibly unresolved;
 - a derived model consequence is distinguished from an observed working consequence;
 - a changed requirement or dependency has a usable return to the affected argument.

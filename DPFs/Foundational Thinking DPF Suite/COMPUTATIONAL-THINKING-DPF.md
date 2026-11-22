@@ -5,7 +5,7 @@
 > A pattern language for constructing, understanding, analyzing and transforming algorithms, including their interpretation and interaction.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version:** 24 October 2026
+- **Version:** 22 November 2026
 - **Status:** Eternal alpha: a repertoire open to correction and extension.
 - **License:** © 2026 Anatoly Levenchuk. Original framework text: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). Cited sources retain their own terms.
 - **Publication:** [FPF Library repository](https://github.com/ailev/FPF)
@@ -89,7 +89,7 @@ The examples below show how one method's result makes another method usable, inc
 
 For example, [CMP.10 - Choose a Computational Representation for Its Access and Update Operations](#cmp10---choose-a-computational-representation-for-its-access-and-update-operations) can settle how to make one membership query in an existing unsorted list: a scan may suffice, with no new index to build. Many later queries or a different update workload can change that choice.
 
-You can ask an assisting agent: “Explain this and give me your comments in the language of my work, without framework jargon.” Ask it to follow an input through the proposed operations, retain the assumptions needed by the next method, and explain what the result permits.
+You can ask an assisting agent, “Explain this and give me your comments in the language of my work, without framework jargon.” For a question about a run, ask it to follow the input through the operations and say what observation answers the question. For help designing the computation yourself, give it the recipient's use and the operations already available. Try your own choice of units and connections, then ask which allowed inputs or interactions might give a wrong result with that choice. If the agent is to design the computation, ask for the construction and its grounds over the commissioned cases.
 
 ### CP-DESCRIPTION-TO-BEHAVIOR - A notification rule becomes an ongoing service
 
@@ -298,7 +298,7 @@ These methods do not form a compulsory sequence. A reader with an adequate formu
 
 Updating a visited set can be part of executing a graph-search algorithm while a route-finding task is under way. Changing the required answer from any route to a route with the fewest edges changes which frontier-selection discipline suffices; a successful visited-set update alone does not establish the stronger result. The practitioner needs to connect the local update, the algorithm's invariant and the route requirement, while retaining its representation and memory conditions. Knowing set operations and the desired route can leave that intermediate algorithmic reasoning missing.
 
-FPF B.1.5.EW helps recover these constituent–whole connections; B.1.5.RS examines a proposed replacement. Examine the connections needed to settle the present question. Performing a method described here can require capability, support and compatible resources for its constituent operations and for the larger work.
+If the task is to design the route calculation, first ask what the traveller counts. Fewest links in a supplied unweighted graph and fewest vehicle boardings can select different routes. A single ride can pass several stops. For the latter use, represent being aboard a particular journey where that affects the remaining options. Count entering a vehicle as one boarding and continuing aboard as zero. Allow a transfer only where and when it can be made. Minimize the sum over feasible journeys and recover the boardings from the chosen path. For a question limited to the fewest edges of the given graph, its vertices and edges already specify the units. FPF B.1.5.EW and B.1.5.RS help when the practitioner must determine which executions contributed to the service or whether different operations can supply it.
 
 ## CMP.Reference:4 - Worked connection - One best selection becomes every best selection
 
@@ -334,7 +334,7 @@ The worked cases use small inputs and explicit operations so that a reader can r
 
 For a combination of methods, check these questions:
 
-- Does the original question require a value, a witness, complete enumeration, an approximation or a continuing behavior?
+- Does each recipient need a value, a witness, complete enumeration, an approximation or a continuing response? If observations must describe the same run, or requests must be served together, which relations must the computation preserve among them?
 - Can each contribution obtain what the next one consumes, under the same input, meaning and resource conditions?
 - What is retained or discarded by sharing, compression, relaxation, sampling, learning or translation, and can that change the requested answer?
 - Which argument covers correctness and which covers termination or continuing progress? Are their operations and assumptions available in this setting?
@@ -2007,7 +2007,7 @@ State whether the result is a random object, a subset, an expectation, an event 
 
 Describe access: an indexed collection, a one-pass stream, evaluable weights, a generative operation, or neighbors of a current state. An evaluable probability density does not necessarily provide a cheap sampler. An unnormalized density does not supply its normalization constant.
 
-If the inputs describe observations, MMP.7 supplies the relevant recording and inclusion law. Sampling uniformly from recorded rows remains different from sampling uniformly from the people, events or other objects those rows describe.
+For observations, choose the sampling unit from the intended use and show that the procedure gives it the promised probability. If each recorded event is to be equally likely, a uniform draw of rows works when every event has the same positive number of rows and the selected row identifies the event to return. With unequal multiplicities, a uniform row gives an event with three rows three times the probability of an event with one row. Grouping by a reliable event identity and drawing uniformly from the groups is one repair. All events in a period form a different population if some can leave no record. MMP.7 supplies the recording and inclusion law when that connection matters. For several draws, construct their joint law too. Sending both recipients the outcome of the same uniform draw gives each a uniform result. With more than one possible outcome, it does not give them independent draws.
 
 #### CMP.9:4.2 - Construct the random operation and its output law
 
@@ -2522,15 +2522,15 @@ A mathematical interpretation can assign a meaning without providing an algorith
 
 ### CMP.12:4 - Solution
 
-**Recover expression structure and observations → construct evaluation rules → make control and binding effective → construct the translation → establish the needed correspondence → execute and revise the changed rule.**
+**Recover the expression structure and observations → derive effective rules for evaluation or translation → establish the behavior the recipient needs → deliver the procedure or carry out the commissioned execution.**
 
 #### CMP.12:4.1 - Recover the expression structure and the intended observations
 
-Identify the constructors of admitted expressions and how their parts bind and compose. Work with a parsed structure when precedence, grouping or scope matters. A name occurrence must reach the declaration or external input intended by the language. If the supplied text admits different parses that change the answer, resolve that difference before constructing one evaluator.
+Identify the constructors of admitted expressions and how their parts bind and compose. Work with a parsed structure when precedence, grouping or scope matters. Trace a name occurrence to its declaration or external input under the applicable rules. If several parses remain admissible, derive what they imply for the requested observations. Agreement can settle that use. Where they differ, a language rule or supplied context may select a reading. An evaluator asked to report all permitted results must cover the alternatives. Report unresolved ambiguity when a single intended reading is needed and its selection is still open.
 
 Specify what evaluation receives and what its user can observe. Inputs can include the expression, name bindings, stored state and external responses. Outputs can include a value, changed state, a sequence of interactions or a failure. Distinguish a language-defined error from the absence of a defined operation; a translator can be required to preserve the former without being required to assign a meaning to the latter.
 
-Choose the required relation between source and target observations. Equal returned values may suffice for a terminating pure expression. An interactive program may require the same ordered events. A source with several permitted behaviors may allow the target to choose among them; retaining every source possibility is a stronger requirement. Timing, memory use or a probability law belongs in this relation only when the receiving question uses it.
+For a direct interpreter, specify which observations its evaluation must produce under the source language rules. For a translation, choose the required relation between source and target observations. Equal returned values may suffice for a terminating pure expression. An interactive program may require the same ordered events. A source with several permitted behaviors may allow the target to choose among them; retaining every source possibility is a stronger requirement. Timing, memory use or a probability law belongs in this relation only when the receiving question uses it.
 
 #### CMP.12:4.2 - Derive effective evaluation rules for each constructor
 
@@ -2552,7 +2552,7 @@ Count consequential dispatch, environment lookup, retained continuations, arithm
 
 #### CMP.12:4.4 - Construct translation from the evaluation structure
 
-Choose a target instruction or expression language with defined execution rules. For each source constructor, generate the target operations that perform its required evaluation. Construct the translation of subexpressions and then their combination, retaining temporary results until their consumers use them.
+A direct evaluator can fulfill a commission for an executable procedure when its rules, available operations and resource needs support the promised behavior. For a commissioned execution, use the procedure to obtain and return the required observation. When the work calls for a translation, choose a target instruction or expression language with defined execution rules. For each source constructor, generate the target operations that perform its required evaluation. Construct the translation of subexpressions and then their combination, retaining temporary results until their consumers use them.
 
 Preserve binding and control at this construction step. Allocate fresh temporary names or use addresses whose scopes cannot capture unrelated bindings. Place conditional branches behind the appropriate control transfer. Pass arguments and return results through agreed locations. An operator with effects requires the relevant order and number of executions; algebraic reassociation alone does not supply that permission.
 
@@ -2562,7 +2562,7 @@ When several translation passes are used, connect their input and output relatio
 
 #### CMP.12:4.5 - Establish the correspondence at the scope needed
 
-For a structurally recursive translation of a terminating expression language, use induction on expression construction. Include the context that surrounding code can supply: an arbitrary admitted environment, earlier stored values and the continuation after the translated fragment. A claim that works only with an empty stack may fail as soon as two fragments are composed. Section :5.1 derives the stronger usable claim.
+For a direct evaluator, derive the required observation from its rules for the constructors, bindings and execution contexts the language admits. For a structurally recursive translation of a terminating expression language, use induction on expression construction. Include the context that surrounding code can supply, such as an arbitrary admitted environment, earlier stored values and the continuation after the translated fragment. A claim that works only with an empty stack may fail when two fragments are composed. Section :5.1 derives a claim that supports this composition.
 
 For stateful or interacting languages, relate source and target states and the observations their transitions produce. Explain how matching transitions reestablish the relation. If several internal steps implement one visible step, account for their completion; an infinite internal loop must not masquerade as successful preservation of a terminating computation. Choose the simulation direction or behavior relation that supports the requested conclusion. Showing that one source run has a target counterpart alone leaves other target behavior unresolved.
 
@@ -2572,7 +2572,7 @@ Separate a general preservation claim from a check on selected translations. A s
 
 #### CMP.12:4.6 - Run the construction and revise the failed correspondence
 
-Evaluate or translate a meaningful input and use the resulting value or behavior. Return the construction together with the input, binding, execution and recovery conditions needed by its recipient. When comparison fails, locate the changed constructor, binding, primitive, control rule or value correspondence.
+Return the commissioned result. When the evaluator or translator is itself a deliverable, supply it with the input, binding, execution and recovery conditions its recipient needs. For a requested execution, obtain and return the required observation. A trial on a meaningful input can also help resolve an outstanding design question. If a comparison fails, locate the changed constructor, binding, primitive, control rule or value correspondence.
 
 A changed language feature or execution context reopens its dependent translations. Preserve unaffected rules. Adding assignment requires revisiting captured bindings; changing integer arithmetic requires revisiting arithmetic correspondence; allowing externally supplied code requires examining the contexts with which translated components interact.
 
@@ -2649,12 +2649,12 @@ A familiar implementation language can silently supply truth tests, numeric limi
 
 ### CMP.12:7 - Conformance Checklist
 
-- Expression formation, binding and needed observations are recoverable.
+- Expression formation and binding support the requested observations across the readings the language and its context admit. A choice of one reading has the grounds the use requires.
 - Every required evaluation step has an available operation and an explicit control rule.
-- Translation terminates on its admitted descriptions; execution progress has its own stated scope.
-- Source and target values, bindings, states and observations have the correspondence required by the use.
+- Execution progress has the scope promised for the admitted programs and inputs. A promised translation terminates on the descriptions it must translate.
+- A direct evaluator implements the required source observations. A translation establishes the required correspondence between source and target values, bindings, states and observations.
 - The preservation argument includes the surrounding state or context needed for composition.
-- Cost includes translation and execution under the actual arithmetic and storage assumptions.
+- Cost includes the operations the proposed evaluator or translator actually performs, under the applicable arithmetic and storage assumptions.
 - A changed rule or failed comparison leads to a specific reconstruction.
 
 ### CMP.12:8 - Common Anti-Patterns and How to Avoid Them
@@ -2897,7 +2897,7 @@ How should cyclic abstract computations be scheduled? **Adapt** the question rai
 
 **Use this when** computations that work separately must run together, but shared state, communication or scheduling can change their results. You need to construct their interaction, repair a failing interleaving, or replace a component while retaining the behavior on which the rest relies.
 
-The reader can describe each component's operations and the results expected from their combination. This method adds the shared state, communication and ordering rules needed to reason about the whole. It applies to concurrent algorithms and protocols, including computations performed by cooperating software agents. The implementation language, machine and operating environment determine which operations are available and which failures the composition must allow for.
+Start from what the recipients must observe and what may occur between their observations. If the components are given, recover their operations and interaction. When their boundaries are yours to design, try dividing the work, then let each part meet its local promise. What state, event or responsibility must they share to make the combined observation possible? Move a boundary, keep a common revision, or add an interaction where the separate results lose that relation. This applies to concurrent algorithms and protocols, including computations performed by cooperating software agents. The implementation language, machine and operating environment determine which operations are available and which failures the composition must allow for.
 
 The first useful result is a composed procedure with a trace or invariant explaining how it obtains the required observation, or a counterexample that identifies the interaction to change. A small shared-state example needs only a few explicit steps. A general guarantee over an implementation needs the corresponding memory, scheduling and failure assumptions.
 
@@ -2925,7 +2925,7 @@ Two correct increments can lose an update. Retrying a request can repeat its eff
 
 #### CMP.14:4.1 - Specify what the combined computation must make observable
 
-State the allowed inputs and required results. Include the observations a receiving component can make while work is in progress: returned values, shared-state reads, messages, failures or completed operations. Distinguish a request from each attempt to transmit or execute it when retries are possible.
+State the allowed inputs and required results. Include the observations a receiving component can make while work is in progress, such as returned values, shared-state reads, messages, failures or completed operations. Distinguish a request from each attempt to transmit or execute it when retries are possible. For example, two reports taken on opposite sides of a member's transfer between teams can each give the correct local roster and count that member twice across the reports. If the request is for a combined roster as recorded at one instant, choose a shared revision or another procedure that reconstructs both rosters for that instant. Reports requested as of each team's own observation can use their respective revisions. The promised use decides which histories are acceptable.
 
 Choose the required ordering. For a concurrent object, **linearizability** compares a history of calls and responses with legal sequential behavior. A finite history can contain pending calls. Append responses to any selected pending calls, then omit those still pending. Keep every originally completed operation, including its arguments and returned value. Seek a legal sequential order of the retained operations that respects every case where one operation returned before another was called. Each retained operation appears to take effect between its call and response in this extended history.
 
@@ -2963,7 +2963,7 @@ Construct a repair from the failed premise. Common choices have different costs:
 | Intermediate state is observed inconsistently | Serialize the affected operation, protect its critical region or publish an immutable result. | Waiting, ownership or retained copies replace the former interference. |
 | A repeated message repeats an effect | Identify the logical request and combine effect application with remembering its result. | Identifier lifetime and failure recovery must preserve the relation. |
 | Components wait in a resource cycle | Impose a shared acquisition order or another cycle-breaking protocol. | All participating acquisitions must follow the rule; starvation remains a separate question. |
-| Coordination costs more than the required consistency is worth | Change the result specification to a weaker observation the receiver can use. | Revalidate the receiving algorithm under that weaker result. |
+| The cost of the proposed coordination threatens the intended use | Determine whether a cheaper implementation can still supply the promised observation. If the observation itself must change, take the proposed change to the person entitled to revise the commission. | Establish what the receiving algorithm can conclude under the agreed result specification. |
 
 Execute the original failing trace against the repair, then inspect the transition family that caused it. This both explains the changed behavior and identifies what a more general argument must cover.
 
@@ -3063,7 +3063,7 @@ Sequential intuition can hide an interleaving between a read and its use. An ato
 
 ### CMP.14:7 - Conformance Checklist
 
-- The combined result includes the intermediate observations and eventual responses its user needs.
+- The combined result includes the intermediate observations and eventual responses its recipients need. Observations that must refer to one revision, request or execution retain that connection in the joint history.
 - The model states atomicity, visibility, communication and admitted environment changes where they affect the argument.
 - Initial conditions and each relevant component or environment step support the shared invariant or protocol relation.
 - A proposed repair changes the offending interaction and its general transition family.
@@ -3579,7 +3579,7 @@ The semantic rule remains necessary under every realization. The wrong free-vari
 
 **Use this when** you can state behavior that a computation must obtain, but the available units and operations do not yet give a workable way to obtain it. The difficulty can appear before implementation or after a change: separately sensible steps do not compose, a small unit discards information the join needs, or every client must repair the same invalid intermediate arrangement.
 
-The useful move is to design the units and their permitted operations together. Try constructing the required whole, recover what a failed join needs, and change the unit, the operation or the conditions of assembly. Then connect that computational abstraction to an obtainable implementation. The result is a usable level of operations with grounds for its whole behavior.
+Design the computational units and their permitted operations together. Assemble the required whole and establish what its clients can do with it. If a join fails, determine what it needs and revise the unit, the operation or the conditions of assembly. Connect the chosen abstraction to an obtainable implementation. The result is a usable set of operations with grounds for the behavior of the whole.
 
 For example, deciding whether each text fragment is locally balanced loses information needed to decide whether their concatenation is balanced. A richer fragment meaning can make the join both simple and general. In a continuing service, exposing separate count reads and writes can invite invalid combinations; a state-changing operation with an explicit admission rule can make a capacity condition maintainable. Neither remedy is selected by choosing a storage format alone.
 
@@ -3606,7 +3606,7 @@ Starting only from small familiar operations can make the whole unnecessarily di
 
 ### CMP.16:4 - Solution
 
-Construct a provisional whole with proposed units and operations, use its first consequential failure to revise them together, and justify the resulting level against both its clients and its implementation. The moves below can return to one another. Use an existing interface when it meets the requirements.
+Construct a whole with proposed units and operations and establish what its clients can obtain under its implementation conditions. If the first construction suffices, its justification can complete the design. When a join or a permitted use reveals a missing contribution, revise the units and operations together. An existing interface can supply the result when it meets the requirements.
 
 #### CMP.16:4.1 - Recover the behavior and the freedom to change its construction
 
@@ -3614,7 +3614,7 @@ State what a recipient must observe or do with the result. Include consequential
 
 Recover the admitted cases and the available operations through C.29.2. Separate required behavior from an inherited implementation choice. A requirement to preserve order does not require an array; a capacity limit does not necessarily require exposing a mutable counter. Conversely, a physical coupling, a particular external format or an existing client's observation can be binding. Do not change those requirements merely to make the preferred construction easier.
 
-Choose one whole use that exposes the difficulty and a consequential variation. These are design probes, not the scope of the method. If the proposed change would answer a different question, make that difference explicit and return it to the receiver instead of presenting the changed answer as preservation.
+Begin with a whole use that exposes the difficulty. If several uses are promised, determine which must succeed together, which may be served independently and what results or resources they share. Hold a proposed unit fixed and change an allowed input, continuation or interaction that could change one of those uses. Keep distinctions whose loss would change the required observation or prevent its timely production. A direct argument covering the uses can already settle the choice. If a proposed change would answer a different question, return that difference to the receiver.
 
 #### CMP.16:4.2 - Try the whole before fixing the units
 
@@ -3628,7 +3628,7 @@ Suppose each proposed part has supplied exactly its promised result. Attempt the
 - Pass context or postpone a choice when a part cannot correctly decide without information available at the join.
 - Change the decomposition when obtaining the missing contribution would repeat the original difficulty or exceed the resource limit.
 
-Try a simple alternative alongside the favored design. Keeping the original units and checking the final result can be cheaper when invalid assemblies are rare and harmless. A stronger constructor is useful when it makes repeated use or reasoning materially easier.
+When the choice is still open or a comparison is commissioned, try a simple alternative alongside the favored design. Keeping the original units and checking the final result can be cheaper when invalid assemblies are rare and harmless. A stronger constructor is useful when it makes repeated use or reasoning materially easier.
 
 #### CMP.16:4.3 - Give the proposed unit a meaning through its uses
 
@@ -3760,7 +3760,7 @@ Recognition asks whether the units and operations themselves need construction f
 
 For assurance of the selected construction, establish the consequential claims:
 
-- the required observations, admitted continuations and coverage conditions;
+- the required observations and continuations, including the conditions under which results must be obtained together and the argument covering those conditions,
 - obtainable constructors and operations, including any required external primitive;
 - the reason their permitted assembly preserves meaning and any claimed invariant;
 - progress and resource conditions distinct from value correspondence;

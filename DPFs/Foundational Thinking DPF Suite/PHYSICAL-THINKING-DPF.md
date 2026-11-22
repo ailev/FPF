@@ -5,7 +5,7 @@
 > A pattern language for forming physical accounts, deriving usable consequences, constructing observations and revising the physical assumptions.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version:** 24 October 2026
+- **Version:** 22 November 2026
 - **Status:** Eternal alpha: a usable repertoire that remains open to correction and extension.
 - **License:** © 2026 Anatoly Levenchuk. Original framework text: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). Cited sources retain their own terms.
 - **Publication:** [FPF Library repository](https://github.com/ailev/FPF)
@@ -63,9 +63,11 @@ To cite this edition: Anatoly Levenchuk, *Physical Thinking DPF*, [FPF Library r
 
 Bring the physical question from your work. A useful answer may need a physical account, a consequence derived from it, and an observation that distinguishes what remains unresolved. The worked connections below show how one method's result becomes another's input, where an existing result lets you enter, and which changed condition sends you back.
 
+When you are to build the physical account, start with what the recipient will decide or explain. Trace each needed quantity to the body, region or exchange it describes and to the time it concerns. Try holding a proposed summary fixed while changing the arrangement or preparation. If the answer can change, keep the distinction responsible or bound its influence. For uses promised together, determine which observations must concern the same body or preparation and which require deliberately different preparations. Keep the shared history or the controlled difference on which their combined interpretation depends. Check that obtaining one observation still permits the others the work requires. A known law, record or bound may already settle the commissioned question.
+
 Use the Table of Contents and each pattern's title and Problem frame for other questions or direct help. The bodies explain their methods, prerequisites, examples and return conditions. Each case states the physical theory and mathematics it uses.
 
-You can ask an assisting agent: “Explain this and give me your comments in the language of my work, without framework jargon.” Ask it to show what the quantities and operations mean, where the physical premises enter, and what the result lets you do next.
+You can ask an assisting agent, “Explain this and give me your comments in the language of my work, without framework jargon.” For an assigned calculation, ask what the quantities and operations mean, where the physical premises enter, and what the result permits. To practise constructing the physical account, start from the actual question, available facts and permitted operations before looking at a completed model. Choose the boundaries, quantities and couplings yourself, then ask which admissible change would challenge that choice.
 
 ### PH-PREDICT-AND-DISTINGUISH - Develop a physical prediction and the test it needs
 
@@ -192,7 +194,7 @@ The starting point and stopping point depend on the question. A known response c
 
 A measuring instrument can acquire a signal during the test, preserve part of it and be read later. Start with the difference between the physical accounts and trace it to what the instrument retained. Suppose both accounts predict zero final deflection but peak deflections of 3 and 7 mm. A final reading of the deflection leaves both accounts possible. A peak indicator that tracked the motion of this specimen throughout the test and retained 7 mm with a total error bounded by 0.2 mm excludes the 3 mm prediction. The stored peak can decide that comparison after the specimen settles. If the record contains only final values, look for another observation or physical relation already available. Change the acquisition timing or coupling when the distinction still matters and the available evidence leaves it open.
 
-FPF B.1.5.EW helps recover these constituent–whole connections; B.1.5.RS examines a proposed replacement. Consider the constituent–whole connections that can change the present result. Carrying out a Method described here can require additional capability, available support and compatible resources for its constituent operations or for the larger work it contributes to.
+Choose the physical arrangement and the acts of measurement separately. Consider two internally uniform blocks of fixed composition and volume with the same known, constant heat capacity. Their mean temperature determines their combined change in thermal energy from a common reference temperature. Suppose instead that the decision is whether either block exceeds a temperature limit at a specified instant. Redistribute the temperatures at fixed mean. If the verdict can change, retain a sufficient bound on the hotter block or information that distinguishes the distributions. Bringing the blocks into contact to read their equilibrium temperature can erase the difference that matters. Earlier readings can serve both decisions if their times, uncertainties and the intervening evolution support the required instant. FPF B.1.5.EW helps trace which operations produced the readings. B.1.5.RS examines a proposed replacement.
 
 ## PHY.Reference:4 - Worked connection - From an unknown resistance to a useful comparison
 
@@ -232,7 +234,7 @@ Several failures recur in the bodies:
 | An unsuccessful experiment is assigned to the subject law alone | Inspect the preparation, interaction and readout premises that also produced the prediction. |
 | Every uncertainty launches another experiment | Use a sufficient bound or conditional result; compare further inquiry with what it can change. |
 
-A learner's ability to repeat one derivation does not establish their ability to choose its physical premises in a new situation. Try changed participants, preparation or observable requirements, and ask what the earlier construction still supports. Explanations and practice can develop that capability; the quality of the explanation and the demonstrated capability are separate questions.
+When asking a learner to choose a physical account, give them the intended use and the physical facts and limits they would have at work. Leave them to decide which participants to include, which differences to resolve and how the conclusion reaches that use. A worked derivation with a specified boundary and law can show how to apply them. Credit an independent choice when the work shows which choice the learner actually made, including a choice visible in earlier work.
 
 ## PHY.Reference:6 - Consequences and Architectural Rationale
 
@@ -496,7 +498,7 @@ An established constitutive account or reliable analogue is preferable when it a
 
 Use this pattern when a physical question leaves you uncertain which motions, interactions or material details its description must retain. Resolving every microscopic change may be impractical. Omitting a fast motion or a small interaction may change the answer that matters.
 
-Begin with one consequence: a response over a stated interval, a propagation speed, an accumulated exchange, or a distribution of outcomes. Choose one proposed omission and follow how it could affect that consequence. A simpler account with a justified range of use, or a reason to restore the omitted contribution, is a useful first result.
+Begin with the consequence the work needs, such as a response over a stated interval, an accumulated exchange or a distribution of outcomes. Choose a proposed omission and follow its effect on that consequence. When several results will be used together, establish whether they still describe a compatible physical situation after the omission.
 
 An *effective physical description* here describes the physical behavior needed at chosen scales without resolving every underlying process. Unresolved processes can still contribute through response coefficients, constraints, dependence on earlier states or fluctuations. The method helps choose and examine that description across physical branches.
 
@@ -528,7 +530,9 @@ The task is to retain the physical influence required by the intended result, wh
 
 #### PHY.5:4.1 - Choose the physical consequence and its resolution
 
-State what the answer will be used to interpret, choose or do. Identify the relevant quantity and how it is used: an instantaneous value, a time integral, a spatial average, a peak, a correlation or a probability can require different descriptions of the same situation.
+State what the answer will be used to interpret, choose or do. Identify the relevant quantity. An instantaneous value, a time integral, a spatial average, a peak, a correlation or a probability can require different descriptions of the same situation.
+
+Work back from that use to the region, material or interacting bodies whose behavior matters. Vary their arrangement at a fixed proposed aggregate. Vary their surroundings with a chosen part in the same local state. Follow any change that reaches the requested consequence. This helps decide both where to place the physical boundary and what can be averaged within it. A law or bound covering the admissible arrangements can justify that choice without resolving every part. For several outputs used together, recover the relation their interpretation requires. Two readings of one history must be attributable to that history. A comparison of deliberately different preparations requires the specified difference and comparable conditions for the quantities being compared. A destructive reading may require another specimen and grounds for what the two observations jointly establish.
 
 Include the preparation, forcing, spatial range and observation interval when they affect that answer. For example, the first moment after switching can include a motion that has already decayed when a later reading is taken. A question about a wave's arrival concerns a propagating disturbance and the wavelengths present in it.
 
@@ -673,7 +677,7 @@ Time-scale separation is especially convenient and can dominate the choice too e
 
 ### PHY.5:7 - Conformance Checklist
 
-- The intended consequence specifies the physical quantity, relevant preparation, range and interval.
+- The intended use determines which physical participants, quantities, preparation, ranges and intervals the account covers. Consequences combined for one decision are compatible under the stated physical conditions.
 - The comparison uses the coupled physical arrangement and explains the characteristic scales.
 - Each omitted process retains any mean response, constraint, delayed influence or fluctuation needed by that consequence.
 - The approximation follows from stated physical relations or remains an identified hypothesis.
@@ -2043,11 +2047,11 @@ Ask whether different target values can actually produce the same record under t
 
 Use the uncertainty or error model appropriate to the inference. Strongly nonlinear conversion can change both an estimate and its uncertainty; do not assume that converting an average is equivalent to averaging the converted quantity. Apply the necessary mathematical propagation or inference method, rather than treating a sensitivity coefficient as a complete answer.
 
-When several parameters or performance goals matter, compare achievable combinations under the available resources. Different measurements can favor different parameters. Use C.16 to characterize those combinations and C.11 when choosing between available arrangements.
+When the order asks for several results from one preparation, determine which observations can be made on that preparation and in what order. Trace any disturbance or shared uncertainty into the later readings. A relation or an earlier record can already establish one of the results. If separate preparations are allowed, establish why each answers its assigned use and, where the answer depends on a relation between them, what connects them. Compare feasible combinations under the available resources through C.16 and C.11.
 
 #### PHY.9:4.6 - Obtain a first result and revise the physical arrangement
 
-Work one admissible preparation through to a predicted readout and an interpreted result. This can reveal an unresolved physical relation before an instrument is built. It also gives collaborators a concrete construction to implement or compare.
+Work an admissible preparation through to its predicted readout and interpretation. This can establish possible operation and reveal a missing contribution before an instrument is built. For a reading already received, consider the states compatible with that reading and the other information the recipient has. A decision can be justified when it is acceptable in all those states. For an instrument promised to support decisions over a range, establish a usable rule for every readout possible in that range. Different readouts may call for different decisions. One ambiguous readout can defeat a guarantee while leaving another readout decisive. For an error-probability requirement, use the appropriate record laws and error criterion. Return the supported resolution and its range.
 
 Change a condition that could defeat the intended use. Check the shared premise of a subtraction, the range of an inverse, the time available for a response or the disturbance caused by the probe. Return to the smallest implicated part of the arrangement.
 
@@ -2133,7 +2137,7 @@ Quantum sensing is one implementation of a wider physical move. Classical compar
 - A cancellation or transferred calibration retains its shared physical premises.
 - Disturbance and finite response are included when they change the wanted result.
 - Local sensitivity is not substituted for resolution over the required range.
-- The first result states what the readout resolves, any remaining ambiguity and when to revise the arrangement.
+- The result states what the available observations and physical premises resolve, what remains ambiguous and when to revise the arrangement. If several observations must be made on the same preparation, their timing and disturbance allow the required combination.
 
 ### PHY.9:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -2268,7 +2272,7 @@ Use a reference or control for a named alternative explanation. A no-drive compa
 
 For each candidate design, obtain the readouts allowed by each physical account, including consequential parameter freedom and uncertainty in preparation, conversion and recording. MMP.7 supplies a probability law when records are random; C.16.IR helps determine what an indication can resolve.
 
-Disjoint bounded response ranges give a particularly simple separation under their premises. If the ranges overlap, some outcomes can still discriminate the accounts while others remain compatible with both. Equal expected values likewise need not mean equal distributions or equal time dependence.
+Separate two accounts if their sets of possible records are disjoint. Disjoint outer bounds suffice. Overlapping bounds can still enclose disjoint sets of attainable records. For several readings, retain the relations that a single preparation and the same physical parameters impose across the readings. Two accounts can allow the same range at each instant but predict different changes between instants. Check which complete records can actually arise under each account. A record possible under only one distinguishes them. A record possible under both leaves them compatible. Equal expected values need not mean equal distributions or equal time dependence.
 
 When discrimination depends on statistical evidence, use the appropriate model-comparison method with its dependence, sampling and error assumptions. Repeated readings do not automatically supply independent trials. A mathematical design criterion is useful only after the physical design and the interpretation of its records are supplied.
 
