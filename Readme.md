@@ -69,7 +69,7 @@ Use the result for the question the comparison can answer. To estimate what woul
 
 ## What is available
 
-**FPF Core** contains 408 patterns in 18.961 million characters. It supplies transdisciplinary concepts and methods, including methodological work, architecture construction and comparison, and open-ended development. **36 Domain Principle Frameworks (DPFs)** supply subject-specific methods: 26 belong to four Suites, and ten have their own files directly in the DPF catalogue.
+**FPF Core** contains 408 patterns in 18.977 million characters. It supplies transdisciplinary concepts and methods, including methodological work, architecture construction and comparison, and open-ended development. **36 Domain Principle Frameworks (DPFs)** supply subject-specific methods: 26 belong to four Suites, and ten have their own files directly in the DPF catalogue.
 
 A DPF describes one field through a connected pattern language. A **Suite** describes a composite discipline through its constituent fields and their relations. An **Architectural Reference** explains how the relevant language is arranged and why: within a framework, across a Suite, or across the Library.
 
@@ -104,7 +104,9 @@ An assistant can retrieve methods, calculate, compare alternatives, draft and ch
 
 ## Understand, check or extend a contribution
 
-README pages help you choose; full patterns teach the methods and state their conditions. Read the explanation when a recommendation matters. A maintained account of useful approaches can include competing schools, failures and limits.
+The README pages help you locate a method. Its full pattern gives the grounds for using it. A maintained comparison can also explain competing approaches, failures and limits.
+
+When you write a guide or a pattern, start with the work its reader should be able to do. Someone asked to design a way of working needs grounds for choosing an operation or arrangement. If several contributions must work together, explain what connects them and supports the result. An example can show how one author made those choices. Give the reader the means to make them in their own work, and preserve that opportunity in any assignment issued separately. [Explanation Design](https://fpf.tools/EXD.Reference:3) · [FPF pattern authoring](https://fpf.tools/E.8) · [Developing a domain framework](https://fpf.tools/E.4.DPF)
 
 For a precise reference, retain the complete PatternID or section address and enough context to identify the publication. [Using FPF Library: resolve a portable reference](USING-FPF.md#resolve-a-portable-reference) explains how this works across files, search and MCP. You need not learn document codes before choosing what to read.
 

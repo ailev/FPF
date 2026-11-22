@@ -2497,7 +2497,7 @@ Use the contribution that settles the remaining question.
 | Evidence | Use the subject criterion and relevant sources. Use `A.10` for a source-to-use relation that is implicit or must be reproducible. |
 | Assurance | `B.3` |
 | Ethics, harm, bias, affected parties | `D.1` through `D.5` |
-| Responsibility for a consequential use | Identify the applicable assignment or decision authority. If reporting a particular act, establish who did it and on what basis the attribution holds. |
+| Responsibility for a consequential use | If the account assigns a duty, establish who owes what to whom under the governing terms. For a decision, correction or withdrawal, establish who may act and on what terms. A single provision may settle both questions. For an account of what happened, establish from evidence of that occurrence who or what performed the action. An automated change can be made by a technical system. |
 
 For new generation, planning and drafting can be interleaved. Inspection may reveal that the content or order needs to change. A short task can combine planning in one prompt and comparison in one reading. Use separate stages or records when the tool, experiment or later work needs them.
 
@@ -2525,7 +2525,7 @@ Choose a further probe when its attainable result can answer a material question
 
 1. **Source perturbation.** Change a constraint that requires a difference in the answer and compare the resulting outputs. If the pertinent relation stays wrong or fails to change, examine how the generator used the source. A successful comparison establishes what happened for the tested change and conditions.
 2. **Structure recovery.** Use a reader’s response to the selected task, with access and help specified. To test what can be recovered under conditions excluding the prompt, keep the prompt out of that attempt. Retain the first response and identify what help was used. If a relation is missing, examine whether content, order, access or other conditions explain the loss. When earlier expert readings repeatedly missed this kind of loss, use F.19:4.5 for an actual first reading under the promised conditions. If you need to rely on the reviewer to distinguish sound explanations from plausible substitutes, use C.41.QC and establish the expected judgements independently. Test both errors when the decision depends on both. One established missed defect can already refute a guarantee to catch every such defect. A reader who reconstructs an omitted step from expertise supplies evidence about that reader.
-3. **Responsibility.** For a consequential organizational use, establish the authority to decide, correct or withdraw it. A generated note can convey an existing authorization when its issuer and terms support that use. Verify the actual grant if the wording is the only apparent basis.
+3. **Responsibility.** Follow the claim to the party that owes the action or the party entitled to decide, correct or withdraw it. If the question is who owes someone a correction, identify the undertaking and its beneficiary. For authorization, establish the corresponding authority. A generated note can convey an existing authorization when its issuer and terms support that use. Verify the actual grant if the wording is the only apparent basis.
 
 ### NSTD.7:5 - Archetypal Grounding
 
@@ -2567,7 +2567,7 @@ The following steps construct and check the teaching account.
 | --- | --- | --- | --- |
 | Source perturbation | Which parts of the required answer, if any, must change when the source condition changes? | The answer remains warranted under the new condition. A changed relation appears where required, and a warranted common answer may stay the same. | Trace a lost distinction through the supplied source, plan and passage. Use additional grounds for a claim about what caused the output to change. |
 | Structure recovery | Which selected relations can this reader reconstruct from the account under the stated conditions? | The reader correctly recovers the required relations and recognizes the omissions that matter to use. | Locate the loss. Clarify the content, add a usable return, address access or narrow the supported use as appropriate. |
-| Responsibility | Who can decide the consequential use, and who may correct or withdraw it? | The relevant assignments or authorizations can be established. | Resolve the missing authority when that use requires it. Use evidence or assurance methods when those claims are at issue. |
+| Responsibility | Does the reader need to know who owes a correction, who may authorize it, or both? | The relevant terms establish the duty, the decision authority or both as commissioned. | Recover the missing obligation or permission that matters for this use. To report that someone actually corrected the account, establish that act. |
 | Schema use | Do the contents of the required fields support the commissioned narrative? | Values satisfy their own constraints and any relation required across scenes in the same history. | Locate the failure in the output or generation procedure. Use executable validation where it can test the relevant constraint. |
 | Improvement evidence | Is the new variant better under the relevant `NSTD.6` characteristics? | Re-evaluation supports the claimed change without losing protected results. A sufficient one-off comparison can finish here. | Keep an unsupported variant as a candidate. Use `E.22` if the question needs framing, or `E.23` for repeated improvement. |
 
@@ -2660,7 +2660,7 @@ Inspect the relation that matters to the reader. A visible continuity error can 
 | `CC-NSTD7-2` | Candidate evaluation can inform use, repair or rejection. `C.35` is selected only for a result entering architecture work. |
 | `CC-NSTD7-3` | Source plan, plot or event plan, schema constraints, and generation method are named when relied on. |
 | `CC-NSTD7-4` | Fluency, coherence, controllability, schema validity and planning have criteria appropriate to those properties. Claims about evidence, authorization or admission have their own grounds. |
-| `CC-NSTD7-5` | When a use requires responsibility or permission, establish the applicable assignment or authorization and its terms. |
+| `CC-NSTD7-5` | For a claim about responsibility, establish who owes the stated action to whom. For a claim about permission, establish who is authorized and on what terms. One provision can support both conclusions when it assigns both. |
 | `CC-NSTD7-6` | An improvement claim identifies the compared versions or changed part and is supported by `NSTD.6` re-evaluation, with relevant costs, risks and protected qualities considered. An already-scoped one-off comparison can be sufficient; `E.22` frames an unresolved improvement question and `E.23` supports repeated improvement. |
 
 ### NSTD.7:8 - Common Anti-Patterns and How to Avoid Them
