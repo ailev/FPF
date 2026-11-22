@@ -2448,7 +2448,7 @@ Identify the rhythmic result needed. The question may concern event placement, d
 
 Use evidence from an adequate observation task or construct one if needed.
 
-- For **event placement**, identify corresponding events and the reference they should meet.
+- For **event placement**, identify the events whose positions matter and what they are to be related to. The reference may be another observed event or one prescribed by the work.
 - For **continuation**, examine the sound, movement or contact through the relevant span, including its preparation and release where they matter.
 - For **interaction**, identify the joint result that matters. For an attributed response, establish whose cue was available, who could change the next action and what the receiver did with that information in this passage.
 - For **experienced response**, use the participant’s account of that response under the stated listening or performing conditions. Ask for the account when it is needed and can be obtained.
@@ -2458,11 +2458,11 @@ Use RHY.4 if the target event or received landmark is unclear. Locate an attack,
 
 #### RHY.14:4.2 - Match events without concealing omissions or additions
 
-For an event comparison, specify the passage, cycle position, event kind and matching rule. Respect the ornament and expressive displacement the passage permits. Retain ambiguous correspondences when the observations and rule do not distinguish them. Match each observed event only where the rule supports that correspondence.
+Start with the temporal relation the question asks you to compare. Select the passage, the events and a rule for identifying them. A question about how two performers end a freely phrased passage can be answered by the interval between their releases. If the task concerns a scored position, a pulse or another prescribed reference, establish which events should correspond to it and what ornament or displacement is permitted. Preserve ambiguities that could change the conclusion.
 
-Identify unmatched expected events, unmatched observed events and ambiguous matches. If one event is missed, matching by list position can shift every later pair. When the distinction matters, check identifiable events in the recording or use a justified alignment procedure. Report any ambiguity that remains.
+When the task calls for matching two event sequences, use the chosen relation to identify matches, events without a counterpart and ambiguous pairings. This applies both to a prescribed sequence and to improvised calls and responses. If one event is missed, matching by list position can shift every later pair. When the distinction matters, check identifiable events in the recording or use a justified alignment procedure. Report any ambiguity that remains.
 
-For each established match, compare the observed time with the intended time, including deliberate offsets. A signed difference gives the direction of the deviation under the sign convention used. The absolute value gives its size. Examine intervals and differences across the passage to distinguish a stable offset from drift. Report any summary with its matched events and unresolved locations.
+For a question about adherence to an intended time, compare each established match with its prescribed time, including deliberate offsets. A signed difference gives the direction of the deviation under the sign convention used. The absolute value gives its size. When the question concerns a stable offset or drift, examine how the intervals and differences change across the passage. Report any summary with its matched events and unresolved locations.
 
 Before using a detector result to judge a performer, check event identifications that could change the judgement. A quiet attack, echo or changing sound envelope can affect detection. Use the recording or another suitable observation where it can distinguish a detector error from an event the performer produced. If it cannot, keep the identification open. Preserve confirmed performed events in the comparison.
 

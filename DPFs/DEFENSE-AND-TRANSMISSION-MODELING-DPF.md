@@ -57,7 +57,7 @@ Original framework text: © 2026 Anatoly Levenchuk, [CC BY 4.0](https://creative
 
 These are selected examples. Bring the work, question and observed difficulty you actually have. If none fits, use the Table of Contents and the direct patterns.
 
-You can ask an assisting agent: “Explain this and give me comments in the language of my work, without framework jargon.” Use the equations only when their assumptions fit; a short causal account can already settle the next action.
+Start with what you need to do with the answer. You might need to explain why an existing practice continues, recommend a change that protects a useful contribution, or establish what people actually did. Identify which choices remain yours and what result another participant is to supply. Ask an assisting agent to help with that work in the language you use. A short causal argument can settle a question. Use a quantitative model when its assumptions and distinctions support the required conclusion.
 
 ### DEPENDENCE — A useful service is being called a parasite
 
@@ -75,16 +75,16 @@ These examples retain longer inquiries across several methods. The repeated word
 
 - **Situation:** A proposed practice appears useful, but existing checks or exchange conditions restrict its use.
 - **Question:** Which restriction protects needed work, and which change could preserve that work while allowing the useful contribution?
-- **First useful result or blocker:** A conditional explanation linking consequences, uptake, compatibility and protective response; a missing distinction remains a specific investigation.
+- **First useful result or blocker:** An account of the restriction and the work it protects. For a commission to design a change, a way to retain that work while enabling the proposed contribution, or the unresolved condition that prevents such a design.
 - **Mantra:** Name whose work changes; recover uptake and its conditions; separate protection from its costs; test the resulting continuation and return to evidence.
-- **Start with:** DTM.1 → DTM.2/.3; use DTM.6 for interaction, DTM.8/.9 for protection, then DTM.4 for persistence.
+- **Start with:** DTM.1 for the work and consequences. Use DTM.2 or DTM.3 when use or a capability to use the practice matters, DTM.6 for interaction, DTM.8 or DTM.9 for protection and DTM.4 for persistence. Follow the dependency that still affects the commission.
 - **Stop or return:** An absent capability is not resistance. Return to the subject learning or engineering method; stop the harmful-variant branch when harm is not established.
 
 #### DIVERSION — A spreading procedure undermines the work
 
 - **Situation:** A frequently reused procedure receives continuing support while its recipients report worse results.
 - **Question:** Does support favor a misleading signal, do selection conditions favor the variant, or is another mechanism responsible?
-- **First useful result or blocker:** A discriminating causal account and a feasible response comparison, not a label applied to its users.
+- **First useful result or blocker:** A causal account that distinguishes the explanations relevant to this report, or the distinction that available evidence cannot settle. If a response is also commissioned, compare changes that address the supported cause.
 - **Mantra:** Establish the consequence; trace support and continuation; distinguish diversion from selection; compare response targets; check what persists or changes afterward.
 - **Start with:** DTM.1 → DTM.7 or DTM.5; use DTM.6/.3 for consequential interactions and spread, DTM.8/.9 for response, and DTM.4 for return.
 - **Stop or return:** Retain competing explanations if the observation does not distinguish them. A protection proposal needs the actual means and authority to perform it.
@@ -94,9 +94,9 @@ These examples retain longer inquiries across several methods. The repeated word
 - **Situation:** Removing a harmful arrangement also removes a contribution on which useful work depended.
 - **Question:** How can the needed function be recovered and sustained through another tool, method or division of work?
 - **First useful result or blocker:** A feasible replacement contribution, its acquisition need and the conditions for its continued use.
-- **Mantra:** Keep the needed function; obtain a replacement contribution; recover its learning and transmission; test continuation without recreating the harmful dependence.
+- **Mantra:** Identify the contribution the work still requires. Design a way to supply it under the new arrangement. For a claim of recovery, establish that the work obtained it under the conditions in question.
 - **Start with:** DTM.8 with FPF C.36.RP; DTM.2/.3 connect acquisition and transmission, and DTM.4/.6 test continuation under the changed arrangement.
-- **Stop or return:** A description of the replacement does not establish capability. Obtain the subject method and test it in the whole work before claiming recovery.
+- **Stop or return:** A feasible design can complete an order for a replacement arrangement. To establish actual recovery, trace the contribution through the work that depended on it. Records of ordinary work can settle that question. Arrange a further trial when the existing evidence leaves a consequential uncertainty or the trial itself was commissioned.
 
 # Defense and Transmission Modeling DPF Architectural Reference
 
@@ -138,24 +138,24 @@ An available adapter costing 0.4 and reducing the conversion coefficient to 0.2 
 
 If an admission check rejects the new format to preserve a required exchange result, DTM.8 locates its target. The comparison can now include retaining the restriction, providing the adapter or changing the receiving work. DTM.9 is needed if the checking response has consequential memory, cost or effects on other useful activity. It is not invoked merely because a restriction exists.
 
-The question does not require decomposing a change across source groups, and no diversion of support has been identified. DTM.5/.7 therefore add no required step. The first useful result is the conditional compatibility account and a concrete engineering and uptake question. It is not a forecast that the adapter will be adopted.
+Return the answer to the teams’ decision. If a team seeks a positive gain over the stated horizon and one fifth of its partners have switched, the unchanged format is preferable to conversion on the stated terms. A verified adapter can reverse the recommendation if it preserves the required exchanges at the stated cost and the team can use it. If the decision concerns several teams switching together, determine which partners and costs change for each team in that arrangement. For a commission confined to explaining the threshold, the conditional comparison already supplies the result. To report adoption, establish who actually changed their work.
 
 ## DTM.Reference:4 - Protection and the simultaneous method vertical
 
-A team checks an unfamiliar procedure while continuing to produce work for its customers. At the same moment it is performing several related kinds of work:
+Which operations constitute this work, and which results or conditions does it use? Start with what the customer commissioned. For example, suppose this order requires the team to deliver a result and perform a fresh check on the procedure used in this delivery. The check, the decision it informs and the observation it needs can then be related within that work. The roles in the table describe this arrangement.
 
-| Simultaneous work | Contribution that must be available | Condition imposed by the whole |
+| Work in this arrangement | Contribution that must be available | Condition imposed by the whole |
 | --- | --- | --- |
 | Delivering the required customer result | Subject execution, resources and coordination | Protection must preserve an acceptable way to obtain that result. |
 | Selecting and controlling procedure use | Observation, interpretation, decision and authority | A restriction must distinguish what matters under the actual conditions. |
 | Carrying out the check | A usable comparison, instruments or data, and competent interpretation | The check must fit the time and capacity available during delivery. |
 | Obtaining and interpreting the observations | Sensing or retrieving the data and recognizing the consequential difference | The check cannot assume a distinction that no performer can make under the working conditions. |
 
-This is one useful vertical, not four universal levels. Earlier training can make simultaneous performance possible, but the trained capability must still be available during the work. A correct check in isolation does not establish that the whole combination is feasible.
+Change the commission while keeping the team and time fixed. A check performed for next month’s order might compete for the same specialist without forming part of today’s delivery. A suitable earlier finding may supply the decision about today’s procedure. Using it is part of the current work, while the inquiry that produced it can belong to a different order. Where one operation supplies another with a means of observing, deciding or acting during the work, establish that functional relation before describing layers of the method. Earlier training may have established capability that is available now.
 
 For example, a reviewer may know the difference between a valid and invalid result, yet lack a way to observe it before the delivery deadline. Increasing the number of reviews will not supply that missing operation. Alternatively, the operation may exist but consume the same scarce capacity needed for delivery. Those are different acquisition and operational questions.
 
-FPF B.1.5.EW and C.32.MWA recover the constituent relation and simultaneous support. Human capability development, AI training, technical implementation and operational methods supply their own missing contributions. DTM describes only part of that vertical.
+FPF B.1.5.EW and C.32.MWA recover the constituent relation and simultaneous support. Human capability development, AI training, technical implementation and operational methods supply their own missing contributions. Use the parts and supporting relations established for the work in question.
 
 The reference of protection remains explicit throughout: who is protected from whose action, which result is preserved, and who bears the response's cost. Incoming and outgoing harm are useful questions in safety/security discussions, not an exhaustive definition of those terms. An aggregate collective advantage does not automatically settle a constituent's interests.
 
@@ -273,7 +273,7 @@ Ask what contribution would be absent if the supporting participant or resource 
 
 For example, the practice may need an external solver, without needing this particular solver. Alternatively, its records may be readable only by the present service. These relations call for different continuations: obtaining a substitute, making the representation portable, changing the practice, or accepting the dependence for the intended work.
 
-Use a model or a safe bounded comparison when withdrawal would disrupt real work. An unperformed counterfactual remains a hypothesis. Loss under withdrawal establishes dependence; it does not yet establish harm during supported use.
+When withdrawal would disrupt the work, ask what follows from the terms, capacities and alternatives already established. A binding access condition can settle what would become unavailable on withdrawal. For a result that already reached its recipient, ask whether the proposed change could still affect its use. Where the model leaves consequential alternatives open, use a justified comparison, narrow the conclusion or state the remaining uncertainty. A conclusion about dependence under withdrawal and a claim of harm during supported use have different premises.
 
 #### DTM.1:4.3 - Compare results for the affected participants
 
@@ -310,7 +310,7 @@ If the comparison removes the alleged harm, stop the harmful-variant branch. If 
 
 #### DTM.1:5.1 - A service improves work but concentrates dependence
 
-Consider a hypothetical team whose old process yields 10 acceptable analyses per week. With a service it yields 14 at an additional cost affordable for the work. Under an outage the supported process yields only 4; a tested substitute would yield 9.
+Consider a hypothetical team whose old process yields 10 acceptable analyses per week. With a service it yields 14 at an additional cost affordable for the work. During an outage of that service, the old process could still deliver 10 under the stated conditions. The new process delivers 4 without a substitute. A tested substitute can deliver 9.
 
 The method produces three separate comparisons. Current supported output improved by 4. Current outage exposure is larger than before. Replaceability would reduce that exposure, but would not preserve all normal output. None of these differences alone proves exploitation. The next action depends on the required continuity, supplier conditions and cost of the substitute.
 
@@ -393,7 +393,7 @@ A standard can reach a group that lacks permission to adopt it. A demonstration 
 
 Build a law connecting observable exposure, uptake and the resulting variant. The first result is a defensible expected flow or transition probability, with the unresolved factors retained. It can be qualitative when the next decision needs only the missing condition.
 
-A count of views is already sufficient if the question is only whether a notice was seen. Do not expand it into a model of competence or use unless the receiving question needs that result.
+A reliable count of recorded views can settle how many such views the notice received. To establish that a person in the intended group saw it, check what the counter registers, whose views it can include and whether the record or another observation establishes exposure for that group. Do not expand it into a model of competence or use unless the receiving question needs that result.
 
 ### DTM.2:2 - Problem
 
@@ -505,7 +505,7 @@ The useful result is a choice between mechanisms to investigate, rather than adj
 
 #### DTM.2:5.3 - A demonstration reaches learners without supplying coordination
 
-A dance workshop distributes a turn demonstration. A view count measures exposure. A learner's attempt, successful execution with a cue, uncued execution and later teaching provide different events.
+A dance workshop distributes a turn demonstration. A view count records what the platform calls a view. It can measure exposure among these learners if its coverage and counting rule support that interpretation. A learner's attempt, successful execution with a cue, uncued execution and later teaching provide different events.
 
 If the learner needs a coordination method not supplied by the demonstration, raising the number of views need not increase the target performance. HCD and the relevant movement methods supply the acquisition work. The transmission model records its effect on the chosen transition, rather than treating a missing capability as unwillingness or resistance.
 
@@ -636,7 +636,7 @@ C.32.MWA helps keep the structures separate: the vertical of methods enacted in 
 
 Choose among individual states, a few relevant classes, a distribution over state or age since adoption, and a justified common state. Use the least detail that preserves the comparison.
 
-When event contribution is q(x), the relevant population quantity is the appropriately weighted average of q(x), not automatically q of the average x. Weights come from the modeled events: an individual making many demonstrations can contribute more exposure than an individual making none. Population shares alone need not be the weights.
+Choose the population result from the question. For a mean event contribution q(x), average the contributions over the relevant events with their appropriate weights. A total requires their sum. For a practice that two groups must carry out together, establish whether their conditions hold together. Separate averages can describe the groups while leaving their ability to act together open. Weights come from the modeled events: an individual making many demonstrations can contribute more exposure than an individual making none. Population shares alone need not be the weights.
 
 A time-since-adoption description is useful when newcomers and experienced users produce materially different events. An average state is more defensible when the effect is approximately linear over the relevant range or when variation is small enough for the decision. Test that approximation, rather than choosing a fixed number of classes.
 
@@ -776,7 +776,7 @@ A threshold without its governing event law, surrounding state and admissible in
 
 ### DTM.4:4 - Solution
 
-**Specify the surrounding regime, test growth from rarity, find maintained regimes, then examine reachable change and return.**
+**State which continuation of the practice the recipient needs to assess, over what interval and under which conditions. Use the reasoning that distinguishes the live possibilities for that question.**
 
 #### DTM.4:4.1 - Preserve the law and the surrounding conditions
 
@@ -814,7 +814,7 @@ For an intended return, identify the route and means needed to realize it. Lower
 
 #### DTM.4:4.5 - Express the result as conditional continuations
 
-Give the conditions and their consequences together:
+Give the conditions and consequences that establish the requested result. Depending on the commission these can include
 
 - the surrounding regime in which a rare variant grows or declines;
 - the maintained regimes relevant to the question;
@@ -873,12 +873,12 @@ An attractive tipping-point narrative can encourage modelers to choose reinforce
 
 ### DTM.4:7 - Conformance Checklist
 
-- The practical question distinguishes establishment, persistence and return.
+- Which question about establishment, persistence or return is being asked, under which conditions and over what interval?
 - The resident state, feasible region and event law are identifiable.
 - A rare-variant result is conditional on a specified surrounding regime and a nonzero introduction.
 - Maintained regimes are distinguished from a trajectory's transient values; finite-introduction effects are examined where relevant.
-- The proposed action changes an initial condition, law, resource or variant set explicitly.
-- The result after action removal and any unavailable return contribution remain visible.
+- Where a change is proposed, the account identifies how it changes an initial condition, law, resource or variant set explicitly.
+- Where the commission extends beyond removal of an action, what can continue and what contribution would a return require?
 - A comparison threshold is not presented as proof of uptake, stability or authority.
 
 ### DTM.4:8 - Common Anti-Patterns and How to Avoid Them
@@ -1061,7 +1061,7 @@ The phrase “higher-level success” also invites a value judgement. Name what 
 - The earlier and receiving populations, interval and counted unit are identified.
 - Group contribution is not confused with reproduction of the group itself.
 - Source weights and changes along contributions can be reconstructed or their uncertainty is stated.
-- The receiving population is covered without omission or double counting; external contributions enter the mean, or the result is explicitly bounded to the covered part.
+- Does the conclusion cover the receiving population and count each contribution on the agreed basis? If part is unobserved, can a bound for the whole already settle the question? Otherwise give the supported result for the covered part and identify what remains open.
 - The decomposition uses consistent units and does not serve as its own causal explanation.
 - Reconstruction and differential exposure remain alternatives where they could change the answer.
 - The practical conclusion retains conflicts among affected participants instead of assigning automatic priority to a level.
@@ -1516,7 +1516,7 @@ When a numerical model is warranted, vary the corresponding parameters or operat
 
 #### DTM.8:4.4 - Check implementation across the method vertical
 
-Recover the component operations, resources and capabilities needed while the protective action is performed, and the larger work it is meant to sustain. C.32.MWA supplies this simultaneous method-vertical question.
+Start from the work to be protected and follow how the proposed action would preserve the result. Identify which operations are part of this order, what can be obtained from earlier work, and which other obligations need the same people or means. Use C.32.MWA where several contributions must operate together.
 
 For example, “exclude an unreliable procedure” requires an available way to distinguish it under relevant conditions, authority to change admission, and an alternative means to continue needed work. A hypothetical perfect distinction is a model assumption, not an implemented capability.
 
@@ -1528,7 +1528,7 @@ Pass the distinct outcomes, costs, uncertainties and feasibility conditions to t
 
 Check combinations for shared resource use and inconsistent assumptions. A result-checking operation can both stop faulty work and consume capacity needed for valid work. A repair activity can fail to catch up if new impairment continues faster than it restores function.
 
-The first sufficient result may be a justified exclusion: “reducing new encounters alone cannot meet this deadline because the affected work is already installed.” A complete population model is unnecessary when that conclusion follows from the established causal account.
+For example, an organizer must ensure that no valid booking can require the discontinued workshop to hold a session after a given date. Ending new invitations suffices if all existing bookings end by then and no outstanding invitation or other booking route permits a later session. An outstanding invitation that entitles its holder to a session after the cutoff defeats this guarantee, even if no one takes it up. If the invitation’s terms are unknown, establish whether they still confer that right. Establish which commitments and routes remain effective before deciding what else to change.
 
 ### DTM.8:5 - Archetypal Grounding
 
@@ -1660,7 +1660,7 @@ If recognition is uncertain, retain its consequential errors. An action that per
 
 Represent formation, decay, persistence and capacity limits at the resolution needed by the question. A response may depend on current activity, past experience or prediction. Use a state or history sufficient to represent that dependence.
 
-An algebraic response a=F(x,u) assumes that its adjustment is sufficiently fast for the receiving result, where x describes relevant activity and u the proposed change. A simple dynamic alternative is:
+An algebraic rule a=F(x,u) can describe an entitlement that takes effect as soon as its conditions hold. Here x describes relevant activity and u the proposed change. If the same expression approximates how people actually respond, establish whether delay or earlier experience would change the answer. One possible model of a delayed adjustment is
 
 ~~~text
 τa' = F(x,u) − a, with τ > 0.
@@ -1684,7 +1684,7 @@ Name each material consequence and its recipient. Direct effort, delayed useful 
 
 If a local consequence accumulates and can be repaired, represent both its source and restoration. DTM.8 distinguishes changing the source from repairing its result. State which other participants' consequences remain outside that local measure.
 
-At the method vertical, verify that sensing, decision, action and restoration can operate together while supporting the containing work. A proposed response that consumes the only capacity needed for that work may be infeasible even if its isolated mechanism succeeds.
+For a response that must operate during the work, determine which contributions it needs and when the result of each will be available. Where observation, decision, action or restoration have to operate together, check their compatibility with the work they support. A proposed response that consumes the only capacity needed for that work may be infeasible even if its isolated mechanism succeeds.
 
 #### DTM.9:4.5 - Compare regimes, transients and changed variants
 

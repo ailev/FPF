@@ -1007,7 +1007,7 @@ Four project subjects recur:
 | Medium or support system | An instrument, software, venue, platform, school, archive, event series, provider or another source of support. | Assess what it would enable in the proposed use. For a claim about actual provision, use or performance, examine the evidence for that claim and its assurance conditions. |
 
 Several subjects can belong to the same project. Give each the result and success
-conditions it needs, and link their briefs where one undertaking supplies another.
+conditions it needs. Link their briefs where one supplies another or where a shared condition affects what can be delivered.
 
 ### MDPE.1:2 - Solution
 
@@ -1016,7 +1016,9 @@ Frame or assess the brief around the subject, result and use the project brief m
 #### MDPE.1:2.1 - Select the subject and scale
 
 Start with the question from MDPE.8 or a clear project question from another source. Identify the
-primary subject of this brief. When it depends on other subjects, explain how their results contribute.
+primary subject of this brief. Identify any other undertaking whose result or use of shared resources can change the answer for this brief.
+
+At the scale the brief concerns, ask whether the outcome depends on how parts are organized or used together. Follow those relations as far as they can change what the recipient must explain, design or do. A brief confined to one event can stop at that event. Two briefs about the same performance might concern a player’s entrance or how the ensemble keeps its shared entrance while the player varies a phrase. Hold the player’s part fixed and vary the other parts. If the answer changes, include the relation that accounts for the change. At the chosen scale decide what the model must distinguish. The sounding order can suffice to describe the entrance. To design how the players find it, the model may also have to show which cue each can perceive in time. Follow a contribution from another practice as far as the commission needs it.
 
 A festival project may change the system that produces one event while investigating whether its curation
 and teaching support development of a style. Results from that event concern the specified
@@ -1099,10 +1101,10 @@ work, participant response, feasibility, authority, safety, recognition, cost or
 For example, a project brief can give the following information where the project needs it.
 
 > - **Project question or commitment:** [what the brief must settle].
-> - **Primary subject and scale:** [artifact or occurrence / performance practice / style-development line /
->   medium or support System].
+> - **Subject:** [what the project concerns, such as a performance, a repeatable practice, a style or a medium].
+> - **Scale and model:** [which whole or part the result concerns, which relations to other parts matter and which differences the account must preserve for this use].
 > - **Intended Work and use:** [who does what, using which domain Method, and for whom].
-> - **Linked subjects:** [only those whose result is used, with the relation stated].
+> - **Linked subjects:** [what each undertaking must deliver and what connects them, including a shared condition that affects otherwise separate undertakings].
 > - **Existing and proposed:** [what is already available and what the project could bring about].
 > - **Preserve / vary:** [domain distinctions and allowed variation].
 > - **Conflict or unresolved choice:** [any material trade-off or incompatible commitments, who or what is affected and what information or authority could resolve the choice].
@@ -1123,8 +1125,8 @@ In this constructed example, a local school is deciding whether to commit six we
 social event to a changed partnered practice. Its brief is:
 
 > - **Project decision:** fund and run one bounded class-and-social trial, or keep the present course unchanged.
-> - **Primary subject and scale:** one repeatable partnered-performance practice at this
->   local school. The proposed trial concerns that practice with the named participants.
+> - **Subject:** the repeatable partnered-performance practice at this school.
+> - **Scale and model:** the trial concerns how two partners coordinate within a shared dance. The account must distinguish each partner’s contribution and how they respond when the other changes the movement.
 > - **Intended Work and use:** teachers use embodied and partnered exercises; dancers then improvise with
 >   unfamiliar partners to varied music at the local social event.
 > - **Linked subjects:** the teaching method and the event arrangement
@@ -1189,8 +1191,8 @@ MDPE.1 if an unresolved question about the work, a repeatable practice or a new 
 
 | Check | Failure it prevents | Repair |
 | --- | --- | --- |
-| Primary subject | A project funds a different subject or scale from the one it needs. | Identify which artifact or occurrence, practice, style-development line, medium or support system the brief must address. |
-| Linked subjects retain their identities | One subject’s result is used to approve a different subject. | State each result and the relation by which another part of the project uses it. |
+| Subject, scale and model | A project names the right subject but funds work on a different whole or leaves out a consequential relation. | Can the recipient identify what can change, which parts or related practices the conclusion depends on, and what the model has to distinguish to settle the commission? A question about one passage can end with that passage. |
+| Linked subjects retain their identities | A result for one subject is taken to settle another undertaking, or a shared condition is overlooked. | State each intended result and establish how a contribution or a shared condition affects the work. |
 | Proposal and realization | The brief is cited as evidence that its proposal has been implemented. | State what it specifies and use the appropriate evidence for any claimed delivery or use. |
 | Preservation and variation are explicit | The project either freezes a practice or erases its distinction. | State what must survive and what may change for the receiving use. |
 | Material conflict | Incompatible commitments appear as one agreed objective. | Identify the incompatibility or trade-off and its effects. If resolution is required, use the available evidence and authority or identify what is missing. |
@@ -2135,7 +2137,7 @@ Use a direct field method when it supplies the needed result. Prefer the less bu
 
 ### MDPE.29:1 - Problem frame
 
-**Use this when** a physical relation or scientific image suggests movement and you need a phrase, variations or a whole composition. A score, demonstration or other recoverable arrangement can specify how the phrases and transitions work and what a viewer can see.
+**Use this when** a physical relation or scientific image suggests movement and you need a phrase, variations or a whole composition. A score, demonstration or other recoverable arrangement can specify how the phrases and transitions work and what a partner, performer or viewer needs to perceive for this work.
 
 This technique, developed in Western concert, contemporary and postmodern choreography, generates movement material, varies its energy, time and space, then composes it. Use an existing phrase or another compositional method when it already serves the work.
 
@@ -2162,7 +2164,7 @@ Recover the relation the source contributes. Use an adequate existing phrase or 
 
 Decide how the source bears on the work. A mechanical relation can rule out a realization under specified conditions. A scientific image can instead suggest a choreographic operation, such as contracting a path in one direction.
 
-Choose a short movement phrase whose start, changes, intervening movement and ending can be recovered. Identify a relation worth retaining, such as an arrival, a partner response, a continuing path or a visible contrast. To create a variant, change a feature that matters to the work. Compare complete variants, including their endings and any transition the next action needs.
+Choose a short movement phrase whose start, changes, intervening movement and ending can be recovered. Identify a relation worth retaining, such as an arrival, a partner response, a continuing path or a visible contrast. To create a variant, change a feature that matters to the work. When alternatives are due, compare complete variants, including their endings and any transition the next action needs.
 
 Use MDPE.9 to compare variants when that comparison is needed. For a recommendation or selection, identify which to retain, revise, develop separately or reject and why. Use MDPE.11 when the distinction between prepared material and live interpretation matters. A beginning can establish the chosen relation, a development can transform it and an ending may resolve or suspend it. Bring in movement technique or learning for a specific missing contribution.
 
@@ -2172,9 +2174,9 @@ Recover the seed well enough to vary it. A path, timing distribution, support, p
 
 For a mechanical inquiry, derive the effect of the changed quantity under the model. In unpowered free flight under constant gravity, with equal takeoff and landing heights and negligible air resistance, a longer flight requires a greater vertical launch speed and rise. For an artistic use, define the operation you take from the image, such as compressing one spatial dimension while retaining arrival times. Assess that choice for the composition.
 
-Compare whole phrases. A different duration can change momentum, emphasis and readiness for the next action. A change of spatial scale can alter visibility or effort. Retain the relation needed for comparison, or identify the new artistic aim that warrants changing it.
+For a comparison of phrases, consider each phrase through its ending. For a single phrase, follow the movement through the result requested of it. A different duration can change momentum, emphasis and readiness for the next action. A change of spatial scale can alter visibility or effort. Retain the relation needed for comparison, or identify the new artistic aim that warrants changing it.
 
-Recurrence can make a phrase recognizable, contrast can redirect attention and a changed return can make a transformation perceptible. Identify the viewer’s position, choosing it when the staging allows, and determine what is visible from it. Use audience evidence if the question concerns how particular viewers experienced the piece. Join the end of each phrase to the required beginning of the next, accounting for timing, position, support and attention. If the available means rule out a join, compare changes to the join, the phrases, their order or the means.
+Recurrence can make a phrase recognizable, contrast can redirect attention and a changed return can make a transformation perceptible. Determine which participant must be able to perceive which change. A partner may need to feel a transfer through contact. For a visual result, establish the viewer’s position, choosing it when staging permits, and what can be seen from it. Use audience evidence if the question concerns how particular viewers experienced the piece. Join the end of each phrase to the required beginning of the next, accounting for timing, position, support and attention. If the available means rule out a join, compare changes to the join, the phrases, their order or the means.
 
 A usable result can be the selected phrases, their transformations and the complete composition. A score or animation can settle the specified relations. For a question about feasibility, use the relevant mechanical conditions, capability evidence or an appropriate realization. For an observed artistic effect, identify the performance and what supports that effect. An available performer or another realization may already serve the work. Develop a capability when the chosen realization needs it and that development is part of the task.
 
@@ -3245,7 +3247,7 @@ Work backward from the required movement and forward from the starting condition
 
 Identify the relation the passage requires. For example, two dancers must continue a small shared trajectory, detect when a transfer permits the next direction and make their travel more compact for a quieter phrase. Mark what must remain, including a required offbeat. The pair may omit a flourish when it is optional.
 
-Locate the musical event or relation in the material for this passage, such as a pulse, phrase boundary, entrance of a voice or change in accent or texture. Establish what movement should respond to it. If the relation needs clarification, use the recording, score or other evidence for the event and for the movement intended to answer it. Work with the given music or, when the purpose permits, select or prepare material that makes the relation available. MDPE.30 develops rhythmic construction.
+Determine what the next movement depends on. In a silent duet it can be a change of support a partner perceives through contact. When the movement is to respond to music, locate the relevant event or relation in the passage, such as a pulse, phrase boundary, entrance of a voice or change in accent or texture. Establish what movement should respond to it. If the relation needs clarification, use the recording, score or other evidence for the event and for the movement intended to answer it. Work with the given music or, when the purpose permits, select or prepare material that makes the relation available. MDPE.30 develops rhythmic construction.
 
 For a proposed performance, use the pair’s established joint capabilities or specify the capabilities and conditions the design assumes. Before a live attempt, the participants need an agreed attainable range of movement and a recognizable request to continue, change or pause. They may use sight, touch or speech. Account for the available space. Neighbouring dancers may require a smaller extent or a different direction than an empty studio permits. To describe a past passage, use evidence of its conditions and of any agreement the claim requires.
 
@@ -3286,11 +3288,11 @@ A performer can return attention to a familiar detail to change movement quality
 
 #### MDPE.26:4.5 - Build the transition from the next entry back to the present movement
 
-Identify the entry conditions of the next organization, including support, free body parts, direction, ongoing movement, an accessible cue and musical time. Compare these with the actual or specified exit from the preceding passage. Check the connection for both participants. The same foot label may have different functions for the two partners.
+Identify the entry conditions of the next organization, including support, free body parts, direction, ongoing movement, an accessible cue and any timing relation the piece requires. Compare these with the actual or specified exit from the preceding passage. Check the connection for both participants. The same foot label may have different functions for the two partners.
 
-When the exit supplies what the entry needs, establish how both partners know when to change. They may enter on the same agreed musical event. Where the entry depends on one partner’s choice, make that choice perceptible before the other must act. If the exit leaves a required condition missing, construct a connecting action that provides the needed support, facing, free part or preparation time. Place it in the musical phrase. For an actual performance claim, examine evidence of the pair using that connection.
+When the exit supplies what the entry needs, establish how both partners know when to change. They may enter on the same agreed musical event. Where the entry depends on one partner’s choice, make that choice perceptible before the other must act. If the exit leaves a required condition missing, construct a connecting action that provides the needed support, facing, free part or preparation time. Place it in time for the next action and within the musical phrase when the work specifies that relation. For an actual performance claim, examine evidence of the pair using that connection.
 
-Examine the whole interval across the change. Could the partner detect the preparation in time? Did the partner use it? Did both arrive with usable support and retain the musical relation? Was continuation available? If the question concerns what followed, did they continue? For a claim about their choice, what evidence supports it? Assess felt clarity, movement and musical timing from the evidence for each.
+Examine the whole interval across the change. Could the partner detect the preparation in time? Did the partner use it? Did both arrive with usable support? Where a relation to the music was required, did their movement preserve it? Was continuation available? If the question concerns what followed, did they continue? For a claim about their choice, what evidence supports it? Assess felt clarity, movement and musical timing from the evidence for each.
 
 During performance, use a prepared continuation or recovery suited to the partner’s response. If the partner is unready, continue a viable movement or pause. An optional change can wait. If the exact change at that boundary is required, report the missed transition and what the fallback preserved. Earlier preparation, different means or a revised arrangement may support a later attempt.
 
@@ -4139,7 +4141,7 @@ for MDPE.12 when the question concerns observation or evaluation. Touring, organ
 #### MDPE.5:4.3 - A social-dance integration trial
 
 In this constructed example, a weekly West Coast Swing organizer must decide whether to open the next party at the planned floor density after moving to a smaller
-room. In this case the usable floor is eight by ten metres. The intended Music-or-Dance Work is one representative three-minute pair dance inside the party. The
+room. In this case the usable floor is eight by ten metres. The decision concerns timing and usable space for pairs across the floor. A three-minute dance lets the organizer observe the interaction within a pair. Conditions at the other occupied positions also matter to opening the party. The
 partners must be able to hear the timing, maintain partner-readable response and their slots, adapt movement to
 nearby pairs, decline any figure, and leave safely.
 
@@ -4156,9 +4158,9 @@ several dancers shorten movement enough to break the intended elastic response. 
 planned configuration and realizes a specific alternative. A two-metre-wide passage along the ten-metre side
 leaves a six-by-ten-metre dance area. Six pairs use two rows of three slots oriented along its long dimension;
 the other four pairs wait off the floor. The speakers are re-aimed toward the far side while the planned track
-and event volume remain. In the second three-minute trial, the representative pair completes the track with
+and event volume remain. In the second three-minute trial, a pair at the far side and the pairs in the other occupied positions report hearing the pulse throughout. The organizer sees the pair being followed complete the track with
 readable timing and elastic partner response, and observers report no slot crossings between pairs or into the passage.
-The successful three-minute result applies to the combined sound arrangement, placement and six-pair density. To isolate the
+Hearing the pulse was checked at each occupied position, interactions with the slots across the floor, and the movement response within the observed pair. The organizer also confirmed that all partners may decline a figure and that occupied slots leave each pair a usable exit. Under those conditions the organizer can open a six-pair trial, check the other pairs’ response during the event and adjust the arrangement if needed. To isolate the
 effect of changing speaker direction or pair density, a comparison that distinguishes their contributions would be needed.
 
 The pair performed the dance under the second arrangement. The first trial coordinated ten pairs, the
@@ -4167,7 +4169,7 @@ floor sketch and video can document different features of the event.
 The result covers the conditions observed. Claims about artistic value, recognition
 across the scene, long-term safety or cultural continuation call for evidence about those outcomes.
 
-For the next party the organizer retains the tested six-pair limit, passage, slot orientation,
+For that trial at the next party the organizer retains the tested six-pair limit, passage, slot orientation,
 speaker direction and volume. Fewer people dance at once, so waiting pairs need access
 between tracks. Reconsider the choice if the room, music, sound, attendance arrangement or
 incident reports change the grounds for expecting the timing and safe slot use to hold.
@@ -5715,7 +5717,7 @@ Use the evidence for the part of transmission that the question concerns. The fo
 1. **source available** — the intended receiver can access the source content in a usable form; identify mere receipt of the carrier separately when that is all the evidence shows;
 2. **source used** — provider or receiving Work actually relies on named content;
 3. **receiving enactment** — the receiver performs representative work by a way of working established as a Method under the stated conditions;
-4. **transfer** — enactment occurs under the changed condition required by the use;
+4. **transfer** — the performer carries an identifiable aspect of earlier work into the changed condition the task requires, with the relevant help and limits accounted for;
 5. **retention** — the receiver can perform the previously demonstrated method after a stated delay, under the reported practice and support conditions;
 6. **source contribution** — a suitable comparison supports the causal claim about named content or provider Work; and
 7. **population continuation** — the practice persists in the relevant population, a question addressed by `MDPE.19` and `C.36`.
@@ -5849,7 +5851,7 @@ Match the conclusion to its grounds. Attendance or a delivery receipt can show p
 | Failure | Repair |
 | --- | --- |
 | “The lesson was delivered, so the Method was transmitted.” | Establish from available evidence what the teacher provided and what the receiver did. If transmission from that lesson is the claim, examine what supports its contribution to the receiving performance. |
-| “The learner copied the example, so transfer succeeded.” | Examine work under the changed partner, material, cue, tempo, instrument, task or context required by the use. If further evidence is warranted, use a feasible test or identify the limit on the transfer claim. |
+| “The learner copied the example, so transfer succeeded.” | For a transfer claim, establish what the performer could already do and follow the relevant part of that work under the changed partner, material, cue, tempo, instrument, task or context required by the use. If further evidence is warranted, use a feasible test or identify the limit on the transfer claim. |
 | “The receiver needed support, so transmission failed.” | Establish which support the intended use permits and which support the receiver used. Keep the help permitted in the intended use. If a comparison with less help is needed to assess independence or the contribution of the help, qualify that comparison separately. |
 | “The receiving version differs, so it is wrong.” | Compare the performances under the applicable rule. If the original way permits both, describe the difference in performance and any relevant change in setting or material. Identify a variant when the repeatable way differs, with what is known about its origin and use. |
 | “The result appeared after teaching, so teaching caused it.” | Report what is known about source use and receiving performance. A source-specific comparison can establish more when cause is the question. |
@@ -9559,7 +9561,7 @@ Choose the detail that can distinguish the alternatives that matter for the task
 
 Give a musician a fresh brief before supplying a score or timing diagram. For example, dancers at a live event want to be free to extend a pause and still hear the ensemble rejoin them on their return. Give the musician the agreed purpose, people, equipment and rehearsal time available. Let the musician decide whose actions belong in the arrangement, what they must be able to perceive before acting, and which differences the timing account must retain. Ask for a playable arrangement and the grounds that it serves the dancers and the musicians together. A reasoned finding that the current conditions rule it out can also answer the brief.
 
-After the musician’s first solution, change a relevant condition, such as what the players can see from their positions. Establish what still works and what must change. If the original commission asks only for tonight’s arrangement, a sufficient solution for tonight can finish it. The change of conditions becomes relevant when the commission includes adapting the arrangement.
+A sufficient solution for tonight can finish a commission confined to tonight’s arrangement. When independent adaptation is also required, change a condition that could matter to the next performance, such as what the players can see from their positions. Let the musician establish which relationships still hold and retain or revise the arrangement on those grounds.
 
 In a constructed case, two performances have response delays of 0.25 and 0.75 beats after a partner’s cue. Both satisfy “within one beat”. If the task requires a response within 0.5 beats, the first meets the requirement and the second misses it. The threshold belongs to this task.
 
@@ -9580,9 +9582,9 @@ For the teaching question, identify the relations and operations the learner nee
 | Identify when the partner’s cue calls for a response | The learner distinguishes the cue from a coincidental movement in the examples. | The learner identifies the cue or responds in a way that distinguishes it from coincidental movement during the interaction, with the support allowed. | If discrimination is the obstacle, improve the contrast or observation conditions before adding sequence difficulty. |
 | Choose a continuation or a pause | The learner explains the branch in a changed example. | With the actual partner the learner selects an appropriate continuation or pause. | If the choice is difficult, practise it at an attainable pace and establish what help the learner used. |
 | Coordinate the response in time | The learner shows or explains the required timing relation. | The learner supplies the response within the local time criterion, with the permitted help. | If the problem concerns execution, develop coordination or change the support. Check understanding separately if it is in doubt. |
-| Adapt after an unfamiliar response | The learner explains why the original continuation no longer fits. | With a different partner or in changed conditions, the learner produces a usable recovery. | Practise the adaptation if needed and return to the whole interaction. |
+| Adapt after an unfamiliar response | The learner explains whether the original continuation still serves the interaction and why. | With a different partner or in changed conditions, the learner retains or revises the continuation on grounds the receiving use supports. | Practise the adaptation if needed and return to the whole interaction. |
 
-Use the rows that distinguish what the learner explained, what they performed and what remains open for the use at issue. When the learner has to design the interaction, first give them the brief in §5.3.4. A table that specifies the cue, branch and timing in advance can support practice in using those choices. For design, examine which choices the learner made, with the aids available in the intended work. A single unsuccessful attempt may leave several explanations possible.
+Use the rows that distinguish what the learner explained, what they performed and what remains open for the use at issue. When the learner has to design an interaction, give them the commission and the information ordinarily available, before showing an arrangement. Establish which decisions belong to the commissioner and which the learner is to make. Section 5.3.4 shows one such music-and-dance commission. A table that specifies the cue, branch and timing in advance can support practice in using those choices. For design, examine which choices the learner made, with the aids available in the intended work. A single unsuccessful attempt may leave several explanations possible.
 
 #### MDPE.Application:5.3.6 - A worked acquisition contrast
 
