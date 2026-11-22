@@ -14,17 +14,17 @@ Obtaining a result, acquiring the capability to produce it, and improving how yo
 
 Open **[Develop a way, its holder and its provision together (C.40.JD)](https://fpf.tools/C.40.JD)** when you need to connect a working method, the capability to perform it, and the resources and authority for its use. Read it yourself, or give your assistant the text and a situation such as this:
 
-> Read [Using FPF Library](https://github.com/ailev/FPF/blob/main/USING-FPF.md) and [C.40.JD](https://fpf.tools/C.40.JD). Our team cannot yet fulfil this order. A contractor can deliver a result that passes acceptance now, but next month our team must fulfil a changed order using its own staff and tools. Help compare ways to meet both needs. Identify the work to arrange now, what to check on delivery, and what the team must demonstrate on the changed order. State which missing facts could change the recommendation.
+> Read [Using FPF Library](https://github.com/ailev/FPF/blob/main/USING-FPF.md) and [C.40.JD](https://fpf.tools/C.40.JD). Our team cannot yet fulfil this order. A contractor can deliver a result that passes acceptance now, but next month our team must fulfil a changed order using its own staff and tools. Help compare ways to meet both needs. Identify the work to arrange now, what to check on delivery, and what evidence would justify entrusting the changed order to our team. State which missing facts could change the recommendation.
 
 If your assistant cannot open a link, give it the linked text. For ongoing use, [connect MCP or keep local copies](#read-online-or-use-your-own-copies).
 
-A useful answer separates acceptance of the contractor's delivery from evidence that the team can perform the needed operations. It identifies what prevents the team from doing them and proposes changes that address the cause. Missing skills may call for practice and feedback; unavailable equipment may call for acquisition or shared access. It relates those changes to the available time and proposes a test on the changed order. It also exposes unknowns such as how much the order will change. Use the answer to choose and organize the work; assess the team's capability through its subsequent performance.
+A useful answer tells you what to accept from the contractor and what would justify giving the next order to your team. The team's earlier work may already show that it can perform the operations the changed order requires, with the staff and tools it will have. Where the change puts a necessary capability in doubt, identify the cause and arrange what the team needs before the deadline. That might mean practice with feedback, access to equipment or a trial of the unfamiliar operation. The changed order itself is still due next month. Its acceptance depends on what the team delivers then.
 
 Change the aim and the decision can change: if only this delivery is needed and a qualified contractor can supply it, buying the result may suffice. If the team must keep adapting to unfamiliar orders, also examine how it will discover missing methods, develop or obtain them, and organize the next acquisition. **[C.40.OD](https://fpf.tools/C.40.OD)** develops that continuing undertaking.
 
 ## Start with your work
 
-You do not need to read the Library from beginning to end. Bring a situation, the result you need and what currently prevents you from obtaining it. Choose an entry below, or search the publications for the difficulty in ordinary and technical language.
+Bring a situation and a decision, result or opportunity worth exploring. You can also bring an ordinary piece of work and ask what merits attention. Choose an entry below or search the publications in the words you use at work.
 
 | What you are trying to do | Where to begin |
 | --- | --- |
@@ -69,7 +69,7 @@ To judge the effect on the same tasks, compare results under conditions that mat
 
 ## What is available
 
-**FPF Core** contains 408 patterns in 19.063 million characters. It supplies transdisciplinary concepts and methods, including methodological work, architecture construction and comparison, and open-ended development. **36 Domain Principle Frameworks (DPFs)** supply subject-specific methods: 26 belong to four Suites, and ten have their own files directly in the DPF catalogue.
+**FPF Core** contains 408 patterns in 19.129 million characters. It supplies transdisciplinary concepts and methods, including methodological work, architecture construction and comparison, and open-ended development. **36 Domain Principle Frameworks (DPFs)** supply subject-specific methods: 26 belong to four Suites, and ten have their own files directly in the DPF catalogue.
 
 A DPF describes one field through a connected pattern language. A **Suite** describes a composite discipline through its constituent fields and their relations. An **Architectural Reference** explains how the relevant language is arranged and why: within a framework, across a Suite, or across the Library.
 
