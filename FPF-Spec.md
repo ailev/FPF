@@ -276,28 +276,28 @@ Use Part and cluster headings to locate content. E.4 explains how Kernel, broade
 | B.3.5 | **Assurance Grounding for Working-Model Relation Claims (CT2R-LOG)** | Stable | Find the relation on which the receiving claim depends. Belonging to a collection and being a constituent of a whole have different grounds, even when the participants are the same. Use the applicable relation rule. When an assurance profile calls for a support account, connect the selected relation to its construction trace or other admitted evidence. | **Builds on:** B.3, E.14, C.13. |
 | B.4 | **Coordinate Repeated Adaptation (Canonical Evolution Loop)** | Stable | Work from what must continue or change to the observation, decision and means of acting that the responsible participants need. In a design, show how the result of using a method or arrangement could inform the next decision. To establish what actually adapted, trace what the participants used and what they retained or changed. Use the subject's identity rule to distinguish a continuation from a successor. | **Builds on:** A.4, A.12. **Refined by:** B.4.1. **Carries embedded slices for:** knowledge instantiation and method instantiation. |
 | B.4.1 | **Publish Candidate Routes for a Stabilized Cue (RoutedCueSet)** | Stable | When others need an account of possible continuations, publish a cue with the choices it makes relevant, the grounds for them and what each recipient can decide. Identify information that could distinguish the routes in time. When the commission concerns a local decision that is already settled, the grounded answer can finish it. | **Builds on:** A.16, A.16.1, C.2.2a. **Coordinates with:** B.5.2.0, C.16.Q, A.6.A, C.22.1. |
-| B.5 | **Choose the Next Reasoning Contribution (Canonical Reasoning Cycle)** | Stable | Use when an engineer or researcher has a question, surprising result or promising construction, but the next useful contribution is unclear. State what you want to understand or make possible; reuse an adequate result or choose the missing reasoning contribution. | **Coordinates with:** B.5.1 for development states, B.5.2 for explanation-led abduction, B.5.4 for situational recognition, B.5.EA for an experiential distinction not yet expressible, C.29 for mathematical-lens use, and A.10 for evidence reliance. |
+| B.5 | **Choose the Next Reasoning Contribution (Canonical Reasoning Cycle)** | Stable | Use the recipient’s question to choose the reasoning contribution. Obtain the needed construction, explanation or argument from the subject’s premises and methods. A working question can contribute to that answer or open a different inquiry when choosing the direction is part of the work. | **Coordinates with:** B.5.1 for development states, B.5.2 for explanation-led abduction, B.5.4 for situational recognition, B.5.EA for an experiential distinction not yet expressible, C.29 for mathematical-lens use, and A.10 for evidence reliance. |
 | B.5.EA | **Articulate a Distinction from Experience** | Stable | Use when a participant recognizes something consequential in their experience but cannot yet express the distinction needed to continue. Return to an accessible episode, develop a correctable expression and use the resulting question or relation. | **Coordinates with:** B.5 and B.5.FM for reasoning and model construction; B.5.4 for situational recognition; B.5.RR for changed premises; C.11.DUA for worthwhile further work. |
 | B.5.WN | **Develop Lines of Thought with Notes** | Stable | Use when retained observations, reading or tentative thoughts do not yet help develop a question or argument. Formulate one thought with its grounds, make a consequential connection, follow what changes and leave a usable return. Keep a sufficient project record for ordinary continuation. *Queries:* "How can these notes develop an argument?", "What question emerges from this connection?", "What should remain for a later occasion?" | **Coordinates with:** B.5.EA, B.5.QD and B.5.RR for articulation, question development and revision; A.6.3.RT.OE for an operative expression; A.15.10 and A.15.11 for resumption and encounters; C.2.8 and C.11.DUA for usable recovery and worthwhile effort. |
 | B.5.MPC | **Connect Physical, Mathematical and Computational Reasoning** | Stable | Use when a physical question remains unanswered because the needed physical, mathematical or computational contributions do not yet connect. Start with an available contribution, recover its conditions, obtain a sufficient consequence and interpret it for the physical use. *Queries:* "Which missing contribution prevents the next move?", "What changes when a quantity, command or physical premise changes?", "How can people and AI agents divide this work?" | **Coordinates with:** B.5, A.3.3, C.16, A.6.3.RT, C.29, C.29.1, C.29.2, C.29.3, C.39 and C.40. |
-| B.5.MPC.R | **Repair a Physical-Mathematical-Computational Connection** | Stable | Use when a changed question or observed discrepancy breaks the joint physical answer. Locate the incompatible relation, interpretation, computation or execution; repair its contribution and carry the result back to the physical use. *Queries:* "Why is a correct calculation unusable here?", "What continues during a controller pause?", "Can these observations distinguish the physical cases?" | **Specializes:** the revision work in B.5 and B.5.MPC. **Uses:** B.5.RR, C.29.1, C.29.2, C.29.3, A.3.3, C.16, A.6.3.RT and A.15.9. |
-| B.5.RC | **Recover a Construction from Its Description** | Stable | Use when a description points to a result you need but leaves you unable to obtain it from available inputs. Recover producing operations and their prerequisites, work a small case forward, and establish the property needed for the next use or locate the missing contribution. *Queries:* "What must be available before this operation?", "How do these parts produce the required object?", "Which gap prevents the construction?" | **Coordinates with:** B.5 and B.5.RA for reasoning, A.6.3.RT for expression, C.29.1 and C.29.2 for mathematical transfer and computational formulation, and C.39 for a missing method. |
+| B.5.MPC.R | **Repair a Physical-Mathematical-Computational Connection** | Stable | Use when a changed question or a discrepancy breaks the connection to a physical answer. Identify which connection bears on the discrepancy. Designing a change that will work and establishing what produced a past reading can require different grounds. *Queries:* "Why is a correct calculation unusable here?", "What continues during a controller pause?", "Can these observations distinguish the physical cases?" | **Specializes:** the revision work in B.5 and B.5.MPC. **Uses:** B.5.RR, C.29.1, C.29.2, C.29.3, A.3.3, C.16, A.6.3.RT and A.15.9. |
+| B.5.RC | **Recover a Construction from Its Description** | Stable | When a description names a needed result, recover the operations and their joint prerequisites. Use an instance or a construction over the required class to establish the property the receiving work needs, or locate what is missing. *Queries:* "What must be available before this operation?", "How do these parts produce the required object?", "Which gap prevents the construction?" | **Coordinates with:** B.5 and B.5.RA for reasoning, A.6.3.RT for expression, C.29.1 and C.29.2 for mathematical transfer and computational formulation, and C.39 for a missing method. |
 | B.5.RA | **Recover an Argument for Use** | Stable | Use when you need to recover or challenge the reasoning behind a result for application, explanation or revision. Reconstruct unclear claims and dependencies; for an already clear defeasible argument, begin with a consequential critical question. Keep supported results and trace changes through affected grounds. *Queries:* "Why does this step follow?", "What does this lemma contribute to the whole argument?", "How can I turn this text into an argument map?", "Which critical question could change this conclusion?", "Does this reasoning support the use I need?" | **Coordinates with:** B.5 and B.5.RC for inquiry and construction; B.5.RR for revision; B.5.MPC for joint reasoning; C.2.8 and C.37 for recipient understanding and representation choice. |
 | B.5.RR | **Revise Reasoning After a Premise or Question Changes** | Stable | Use when a changed premise, question or application condition calls earlier reasoning into question. Follow the affected dependencies, retain sufficient alternatives, derive what now follows and apply the revised result. *Queries:* "Which part needs to be worked again?", "Does another argument still support the conclusion?", "What does the changed result let us do?" | **Coordinates with:** B.5, B.5.RA and B.5.RC for reasoning, B.5.MPC.R for joint physical reasoning, and C.11.DUA for further effort. |
-| B.5.FM | **Construct a Model for the Question** | Stable | Use when relevant facts or rules are available but no model yet supports the needed inference. Choose what the model must distinguish and how its parts are related, then derive a consequence for the task. *Queries:* "Which participants or interactions must the model include?", "How can I build a model before commissioning a calculation?", "What grouping makes the next operation possible?" | **Coordinates with:** B.5, B.5.4, C.29, A.3.3, C.16 and A.6.3.RT for model construction; B.5.RR and B.5.MPC.R for revision. |
+| B.5.FM | **Construct a Model for the Question** | Stable | Use when facts or rules are available but a model for the needed inference is missing. Choose the distinctions and relations the inference needs. Where part–whole structure matters, choose the relevant composition scales for each kind involved. *Queries:* "Which participants or interactions must the model include?", "How can I build a model before commissioning a calculation?", "What grouping makes the next operation possible?" | **Coordinates with:** B.5, B.5.4, C.29, A.3.3, C.16 and A.6.3.RT for model construction; B.5.RR and B.5.MPC.R for revision. |
 | B.5.MR | **Compare Models by Refinement and Abstraction** | Stable | Establish what one model preserves and what its admissible designs or executions determine for the same question. Read L0–L4 as levels of model abstraction and L4–L0 as levels of model refinement. Test a claimed strict difference and recheck any conclusion that depended on a restriction. | B.5.FM, B.5.TC, C.2.1, B.1 and C.37.MM. |
-| B.5.TU | **Construct a Use of an Unfamiliar Theory** | Stable | Use when a theory seems useful but its objects and reasoning have not yet been connected to a usable answer. Recover the needed operations, work one application and interpret its consequence for the question. *Queries:* "What can this theory help me do?", "Which input or operation is missing?", "Why does a correct calculation fail to answer the working question?", "What must I understand to use or change this result?" | **Coordinates with:** B.5, B.5.RC, B.5.RA and B.5.RR for reasoning; C.29 and A.6.3.RT for mathematical correspondence and expression; A.15.9 for bounded help. |
-| B.5.TC | **Compare Theoretical Accounts for a Question** | Stable | Use when accounts appear to disagree or compete for a use. Construct their applications to the same case, locate the consequential difference and choose a sufficient account, complementary use or worthwhile inquiry. *Queries:* "Do these theories answer the same question?", "Does the disagreement come from a premise, a model or its computation?", "When is the simpler account enough?", "What observation or construction would resolve the difference that matters?" | **Coordinates with:** B.5.TU, B.5.RA and B.5.RR for applications and reasoning; C.29.1, C.29.2 and C.29.3 for transfer and computation; C.28 for causal use; F.0.2 for synthesis; C.11.DUA for worthwhile inquiry. |
-| B.5.QD | **Develop a Question from a Result or Construction** | Stable | Use when a counterexample, result or newly available operation changes what could be investigated but the next question is unclear. Recover the changed dependency, construct the answer form and work a revealing case before choosing the inquiry. *Queries:* "What useful question follows from this failure?", "What can we now ask using this construction?", "Can a bound answer the need?", "Which next problem opens further work?" | **Coordinates with:** B.5.RA and B.5.RR for reasoning; B.5.MPC for joint contributions; C.39 and C.40 for methods and coupled development; E.10.INT and C.11.DUA for worthwhile inquiry. |
-| B.5.QD.CF | **Reformulate a Problem by Examining Its Conflicting Assumptions** | Stable | Use when needed outcomes appear incompatible and examining their premises could reveal another way. Recover the need, expose an assumed necessity or shared condition, construct a new question or candidate way, and return to the retained requirements. *Queries:* "Which assumption makes these requirements conflict?", "Is this means necessary?", "What remains impossible under the retained conditions?" | **Specializes:** B.5.QD. **Uses:** B.5.FM, B.5.RA and B.5.TC. **Coordinates with:** C.40.CD, C.11.DUA and B.1.5.EW. |
-| B.5.1 | **Coordinate Development States: Explore → Shape → Evidence → Operate** | Stable | Use when a project needs a shared account of whether a system or episteme is being explored, shaped, evaluated or operated. Name the development subject and the prerequisites for its intended transition; assess a claim's support for its use separately. *Queries:* "What development state is this subject in?", "What must hold before its next transition?", "Can a useful result be used before development reaches Operation?" | **Builds on:** B.5. |
-| B.5.2 | **Generate and Compare Candidate Explanations (Abductive Loop)** | Stable | Use when an anomaly, opportunity or probe question needs candidate explanations. Frame the question, generate candidates, compare explicit plausibility grounds and return a qualified conjecture or an abort, defer or split result. *Queries:* "What might explain this observation?", "Which rival explanations remain plausible?", "Can I retain a useful conjecture when a discriminating check is unavailable?" | **Builds on:** B.5, B.5.2.0, A.10, B.3.3. **Coordinates with:** B.4.1, A.16, A.6.P. |
+| B.5.TU | **Construct a Use of an Unfamiliar Theory** | Stable | When a theory seems useful, recover the operations the receiving question requires. Establish what an application or a general derivation makes possible and under which conditions it carries back. *Queries:* "What can this theory help me do?", "Which input or operation is missing?", "Why does a correct calculation fail to answer the working question?", "What must I understand to use or change this result?" | **Coordinates with:** B.5, B.5.RC, B.5.RA and B.5.RR for reasoning; C.29 and A.6.3.RT for mathematical correspondence and expression; A.15.9 for bounded help. |
+| B.5.TC | **Compare Theoretical Accounts for a Question** | Stable | Relate apparently competing theories to the same question. Establish whether a comparison case, a general argument or complementary results provide the grounds the recipient needs. *Queries:* "Do these theories answer the same question?", "Does the disagreement come from a premise, a model or its computation?", "When is the simpler account enough?", "What observation or construction would resolve the difference that matters?" | **Coordinates with:** B.5.TU, B.5.RA and B.5.RR for applications and reasoning; C.29.1, C.29.2 and C.29.3 for transfer and computation; C.28 for causal use; F.0.2 for synthesis; C.11.DUA for worthwhile inquiry. |
+| B.5.QD | **Develop a Question from a Result or Construction** | Stable | Use when a result changes what could be investigated and the next question is unclear. Recover the changed dependency and what an answer could establish. A case or a general argument can disclose an attainable next inquiry. Identify what its result would contribute to any answer still owed. *Queries:* "What useful question follows from this failure?", "What can we now ask using this construction?", "Can a bound answer the need?", "Which next problem opens further work?" | **Coordinates with:** B.5.RA and B.5.RR for reasoning; B.5.MPC for joint contributions; C.39 and C.40 for methods and coupled development; E.10.INT and C.11.DUA for worthwhile inquiry. |
+| B.5.QD.CF | **Reformulate a Problem by Examining Its Conflicting Assumptions** | Stable | When needed outcomes appear incompatible, identify the requirements that must hold together, recover what produces the conflict and examine an alternative under all retained conditions. An impossibility can settle the original feasibility question. *Queries:* "Which assumption makes these requirements conflict?", "Is this means necessary?", "What remains impossible under the retained conditions?" | **Specializes:** B.5.QD. **Uses:** B.5.FM, B.5.RA and B.5.TC. **Coordinates with:** C.40.CD, C.11.DUA and B.1.5.EW. |
+| B.5.1 | **Coordinate Development States: Explore → Shape → Evidence → Operate** | Stable | Choose the development subject from the decision about a system, an episteme or their contributions. Establish the conditions for its transition, including joint conditions for a service made up of separately developed contributions. Assess support for a claim about that subject according to its use. *Queries:* "What development state is this subject in?", "What must hold before its next transition?", "Can a useful result be used before development reaches Operation?" | **Builds on:** B.5. |
+| B.5.2 | **Generate and Compare Candidate Explanations (Abductive Loop)** | Stable | Recover what the recipient wants explained, such as an occurrence, a recurring pattern, a prospective effect or a conflict between theoretical claims. Assess a supplied hypothesis or construct candidates from dependencies that could produce the finding. Compare their plausibility and return a supported conjecture, a decision to stop or defer, or a useful division of the inquiry. *Queries:* "What might explain this observation?", "Which rival explanations remain plausible?", "Can I retain a useful conjecture when a discriminating check is unavailable?" | **Builds on:** B.5, B.5.2.0, A.10, B.3.3. **Coordinates with:** B.4.1, A.16, A.6.P. |
 | B.5.2.0 | **Question Form for Entering Abduction (`U.AbductivePrompt`)** | Stable | Defines the explanatory-question publication that B.5.2 accepts as input to hypothesis work. Recover the prompt species, explanatory question, scope and provenance; keep the question distinguishable from an asserted answer. *Queries:* "What makes this question an admissible abductive prompt?", "Is this an open question or a disguised answer?", "Which prompt species applies?" | **Builds on:** B.4.1, A.16, C.2.2a. **Coordinates with:** A.6.P, A.6.A, C.16.Q. **Used by:** B.5.2. |
-| B.5.2.1 | **Instrument Abductive Hypothesis Generation with Novelty–Quality–Diversity (NQD)** | Stable | Use when candidate explanations need an explicit novelty, quality and diversity search basis. Declare the coordinate and policy basis, generate within a stated budget, and return the declared front with any required exploration archive. Apply B.5.2's plausibility comparison to the hypotheses. *Queries:* "How do I explore varied explanatory hypotheses under a budget?", "Which coordinates define this front?", "Which off-front hypotheses remain worth retaining?" | **Builds on:** B.5.2, A.17, A.18, C.17, C.18, C.19. **Coordinates with:** B.4, C.11, G.5. |
+| B.5.2.1 | **Instrument Abductive Hypothesis Generation with Novelty–Quality–Diversity (NQD)** | Stable | Choose or recover generation rules and comparison criteria from what the hypotheses must explain. Search within the budget and return the assessed front and any archive the policy or commission requires. Identify the domain those results cover. B.5.2 supplies the plausibility comparison. *Queries:* "How do I explore varied explanatory hypotheses under a budget?", "Which coordinates define this front?", "Which off-front hypotheses remain worth retaining?" | **Builds on:** B.5.2, A.17, A.18, C.17, C.18, C.19. **Coordinates with:** B.4, C.11, G.5. |
 | B.5.3 | **Interpret Domain Vocabulary for an FPF Claim (Domain-Concept Bridge)** | Stable | *Keywords:* domain vocabulary, source-local meaning, F.17 cell, basis relation, direct relation, bounded use and loss. *Queries:* "Which exact source expression and local claim are current?", "Which FPF value or relation does this use require?", "What obtaining relation, direction, loss boundary, and receiving use may be claimed?" | **Builds on:** A.2, A.6.5, C.3, E.24.UK, F.0.1, F.1, F.2, F.3, F.5, F.8, F.17. **Coordinates with:** E.10.ROLE, F.9. |
-| B.5.4 | **Recognize a Concept in a Situation** | Stable | Use when you understand a concept's explanation but cannot yet connect it to an unfamiliar situation. Identify the participants and relations, construct their correspondence, and obtain an interpretation with a consequence that guides the next action. | **Coordinates with:** B.5, C.3, C.29 and A.7.1. |
+| B.5.4 | **Recognize a Concept in a Situation** | Stable | Interpret a situation through a given concept, or select a concept by the relation that could change the answer. Establish the correspondence and use it for the decision the interpretation must support. | **Coordinates with:** B.5, C.3, C.29 and A.7.1. |
 | B.5.PI | **Initiate Inquiry from Work** | Stable | Use an ordinary work occasion to examine what a result enables and what obtaining it required, before a problem or help request is recognized. A suitable mantra can expose unexamined dependencies through its Method and a concrete or possible case. Develop a qualified question, retain an early cue or continue without change. *Queries:* "Why does nobody ask for help?", "Is this recurring adjustment worth examining?", "Why does this answer leave the original concern untouched?" | **Coordinates with:** A.15.11 for method encounters, A.1.STM and B.5.MPC for suitable mantras, B.5.EA for articulation, A.16.1 for cue preservation, B.5.QD and B.5 for inquiry, C.11.DUA and C.11.CRC for worthwhile continuation. |
-| B.5.SD | **Construct an Answer through Substantive Discussion** | Stable | Construct a warranted answer with capable contributors, integrate their subject contributions, route objections to the work they require, and return the answer through its intended and changed use. | **Uses:** A.3.1, B.5.RA, B.5.RR, C.39; Decision Design for an actual decision inquiry. |
+| B.5.SD | **Construct an Answer through Substantive Discussion** | Stable | Construct the answer with the contributors whose knowledge it needs. Connect their grounds for the intended use, address objections that could change the conclusion and return any remaining decision to its holder. | **Uses:** A.3.1, B.5.RA, B.5.RR, C.39; Decision Design for an actual decision inquiry. |
 
 **Part C - Kernel Extension Specifications**
 
@@ -617,7 +617,7 @@ When claim-bearing *role* leaves its object or relation unclear, use `E.10.ROLE`
 
 Bring a working question, or use an ordinary occasion to discover what is worth asking. USING-FPF.md explains how to find an individual method or a connected application. The entries below illustrate the range. Search the Table of Contents or ask an assisting agent to compare plausible candidates. If unfamiliar wording or limited access hides what you need, `F.1:4.4` explains how to locate passages you can inspect and describe any remaining gap. Stop the lookup when a known source suffices.
 
-The ordinary examples start with one pattern and give any conditions for a later use. You can stop at the first useful result without a mantra. The Practical-Use Cards recall connected reasoning explained in the Methods.
+The ordinary examples start with one pattern and give any conditions for a later use. You can stop as soon as a result answers your question. A mantra can help you find a missing contribution. The Practical-Use Cards recall connected reasoning explained in the Methods.
 
 A mantra can also reveal a consequential gap before you notice a difficulty. [B.5.PI](https://fpf.tools/B.5.PI) explains how to select one, apply its connections to a case and obtain a question or justified continuation. You can use this inquiry outside a project. A.1.STM applies it to systemic project reasoning and also traces an already noticed difficulty back to the use that gives it significance.
 
@@ -759,25 +759,25 @@ Compare with continuing as at present. Thinking, obtaining evidence, explaining 
 
 ### Practical-Use Cards
 
-Each card offers an optional route for extended work. Use the keys to find cards. Choose a card by the situation and intended result, then open and combine only the pattern contributions the case needs. Stop at the first useful result or blocker.
+Each card offers an optional route for extended work. Use the keys to find cards. Choose a card by the situation and intended result, then use the contributions that work requires. Finish when the result answers the question. If it supplies one premise or identifies a missing contribution, establish what remains to reach that answer.
 
 #### UNFAMILIAR-THEORY - Make an unfamiliar theory usable
 
 - **Situation:** A theory offers a useful construction or result, but you cannot yet assemble and interpret its application to your question.
 - **Question:** How can you obtain the needed consequence and use it?
-- **First useful result or blocker:** A worked application with an interpreted answer, or the missing operation, premise or correspondence that directs the next contribution.
-- **Mantra:** Recover the question the theory helps answer. Connect its objects and rules to one case. Obtain the construction and reconstruct the decisive argument. Compare the corresponding operations when using another representation. Apply the consequence; use what suffices or identify the remaining question.
+- **First useful result or blocker:** An interpreted result for the situation or class the question concerns, or the missing operation, premise or correspondence that directs the next contribution.
+- **Mantra:** Begin with the question the theory is to answer. Relate its objects and rules to the particular situation or to the class of situations at issue. Use the construction or argument that establishes the needed consequence. If the representation changes, compare the corresponding operations. Carry the consequence back to the question and identify what it settles.
 - **Start with:** `B.5.TU` for application construction. `B.5.RC` and `B.5.RA` supply construction and argument recovery, `A.6.3.RT` an operative expression, and `C.29.1` result transfer. Use `C.39` for a missing way.
 - **Stop or return:** An adequate supplied result can enter where needed. Stop when its interpreted consequence answers the question. If a premise changes, follow its effect instead of repeating unaffected work.
 
 #### PHYSICAL-RESULT - Connect physics, mathematics and computation
 
-- **Situation:** A team has physical, mathematical and programming knowledge, but cannot connect the contributions needed to produce a physical result.
-- **Question:** Which missing contribution prevents the next engineering move?
-- **First useful result or blocker:** An interpreted calculation, proposed realization or located failure in the physical account, computation or execution.
-- **Mantra:** State the physical change sought. Construct the state and continuation needed to reason about it. Formulate the mathematical question and interpret its variables and operations. Obtain a result or computational procedure. Connect input preparation, system actions and output reading. Return to the physical question and repair the failed contribution.
-- **Start with:** `B.5.MPC` to connect available contributions and select the missing one. `C.29` constructs mathematical correspondence; `C.29.1` tests result transfer; `C.29.2` constructs computation; `C.29.3` connects it to an executing system. Subject engineering supplies physical laws and mechanisms.
-- **Stop or return:** Reuse ready contributions. Stop when the result suffices for the present decision. Reopen contributions whose changed conditions invalidate their use.
+- **Situation:** A team needs to connect its physical, mathematical and computational work to answer a physical question.
+- **Question:** Which contribution is needed to answer the physical question?
+- **First useful result or blocker:** A physically interpreted result, a proposed realization, or an identified gap in the physical account, computation or execution.
+- **Mantra:** Start with what you need to explain, predict or change. Choose the physical state and relations the answer depends on. Interpret the argument or computation in those terms. For an actual event, establish what its conditions and evidence warrant.
+- **Start with:** `B.5.MPC` to connect available contributions and select the missing one. `C.29` constructs mathematical correspondence; `C.29.1` tests result transfer; `C.29.2` constructs computation; `C.29.3` connects it to an executing system. Use the relevant physical knowledge for the laws and mechanisms.
+- **Stop or return:** Reuse ready contributions. Finish when the result meets the commission. A model can answer an explanation or design question. If a working implementation or a new run was ordered, complete that work under the agreed conditions. For a question about an earlier run, use sufficient evidence about that run. Reopen contributions whose changed conditions affect their use.
 
 ##### Expansion for PHYSICAL-RESULT
 
@@ -48287,11 +48287,11 @@ Consider the alternatives permitted by the original question. Would the same cue
 
 ### B.5:1 - Problem frame
 
-Use this pattern when an engineer or researcher has a question, surprising result or promising construction, but the next useful contribution is unclear. They may need to formulate a better question, construct something, prove a claim, explain an observation, or test a consequence. Reasoning is the broader activity; this pattern governs the choice and connection of those contributions in an inquiry.
+Use this pattern when you have a question, surprising result or promising construction and need to choose the next reasoning contribution. You may owe someone an answer, be helping them work out what to ask, or be free to set the direction of inquiry. The work can call for a construction, proof, explanation, observation or new question. Choose and connect those contributions by what the inquiry is to obtain.
 
 When work continues without a question because its outcomes are treated as ordinary, B.5.PI provides an earlier entry. An ordinary handover or demonstration can yield a question or an early cue without a recognized anomaly. Use that contribution here when reasoning can take it further.
 
-**First useful move.** State what you want to understand or make possible. Ask whether an available result answers that question. If it does not, name the missing result and try one operation that could obtain it. Return what that operation established and the next question, if one remains. If the needed distinction or possible continuation is unknown, §4.1.2 explains how to develop that basis from accessible material before comparing inquiries.
+**First useful move.** Recover what the recipient needs to understand or make possible and what they have left you to choose. In your own inquiry you may be choosing the question itself. Use an existing answer if it settles the question. Otherwise ask what a proposed next operation would establish even if it succeeded completely. Where it supplies a premise, identify what will connect that premise to the answer. Section 4.1.2 helps when the possible operations or distinctions are themselves unknown.
 
 For example: “We need the highest component temperature, but our model reports a mean. Two states with the same mean can have different maxima. Next, determine which temperature differences this arrangement admits.” This redirects the inquiry before another model fit.
 
@@ -48331,6 +48331,8 @@ If a participant senses that an account misses something but cannot yet express 
 
 An expressible account can omit a consequential relation. B.5.FM:4.2.1 uses a small conceptual scheme to find a question through that relation, while distinguishing an unknown contribution from an inapplicable scheme. Use an adequate answer.
 
+When choosing the extent of the account is part of your task, C.39.SA:4 helps find the wholes, constituents and model distinctions the answer needs. If several existing models supply premises, establish that their results apply together to the subject and conditions of this question (C.37.MM:4.1.1).
+
 When the formulation is inadequate, vary a consequential element. Useful operations include:
 
 - change the quantity or distinction that the answer must preserve;
@@ -48339,7 +48341,9 @@ When the formulation is inadequate, vary a consequential element. Useful operati
 - introduce a new object, relation, operation or representation and ask what it makes expressible;
 - ask what observation or argument would distinguish the remaining possibilities.
 
-Keep a changed formulation when it changes the construction, evidence, explanation, comparison or next action.
+Before adopting the new wording, work out what an answer to it would let the recipient conclude. An equivalent formulation can serve directly if its answer carries back to the original subject, conditions and required grounds. A narrower question can also settle the whole one, for example when an admissible counterexample refutes a universal claim. If the narrower answer supplies one premise, pursue the remaining inference. C.39.QR explains this return.
+
+A useful new question can also have a genuinely different answer. When choosing the research direction is part of your work, weigh what the change makes possible and pursue it on those grounds. When someone has specified the result, use the new question to help obtain it, offer it for their decision, or explain the limit on what you can obtain. An interesting answer in a nearby field or at another composition scale can leave the specified result entirely open.
 
 C.22.2 helps make a problem-side claim and its next use inspectable. C.29 helps when choosing a mathematical lens or its mapping is the live question. Use their supplied actions at those boundaries; an ordinary mathematical problem need not acquire a separate card.
 
@@ -48348,10 +48352,10 @@ When you can follow a concept's explanation but cannot yet interpret the situati
 ##### B.5:4.1.1 - Propose a first model
 
 
-When the situation has no usable model yet, begin with the contrast the answer must resolve. Inspect one case or the actual arrangement. Describe what happens and which proposed change or comparison matters. Separate observations from the explanation you are about to try.
+When the situation has no usable model yet, begin with the difference the answer must resolve. The question can concern one occurrence, a relation across composition scales, or a class of possible arrangements. Start from the part, whole, interaction or general condition that can disclose that difference. For each relevant kind of holon, follow its own part–whole relation. The steps prescribed by a Method and the performances that made up a particular job can concern the same undertaking while having different constituents. Choose what the model must distinguish at the needed scales. Explain how any inference from one scale or kind to another supports the question. C.39.SA develops these choices.
 
 1. **Choose what must remain distinguishable.** Identify participants, states or quantities whose differences could change the answer. Use observed differences and possible interventions to propose a boundary: what can vary separately, what connects those parts, and what surrounding conditions affect them? Keep a distinction when you can explain its consequence for the question.
-2. **Propose how they are connected.** Draw or state a dependency and explain how it could produce the observed behavior. Use the relevant subject account to identify the interaction and what it preserves or changes. If that account is unfamiliar, use §4.3 to recover its concept of use. Mark the assumptions that let you omit other interactions or treat a quantity as fixed. When modeling a physical phenomenon mathematically, use physical knowledge to choose the law that the mathematical account will express.
+2. **Propose how they are connected.** State a relation the answer depends on and use the relevant subject knowledge to explain what follows from it. For an observed change, the relation might describe an interaction that could produce it. For a proposed arrangement, it might govern which combinations are possible. If that account is unfamiliar, use §4.3 to recover its concept of use. Mark the assumptions that let you omit other interactions or treat a quantity as fixed. When modeling a physical phenomenon mathematically, use physical knowledge to choose the law that the mathematical account will express.
 3. **Obtain a cheap consequence.** Follow the proposed relation far enough to answer a useful part of the question. A direction of change, limiting case or rough bound may suffice before parameter fitting or detailed computation. Show which premise makes that consequence follow.
 4. **Challenge a consequential choice.** Ask what observation, omitted interaction or changed condition could defeat the answer. Compare a plausible alternative when the observations leave materially different explanations. Revise the model or obtain the missing observation when that difference matters.
 
@@ -48361,24 +48365,24 @@ Return the provisional model and what follows under its assumptions. If a missin
 
 Sometimes neither the decisive distinction nor a useful set of alternatives is known. Asking which answer would change the work then leaves the practitioner to invent the basis they need.
 
-Begin with something accessible: an episode of work, an artifact, an observation, a source argument, a proposed use or an available capability. The first result can be a better question or a conditional account. It need not be a forecast of the eventual discovery.
+Choose a starting point for what it can reveal about the purpose of the inquiry. A rule for a class, a relation between parts and a whole, or a record of one episode can each disclose something different. In open research, a source, a proposed use or an available capability can suggest a question worth pursuing. A better question or a conditional account can be a useful first result.
 
 The connection is constructive. Material lets the practitioner propose participants and relations; following a relation yields a consequence; a contrast or trial challenges that consequence; the changed account makes further inquiries or actions expressible. Their conditions and significance can then be examined. A new finding can return the work to any earlier contribution. Use an adequate supplied result at its point of entry instead of reproducing the whole connection.
 
-**Begin by examining an accessible case or source.** State the purpose as far as it is understood: what is to be explained, used, made possible or explored? Keep that purpose revisable. Choose a suitable way to examine how the subject works, for example:
+**Examine the material for the distinction you need.** Say what you can learn from it about the subject, its explanation or its use. For example:
 
 - Follow one episode. Observe what arrives, what participants do or change, what result leaves, and how it is used in the work that follows. Ask about the adjustments that made the episode work. B.5.PI develops this examination of ongoing work before a problem is felt.
 - Recover the operation behind an existing answer, design or source example. Find what it takes as given, what it does with that input and what its result establishes. Work a small application through §4.3 or B.5.TU. A hidden assumption may become visible before its practical significance is known.
 - Try a proposed use, or reason forward from an available capability. Identify the interaction by which it could produce an effect. Reason back from that effect to the contributions it would require. The two directions can revise both the intended use and the proposed means; neither needs a complete future plan.
 - Where the subject is unfamiliar, inspect a representative case with a practitioner or seek an explanatory source through F.1. Ask for help identifying what happens and which distinctions the practice uses. A request to help formulate the question is legitimate before a request for a specific answer is possible.
 
-Choose an initial examination because the material and the way of examining it are accessible and relevant to the present purpose. Compare the kind of understanding it could produce and its burden with a smaller examination or use of an adequate existing answer. The finding need not be known before this exploration begins.
+In open exploration, accessible material earns attention through a plausible connection to the subject. A finding can be valuable before its eventual use is known. If the question is already set, identify what the examination could establish for that question. When every possible outcome leaves a needed distinction untouched, seek material that bears on it, or develop the missing connection. Compare the effort with a smaller sufficient inquiry or an adequate existing answer.
 
-Separate what was observed or supplied from the interpretation being proposed. A source description says what its author asserts; observing one episode says what happened there. A theory, calculation or domain Method supplies candidate relations and conditions for inference. None of these alone establishes that the same relation holds throughout a wider proposed use.
+Separate what was observed or supplied from the interpretation being proposed. A source description says what its author asserts; observing one episode says what happened there. A theory, calculation or domain Method can supply the relation and its conditions. Establish which cases those grounds cover. A valid derivation for every admissible case can settle the wider question, including when the author presents the derivation inside one example.
 
-**Make a relation do work.** Use B.5.FM to distinguish the participants and propose how they are related. Explain a local transition: this operation needs that input; this quantity changes that effect under these conditions; one participant supplies what the next operation needs. Use subject knowledge to justify the transition. Where it is missing, retain a question for observation, a source or a qualified contributor. Naming two boxes or drawing an arrow does not supply their relation.
+**Make a relation do work.** Use B.5.FM to distinguish the participants and propose how they are related. Explain the transition the inference needs. An operation can depend on an input, several contributions can jointly produce a result, and a rule can imply a consequence for a whole class. Use subject knowledge to justify the transition. Where it is missing, retain a question for observation, a source or a qualified contributor. Naming two boxes or drawing an arrow does not supply their relation.
 
-Follow one relation to a small consequence, and use that consequence to seek a revealing contrast. For example, a calculation may assume a constant load, a handover may require a readable representation, or an experiment may rely on a measurement remaining comparable. The relation tells the practitioner what to vary or inspect. Trace what would follow with and without that premise, or compare two actual episodes in which it differs. Show the intermediate reason for any different result. A thought experiment creates a conditional implication; establish which conditions obtain through the appropriate subject inquiry.
+Follow the relation to what it establishes for the question. Could the same condition hold while the required answer differs? If so, identify the remaining premise or connection. When the relation warrants the answer under the conditions at issue, use it. Seek a contrast when it could resolve a remaining difference. For example, a calculation may assume a constant load, a handover may require a readable representation, or an experiment may rely on a measurement remaining comparable. The relation tells the practitioner what to vary or inspect. Trace what would follow with and without that premise, or compare two actual episodes in which it differs. Show the intermediate reason for any different result. A thought experiment creates a conditional implication; establish which conditions obtain through the appropriate subject inquiry.
 
 A useful contrast can also come from a failed attempt, an unfamiliar use, another participant's interpretation or two cases that the representation merges. A relevant conceptual scheme or mantra can direct attention to such relations before anyone feels a problem. Apply its substantive questions to the available case; an empty slot in a scheme is not evidence of a defect. When neither a consequence nor a useful contrast can yet be constructed, return to a smaller case, another representation or subject assistance. Guessing possible answers does not replace that missing work.
 
@@ -48402,7 +48406,7 @@ For open research, the attainable contribution may be a new description, candida
 
 A smaller supported answer, a different available source, an agreed joint attempt or a deferred dependent choice can be useful. Do not attribute a completed judgement or commitment to an unavailable contributor. If independent mastery is the purpose, obtaining an external answer alone does not fulfil it.
 
-Return the supported result, the reasoning that connects it to the purpose and the remaining consequential uncertainty. If a premise fails, re-examine the model or source used to support the affected inference. If an inquiry or action depends on unavailable help, seek another way to obtain the needed result, revise the work to use what is available or defer the dependent part. An unexpected possibility can change the question. A sufficient answer ends the present inquiry.
+Return the supported result, the reasoning that connects it to the purpose and the remaining consequential uncertainty. If a premise fails, re-examine the model or source used to support the affected inference. If an inquiry depends on unavailable help, try another way to obtain the needed contribution or explain which part remains open. An unexpected possibility can justify a new direction when choosing the research question is part of your task. A sufficient answer ends the present inquiry.
 
 #### B.5:4.2 - Perform the contribution that is missing
 
@@ -48421,7 +48425,7 @@ The following are common alternatives, not an exhaustive classification or a seq
 1. Identify the starting objects or data that are available. State what must be produced and which property the receiving use needs.
 2. Find the source's operations for producing or combining those objects. For each needed operation, recover its inputs, application conditions and output. Keep a statement that an object exists with certain properties as an existence claim; seek a way to obtain an instance when the next use requires one.
 3. Work backward from the desired result to the required intermediate results and starting inputs. Preserve joint dependencies and alternative ways where the source supplies them. A missing operation is a question for the source or the relevant specialist; a rule you propose is an addition to be tried and justified.
-4. Work a small instance from the available inputs, applying each recovered operation when its conditions hold. If the notation prevents the operation, use A.6.3.RT to prepare and compare a more usable expression. For a mathematical account, use its formation and equality rules; identify where a proposed identification changes the operations or property being used.
+4. Apply the operations to the inputs the question requires. A particular instance can show how a rule works. To recover a construction for a class, establish how to obtain its output for an arbitrary admitted input, including any conditions where a different operation is required. If the notation obstructs the work, use A.6.3.RT to prepare and compare a more usable expression. In a mathematical account, track the formation and equality rules on which the construction depends.
 5. Establish the needed property by the appropriate argument or test. Return the construction and what follows under its premises, or the input, rule or unsupported transition that prevents the result. Stop when this supplies the receiving use.
 
 For example, a stand specification calls for a portable display. Its assembly rules allow a compatible upright to be joined to a base and a compatible panel to be attached to that upright. Those rules yield the assembly order and the connections to check. Portability remains a requirement to check on the resulting design.
@@ -48453,17 +48457,17 @@ For instance, a team expects to recover a drawing because a backup exists. Recov
 
 When beginning with an unfamiliar theory, reconstruct its concept of use for one working question. State what the practitioner wants to explain, predict, construct or decide; which objects and relations the theory lets them describe; what information and operations the application needs; and how its result answers that question.
 
-Use a source application when it answers the question. Otherwise propose a small application from the theory's stated objects and operations, work it through and test the correspondence. Keep that constructed trial distinguishable from an application supported by the source. The first result is a usable explanation of that application, or the missing premise or operation that prevents it.
+Use a source application when its operations and grounds answer the question. Otherwise derive an application from the theory's objects, relations and operations, and examine their correspondence to the receiving subject. Use a small trial when it can expose a lost distinction. A derivation under the shared conditions can justify a whole range of applications. Identify what the source supplies and what you have proposed.
 
 Use the intended application to choose what to learn next. Study the construction deeply enough to perform or change the contribution the work requires. **B.5.TU** develops this application-construction method, including recovery of the needed operations and use of a correct result that answers only part of the receiving question.
 
 To compare theories or ways of using them, ask the same question of each account. Preserve each source's meanings while comparing what is given, what operations are allowed and what answer follows. If the results differ, identify whether the difference comes from the question, assumptions, mathematical structure, inference or proposed physical mechanism. If one account answers a different question, state that complementary use. Choose or change an account for the distinction the receiving work needs.
 
-Use C.29 for a proposed mathematical-lens transfer or local candidate choice; domain prediction and intervention claims need their applicable Methods and evidence. **B.5.TC** develops the comparison: reconstruct both applications, work a common case, distinguish theoretical differences from approximation or execution, and return the use or inquiry that follows.
+Use C.29 for a proposed mathematical-lens transfer or local candidate choice; domain prediction and intervention claims need their applicable Methods and evidence. **B.5.TC** develops the comparison. Relate both applications to the same claim or establish how their different contributions answer the question together. Distinguish theoretical differences from approximation or execution, and return the use or inquiry that follows.
 
-When the correspondence between a formal account and its intended use is the difficulty, reconstruct one small instance. Name the variables and their domains, the given inputs, the assumptions and permitted operations, and the statement the calculation or proof establishes. Relate the decisive quantities and conditions to the intended use. A source's worked case can supply this reconstruction; recover the omitted step if the receiver cannot yet carry it out.
+When the correspondence between a formal account and its intended use is the difficulty, recover it through a suitable instance or directly for the required domain. Name the variables and their domains, the given inputs, the assumptions and permitted operations, and the statement the calculation or proof establishes. Relate the decisive quantities and conditions to the intended use. A source's worked case can supply this reconstruction; recover the omitted step if the receiver cannot yet carry it out.
 
-Challenge the correspondence with a case that could change the answer. Look for a formally admissible answer that the intended use excludes, or two situations identified by the representation that require different answers. If this exposes a mismatch, repair the domain, constraint, quantity or correspondence, or use the existing result for a weaker question that it does answer. A relaxation can remain useful as a bound even when its optimizer cannot be enacted. The worked case below shows both uses.
+If it remains unclear whether the correspondence preserves the answer you need, try to expose a difference that matters to that use. Look for a formally admissible answer the use excludes, or two situations the representation treats alike that require different answers. If this exposes a mismatch, repair the domain, constraint, quantity or correspondence, or use the existing result for a weaker question that it does answer. A relaxation can remain useful as a bound even when its optimizer cannot be enacted. The worked case below shows both uses.
 
 For a physical application, connect the mathematical objects and quantities to the phenomenon, measurement and operating conditions. Ask which approximation, omitted interaction, scale or uncertainty could change the conclusion. A rigorous derivation from a model and evidence that the model applies answer different questions.
 
@@ -48476,11 +48480,11 @@ Return the result at its supported scope. Stop when it answers the use. Continue
 When the result exposes a limitation, identify what must change:
 
 - **The answer or construction for the same question:** repair it or investigate a serious alternative.
-- **The formulation:** revise the target, assumptions or boundary and state which earlier results apply.
+- **The formulation:** identify what changed in the target, assumptions or boundary. Return any usable result to the question already asked. If the result now sought is different, establish whether selecting that new direction belongs to you or whether the recipient still needs the earlier answer.
 - **The available Methods or ways of constructing candidates:** compare retaining, modifying or extending that repertoire. E.23 supplies improvement under an appropriate evaluation; C.18 applies when generation rules, retained alternatives or the effective space of possibilities are the question.
 - **A participant's ability to contribute:** distinguish the capability question from missing access or support; use E.23.CAE and E.23.CDI where their conditions hold.
 
-Use **B.5.QD** when the next question is unclear. Recover a failed dependency or a newly available construction, specify the answer it makes worth seeking, and work a revealing case. This can develop the inquiry after a success as well as a counterexample.
+Use **B.5.QD** when the next question is unclear. Recover a failed dependency or a newly available construction. Specify the answer it makes worth seeking and use a case, construction or argument to show what that inquiry could establish. This can develop the inquiry after a success as well as a counterexample.
 
 Use E.10.DEV if “development” hides the intended subject and C.36 for a cultural-generation, transmission or selection question.
 
@@ -48492,7 +48496,7 @@ For calculation, conjecture, proof, explanation, criticism and question formatio
 
 When the question depends on a result from another practice, use [A.15.9][fpf-a15-9-ref] to use the available answer or select a worthwhile missing contribution. State the working question, available inputs, result needed and intended use in terms the receiver can check. When requesting a formal formulation, ask the provider to show how it corresponds to the working question.
 
-Derive the capability required of an engineer from representative later work. What must the engineer be able to understand, ask, construct, criticize or arrange with the assistance that will be available? The answer can include interpreting a proof's central idea or recognizing that a measured proxy omits the intended quantity, even when a tool performs most calculations. It can also justify deeper mathematical study when constructing or modifying the theory is the required contribution.
+Derive a participant's required capability from their later work. What must this person understand, ask, construct, criticize or arrange with the assistance then available? For example, an engineer may need to interpret the main idea of a proof or recognize that a measured proxy omits the intended quantity, even when a tool performs most calculations. Constructing or modifying the theory calls for a different depth of mathematical study.
 
 When assessing that capability, use representative work under the declared support and inspect the engineer's contribution. A completed AI-assisted report alone leaves that contribution underdetermined.
 
@@ -48503,7 +48507,7 @@ When assessing that capability, use representative work under the declared suppo
 
 An engineer models pairwise incompatibilities with a finite simple undirected graph and asks, “Does connectedness let us divide the vertices into two groups with every edge crossing between groups?”
 
-A triangle is a counterexample: putting the first two adjacent vertices in different groups forces the third to conflict with one of them. This refutes the universal statement but leaves a useful question: **which obstruction prevents such a partition, and can we construct either the partition or a witness of failure?**
+A triangle answers the engineer's question. Putting two adjacent vertices in different groups forces the third vertex to conflict with one of them. Connectedness therefore gives no such guarantee. An engineer who also needs a way to make the division can now ask a further question. **What obstruction prevents the partition, and how can we return either the partition or a witness of failure?**
 
 Build the tree by keeping an ordered waiting list. The neighbours of a vertex are the vertices joined to it by an edge.
 
@@ -48528,7 +48532,7 @@ For a worked traversal, take vertices A–F and edges AB, AC, BD, CE, DF and EF.
 
 A has depth 0, so the groups are {A,D,E} and {B,C,F}; each of the six edges crosses between them. Now add DE. Its endpoints both have depth 2. Their parent paths D–B–A and E–C–A, joined by DE, give the five-edge cycle D–B–A–C–E–D. The added edge therefore prevents the requested two-group partition.
 
-The decisive idea is parity plus a tree-path construction, not the enumeration of many successful examples. The result answers a mathematical question without an empirical test. To use it for allocation, separately establish that vertices represent the relevant items and edges the pairwise incompatibilities. If three-way constraints matter, that application question must change.
+Parity and the parent paths establish what the procedure returns for an arbitrary graph in this class. To use it for allocation, establish which items the vertices represent and which assignments the edges exclude. Suppose three items may share a group in pairs but all three together are forbidden. No edge between those three items expresses that restriction faithfully. The allocation question can stay fixed while the model gains a condition on the triple. A particular colouring that also satisfies every such condition can supply one allocation. An odd cycle of mandatory pairwise incompatibilities still rules out a two-group allocation under the additional restrictions.
 
 The practice targets are to explain the obstruction, construct a partition or failure witness for another finite graph, and handle disconnected components. Assess those capabilities on a changed graph with the references and assistance permitted in the intended work.
 
@@ -48560,7 +48564,7 @@ Recover what that calculation establishes. From the relaxed time constraint, y <
 
 For the whole-job question, x = 0 permits at most y = 2 and value 6. With x = 1, the remaining hour permits y = 0 and value 5. Two B-jobs therefore attain the integer optimum 6. Check that the selected jobs fit the constraints and compare the best value for x = 0 with the best value for x = 1.
 
-The relaxation answers a useful question: can any permitted whole-job choice reach value 7? Every integer choice is also feasible for the relaxation, whose proved upper bound is 6.5, so the answer is no. Choosing a realizable assignment needs the integer result; ruling out value 7 needs only the upper bound.
+The relaxation also answers a threshold question. Every allowed whole-job choice is feasible for the relaxation, so none can reach 7. For this problem the whole-job values are integers. The upper bound of 6.5 therefore bounds their values by 6. Two B-jobs fit and attain 6. Taken together, that feasible assignment and the bound prove optimality for the original question, even without the preceding enumeration. The relaxed allocation itself contains a half job and cannot be scheduled as a whole-job assignment.
 
 With five hours instead, the same argument gives V <= 7.5 + 0.5x <= 8. The choice x = 1, y = 1 attains value 8 in both formulations. The planner can use that relaxed optimum as the whole-job answer because this returned choice satisfies the integer conditions.
 
@@ -48639,7 +48643,7 @@ Easy-to-produce outputs can dominate attention. Recover the intended epistemic o
 ### B.5:7 - Conformance Checklist
 
 
-- **CC-B5.1 — Question and contribution.** The practitioner SHALL identify the question, intended useful result and selected reasoning contribution. A conjecture SHALL retain its grounds, rivals and limits; a construction and its asserted properties SHALL remain distinguishable.
+- **CC-B5.1 — Question and contribution.** The practitioner SHALL identify the question, who may choose or change it, and what the selected contribution supplies. When the working question differs from the one assigned, the result SHALL identify what carries back, what warrants that inference and what remains to answer. A conjecture retains its grounds, rivals and limits. A construction and its asserted properties remain distinguishable.
 - **CC-B5.2 — Interpretable hypothesis-led testing.** Before claiming empirical corroboration, the practitioner SHALL derive the consequences needed to interpret the test and account for how the tested hypothesis was obtained.
 - **CC-B5.3 — Claim-specific support.** A support claim SHALL identify the argument or result, its relevance, scope and limitations. An assurance level, when needed, SHALL follow B.3.3 and the applicable domain criteria.
 - **CC-B5.4 — Result and continuation.** For a performed empirical test, the practitioner SHALL keep its outcome, including a failed or inconclusive result, recoverable through A.10. A further inquiry SHALL use the result with its limitations and name the remaining question; a sufficient answer may finish the use.
@@ -48683,7 +48687,7 @@ Question formation belongs here because the result of one reasoning contribution
 
 Section 4.1.2 connects such constructive work to the existing first-model, reasoning and inquiry-appraisal Methods; that general connection is a methodological synthesis, with domain qualification required.
 
-**What does exploring an intended use contribute?** Adapt [NASA's Stakeholder Expectations Definition, §4.1.1.2.4](https://www.nasa.gov/reference/4-1-stakeholder-expectations-definition/): exercising a concept of operations can expose missing interactions and return them to expectations. The engineering practice supports working through a use to discover conditions; it does not establish that a generic scheme finds all consequential distinctions in other fields.
+**What does exploring an intended use contribute?** In NASA's engineering process, working through a concept of operations can expose interactions that the initial expectations missed. Agreement on the resulting expectations is a distinct step. The design study by Parsons and Shukla documents how visualization designers developed new questions while exploring possible solutions. In §4.1, use this freedom where framing the question belongs to the inquiry. For a specified result, carry a proposed change back to the person or practice that determines the aim. The distinction is a methodological synthesis. Its application depends on the work entrusted to the practitioner. [NASA Systems Engineering Handbook, §§4.1.1.2.4 and 4.1.1.2.8–9](https://www.nasa.gov/reference/4-1-stakeholder-expectations-definition/). [Parsons and Shukla, §§4–6](https://arxiv.org/html/2508.07058v1).
 
 Reopen these choices when a better method at comparable effort changes the attainable result, a receiving use needs a different explanation or criticism regime, or changed tools alter the useful division of contributions.
 
@@ -48785,6 +48789,8 @@ If a new observation defeats the account, B.5.RR revises the affected reasoning.
 
 Return the distinction, the conditions that make it meaningful and the next use it supports. A short statement may suffice. Preserve the original episode or phrase when later interpretation would otherwise lose the point.
 
+Ask which question the formulation settles. A participant who wanted help saying what they meant can finish with a phrase they can use and correct. If their experience raised a question about how a whole practice works, use the distinction to locate the operation or rule that matters for that question. Establish what the episode or the participant's further account actually shows about it. When the conversation is open to discovering new questions, the participants can choose one that has just become expressible.
+
 Stop when the contribution is usable, when further articulation cannot improve the decision, or when the participant cannot recover enough to continue. An unresolved but better located question is a result.
 
 For joint work, the participant supplies experiential correction, the listener supports expression, and a subject specialist may supply the account needed for a subsequent inference. One person may perform several contributions. An AI can help formulate, compare and reason from available material; the participant's private experience is not made accessible to the AI merely by assigning it that role.
@@ -48804,6 +48810,8 @@ The listener asks, “What does the form help you notice about the meeting?” T
 The initial contradiction separates into two conditions: permission to speak and the possibility of changing the set being considered. The designer can request consideration of a third option. The listener has not established that the chair intended to exclude it.
 
 If the chair explains that the third option was already considered and was excluded by a constraint, the next question concerns that constraint and whether it applies. Repeating the claim that speaking was ineffective would lose the new condition.
+
+The designer's request to explain what “no room” meant can end with that distinction. Suppose the review owner asks whether the standing procedure allows a third option. Follow how a proposal becomes an option for decision. If the applicable procedure gives the chair discretion to add an eligible proposal, that provision can settle the permission question. Whether this proposal qualified and why the chair continued with two options concern the particular review.
 
 #### B.5.EA:5.2 - A teacher's “they do not understand”
 
@@ -48834,9 +48842,8 @@ The listener's expertise can make a premature explanation attractive. Preserve t
 ### B.5.EA:7 - Conformance Checklist
 
 - A participant can return to the experience or identify the limit of that return.
-- The expression develops through recoverable corrections rather than an imposed diagnosis.
-- The resulting distinction changes a question, interpretation or possible action.
-- The recipient can obtain the meaning needed for the use.
+- The participant can use or correct the expression. Corrections that change the intended use remain recoverable.
+- For a completed articulation, the intended recipient can recover the distinction and how it bears on a question, interpretation or possible action. If the result is still a cue or a better located question, identify what is understood and what remains open.
 - Experiential fit, shared understanding and warrant for a world-directed claim retain their different grounds.
 - Continuation uses the result or identifies the remaining difficulty without requiring an entire research programme.
 
@@ -48985,7 +48992,7 @@ Compare deferral with the present reliance. If today's choice consumes the missi
 
 #### B.5.WN:4.6 - Compose an argument for a recipient
 
-When a project or assigned question needs an answer, select the notes that can contribute to it. State the proposed conclusion and arrange the reasons in the order the recipient needs. A visible outline can keep the whole argument available while one passage is being written.
+When a project or assigned question needs an answer, read that question before selecting the notes. Whose work does it concern, and which differences could change the conclusion? If it concerns a whole job, which performances contributed to its result? Two histories may fit every selected note and yield different answers. Look for the observation or argument that distinguishes them. Arrange the reasons in the order the recipient needs. A visible outline can keep the whole argument available while one passage is being written.
 
 Turn the selected material into that argument. Supply missing transitions, examine contrary material, remove repetitions and distinguish a useful example from evidence for a general claim. Composition often exposes a premise that seemed present only because the author knew the collection.
 
@@ -49029,19 +49036,19 @@ This note states the practitioner's cross-case conjecture and question. Its link
 
 Now change the review facts: all reviewers used a common valid basis, but the recipient has not opened their results. The missing-basis explanation fails in that case. The practitioner narrows the connection to the distinction between a result's availability and its use, retaining the original bench observations.
 
-If no current project needs this question, the semantic entry is a sufficient continuation. If a delivery decision needs it today, the project must establish which result is available before acting.
+The records already account for the 25-minute difference between receipt and result for Q41 and Q42. Whether the bench is generally slow requires a comparison standard and grounds that cover the jobs to which it applies. In an open inquiry the practitioner can choose the new question about reviews and leave a route back to the bench question. When a decision about the bench is due, return the supported local finding and identify what the decision still requires.
 
 #### B.5.WN:5.2 - Develop an assigned explanation from mathematical notes
 
-A writer must explain what can be inferred about sums of irrational real numbers. The writer understands rational numbers and the usual proof that `sqrt(2)` is irrational. One note contains a proved statement: adding a rational number to an irrational number yields an irrational number. If the sum were rational, subtracting the rational addend would make the other addend rational.
+A writer is asked whether knowing that both of two real addends are irrational determines whether their sum is rational. The writer knows the usual proof that `sqrt(2)` is irrational. One note contains a theorem about a different pair of addends. Adding a rational number to an irrational one yields an irrational sum. If the sum were rational, subtracting the rational addend would make the other addend rational.
 
 A rough second note asks whether adding two positive irrational numbers must also yield an irrational number. Keeping the quantifiers in the formulation makes a counterexample searchable. The writer tries `sqrt(2)` and `2 - sqrt(2)`. Both are positive. The second is irrational, since making it rational would make `sqrt(2)` rational by subtraction. Their sum is 2.
 
 The new note retains the two values and that short justification. Its link to the first says: “The first proof requires a rational addend; replacing that condition by an irrational addend permits a rational sum.” Separating the counterexample from its positivity and irrationality grounds would make later use require reconstruction. A small connected note is sufficient.
 
-The assigned explanation also needs a case where two positive irrational addends have an irrational sum. Using `sqrt(2) + sqrt(2) = 2sqrt(2)` supplies it: if that sum were rational, division by the nonzero rational 2 would make `sqrt(2)` rational. The two cases support the bounded answer that the sum can be rational or irrational.
+The writer also needs grounds that an irrational total is possible. A second pair satisfying the note’s stronger positivity condition suffices. Using `sqrt(2) + sqrt(2) = 2sqrt(2)` gives such a pair: if that sum were rational, division by the nonzero rational 2 would make `sqrt(2)` rational. The two cases support the bounded answer that the sum can be rational or irrational.
 
-The writer's outline becomes: distinguish the rational-addend theorem; present the rational-sum counterexample; present the irrational-sum case; state the resulting limit of inference. Rewriting the notes into that order produces an explanation for the assigned question. The earlier theorem remains in the collection, with its condition.
+The writer can now answer the assignment. Both examples satisfy its premises, and their sums have different rationality. The first note explains why its theorem cannot decide between them. If a reader asks for **every attainable total with unrestricted signs**, the same two examples supply only two totals. For any rational target `r`, take `sqrt(2)` and `r − sqrt(2)`, which are both irrational. For an irrational target `t`, take `t/2` twice. If `t/2` were rational, doubling it would make `t` rational. Thus with unrestricted signs every real total is attainable. The second question needs this argument across targets. The first can end with the two examples.
 
 A later question about squares can enter through the same concern with what an operation preserves. The present note does not answer it. The writer either develops that question through the relevant mathematics or retains the possible connection for another occasion.
 
@@ -49049,17 +49056,17 @@ A later question about squares can enter through the same concern with what an o
 
 An engineer has the notes in :5.1, including their corrected question about availability and use. The engineer keeps an entry for “completed activity, receiving result still unavailable”.
 
-At an authorized support handover, a case note says: “Nightly exports finish on time; the senior analyst removes duplicates every morning. The customer proposes buying faster workers.” Private row contents remain in the customer's system. The engineer's permitted work is to examine the support question, not to change that system.
+At an authorized support handover, a customer asks whether faster export workers would make a checked report available by 08:45. The current export delivers the file by 08:00. The senior analyst starts at 08:30 and the required duplicate check takes at least 30 minutes. The proposed workers would only advance delivery of the file. Private row contents remain in the customer's system. The engineer may examine the support question and recommend further work.
 
 The engineer follows the entry and brings the earlier question to this episode: which result must “finished” supply to the analyst, and what work remains after that event? The comparison produces a note:
 
-> **A recorded completion can leave a receiving contribution to be performed.** Here the export has ended, but producing a usable report includes duplicate reconciliation. Faster export has not been shown to remove that contribution. The bench and review cases helped pose this question; they do not identify the export's cause.
+> **Time the result the customer needs.** With this staffing and check, the report cannot be released before 09:00. Earlier export still leaves the analyst starting at 08:30. The proposed purchase cannot meet 08:45 on those terms. The bench and review notes suggested looking beyond the recorded completion event. The grounds for the answer come from this customer's schedule and required check.
 
-The connection states its limited transfer. The support case remains the source of this observation. A return to that case lets the engineer distinguish the customer's proposal from the proposed explanation. The note also leaves a question: under which receiving protocol is reconciliation needed, and what contribution could replace the manual work?
+This answers the purchase question. Suppose the customer also asks whether the manual reconciliation work can be reduced. Follow what happens to the data, which duplicate the analyst removes, and which transfer or check creates the work. A repeated delivery of a valid export and duplicate rows already present inside one export can both lead to a morning correction. Changing the resend procedure could affect the first cause while leaving the second untouched.
 
-Now use the subject information available in this constructed case. The current manual distinguishes protocol v1, which requires manual receipt reconciliation, from v2, which permits idempotent resend after absence of a receipt has been confirmed. The installed protocol is unknown. The engineer's useful support result is a conditional explanation and a request for that configuration fact through the authorized local service. Neither the resemblance to the earlier cases nor the finished note selects automatic resend.
+For the transfer question, the current manual distinguishes protocol v1, which requires manual receipt reconciliation, from v2, which permits idempotent resend after absence of a receipt has been confirmed. The installed protocol is unknown. The engineer can ask the authorized local service for that fact. The answer will determine which transfer rule applies. To recommend a change to the morning check, the engineer still needs grounds connecting the duplicates the analyst handles to that rule.
 
-A later signed configuration report says v2. The retained case question makes its contribution recognizable: it supplies the missing protocol fact. At the next permitted handover, the engineer reads the governing manual and the current case basis. Under the stipulated v2 rule, absence of the relevant receipt must be confirmed before the proposed resend. The configuration result has answered one question; it has not performed that check or the action. The recipient receives the case-specific explanation and needed next contribution, not the engineer's entire note collection.
+A signed configuration report identifies v2. At the next permitted handover, the engineer applies the manual to that configuration. It requires confirmation that the relevant receipt is absent before the proposed resend. The configuration report settles which rule applies. Evidence of what produced the duplicate and which checks the receiving arrangement requires would bear on the separate proposal to reduce manual work. The recipient can rule out the faster-worker purchase for 08:45 while those questions remain open.
 
 The ordinary case record retains the duplicate episode, the protocol question and the eventual report. It is sufficient to resume this same support case; copying those facts into a second case ledger adds no needed capability.
 
@@ -49189,7 +49196,7 @@ A division into “physics first, mathematics second, implementation last” als
 
 ### B.5.MPC:4 - Solution
 
-Construct the answer by connecting the contributions it needs. For each connection, identify the supplied result, the receiving operation and the condition that makes the result usable there. Follow those meanings through a small instance. If the connection is missing, construct it, obtain it from a suitable contributor, or return the missing result that prevents the next move.
+Construct the answer by connecting the contributions it needs. For each connection, identify the supplied result, the receiving operation and the condition that makes the result usable there. Follow those meanings through the argument or construction that answers the physical question. Trace an instance when it can expose an uncertain correspondence. If the connection is missing, construct it, obtain it from a suitable contributor, or return the missing result that prevents the next move.
 
 The long mantra keeps the whole question available while attention moves between contributions:
 
@@ -49211,9 +49218,9 @@ Identify the participants, interactions and configurations that could determine 
 
 State the applicable physical or operating rules. Explain why a rule supplies the needed relation and where it is an assumption. Wheel rotation yields a distance relation only under the chosen rolling and geometry conditions. Exclusive possession of a card supports an admission limit only when the entrance procedure connects possession to entry and return. A.3.3 helps construct configurations, retained state and allowed continuations; the subject practice supplies the laws and mechanisms those continuations use.
 
-Choose a sufficient account for the question. A direction or impossibility result may need less physical detail than a trajectory, speed or load calculation. Make an omitted interaction explicit when it could defeat the inference: slip changes wheel travel, a moving gear carrier changes relative rotation, and uncontrolled entry breaks the visitor-to-card association.
+Choose a sufficient account for the question. If the physical boundary or the procedure is yours to choose, ask which change in the arrangement could change the requested result while the description of one part stays the same. For an occupancy guarantee across entrances, follow the room boundary, the transfers each entrance permits and any relation between their card stocks. For yesterday's occupancy, establish which transfers actually occurred or what the available evidence bounds. A direction or impossibility result may need less physical detail than a trajectory, speed or load calculation. Make an omitted interaction explicit when it could defeat the inference: slip changes wheel travel, a moving gear carrier changes relative rotation, and uncontrolled entry breaks the visitor-to-card association.
 
-When observations supply an input or test a consequence, construct the relation between the sought quantity and the indication. Use C.16:5.3 and C.16:5.4 for the measurement method and model. Motor counts can indicate motor rotation under an encoder account; using them to establish travel additionally consumes the transmission and ground-contact account. If the available indication cannot distinguish the cases needed by the question, obtain a different observation, use an adequate bound, or change the question.
+When observations supply an input or test a consequence, construct the relation between the sought quantity and the indication. Use C.16:5.3 and C.16:5.4 for the measurement method and model. Motor counts can indicate motor rotation under an encoder account; using them to establish travel additionally consumes the transmission and ground-contact account. If the available indication leaves different required answers possible, seek a discriminating observation or a sufficient bound. If a weaker question is useful, explain what answering it contributes and what remains open for the original use.
 
 Return a proposed physical account and its consequences under stated conditions. An unknown interaction or calibration is a useful missing contribution when it determines which mathematical question can be constructed.
 
@@ -49243,7 +49250,7 @@ Choose the result the use needs: a value, distribution, statistic, bound or prop
 
 When a procedure is needed, construct its inputs, retained state, elementary operations and output interpretation. Explain how it obtains the mathematical result and why it terminates, or which property it preserves during continued interaction. C.29.2 supplies this formulation work; the relevant algorithmic or mathematical Method supplies the construction and its argument. B.5:4.2 and B.5:4.3 help recover a construction or a decisive proof step that the available explanation leaves inaccessible.
 
-Trace one instance with its meanings intact. In a two-colouring procedure, a waiting list records vertices to be processed, while parent links can reconstruct a failed closed path. In a motion calculation, the integer is a count of a kind of increment. In an admission procedure, taking a free card changes a finite state and determines whether an entry may proceed.
+When an instance helps establish the correspondence, follow what each step of it means. In a two-colouring procedure, a waiting list records vertices to be processed, while parent links can reconstruct a failed closed path. In a motion calculation, the integer is a count of a kind of increment. In an admission procedure, taking a free card changes a finite state and determines whether an entry may proceed.
 
 For a numerical approximation, carry the error that can affect the physical use. Separate rounding of a computed command from uncertainty in radius, calibration or physical response. For a resource claim, include the cost of obtaining the input, representing it and interpreting the output when those costs matter. Counting one graph-edge inspection as one operation is useful under an adjacency-list cost model; it does not estimate the effort of discovering the contacts.
 
@@ -49276,9 +49283,9 @@ Use an existing adequate implementation when this comparison is settled for the 
 
 Recover dependencies by asking, for each needed result, “What results and conditions make this operation possible, and what other operation could supply the same receiving need?” Keep the answer with the derivation, diagram or explanation. A short case may need only a sentence; a shared design may need a dependency diagram.
 
-An **AND dependency** means that contributions are needed together for the stated inference. The robot's distance per motor increment uses the effective wheel radius, transmission ratio and increments per motor revolution together. Replacing any one can change the command.
+An **AND dependency** means that contributions are needed together for the stated inference. The robot's distance per motor increment uses the effective wheel radius, transmission ratio and increments per motor revolution together. Replacing any one can change the command. Establish that the required premises can hold in the same configuration. A controller might accept the required count in absolute mode and offer relative commands only over a smaller range. Separate evidence for the count and for the relative mode leaves their combination open.
 
-An **OR alternative** is a different sufficient way to obtain the result needed by the receiving use. A proved upper bound and an exact computation can be alternatives for deciding whether a limit can be exceeded. Each route retains its own assumptions. Two different approximations do not become sufficient alternatives merely because both return a number.
+An **OR alternative** is a different sufficient way to obtain the result needed by the receiving use. A proved upper bound at or below the limit can establish that the limit cannot be exceeded. If the bound extends above the limit, a tighter bound or an attainable violation can settle what that bound leaves open. Computing the maximum when it exists is another route. Each route retains its own assumptions. Two different approximations do not become sufficient alternatives merely because both return a number.
 
 For a conditional physical consequence, one useful small rendering is:
 
@@ -49376,7 +49383,7 @@ A designer asks whether every gear in a connected arrangement can rotate while a
 
 Construct a finite undirected graph. A vertex represents one gear and an edge represents one of the stipulated external meshes. Assign colour 0 to one rotation direction and colour 1 to the other. An edge requires different colours at its endpoints. This expression makes the physical question a mathematical one: can the vertices be assigned two colours while satisfying every edge?
 
-The graph records contact, not geometric closeness on the page. A drawing with crossing lines does not add a mesh between the gears at that crossing. If a contact is absent from the list, the result answers only the incomplete list.
+The graph records contact, not geometric closeness on the page. A drawing with crossing lines does not add a mesh between the gears at that crossing. If some contacts are unknown, an odd cycle of established external meshes already rules out nonzero rotation of the gears in that cycle under the stated conditions. Additional meshes cannot remove that obstruction. A colouring of the known edges establishes compatible directions for those edges. To extend it to the entire arrangement, establish that all remaining meshes permit compatible directions, for example from a rule about how the two groups may mesh.
 
 Obtain either a colouring or a witness of failure by the following procedure.
 
@@ -49488,7 +49495,7 @@ Use these checks on the claimed joint result and its explanation. They establish
 | CC-MPC.1 — Receiving question | The explanation identifies the physical difference to be resolved and what the supported answer enables. |
 | CC-MPC.2 — Physical premises | Participants, interactions and operating conditions are sufficient to recover the mathematical question; consequential assumptions remain distinguishable from observations. |
 | CC-MPC.3 — Interpretable construction | Important quantities, structures and operations have meanings that survive the construction, and a lost distinction either leaves the use intact or changes the returned result. |
-| CC-MPC.4 — Obtained consequence | The proof, construction, bound or computation is supplied for the stated case, with the decisive argument and its conditions. A missing operation is named as missing. |
+| CC-MPC.4 — Obtained consequence | The proof, construction, bound or computation reaches the requested instance or range under its stated conditions. A result about part of the arrangement identifies what it establishes for the whole question and any operation still needed. |
 | CC-MPC.5 — Executing arrangement | Any realization claim connects preparation, system operations and result reading. Range, units, initial state and ordering are recovered wherever they change the inference. |
 | CC-MPC.6 — Joint and alternative dependencies | Jointly needed contributions remain together; alternative routes each satisfy the receiving need under their own conditions. A shared premise remains shared across alternatives. |
 | CC-MPC.7 — Notation in use | The expression supports the needed operation under explained or familiar rules; new subject conclusions are justified by that operation rather than presented as mere re-expression of givens. |
@@ -49709,7 +49716,7 @@ A mathematical account may support several physical interpretations. Compare the
 
 #### B.5.MPC.R:4.4 - Construct the repair that the receiving use needs
 
-Choose the contribution that can remove the located incompatibility. The choice follows its cause and the wanted result.
+Choose the contribution by the result the recipient needs. To explain a particular failure, seek what distinguishes its possible causes on that occasion. To restore a required behavior, a change shown to work across the remaining causes can suffice while their identity stays open. When a repair is to serve future operations, derive its required range from their permitted inputs, timings and uses. A successful rerun of the original case covers that range only with grounds for the other permitted conditions.
 
 - If the requested unknown changed, retain the interpreted relations, release the former fixed value where appropriate and derive the new computational direction.
 - If a representation merged cases that the question must distinguish, retain the missing information, obtain a different observation or use a result that the merged representation supports.
@@ -49729,7 +49736,7 @@ Compare the repaired contributions on the input or physical case. For a mathemat
 
 Keep the comparison at the claim's scope. A conditional calculation can establish what a proposed arrangement would do under its assumptions. Actual performance requires the observations and inference appropriate to that use.
 
-If the comparison fails, follow the remaining disagreement. Do not repeat a test that leaves the live alternatives indistinguishable. Change the question or obtain the missing contribution when the means cannot settle it.
+If the comparison fails, follow the remaining disagreement. Seek information that can distinguish the alternatives that change the answer. If the means available cannot settle the commissioned question, return the supported result and the remaining gap. A proposed change of question then carries that information to whoever can choose the continuation.
 
 #### B.5.MPC.R:4.6 - Return the physical consequence and the next useful action
 
@@ -49757,7 +49764,7 @@ Suppose the requester chooses T=8 s. The required command is u=0.625, giving v=0
 
 During a diagnostic run, a debugger freezes the program and its timer for three seconds. In this example the output retains u=0.625 and the motor continues to run. The stop is therefore issued after eleven seconds of physical operation, giving d=0.125\*11=1.375 m under the model.
 
-The disagreement concerns execution timing. The equation and chosen command remain appropriate to eight seconds of motion. If the question concerns an uninterrupted run, observe that run under its intended timing. If such pauses can occur in the required operation, provide a stopping mechanism whose elapsed-time behavior survives the pause, or revise the control arrangement accordingly. Test its physical completion at the condition the use needs.
+The disagreement concerns execution timing. The equation and chosen command remain appropriate to eight seconds of motion. For a prediction about uninterrupted operation, use the eight seconds of motion under the stipulated model. For a claim about an actual uninterrupted run, establish its timing and displacement from evidence about that run. If such pauses can occur in the required operation, provide a stopping mechanism whose elapsed-time behavior survives the pause, or revise the control arrangement accordingly. Test its physical completion at the condition the use needs.
 
 For example, suppose an independent timer can remove the motor command and continues to run while the controller is paused. Start it with the command and set it to remove the command after eight physical seconds. Under the example's immediate-start/stop model, motion then lasts eight seconds and covers 0.125\*8=1 m, including a run with the three-second program pause.
 
@@ -49781,7 +49788,7 @@ To determine which frequency is present, change a contribution that distinguishe
 
 For a physical measurement, obtain the needed sampling and input-conditioning behavior from the instrument account. Frequencies outside the admitted band, timing error and an unsuitable analog input path can reopen the interpretation. A filter that removes the signal of interest changes the measurement question rather than recovering its frequency.
 
-The repair is a changed acquisition and interpretation, with a recomputation on the new data. The receiving user can distinguish a physical-frequency estimate from an unresolved alias. If the old record is all that is available, return the remaining alternatives instead of selecting one without further grounds.
+The new record identifies the frequency during its own acquisition. To use it for the earlier signal, establish that the source kept the same frequency or recover independent information about the earlier interval. For the ideal unit cosine above, the original sample at n=1 requires cos(2πf/100) = cos(2π·10/100). Thus f = 100k ± 10 Hz for an integer k. In the admitted range only 10, 90 and 110 Hz remain. All exceed 5 Hz, so the old record already settles that threshold for its own interval. They straddle 50 Hz, leaving that threshold and the exact original frequency open.
 
 #### B.5.MPC.R:5.3 - The voltmeter changes the circuit being inferred
 
@@ -49896,7 +49903,7 @@ Use this pattern when a description points to a result you need, but you cannot 
 
 Here, a **construction** is a way of obtaining an object by applying operations to given objects. In a mathematical construction, those operations form mathematical objects. In an assembly method, they may produce a design or a physical assembly; identify which result the description promises. The relevant practice supplies the operations and their application conditions.
 
-**First useful move:** name the result needed for the next use, then find the operation that could produce it and what that operation requires. Follow those requirements back to available starting material. Work a small instance forward to recover the missing connection.
+**First useful move.** Name the result needed for the next use. Find an operation that could produce it and follow its prerequisites back to available starting material. Work forward on the actual inputs or on a smaller case that preserves the missing connection.
 
 This method needs access to the description and enough subject knowledge to interpret its objects and rules. Use an adequate known construction. If the task is to invent a method where no usable account is available, use C.39 for that development; a missing operation discovered here can become its input.
 
@@ -49926,9 +49933,9 @@ Recover the construction in two connected directions: from the required result t
 
 Say what the next user needs to obtain and what they will do with it. Recover the conditions that distinguish a usable result: for example, a triangle on a supplied side, a display design that uses the supplied fittings, or data in the format required by a calculation.
 
-Identify the starting objects and information available. Distinguish an object supplied by the task from one the construction must produce. If a property alone answers the question, keep that smaller task. When an instance is needed, locate the operation that could obtain one.
+Identify what the task supplies and what it leaves you to construct. For an exact reproduction, recover which objects, operations or resulting features must be the same. When an equivalent result is allowed, work back from the property its recipient needs. For a display stand, two panels that fit the same upright may put different loads on its base. Follow that difference as far as it affects the requested design. If proving existence settles the question, the proof can finish the work. If a particular object is due, locate the operation that can produce it.
 
-Choose a small case that retains the troublesome dependency. A case that omits the unfamiliar operation cannot resolve how that operation works.
+Use the actual input when it exposes the missing operation. A smaller case is useful when it retains the troublesome dependency and makes the operation easier to recover.
 
 #### B.5.RC:4.2 - Recover the operations
 
@@ -49956,7 +49963,7 @@ If tracing returns to a result that it requires, examine the source. It may desc
 
 A missing operation gives a focused question: “How is this intermediate object obtained under these conditions?” Return to the relevant source passage or specialist with that question. When you propose an operation yourself, treat it as a contribution to the construction and establish the conditions for using it.
 
-#### B.5.RC:4.4 - Work the small case forward
+#### B.5.RC:4.4 - Carry the construction forward from its inputs
 
 Begin with the available inputs. Apply an operation when its prerequisites and conditions hold, retaining the output needed by later operations. At an unfamiliar transition, write, draw or perform enough of it to see what changes.
 
@@ -49973,6 +49980,7 @@ Recover why the constructed object has the property the next use requires. An au
 The stopping point can be:
 
 - the required object and a sufficient account of the property being used;
+- an answer about existence or impossibility, with the grounds that establish it, when that was the question;
 - a conditional construction whose unresolved condition matters to the next decision;
 - an identified missing input or operation, with enough context to obtain it.
 
@@ -49992,21 +50000,17 @@ For a small case, place A at (0,0) and B at (2,0). The circles have equations x�
 
 The property follows from how C was obtained: AC and BC are radii of circles of radius AB, so AC=BC=AB. The coordinate calculation also supplies the intersection in the Euclidean-plane account used for this case. A description formulated under a different set of construction rules must obtain that intersection under those rules.
 
-The recovered dependency is reusable for another positive side length. The value of the coordinates changes, while the two equal-radius circles and the common-point construction retain their roles. If A and B coincide, the initial requirement of a nondegenerate triangle fails; that case needs distinct endpoints before this construction can begin.
+To see why the same two-circle construction works for any two distinct endpoints in the Euclidean plane, use their midpoint as origin and AB as the horizontal axis. For a side of length d, the circle equations give a horizontal coordinate of zero and a vertical coordinate of either √3 d/2 or −√3 d/2. Both points are at distance d from each endpoint. Either point answers an order for one triangle. An order for every possible third vertex needs both, and the circle equations give only those two. Coincident endpoints cannot be the side of a nondegenerate triangle.
 
 The Euclidean account supplies the circle and segment operations and their justification.
 
 #### B.5.RC:5.2 - Recovering a display-stand assembly design
 
-A specification asks for a portable display. It supplies a base, an upright and a panel, together with these rules: the upright can be joined to the base when their fittings match; the panel can be attached to the mounted upright when their fittings match.
+A team receives a drawing of a display stand and a base, upright and panel. The organizer wants a stand made to the drawing and asks whether its complete packed kit meets a 10 kg carrying limit. The drawing shows how to join the upright to the base and attach the panel to the mounted upright. Each operation requires matching fittings.
 
-Working backward from an assembled display yields a mounted upright and a compatible panel. Recovering the mounted upright yields the base, upright and their fitting condition. Working forward gives the assembly order: join base and upright, then attach the panel.
+Work back from the mounted panel. It requires a compatible panel and an upright already connected to the base. Work forward on the supplied parts. The base and upright fit, but the supplied panel has a different fitting. That prevents assembly with this set. If the drawing specifies a particular panel, obtain the matching specified part. If the organizer permits alternatives, a compatible panel or an adapter may also be considered. An adapter adds a part and a joint. Check each changed connection and any load requirement it affects under the proposed arrangement.
 
-Inspection of the supplied parts reveals that the panel fitting differs from the upright fitting. The method has localized the obstruction. Available continuations include obtaining a compatible panel, developing an adapter with usable connection rules, or choosing another assembly design. “Assemble the display” alone does not select among them.
-
-Suppose a compatible panel is supplied. The recovered design connects the three components in the required order. Portability is assessed against the carrying requirement, and stability against the loading and support conditions. Those engineering questions can change the design, but they are distinct from the recovered answer about how its parts connect.
-
-The first result is the assembly design or the fitting mismatch that prevents it. Physically assembling and testing the stand are subsequent work selected by the intended use.
+Suppose the specified panel arrives and its fittings match. The team can now give the assembly sequence. For the carrying decision, identify everything that must travel together. Suppose the verified upper bounds for the base, upright, replacement panel, fittings and case sum to 9.5 kg and cover the complete kit. This establishes the mass requirement before packing, even if the exact packed mass is unknown. A request confined to how the parts connect can end with the sequence. Delivery of an assembled stand still requires someone to assemble and deliver it.
 
 ### B.5.RC:6 - Bias-Annotation
 
@@ -50018,7 +50022,7 @@ Examples can also narrow the apparent method. The circles in :5.1 and fittings i
 
 For the construction being recovered:
 
-1. The needed result and its next use are clear enough to select a useful small case.
+1. The requested object, property or reproduction determines what may vary and whether to work directly on the original or through a smaller case.
 2. Starting objects are distinguished from the intermediate objects to be produced.
 3. Each operation needed by the case has recoverable inputs, application conditions and output.
 4. Joint prerequisites, shared objects and alternative constructions retain their different effects.
@@ -50136,6 +50140,8 @@ Work backward from the conclusion through the claims or constructions it uses. A
 
 Keep jointly needed premises together. Preserve a sufficient alternative as a separate way to reach the conclusion. Track a shared premise wherever a later step uses it; repeated uses of one assumption do not provide independent support for that assumption.
 
+Read a claim about a whole back onto its subject. Which parts have to work together for the conclusion to follow? Could each fact cited about a part remain true while a different arrangement changes the answer? Recover the ground for the connection that matters. In :5.2 three intact copies can share an unavailable key. The inventory can answer a question about the number of copies while leaving recovery of the drawing open.
+
 Distinguish a premise supplied for the argument, a result established earlier and a temporary assumption used inside a subargument. Recover the point at which a temporary assumption is discharged and what then follows. If this logical form is unfamiliar, obtain the relevant explanation before treating the subargument's assumption as an established fact.
 
 Use established results at the level needed for the task. If the question concerns what a lemma permits, its statement and conditions may suffice. If the question concerns how to alter the lemma's proof, recover its internal reasoning.
@@ -50146,7 +50152,7 @@ For a transition you cannot follow, recover the relevant definition, rule, earli
 
 A useful self-explanation supplies this relation. “I understand this line” reports confidence; a paraphrase repeats the claim. Neither supplies the omitted inference when that is the difficulty.
 
-Work a small instance when it helps reveal the operation or dependence. Then return to the stated scope: the instance may illustrate a general step, while the general conclusion depends on the argument for all cases in its domain.
+Work a small instance when it helps reveal an operation or dependence. Identify what carries the inference through the stated domain. In :5.1 the step for an arbitrary integer holds throughout the range, including when shown in a drawing. Substituting 3 checks one value. One admissible failure would suffice to refute an assertion made for every value.
 
 If the source's resources do not close the gap, ask for the missing step with its premises and desired result. A proposed repair is new reasoning until it is justified. Keep the consequence conditional when a premise remains unresolved and conditional use is sufficient.
 
@@ -50274,14 +50280,14 @@ The result is a usable recovery choice or a focused request for a missing contri
 
 A seminar organizer receives the message: ‘The slides should display correctly. Dana says the projector is compatible, and yesterday's rehearsal worked.’ The organizer needs to decide whether another display test is needed before using projector P with laptop L and adapter D. The relevant technical claim C is: **the current PDF can be displayed at 1080p by this setup**.
 
-**Construct the offered argument.** Ask what ‘compatible’ and ‘worked’ mean here. Suppose Dana maintains these projectors, has relevant technical expertise, and confirms her claim: ‘The current PDF can be displayed at 1080p using P, L and D at the current settings.’ Separately, the organizer inspected all pages of the current PDF during the rehearsal and found them displayed correctly at 1080p. Recover the condition S: the equipment, PDF and settings relevant to this result have not changed.
+**Construct the offered argument.** Ask what ‘compatible’ and ‘worked’ mean here. Suppose Dana maintains these projectors and reports that the setup used for yesterday’s rehearsal, with P, L and D at those settings, can display the current PDF at 1080p. Separately, the organizer inspected all pages of that PDF during the rehearsal and found them displayed correctly at 1080p. To use either ground for the planned showing, establish condition S: the relevant equipment, PDF and settings from the rehearsal will apply there.
 
 The expertise and the assertion work together in the first reason. Neither ‘Dana is an expert’ alone nor an unattributed compatibility sentence supplies that reason. The rehearsal is a different ground: it is an observed instance under the required setup. Its use for another showing depends on S and on the ordinary technical judgement that the successful test remains applicable. It is not a deductive guarantee of future operation.
 
 The following outline is an argument map. Braces group premises used together; arrows mean support for C, not physical causation or event order.
 
 ```text
-R1: {Dana has relevant expertise; Dana asserts C for P/L/D; S}
+R1: {Dana has relevant expertise; Dana says the rehearsal configuration can display this PDF at 1080p; S}
     --expert-opinion inference--> C
 R2: {the organizer observed the current PDF displayed correctly on P/L/D; S}
     --applicable rehearsal result--> C
@@ -50295,9 +50301,9 @@ R1 and R2 are separate grounds, but they share S. R2 is not merely another repor
 
 Suppose a test with D2 then shows that the current PDF is not displayed under the intended settings, after the operator checks the connections and follows the equipment's setup instructions. This is a new opposing observation for that tested setup. The organizer can report that the attempted display failed and return to technical diagnosis; the observation alone does not identify which component caused the failure.
 
-**Separate the technical result from the practical proposal.** ‘Therefore use P’ introduces another inference. It needs the seminar's display requirement, an available way to keep the tested setup, and comparison with relevant alternatives and costs. If using P prevents another booked session from running, that consequence can defeat the proposal while C remains supported. PSDA.5/.6/.8 supply the option, value and consequence work. The receiving decision uses the qualified technical result instead of expanding it into a recommendation.
+**Decide whether another test is needed.** If the organizer may rely on a successful rehearsal of the current PDF and unchanged setup, the observed rehearsal meets that condition. If the seminar requires a fresh test after an adapter change, replacing D made such a test due. The failed trial with D2 supplies its outcome. To display the slides, the organizer can now restore the earlier configuration if still available and permitted, or arrange a working alternative.
 
-The return is a conclusion with its surviving reason and its next change condition: use the rehearsal for the unchanged setup; reopen compatibility after replacing the adapter; treat the later failed display as a result to diagnose. Another person can challenge a connection and see what needs to be redone.
+Choosing between venues is a further decision. Even a working projector could be needed for another booked session. If the organizer must also choose the venue, compare the available arrangements, their consequences and costs through PSDA.5/.6/.8. The decision about needing another test can stand on its own.
 
 #### B.5.RA:5.4 - From an ambiguous message to a conditional venue argument
 
@@ -50382,7 +50388,7 @@ For the argument and use being recovered:
 3. The needed transitions identify their premises, inference or operation and result.
 4. Joint premises, sufficient alternatives, shared assumptions and temporary assumptions retain their different roles.
 5. The reader can perform the intended use or identify the missing transition or premise that prevents it.
-6. A small instance supports the explanation at its stated scope; a general conclusion has its corresponding reasoning.
+6. A general conclusion has grounds covering its stated domain. Any instance used supports the claim made on its basis.
 7. Further checking is selected for an unresolved question, and adequately supported parts remain reusable.
 
 For an argument using :4.4a, also inspect whether the claims preserve the source's scope, conditions and attribution; a consequential competing reading has been resolved or retained; and the selected scheme fits the offered reasoning. Intermediate conclusions and joint reasons must expose the dependency.
@@ -50402,7 +50408,7 @@ These are questions about the recovered reasoning. Their answers may be evident 
 | Checking local steps while failing to explain why a lemma or construction appears | Recover the difficulty that contribution resolves and connect it to the conclusion. |
 | Treating several uses of one premise as several independent grounds | Keep the common prerequisite visible and examine its role in the needed branches. |
 | Promoting a temporary assumption to an established premise | Recover the subargument and the conclusion obtained when that assumption is discharged. |
-| Using one example to claim that the general statement has been proved | Recover the argument that covers the stated domain; retain the example as an illustration of it. |
+| Extending a successful calculation on particular inputs to every allowed input | Recover the step that holds for an arbitrary input or establish that the cases considered exhaust the domain. An admissible failure can settle a claim of universal success. |
 | Demanding a complete reproof when the task only needs an established result under its stated conditions | Use that result at the needed level; open its internals when the new question requires them. |
 
 ### B.5.RA:9 - Consequences
@@ -50506,6 +50512,8 @@ Start with the receiving question, follow the affected reasoning and derive the 
 
 Compare the earlier question with the present one. State the result needed and the changed condition in terms that can be used in the reasoning. For a calculation, that may be a new range or an input that is now an unknown. For an empirical conclusion, it may be an observation, a changed population or an operating condition.
 
+Establish who has changed the question. A recipient may commission a new result. You may also try a different question as a way into the one still assigned. Could two situations give the same answer to your question and different answers to the recipient's? If so, recover what distinguishes them for the assigned use. In an inquiry whose direction is yours to choose, you can pursue a newly interesting question on its own terms.
+
 Distinguish a change in the situation from a correction to your account of it. A measurement taken yesterday can remain a sound report of yesterday while being insufficient for today's operation. A proposed condition can be explored without replacing the account of what has happened.
 
 Keep the meanings of the quantities and claims visible. If the same term denotes a different quantity, translate the question before substituting its value. If only the spelling or presentation changed and the established application fits, no reasoning revision is needed.
@@ -50540,7 +50548,7 @@ Relate the revised conclusion to the result requested in §4.1. It may supply th
 
 For a mathematical argument, carry the domain and assumptions into its conclusion. For an empirical application, examine the changed observation or applicability premise using the relevant subject method. Recomputing a model can establish its new consequence while leaving its correspondence with the physical situation unresolved.
 
-If the original target is unattainable under the retained conditions, use the obstruction to propose a changed condition or a different question. Keep that proposal visible as a choice. A weaker result can be useful without silently replacing the requested result.
+If the question asks whether a result is attainable under fixed conditions, a proof of impossibility answers it. If the recipient still needs a usable object or arrangement, explain what the obstruction rules out. You can propose a change to a condition the recipient has authority to revise. Carry the answer under the original conditions with the proposal so the recipient can decide whether to commission the changed work.
 
 Obtain further evidence or checking when its possible outcomes can change this use. C.11.DUA helps compare that contribution with its cost. The method can finish with a conditional result when conditional use is sufficient.
 
@@ -50566,7 +50574,7 @@ For n=4, the new sum is 3+5+7+9=24. The old formula applied unchanged would retu
 
 This repair also exposes a reusable construction. For n terms starting at a and increasing by 2, term j, counted from j=0, is (2j+1)+(a−1). Summing the established odd-number terms and the n equal additions gives n²+n(a−1). Changing the increment would require another derivation. The worked extension makes the next question precise.
 
-For the next use, retain four terms and the increment 2, but require their sum to be 28. The former starting value a=3 becomes the unknown: 16+4(a−1)=28 gives a=4. Checking 4+6+8+10=28 confirms the required sum. If there are zero terms and the required sum is positive, no starting value can supply it: the empty sum is zero for every a. The changed question then requires a different term count or total.
+Suppose a recipient keeps four terms and the increment 2, allows any integer starting value, and requires a sum of 28. The starting value is now the unknown. Solving 16+4(a−1)=28 gives a=4, and 4+6+8+10=28 checks the result. If the terms must still be odd, this same calculation proves impossibility since the only possible starting value is even. For zero terms, the empty sum is zero for every a, so a positive required sum is impossible. Either impossibility answers a feasibility question. Changing the term count, permitted values or total would be a new design choice.
 
 #### B.5.RR:5.2 - Losing one way to recover a report
 
@@ -50687,19 +50695,21 @@ Construct a model by selecting distinctions, proposing their relations and makin
 
 State what alternatives the answer should distinguish: whether an intervention can reach a target, which arrangement could explain an observation, how many constructions meet a rule, or what condition prevents a result.
 
-Inspect a small instance or the available arrangement. Describe the supplied facts separately from the account you propose. Ask what changes between the cases that matter. The first question can be provisional; preserve a new question when the attempted construction reveals a more useful distinction.
+Start from the rule, observations or arrangement that bear on the question. Inspect a small instance when it can expose a consequential difference. Describe the supplied facts and the account you propose. If the construction reveals a better question, ask what its answer would contribute to the investigation already in hand.
 
 If the participant cannot express what differs or matters, B.5.EA helps articulate that contribution before model construction. Return here when the resulting distinction permits a question or contrast; do not require this preliminary work when the contrast is usable.
 
 When the account is clear but leaves you unsure which question matters, the scheme comparison in :4.2.1 can expose a useful distinction. A discovered question may have an adequate answer; use it without requiring a larger model.
 
-An existing answer may resolve the contrast. Use it under its conditions. C.11.DUA helps when obtaining more information or refining a model competes with acting on a sufficient answer.
+Determine what the recipient needs from you. An existing answer may settle a decision. A request for a model they can use under changed conditions also needs the participants, relations and limits that let them derive the new consequence. Where the question is fixed, retain any newly discovered question for the work it can inform and return to the one commissioned. C.11.DUA helps when obtaining more information or refining a model competes with acting on a sufficient answer.
 
 #### B.5.FM:4.2 - Choose the participants and distinctions
 
 Follow what can be transformed, exchanged, combined, constrained or observed. Propose the objects and relations needed to describe those changes. For a physical situation, an interaction may cross the first proposed boundary: air surrounding a vessel or a path through its casing can matter to the answer.
 
-Try a consequential variation. If two situations receive the same description but permit different answers, recover the distinction that separates them. An object can need several quantities; several objects can sometimes be represented together. Choose the coarsening from the inference it must preserve.
+When the choice of scale is yours, start with what the recipient has to judge. Hold a part fixed and vary how the whole uses it, or hold a reported total fixed and vary the arrangement that produces it. Follow the constituents whose variation could change the answer or its explanation. Determine what counts as a constituent for each kind involved. A proposed Method has operations, a particular job has performances, and the evidence for what happened may come from a record of that job. Connect them where the question requires it. C.39.SA:4 develops this choice.
+
+Try treating some of the remaining situations alike. If they require different answers, different grounds the recipient must explain, or actions that cannot be chosen on the available information, recover the lost distinction. If the order asks for one workable choice, a choice shown to work in every situation left open can suffice even when other choices differ. An object can need several quantities, and several objects can sometimes be represented together.
 
 For a question about permitted continuations, A.3.3 helps construct a sufficient state description. For an observation, C.16 helps connect the quantity of interest to what the observation reports.
 
@@ -50721,7 +50731,7 @@ When a relation appears absent, distinguish the following outcomes:
 
 An empty position in a diagram establishes none of these outcomes by itself. If adapting a scheme changes a relation's meaning, state that change and reconsider the conclusions that depend on it.
 
-Try two plausible answers when that cheaply reveals what is at stake. If both permit the same sufficient continuation, stop the additional inquiry. Otherwise formulate the question in the participant's working language and say what answer would help: a condition, construction, distinction or bound. The benefit can concern a later inquiry or a new method. C.11.DUA governs whether obtaining the answer is worth its burden.
+Compare plausible answers when that cheaply reveals what is at stake. A difference that changes the continuation gives a reason to inquire. Use the decision criterion the work requires. For a guarantee, a rule or a bound may establish that one action works in every admissible situation. When the recipient can observe a condition before acting, assess the resulting choices together. For a decision based on risk or expected outcome, apply the agreed measure. If the choice is still open, formulate what would help in the participant's working language: a condition, construction, distinction or bound. The benefit can concern a later inquiry or a new method. C.11.DUA governs whether obtaining the answer is worth its burden.
 
 Use the resulting answer or continue constructing the model it needs. A subject specialist or AI can supply a relation, correspondence or calculation; the required knowledge and access depend on that contribution.
 
@@ -50741,7 +50751,7 @@ Use an expression that lets you carry out the next inference: an annotated sketc
 
 #### B.5.FM:4.4 - Obtain the smallest useful consequence
 
-Work one case through the proposed relations. A direction of change, a limiting value, an obstruction or a small construction may answer the question before a detailed numerical model is needed.
+Derive a consequence at the reach the question needs. Working one case can settle a question about that case, exhibit a feasible construction or refute a universal claim. For a consequence claimed across a range, identify a rule or bound that covers the admissible variations. In :5.3 the rule for extending any valid prefix supplies the counts at subsequent lengths. Computing the count at length four illustrates one use of that rule.
 
 Show which premise makes the consequence follow. If calculation or simulation is needed, C.29.2 supplies computational formulation and C.29.3 supplies realization. If the reasoning is available but difficult to follow, B.5.RA helps recover the decisive inference.
 
@@ -50827,7 +50837,7 @@ Twelve people have accepted a 60-minute workshop. There are twelve seats and one
 
 Use the relation between attempted action, observation and feedback to ask whether the intended practice can occur in the session. The sequential arrangement requires `12 * (4 + 2) = 72` minutes before any introduction. The next question is which arrangement can supply the intended practice and feedback within the available time. Reducing attendance, increasing duration or changing the learning arrangement have different consequences. Merely pairing learners supplies the required feedback only if they can provide that contribution.
 
-Now suppose twelve independent stations provide the required task-specific feedback and can be used concurrently. The serial calculation no longer describes the work. Use the concurrent duration and the remaining session activities to decide whether the arrangement fits; this reasoning does not require another instructor. If the intended event is instead a demonstration with no individual practice, the individual-feedback relation does not impose that practice on it. Clarify the event's purpose before treating this scheme as applicable.
+Now suppose twelve independent stations provide the required task-specific feedback and can be used concurrently. The serial calculation no longer describes the work. If the order allows station feedback and each station supplies the four-minute attempt and two-minute feedback in parallel with the others, assign one learner to each station for the same six minutes. Compare the remaining activities with the 54 minutes available. If the order specifies observation by the instructor, feedback from the stations alone leaves that part of the order open. If the intended event is instead a demonstration with no individual practice, the individual-feedback relation does not impose that practice on it. Clarify the event's purpose before treating this scheme as applicable.
 
 The same question-forming move can use a measurement scheme: a shared column label, such as temperature, leaves the relevant quantity, observing conditions and aggregation to be recovered before combining records. If the existing documentation establishes their suitability, use that answer. The scheme supplies a question, not a compulsory new measurement.
 
@@ -50958,7 +50968,7 @@ An added assertion can repeat what already follows. For that inquiry the two mod
 
 ##### B.5.MR:4.2.2 - Construct or select an abstraction
 
-Identify the conclusion the receiving work still needs and the determinations on which it depends. Decide which other determinations may be left open. Construct a model that leaves them open, or select an existing model that does so.
+Start from the conclusion the recipient must draw or the choice they must make. Try releasing a determination in the starting model. What additional completion would this admit, and could it change that conclusion or the grounds the recipient has to give? When the model describes several parts, try varying their arrangement while keeping the proposed facts about each part. Retain a relation between them if it rules out a joint possibility that would change the answer. Construct an abstraction from the determinations still needed, or select one whose assertions preserve them.
 
 Compare the starting model as C with the proposed abstraction as A under section 4.2: C must have a completion, and every completion of C must satisfy A under the established interpretation. Then check the needed conclusion over the answers A admits. Identify any prior conclusion that no longer follows and the determination on which it depended; report when no conclusion is lost for the inquiry. If the needed conclusion is lost, retain that determination or choose a different abstraction.
 
@@ -50976,13 +50986,13 @@ Read **L0 → L4 as levels of model abstraction** and **L4 → L0 as levels of m
 | L1, local | Conditions shared by a particular setting or recurrent local population. |
 | L0, individual | The identity of the particular entity or occurrence being modeled. Its unobserved characteristics can remain open. |
 
-**Use the levels when deciding what a result establishes.** State the decision and what the model for that decision must specify. Identify the model actually available. An L0 model that identifies a delivery can contain its planned arrival. To decide whether that delivery met its deadline, compare the verified actual arrival with the deadline in force. To decide whether a scheduling rule at L2 guarantees all its deadlines, examine why the rule covers every permitted schedule. One admissible schedule that misses a deadline defeats the claim that every permitted schedule meets its deadline. For a target of 95 percent of actual deliveries on time, assess the eligible deliveries in the specified population and period. Count a late arrival when it occurred there. A calculation using the rule can check its consequences while leaving open who designed it. Carry the result to the decision through the grounds for that particular inference in C.39.QR:4.2–4.3. Accept the conclusion those grounds support and identify what would settle the outstanding claim.
+**Use the levels when deciding what a result establishes.** State the decision and what the model for that decision must specify. Identify the model actually available. An L0 model that identifies a delivery can contain its planned arrival. To decide whether that delivery met its deadline, use evidence that relates its arrival to the deadline in force. An authenticated indication that it arrived before the cutoff can settle the decision even when its exact arrival time remains unknown. To decide whether a scheduling rule at L2 guarantees all its deadlines, examine why the rule covers every permitted schedule. One admissible schedule that misses a deadline defeats the claim that every permitted schedule meets its deadline. For a target of 95 percent of actual deliveries on time, assess the eligible deliveries in the specified population and period. Count a late arrival when it occurred there. A calculation using the rule can check its consequences while leaving open who designed it. Carry the result to the decision through the grounds for that particular inference in C.39.QR:4.2–4.3. Accept the conclusion those grounds support and identify what would settle the outstanding claim.
 
 Check each pair for one inquiry under §4.2. Establish which earlier assertions every remaining design or permitted performance satisfies. Show that at least one remains. If the step is strict, name an answer that can no longer be obtained. The same test applies to two models of one design or method, including when both are disciplinary models.
 
 If a site adopts a disciplinary rule with the same interpretation and adds no constraint on the action in question, write “the site uses the L2 rule unchanged.” The L1 practice model records the site's adoption of the rule for recurring work. If asked at what level the rule specifies the permitted action, keep L2. Claim a further level of refinement for that action only when the local model excludes a previously permitted answer. Several strict refinements can occur within one named level. If a rule permits a check at either site, specifying the first site excludes the second answer to “Where may this check take place?” If both sites have to be checked, dropping one abandons an obligation.
 
-A disciplinary model can prescribe a method, a local model can specify how it may be used at one site, and an individual model can describe a particular performance. Evidence that the work occurred and followed the rule must come from that performance. Two models of a system can also stand in strict refinement at the same physical scale. Moving to a constituent invokes the constructive relation under B.1.
+A disciplinary model can prescribe a method, a local model can specify how it may be used at one site, and an individual model can describe a particular performance. Evidence that the work occurred and followed the rule must come from that performance. Two models of a system can also stand in strict refinement at the same physical scale. Moving to a constituent invokes the constructive relation under B.1. A change of composition scale gives a refinement claim only if the models can also be read for the same inquiry and pass §4.2. Use C.39.SA:4 if choosing which constituents and which model distinctions to keep is itself part of the work.
 
 Core, DPFs and LPFs supply models that can participate in such comparisons. A publication or discipline does not itself have one abstraction level. Binding a parameter can refine a model without changing its language; changing professional vocabulary can preserve all its admitted answers. A richer representation language can also express a model applicable to more situations. Compare the interpreted assertions for the inquiry.
 
@@ -50994,7 +51004,9 @@ A metamodel states conditions on admissible models, such as which field or relat
 
 A project commissions a temperature recorder for one installation. The earlier specification permits records at whole-minute intervals of one or two minutes. The new specification permits only one-minute intervals and preserves the units, clock and operating conditions. A one-minute record is still eligible. A two-minute record is excluded. For the inquiry about permitted sampling intervals, this is strict refinement. If the recipient asks only whether every hour contains a reading, both specifications give the same answer. Whether the installed recorder met its specification last night requires observations of that recorder.
 
-Suppose a receiving comparison needs to know whether each recorder specification ensures at least one reading in every hour, without deciding between one-minute and two-minute intervals. Reuse the earlier specification as an abstraction of the one-minute specification. Every completion of the latter still satisfies the former, and both permit a completion. The abstract specification retains the hourly conclusion over all its permitted intervals. It no longer entails that the interval is one minute. For an inquiry that distinguishes the intervals this is strict abstraction; for the hourly inquiry the answers remain equivalent.
+Suppose a receiving comparison needs to know whether each recorder specification ensures at least one reading in every hour, without deciding between one-minute and two-minute intervals. Reuse the earlier specification as an abstraction of the one-minute specification. Every completion of the latter still satisfies the former, and both permit a completion. The abstract specification retains the hourly conclusion over all its permitted intervals. It no longer entails that the interval is one minute. For an inquiry that distinguishes the intervals this is strict abstraction. For the hourly inquiry the answers remain equivalent.
+
+Now consider two recorders required to use the same interval, either one or two minutes. Describing each by its allowed intervals and allowing the settings to vary independently admits the former pairs (1,1) and (2,2), as well as (1,2) and (2,1). For the inquiry about permitted pairs this is a strict abstraction. Each recorder still supplies an hourly reading under either setting. If the recipient must also be sure the intervals match, retain the common setting while leaving its value open. Both comparisons concern the same two recorders. The difference lies in what the models permit.
 
 A work method screens requests under a criterion and then refers unresolved ones for a second judgement. A local revision adds a deadline to the referral while preserving the screening rule. A referral after the deadline was admissible under the earlier timing rule and now falls outside the local prescription. A second revision silently accepts some requests previously requiring referral. Compare that changed decision with the original rule before relying on it. An excellent record of one compliant case cannot settle the claim for the newly admitted cases.
 
@@ -51050,7 +51062,7 @@ Use this pattern when a theory offers a promising way to answer a question, but 
 
 The work here is to construct one application of the theory. Begin with the question and the available account; obtain and interpret the contribution that question needs. The result can be a construction, prediction, explanation, bound or identified missing operation. A mathematical question about what can be constructed is a possible receiving use, as is an engineering decision.
 
-**First useful move.** Choose one question the theory might settle. Find a source case or rule that could supply its answer. Say what plays each required part in your case, work the decisive operation, and explain what its result changes. If you cannot make that connection, locate the first missing premise, interpretation or operation.
+**First useful move.** Begin with the question you are to answer. If choosing an application is part of the work, select a question the theory might settle. Find a source case or rule that could supply the needed contribution. Say what plays each required part in your case, work the decisive operation, and explain what its result changes. If you cannot make that connection, locate the first missing premise, interpretation or operation.
 
 For example, a theory of composition lets you combine two operations. Does it let both consume one input, or does the combination require two separately supplied inputs? Recovering that distinction can change the proposed implementation before any code is written.
 
@@ -51078,9 +51090,9 @@ Connect the question, the theory's constructive or inferential resources, and th
 
 #### B.5.TU:4.1 - Choose an application worth constructing
 
-State what an answer would help someone understand, obtain, predict, rule out or change. Select one case small enough to work with the available means while retaining the difficulty. For example, “Can these two operations use the same input?” gives composition rules a purpose; “understand category theory” leaves that first use unselected.
+State what an answer would help someone understand, obtain, predict, rule out or change. If the application is assigned, begin with that question. For a smaller case, identify the operation or inference its result will supply when you return to the assignment. The question “Can these two operations use the same input?” can expose a missing composition rule. Permission to use a formal input twice still leaves open whether a particular implementation can supply both operations.
 
-Locate a source application serving that question, or the nearest account whose objects and rules could be adapted. State which part is supplied and which you are proposing. A theory can also be explored to discover a useful question: try one of its characteristic operations and inspect what its result makes distinguishable or obtainable.
+Locate a source application serving that question or an account you could adapt. Identify which choices the source has made and which the present application leaves to you. When exploring a theory freely, try one of its characteristic operations and inspect what its result makes distinguishable or obtainable. That can give you a question worth pursuing in its own right.
 
 Determine the contribution you need to learn or obtain. Applying a supported formula can need its inputs and use conditions; changing the formula can need its construction and argument. Explain the needed difference in work before selecting further study.
 
@@ -51096,7 +51108,7 @@ Make an unfamiliar expression operative at the point of difficulty. Determine th
 
 Connect each consequential object and condition to the selected case. Some are supplied by observation or design; some are assumptions of the model; others belong to the theory's mathematical construction. Keep their roles clear where they affect the conclusion.
 
-Choose the values, boundary conditions, allowed operations and sought output. For a theoretical question, this may be entirely a construction within the theory. For a physical use, explain which system, quantity or interaction the mathematical object represents. C.29 supplies the mathematical correspondence and the comparison of what it preserves, omits or introduces.
+Take the givens and the required output from the question. Where you must choose a representation, work back from what the recipient must be able to do. For example, a planner choosing an attainable combination of jobs needs to know which jobs fit together and which must be performed whole. For a question about excluding a target value, a bound over a larger set of plans can suffice if it covers every permitted plan, as in :5.3. For a theoretical question the construction can stay within the theory. For a physical use, identify which system, quantity or interaction the theoretical object represents. C.29 supplies the mathematical correspondence and the comparison of what it preserves, omits or introduces.
 
 Compose the required operations. Check the connection between successive contributions: an operation's output must supply the next operation's required input. An integration procedure, for example, needs a function of its integration variable; a formula with unfilled path or parameter arguments does not supply that function.
 
@@ -51159,15 +51171,15 @@ For a nonzero `eta`, write this positive change as `K`. Along the paths `q_0+c*e
 
 The application has an interpreted answer: under the adopted model, passing those endpoint positions in that time entails constant velocity. A computational implementation must evaluate the path derivative in the velocity argument before integrating. It can reproduce the numerical action comparison; the displayed argument supplies the wider conclusion.
 
-Suppose the two-metre trip must instead begin and end at rest. The constant-velocity answer fails that condition. The return is that the undriven free-particle account cannot supply this trip: the design needs acceleration and deceleration, and an account of the forces producing them. The next contribution is that driven-motion model. Increasing the resolution of the free-particle calculation would retain the missing physical contribution.
+Suppose the engineer asks whether the same undriven model permits the two-metre trip to begin and end at rest. Its constant velocity would have to be zero throughout, so it cannot produce that displacement. This answers the feasibility question. If the engineer must also design a carriage that makes the trip, identify how it could accelerate and decelerate, model the forces available, and check the design against the required endpoints and time. A finer calculation in the undriven model would preserve the original obstruction.
 
 #### B.5.TU:5.3 - Keep a useful bound when the optimizer cannot be enacted
 
-A planner learning optimization must select whole jobs for four available hours. At most one A-job is available, taking three hours for stipulated value 5; at most two B-jobs are available, each taking two hours for value 3. Durations and values add in this constructed problem.
+A planner learning optimization must choose the highest-value combination of whole jobs that fits four available hours. At most one A-job is available, taking three hours for stipulated value 5. At most two B-jobs are available, each taking two hours for value 3. Durations and values add in this constructed problem.
 
 A linear relaxation permits real counts `0 <= x <= 1`, `0 <= y <= 2` with `3*x+2*y <= 4`. It returns `x=1, y=0.5`, value `6.5`. Recover the argument: the time condition gives `y <= (4-3*x)/2`, so `5*x+3*y <= 6+0.5*x <= 6.5`; the returned pair attains that limit.
 
-For the whole-job choice, enumerate the alternatives. With A selected, no B fits and value is 5. Without A, two B-jobs fit and value is 6. Select two B-jobs. The fractional optimizer has supplied a bound: no whole-job arrangement can attain value 7 because every such arrangement is also admitted by the relaxation.
+For the whole-job choice, two B-jobs fit and give value 6. Every whole-job value is an integer and the relaxation admits every whole-job arrangement. Its upper bound of 6.5 therefore establishes that none can exceed 6. The feasible choice and the bound together prove optimality. Direct enumeration gives the same conclusion here. With A selected, no B fits and the value is 5. Without A, at most two B-jobs fit. If the planner asks only whether 7 is attainable, the bound alone rules it out.
 
 The use of the theory changes with the question. Selecting work needs an attainable arrangement; excluding a target can use a bound. The practitioner needs to recover that relation before deciding whether a further optimization step is useful. B.5:5.4 also works the changed five-hour case.
 
@@ -51194,7 +51206,7 @@ Familiar terminology can make a supplied interpretation look independently recov
 | --- | --- |
 | Reuse a composition while overlooking how many inputs it consumes. | Recover the permitted operations and supply their inputs; in :5.1, copying is the decisive additional operation. |
 | Evaluate a familiar-looking expression before filling its arguments. | Construct the path, derivative and substitution required by the operation, as in :5.2. |
-| Improve a computation whose formulation omits the receiving condition. | Recover that condition and change the model or question; finer calculation of undriven motion leaves departure at rest unresolved. |
+| Improve a computation whose formulation omits the receiving condition. | Recover that condition. The undriven model rules out the requested trip from rest to rest. A design for making the trip must account for how the motion changes. |
 | Discard an infeasible optimizer together with its valid bound. | Interpret each result separately; :5.3 retains the exclusion of value 7. |
 | Require the same depth of study for using and altering a result. | Locate the contribution the work needs, then recover or obtain the reasoning that enables it. |
 
@@ -51252,7 +51264,7 @@ The common method is a synthesis of these contributions. Reconsider how to const
 
 The work here is to compare uses of those accounts. A theory supplies objects, relations and ways of reasoning; an application adds a question, an interpretation and the premises needed to obtain an answer. Compare those applications while keeping the underlying accounts understandable on their own terms.
 
-**First useful move.** Ask one question of each account. Supply the same relevant situation, recover how each answer is obtained, and locate the first difference that matters to the use. A route description that says where travel is possible and one that gives minimum travel cost can both be useful. The question determines which information and operations you need.
+**First useful move.** Begin with the question the recipient needs answered. Where the accounts offer answers to the same part, compare their reasoning under corresponding conditions. Where they supply different premises, establish how those premises contribute to the required answer. A route description that says where travel is possible and one that gives minimum travel cost can both be useful. The question determines which information and operations you need.
 
 The result explains what each account contributes, the conditions of agreement or difference, and which use or inquiry should follow. You may select one sufficient account, combine complementary contributions, or retain an unresolved difference together with what remains usable.
 
@@ -51286,7 +51298,7 @@ Say what you want to explain, predict, construct or decide, and what would count
 
 Keep the account and its proposed use separately visible. Comparing a theory's possible reach with a rival's implemented calculation is a comparison of unequal contributions. Either construct the relevant application of both or state which contribution is unavailable. An unavailable application can be a reason to use another account while retaining the first for development.
 
-If the accounts answer different questions, identify their shared question, if any. For the remaining questions, compare their usefulness as complementary contributions. A newly expressible question can be a valuable result: explain what inquiry it opens and why that inquiry matters. B.5:4.4 connects this result to problem development.
+If the accounts answer different questions, identify any shared question and ask what its answer supplies for the work in hand. They may agree about what was observed while supporting different decisions about a proposed change. Compare the remaining contributions for those uses. In open research a new question can be worth pursuing for what it makes possible. If an earlier question is still assigned, state what the comparison establishes for it and which part remains open. B.5:4.4 connects this result to problem development.
 
 #### B.5.TC:4.2 - Recover an application of each account
 
@@ -51300,11 +51312,11 @@ A collaborator or tool can supply a calculation or proof. Recover the interpreta
 
 #### B.5.TC:4.3 - Work the same case and align the answers
 
-Choose a small case that exercises the disputed operation or distinction. Give each account the corresponding inputs, derive its answer, and express the answers in the terms of the question. Explain the correspondence when the inputs or outputs have different forms.
+Work with the actual situation or a smaller case that retains the disputed operation or distinction. Give each account the corresponding inputs, derive its answer and express it in the terms of the question. Explain the correspondence when the inputs or outputs take different forms.
 
 For a mathematical application, compare the retained distinctions and operations. C.29.1 supplies the preservation argument when a result is to be transferred. For a physical application, keep the phenomenon, operating conditions and meaning of the predicted quantity aligned. For a computation, separate the mathematical formulation from approximation, numerical tolerance and execution.
 
-Begin with an understood case so a transcription or implementation error can be found. Then use a changed case that exercises the claimed difference: a shared resource, a constraint, an intervention or another relevant variation. Derive a general relation when the intended conclusion ranges beyond the cases. A finite example establishes its result; a counterexample can refute a general assertion whose premises it satisfies.
+Use a familiar case when it helps locate a transcription or implementation error. To investigate a difference, choose a case on which it matters and explain why. For a conclusion spanning cases, identify the dependence that carries it through the claimed range. One derivation for an arbitrary member can establish agreement there. One admissible counterexample can settle a claim of agreement everywhere. Where the question concerns only the given case, its sufficiently grounded result can finish the comparison.
 
 Agreement of reported numbers is informative only after their meanings and conditions are aligned. Conversely, different intermediate objects can lead to the same answer through an explained correspondence. Record only the derivation or explanation the receiving use needs.
 
@@ -51351,15 +51363,15 @@ If the comparison turns on whether one model refines another, check for the same
 
 #### B.5.TC:5.1 - Routes, reachability and minimum cost
 
-A mathematical account keeps routes as distinct objects. Routes p and q go from X to Y and cost 1 and 4. A route r goes from Y to Z and costs 2. Routes with matching endpoints can be concatenated; the cost of a concatenation is the sum of its costs. The two routes from X through Y to Z therefore cost 3 and 6.
+A planner asks what can be learned about a complete journey from X through Y to Z from accounts of its two stages. One recipient needs to know whether travel is possible. Another needs the least possible cost. Recover what each account retains that could answer those questions. In the first account, individual routes are distinct objects. Routes p and q go from X to Y and cost 1 and 4. Route r goes from Y to Z and costs 2. Routes with matching endpoints can be concatenated and their costs add, giving complete routes costing 3 and 6.
 
-A second account keeps only whether travel between endpoints is possible. Both X-to-Y routes become the answer “yes”. Joining that answer to Y-to-Z reachability gives “yes” for X-to-Z. This account answers whether travel is possible. It cannot give the cost of the route taken: p followed by r and q followed by r have the same reachability summary and different costs.
+A second account keeps only whether travel between endpoints is possible. Both X-to-Y routes become the answer “yes”. Joining that answer to Y-to-Z reachability gives “yes” for X-to-Z. This account answers whether travel is possible. Reachability alone cannot determine the minimum cost. Keep the routes and their endpoints, but change the cost of p from 1 to 5. With q still costing 4 and r costing 2, the least complete cost changes from 3 to 6 while every reachability answer stays the same. For a question about the route actually taken, even the original network permits two different costs.
 
-A third account keeps minimum costs. For finite nonempty sets of allowed first and second segments, assume every first segment can be followed by every second segment and costs add. Then the least combined cost is the sum of the two least costs. Every combined cost is at least that sum, and combining the two minimizing segments attains it. Here the answer is 1 + 2 = 3. The calculation can therefore answer the minimum-cost question without retaining every route. Choosing a route also requires the minimizing segments to be recoverable.
+A third account keeps minimum costs. For finite nonempty sets of allowed first and second segments, assume every first segment can be followed by every second segment and costs add. Then the least combined cost is the sum of the two least costs. Every combined cost is at least that sum, and combining the two minimizing segments attains it. For the original costs, the minimum is 1 + 2 = 3. The calculation can therefore answer the minimum-cost question without retaining every route. Giving directions for a minimum-cost route also requires the minimizing segments to be recoverable.
 
 Now change the allowed combinations. Let the second segments be r with cost 2 and s with cost 10. Only p followed by s, and q followed by r, are allowed. The minimum is min(1 + 10, 4 + 2) = 6. Independently minimizing the two stages gives 3, which no allowed route attains. The failure is the omitted compatibility relation. Retain the incoming-route distinction or calculate over the allowed pairs.
 
-The comparison yields three useful accounts with different retained information. Its changed case also identifies a condition for the minimum-cost composition rule. No physical interpretation is needed for this mathematical result. Using cost as travel time or expenditure adds the corresponding interpretation and additivity conditions.
+The planner can now choose what to recover from a partial description. With additive costs, the sum of the separate minima is a lower bound on every permitted complete route. To report it as the minimum, show that some permitted complete route attains both minima. This can hold even when other pairings are forbidden. To answer only whether a journey is available within a budget of 7, the allowed route costing 6 already suffices. For directions, identify the actual segments that make up an affordable route. Treating costs as times or expenditures adds the conditions under which those quantities add.
 
 #### B.5.TC:5.2 - The same oscillator, different formulation and computation
 
@@ -51456,7 +51468,7 @@ This pattern combines these constructive contributions into a common comparison 
 
 **First useful move.** Recover the step at which the earlier reasoning failed, or the operation that has become available. Ask what it lets you distinguish, construct, explain or change. For example, a triangle refutes the claim that every connected graph can be divided into two groups with every edge crossing between groups. It also suggests asking for a construction that returns either the division or an obstruction.
 
-The result is a question with an understood answer form, a useful first attempt and a reason to pursue or retain it. The answer may support further theory, a different investigation or an action in the world. Developing a concept or a reusable operation can be that contribution even before its eventual applications are known.
+The result is a question with an understood answer form, an attainable way into it and a reason to pursue or retain it. If the assignment is to formulate the question, this can complete it. If an earlier answer is still owed, explain what the new question contributes to it. Some investigations are free to develop a concept or a reusable operation before any eventual application is known.
 
 Use an adequate question. If the question is clear and the missing contribution is a way to answer it, C.39 supplies that search. This pattern is useful when the result sought or the question's conditions need to be developed.
 
@@ -51478,7 +51490,7 @@ A useful next question grows from a consequential change: an exposed dependency,
 
 ### B.5.QD:4 - Solution
 
-**Recover what changed → locate the dependency or new operation → construct a consequential question → work a revealing case → choose the next inquiry and keep what remains useful.**
+**Recover what changed → find the consequential dependency or new operation → formulate the question it opens → use a case, construction or argument to establish a useful point of entry → choose how to continue.**
 
 Enter with the result that changed the inquiry. Reuse a known formulation or derivation when it supplies the needed step. Return to an earlier step if an attempted answer reveals that the question is ambiguous, underdetermined or more expensive than its use warrants.
 
@@ -51508,7 +51520,7 @@ Use variations that have a reason in the work. The following are common ways to 
 | An argument needs an unavailable intermediate result. | Ask for a lemma, witness or construction that supplies that step; state how it would be used. |
 | A familiar operation becomes available in another setting. | Ask whether its required relations hold there and what receiving task it can serve. |
 
-A variation can change the original task. State that change: restricting a claim to trees may give a valid result while leaving the original request about all graphs unanswered. If the broader request matters, keep it as an unresolved question.
+Ask what the variation preserves for the earlier question. A counterexample on a tree can refute a claim about all graphs. A theorem for trees can settle a request about all graphs if a valid reduction carries its conclusion back to every graph at issue. Without such a connection, keep the broader claim open. When research direction is yours to choose, you can pursue the tree question for its own mathematical interest. When the broader answer was requested, identify what remains due or obtain agreement to a different result.
 
 These variations can be combined or repeated. Their purpose is to expose a useful answer.
 
@@ -51524,9 +51536,9 @@ Separate a proposed answer from the question. “Does this procedure always term
 
 If a question combines several missing contributions, make the dependency visible. For a physical calculation, you may first need a model that determines a quantity, then a computation of that model, then an interpretation for action. B.5.MPC coordinates those contributions. Name the first unresolved connection so a person, AI agent or group can work on it using the available subject knowledge and tools.
 
-#### B.5.QD:4.4 - Work a case that reveals the difficulty
+#### B.5.QD:4.4 - Find an entry that reveals what the question requires
 
-Choose a small case that exercises the changed condition or new operation. Attempt the requested construction or inference and explain where it succeeds or stops.
+Choose an entry that exposes what must be done. A small case is useful when changing one condition reveals an obstruction or a lost distinction. If the relevant dependence already follows from an argument or a construction over arbitrary admissible inputs, use that reasoning directly. To distinguish two possible explanations of an occurrence, seek grounds about that occurrence. A new hypothetical case can show how the explanations differ.
 
 Use the result to improve the question. A successful case can expose a reusable relation. A failed case can identify a missing premise, an incompatible demand or an operation to be developed. If two admissible cases give different answers from the same supplied information, ask for the missing distinction or a result valid for both.
 
@@ -51542,7 +51554,7 @@ A worthwhile first question may be narrower than the eventual aim: establish a l
 
 E.10.INT helps distinguish useful interest from novelty, surprise or a local scoring heuristic. A question can be worth pursuing because it opens further constructions, changes what can be explained or makes another question approachable. Its eventual practical destination may remain unknown. When problems and ways of solving them must develop together, use C.40; retain a promising alternative when its prospective use justifies doing so.
 
-Continue with the chosen question, its first attempt and the dependency that attempt is meant to resolve. A short explanation in the work can carry this result. Stop when the need is answered, or when another inquiry is the better use of the available effort.
+Continue with the chosen question, the contribution that makes it attainable and the dependency it is meant to resolve. Stop when the requested result is in hand. In an open inquiry, a better use of the available effort can justify changing direction. For a fixed assignment, a reason to stop investigating identifies a limit on the answer unless the work already meets the assignment or its holder has changed it.
 
 #### B.5.QD:4.6 - Separate question recognition from answer assurance
 
@@ -51566,7 +51578,7 @@ The next question is: **For a given finite simple undirected graph, can we const
 
 B.5:5.1 supplies the broader construction. Traverse each component by breadth-first search and assign groups by even or odd depth. If every edge joins opposite parities, the assignment works. An edge joining equal parities combines with the two parent paths up to their last shared vertex to give a simple odd cycle. The construction therefore answers the new question for the stated graph class.
 
-The earlier connectedness requirement can be dropped: work through each component, including isolated vertices. For an allocation, establish that the graph represents the relevant pairwise incompatibilities. Three-way constraints would change that application question.
+The new procedure also works on disconnected graphs by treating each component, including isolated vertices. For a real allocation, determine which combinations the graph rules out. A restriction on three items together can leave each pair permissible. The allocation question can then require a richer model. A two-colouring that satisfies all the actual restrictions still supplies a feasible allocation. A two-colouring that violates the triple restriction leaves open whether a different allocation works.
 
 #### B.5.QD:5.2 - From a position to a sufficient state or useful bound
 
@@ -51604,8 +51616,8 @@ Mathematical search often favors statements that can be proved. Question develop
 - The earlier work and its consequential result are recoverable.
 - A failure is located at the claim, premise, inference or implementation it affects; a success exposes its reusable operation or relation.
 - The new question states an answer form and the conditions needed to understand it.
-- A changed formulation preserves the unanswered part of the earlier task when that part remains useful.
-- A worked attempt reveals a consequence, a missing distinction or the operation to obtain next.
+- For a question already assigned, the contribution of the new formulation to its answer is warranted. A separate research direction can be chosen by whoever holds that choice.
+- A case, existing derivation or other attainable contribution shows what the proposed inquiry could establish, including whether any result is still owed for the earlier question.
 - The question's possible contribution and its attainable first step justify pursuing or retaining it.
 - The proposed answer is used with the scope and support appropriate to its claim.
 - Further work can stop when an available answer suffices; explanations and records are only as extensive as their receiving use requires.
@@ -51676,11 +51688,11 @@ The reported computational environments demonstrate that search approach under t
 
 **Use this when** an account makes needed outcomes appear incompatible and you need to find what could change without losing the purpose of the work. Two requirements may concern different operating conditions, yet the model gives them one setting. A familiar means of obtaining one result may obstruct another result, although that means has never been shown necessary.
 
-**First useful move.** Put the two demands beside the statement that makes them conflict. Ask what requires that statement. For example, “the setting must be at least 6 during work and at most 2 during quiet operation” conflicts with a fixed-setting design. It leaves open a question about changing the setting between those conditions.
+**First useful move.** Identify which demands must hold together for the wanted result, and what makes you think they conflict. A shared condition may rule out the whole combination while every pair is compatible. For example, requiring one fixed setting to be at least 6 during work and at most 2 during quiet operation excludes every fixed value. Whether the device may change settings between conditions is a question about its design and use.
 
 The result is a reformulated question or candidate construction whose retained requirements, changed premise and remaining obstacle are understood. Sometimes the useful result is an impossibility under the retained conditions, followed by a decision about which requirement can change.
 
-The reader needs enough knowledge to interpret the requirements and the inference connecting them, or access to someone who can supply that interpretation. Start with ordinary statements and a small case. Use an adequate existing solution. If the only unresolved question is choosing an accepted trade-off, compare the options; recovering premises is useful when it could reveal another option or change the grounds for that choice.
+The reader needs enough knowledge to interpret the requirements and the inference connecting them, or access to someone who can supply that interpretation. State the requirements in ordinary language and identify when they must hold together. Use a small case if it helps expose a conflict. Use an adequate existing solution. If the only unresolved question is choosing an accepted trade-off, compare the options; recovering premises is useful when it could reveal another option or change the grounds for that choice.
 
 ### B.5.QD.CF:2 - Problem
 
@@ -51738,13 +51750,13 @@ A tentative assumption change lets you explore that question. Keep the conclusio
 
 #### B.5.QD.CF:4.4 - Construct a small answer and return it to the whole need
 
-Perform the relevant reasoning or operation on a case that includes the changed condition. Show how the candidate obtains the needed result, or locate the contribution unavailable. A formal witness answers a question about its model. A physical or organizational proposal also needs the means to produce the corresponding result in its intended setting.
+Use a construction or argument that can answer the question. For a proposed way of working, establish what obtains the needed result under its intended conditions. A case that includes the changed condition can expose an obstruction. When one set of grounds applies throughout the proposed range, show how it covers that range. A mathematical witness supplies a possible configuration. Establish the means of realizing it when the work calls for a physical or organizational result.
 
-Reapply every retained requirement that the proposed change can affect, including those outside the small set used to locate the conflict. A separate operating setting may require a transition that is too slow. An archived input may reproduce a calculation while violating a retained deletion requirement. Either consequence changes what the candidate can answer.
+Return the change to the complete need. Recover the grounds for each retained requirement and for their joint satisfaction on the same admissible arrangement. Reuse grounds that still apply to that arrangement. Repairing a conflicting subset can leave a different conflict untouched. A switch between two individually feasible settings may take too long, and an archive that reproduces a calculation may violate a retained deletion requirement.
 
 Keep three facts distinguishable: the revised statements are compatible; an operation is proposed that would supply their values; that operation has produced or otherwise established the result required for this use. Use the strongest available fact the question needs. An inquiry about what to design next may be answered by a conditional construction; deploying it can require further work.
 
-If the conditions remain incompatible, state that result under the premises that support it. The next question can ask which requirement may change, whether another model is warranted, or whether the work should stop. A proof of impossibility can settle a construction request without finding a replacement.
+If the conditions remain incompatible, show which of them imply that conclusion and what it settles. A proof that no permitted arrangement works completes an inquiry about feasibility. When a working arrangement has been commissioned, the proof explains why it cannot be supplied under those conditions. A decision to change an obligation, or to accept that finding as the deliverable, belongs to whoever holds that choice.
 
 #### B.5.QD.CF:4.5 - Continue at the missing contribution, or use the answer
 
@@ -51816,9 +51828,9 @@ The easiest premise to remove may be the one with the strongest physical or prac
 - The inference distinguishes requirements, observations, modeling assumptions and proposed means where their different roles change the answer.
 - A claimed necessity has its direction and basis; a proposed replacement supplies the result previously attributed to that means.
 - A changed participant or condition corresponds to the intended situation, rather than merely changing a name.
-- The candidate returns to the retained requirements, including affected conditions outside the diagnosed conflict.
+- A proposed repair has grounds for the joint result required of the same arrangement, including relevant conditions outside the diagnosed conflict.
 - A compatible account, conditional construction, obtained result and authorized requirement change retain their different meanings.
-- The next question serves the unresolved need or states how that need was changed; a sufficient answer or impossibility can stop the work.
+- A sufficient answer or impossibility can complete the question it settles. Any separate result owed, or decision to revise it, remains identifiable.
 
 ### B.5.QD.CF:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -51887,6 +51899,8 @@ How can a project coordinate concept development and operational readiness witho
 
 Use the four development states to name the current focus for the episteme or system under development. For an intended transition, identify the design, evidence and operational conditions that need to hold. The Canonical Reasoning Cycle (B.5) can supply the reasoning contributions; the state names do not prescribe an assurance ladder.
 
+Start with the project decision. For a report on which components actually serve users, use evidence of their operation during the period. A current development-state record can suffice when its meaning establishes that use. To decide whether the service they form can begin operating, identify the configuration to be used and the conditions it must sustain. If you choose which constituents to examine, follow the ones whose state or interaction could change that decision. A qualification covering the intended arrangement can already settle the performance condition for that transition.
+
 **The Four Development States:**
 
 | State | Core Activity | Manager's View: What It Means | Possible reasoning contributions | What the state leaves to the receiving claim and use |
@@ -51905,6 +51919,8 @@ B.3.3 governs any assurance conclusion about the claim and receiving use. Retain
 **Worked case.** A service team completes B.5.2's latency-spike inquiry with a qualified backup-interaction conjecture and live rivals. The possible causal probe is unavailable, so the explanatory result remains limited. An existing operational qualification supports a permitted diversion to a spare instance for this traffic and interval. The team can use that basis for the diversion without declaring the explanation validated or advancing a new design through Evidence.
 
 If the team instead proposes a new deployment whose required load test is missing, that deployment remains blocked; the useful conjecture does not supply the missing qualification.
+
+Suppose two live services each qualify to divert to the same spare. Can both divert together? If their traffic rates add and the spare is qualified for both traffic types together at every permitted mix up to the sum of their peak rates, its capacity covers the diversion. If the sum of the peaks exceeds the spare’s capacity, determine whether any permitted simultaneous mix exceeds its capacity for that mix. One such mix defeats a guarantee covering every permitted mix. Diversion during a particular interval may still work. For a report confined to use today, evidence of that use can settle the question.
 
 ### B.5.1:4 - **Conformance Checklist**
 
@@ -51952,6 +51968,8 @@ This pattern operationalizes the **Principle of State Explicitness (P-9)** for d
 
 An adequate present answer or action need not enter abduction to generate another research task. Use C.11 for a live choice among feasible actions and C.28 when a causal-support claim is needed. Abduction contributes candidate explanatory content; it is not the complete evidence synthesis or action decision.
 
+Start from what the recipient needs explained and who is to choose the question. When the commission is to check a supplied explanation, first derive what it implies for that case and use any adequate evidence already available. When it is to find an explanation, the supplied candidate is one possibility to examine. An invitation to discover questions can give the investigator the further choice of what to pursue.
+
 ### B.5.2:2 - Problem
 
 Abductive work can fail in several ways:
@@ -51993,6 +52011,8 @@ Abduction develops candidate explanations, models or conjectures for a declared 
 | **2. Generate candidate hypotheses** | Develop candidates that could explain the prompt and look for serious rivals. | The candidates considered, including any limit from not identifying a serious rival. |
 | **3. Apply plausibility filters** | Compare candidates against explicit plausibility criteria. | A short rationale stating why each considered candidate remains live, is deferred or is rejected, and what comparison those grounds support. |
 | **4. Return the supported result** | Select a conjecture when the comparison warrants it; otherwise return the applicable outcome in §14.2. | A hypothesis-bearing `U.Episteme` with its prompt, selection rationale, any live rivals, supports, fragilities and allowed use when a conjecture is selected; otherwise the justified abort, defer or split outcome. |
+
+To construct a candidate, work back from the unexplained contrast. What relation could produce both the observed outcome under one condition and the comparison outcome under the other? Hold the proposed factor fixed and look for another way to obtain the contrast. It might arise from an interaction among components, from how the observation was made, or from an assumption in the account. In a theoretical inquiry, trace apparently incompatible results to their assumptions and vary one that could change what each result says. Keep a candidate when you can show what would follow from it for the prompt.
 
 The loop is iterable. A selected prime hypothesis may later be replaced, narrowed, or reopened if deduction, probe work, or evidence reveals a better rival.
 
@@ -52158,7 +52178,7 @@ Not every abductive run should end in a prime hypothesis. Three non-selection ou
 
 1. **Abort.** The prompt dissolves because the initiating anomaly or opportunity was misread, duplicated, or already answered elsewhere.
 2. **Defer.** The available candidates or grounds do not support a qualified conjecture or a warranted preference. Preserve any supported candidates and the unresolved explanatory or comparison question. A separately warranted present action may proceed under C.11.
-3. **Split.** When distinct questions require separate explanatory comparisons, distinguish those questions and their entry grounds. Continue the needed questions under their prompt-entry conditions.
+3. **Split.** When distinct questions require separate explanatory comparisons, distinguish those questions and their entry grounds. If the original question concerns how the contributions act together, identify what evidence or reasoning can connect their answers. Keep that question open until the connection warrants an answer.
 
 
 #### B.5.2:14.3 - Reopening and rival reinstatement
@@ -52175,7 +52195,7 @@ A conforming reopening note should identify:
 
 #### B.5.2:14.4 - Scope discipline during iteration
 
-Abductive drift often comes from silent scope expansion. A conjecture first framed for one target slice becomes a universal explanation. `B.5.2` therefore expects scope discipline to remain explicit during iteration. If a candidate requires a broader or narrower scope than the prompt originally declared, state that change before using the candidate at the new scope.
+Compare the scope of the candidate with the explanatory question. To use an explanation of one occurrence for a recurring phenomenon, identify what makes the account apply across the occurrences that matter. One decisive case can already refute an explanation claimed for every occurrence. A new question about a different setting can be pursued under a commission to explore. For a fixed assignment, give the supported answer to the question asked and identify any change of assignment that needs agreement.
 
 ### B.5.2:15 - Worked Examples
 
@@ -52183,17 +52203,13 @@ Abductive drift often comes from silent scope expansion. A conjecture first fram
 
 A service team notices recurring latency spikes during one operating window. The prompt species is `AnomalyStatement`: *why does latency spike in the evening batch window despite unchanged nominal load?*
 
-The candidate set includes:
+Follow one slow request from arrival to completion. A stable count of arrivals can coexist with a growing downstream queue. A separate evening job could reduce the rate at which requests are served. A scheduled backup on the same storage path could also make a request wait. With other traffic held fixed, a cache invalidation regression could generate extra reads per arrival. Each mechanism can lengthen the wait, and several can act in the same window. A trace showing where this request waited may settle its own delay. To explain the recurring spike, establish how the observed requests contribute to the latency statistic and why the proposed relation holds over the relevant windows.
 
-- queue saturation in one downstream dependency,
-- a time-window interaction with backup traffic,
-- and a recent mechanism regression in cache invalidation.
-
-The evening timing and a plausible mechanism keep the backup-interaction conjecture in consideration. A downstream queue that also fills during the evening could fit the same observations. To prefer one explanation now, show how an observation already available, a constraint already known or another justified difference favours it under the comparison criterion. If the available grounds leave them tied, retain both. A prospective test can still be worth doing. Isolating backup traffic and comparing latency against prior windows is a possible discriminator. When that probe is obtainable and its expected contribution justifies its cost and delay, it can be selected as separate work. The conjecture records no observation from that unperformed probe.
+The evening timing and a plausible mechanism keep the backup-interaction conjecture in consideration. The longer queue can fit each proposed mechanism. To prefer one explanation, identify what that mechanism or combination predicts beyond the shared delay and compare those consequences with available observations or constraints. Keep explanations that the available grounds leave tied. A prospective test can still be worth doing. Isolating backup traffic and comparing latency against prior windows is a possible discriminator. When that probe is obtainable and its expected contribution justifies its cost and delay, it can be selected as separate work. The conjecture records no observation from that unperformed probe.
 
 Now keep the same observations and rival set but make the probe window unavailable. The qualified conjecture and its uncertainty remain; if the available comparison cannot select a winner, defer that selection. No new test, waiver or study proposal is needed to finish the present abductive result.
 
-In both variants, suppose an existing operational qualification independently supports a bounded diversion to a spare instance for this traffic and interval, with sufficient capacity and permission, across all three remaining causes. C.11 can support that service response on the available basis. Diverting traffic does not identify the cause; a causal claim about the mechanism needs the appropriate C.28 support. If that operational basis is absent, do not infer a justified diversion from conjecture plausibility.
+In both variants, suppose an existing operational qualification independently supports a bounded diversion to a spare instance for this traffic and interval, with sufficient capacity and permission, across the causal possibilities still open for this decision. C.11 can support that service response on the available basis. Diverting traffic does not identify the cause; a causal claim about the mechanism needs the appropriate C.28 support. If that operational basis is absent, do not infer a justified diversion from conjecture plausibility.
 
 #### B.5.2:15.2 - Opportunity-driven materials inquiry
 
@@ -52233,7 +52249,7 @@ Hypothesis reviewers should not ask only whether the chosen hypothesis looks pla
 - whether serious alternative explanations were considered and the candidate set and limits of comparison remain recoverable,
 - whether the stated criteria and their grounds support the asserted preference, including any unresolved trade-offs,
 - whether the selected hypothesis has an interpretable implication, deduction or possible discriminating contrast, with the availability and value of any check judged separately,
-- and whether any scope inflation occurred during selection.
+- and how the comparison answers the original explanatory question, including the grounds for using a result obtained on a narrower set of cases.
 
 
 #### B.5.2:16.3 - For integrators and assurance leads
@@ -52314,6 +52330,8 @@ Identify the question from what the inquiry asks someone to explain:
 - the explanatory demand: what remains unknown and what an answer would have to explain.
 
 Resolve the terms against their intended referents and interpretation. These three elements identify the question together. A change of wording, notation or publication preserves it when those elements retain their meaning. Two questions differ when a change in any element changes what an explanation must answer. A list of rival hypotheses helps compare answers; it need not exhaust the possible answers and does not identify the question by itself.
+
+When an observed case motivates the inquiry, recover what the person asking wants explained. A question about a delay in one job, a change in a service's reported delay, and a pattern recurring under different workloads can all start from the same trace. To set a boundary left to you, vary a condition the trace held fixed. Would an explanation adequate for this trace still explain what the recipient asks about? Use the distinction that changes the answer to define the prompt's scope. C.39.SA:4 develops this choice when the needed composition scales or model distinctions are unclear.
 
 Distinguish making an existing condition explicit from changing that condition. Use the earlier expression and its recoverable context to establish which happened. If a table drops an essential condition, first restore the damaged expression. When the earlier question cannot be recovered, leave its continuity unresolved; do not carry an earlier answer across the gap as an answer to the new formulation.
 
@@ -52411,6 +52429,8 @@ New contention logs can support one rival more strongly while the latency questi
 
 If corrected measurements establish that latency stayed at 8 ms, the current attempt to explain an actual rise loses its initiating ground. Asking why the monitor reported 40 ms is a different question about the report; its answer need not explain a real slowdown.
 
+For an operator who asked whether the service slowed in that interval, the corrected measurement supplies the answer. For an inquiry into recurring false alarms, determine which other reports the same account could explain and on what grounds. A team commissioned to discover improvements to monitoring may select the discrepancy itself as its next question.
+
 The reporting question and a question about an actual slowdown in another service can be expressed in accounts that use the same `AnomalyStatement` layout. Its shared columns do not identify one common question. Record each subject, contrast and scope so that the two accounts and their rivals remain distinguishable; they may occupy two rows of one note. One hypothesis that answers both questions would not make the questions identical.
 
 ### B.5.2.0:14 - Prompt package discipline
@@ -52461,7 +52481,7 @@ A common failure mode is drift from cue -> prompt -> hypothesis without anyone n
 
 ### B.5.2.0:17 - Scope, rival-set, and comparative-validity discipline
 
-A prompt should declare the scope in which its question is being asked: the domain fragment, operational horizon, or inquiry-bounded scope cut that makes the question answerable. If the relevant scope is unresolved, apparent rivals may answer different questions; establish the scope needed for their comparison.
+Declare which cases and conditions the explanation has to cover. Choose a tractable subquestion when its answer could settle the inquiry, distinguish live explanations, or establish a premise the inquiry needs. Identify that contribution before sending the subquestion for comparison. If it leaves part of the commission open, return its result with that remaining question. A promising change of subject can be proposed to the person who set a fixed inquiry.
 
 A prompt need not list hypotheses yet. Its explanatory demand and scope must make clear what a candidate explanation would have to explain; any already identified answer types can help clarify that demand.
 
@@ -52475,7 +52495,7 @@ An assurance reader can test prompt readiness with three questions:
 
 1. **Is there an open explanatory question?** An asserted answer is no longer a prompt; narrowing the scope must leave the answer open. An action-choice question needs its Method.
 2. **Does the prompt species fit its initiating grounds?** If those grounds are an opportunity or a probe-related contrast, forcing anomaly species misclassifies the question.
-3. **Is the question explicit enough to generate and compare candidate explanations under its declared scope?** Establish the question and the grounds required for entry before using B.5.2. Identified rival hypotheses are not an entry requirement; their generation and comparison belong to B.5.2.
+3. **Is the question explicit enough to generate and compare explanations for the needed use?** Check the stated scope against what the recipient asked to understand. For a subquestion, establish what its answer can contribute there. The receiving investigator can generate the rivals in B.5.2.
 ### B.5.2.0:End
 
 ## B.5.2.1 - Instrument Abductive Hypothesis Generation with Novelty–Quality–Diversity (NQD)
@@ -52535,6 +52555,8 @@ The coordinate entries cite the constituted results used. When illumination is r
 
 `N`, `D`, `S`, and `I` are archive, tie-break, telemetry, or policy-promoted signals by default; only the declared `DominanceSet` enters the front. `Use-Value` is decision-side/supporting unless the Context declares it inside the active `Q` tuple / `DominanceSet`; when it is only recorded as a side measure, keep it outside dominance.
 
+**Choosing the spaces for the commission.** A comparison of supplied hypotheses on agreed coordinates can use those inputs directly. If you are asked to design the search, begin with the contrast to be explained. Follow how it could arise, for example within one component, through an interaction, or in the work that produced the observation. Choose operators that can express the resulting alternatives. Could two permissible candidates receive the same proposed scores while explaining different observations or implying different answers to a question the recipient must settle? Preserve the relevant prediction or mechanism in the candidate account. Add a descriptor or comparison coordinate when the archive or the ordering must use the distinction.
+
 **Strategy (notation‑neutral).**
 
 1. **Seeding and constructors.** Declare the explanatory question, hypothesis space and permitted variation operators in the MethodDescription. Initialize with admissible seeds: known explanations, random draws under that grammar or prior hypothesis-bearing epistemes with their grounds and limits. Name how an operator constructs a changed explanatory claim, for example by replacing a proposed mechanism or combining two mechanisms under a stated interaction assumption. When there are no seeds, use the declared finite enumeration or sampling rule.
@@ -52550,7 +52572,7 @@ The coordinate entries cite the constituted results used. When illumination is r
 
 When the pattern is imported, use NQD-Generate for the selected generation contribution. Its candidate package carries conjectural content and the constituted coordinate results and provenance used. Report diversity to the extent supported by its declared reading; generation assigns no assurance level.
 
-**Step 3 — Plausibility filters.** Apply B.5.2’s plausibility criteria:
+**Step 3 — Plausibility filters.** Compare the candidates whose predictions or mechanisms could answer the explanatory question. A candidate dominated on the chosen coordinates can predict an observation the front leaves unexplained. Restrict this comparison to the front when the exclusions preserve the answers needed here. Apply B.5.2’s plausibility criteria:
 
 * **Falsifiability / probeability** → require an interpretable implication or possible discriminating contrast under B.5.2. Keep a meaningful conjecture distinguishable from the present availability or worth of its check.
 * **Explanatory power** → prioritize candidates whose *Q-improvements* and attached rationales address the stated explanatory question.
@@ -52612,9 +52634,9 @@ For a dominance exclusion, identify the eligible rival and decisive coordinates 
 
 **For engineers/managers (user cognitive load).**
 
-* *Added steps:* selecting descriptor **Characteristics** and granularity; reading the returned front. Start with front membership; consult dominated entries when their exclusion or retained archive role matters.
+* *Added steps:* selecting descriptor **Characteristics** and granularity; reading the returned front. Use the front for the requested coordinate comparison. For an explanatory question, include any candidate whose specific prediction or mechanism could change the answer.
 * *Mitigations:* a compact comparison note or table can suffice. Keep the required coordinate meanings and provenance available, and reuse applicable Context grids and metrics.
-* *Reader quickstart (engineer-manager):* (1) Select Q characteristics and descriptors that answer the explanatory question; reuse compatible Context definitions. (2) Declare the generator, policy, budget and stopping rule, and any novelty metric it uses. (3) Run NQD-Generate; inspect the front for the eligible population under the declared coordinates and any archive required by the policy or commission. (4) Apply B.5.2’s plausibility criteria and retain the comparison grounds and needed decision rationale.
+* *Reader quickstart (engineer-manager):* (1) Recover what the recipient wants compared and which choices are yours. Use the agreed inputs or construct the needed hypothesis space, descriptors and Q characteristics as in §4. (2) Declare the generator, policy, budget and stopping rule, and any novelty metric it uses. (3) Run NQD-Generate. Inspect the front for the eligible population under the declared coordinates and any archive required by the policy or commission. (4) Apply B.5.2’s plausibility criteria to the original explanatory question.
 
 ### B.5.2.1:8 - Placement in the Reasoning Cycle (ADI)
 
@@ -52652,6 +52674,8 @@ The declared DominanceSet is exactly the two Q coordinates, with ε=0. Novelty i
 D’s scheduler cell is retained under the stated stepping-stone policy even though D is dominated. No D, Surprise or IlluminationSummary reading is needed in this example.
 
 Of the four eligible hypotheses assessed here, A, B and C form the complete front. Each trades prediction coverage against auxiliary assumptions. C.18 records that front separately from the retained archive {A,B,C,D}, and its generation record names this NQD-Generate procedure and the seed/operator provenance. No front thinning is applied.
+
+To see what these two counts preserve, consider a possible rival predicting O1, O3 and O4 with one unverified assumption. Its Q vector would equal A's. The coordinates suffice to locate that vector in the stated ordering. A recipient asking about blocked threads in O2 needs to know which observations each candidate explains. Preserve the prediction for O2 and the proposed mechanism for that comparison. This hypothetical rival tests the choice of coordinates and contributes no new assessed candidate to the four-hypothesis run.
 
 **Qualified abductive result.** For a bounded answer to why the blocked threads in O2 occur, B.5.2 compares candidates that explain O2 with at most one unverified auxiliary assumption. A meets that stated plausibility criterion; C needs two, while B and D leave O2 unexplained. A is the qualified prime conjecture, conditional on the lock-scope assumption. A leaves O3 open. Return to the original question about all four observations. Among the candidates compared, C accounts for all four on two unverified assumptions. The one-assumption limit used for the O2 enquiry does not eliminate C as an explanation of the full contrast. Check the assumptions or establish another ground for preferring an explanation at that scope. Evidence that the blocked threads never wait on the proposed lock would defeat A’s explanation of O2. Generation and the coordinate counts supply no assurance level or empirical corroboration.
 
@@ -52803,7 +52827,7 @@ The missing contribution is the passage from the encountered situation to a usab
 ### B.5.4:4 - Solution
 
 1. **Name the question.** Say what the interpretation should enable: reducing glare, explaining a changed reading, arranging compatible activities or choosing an observation. This determines which distinctions matter.
-2. **Describe the situation at a useful scale.** Indicate the relevant region, objects, time and conditions. Separate available observations from your proposed explanation. Try another boundary or viewpoint when the first description hides an interaction.
+2. **Describe the situation at a useful scale.** Indicate the relevant region, objects, time and conditions. Separate available observations from your proposed explanation. Try another boundary or viewpoint when the first description hides an interaction. If choosing the concept is part of your task, ask what difference in the situation could change the answer. Look in the domain account for a relation that could explain that difference. For example, to decide which tests can run together, ask what prevents simultaneous operation before choosing a representation of conflict. If a concept is given, start from the relation it proposes.
 3. **Recover the candidate concept through its relations.** Consult its explanation, examples and conditions. Identify its participants, how they are related, and the consequences relevant to the question. When a live alternative would change the answer, identify a consequence that distinguishes them. Use the domain account to supply knowledge omitted by a short definition.
 4. **Construct the correspondence.** Point to what supplies each participant here and explain the relations between them. Use a sketch, gesture, annotated observation or short account. If mathematics helps, connect each variable or mathematical object to its interpretation and identify consequential simplifications.
 5. **Derive and examine a consequence.** Work out what should follow in this situation and compare it with relevant available observations or constraints. When an unresolved correspondence or condition can change the needed answer, examine it through a variation, counterexample or feasible trial, or retain it as unresolved. Where competing interpretations support the same sufficient action, keep that bounded answer.
@@ -52811,7 +52835,7 @@ The missing contribution is the passage from the encountered situation to a usab
 
 The result can be an interpreted sketch and a next action. Record the reasoning when another participant or later use needs to recover it.
 
-For capability assessment, separate the correctness of a supplied interpretation from the reader's ability to select and construct it. Give a consequentially changed situation before supplying its decisive conceptual cue; retain the references and assistance allowed in the intended work.
+To judge what a reader can do, recover which choice the work left to them. A reader given a concept can still identify the participants, establish the correspondence and derive a consequence. For a claim about choosing the concept, look for work in which the reader made that choice with the assistance allowed in practice. An earlier attempt can supply it. If transfer to different conditions is claimed, use evidence that covers the relevant change.
 
 ### B.5.4:5 - Archetypal Grounding
 
@@ -52819,7 +52843,7 @@ For capability assessment, separate the correctness of a supplied interpretation
 
 You want to reduce glare in an image. Identify air, water, an interface patch, incoming light and the direction from that patch to the camera. Draw the local normal and incidence plane.
 
-For unpolarized illumination of a smooth dielectric interface at Brewster incidence, reflected light is polarized perpendicular to that plane. Rotating a linear polarizer before the camera changes the transmitted reflected contribution. This is the domain relation supplied by [Feynman, I.33, §33-4](https://www.feynmanlectures.caltech.edu/I_33.html#Ch33-S4).
+For unpolarized illumination of a smooth dielectric interface at Brewster incidence, reflected light is polarized perpendicular to that plane. To minimize the reflection from that patch, turn the camera filter’s pass axis perpendicular to the reflected polarization. This is the domain relation supplied by [Feynman, I.33, §33-4](https://www.feynmanlectures.caltech.edu/I_33.html#Ch33-S4).
 
 The interpretation tells you what to adjust. Moving the viewpoint changes incidence; ripples change local normals, so a single planar sketch may need several patches. Inspect a changed view and determine whether the proposed adjustment follows.
 
@@ -52835,7 +52859,7 @@ Consider instead three tests with independent fixtures whose shared resource is 
 
 ### B.5.4:6 - Bias-Annotation
 
-Answer-bearing demonstrations favour recognition from familiar wording. Obtain a changed situation when independent selection matters. Representation familiarity can also encourage premature graph, table or equation use; compare the represented relations with the constraint that changes the answer.
+Answer-bearing demonstrations favour recognition from familiar wording. When independent selection matters, examine what the reader chose before the decisive cue was supplied. Representation familiarity can also encourage premature graph, table or equation use; compare the represented relations with the constraint that changes the answer.
 
 When a teacher, colleague or AI supplies the decisive interpretation, retain that contribution in any account of what the learner performed.
 
@@ -52854,7 +52878,7 @@ When a teacher, colleague or AI supplies the decisive interpretation, retain tha
 
 **Representation chosen before the constraint.** Compare what the representation preserves with what the use needs. In the laboratory case, pairwise compatibility leaves aggregate current to be handled separately.
 
-**A demonstrated answer credited as independent recognition.** Use the demonstration for learning. For assessment, obtain a changed case with the assistance permitted in later work.
+**A demonstrated answer credited as independent recognition.** Use the demonstration for learning. For assessment, recover the choice the reader made under the conditions of the claimed work.
 
 ### B.5.4:9 - Consequences
 
@@ -52947,7 +52971,9 @@ Select a bounded occasion that does not depend on someone first reporting troubl
 
 Choose an occasion with some prospect of a useful comparison: a consequential decision, a result passed to another person, a recurrent activity whose effort is poorly understood, or an available contrasting case. A small agreed sample can expose something that reviewing only failures would miss. Do not require every occurrence to undergo this examination. Keep the immediate work and its constraints in view.
 
-A performer may adopt this as a habit; a teacher, team or tool maintainer may make it available through A.15.11. For example, an existing handover conversation can include “Show what the recipient can do with this, and what you had to add to make that possible.” This question does not anticipate a specific error. A publication alone does not establish the habit or supply the conversation. If access to the result, its use or an attentive participant is unavailable, identify that missing contribution rather than claim that inquiry has begun.
+Choose the occasion in light of what you have been asked to find. One handover can yield a worthwhile question when you are free to explore. For a question about why a difficulty recurs in the practice, follow the work that produced the result and what happened when others received it. The same visible outcome might arise from a fixed constraint, a choice by the producer or a recipient's adjustment. Look for something that distinguishes these explanations, such as the information available before a choice or how the result was used. A rule covering all the relevant work can explain a recurring dependency. Its use on a particular occasion and the frequency of an outcome call for grounds about that work.
+
+A performer may adopt this as a habit; a teacher, team or tool maintainer may make it available through A.15.11. For example, an existing handover conversation can include “Show what the recipient can do with this, and what you had to add to make that possible.” This question does not anticipate a specific error. A publication alone does not establish the habit or supply the conversation. If a result, its use or an attentive participant is unavailable, identify which comparison or conclusion needs that access. Use what the occasion already establishes, or preserve the cue when that is all it supports.
 
 #### B.5.PI:4.2 - Compare before deciding what is wrong
 
@@ -52993,7 +53019,7 @@ Stop here if only the cue is recoverable and further articulation is unproductiv
 
 State what the work should enable, what comparison or experience raised the question, under which conditions, and why the answer could matter. Ordinary words are enough: “How can this figure help price the next batch when it has no numerical value on some days?” is a usable question without the phrase “division by zero”. Search a library or ask a colleague using the situation and needed result. A PatternID is one way to obtain an answer after its relevance becomes intelligible, not a prerequisite to inquiry.
 
-Let the first answer change the question. A calculation can be correct for the wrong quantity. An explanation can answer an easier question than the one the recipient needs. Return to the original use before accepting either as closure. B.5.QD develops a consequential question when the initial one needs reconstruction; B.5.QD.CF examines assumptions behind an apparent conflict. Use those contributions only while the question needs them.
+Let the first answer inform your choice of the next question. A calculation can be correct for the wrong quantity. An explanation can answer an easier question than the one the recipient needs. In an open inquiry you can choose a different question for what it promises to reveal. In a fixed assignment, ask what an answer to the proposed question could establish for the original use. Return that contribution to the recipient, or explain why a change of assignment is worth considering. B.5.QD develops a consequential question when the initial one needs reconstruction. B.5.QD.CF examines assumptions behind an apparent conflict.
 
 An adequate known explanation, instruction or correction may finish this use. If the question needs a new construction, explanation or test, B.5 connects the reasoning contributions. Keep later investigation and problem formulation under their conditions; a provisional question need not be promoted immediately to a fully specified Problem or research programme.
 
@@ -53028,6 +53054,8 @@ The listener first says, “Make the deadline reminder clearer.” Applying that
 The next question is small: “Can we make the correspondence available without losing distinctions the recipient needs?” In this case an authoritative list exists. The two participants compare twelve entries with it; ten have a unique correspondence, while two abbreviations denote different equipment in different buildings. A single global replacement would conceal that difference. They retain the building context, give the recipient the resolved names and leave the two unresolved entries for the person who can supply their locations. The receiving schedule is checked by identifying the intended equipment, not by counting replaced labels.
 
 For repeated handovers, an available mapping keyed by name and building may remove some reconstruction. Whether to prepare and maintain it depends on use and effort. A one-off schedule with no further receiving difficulty can keep the manual translation. In either case the inquiry returns to the schedule: the recipient can use the supplied identities, or knows which entries need a location. It need not create a new organization-wide programme.
+
+For a request confined to whether today's schedule arrived on time, the recorded delivery time can suffice. For a request to discover a dependency in preparing the schedule, the producer can choose to investigate the reliance on memory. If the review concerns how often recipients have had to correct a name, follow what the recipients actually received and did. All twelve retypings happened before delivery. The authoritative list can establish which codes require a building wherever those conventions apply, even while the frequency of actual corrections remains unknown.
 
 If the recipient instead demonstrates that both naming conventions are understood and the retyping merely changes typography, the proposed identity problem disappears. Ask whether the extra effort is worth removing; do not preserve the first diagnosis because it motivated the comparison. If neither receiving use nor the authoritative list is accessible, retain the dependency on memory as an early cue and obtain access when worthwhile. No claim of safe replacement follows from that cue alone.
 
@@ -53074,7 +53102,7 @@ For guidance or an application claiming this method, examine the consequential c
 - An early cue can remain open without being mislabeled a confirmed anomaly, Problem or selected investigation.
 - The continuation can obtain a usable contribution, identify missing means, or stop without change under stated conditions.
 - Conformance, result achievement, adequacy for the receiving work and completeness of the description remain different claims.
-- The result returns to the encompassing work, and any claim about later independent use has its own basis.
+- The result returns to the encompassing work. Its grounds show what the occasion establishes there, including any claim about recurrence. A claim about later independent use has its own basis.
 
 ### B.5.PI:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -53168,7 +53196,7 @@ An inquiry can improve the answer, but waiting for every uncertainty to disappea
 
 #### B.5.SD:4.1 - Name the receiving question and the kind of answer needed
 
-Identify who will use the result and what that person or agent needs to settle or do. Ask for a representative use: a release decision, a revised explanation, an architecture choice, a research design, or a next action in a difficult task.
+Identify who will use the result and what they need to settle or do. Ask for the decision or inquiry as they face it. A participant may bring one disputed case to a discussion about a rule for future cases. Find out which choices the group is being asked to make and which the eventual user must be able to make. The case can reveal a missing distinction. To offer a rule to that user, establish where the distinction changes the answer.
 
 Distinguish the result required. An explanation relates what is known and why; a proposal states what could be done and on which grounds; an inquiry proposal identifies an unresolved question and a way to answer it; an agreement records accepted contributions. A discussion can produce more than one, but one does not substitute for another. Use LDR.2 when the unresolved result is acceptance of contributions rather than subject understanding.
 
@@ -53227,9 +53255,7 @@ A useful result can be an open question with a feasible next construction. State
 
 Give the receiver the connected result in a usable form, with the decisive grounds, unresolved matters and conditions that change its use. Let the receiver perform the intended interpretation or next action, rather than merely approve the meeting summary.
 
-Examine a plausible consequential variation. If a test window disappears, which claims and proposed decisions lose their basis? If the population, interface or load changes, which earlier findings still apply? If another receiver reveals a needed input, does the proposed simplification still work? Follow only the affected connections; a small change need not restart the whole discussion.
-
-This variation is a way of checking whether the explanation relates its parts. Preserve a consequential unlisted concern when it appears.
+When a proposed explanation will be used under varying conditions, try a change that could affect its warrant. If a test window disappears, which claims and proposed decisions lose their basis? If the population, interface or load changes, which earlier findings still apply? Follow that connection. An existing argument that covers the variation can answer directly. For a decision confined to this occasion, return the sufficient grounds for it.
 
 Finish when the receiving question has a warranted answer and feasible continuation, including a justified stop. If participants repeat views while the connection remains missing, change the construction, obtain the absent competence or return the blocker.
 
@@ -53251,19 +53277,21 @@ The integrator asks the relevant specialist which parameter changed and whether 
 
 The participants construct three continuations. They could test the joint configuration, narrow the acceptance claim to the already supported use, or redesign the interface so the earlier evidence becomes applicable under justified conditions. A qualified engineer supplies the required model and test judgement. The lab can provide a window for the first option, and the decision maker accepts the inquiry cost.
 
-The returned proposal states the interaction, configuration, load, required observation and decision that will use the answer. Until the test is performed, the dependent acceptance claim remains unsupported. This is a useful constructed result: it explains the gap and how the proposed inquiry could settle it.
+The reviewer can now answer the question about the evidence in hand. It supports the reported component results under their test conditions and leaves C7's joint behaviour under load open. The accepted inquiry specifies which interaction to observe in C7, under what load, and how the outcome would bear on acceptance. Commissioning the test settles the plan for obtaining that evidence.
 
 Now remove the lab window. The account exposes the dependent test and decision. The group revisits the narrower claim, another provider or a later release; it does not preserve an unavailable test by leaving it in the minutes. The component results remain useful for the claims they support.
 
-If a qualified specialist had already established that the C6 evidence applied unchanged to C7, the explanation would have sufficed. The workshop would add no missing inference.
+Suppose instead that a C6 result had established the required joint behaviour. A qualified comparison showing that C7 preserves the configuration and conditions on which that result depends can settle the review from existing evidence. A comparison covering only the tested module settles the transfer of that module's result.
 
 #### B.5.SD:5.2 - A community disagrees over an explanatory article
 
-Suppose independent practitioners discuss an article intended to help newcomers choose an appropriate modelling method. Some favour a concise rule; others object that the rule fails when the system boundary changes. There is no common employer and no proposed reorganization.
+Independent practitioners are writing an article to help volunteer coordinators choose a model for staffing decisions. One proposes adding the hours each volunteer offers. Another objects that a total can hide who is available together. The group needs a way for readers to decide when each matters.
 
-The facilitator asks for the receiving choice, not a vote on favourite wording. A practitioner supplies an example with one boundary and another supplies the changed-boundary case. The integrator traces which assumptions make the rule useful and which change the recommendation. They revise the article to show the decision condition and return to the relevant modelling method.
+The facilitator asks what the reader has to settle. To report the total hours pledged by distinct volunteers, the coordinator can add their hours for the same period. To promise a two-hour repair clinic, the coordinator needs a receptionist and a technician together. Keep the total at six hours. If both are available from 9 to 12, they can cover a clinic from 9 to 11. If only the receptionist is there from 9 to 12 and the technician from 12 to 15, they cannot. The first comparison explains what the total preserves. The two schedules expose what it loses for the joint service.
 
-The group can agree that the revised explanation answers the question while one contributor declines further editorial work. LDR.2 handles that contribution if it matters. The explanation's warrant and a volunteer's consent remain separate.
+The revised article asks the coordinator to start with the work being promised. Who must do what, and which performances have to coincide? Could the same summary allow one arrangement in which the promise can be kept and another in which it fails? For the clinic, a confirmed common slot with both required roles can answer the question directly. Full individual calendars are one way to establish that slot. A reader counting pledged hours can use the sum. The discussion has given readers a way to choose the distinction their own model needs.
+
+A contributor may accept that explanation and decline further editorial work. LDR.2 handles the commitment if it matters.
 
 If the group lacks the modelling competence needed to assess the two cases, it returns the question to a qualified practitioner. A well-facilitated consensus would not fill the gap.
 

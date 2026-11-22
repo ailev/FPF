@@ -251,13 +251,13 @@ The full [MMP-SUFFICIENT-ANSWER example (MMP — MMP-SUFFICIENT-ANSWER - Answer 
 
 ### Foundational.Reference:3.5 - Continue and distribute thinking
 
-**Expose the missing contribution → recover or obtain the method → use it under changed conditions → choose a worthwhile next question → retain the way of obtaining and using the result.**
+**Identify what the question requires → recover or construct the missing contribution → establish what its result allows the recipient to conclude → continue when a further question or a reusable method is wanted.**
 
 FPF B.5.RC and B.5.RA recover the needed construction or argument, B.5.RR follows changed premises, and B.5.QD develops a further question. C.40.CD connects developing problems with developing ways to address them; C.36.RP addresses retaining and renewing methods. MATH.19 constructs a missing argument, MATH.22 follows a change of axioms through its consequences, and MATH.23 develops a next conjecture from a changed construction. [MATH.4](MATHEMATICAL-PRACTICE-DPF.md#math4---construct-a-witness-by-induction) constructs a witness by induction; [MATH.12](MATHEMATICAL-PRACTICE-DPF.md#math12---extract-a-construction-from-a-proof) extracts a construction from a proof.
 
 **Small use.** Ask for a rule that selects one member of an unordered two-element set and respects renaming. Swapping the elements leaves the set unchanged but moves either possible selection. Such a rule is impossible. MATH.13 and MATH.9 expose the obstruction. Adding a distinguished member permits a choice; returning both members changes the requested answer. A program that takes the first stored element uses an ordering that the original question did not provide.
 
-This obstruction opens useful next questions: may the representation introduce an order, does the intended work permit that extra structure, or does it need the whole set instead? A mathematical, computational and methodological discussion can now concern the same identified difference.
+The symmetry argument completes the question about an invariant deterministic choice for the unordered pair. A team asked to design a usable selection method still has work to do. Is a meaningful priority available, is randomness permitted, or does the recipient need both members? State which original condition each proposal preserves or changes. A researcher free to choose a new mathematical problem can investigate any of those variations on its own grounds.
 
 **Make the next contribution obtainable.** First locate what prevents its use: an unavailable input, an unexplained relation, an operation the recipient cannot yet perform, or a contributor they cannot reach. C.36.RP distinguishes these repairs. [FPF C.40.PC](../../FPF-Spec.md#c40pc---construct-a-worthwhile-problem-and-proposed-contribution) formulates what a development opportunity could supply; [FPF C.40.DC](../../FPF-Spec.md#c40dc---construct-directions-with-support-configurations) constructs prospective ways to obtain it, including help, access, learning and changed work, with the support each requires. Use an adequate existing arrangement when it already supplies the contribution.
 

@@ -4565,7 +4565,7 @@ Write the inputs and the operations that produce the result. Identify a relation
 
 Look inside the operation. Repeated updates may expose a recurrence. Combining two constructions may expose closure or an order dependence. A successful quotient may reveal which distinctions can be discarded. MATH.17 helps make the operations themselves available for this investigation.
 
-When a program supplies examples, recover the class it generates. For instance, a generator that produces only trees cannot investigate a claim about arbitrary graphs unless the missing graph classes are handled elsewhere. The representation and evaluator are part of the available mathematical experiment.
+When a program supplies examples, establish what it generates and what the conjecture asserts. A tree is a graph. A generated finite tree that meets the other premises and violates the conclusion refutes a claim about every such graph. An admissible tree exhibiting the required property witnesses existence. Success on every tree would extend to every graph only through a mathematical argument covering the remaining graphs. A run on some trees supplies the results for those inputs. Use the generator in the direction the question warrants.
 
 #### MATH.23:4.2 - Construct a variation with a reason
 
@@ -4628,7 +4628,7 @@ Compare the few continuations whose answers would change further work. A useful 
 
 Choose a first attempt that the available contributors can perform. For a broad characterization, this might be one direction of the theorem. For an extremal problem, it might be one explicit improved construction or a bound. For a limit question, it might be the estimate needed to justify one passage to the limit.
 
-Return the conjecture, the mathematical basis that suggested it, the most revealing success or obstruction, and the next operation. An expression and a short argument can carry this result.
+Return what the mathematical inquiry asked for. A conjecture under development needs its basis and a worthwhile next operation. A verified counterexample can finish a request to decide whether a stated claim holds. An attainable new conjecture about a restricted class can then be worth proposing in its own right. If a characterization is due, identify the implication the counterexample settles and the part still to be established.
 
 Use B.5.QD and C.40.CD when several questions and ways must develop together. E.10.INT helps distinguish the interest of further possible work from surprise, fame or a search score. C.36.RP supplies retention of the reconstructible method when continuing capability is at stake. Obtain further observations or checking only when their possible outcomes can change the next move enough to justify the effort.
 
@@ -4709,9 +4709,9 @@ For the conjecture being developed:
 - Objects, domains, hypotheses, quantifiers and answer form distinguish the proposed claim.
 - If a proof is attempted, its needed intermediate relations are exposed; any case used to investigate the claim tests a consequential condition.
 - A counterexample is classified at the claim, lemma or implementation it defeats.
-- A repaired hypothesis, construction or conclusion preserves the distinction between the new question and any earlier unsatisfied need.
-- Generality follows from an argument over the stated class; tested cases retain the scope tested.
-- The selected continuation has a useful attainable first operation and retains the earlier construction needed to perform it.
+- A changed hypothesis, construction or conclusion has an explicit consequence for the requested mathematics. A result about a subclass can settle the earlier question when the inference carries back to that question.
+- The grounds have the reach the claim requires. A single admissible counterexample refutes a universal statement. A proof for the full class, including an exhaustive finite argument where applicable, can establish it.
+- If further work is selected, its first attainable operation and the earlier construction it needs are recoverable. A supported answer can finish the question already posed.
 
 ### MATH.23:8 - Common Anti-Patterns and How to Avoid Them
 

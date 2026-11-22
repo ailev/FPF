@@ -595,7 +595,7 @@ Return the answer with the conditions needed to use it. These may be expressed i
 
 Choose what the work now permits: use the simpler computation, interpret a measurement, change a drive, retain a fluctuation model, or restore an interaction. If several accounts provide complementary consequences, retain their respective uses. When a choice among available descriptions matters, C.11 supplies the comparison, including whether more inquiry is worth its cost. Use G.5 when the retained set itself must be stated: distinguish alternatives for later choice from descriptions used together for a named result. E.23 supports improvement when the chosen characteristics can judge a change.
 
-For a new question or failed prediction, return to the influence whose omission is implicated. Change the physical variables, coupling, preparation or range, then redo the affected reduction and interpretation. B.5.MPC.R helps separate a physical-account failure from a mathematical or computational one.
+When the question changes, ask whether the existing reduction preserves the newly required quantity and resolution. If it does, reuse it. A discrepancy can concern the physical assumptions, the reduction, the computation or the observation. Follow the dependence that can distinguish these explanations before restoring an omitted interaction. A new experiment can test the reduction under its preparation. To explain a past reading, connect the result to the preparation and readout of that earlier event. B.5.MPC.R develops the comparison.
 
 The result can also change the method of work. A team may calculate a slow response with one model and delegate a short transient to another. B.1.5.CM describes those contributions and their joins; A.3.1.CC examines the claims needed for the combination. Each result retains the physical conditions that make it usable by the next participant.
 
@@ -635,7 +635,7 @@ Let `B(s)` denote the current-departure bound above. Since the initial speed dif
 
 For the stated values, this speed-departure bound at 0.05 s is about 0.026064 rad/s, hence less than 0.02607 rad/s. An allowed error of 0.03 rad/s therefore permits the reduced calculation for that speed reading. The integral carries the earlier transient into the answer; the small current departure at the final instant alone would not give this bound.
 
-**Changed work.** If the next question concerns torque immediately after switching, the bound includes the initial current departure. Use the electrical transient. If the drive varies on the electrical relaxation time, recompute its departure instead of extending the slow-drive approximation. These returns change which physical response is retained.
+**Changed work.** For motor torque at the switching instant, use the initial current or a sufficient bound on it. For torque during the initial interval, retain or bound the electrical transient at the resolution the question requires. If the drive varies on the electrical relaxation time, recompute its departure instead of extending the slow-drive approximation. These returns change which physical response is retained.
 
 #### PHY.5:5.2 - Decide when a chain can be treated as a continuous medium
 

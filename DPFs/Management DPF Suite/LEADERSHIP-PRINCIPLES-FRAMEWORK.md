@@ -194,7 +194,7 @@ Community Management addresses useful participation, relationships and joint con
 
 Implementation support addresses a practice in its actual setting. Development and self-development can begin before a problem or method is settled and can continue after success with a new worthwhile challenge. Leadership can help participants obtain the needed contributions. Agreement, learning an established method or improving a current result does not by itself establish open-ended development: growth of knowledge or methods that makes further worthwhile problems attainable. C.40.OD explains that developmental connection. Likewise, independent continuation of a cultural practice requires its own explanation and evidence under C.36 and C.36.RP; one successful group episode is insufficient.
 
-FPF Core supplies the connected answer through B.5.SD, including the subject reasoning, objection and changed-premise test. Decision Support supplies professional participation and facilitation through PSDA.12, PSDA.13 when the arrangement needs representation, protected channels, consent, confidentiality or faithful return. Leadership obtains the needed contributions and agreement; it does not acquire their professional or epistemic authority.
+B.5.SD helps participants construct a connected answer from what they know about the subject. The leadership contribution is to bring the people and their grounds together for the decision they face. A direct explanation can suffice. An objection or a changed premise merits discussion when it can alter the answer or the grounds the recipient needs. PSDA.12 and PSDA.13 help arrange representation, protected channels, consent, confidentiality and faithful return. Agreements and technical judgements each require the relevant authority or expertise.
 
 
 ## LDR.Reference:4 - Authority, cost and sufficient ordinary work
@@ -1124,11 +1124,11 @@ The organizer uses LDR.1 to identify the missing contributions: a domain integra
 
 ## LDR.Use:2 - Advice changes the promise
 
-Using LDR.4, the organizer asks community representatives whose judgement they need before accepting the offer. One wants advice from a practitioner who helped with an earlier clinic. A permitted anonymized example lets that adviser expose a misleading promise: the service can diagnose the missing ground but cannot promise to complete an unknown amount of corrective engineering within the session.
+Using LDR.4, the organizer asks community representatives whose judgement they need before accepting the offer. One wants advice from a practitioner who helped with an earlier clinic. A permitted anonymized example lets that adviser expose a misleading promise: diagnosing a missing ground can fit the session; guaranteeing a completed correction requires grounds that the work for the accepted cases fits too. An upper bound on that work can suffice.
 
-The domain team and intended clients trace one representative case. They distinguish the service's diagnosis and bounded acceptance decision from the client's later correction work. Through B.5.SD they construct a clearer account: the receiver will get the warranted finding, its grounds, a feasible next question or correction, and the limitation on further reliance. A case with no attainable correction may properly end in deferral.
+The team and intended clients trace the case in which the adviser found the promise misleading. It exposes one way the diagnosis can be complete while further engineering is still needed. Through B.5.SD they work out what their service could promise across the orders they intend to accept. The finding can identify an unsupported claim and explain why reliance should be deferred, including when the correction is unknown. For an actionable recommendation, the service would have to identify a change and explain why the client could use it. Implementing the change requires someone with the means, authority and time to do the engineering work. Clients can now choose which of these results to order.
 
-The communities settle what clients can accept. An order for the diagnostic finding can end there. A client may abandon the release, arrange a correction or commission the provider to make one. Including correction in the service requires appropriate engineering work, resources and agreement.
+For the first month the communities and clients agree on a diagnosis. The client can then abandon the release, order a recommendation or arrange the engineering change. Where a client has ordered a recommendation, identifying the gap leaves that advice due until the client changes the order.
 
 ## LDR.Use:3 - Agree a feasible first month
 
@@ -1146,7 +1146,7 @@ The organizer uses LDR.4 to obtain the effective permissions and make the start 
 
 The first case reveals that a test concerns an earlier configuration. The integrator explains the changed condition and the unsupported conclusion. The acceptance provider judges the diagnostic result within its remit. The client now knows which release claim cannot be made and which engineering question must be answered. That is the promised bounded service result, not a corrected engineering package or evidence that the client has acquired independent mastery.
 
-If the agreed service included a completed correction, delivery of the diagnosis would leave that obligation open. A client who commissioned the finding and now wants a correction has a new request. The two orders call for different work and resources.
+If the client had ordered advice, the integrator would still owe a usable recommendation about the changed configuration. An order for a completed correction would also require the engineering work. For this client, who commissioned the diagnosis, either further result is a new request.
 
 The participants use LDR.1 to arrange continuation. The second case has the same qualified support; another coordinator can conduct the preparatory exchange without the initiator. Where human skill development is separately wanted, HCD supplies its design and assessment. Successful diagnosis alone does not establish that development.
 

@@ -333,7 +333,7 @@ The requested answer determines how far to develop the model. A bound can settle
 
 ### MMP.Reference:3.1 - Form the first account and recover its interpretation
 
-If there is no mathematical question yet, use B.5.FM: identify the participants, propose the relations relevant to the difficulty, work a small consequence and return it to the question. B.5.TU helps when an available theory supplies those relations. Mathematical Thinking provides constructions of objects, operations, representations and arguments when the needed mathematics itself must be developed.
+If there is no mathematical question yet, use B.5.FM: work out which subject distinctions the answer depends on, choose a relation that preserves them and derive a consequence for the receiving use. An argument for a whole class or a sufficient bound can answer the question directly. A small instance can expose a missing distinction. B.5.TU helps when an available theory supplies those relations. Mathematical Thinking provides constructions of objects, operations, representations and arguments when the needed mathematics itself must be developed.
 
 Before choosing variables, describe an answer that would let the recipient act or explain the outcome. Which objects, operations and relations could change that answer? A succession of operations may require matching an output of one to an input of the next. A rate or an average needs a unit. For example, one request can generate several operations and records. Mean elapsed time per request and mean duration per operation answer different questions. If one operation serves two requests, the work done once and the results received by the two recipients have different units. Establish the connections needed for the intended calculation or return the result under the stated assumptions.
 
@@ -494,7 +494,7 @@ Source changes matter when they alter an operation, its assumptions, its practic
 
 ## MMP.Reference:10 - Relations to continued inquiry and work
 
-B.5.QD helps turn a result, obstruction or unresolved difference into a further question. A model can therefore contribute before it supplies a final numerical answer: it may expose a new distinction, make a comparison possible or suggest a different way of working. Choose further inquiry in relation to the work it could enable.
+B.5.QD helps turn a result or obstruction into a further question. A model can expose a distinction or make a comparison possible before it supplies a numerical answer. If the question is fixed, identify which part of its answer this change enables. A bound on all compatible parameter values can settle a threshold while leaving a request for the value in a particular run open. If choosing a new direction belongs to the modeler, assess the further question by the mathematical or practical work it could enable.
 
 For a question about acquiring or transferring modeling capability, identify the performer who needs it and the preparation and support required for later work. Use Human Capability Development (HCD) for a person’s learning, Explanation Design (EXD) when a recipient needs an explanation, and the appropriate development method for another performer. Checking one calculation answers a different question.
 
@@ -514,7 +514,7 @@ For evaluating alternatives and improving them, reuse FPF's characteristic, comp
 
 Use this pattern when you know the conditions a possible object or situation must satisfy and need to express its possibilities mathematically. You may be looking for an arrangement, a quantity, a shape or a rule of action. Representations such as a number for an amount, an ordered list, a set of members and an unknown function support different operations and possible answers.
 
-Start by describing one candidate object and what would make it admissible. Choose a way to represent it, then distinguish two kinds of condition: those needed for the representation to denote such an object, and those expressing the requirements on that object. This produces a mathematical problem that can be reasoned about or handed to an appropriate computational method.
+Start with what the recipient needs to choose, establish or explain. Work out what would count as one candidate for that use. It might be an object, an arrangement of several objects, or a rule for choosing after information arrives. A sample candidate can help identify the variables. Requirements can also determine their form before any feasible instance is known. Distinguish conditions that make a representation denote such a candidate from the requirements that candidate must meet.
 
 The result consists of variables with their domains, joint conditions, the requested operation on their solutions and a way to interpret the answer. It can be enough to find one feasible case; another question may require all possible values, a preferred case or a count. The chosen representation must support the requested result.
 
@@ -544,7 +544,7 @@ The difficulty is to construct the mathematical expression of the intended possi
 
 #### MMP.10:4.1 - Recover what varies and what the question asks
 
-Describe a candidate before choosing scalar variables. Is it an amount, a collection, a sequence, an assignment, a function or another mathematical object? Which distinctions can change the answer? A set retains membership; a multiset also retains multiplicity; a sequence retains positions. Choose among them from the question. If the question concerns several recipients or periods, decide from their use whether an object is one local allocation, a jointly available arrangement, or a rule for choosing later. An assignment to each recipient can be attainable on its own while several assignments share a limiting condition.
+Determine what varies together before choosing scalar variables. If membership matters, a set can suffice. Multiplicity can require a multiset, and order can require a sequence. For several recipients or periods, identify whether the question concerns each local allocation, one jointly feasible arrangement or a rule for later decisions. Establish which demands can coincide and which restrictions or observations the participants share. The resulting joint object can have properties that no separate allocation records.
 
 Separate supplied quantities from unknowns. Among unknowns, distinguish what is to be inferred, what can be chosen and what can vary independently of that choice. If a choice uses an observation, specify when the observation becomes available; MMP.8 constructs the resulting information-dependent requirement. An unknown value does not become a freely selectable design variable merely by appearing in the same equation.
 
