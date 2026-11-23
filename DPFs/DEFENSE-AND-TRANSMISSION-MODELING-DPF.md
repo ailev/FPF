@@ -963,11 +963,11 @@ C.36 supplies the cultural relations; DTM.1 identifies the variant and affected 
 
 #### DTM.5:4.2 - Recover contribution weights and within-group change
 
-For each source group, identify how much of the receiving population derives from it and how the relevant property changes along that contribution. Use the actual source relation, rather than assuming that every present member contributes equally.
+Establish the source relation at the detail the question requires. For a particular procedure, trace which groups supplied its content. For a change in a population mean, supported group counts and means, or bounds on them, can suffice even when individual continuations cannot be identified. Use the actual source relation, rather than assuming that every present member contributes equally.
 
-When multiple groups contribute to one resulting method, choose an allocation supported by the receiving question or retain unresolved source shares. A convenient attribution convention is not evidence of biological or cultural inheritance.
+A resulting procedure may use the inspection method developed by one team and the scheduling rule developed by another. Trace what came from each team. If these are the only sources and the question asks which teams supplied material, naming both completes the answer. The one procedure enters each team's count of procedures it helped produce. To obtain the number of distinct procedures across the teams, account for the overlap.
 
-Account for every receiving unit once. Mark the part attributed to the identified source groups and any external or unresolved part; shared source attribution must not count the same unit twice. If the record covers only part of the receiving population, retain that coverage in the result.
+For an additive decomposition of a total, account for every receiving unit once. Allocate a shared unit's weight according to a rule justified for that use. A convention can settle an accounting question. Actual inheritance or borrowing requires evidence of the source relation. Where shares remain unresolved, preserve the known sources and any justified bounds. Distinguish the part attributed to the identified groups, any external part and gaps in coverage.
 
 Keep differences due to reconstruction, recruitment and observation visible. For example, a transmitted procedure may omit a check during reconstruction even if no recipient deliberately selected the unchecked variant.
 
@@ -975,12 +975,14 @@ Keep differences due to reconstruction, recruitment and observation visible. For
 
 For a scalar property, let π_g be the source population's weight in group g, z_g its initial mean, w_g its contribution per source unit to the covered part of the receiving population, and Δz_g the change in the corresponding transmitted mean. Weights π_g sum to one; the mean contribution w̄ is positive. The source-attributed contributions must cover that part without omission or double counting.
 
+For a group assigned zero continuation weight in this decomposition, the weighted transmitted mean and `Δz_g` for that group are undefined. Keep its initial weight and mean in `z_old` and the covariance, with `w_g = 0`. Sum transmitted means and changes only over groups with positive contribution. A known source may receive zero weight under an accounting convention. If the weight denotes an observed count, a missing record warrants zero only when the evidence establishes absence.
+
 The covered mean and its difference from the initial mean satisfy:
 
 ~~~text
-z_cov = Σ_g π_g w_g (z_g + Δz_g) / w̄
+z_cov = Σ_{g: w_g > 0} π_g w_g (z_g + Δz_g) / w̄
 z_cov − z_old
-  = Cov_π(w,z) / w̄ + Σ_g π_g w_g Δz_g / w̄.
+  = Cov_π(w,z) / w̄ + Σ_{g: w_g > 0} π_g w_g Δz_g / w̄.
 ~~~
 
 The first term expresses the effect of different contribution weights associated with the earlier property. The second expresses changes along those contributions. If those contributions cover the whole receiving population, z_new = z_cov.
@@ -992,7 +994,7 @@ z_new = c z_cov + (1−c) z_ext
 z_new − z_old = c (z_cov − z_old) + (1−c)(z_ext − z_old).
 ~~~
 
-An unknown external composition remains unknown; it is not zero. For a binary variant share and known c, the possible new share lies between c z_cov and c z_cov + 1−c until the external composition is constrained. When no receiving unit derives from the identified sources, omit their decomposition and calculate from the other contribution. MMP and the relevant mathematical methods supply the calculation.
+An unknown external composition remains unknown; it is not zero. For a binary variant share and known c, the possible new share lies between c z_cov and c z_cov + 1−c until the external composition is constrained. If the receiving population is nonempty and entirely external to the identified groups, its mean is the external mean. If there are no receiving units at all, the count of continuations is zero. A mean property among those continuations and a change to that mean are undefined. MMP and the relevant mathematical methods supply the calculation.
 
 This identity does not tell why w or Δz has the observed value. Call them between-source and within-contribution changes until the causal interpretation is established. If the units are collectives, redefine z and w for collective continuation; do not carry over a particle count while silently changing the claim.
 
@@ -1008,7 +1010,7 @@ The response to a change must follow the mechanism. If a group's larger contribu
 
 #### DTM.5:4.5 - Return the decomposition to the work question
 
-State the units, contribution relation, covered population and any external contribution, distinct components of change, supported causes and consequential unknowns. If coverage or external composition is unresolved, return the supported range or restrict the claim to the covered part. Then ask which feasible change addresses the problematic relation.
+For a question about who supplied a practice, return the identified source relations and any material uncertainty about their coverage. For a question about aggregate change, state the counted units, source weights, population covered, components of the change and any supported explanation. If coverage or external composition is unresolved, return the supported range or restrict the claim to the covered part. If the commission includes changing the practice, ask which feasible change addresses the relation that matters.
 
 A practice favored within teams but associated with lower total contribution can persist locally. A collective's growth can also coexist with costs to its members. D.3/D.4 and the existing decision methods retain those conflicts; no arithmetic term grants moral priority to its level.
 
@@ -1060,7 +1062,7 @@ The phrase “higher-level success” also invites a value judgement. Name what 
 
 - The earlier and receiving populations, interval and counted unit are identified.
 - Group contribution is not confused with reproduction of the group itself.
-- Source weights and changes along contributions can be reconstructed or their uncertainty is stated.
+- For a question about sources, establish the groups and the relations claimed. For an additive decomposition, justify the source weights or retain their uncertainty. The weighted within-source mean change in this decomposition is defined for groups with positive continuation weight.
 - Does the conclusion cover the receiving population and count each contribution on the agreed basis? If part is unobserved, can a bound for the whole already settle the question? Otherwise give the supported result for the covered part and identify what remains open.
 - The decomposition uses consistent units and does not serve as its own causal explanation.
 - Reconstruction and differential exposure remain alternatives where they could change the answer.

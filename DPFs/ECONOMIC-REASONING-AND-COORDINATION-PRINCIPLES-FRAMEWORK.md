@@ -268,7 +268,7 @@ Use a quotation or resource account directly when it covers the specification, t
 
 ### ECO.1:2 - Problem
 
-An optimizer can solve a model whose numbers have different economic meanings. An internal transfer price may implement an allocation policy, an old purchase price can record a past exchange, and a shadow price measures a marginal trade-off in the specified model. Substituting one for another can make an unavailable alternative look attainable.
+An optimizer can solve a model whose numbers have different economic meanings. An internal transfer price may implement an allocation policy, an old purchase price can record a past exchange, and a reported shadow price concerns the optimal value under a change to a stated constraint. Its meaning for the proposed change depends on the sensitivity conditions in ECO.1:4.2. Substituting one for another can make an unavailable alternative look attainable.
 
 State the exchange conditions and rights under which a monetary consequence follows. Physical feasibility and the effects on different participants can require separate accounts. To compare satisfaction across people, identify grounds for that comparison.
 
@@ -290,7 +290,7 @@ For an offer, establish who can obtain which supply and under what terms. A nonm
 
 For a controlled resource, identify what alternative use would be displaced. Historical acquisition cost and the current forgone result can differ. For a new arrangement, use a comparable offer when its differences can be accounted for. Otherwise give a conditional value or compare physical outcomes against the participants’ purposes. Identify whose payment changes, whose existing authority can be exercised and whether a new opportunity is available during the released interval. An internal charge recorded against one department can change its reported cost while leaving the budget it may commit unchanged.
 
-Keep model weights with the objective and constraints that define them. A shadow price can show the marginal contribution of relaxing a specified constraint. To claim someone can buy the resource at that price, establish the available offer and their right to use it.
+Keep model weights with the objective and constraints that define them. A shadow price can show the marginal contribution of relaxing a specified constraint. If the number comes from a solver, establish what its multiplier measures or bounds in the proposed direction. For a finite purchase, compare the attainable outcomes over the actual change. To claim someone can buy the resource at that price, establish the available offer and their right to use it. [Comparing a change in capacity (FPF C.11.CRC:5.3)](../FPF-Spec.md#c11crc53---operations-constraint-intervention)
 
 #### ECO.1:4.3 - Return the comparison that the grounds support
 
