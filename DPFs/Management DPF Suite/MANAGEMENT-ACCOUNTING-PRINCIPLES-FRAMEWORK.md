@@ -1504,7 +1504,7 @@ The short cohort table exposes unrecovered acquisition; the product continuation
 
 ### MA.8:12 - Relations
 
-MA.1–MA.4 supply resource and account meanings, MA.5 the conditional outlook and MA.7 explanations of observed differences. [Financial Domain Modeling (FDM)][FDM] supplies a missing financial position or obligation through FDM.1 and a contractual event or conditional-flow model through FDM.3; FDM.4 establishes the effect of an actual event. OPS.14 and the relevant financial practice consume the future consequences for their comparisons and valuations.
+MA.1–MA.4 supply resource and account meanings, MA.5 the conditional outlook and MA.7 explanations of observed differences. [Financial Domain Modeling (FDM)][FDM] gives methods for establishing a position or obligation from its effective terms (FDM.1), modeling contractual events or conditional flows (FDM.3), and determining the effect of an event that occurred (FDM.4). If the proposed transaction still requires acceptance, establish whether and when the terms became binding. OPS.14 and the relevant financial practice consume the future consequences for their comparisons and valuations.
 
 ### MA.8:End
 

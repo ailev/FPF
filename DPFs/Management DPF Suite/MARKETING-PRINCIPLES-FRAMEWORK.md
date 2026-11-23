@@ -1713,9 +1713,9 @@ Return a supported selection with its grounds and conditions, or identify the un
 
 #### MKT.9:4.4 - Obtain a missing service configuration when selection is insufficient
 
-Give [SYSE.8](../Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse8---develop-an-integrated-offering-and-provider-concept-for-using-an-engineered-result) the receiving activity, needed result, differences between customers, constraints and candidate provider contributions. Ask for a feasible offering and provider arrangement. Where several methods or allocations must be combined, use [FPF C.32.MWA.PP](../../FPF-Spec.md#c32mwapp---construct-and-compare-method-performance-and-provision-arrangements) to compare their actual relationships, simultaneous work and burdens.
+To develop an offering with [SYSE.8](../Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse8---develop-an-integrated-offering-and-provider-concept-for-using-an-engineered-result), start from the receiving activity, needed result, differences between customers, constraints and candidate provider contributions. Use a suitable design already available, construct a feasible arrangement yourself or commission one. Where several methods or allocations must be combined, use [FPF C.32.MWA.PP](../../FPF-Spec.md#c32mwapp---construct-and-compare-method-performance-and-provision-arrangements) to compare their actual relationships, simultaneous work and burdens.
 
-For a reusable service, these suppliers must develop the following connected construction:
+For a reusable service, work out how its provider will deliver it. Use what is already available and establish what still has to be arranged.
 
 1. Identify contributions that can be reused by their supplied results, required inputs and conditions. Do not divide the service solely by existing department names.
 2. Construct a combination that can give the receiving result. Compare alternatives where the selection depends on their differences. Keep an adequate existing arrangement in view. Explain the order, connections between outputs, shared resources and recovery that make the combination work.
@@ -2731,7 +2731,7 @@ MKT.9 compares available variants against that result. The only worker prepared 
 
 ### MKT.Application:1.2 - Obtain a construction and compare whole alternatives
 
-The provider asks SYSE.8 for a service arrangement that preserves the needed learning activity and equipment conditions. Its request names the required room conditions, equipment readiness, timing, access and ongoing obligation. C.32.MWA.PP compares the proposed arrangements, including their demands alongside the ongoing equipment check and other commitments. The returned alternatives must identify the contributions that make each combination workable.
+The provider uses SYSE.8 to commission a service design that preserves the needed learning activity and equipment conditions. Its request names the required room conditions, equipment readiness, timing, access and ongoing obligation. The designer uses C.32.MWA.PP to compare the proposed arrangements, including their demands alongside the ongoing equipment check and other commitments. The returned alternatives must identify the contributions that make each combination workable.
 
 | Alternative | What must be supplied | Consequence for the offer |
 | --- | --- | --- |
@@ -2779,7 +2779,7 @@ Ask the media practitioner to establish who selects the audience or context, com
 
 The professional return must connect a proposed setting with what it permits. A selectable objective is not a guarantee of the customer's later result. A preview does not establish that every future rendering can be examined. If a needed fact is unavailable, retain its effect on the proposal instead of assuming control.
 
-For a programmatic purchase, [IAB Tech Lab's seller and supply-chain explanation](https://iabtechlab.com/sellers-json/) supplies identification and verification of sellers and intermediaries in its specified setting. Use that answer for the inventory being purchased. It does not establish that the intended person will notice or benefit from the offer. A closed platform may supply a different account of its intermediary work.
+For a programmatic purchase, [IAB Tech Lab's seller and supply-chain explanation](https://iabtechlab.com/sellers-json/) explains how to identify the sellers and intermediaries in a particular bid request. Use the applicable result if already verified, or match the request’s SupplyChain nodes to the corresponding sellers.json entries. For a claim that a seller is authorized to sell this inventory, inspect the applicable ads.txt or app-ads.txt declaration. If the purchase requires every intermediary to be known, a chain marked incomplete or a confidential entry that withholds identity leaves that requirement open on these records alone. A disclosed seller can still be checked individually. Evidence about sellers leaves audience attention and benefit to be established separately. A closed platform may supply a different account of its intermediary work.
 
 
 
@@ -2991,7 +2991,7 @@ The early useful explanation can finish a community exchange without a purchase.
 
 ### MKT.Application:5.2 - Obtain the learning product and the personal programme
 
-The provider gives HCD.28 the later-work family, intended human contribution, candidate audience, subject material and service limits. HCD.28 distinguishes a missing subject method from missing teaching or help. It returns a connected route with meaningful entry differences, learning tasks, explanation, practice, feedback, later observation and provider conditions. Retain an adequate demonstration or supervised contribution when it supplies the learning action.
+The provider can use HCD.28 or commission a learning designer to use it. Supply the later-work family, intended human contribution, candidate audience, subject material and service limits. The designer distinguishes a missing subject method from missing teaching or help and develops a route with meaningful entry differences, learning tasks, explanation, practice, feedback, later observation and provider conditions. Retain an adequate demonstration or supervised contribution when it supplies the learning action.
 
 Choose the next contribution from what is missing. Use [FPF A.3.1.DR:4](../../FPF-Spec.md#a31dr4---solution) when a proposed way in documentary guidance needs its source meaning or status recovered. When observations or evidence about performances leave a reusable operation or criterion unclear, [FPF A.3.1.MR:4](../../FPF-Spec.md#a31mr4---solution) recovers provisional source-traceable candidate accounts or returns the limits of what the material supports. Apply [FPF A.3.1:4](../../FPF-Spec.md#a314---solution) directly when a candidate way is ready for the Method identity test. If no available way supplies the required contribution, obtain the missing construction from the relevant subject practice or Method Engineering.
 

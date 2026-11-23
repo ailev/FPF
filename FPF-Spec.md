@@ -103901,7 +103901,7 @@ When both purposes matter, explain both contributions rather than leaving the re
 
 A sentence, list introduction or table heading can establish the purpose for a clear group. A generic `Relations`, `Solution`, `Rationale` or `See also` heading does not decide it. Separate mixed uses where their difference changes what the reader should do.
 
-Pure navigation, declared identifiers, address examples and addresses that merely name participants in an explicit relation need no source or application cue. In “X specializes Y”, Y names a participant; it is not automatically a citation or an instruction. But “X supplies comparison” at a step needing a comparison can leave the needed action unstated. Decide whether the comparison is already supplied or the reader must obtain it.
+Pure navigation, declared identifiers, address examples and addresses that merely name participants in an explicit relation need no source or application cue. In “X specializes Y”, Y names a participant; it is not automatically a citation or an instruction. But “X supplies comparison” at a step needing a comparison can leave the needed action unstated. Say what the reader can use here. A source may already compare the alternatives in question, or it may give a Method for comparing them. If the decision requires another party’s assessment, identify what counts as receiving it.
 
 For example, these references to the same material do different work:
 
@@ -110442,7 +110442,7 @@ At a citation, use the quoted or explained material directly when it is sufficie
 
 At an application reference, distinguish a required dependency, a conditional next move and one possible way. Follow a branch when it is required or chosen and its conditions hold; needing the result does not make every suggested Method compulsory. Reuse an adequate result after checking that it answers the present question under the current conditions.
 
-If the contribution is missing, obtain the relevant explanation, apply what is needed and bring its result back to the work that needs it. Reading a title or naming the pattern supplies no such result. An already understood Method need not be read again merely because it is referenced.
+If material is missing, identify what would settle the receiving question. A publication may already contain the required grounds or give a Method for obtaining them. Use a known Method directly where you can do the work. Where the order calls for a particular delivery, performance or authorized judgement, establish that it took place on the required terms. [A.15.9:4.1](#a15941---follow-the-nine-step-bounded-result-sequence) guides that choice.
 
 A reference to comparison, for example, is satisfied by an adequate comparison of the actual alternatives and conditions, not by a list of patterns to read or by choosing a familiar alternative. A direction to reuse an existing sufficient arrangement concerns that arrangement's adequacy for the receiving work; it is not permission to stop because several relevant pages have been read.
 

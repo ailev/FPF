@@ -819,7 +819,7 @@ state evidence needed now. Reopen only the affected return when these change; a 
 dependent use. These source texts and the organizational or operating results remain external to SYSE:
 availability of a pattern is neither an obtained local assignment nor an established current operating account.
 
-For Part VIII, MMP.8.SD supplies an action-conditioned decision model, MMP.17 a qualified approximation when needed, and CMP.7 learner construction. The engineer recovers candidate reusable operations; F.0.2.MA reconciles or allocates already recovered contributions, while A.3.1.MV and A.15.8.MS retain semantic repertoire and usable discovery. HCD, SOM and RHY retain human practice, learning, observation and timed bodily coordination; an LLM can help interpret the account, while the learner must supply the bodily response. C.38/C.11 retain complete-way comparison and choice. The [Reference (Engineering.Reference:19)](ENGINEERING-DPF-SUITE-REFERENCE.md#engineeringreference19---make-an-available-contribution-work-in-the-whole-task) gives direct access and worked returns for these separate contributions.
+For Part VIII, use an applicable decision model or use MMP.8.SD to construct one that accounts for the consequences of the available actions. If an approximation is needed, first check whether an available one meets the conditions of this decision and order. Use MMP.17 to construct and qualify one where needed, drawing on CMP.7 if learning from examples is the chosen method. The engineer recovers candidate reusable operations; F.0.2.MA reconciles or allocates already recovered contributions, while A.3.1.MV and A.15.8.MS retain semantic repertoire and usable discovery. HCD, SOM and RHY retain human practice, learning, observation and timed bodily coordination; an LLM can help interpret the account, while the learner must supply the bodily response. C.38/C.11 retain complete-way comparison and choice. The [Reference (Engineering.Reference:19)](ENGINEERING-DPF-SUITE-REFERENCE.md#engineeringreference19---make-an-available-contribution-work-in-the-whole-task) gives direct access and worked returns for these separate contributions.
 
 ## SYSE.Reference:17 - Edition scope and refresh
 
@@ -5129,7 +5129,7 @@ The terms below keep the contribution separate from the organizational labels us
 
 | Name in this pattern | What it denotes |
 | --- | --- |
-| professional contribution | Specialist Work, its returned result and receiving use, together with a contribution request when one is needed. The professional-contribution account is an episteme describing these objects and relations. |
+| professional contribution | In a request, this can name specialist Work still to be done or a result to obtain. In a report it can name the Work performed or the result delivered. A professional-contribution account describes the relevant Work, result and links to the receiving task. Identify its intended use and establish actual use when the claim depends on it. |
 | specialist | The Agent who performed the specialist Work, or who is considered or selected for it on evidence of relevant current capability. When role classification or assignment matters, name the local system-role kind and assignment separately. |
 | discipline | An admitted `U.Discipline`: a durable field-level practice-and-knowledge whole recognized through `C.20`. A field or department name is only a retrieval cue. |
 | profession | A Plain collective designation for a socially maintained practice, its practitioners, and institutions that recognize or regulate their work. Recover the particular culture, practitioner classification, credential, or authority relation used by the decision. |
@@ -12991,7 +12991,7 @@ The accepted trade-off is additional contract and support work for independent c
 
 ### SYSE.27:12 - Relations
 
-SYSE.26 supplies the supported user interaction and SYSE.13 identifies versions and configurations. SYSE.29 handles migration or retirement. SYSE.18 supplies integration decisions across independent authority; SYSE.24 compares complete obtaining arrangements. OCE.4 supplies contribution-architecture design and OCE.6 supplies actual holder assignments when those organizational results are missing.
+SYSE.26 supplies the supported user interaction and SYSE.13 identifies versions and configurations. SYSE.29 handles migration or retirement. SYSE.18 supplies integration decisions across independent authority; SYSE.24 compares complete obtaining arrangements. Use OCE.4 to design how the participants’ work will fit together. Where the plan depends on a particular holder, establish who is assigned from the effective arrangement. If an appointment is still needed, use OCE.6 to work out and obtain it with those empowered to make it.
 
 ### SYSE.27:End
 

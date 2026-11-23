@@ -1630,7 +1630,7 @@ State whether the recipient needs one rule, a set of alternatives, an uncertaint
 
 #### CMP.7:4.2 - Recover the examples and feedback actually available
 
-Identify the supplied inputs, labels, rewards, demonstrations or other observations and how they were obtained. For missing labels, delayed feedback, selection effects or dependence between examples, state what the learning procedure can observe. Distinguish information available when the prediction is due from feedback for later predictions. MMP.7 supplies the probability model of recorded data when such a model is needed.
+Identify the supplied inputs, labels, rewards, demonstrations or other observations and how they were obtained. For missing labels, delayed feedback, selection effects or dependence between examples, state what the learning procedure can observe. Distinguish information available when the prediction is due from feedback for later predictions. If a probability model of the records is needed, use one that fits their actual selection and recording, or use MMP.7 to build it.
 
 Choose the feedback regime before deriving the update. In supervised learning, the supplied target response can evaluate a candidate prediction directly. In bandit feedback, only the consequence of a chosen action is observed; an update requiring all unchosen consequences is unavailable. A self-produced label remains the output of another rule and can propagate its errors.
 
@@ -1762,7 +1762,7 @@ The method can also expose a limit that further optimization cannot remove. New 
 
 The learning algorithm and learned rule must remain distinct because their costs, inputs and failure modes differ. Inductive restriction belongs with the algorithm's construction: without it, agreement on examples leaves the future rule unspecified. Base the performance argument on the feedback and use in question.
 
-MMP supplies data and subject-model accounts. CMP.4 and CMP.6 supply effective search or update; CMP.7 assembles those contributions into a learner. Further model assessment, explanation, development and portfolio choice use their existing methods.
+MMP provides methods for modeling the subject and how the data were obtained. Obtain the observations from their source. Use CMP.4 or CMP.6 when a search or update procedure needs constructing, and combine the actual inputs and procedures into a learner under CMP.7. Further model assessment, explanation, development and portfolio choice use their existing methods.
 
 ### CMP.7:11 - SoTA-Echoing
 

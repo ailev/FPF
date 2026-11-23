@@ -190,9 +190,9 @@ The best arrangement is unresolved until the receiving workload and comparison m
 
 ## KCAE.Reference:10 - FPF and DPF supplier returns
 
-The compatible public supplier set for the uses below is [FPF Library edition d4f6b0ba1a4db119fecf8d5b9d2b526633f2e58a](https://github.com/ailev/FPF/tree/d4f6b0ba1a4db119fecf8d5b9d2b526633f2e58a). The table links to the publications and names the sections that supply the instructions. Use a newer edition only after checking the contribution used here and its conditions; an unchanged identifier alone is insufficient.
+The compatible public supplier set for the uses below is [FPF Library edition d4f6b0ba1a4db119fecf8d5b9d2b526633f2e58a](https://github.com/ailev/FPF/tree/d4f6b0ba1a4db119fecf8d5b9d2b526633f2e58a). The table points to instructions and identifies what the receiving task needs. An existing result can satisfy that need. Where the work is still outstanding, a practitioner must obtain the observations, carry out the analysis or secure the authorization on which that result depends. Use a newer edition only after checking the contribution used here and its conditions; an unchanged identifier alone is insufficient.
 
-| Supplier and section | Result received here | Use and limit |
+| Supplier and section | Result needed for this use | Use and limit |
 | --- | --- | --- |
 | [FPF-Spec.md](https://github.com/ailev/FPF/blob/d4f6b0ba1a4db119fecf8d5b9d2b526633f2e58a/FPF-Spec.md), F.1:4.1–F.1:4.2 | An inspected question-relative source cut with roles, gaps and reopen conditions. | KCAE.USE and KCAE.SOURCE select source bases. F.1’s optional search policy can guide attention when selecting sources. |
 | Same Core publication, A.6.3.RT:4.1 and C.2.8:4.1–C.2.8:4.3 | A representation-change account and reader-relative recovery of selected structure. | KCAE.SOURCE and KCAE.DELIVER preserve consequential conditions and diagnose loss. A vector view is not declared a meaning-preserving translation without its own basis. |

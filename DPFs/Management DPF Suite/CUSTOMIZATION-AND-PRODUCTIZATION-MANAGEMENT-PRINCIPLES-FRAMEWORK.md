@@ -297,7 +297,7 @@ This document declares DocID CUST within FPF Library. Its CUST pattern addresses
 
 The Readme gives three examples of where to start: CUST-ENTRY-DELIVERY, CUST-ENTRY-CHANGE and CUST-ENTRY-GROWTH.
 
-Use the complete current supplying treatment when a consequential condition has changed. Reopen the affected CUST contribution when a family invariant no longer holds, ordinary delivery needs different preparation or help, a permission changes, an operating constraint defeats a promise, or an old customer dependency alters the support tail. Preserve adequate unaffected contributions.
+Establish what the changed condition does to the choice. A known permission withdrawal can already exclude an option that requires it. Consult the current supplying treatment if its method or conditions are needed to settle what follows. Reopen the affected CUST contribution when a family invariant no longer holds, ordinary delivery needs different preparation or help, a permission changes, an operating constraint defeats a promise, or an old customer dependency alters the support tail. Preserve adequate unaffected contributions.
 
 External source limits remain part of their use. An abstract can orient a question; obtain the full treatment when its procedure is needed. An official offer or job description can change or disappear; verify its current form before relying on that organizational fact. A relevant new result can change a particular construction, boundary or comparison.
 

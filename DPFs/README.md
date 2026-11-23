@@ -19,9 +19,9 @@ A Suite brings together constituent disciplines and explains how their knowledge
 
 | Suite | Working subject | DPFs | Patterns | Text, M characters |
 | --- | --- | ---: | ---: | ---: |
-| [Engineering](Engineering%20DPF%20Suite/) | Designing, realizing, changing and maintaining systems; knowledge access, semantic integration and control architecture design. | 5 | 99 | 2.972 |
-| [Management](Management%20DPF%20Suite/) | Direction, goals, commitments, operations, resources, markets, communities, workforce participation and organizational change. | 14 | 201 | 5.747 |
-| [Foundational Thinking](Foundational%20Thinking%20DPF%20Suite/) | Mathematical and physical accounts, models, algorithms and usable notation. | 5 | 71 | 2.063 |
+| [Engineering](Engineering%20DPF%20Suite/) | Designing, realizing, changing and maintaining systems; knowledge access, semantic integration and control architecture design. | 5 | 99 | 2.980 |
+| [Management](Management%20DPF%20Suite/) | Direction, goals, commitments, operations, resources, markets, communities, workforce participation and organizational change. | 14 | 201 | 5.757 |
+| [Foundational Thinking](Foundational%20Thinking%20DPF%20Suite/) | Mathematical and physical accounts, models, algorithms and usable notation. | 5 | 71 | 2.064 |
 | [Human Capability Engineering](Human%20Capability%20Engineering%20DPF%20Suite/) | Human learning and somatic change, connected to capability in later work. | 2 | 34 | 1.300 |
 
 For a goal or OKR question, open [GOALS](Management%20DPF%20Suite/GOAL-CONSTRUCTION-AND-REGULATION-PRINCIPLES-FRAMEWORK.md) directly within Management. Its complete language includes organizational OKR/CFR, human professional goals and AI work.
@@ -40,14 +40,14 @@ These ten standalone frameworks have their own files here. A shared folder group
 | [Economic Reasoning and Coordination (ECO)](https://fpf.tools/ECO) · [Markdown](ECONOMIC-REASONING-AND-COORDINATION-PRINCIPLES-FRAMEWORK.md) | Compare exchange, incentives and commitments. Establish whose resource use can change, which claims can be met together and when a unit saving changes total demand. | 10 | 0.155 |
 | [Financial Domain Modeling (FDM)](https://fpf.tools/FDM) · [Markdown](FINANCIAL-DOMAIN-MODELING-PRINCIPLES-FRAMEWORK.md) | Model financial positions, rights and obligations. Derive conditional contract flows, assess funds available by a due date, and establish what occurred or what incomplete records still determine. | 5 | 0.122 |
 | [Defense and Transmission Modeling (DTM)](https://fpf.tools/DTM) · [Markdown](DEFENSE-AND-TRANSMISSION-MODELING-DPF.md) | Explain how practices persist and spread, how they help or impair work, and how protective action changes those outcomes. | 9 | 0.162 |
-| [Embodied Rhythmics (RHY)](https://fpf.tools/RHY) · [Markdown](EMBODIED-RHYTHMICS-PRINCIPLES-FRAMEWORK.md) | Recognize, represent, alter and perform rhythmic relations. Relate the actions of one or several performers to each other and to any reference the passage requires. | 14 | 0.301 |
+| [Embodied Rhythmics (RHY)](https://fpf.tools/RHY) · [Markdown](EMBODIED-RHYTHMICS-PRINCIPLES-FRAMEWORK.md) | Recognize, represent, alter and perform rhythmic relations. Relate the actions of one or several performers to each other and to any reference the passage requires. | 14 | 0.302 |
 | [Music and Dance Practice Engineering (MDPE)](https://fpf.tools/MDPE) · [Markdown](MUSIC-AND-DANCE-PRACTICE-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | Create, configure, perform, learn and transmit music and dance practices, including changes in tools, environments and styles. | 28 | 1.127 |
 
 **Patterns** counts full pattern bodies. **Text, M characters** measures each complete Markdown framework, including its embedded Architectural Reference, in millions of Unicode characters with spaces and original line breaks, rounded to three decimals. Suite totals sum their constituent frameworks and exclude the separate Suite Reference.
 
 ## Combine only the contributions your work needs
 
-For example, a decision may require a research finding, a mathematical model and an explanation to its participants. Decision Design, Research Method Practice, Foundational Thinking and Explanation Design then supply different results. Read the relevant conditions and connect those results; you do not need to study every framework or use every pattern in sequence.
+Suppose a group choosing between two proposals needs a research finding, a local model and an explanation of how the model bears on the choice. A published finding may already apply. A modeling text may give a method that still needs local observations. An existing explanation may give the group the grounds it needs before the choice. If someone has undertaken to explain those grounds at the meeting, establish that they gave the explanation there. Use the relevant publications for what is still needed to make the choice or fulfil the undertaking.
 
 When the purpose is to expand an agent's capabilities and continue to further attainable problems, use [Core's connected development method (C.40.OD)](https://fpf.tools/C.40.OD) with the relevant domain methods. The particular changes needed by a person, AI, team or organization differ.
 
