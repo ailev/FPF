@@ -1010,7 +1010,9 @@ For development, distinguish supported practice from performance used for conseq
 
 #### GOALS.8:4.3 - Recognize an evidenced contribution
 
-Name the contribution, the result or continuation it helped and the available basis for that account. Acknowledging someone who surfaced an unworkable promise, helped a neighbor or repaired a bad assumption can make useful work visible alongside headline outputs. Keep the claim proportional: contribution to a team result is different from sole causation, and ownership of an OKR is different from performing all its work.
+Start with what you can acknowledge about this person's work. A record of a timely warning can be grounds to thank the person who gave it even when its effect is unknown. When the recipient used it, find out what decision was still open and what they did in light of the warning. It might have confirmed an action already chosen, supplied a missing reason to proceed, or changed the action or its timing. Credit the change that the evidence supports. To say the warning prevented a loss, establish how the response averted it and why that loss would otherwise have occurred, taking the other protections then available into account.
+
+A shared result can identify individual acts. Ask what the result establishes under the arrangements that actually operated. If a release could proceed only with approval from each of two named people, the completed release establishes both approvals. If either could approve and the record says only “approved”, the identity of the approver remains open. Evidence of who devised the solution or performed the checks answers further questions. Recognize the team's achievement at its own scope and the particular work that the evidence supports for each participant. The owner of the goal may have coordinated work performed by several people.
 
 Choose recognition appropriate to the participant and setting, including preferences about publicity. Explain enough for colleagues to understand the practice worth retaining. Formulaic praise or a ranking detached from the contribution provides little guidance and can misattribute credit.
 
@@ -1018,9 +1020,9 @@ Choose recognition appropriate to the participant and setting, including prefere
 
 Goal evidence can inform a personnel decision when its interpretation fits that decision. HRM.2 supplies the actual work analysis, assessment inference, comparison and limits. HRM.3 supplies remuneration and progression through their applicable bases and terms; HRM.1 checks the coherent people/work arrangement. Include opportunity, assistance, scope, attribution and relevant changes when comparing contributions.
 
-Use goal evidence under the actual remuneration or progression rule. Identify the contribution the rule rewards and the evidence and authority it requires. A valid fixed rule can determine an entitlement once its conditions are met. A discretionary award requires the decision entrusted to its holder. HRM.3 supplies the relevant professional process and any further grounds a particular decision requires.
+Apply the remuneration or progression rule in force. Which result qualifies, who is eligible and what further decision, if any, does the rule require? The terms may reward a shared achievement or specify an act the individual must perform. A valid fixed rule can settle entitlement and amount as soon as its conditions are established. A discretionary award requires the decision entrusted to its holder. HRM.3 supplies the relevant remuneration process.
 
-Return the conversation result or qualified input to whoever will use it. Recognition flags an unjustified change of use. For assurance, establish what the evidence supports about the individual, how it may be used and who has authority to act on it for the proposed consequence.
+When someone proposes to use goal evidence for a different personnel decision, establish whether that use is permitted, what the evidence supports for this decision and who has authority to act. Give the recipient the supported finding and any uncertainty that matters to the choice.
 
 ### GOALS.8:5 - Archetypal Grounding
 
@@ -1028,11 +1030,11 @@ Two employees have scores of 1.0 and 0.6. The first had a committed goal with es
 
 In a CFR conversation, the second employee's evidence supports discussion of the search quality, the useful finding and the help provided. The team can recognize those contributions and decide what to pursue next. A promotion panel separately asks whether the employee can perform the proposed wider role. HRM.2 receives appropriate evidence, including relevant goal work, but needs the role-specific inference and comparison.
 
-Suppose a valid reward arrangement grants a specified payment when a defined contribution has been evidenced. Its conditions are met. The employee's entitlement and amount can now be established under that rule. A rule reserving the award to an authorized panel would instead require its decision. To report that the employee has been paid, use evidence of the transfer or receipt that the applicable terms require. Those responsible use HRM.3 to carry out the remaining work.
+Suppose these employees also belong to a team whose client has accepted its delivery. Under terms that grant the same fixed award to each eligible team member on acceptance, the accepted delivery and evidence of each person's eligibility settle both amounts. Under terms that reward the person who discovered the failed option, the evidence of who made that finding matters. If an award is reserved to a panel, its decision is still needed. To report that either employee has been paid, use evidence of the transfer or receipt required by the terms.
 
 ### GOALS.8:6 - Bias-Annotation
 
-Visible output can conceal helping, care, coordination and unequal opportunity. Interpret the evidence in the actual work configuration. Participants' preferences about recognition and disclosure differ. AI-generated work changes attribution and the relevant human contribution; it does not erase that contribution or establish it automatically.
+Visible output can conceal helping, care, coordination and unequal opportunity. Interpret the evidence in the actual work configuration. Participants' preferences about recognition and disclosure differ. For an AI-assisted result, establish which choices or checks the evidence attributes to the person when those are the grounds for recognition.
 
 ### GOALS.8:7 - Conformance Checklist
 

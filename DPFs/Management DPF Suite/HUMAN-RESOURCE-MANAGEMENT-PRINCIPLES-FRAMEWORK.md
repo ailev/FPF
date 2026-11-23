@@ -566,7 +566,9 @@ For **market position**, select comparators that concern the role, labor market,
 
 For **individual progression**, specify the rule and evidence: for example, an agreed service condition, demonstrated capability in specified work, a changed responsibility or a defined contribution. These are different possible grounds, not interchangeable proxies. Distinguish eligibility to progress, assessment of the relevant condition, the authorized decision and its effective date. Use HRM.2 where the progression rests on a personnel assessment.
 
-For **variable reward**, establish what outcome or contribution qualifies, the period, attribution, thresholds or other rule, uncertainty and limits of participant control. An OPS.22 finding becomes a reward input only when its interpretation fits that rule. Output from an agent or a team does not automatically identify the individual contribution. Do not reward apparent speed by creating an incentive to conceal defects, move work to colleagues or exceed protected hours.
+For **variable reward**, identify the qualifying result, the period, who is eligible and how the amount is determined. A team outcome and the applicable membership rule can settle a person's entitlement. An agreed share of a pool specifies what that person receives. To reward a personal act or an effect attributable to it, use evidence for the condition the terms name. Where a threshold governs payment, a supported lower or upper bound on the person's work can settle whether they qualify while leaving their exact count open. An OPS.22 finding can supply the operating evidence within its scope.
+
+When designing the terms, examine what participants can influence, the uncertainty they bear and the choices the proposed rule encourages. An apparent gain in speed can come from concealing defects, moving work to colleagues or exceeding protected hours.
 
 ##### HRM.3:4.2.1 - Obtain a comparative evaluation of changed work
 
@@ -659,13 +661,15 @@ The arrangement becomes explainable and revisable by its grounds. It can expose 
 
 ### HRM.3:10 - Architectural Rationale
 
-Reward connects work, contribution, alternatives and institutional terms. It is distinct from measuring performance and fulfilling payment, while depending on both. This separation permits a pay correction without reassessment and a job revaluation without rewriting a person's past performance.
+Reward terms connect the work an organization seeks with what participants can receive. A performance finding enters the decision where the terms call for it. An effective rule can establish what is owed while payment is still outstanding. This permits a pay correction without reassessment and a job revaluation that preserves the account of a person's earlier work.
 
 ### HRM.3:11 - SoTA-Echoing
 
 ILO's 2026 treatment of gender-neutral job evaluation supplies the equal-value comparison of job demands and correction of omissions. The EC/EIGE 2026 toolkit develops a professional route from work information through factor-level judgements and comparison to classification and follow-up. The detailed factor definitions and level descriptors are available in that toolkit. Its European institutional discussion is context-specific; weights and grouping rules require justification for the actual comparison.
 
 CIPD's reward account supplies the broader combination of base pay, progression, variable reward, benefits and internal/external positioning. This Method connects those distinct contributions to the work arrangement, contested evidence and effective terms. The numerical example is an authored conditional calculation, not a result reported by those sources. Qualified local compensation provision can be sufficient when its terms, grounds and implementation conditions answer the receiving question.
+
+The U.S. Office of Personnel Management describes group awards tied to organizational performance and individual awards for a particular act. These are two concrete choices for what qualifies. The terms in force determine eligibility and amounts in the workplace using them. [OPM, Awards and Recognition](https://www.opm.gov/policy-data-oversight/performance-management/performance-management-and-accountability-playbook/awards-and-recognition/)
 
 ### HRM.3:12 - Relations
 
