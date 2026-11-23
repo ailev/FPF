@@ -3674,7 +3674,7 @@ An unexplained referral failure or a promising contrast is enough to recognise t
 
 | Failure in practice | Repair |
 | --- | --- |
-| Begin with a broad partnership agreement while the shared work is unclear. | Find one contribution both sides can use and try it under a small commitment. |
+| Begin with a broad partnership agreement while the shared work is unclear. | Identify the result that gives the practices a reason to work together. Show what each could supply, how their work would fit and what each intended recipient could receive. A feasible proposal can complete a design request. If a trial is needed, agree its purpose, permissions and return with those involved. |
 | Use a common word as evidence of common practice. | Compare its meaning and consequence in each side's actual case. |
 | Resolve a resource conflict by rewriting terminology. | Return the allocation or commitment question to its owner. |
 | Fill a visit with presentations that could happen anywhere. | Arrange practitioner-guided access to the work and questions that need situated observation. |
