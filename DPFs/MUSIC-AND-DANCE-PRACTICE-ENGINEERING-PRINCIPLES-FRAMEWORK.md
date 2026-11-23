@@ -5732,7 +5732,7 @@ When a receiving performance is at issue, describe the relations it preserved, c
 
 If a further choice is required, keep an arrangement already adequate for the use. Compare the likely contribution of a change with its cost and delay. A different carrier, demonstration, exercise, cue, partner, feedback method, tool setting or source comparison may address the particular limitation. Narrow or stop the proposed use when its requirements cannot be met.
 
-Report the design or the supported finding and its limits. Include the following details as applicable.
+Report the design or the supported finding and its limits. If the question is what the performer did, an adequate performance record can finish it. When the question is what a source changed, identify the particular effect and what bears on that attribution. Evidence about several sources used together may establish their joint effect while leaving the individual effects open. Include the following details as applicable.
 
 ```text
 receiving Agent, use, and representative Work:
@@ -5742,7 +5742,8 @@ receiving Method and performing whole:
 support and context variation:
 observed work or proposed trial, relevant change or delay, and limits:
 receiving Method or candidate variant — preserved, changed, added, absent or unknown relations:
-source contribution — supported | not supported | undecided | not needed:
+effect in question, when attribution is requested — named source, instruction or combination, what it may have changed for which receiver, and under what conditions:
+finding about that effect — what the grounds establish, rule out or leave open:
 next step, if requested — retain arrangement, proposed or chosen change, narrower use, or stop:
 grounds for reconsidering a decision, when relevant:
 ```
@@ -5784,7 +5785,7 @@ pair again performs Work that enacts the Method without reteaching under the cha
 
 The record supports timing, weight transfer and partner dialogue in the observed dances up to the pause in the `Q`–`S` dance. The receiving variant permits a different visible phrase. Seven days later `P` and `Q` retained the coordination they demonstrated together with changed music. Only `Q` with `S` encountered the interrupted connection, and their recovery failed on that attempt. Recovery by `P`, and by `P` and `Q` together, remains open. Since recovery is required for admission to the proposed practice, the teacher withholds that admission. The earlier results can support a narrower, separately authorized practice limited to the coordination already demonstrated.
 
-The trials also leave use with novice partners, a wider tempo range and unsupervised parties open. The class used the named sources and instruction. A claim about their contribution to learning would require grounds that distinguish it from the dancers’ previous ability and other practice.
+The trials also leave use with novice partners, a wider tempo range and unsupervised parties open. The class used the named sources and instruction. The observations establish the pair's later coordination. They are compatible with earlier skill and with learning during the class or in other practice. They leave open whether the demonstration or the exercises, separately or together, changed this coordination. The teacher can make the stated admission decision on the demonstrated performance.
 
 The teacher chooses an exercise in stopping, sensing the partner again and rebuilding the invitation before restarting. A trial with two changed partners can show whether `Q` recovers under those conditions. For admission of the original pair, use evidence bearing on their recovery together. A later improvement can support a new admission decision even when the exercise’s contribution is still uncertain. Retain the observations from the earlier dances for the conditions they covered.
 

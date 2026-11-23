@@ -42217,23 +42217,11 @@ The selected organization directs planning to Bus_7 and both material-path valve
 
 A C.29 graph may represent the same organization, while the predicates of the selected relation occurrences remain its obtaining basis. A visually identical graph with an unestablished connection remains a representation candidate.
 
-**Architecture kernel slice.** A team says, "the architecture is the graph." Recover the selected structure and the graph's reliance relation:
+**Which connection does the graph show?** A team wants to identify the next stage on the refrigerant path. Use the refrigerator scheme of E.18.2:4.5. Suppose the selected design edition specifies that the compressor discharge feeds the condenser directly. Its graph maps the two design positions to labelled vertices and direct flow to a directed edge. The edge runs from the compressor to the condenser. Here the graph describes the selected transformation-flow structure. It answers which stage follows compression on that path in this design.
 
-```text
-declaredStructureSubstrateRef: TransformationFlowStructureRef under E.18, with mathematical graph description under E.18.2 when that expression is the current claim
-candidate structure: selected transformation-flow structure
-structure-claim reliance relation: selected relation record named by value(
-  sourceDescriptionOrPatternApplicationRef = SourceViewRef, structure or crossing record selected under E.18, or E.18.2 mathematical graph description,
-  relationContribution = E.18 selected-structure or crossing definition | A.6.6 base-dependence test | independently established support relation recovered through A.10 provenance and bounded-use account | C.29 mathematical-lens result, chosen for the claim being made,
-  relationKind = source-description | base-dependence | evidence | lens, selected for this reliance,
-  validationBoundary = graph-path currentness boundary, slice currentness boundary, or crossing currentness boundary
-)
-next FPF pattern application: C.30.TFS-REL when this selected structure is used in an architecture-to-transformation-flow relation
-stop or return condition: stop at the selected reliance relation's result; for a Work, evidence, gate, or decision claim, apply its test in A.22:4.7
-non-admissible use: the graph as the whole architecture
-```
+In a record of reliance, `relationKind` can therefore be *source-description*. The `relationContribution` is the represented direction and adjacency of these two positions. The identified circuit description supplies the correspondence. A reversal of the arrow with the same legend would misdescribe this connection. A change of circuit or legend requires checking the correspondence again. The graph can retain this answer while the installed device stands idle. To report actual circulation, obtain evidence bearing on the device in that interval.
 
-The practitioner can now use the graph through the selected source-description, base-dependence, evidence, or lens relation and route the architecture claim to C.30.TFS-REL.
+Other uses of the same drawing can require a different relation. E.18 defines the selected flow structure or crossing, A.6.6 tests base dependence, A.10 traces the grounds of an independently supported evidence claim, and C.29 tests the adequacy of a mathematical representation for the proposed inference. Choose the one the receiving question relies on. Use C.30.TFS-REL for a claim relating an architecture to this flow structure. A work, gate or decision claim draws on its own grounds under A.22:4.7.
 
 **Extracted code structure slice.** A code-agent relation graph or probe JSON reports imports, calls, registry wiring and data-flow links. Recover the source codebase or publication, extraction method, preserved and lost structure, validation boundary and structure-use return condition. That establishes the declared extraction result only. For an A.6.3 epistemic-viewing claim, identify source episteme `X` and receiving episteme `Y`, their same EntityOfConcern, and the projected or re-expressed ClaimGraph and ReferenceScheme. Qualify `Y` as a `U.View` only when the applicable E.17.0 viewpoint conformance independently obtains. A claim about the codebase architecture, internal agent belief, assurance or release readiness still needs its evidence and governing predicate.
 
@@ -82361,9 +82349,8 @@ ArchitectureInfluenceTransformedArchitectureCorrespondenceFrame@Project:
       influenceSourceArchitectureClaimRef?: omitted — the obtaining relation and current structure are enough for this use
       structureKindRef: BatchAndEvidenceResponsibilityStructure
       selectedStructureRef: BatchLineSharedEvidenceStructure@Current
-      contributionToCandidatePressure: may prevent independent field-module replacement
+      contributionToCandidatePressure: shared qualification may require retesting other modules after one is replaced
       architectureCharacteristicPressure: provisional independent-change pressure
-      relationFunctionClaimRef: C.30 plus A.22
       sourceReturnCondition: missing-governor — recover the direct architecture-influence kind and predicate
   transformedHolonRef: ProductFamily@Current
   transformedArchitectureRelationRef: C.30 ArchitectureRelation(ProductFamily@Current, FieldModuleBoundaryStructure@Current)
@@ -82373,7 +82360,6 @@ ArchitectureInfluenceTransformedArchitectureCorrespondenceFrame@Project:
       selectedStructureRef: FieldModuleBoundaryStructure@Current
       requiredStructureContribution: permit independent field-module replacement
       architectureCharacteristicPressure: provisional independent-change pressure
-      relationFunctionClaimRef: C.30 plus A.22
   correspondenceClaims[]:
     - correspondenceId: BatchEvidence-to-FieldModulePressure
       influenceSourceArchitectureRelationRef: C.30 ArchitectureRelation(ManufacturingCertificationSystem@Plant-A, BatchLineSharedEvidenceStructure@Current)
@@ -82424,9 +82410,9 @@ ArchitectureInfluenceTransformedArchitectureCorrespondenceFrame@Project:
     influenceSourceArchitectureClaimRef?: exact C.30 ArchitectureClaimRef for actual, candidate, required, desired, or expected content not carried by an obtaining relation
     structureKindRef:
     selectedStructureRef:
-    contributionToCandidatePressure:
+    contributionToCandidatePressure: how this source condition could affect the candidate and under what conditions
     architectureCharacteristicPressure:
-    relationFunctionClaimRef:
+    relationFunctionClaimRef?: exact defining or constraining ClaimGraph if this use depends on its identity
     sourceReturnCondition?:
   transformedHolonRef:
   transformedArchitectureRelationRef?: exact obtaining C.30 ArchitectureRelation ref
@@ -82434,9 +82420,9 @@ ArchitectureInfluenceTransformedArchitectureCorrespondenceFrame@Project:
   transformedSelectedStructureMap[]:
     structureKindRef:
     selectedStructureRef?:
-    requiredStructureContribution:
+    requiredStructureContribution: what the proposed arrangement must make possible
     architectureCharacteristicPressure:
-    relationFunctionClaimRef:
+    relationFunctionClaimRef?: exact defining or constraining ClaimGraph if this use depends on its identity
     sourceReturnCondition?:
   evolutionWindowRef?: include when the intended claim or use depends on time
   evidenceRefs?:
@@ -82529,7 +82515,7 @@ The first result can be a candidate, a supported reason to retain the arrangemen
 ArchitectureInfluenceTransformedArchitectureCorrespondenceRow@Context <: U.Episteme:
   entityOfConcernRef: exactArchitectureInfluenceOrCorrespondenceRelationOccurrenceRef
   entityOfConcernKindRef: exactArchitectureInfluenceOrCorrespondenceRelationKindRef
-  relationFunctionClaimRef: subject pattern of that exact relation kind and occurrence
+  relationFunctionClaimRef: the defining or constraining ClaimGraph for this exact influence or correspondence predicate
   influenceSourceArchitectureRelationRef: one exact obtaining C.30 ArchitectureRelation
   influenceSourceHolonRef: the exact architectureBearingHolonRef participant of influenceSourceArchitectureRelationRef
   influenceSourceSelectedStructureRef: the exact selectedArchitectureStructureRef participant of influenceSourceArchitectureRelationRef
@@ -84159,7 +84145,7 @@ ArchitectureDecisionRelation@Project:
     - structureKindRef:
       selectedStructureRef:
       decisionEffect:
-      relationFunctionClaimRef:
+      relationFunctionClaimRef?: exact defining or constraining ClaimGraph when rule identity matters to this decision
   bindingConstraintRefs?: conditions that remain in force for the selected design
   noLiveTradeoffReason?: when the decision involves no trade-off
   architectureCharacteristicTradeoffs?:
@@ -84245,7 +84231,7 @@ Work in this order:
 1. Name the composite project `U.Work` participant and the decision subject: described holon, decision question, intended use, ClaimScope, decision window, and status. If the decision designates a project system-of-interest, recover the named extended enterprise and agreement grounds under A.1.STM:4.1; cite the existing `U.System` or the pre-inception intended-system claim. Add a local kind only when it is current, add a separate System-classification judgment only when that judgment independently obtains, and add an assignment only through its separately declared A.2.1 species and obtaining occurrence whose holder is that System. Route `SystemOfInterestRole` source wording through `E.10.ROLE`; establish every Work, change, and use fact through its own predicate and pattern. For a needed compound project-selection claim, apply A.15.6:4.1a to its sufficient local semantics and case facts. Return `missing-substrate[project-selection-conjunction]` only for unavailable required semantics; missing or failed facts retain their own outcomes.
 2. Give the basis for the chosen design. If the commission permits any conforming option, identify the option and how it meets the binding conditions. If the decision turns on a preference, cite the alternatives compared. Identify the condition that fixes the design when a prior commitment settles it. For a binding choice, show which implementation remains feasible and what the project can still decide. When the decision calls for comparing alternatives, use `C.32` for the candidate palette, `C.32.MLAO` for residual-reducing multilevel candidate frames, `C.32.CONWAY` when an influence-source architecture and transformed-side architecture content shaped the candidate, and `C.32.FAIL` for repaired candidate errors. Cite a C.32.CONWAY synthesis frame while either side is modal or the direct influence relation is unresolved; cite an exact pair row only for its already obtaining direct occurrence and two obtaining C.30 architecture-relation participants.
 3. Cite comparison or selection input only when it exists. Use `A.19.CPM` for explicit comparison, `A.19.SelectorMechanism` for set-returning selection, `G.5` for selected-set result declaration, and `C.11` for local choice. For publication, use `E.24.PUB` for the occurrence and audience availability; add `E.17` when a source-backed face and source return are needed.
-4. State the selected architecture option or bounded exception. Name the affected selected structures and the subject pattern for each structure claim.
+4. State the selected architecture option or bounded exception. Name the affected structures and explain how they bear on the choice. A pattern reference can locate a rule. When the decision depends on the identity of that rule, resolve `relationFunctionClaimRef` to its defining or constraining ClaimGraph. A decision in force can already fix the boundary for later work. To report actual operating behavior, establish what happened in the relevant use. To attribute an improvement to the chosen design, justify the comparison with the relevant alternative.
 5. Record the architecture-characteristic trade-off, or why no live trade-off is needed. Reuse adequate criteria, readings and explanations. Use `C.32.ACS`, `C.32.ACE`, `C.16`, `C.25` or `C.31` for the particular missing criterion, evaluation, measurement, quality bundle or modularity/scale claim. Recover description correspondence and relevant loss through `C.30.AD`; use `C.29` when mathematical representation choice, transfer or reliance remains unresolved. None of these inputs decides the architecture by itself.
 6. Record the rationale and consequences. Identify any rejected options and the losses the project accepts. For organizational architecture, explain how the selected structure can provide the needed capability for the named products, which provision and cooperation it relies on, and who is entitled to accept a consequential change to their commitments. Keep expenditure, financing and expected product benefit distinguishable. A rejected option can remain useful as a stepping stone or archive item; do not turn it into a failure unless the receiving failure pattern is triggered.
 7. Relate the decision to architecture descriptions it uses. Use `C.30.AD` for architecture-description adequacy and `C.30.ASV` for selected-structure view adequacy. A diagram, model, file, or view can describe the decision basis; it does not become the decision relation.
@@ -84298,8 +84284,7 @@ ArchitectureDecisionRelation@OrderFlow:
   selectedStructureEffects:
     - structureKindRef: module structure
       selectedStructureRef: order events between service modules
-      decisionEffect: preserve service substitutability, accept added event-schema governance
-      relationFunctionClaimRef: C.30.ASV
+      decisionEffect: choose the event boundary to support service replacement under the agreed event meanings and delivery conditions, and accept the cost of coordinating schema changes
   architectureCharacteristicTradeoffs:
     - architectureCharacteristicRef: substitutability
       criteriaRowRef: C.32.ACS order-flow substitutability criterion
@@ -105907,6 +105892,7 @@ Use these words when the sentence makes clear **what participates or is used, in
 | “This operation contributes to preparation.” | “Calculating the correction is a constituent of this preparation Method under its construction rule.” Use B.1.5 for Method parthood; describe performed Work separately when that is the claim. |
 | “The test contributes evidence.” | State which test result supports which claim and under what limits, using the direct evidence rule and A.10 when the source-to-use account needs recovery or replay. Evidence for a residual at sampled marks need not warrant the whole interval. |
 | “The replacement adds value.” | Compare the realizable changed configuration with the present one under C.11.CRC when its finite-change question is current. Keep the affected results, resources, horizon and uncertainty visible. |
+| “The contribution field is filled.” | Read what this record declares and what its value identifies or asserts. A role eligible to supply a result can be named before anyone does the work. An entry for completed work can carry the evidence for attribution. Recover what the entry warrants for the question at hand under A.6.P:4.4. |
 | “The author makes an original contribution.” | Name the new distinction, Method or explanation and the question it answers. E.8:11 compares that answer with alternatives; authorship alone establishes neither novelty nor practical superiority. |
 
 A supplied recording, its use by an analyst, a claimed causal effect and a comparison of two configurations need different statements. Use A.6.P when a predicate or participant remains hidden, C.2.P for an unresolved source/content/use distinction, and C.28 for a causal claim. C.11.CRC does not replace a comparison of source content with no realizable configuration change.
@@ -123407,7 +123393,7 @@ SourceComposedResultClaim within result or loop episteme claim content:
   sourceContributionDescriptionRefs[1..*]
 ```
 
-The two named forms organize claims within the claim content of a result or loop episteme; a table row or serialization may publish them but does not become the claim.
+The two named forms organize claim content in a result or loop episteme. A table can publish that content. In a `SourceComposedResultClaim`, recover what content each decision accepts for the stated use and how that content supports the identified result, individually or together with other sources. The referenced decisions and descriptions may already supply those connections. Where two readings of the lists would assign different grounds to a disputed conclusion, state the missing connection or leave that attribution open. A single decision can cover several contributions, and several sources can jointly supply a premise. List position supplies a pairing only if the record defines that convention.
 
 A `SourceComposedResultClaim` uses exactly one of `resultClaimNodeRef` and `resultClaimEpistemeRef`. `resultClaimNodeRef` is the C.2.1:4.2.5 `ClaimAddress` pair: an exact episteme-edition reference and an intrinsic claim identity declared by that edition's ClaimGraph. Resolve the edition and then require exactly one claim with that identity. An unresolved edition, absent or non-unique identity, or display-only node token leaves the address unresolved.
 
@@ -123632,7 +123618,7 @@ Accepted `SoTA` is the working external front only when assigned by the object-u
 
 When an evaluation-result change depends on source use, source currentness, or a dated external front, the loop record cites the exact accepted source contribution and bounded use, including a `G.2` pack result when that route was used, or the relevant `G.11` currentness result, with the edition or date needed for replay. `E.23` carries that reference; it does not make the source-use or currentness decision.
 
-When several source anchors are used, retain each accepted source-use decision and contribution. If the improvement depends on their combined use, construct the needed connection under the subject Method; for framework Methods, use C.39 and E.4.CM. Preserve independently usable contributions when no composite Method is needed. Relate the changed result claim to those decisions and contributions and re-evaluate the changed object version. Use `SourceComposedResultClaim` within a separately constituted result episteme when the receiving use needs that account.
+When several source anchors are used, retain what each accepted decision permits the practitioner to take from its source and how that content enters the result. If a source changes, follow those connections to the affected conclusion. A conclusion with independently sufficient grounds can stand even while a particular attribution remains unresolved. If the improvement depends on their combined use, construct the needed connection under the subject Method; for framework Methods, use C.39 and E.4.CM. Preserve independently usable contributions when no composite Method is needed. Relate the changed result claim to those decisions and contributions and re-evaluate the changed object version. Use `SourceComposedResultClaim` within a separately constituted result episteme when the receiving use needs that account.
 
 For NQD and OEE, use `E.23` to change one object version or candidate and re-evaluate it on declared `Q` coordinates. Use `C.17` for novelty, diversity, descriptors, and distances, `C.18` for archive and front insertion, `C.19` for pool policy, `G.5` for selected-set result declaration, `G.9` for parity, and `G.11` for currentness and refresh. When audience availability is current, use `E.17` for a source-backed publication face and return to source and `E.24.PUB` for the publication occurrence, form, carrier, audience, bounded use, and availability.
 

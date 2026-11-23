@@ -569,7 +569,7 @@ NarrativePurposeIntake@Context:
   renderingMediationMode: direct-source-structure | architecture-mediated | mixed
   architectureMediationRef?:
   sourceDefinitionOrConstraintRef?:
-  renderingContribution?:
+  renderingContribution?: proposed or assigned work on the account, or which part a contributor actually supplied, as needed
   narrativeVoiceOrViewpoint?:
   generatedDraftInspectionRef?:
   intendedReaderOrListener:
@@ -588,7 +588,7 @@ Use the following prompts where a choice remains open.
 
 1. Start with a difference the reader needs to recognize, an experience the work should invite or a choice the reader will face. Select material and relations that bear on it. For a factual or hypothetical account, make past events, live observations and proposals distinguishable wherever that matters. For fiction, keep the premises the brief fixes and make the creative choices it leaves open.
 2. If the narrative uses an architecture description, decision or observation, let the reader find the source whose structure or claim matters to that use. A direct explanation can refer straight to the subject material.
-3. Identify who is writing or supplying the account and who will use it. Use `NSTD.4` for a consequential choice of voice or viewpoint and `NSTD.7` for planning or inspecting generated text. Use `A.2` or `A.2.1` for a precise system-role or assignment claim. Use A.13 and A.15.1 when the claim needs precise attribution of a dated Work occurrence.
+3. Identify who will use the account and what needs to be known about its preparation. A role in `renderingContribution` can identify whom the plan considers eligible to prepare part of the account. To decide who can deliver it under the actual conditions, consider the access, time and skill the work requires. An agreed assignment can identify who is to prepare a particular part. To say who supplied a finished passage, establish what that person, team or tool supplied and how the work can be traced to them. A finished text can warrant a judgement about its content while leaving its author open. Use `NSTD.4` for a consequential choice of voice or viewpoint and `NSTD.7` for planning or inspecting generated text. Use `A.2` or `A.2.1` for a precise system-role or assignment claim. Use A.13 and A.15.1 when the claim needs precise attribution of a dated Work occurrence.
 4. Test the selection against the reader’s purpose. Hold a reported part fixed and change how it fits the whole. Then try holding the summary fixed while changing a detail it leaves out. If either change alters the requested answer or the grounds the reader needs, include the relevant relationship, establish it from a usable source or mark the limit. Stop when the selected material suffices. Revisit these choices if the purpose or material changes.
 5. Read the draft with the listener's or reader's purpose in mind. What would a reader who followed it successfully be ready to understand or do? Compare that result with the original purpose, including any question about a whole, its parts or the relation between them. This can reveal a change of subject even when readers report no difficulty. If the work depends on a particular reading, establish what that reader understood and what else they knew or used. Apply `F.19:4.4` to a proposed warning. The optional `likelyMisreading?` field can preserve a consequential inference and its grounds for a collaborator.
 6. Identify where to find an omitted relation or what still needs investigation if the reader requires a stronger conclusion.
@@ -638,7 +638,7 @@ NarrativePurposeIntake@FPFLearningRoute:
   sourceStructureSelectionRationale: learners must reconstruct how a practitioner chooses and uses a pattern
   sourceTemporalPosture: prospective planned learning route over current source corpus
   renderingMediationMode: direct-source-structure unless architecture-of-FPF explanation is opened
-  renderingContribution: teacher or course designer
+  renderingContribution: proposed roles for selecting a route that learners can reconstruct — teacher or course designer
   intendedReaderOrListener: new FPF author or reviewer
   readerInterestOrUseHypothesis: the learner wants to use an appropriate pattern for a case
   intendedReaderOrListenerUse: reconstruct one pattern-use route and apply it to a new case
@@ -654,7 +654,7 @@ NarrativePurposeIntake@HomotopyExplanation:
   sourceStructureSelectionRationale: learner needs an intuitive route that preserves formal boundaries
   sourceTemporalPosture: retrospective or atemporal explanation over existing mathematical material
   renderingMediationMode: direct-source-structure unless a teaching architecture is explicitly used
-  renderingContribution: teacher, explainer, or tool-assisted author
+  renderingContribution: proposed roles for linking the intuitive diagram to the formal statement — teacher, explainer or tool-assisted author
   intendedReaderOrListener: learner who must later distinguish intuition from proof
   readerInterestOrUseHypothesis: learner needs recoverable dependency order and analogy boundary
   intendedReaderOrListenerUse: use examples and return to formal statements without treating metaphor as theorem
@@ -670,7 +670,7 @@ NarrativePurposeIntake@LiveCommentary:
   sourceStructureSelectionRationale: listener needs orientation during an unfolding event stream
   sourceTemporalPosture: live unfolding source with later refresh
   renderingMediationMode: direct-source-structure
-  renderingContribution: commentator or live analyst
+  renderingContribution: proposed roles for giving the account as play unfolds — commentator or live analyst
   narrativeVoiceOrViewpoint: live commentator voice following the unfolding event under `NSTD.4`
   intendedReaderOrListener: listener following the event and later checking the official event record
   readerInterestOrUseHypothesis: listener needs distinction between observation, inference, prediction, and official correction
@@ -687,7 +687,7 @@ NarrativePurposeIntake@FictionalContinuationProbe:
   sourceStructureSelectionRationale: the chosen action must remain intelligible under the characters' established commitments and the consequences of earlier events
   sourceTemporalPosture: prospective fictional source structure
   renderingMediationMode: direct-source-structure unless fictional organization or technology architecture is live
-  renderingContribution: story designer or tool-assisted writer
+  renderingContribution: proposed roles for developing the sequence under the selected premises — story designer or tool-assisted writer
   intendedReaderOrListener: private reviewer of storycraft plan
   readerInterestOrUseHypothesis: reviewer needs to see whether continuity and agency survive the route
   intendedReaderOrListenerUse: private design critique, not publication
@@ -726,7 +726,7 @@ NarrativePurposeIntake@FPFSeminarOrientation:
   sourceStructureSelectionRationale: the story needs a decision its audience cares about and a reason the selected method could help
   sourceTemporalPosture: prospective planned learning route over current FPF source corpus
   renderingMediationMode: direct-source-structure
-  renderingContribution: seminar author
+  renderingContribution: the seminar author selected the team's decision about its next order as the opening
   intendedReaderOrListener: new FPF practitioner; team lead evaluating local adoption
   readerInterestOrUseHypothesis: reader wants a first usable route through FPF without learning every pattern first
   intendedReaderOrListenerUse: decide whether this method is worth trying on a question in their own work
@@ -743,7 +743,7 @@ For the motivating story, examine whether its audience can recognize the decisio
 For a seminar draft produced with an LLM, specify the relevant contributions separately.
 
 ```text
-renderingContribution: course-author or generator-operator role; recover the actual system, role assignment, and Work separately when those claims are made
+renderingContribution: the generator supplied a draft. Attribute selection of passages or revision of the draft to a particular participant when the production history establishes it
 narrativeVoiceOrViewpoint: teacher-facing explanatory voice under NSTD.4
 generatedDraftInspectionRef: the NSTD.7 case that identifies the generated draft, source comparison and acceptance for its intended use; C.35 applies only when the result informs architecture work
 ```
@@ -820,7 +820,7 @@ Check whether the proposed account omits a material counterexample or a serious 
 | `CC-NSTD1-1` | The selection serves the reader’s purpose. Where reliance on the account requires fidelity, an adequate comparison identifies what it preserves from the source. |
 | `CC-NSTD1-2` | The selection serves the reader’s question. Where the question depends on how parts fit together, the source and account support that connection at the scale needed for the answer. Details that the account combines can share the answer and any grounds the reader needs. |
 | `CC-NSTD1-3` | Past, live, proposed or fictional status and any intervening description are clear wherever they change interpretation. |
-| `CC-NSTD1-4` | Writing contribution, narrative viewpoint and intended reader are distinguishable when needed. Precise system-role, assignment or dated Work claims receive their own grounds only when asserted. |
+| `CC-NSTD1-4` | A reader can identify what the record says about preparation, the viewpoint expressed and the intended audience. Where attribution matters, the account identifies the actual contribution and its grounds. A role can identify an eligible contributor. Specific assignment and dated Work claims have their own grounds. |
 | `CC-NSTD1-5` | The intended use supplies enough direction to choose or improve the account, including an expressive aim when that is the task. |
 | `CC-NSTD1-6` | A correction aimed at a plausible misleading inference has grounds and a useful consequence under `F.19:4.4`. Preserve those grounds when another use relies on them. |
 | `CC-NSTD1-7` | Additional evidence, ethics, authority or production-history claims have the grounds their actual use requires. |
