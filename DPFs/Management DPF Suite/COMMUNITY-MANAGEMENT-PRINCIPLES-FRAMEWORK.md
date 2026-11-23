@@ -97,7 +97,7 @@ Choose an entry or a method in the [Table of Contents](#table-of-contents) by th
 - **Question:** What can continue, on whose terms, and who can perform the work?
 - **First useful result or blocker:** Identify the activity that can continue, the willing organiser, their mandate and the means available. Establish when responsibility passes under the terms of the transfer and who retains each outstanding obligation. To report that the activity has continued, trace a performance under the new arrangement.
 - **Start with:** [CB.11](#cb11---continue-change-transfer-or-end-a-community-arrangement); use [CB.13](#cb13---establish-a-workable-mandate-for-shared-decisions) for missing mandate, [CB.7](#cb7---prepare-and-sustain-distributed-organising) for organising capability and [CB.9](#cb9---provide-for-community-work-and-agree-its-terms) for provision and terms.
-- **Stop or return:** Reduce, pause or end an unsupported promise. Keep an adequate existing arrangement. An unresolved incident still needs its responsible receiver under CB.8.
+- **Stop or return:** When support ends, tell participants what can continue and settle commitments already taken on under their terms. Keep an adequate existing arrangement. An unresolved incident still needs its responsible receiver under CB.8.
 
 ## How to use the language
 
@@ -149,7 +149,7 @@ Work back from the receiver’s decision to who must contribute what. A person c
 
 [CB.14](#cb14---develop-and-maintain-a-shared-repertoire-of-practice) develops a repertoire that practitioners can use, question and maintain. It can select simple documentation, reciprocal comparison or a properly provisioned development project. [CB.15](#cb15---connect-practices-through-a-useful-joint-contribution) connects practices through a useful joint contribution, keeping differences in meaning and working conditions visible. A visitor may identify a missing permission and advise the team to seek help from the hosts. To recommend repeating the host’s method at home, establish whether the receiving practice can supply the conditions it needs. [CB.16](#cb16---form-and-carry-a-collective-voice-into-a-decision) carries a collective contribution into another party's decision with a position, mandate and returned answer. A useful idea can move between people without a joint method-development programme; an individual expert can speak without claiming to represent everyone.
 
-When combining these contributions, establish their joint feasibility. An expert may be unable to advise on a case and welcome newcomers during the same hour; one room may not support two activities at the required time. Obtain another contribution, change timing or reduce the promise. An appeal concerning that expert's own response needs another reviewer; rescheduling alone cannot supply independence. Each local method may be sensible while the combination is impossible.
+When combining these contributions, establish their joint feasibility. An expert may be unable to advise on a case and welcome newcomers during the same hour. One room may not support two activities at the required time. Consider extra provision, a different time or a smaller offer. For a proposed change that needs a decision, identify who has authority to make it. When a decision requires independent review, another qualified reviewer must be available. A later appointment with the same expert cannot supply that independence. Each local method may be sensible while the combination is impossible.
 
 ## CB.Reference:4 - Two ways to carry a practice, and why the distinction matters
 
@@ -221,7 +221,7 @@ Use the external contribution when the receiving question requires it. The table
 | A person needs to acquire a practice or receive useful learning support | [HCD.5](https://github.com/ailev/FPF/blob/main/DPFs/Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd5---select-human-capability-development-methods) and [HCD.6](https://github.com/ailev/FPF/blob/main/DPFs/Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd6---design-representative-practice-tasks) supply method selection, representative practice and feedback; [HCD.7](https://github.com/ailev/FPF/blob/main/DPFs/Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd7---arrange-providers-access-tools-and-ai-support-for-human-capability-development) and [HCD.8](https://github.com/ailev/FPF/blob/main/DPFs/Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd8---obtain-or-build-missing-human-capability-development-support-with-bounded-recursion) help obtain providers, access and missing learning support. [HCD.2](https://github.com/ailev/FPF/blob/main/DPFs/Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd2---compose-and-compare-human-capability-development-programmes-for-later-work) compares programmes for a particular person. A complete service may also need SYSE contributions. |
 | A teaching publication in Guide or Slidement form is being produced | Learning Product LPF is a separate Russian-language local practice framework for producing those formats. Obtain the text and relevant production practice separately; if they are unavailable, that teaching-publication contribution remains unprovided. HCD's learning-method and support contributions remain available for other parts of the arrangement. |
 | A practice is known but poorly expressed, or a new method claim must be developed | [Core Method-development patterns (FPF.Reference:16.7)](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#fpfreference167---develop-and-use-methods-with-distinct-claims-and-results) supply recovery, description, development, trial, adaptation and maintenance. [RMP.1 (RMP.1:4)](https://github.com/ailev/FPF/blob/main/DPFs/RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md#rmp14---solution) distinguishes sufficient existing knowledge from a research need. CB.14 organises the practitioners' contribution and its use. |
-| A community promise exceeds capable time, access or funding | [OPS.5 (OPS.5:4)](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops54---solution) supplies capacity reasoning; OPS.14 handles timing of an actual payment commitment; [MA.1](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md#ma1---build-the-resource-consumption-and-cost-model) and [MA.2](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md#ma2---explain-the-cost-and-use-of-capacity) supply the selected cost object and relevant cost account. Use CB.9 to establish which contributions are available and on what terms. If those responsible for them cannot support the promise, revise or withdraw it. |
+| A community promise exceeds capable time, access or funding | [OPS.5 (OPS.5:4)](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops54---solution) supplies capacity reasoning; OPS.14 handles timing of an actual payment commitment; [MA.1](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md#ma1---build-the-resource-consumption-and-cost-model) and [MA.2](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md#ma2---explain-the-cost-and-use-of-capacity) supply the selected cost object and relevant cost account. Use CB.9 to establish which contributions are available and on what terms. If support falls short, establish what can still be provided and which changes the terms allow. Use CB.9:4.6 to settle an outstanding obligation. |
 | A scarce shared resource requires use and upkeep rules, or a rule must change | [ECO.7](https://github.com/ailev/FPF/blob/main/DPFs/ECONOMIC-REASONING-AND-COORDINATION-PRINCIPLES-FRAMEWORK.md#eco7---coordinate-use-and-renewal-of-a-shared-resource) and [ECO.9](https://github.com/ailev/FPF/blob/main/DPFs/ECONOMIC-REASONING-AND-COORDINATION-PRINCIPLES-FRAMEWORK.md#eco9---decide-whether-and-how-to-change-economic-rules-through-their-working-practices) provide methods for arranging shared use and changing resource rules. CB.8 and CB.13 connect them to participation, mandate and correction where those are needed. |
 | A result is used as a causal explanation | [FPF C.28](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28---causaluse-cal-causal-use-questions-identification-and-realizability) distinguishes the causal-use question and necessary support; RMP supplies a fitting inquiry when required. CB.10's account of particular value does not replace that work. |
 | A complete service, tool or provider arrangement is missing | [Systems Engineering (SYSE)](https://github.com/ailev/FPF/blob/main/DPFs/Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md) provides methods for defining the whole system and choosing how to obtain it. CB.1 and CB.9 can identify and arrange the community contribution within that larger provision. |
@@ -560,7 +560,7 @@ The next step may be another deliberately arranged exchange, a modest adjustment
 
 Watch for initiative that is compatible with the purpose: a participant brings a new relevant question, offers help under stated limits or arranges contact without the organiser supplying every step. Treat such observations as local evidence of the arrangement's current operation. They do not establish a universal growth stage or the long-term independence of the group.
 
-Reduce or redistribute a particular organising contribution only when the needed work can still be done. If questions are now understandable but contributor matching still needs help, retain matching and stop rewriting every question. If recurring support has no willing, capable provider, reduce the activity, obtain resources or change the promise. Formal responsibilities and broader decision rights require their own agreement.
+Reduce or redistribute a particular organising contribution only when the needed work can still be done. If questions are now understandable but contributor matching still needs help, retain matching and stop rewriting every question. If recurring support has no willing, capable provider, limit new offers to what people can provide. For an accepted exchange, establish what remains due under its terms and who can resolve any open choice. Formal responsibilities and broader decision rights require their own agreement.
 
 Do not use group size as the sole continuation test. A small group can deliver the desired contribution. A larger one can become less usable if the relevant questions no longer receive attention.
 
@@ -572,7 +572,7 @@ Do not use group size as the sole continuation test. A small group can deliver t
 | A relevant question, but no willing capable contributor | Revise the request or terms, obtain another supplier, or return the offer to CB.1. |
 | A helpful discussion, but no evidence of application yet | Preserve the useful discussion result and the unanswered application question. |
 | Conflicting advice with no available deciding basis | Give the recipient any step and grounds common to the remaining accounts. If a required choice depends on the difference, return the open question to a qualified contributor. |
-| Results depend on organising work that exceeds available support | Reduce scope, redistribute accepted contributions, fund the required work or stop the unsupported promise. |
+| Results depend on organising work that exceeds available support | Obtain provision, agree a feasible division of work or use the terms of the exchange to settle what participants are still owed. |
 | A resource or individual service would answer the recurring need more directly | Use that route and retain only the mutual activity that still adds value. |
 
 For stronger claims, obtain the evidence that claim requires. A useful answer is not proof of learning; a few useful exchanges are not a causal estimate of programme benefit; a successful small activity does not establish available capacity at a larger scale.
@@ -773,7 +773,7 @@ Use OCE.6 when a real organisational appointment, resource allocation, permissio
 
 On return after absence, recover what has changed that affects the next action: the current material, contact, convention, access or responsibility. Supply a short update and a suitable next use. Do not require repeating unaffected orientation or explaining a private reason for absence. If the old contribution is no longer wanted or feasible, agree a smaller one or its end.
 
-When stepping back would leave a relied-on activity unsupported, arrange the handover or change the activity's promise. Permission to leave remains meaningful; continuity requires another feasible contribution, not an indefinite obligation on the departing person.
+When stepping back would leave a relied-on activity unsupported, the organiser checks who can take over and which commitments remain under the terms of participation. Permission to leave remains meaningful; continuity requires another feasible contribution, not an indefinite obligation on the departing person.
 
 #### CB.3:4.6 - Close on usable participation and revise locally
 
@@ -833,7 +833,7 @@ A workable entry or change of participation makes it possible to answer:
 | A reassuring message covers real exclusion or missing support | Change the response, access or protection condition behind the exclusion or missing support. |
 | Subject expertise is treated as organising competence | Prepare and observe the new responsibility with appropriate support. |
 | Returning members must repeat everything | Supply the changes that affect their next use. |
-| A volunteer can leave only after finding their own replacement | Put continuity work with the organiser and revise the unsupported promise. |
+| A volunteer can leave only after finding their own replacement | The organiser arranges cover for work still due or applies the agreed terms for its ending. |
 
 ### CB.3:9 - Consequences
 
@@ -1103,7 +1103,7 @@ Use this pattern when a community has a question or piece of work that participa
 
 The subject is the arrangement for obtaining a useful contribution from participants and returning its result. Contributions can include advice, practical support, a description of experience, a candidate recommendation, an improved requirement, teaching material or a permissible piece of maintenance work. Their domain methods and receiving responsibilities remain distinct.
 
-**First useful result:** an agreed contribution reaches its recipient in a usable form, with an understandable acceptance, application, revision or limitation returned to the contributor. An unresolved requirement or unavailable supplier can be the warranted result.
+**First useful result.** For a promised delivery, the recipient obtains the contribution in usable form. For a promise of availability, the intended users can obtain it on the agreed terms. When a response is part of the exchange, the contributor learns what the recipient accepted, used, wants revised or could not assess. If the contribution cannot be obtained, identify what remains unavailable.
 
 The organiser needs access to the receiving question, relevant participants and whoever can judge or accept the contribution. CB.1 helps decide whether this is a worthwhile community contribution; CB.2 obtains an initial exchange; CB.3 and CB.4 support participation and the activity's form.
 
@@ -1121,13 +1121,13 @@ How can an organiser connect the need, suitable voluntary or agreed work, its re
 | --- | --- |
 | Broad willingness and specific competence | Many people may want to help; a particular contribution needs relevant knowledge, access and effort. |
 | Contribution and receiving authority | Participants can offer valuable material while the product, employer or equipment owner retains the relevant decision. |
-| Quick help and reusable material | A response fitted to one case can be useful immediately; reuse needs its conditions and a maintained source. |
+| Immediate advice and later use | A reply can settle the present case. For reuse, establish its continued applicability, permitted use and any maintenance the later users will need. |
 | Voluntary contribution and dependable commitments | Peer help can remain optional; a service promise requires a provision arrangement able to meet it. |
-| Learning from feedback and unpaid repair burden | A returned reason can improve the contribution; repeated revisions consume real time and need renewed agreement. |
+| Learning from feedback and unpaid repair burden | A returned reason can improve a contribution. Check which revisions and follow-up are covered by the agreed effort. |
 
 ### CB.5:4 - Solution
 
-Start with the result the recipient needs. Agree on feasible work with a suitable contributor and arrange the support it requires. Get the contribution to its recipient and tell the contributor what the recipient decided and why, or what is missing for a decision. Use the applicable professional judgement and authority, and state the limits of the available evidence.
+Start with the result the recipient needs. Agree on feasible work with a suitable contributor and arrange the support it requires. Get the contribution to its recipient or make it available as promised. Where the exchange calls for a response, return the recipient’s decision and grounds, or explain what is still open. Use the applicable professional judgement and authority.
 
 
 
@@ -1135,7 +1135,7 @@ Start with the result the recipient needs. Agree on feasible work with a suitabl
 
 Ask who will use the contribution, for what next action, and under which conditions. Replace “we need more content” with the question a reader cannot yet answer or the action they cannot perform. Replace “we need ideas” with the use difficulty and the kind of proposal the receiving team can consider.
 
-Choose the result before recruiting contributors. For a case, establish the subject and relevant configuration, what has been tried, the uncertainty, permitted material and useful response window. For a shared resource, establish its intended users, applicable content and who can maintain it. For a recommendation, establish what the recipient needs to decide and what the recommender actually knows.
+Choose the result before recruiting contributors. For a case, establish the subject and relevant configuration, what has been tried, the uncertainty, permitted material and useful response window. For a shared resource, establish who will use it and which content serves their purpose. If that use depends on updates, establish who can make them in time. For a recommendation, establish what the recipient needs to decide and what the recommender actually knows.
 
 Agree how the recipient will recognise a useful contribution. A case owner may need a justified next step; a design team may need a testable use account; a service owner may need evidence that a permissible intervention restored the required function. The criteria come from the receiving work and its domain, not from the number of responses or the contributor's popularity.
 
@@ -1145,19 +1145,19 @@ Distinguish accepted, usable and applied. A recipient can accept a technically s
 
 Find contributors whose competence, experience or access matches the needed contribution. Ask for a bounded piece of work, explain its recipient and criteria, and disclose the relevant interests of the organiser or sponsor. Confirm willingness, available effort, preparation and a useful return window.
 
-Make the scope negotiable. A person can provide an observation without writing the whole guide, review one claim without maintaining the product, or answer a question without accepting a permanent service obligation. If the receiving promise requires more than anyone can commit, narrow it, obtain funded provision or use an accountable supplier.
+Make the scope negotiable. A person can provide an observation without writing the whole guide, review one claim without maintaining the product, or answer a question without accepting a permanent service obligation. If the promise exceeds the effort available, look for funded provision or another accountable supplier. To reduce a commitment already made, use the agreed right to change it or obtain the agreement of those whose claim would change.
 
 Obtain the material, tools, access and permissions needed for the chosen work. OCE.6 supplies the fuller method when the work requires organisational assignments or enabling relations. Its central distinction matters here: selecting a capable contributor, agreeing a contribution and establishing permission are different achievements.
 
 Provide the preparation the contributor needs. A peer can help formulate a case or inspect an example. A qualified HCD contribution can develop a missing human capability. If the underlying professional method is unavailable, return that development or inquiry question to Method Engineering or Research Method Practice.
 
-Identify the recipient before the contribution is made. Agree when and how they will inspect it and give a useful response. An open suggestion box without a receiving decision can invite effort the organisation is not prepared to use.
+Identify the receiving work. For a contribution promised to a particular person or team, establish who will receive it and any response that is due. A public reference can serve a defined class of users through a place they can reach. Making an entry available there can complete a publication request before any individual uses it. If people are invited to submit work for a decision, arrange who can inspect it and on what terms contributors can expect a reply.
 
 #### CB.5:4.3 - Choose the work and its acceptance conditions
 
 The following branches illustrate different contributions. Select the branch that matches the receiving result and combine branches only with an explicit connection.
 
-**Answer a question or provide peer support.** Prepare the question, connect it with a competent willing respondent and compare the response with the case's conditions. Ask for the basis and applicability of the answer when these change its use. The case owner returns what became possible, what was tried or which condition still prevents action. Use the relevant service route when a response or escalation must be dependable.
+**Answer a question or provide peer support.** Prepare the question, connect it with a competent willing respondent and compare the response with the case's conditions. Ask for the basis and applicability of the answer when these change its use. If the exchange calls for a report on later use, the case owner can return what they tried, what it enabled or which condition still prevents action. Use the relevant service route when a response or escalation must be dependable.
 
 **Enable self-service.** Give the user an applicable instruction, necessary access and a recognisable result or stopping point. Try the route under the user's conditions and provide a route for exceptions. A public reference may serve many people who never join the discussion. OPS.6 supplies the action and return discipline when this is an operational case; the applicable domain method supplies the action itself. A confusing or obsolete instruction returns to its owner for correction.
 
@@ -1165,9 +1165,9 @@ The following branches illustrate different contributions. Select the branch tha
 
 **Recommend an offer to a potential user.** Connect a real receiving need with an accurately described offer. State the experience or evidence behind the recommendation, its limits and the recommender's relationship to the provider. Let the recipient inspect the terms and decide whether to continue. CB.1 supplies the honest-offer discipline; the provider remains responsible for product claims. A community relationship supplies no obligation to promote a sponsor, and a purchase alone does not demonstrate that the recommendation served the person.
 
-**Co-design a result or product.** Choose what contribution is wanted: a use account, requirement, concept, design alternative or tested part. Give contributors the relevant problem, constraints, available material and acceptance question. SYSE.2 helps connect the use situation to a candidate concept and compare changes on either side of the system boundary. The receiving product specialist must examine the contribution and return an adoption, revision, rejection or unresolved question with a reason. A popular proposal still needs the applicable engineering judgement.
+**Co-design a result or product.** Choose what contribution is wanted: a use account, requirement, concept, design alternative or tested part. Give contributors the relevant problem, constraints, available material and acceptance question. SYSE.2 helps connect the use situation to a candidate concept and compare changes on either side of the system boundary. A set of alternatives can fulfil a commission before the product specialist chooses one. The role authorised to decide on adoption assesses the alternatives when that choice is due. If a response is owed, return what the agreement calls for to its intended recipients. They may be due the name of the selected option, the grounds for the choice or a technical assessment while the choice is still open. A popular proposal still needs the applicable engineering judgement.
 
-**Produce or improve material.** Establish the reader's intended action, the subject method and correctness basis, and who can review and maintain the result. Ask participants for useful cases, explanations, corrections or a bounded authored contribution. Inspect the result through a representative use before presenting it as a reusable answer. For a teaching publication, obtain the relevant HCD learning design and use Learning Product LPF for the publication under the access condition in [CB.Reference:8](#cbreference8---actual-supplier-returns); different contributors can supply the subject expertise, authorship, learning design and provision. If a necessary contribution cannot be obtained, preserve the gap instead of treating submitted material as a complete learning product.
+**Produce or improve material.** Establish the reader’s intended action and how to judge the material’s correctness for that use. Obtain the subject expertise it requires. Arrange upkeep if users will depend on current content. Ask participants for useful cases, explanations, corrections or a bounded authored contribution. Inspect the result through a representative use before presenting it as a reusable answer. For a teaching publication, obtain the relevant HCD learning design and use Learning Product LPF for the publication under the access condition in [CB.Reference:8](#cbreference8---actual-supplier-returns); different contributors can supply the subject expertise, authorship, learning design and provision. If a necessary contribution cannot be obtained, preserve the gap instead of treating submitted material as a complete learning product.
 
 **Maintain an object or a shared resource.** Name what must remain usable and who can authorise the actual work. For technical maintenance, MNT.1 establishes the unit, configuration, required functioning and the question being decided. Obtain the applicable professional method and permissions before an intervention; return functioning evidence and the separate decision to resume use where required. For a knowledge resource, obtain a capable maintainer, correction criteria and a route for obsolete or disputed content.
 
@@ -1197,7 +1197,7 @@ Invite an external expert or neighbouring practitioner when the group lacks a ne
 
 A prepared presentation can be useful, but leave enough time for the community's questions and their application. The guest may need to observe the work first, respond to selected cases, or join a small group after a general explanation. Choose the arrangement with the guest rather than presuming that a familiar lecture supplies it.
 
-Connect preparation, shared work and continuation. Participants can submit questions in advance; the guest can identify missing context; afterwards, the recipient can return what was used or still needs clarification. Obtain agreement on retained material and attribution. A recording serves later use only when it contains the relevant question and can be accessed under the agreed conditions.
+Connect preparation, shared work and continuation. Participants can submit questions in advance; the guest can identify missing context; afterwards, the recipient can return what was used or still needs clarification. Check which later uses of retained material and which forms of attribution the agreement covers. A recording can support a new question about an observable action. To recover the answer to an earlier question, identify that question from the recording or a connected source.
 
 If the desired result is a continuing course, service or research project, obtain its provider and resource arrangement. The community can contribute domain expertise and cases, but a single guest visit does not supply the whole undertaking.
 
@@ -1205,9 +1205,9 @@ If the desired result is a continuing course, service or research project, obtai
 
 Give the recipient the contribution together with what determines its use: the question, applicable conditions, evidence or domain basis where needed, and unresolved limits. Use the existing discussion or work record when it can carry these facts.
 
-Ask the recipient to return a meaningful disposition. Examples include: used as supplied; accepted for a stated later use; useful after a specified change; declined because a condition or requirement differs; or not yet assessable because a needed basis is missing. Explain the reason that can improve the contribution or prevent inappropriate reuse.
+When the receiving decision is part of the exchange, establish what happened on the agreed terms. A decision or use already recorded can supply the return. If the outcome is open, ask the recipient what they could use, accept, decline or still need changed. Relay the reason when it will help the contributor improve the work or understand the decision.
 
-Agree further work rather than silently extending the original commitment. A small correction within the accepted task can proceed with the contributor's available effort. A materially different request, repeated revisions or a new maintenance obligation needs a revised arrangement.
+Read the agreement for the work that comes next. It can already provide for another review, several revisions or recurring maintenance. Establish that the promised effort and support are available when due. If the new work exceeds the agreed result, period or effort, obtain a further commitment from whoever would undertake it.
 
 Close a failed contribution honestly. When no suitable helper is available, return the unanswered question and a possible source or service route. When the user cannot act, distinguish missing access from an unusable answer. When the product team will not inspect suggestions, stop inviting that kind of work until a receiving arrangement exists.
 
@@ -1215,13 +1215,13 @@ For an operational case, OPS.6 separates selection, performance and the resultin
 
 #### CB.5:4.7 - Make useful material reusable and support continuation
 
-Retain a contribution when another receiving use warrants it and the relevant permissions allow it. Preserve the situation, method or explanation, applicability conditions and limits. Give later users a way to find it and report a changed condition or error.
+For later use, identify what may be shared, with which recipients, for which actions and for how long. An existing permission or a decision by the authorised holder may cover the new group or edition. If a contributor permitted a demonstration at one meeting, establish the basis for circulating a recording or adapting it for another group. Preserve the situation, method or explanation, conditions of use and limits. Give later users a way to find the material and report a changed condition or error.
 
-Choose a capable owner for correction and maintenance. For professional method content, use the relevant Method Engineering contribution; for a resource containing existing qualified advice, use its established subject review and publication route. If no one can maintain a changing answer, limit its stated use and avoid making an indefinite currency promise.
+Where users will rely on current advice, arrange capable correction and maintenance. For professional method content, use the relevant Method Engineering contribution. For existing qualified advice, use its established review and publication route. A dated record may already serve a historical use. If no one can maintain a changing answer, state the period and conditions it can serve.
 
 Observe how the arrangement works for both recipients and contributors. Are useful questions reaching suitable contributors? Are answers used or returned with reasons? Does preparation and follow-up exceed the available effort? Repeated reliance on one generous contributor is a provision question even when the contribution is voluntary.
 
-Change the specific failed connection: improve the request, recruit another qualified helper, make a reusable answer accessible, change a response promise or stop an unsupported activity. Return to CB.1 when a service, resource or another contribution better serves the purpose. Keep enough information for the next participant to continue without requiring everyone to repeat the whole exchange.
+Repair the connection that failed. This might mean clarifying the request, recruiting a qualified helper or making a reusable answer accessible. Pause or stop the affected activity if it has become infeasible or its permission has ended. Establish what the recipient is still owed and which remedy the terms allow. Return to CB.1 when a service, resource or another contribution better serves the purpose. Keep enough information for the next participant to continue without requiring everyone to repeat the whole exchange.
 
 ### CB.5:5 - Archetypal Grounding
 
@@ -1277,8 +1277,8 @@ A usable contribution arrangement establishes:
 - a suitable contributor and a feasible accepted scope;
 - required material, preparation, access and permission;
 - a construction that fits the kind of work;
-- a recipient able to inspect and return a disposition;
-- the result obtained, any remaining gap and any agreed continuation. For joint work, identify the contributions and the rule or working relationship by which they formed that result.
+- an accessible means of receipt and, where a disposition is due, a recipient able to give it;
+- the result obtained, any remaining gap and any agreed continuation. A delivery record can establish receipt of a joint result. To explain how participants produced it, credit particular work or arrange to repeat it, identify the contributions and relationships that conclusion needs.
 
 A plausible match is enough to begin a bounded invitation. Reliance on correctness, performed intervention, restored functioning or acquired capability requires the relevant domain evidence.
 
@@ -1374,11 +1374,11 @@ Identify what the person contributed and what is known about its use. Choose a r
 
 #### CB.6:4.1 - Find the useful contribution behind the visible activity
 
-Start from an episode or result. Ask the person receiving the contribution what became easier, clearer or possible, and which part helped. A specific answer, a corrected explanation, preparation, translation, coordination or patient clarification can matter more than the most visible performance.
+Start from the work to be recognised. When its benefit to a recipient matters, use the available evidence or ask what became easier, clearer or possible and which part helped. A specific answer, a corrected explanation, preparation, translation, coordination or patient clarification can matter more than the most visible performance.
 
 Use the evidence proportionate to the claim. A case owner's account can support “your clarification helped me identify the missing information”. A claim that the advice prevented a technical failure needs the relevant technical basis. When the later outcome is unknown, thank the person for the contribution you can identify and leave the later question open.
 
-Recover joint work fairly. Ask who prepared the material, made access possible or performed a less visible part. Name the contributions in a way those people accept. Do not assign all credit to the person who presented the result merely because their work is easiest to see.
+Fit the credit to what it is for. A record of the event or an eyewitness can identify who gave a talk. To credit development of the underlying work, recover the contributions to its preparation and their connection to the result. A team acknowledgement can be appropriate when the rules and evidence concern the group. Identify individual contributions when the claim or award turns on them.
 
 Distinguish useful effort from a successful result. A careful attempt can expose why a proposed approach will not work. Explain that value without relabelling the attempt as successful implementation. Conversely, extensive effort alone does not make incorrect advice fit for reuse.
 
@@ -1390,7 +1390,7 @@ Decide whether the present need is to make the contribution's effect visible, co
 
 Begin with the least elaborate response that fits. A private message explaining a concrete use may be more valuable than a generic public accolade. Returning a recipient's permitted account of what changed can give the contributor information that the organiser could not supply alone.
 
-Find out how the person wants to be recognised when the choice matters. They may welcome a named example, prefer collective credit, want an introduction, or decline publicity. Existing preferences and the relationship may be sufficient for a routine thank-you; a new public profile, attribution of sensitive work or substantial opportunity warrants an explicit agreement.
+For a public acknowledgement or offered opportunity, establish the terms that apply to the people, material and audience involved. An existing preference, agreement or authorised representative can settle the decision within its scope. Ask the person when the choice is theirs and still open. They may welcome a named example, prefer collective credit or decline publicity. If an award itself grants access under its terms, establish what the recipient can obtain and when.
 
 People can contribute because they enjoy the activity, because they value its outcome, because they accept a responsibility or because provision is paid. A fitting response does not require the organiser to declare one motive authentic and the others defective. Ask whether the response respects the person's choice and helps them understand their contribution.
 
@@ -1458,7 +1458,7 @@ In a constructed repairer association, one participant corrects a misleading app
 
 The contributor prefers a private message and agrees to a brief credit on the corrected page. The response names the distinction they clarified and the use that the recipient reported.
 
-For a later public summary the organiser establishes what each contributor permits for that audience. With their agreement the summary credits the person who found the problem and the maintainer who checked and incorporated the correction. If a use report contradicts the correction, the subject review reopens; the acknowledgement of the contributed work does not settle the technical question.
+For a later public summary the organiser checks which uses the existing permissions cover and obtains any further decision from the appropriate holder. Here both contributors have agreed to be named for their respective work. The case owner permitted its use only within the association. The summary can credit the person who found the problem and the maintainer who incorporated the correction. To publish the original case outside the association, the organiser needs the case owner’s further permission under those terms. If a use report contradicts the correction, the subject review reopens. The acknowledgement still records who supplied the work.
 
 #### CB.6:5.2 - A leaderboard rewards the wrong work
 
@@ -1504,7 +1504,7 @@ An ordinary thank-you can rely on a known episode. A public competence claim, sc
 | Wrong turn | Practical repair |
 | --- | --- |
 | Praise activity without finding its useful contribution | Obtain the relevant receiving account and name what it supports. |
-| Credit only the person who presented joint work | Recover preparation and other contributions and agree the attribution. |
+| Attribute joint authorship or development to the presenter on the strength of the presentation alone | Establish who presented for a presentation credit. For credit for the underlying result, recover the joint or individual work the award recognises and apply its terms. |
 | Make every acknowledgement public | Choose the audience with the person's circumstances and preferences in view. |
 | Promise an introduction or learning place without its provider | Obtain a bounded commitment and feasible access first. |
 | Treat popularity or message volume as contribution quality | Inspect the contribution and its use; revise the misleading incentive. |
@@ -1557,7 +1557,7 @@ Use this pattern when useful participation depends on one organiser, when capabl
 
 The governed work is organising participation through capable, willing participants and usable relationships. It includes finding those participants, preparing a bounded contribution, enabling temporary groups of participants to support the activity, and arranging continuation or handover. Some organisers hold formal positions; others help without one. The source and scope of any authority to decide for others must be established separately.
 
-**First useful result:** a willing organiser or temporary participant group can perform an agreed organising contribution at the next relevant occasion, with the access, preparation, time, help and decision boundaries it requires. Where continuity matters, another feasible performer or an honest reduced promise is also available.
+**First useful result:** a willing organiser or temporary participant group can perform an agreed organising contribution at the next relevant occasion, with the access, preparation, time, help and decision boundaries it requires. For a longer commitment, establish who can cover the work on the required occasions and what the agreed terms provide if support falls short.
 
 Start with the useful activity and the contribution currently missing. A general ambition to "develop leaders" is insufficient to choose whom to involve or what to teach. CB.5 can identify the receiving contribution; LDR.1 develops the explanation, working conversation or preparation that enables it.
 
@@ -1614,7 +1614,7 @@ Use the inquiry to choose an action:
 | A group already obtains reliable help from a willing local practitioner. | Ask whether that person wants a bounded organising contribution and what support it needs. |
 | Two groups have useful knowledge but no workable exchange. | With their agreement, obtain an introduction or a joint case through CB.2 or CB.5, according to the contribution needed. |
 | The central organiser hears only one group's account. | Determine which perspectives could change the offer. Obtain the missing group’s own account when its experience or preference is at issue. |
-| Several people rely on one overburdened intermediary. | Reduce the promise, prepare another contributor or provide an additional route that participants can use. |
+| Several people rely on one overburdened intermediary. | Prepare cover, give participants another usable route or seek an agreed reduction in what they can claim. |
 | People understand the proposal but find the practice unsuitable. | Return the substantive problem to its owner; changing the messenger will not repair the practice. |
 
 With a willing participant who understands the receiving group's work, prepare the explanation of the proposed change. Start from a familiar case: what could people do differently, what useful result is expected, and which conditions or commitments would change? Use language and examples the recipients can inspect. Return a substantive objection to the person who can change the practice or offer.
@@ -1635,7 +1635,7 @@ Select preparation and support from the gaps revealed. One person may need the l
 
 Make selection understandable when several people seek a role. State the work criteria, who selects, how relevant conflicts are handled and how an unsuccessful applicant can obtain a useful explanation. Keep the inquiry proportionate: a small voluntary hosting task may need one working conversation, while a role with consequential decisions requires the relevant mandate and preparation.
 
-Recognise the contribution through CB.6 in a form the person values. Distinguish that acknowledgement from compensation, expenses, access and time needed to make the work possible. If the community needs dependable service beyond willing voluntary capacity, change the provision or promise.
+Recognise the contribution through CB.6 in a form the person values. Distinguish that acknowledgement from compensation, expenses, access and time needed to make the work possible. If the community needs dependable service beyond willing voluntary capacity, obtain dependable provision or establish which service the community is entitled and able to offer.
 
 #### CB.7:4.4 - Prepare the first episode and make support obtainable
 
@@ -1664,7 +1664,7 @@ Let local observations change the shared offer where warranted. Ask organisers w
 
 Review the next contribution while there is still time to change it. Check willingness, effort and support as well as completion. If work repeatedly exceeds the accepted commitment, reduce the activity, obtain more provision or change the arrangement with its recipient.
 
-Prepare a successor through real work. Introduce the relevant people, transfer the permitted working material and ensure the successor has the access the work needs. Explain unresolved commitments and consequential exceptions. Agree when responsibility changes and tell the recipients whom to approach.
+Establish what the successor needs for the first occasion. Make needed introductions, transfer the permitted working material and provide access. Where the successor needs practice, give them an opportunity to do the work with appropriate support. Explain outstanding commitments and consequential exceptions. Establish when responsibility passes under the applicable terms and tell recipients whom to approach.
 
 Use comparable earlier work to judge readiness where it shows the successor’s own contribution with the help available. To establish that the activity continued independently after this handover, trace an episode under the new allocation of responsibility. Preserve the domain assistance, accessibility support and decision routes that the work legitimately requires. Inspect what the new organiser obtained, where they still needed help and what prevented completion.
 
@@ -1746,7 +1746,7 @@ For an ordinary next contribution, ask:
 - Which choices are local, and where does an unresolved exception go?
 - What establishes that the assigned people can carry the agreed responsibilities with the available support? For a claim about a performed episode, what organising work did they actually do?
 - If a temporary participant group is used, can it confer, act within its scope and return a useful response before its assignment ends?
-- If continuation matters, can the successor perform the work, or has the promise been reduced honestly?
+- Can the people carrying the work meet the continuing commitment, including after a required handover? If it changed, what gave that change effect?
 
 A stronger claim about professional competence, influence or cultural continuation requires evidence appropriate to that claim. The ordinary result here is the obtained organising contribution and its supported next use.
 
@@ -1756,7 +1756,7 @@ A stronger claim about professional competence, influence or cultural continuati
 | --- | --- |
 | Appoint the most visible member and assume they reach everyone. | Recover the relationships relevant to the missing contribution and include the affected group's account. |
 | Give a title without access or a usable decision boundary. | Obtain the specific enabling condition and establish the decision right through its proper source. |
-| Treat an enthusiastic volunteer as permanently available. | Agree the burden and review point; change the promise when provision becomes insufficient. |
+| Treat an enthusiastic volunteer as permanently available. | Agree the burden and review point. If cover fails, tell users what is at risk and settle any change under the service terms. |
 | Supply a large playbook while the difficult action remains unexplained. | Develop that action around a representative episode and feedback. |
 | Let the founder rescue every trial of a successor. | Let the prepared successor perform while retaining the support the role actually needs. |
 | Centralise every exception under the name of consistency. | State the common commitment and give local organisers the choices and means compatible with it. |
@@ -1866,7 +1866,7 @@ Choose people able to understand the context and make the relevant judgement. Pr
 
 Provide a way to disclose and handle a consequential conflict of interest. The challenged moderator, their close collaborator or an opposing party in the dispute may have useful evidence while being unsuitable to decide the case. Identify a replacement or an agreed external route under CB.13.
 
-Keep the process small enough to operate. A small group may need two named contacts and an agreed alternate. A large or high-consequence setting may require trained staff and a more formal arrangement. If no adequate route exists for the claimed level of protection or review, change that promise and obtain the missing provision before relying on it.
+Keep the process small enough to operate. A small group may need two named contacts and an agreed alternate. A large or high-consequence setting may require trained staff and a more formal arrangement. If no adequate route exists for the claimed level of protection or review, tell participants which cases the available route can handle. Obtain the missing provision or an authorised change to the arrangement on which participants rely.
 
 #### CB.8:4.3 - Establish what happened and what needs action now
 
@@ -2003,7 +2003,7 @@ Recognising a possible participation difficulty can be quick. The evidence, hear
 
 Rules become instructions people can use, and an incident can end with a specific correction or supported restriction. A mistaken decision can be repaired without abandoning a useful expectation. Useful disagreement can continue while harmful conduct receives an effective response.
 
-Handling and review require time, judgement and protection of sensitive information. A community that cannot supply them must narrow its promise or obtain the missing service. More elaborate procedure is worthwhile only where it improves the relevant decision and participation.
+Handling and review require time, judgement and protection of sensitive information. If provision falls short, tell people which protection or review remains available and who is responsible for pending cases. Use the agreed review terms to settle any proposed change to an outstanding case. More elaborate procedure is worthwhile only where it improves the relevant decision and participation.
 
 ### CB.8:10 - Rationale
 
@@ -2133,7 +2133,7 @@ Obtain the allocations, access and practical support needed for the next activit
 
 For a question about actual delivery, follow the relevant occurrence from preparation through the result the user receives. For a prospective service, trace who can claim each contribution, what can coincide or consume the same resources over time, and who can adjust the work. Establish that the allocation works with the information its decision-makers will have. Inspect an ordinary delivery when its performance can resolve an uncertainty.
 
-For a risk decision, examine the probable shortfall and its consequence. For a guarantee, include any permitted demand or loss of provision that could defeat the agreed response. Typical changes include a key person's absence, a delayed payment, a loss of access or demand above the agreed limit. Decide who will reduce, postpone or cancel the affected promise and how participants will learn that decision. A simple backup may be enough. If no backup is feasible, make the limit part of the offer.
+For a risk decision, examine the probable shortfall and its consequence. For a guarantee, include any permitted demand or loss of provision that could defeat the agreed response. Typical changes include a key person's absence, a delayed payment, a loss of access or demand above the agreed limit. Establish what participants can still claim after a shortfall. Identify any decision the agreement leaves open, who can make it and what notice is due. A simple backup may be enough. If no backup is feasible, make the limit part of the offer.
 
 Keep the response proportionate to the reliance. A casual discussion can be postponed; a promised professional service may need a qualified replacement and explicit settlement with its users. Ask the relevant owner for the needed arrangement before accepting that reliance.
 
@@ -2143,7 +2143,7 @@ At a useful interval, compare the accepted promise, delivered result, resource u
 
 Distinguish a shortfall in supply from a change in the contribution itself. More applicants may require admission or a smaller promise. A sponsor's new sales objective may require a new agreement. An activity with little practical value needs CB.10 and possibly CB.1; simply funding more of it may preserve the wrong offer.
 
-Revise the affected commitment with its holder and receiver. Obtain the replacement allocation, payment or reduced expectation and communicate it to those who rely on the old one. Record only what people need to act and later settle the arrangement.
+Read the terms to establish what remains due after the shortfall. An agreed event may already have changed the obligation. If the promised service is still owed, establish whether recovery or a permitted replacement can supply it. Where the agreement leaves a choice, identify who can make it and when. When further agreement is needed, obtain it from the parties whose obligations or claims will change. Tell those relying on the service what they can now expect, including any delivery still owed. Record only what people need to act and later settle the arrangement.
 
 Before an important support period ends, establish whether renewal is real, conditional or absent. Use CB.11 for continuation, transfer, separation or ending that changes the arrangement as a whole. Preserve useful resources and settle current commitments even when the future programme is reduced.
 
@@ -2191,7 +2191,7 @@ For an arrangement on which others will rely, establish the following at the det
 - Contribution terms, benefits and sponsor influence are understandable to the affected people.
 - Volunteers can decline or revise their contribution, and any dependable service has appropriate provision.
 - An ordinary use and a consequential shortfall have a workable response.
-- Actual burden and the end of the support period can change the promise before it becomes unsupported.
+- Does the arrangement give those who must act the information they need in time? If an agreed event determines the outcome, can those settling the case establish that event and give any notice due?
 
 The arrangement can support reliance when the contributions, permissions and terms hold. Its description makes those conditions inspectable. Delivery and later value require their own observations.
 
@@ -2202,7 +2202,7 @@ The arrangement can support reliance when the contributions, permissions and ter
 | Count a grant as complete provision | Recover the qualified work, access and timing that the money still needs to obtain. |
 | Treat donated time as unlimited | Agree a contribution and its limit with the person who will perform it. |
 | Promise every department a different benefit from one organiser | Reconcile the receiving results and provide the work each requires. |
-| Use gratitude to carry a continuing service deficit | Provide the missing work, reduce the service or end the unsupported promise. |
+| Use gratitude to carry a continuing service deficit | Obtain cover or establish what the agreement provides for when the service falls short. |
 | Count an allocated cost reduction as spendable cash | Obtain the actual capacity and payment consequences through the applicable MA and OPS methods. |
 | Accept a sponsor's new condition under members' old agreement | Return the changed offer and obtain the affected decisions. |
 | Keep a schedule by silently shifting the burden to the remaining volunteer | Apply the agreed reduction, replacement or postponement and revise the arrangement. |
@@ -2545,7 +2545,7 @@ Construct alternatives that answer the change at hand. The following forms have 
 | Alternative | What must become true for it to work |
 | --- | --- |
 | Continue the present arrangement | Its useful purpose and the threatened provision remain or are restored. |
-| Reduce or change activities | A smaller or different promise has willing contributors, adequate support and understandable effects on current users. |
+| Reduce or change activities | The revised offer has willing contributors and adequate support. Any change to what a current user is owed takes effect under the applicable terms. |
 | Pause for a stated period or condition | People know which services stop, who handles current obligations and what decision will restart or end the pause. |
 | Transfer to another host | A willing capable receiver obtains the necessary access, authority, resources and means of work. |
 | Separate into different arrangements | Each group can operate its chosen contribution, and any remaining shared resource or mandate has workable terms. |
@@ -2553,7 +2553,7 @@ Construct alternatives that answer the change at hand. The following forms have 
 
 Compare benefit, burden, timing and transition loss with the people affected. Include retaining the arrangement when its difficulty can be repaired. Include ending when no worthwhile and feasible continuation is available. Growth, retention of every participant and a larger institution are not universal completion conditions.
 
-Separate a promising alternative from a provided one. A person interested in taking over may still lack time, capability or resource permission. Use CB.7 to develop willing organising work and CB.9 to obtain support. If the needed contribution cannot be provided before the old one ends, reduce or suspend the dependent promise.
+Separate a promising alternative from a provided one. A person interested in taking over may still lack time, capability or resource permission. Use CB.7 to develop willing organising work and CB.9 to obtain support. If the needed support ends, revise what you can offer and tell people relying on it. For an existing commitment, establish what the parties can still deliver and use the terms of the agreement to settle any change.
 
 [ECO.9 (ECO.9:4)](https://github.com/ailev/FPF/blob/main/DPFs/ECONOMIC-REASONING-AND-COORDINATION-PRINCIPLES-FRAMEWORK.md#eco94---solution) develops a change to economic rules through the practices people can actually perform, including entry, exit, transition burdens and wider dependencies. Use it when those rules are the obstacle. [OCE.14 (OCE.14:4)](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce144---solution) supplies a needed organisational revision.
 
@@ -2561,11 +2561,11 @@ When the effect is uncertain and reversal is practical, try a bounded continuati
 
 #### CB.11:4.4 - Obtain the decision and prepare its practical consequences
 
-For each required decision, identify who has authority to make it. Obtain the resource owner's access decision, the successor's agreement and the community decision where one is required. Keep objections and accepted losses visible through CB.13. A departing volunteer may state the end of their own contribution while others decide how to replace it.
+For each required decision, identify who has authority to make it. Establish which access rights, assignments and community decisions already take effect under the arrangement. Obtain any further decision from the people authorised to make it. Keep objections and accepted losses visible through CB.13. A departing volunteer may state the end of their own contribution while others decide how to replace it.
 
 Translate the chosen alternative into what affected people need to do. Name the ending and starting dates, the remaining activities, how to reach the new receiver, which promises cease and where unfinished matters will go. Explain a change before users continue relying on the old offer.
 
-Agree the handover work and its limit with both the departing and receiving contributors. Include the time needed to explain an unusual case, obtain access and practise a consequential operation. CB.7 and C.36.RP help obtain capability where it is missing; a title or a folder transfer cannot supply it.
+Work back from what the successor must receive or do. Authority, keys and material can pass under a standing arrangement even if the former custodian is unavailable. When the transition needs someone’s explanation, permission or work, establish how and when they can provide it. CB.7 and C.36.RP can help a successor develop a missing capability.
 
 Recover rights and permissions for the material that will move. Public instructions, contributed examples, private discussions and contact details can have different permitted uses. Obtain the relevant permission or leave the restricted material with an appropriate existing receiver. A useful summary can sometimes carry a lesson without carrying the personal account.
 
@@ -2668,7 +2668,7 @@ A first use can establish a particular performance. For a transfer of responsibi
 | --- | --- |
 | Keep the founder's preferred format because it once worked | Recover current uses and compare feasible arrangements with affected people. |
 | Claim that relationships will survive loss of the platform | Obtain willing contact and activity arrangements and observe their use. |
-| Name a successor without providing time, access or capability | Establish and try the contributions their receiving work needs. |
+| Name a successor without providing time, access or capability | Establish what the successor needs at the agreed transfer. Try the work when a demonstration is due or an unresolved capability matters to the decision. |
 | Copy every discussion and contact into a new space | Recover permitted uses and transfer only what the receiving arrangement may use. |
 | Treat separation as failure while keeping an unresolved common resource | Allow different purposes and provide terms for the dependency that remains shared. |
 | Preserve every old document as current guidance | Retain useful explanations with their conditions and distinguish an archive from maintained support. |
@@ -2863,7 +2863,7 @@ The repairer instead needs an easy-to-find request route, a permitted way to pre
 
 The repairer does not visit on days when no such question occurs. When a suitable case does arise, they use the route. For a later case needing an urgent response, the repairer uses the accountable service. The arrangement has improved access to help without adopting a daily habit as its objective.
 
-If no one can answer the relevant class of question, the organiser changes the promised scope.
+If no one can answer that class of question, the organiser tells the repairer what help is available and checks what the service still owes for an accepted request.
 
 #### CB.12:5.3 - A changed schedule interrupts completion
 
@@ -2917,7 +2917,7 @@ A feasible first episode is enough to try the arrangement. A claim about automat
 | Choose daily participation before identifying the recurring need | Identify when the need arises and consider a simple accessible route. |
 | Treat every missed action as weak motivation | Distinguish absent opportunity, unnoticed occasion, unavailable conditions and an unwanted result. |
 | Make starting easy but leave completion unsupported | Obtain the necessary material, time, method and receiving response. |
-| Increase reminders when nobody can supply the promised help | Repair provision or change the promise. |
+| Increase reminders when nobody can supply the promised help | Obtain support or settle the outstanding request under its terms. |
 | Report visits or a streak as a formed habit | Preserve the occurrence claim and obtain an appropriate basis for automaticity if it matters. |
 | Withdraw a useful support merely to prove independence | Test only the condition the receiving use needs, with agreement and an adequate fallback. |
 | Keep a person returning because they have already invested effort | Preserve useful access and make a new choice from current value and burden. |
@@ -3085,7 +3085,7 @@ Present the resulting proposal and its consequences to those who can adopt it un
 
 If this is the first limited voluntary agreement, make acceptance and its boundary explicit. Provide a way to decline. Record whose activity and contributions it governs and what happens to a person who leaves. Leave external obligations with their holders. A discussion of a proposal is not its adoption.
 
-For a commission to introduce the arrangement, complete the required appointment or acceptance, provide access, obtain the promised resource contribution and tell participants where decisions and challenges go. Use OCE.6 for assignments and enabling relations when needed. A person can be selected while an essential condition remains unavailable; retain that distinction and reduce the dependent promise.
+For a commission to introduce the arrangement, complete the required appointment or acceptance, provide access, obtain the promised resource contribution and tell participants where decisions and challenges go. Use OCE.6 for assignments and enabling relations when needed. A person can be selected while an essential condition remains unavailable; tell users which service is available and refer any proposed change in their entitlement to whoever has the mandate to decide it.
 
 Keep the usable rule and current appointments discoverable. A short agreement can suffice for a small joint activity. A larger association may need its established constitutional and decision records. Use the existing form that preserves the needed scope, term, result and amendment route.
 
@@ -3372,7 +3372,7 @@ Invite reports that can change the advice: an unlike case, missing input, succes
 
 Revisit the affected entry when evidence, tools, practice conditions or available support change. Preserve an older variant if another use still needs it. Retire or qualify misleading guidance and inform the people known to rely on the affected claim.
 
-If no one can maintain a resource that requires continued support, reduce its promise, obtain a successor or withdraw that use through CB.11. A small resource with a clear limit may remain useful; an unsupported promise of ongoing advice will not.
+If no one can maintain a resource that requires continued support, look for another maintainer or use CB.11 to settle how that use ends and which obligations survive. A small resource with a clear limit may remain useful; an unsupported promise of ongoing advice will not.
 
 ### CB.14:5 - Archetypal Grounding
 
@@ -3594,7 +3594,7 @@ Check what the recipient can do with the result. Can the recipient act on the re
 
 Do not turn one observation into an unearned competence or effectiveness conclusion. A visitor may understand a practice without being able to perform it. HCD can supply preparation when a person needs to learn the practice, while A.3.1.FT can qualify a method's fit or transfer. Keep that further result separate from the successful visit.
 
-When the action fails, return the failure to the relevant part of the arrangement. Repair an unclear request, obtain a missing decision or stop the unworkable promise. Use CB.8 if conduct prevents the exchange; a legitimate difference in professional judgement belongs to the subject question.
+When the action fails, return the failure to the relevant part of the arrangement. Repair an unclear request or obtain a missing decision. Where delivery has failed, establish what each participating practice is still owed. Use CB.8 if conduct prevents the exchange; a legitimate difference in professional judgement belongs to the subject question.
 
 #### CB.15:4.6 - Return the contribution to both practices
 
@@ -3604,7 +3604,7 @@ For a new shared instruction or practice contribution, use CB.14 to obtain quali
 
 Where representatives took part, return the result to their groups and distinguish observations, proposals and agreed commitments. The account should allow those groups to correct a mistaken interpretation or decide whether to support further work.
 
-Make the next contact usable when continued exchange is wanted: who can answer which question, by what route and within what realistic availability. Reduce the promise if it depends on a single overloaded person.
+Make the next contact usable when continued exchange is wanted: who can answer which question, by what route and within what realistic availability. When one overloaded person is the only contact, arrange cover or agree what availability the two groups can rely on.
 
 #### CB.15:4.7 - Choose a proportionate continuation
 
@@ -4023,7 +4023,7 @@ A voluntary community brings together practitioners who want to become better at
 
 Use [CB.1](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/COMMUNITY-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#cb1---choose-a-useful-cultural-or-community-contribution) to ask what each route should supply. A participant with a settled question may need only the existing explanation. Another wants a qualified specialist answer that the peer exchange cannot promise. A third wants help forming a next problem after a successful transition. Direct them to the contribution they need, including an external subject provider where necessary. Membership is not a condition for using a public resource.
 
-For a first shared undertaking, two participants offer permitted contrasting cases about obtaining and interpreting expert advice. Use [CB.15](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/COMMUNITY-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#cb15---connect-practices-through-a-useful-joint-contribution) to agree the joint work and useful return to each practice. Through [CB.13](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/COMMUNITY-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#cb13---establish-a-workable-mandate-for-shared-decisions), the participants give a small organising group a mandate for this activity and its shared resource; that mandate does not let the group commit their employers or speak for all practitioners. Use [CB.9](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/COMMUNITY-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#cb9---provide-for-community-work-and-agree-its-terms) to obtain the contributors' time for preparation, participation and follow-up. A promised response that exceeds willing capacity must be narrowed or separately provided.
+For a first shared undertaking, two participants offer permitted contrasting cases about obtaining and interpreting expert advice. Use [CB.15](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/COMMUNITY-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#cb15---connect-practices-through-a-useful-joint-contribution) to agree the joint work and useful return to each practice. Through [CB.13](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/COMMUNITY-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#cb13---establish-a-workable-mandate-for-shared-decisions), the participants give a small organising group a mandate for this activity and its shared resource; that mandate does not let the group commit their employers or speak for all practitioners. Use [CB.9](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/COMMUNITY-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#cb9---provide-for-community-work-and-agree-its-terms) to obtain the contributors' time for preparation, participation and follow-up. If their time falls short, the group can seek another provider where substitution would still deliver the agreed result. Before changing what it offers, it checks what the participants are still owed and which decisions their mandate leaves to the group.
 
 During the exchange, one participant reconstructs why a specialist's conclusion applied to one configuration and not another. A second participant needs further subject knowledge. The community returns that bounded question to a competent provider. Another participant understands the distinction but needs practice applying it under pressure; the human-development contribution through [HCD.6](https://github.com/ailev/FPF/blob/main/DPFs/Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd6---design-representative-practice-tasks) and [HCD.9](https://github.com/ailev/FPF/blob/main/DPFs/Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd9---perform-deliberate-practice-with-feedback) remains separate from the intellectual answer.
 
