@@ -32,7 +32,7 @@ Check that the returned text belongs to the intended document and contains the r
 
 ## Distinguish a source from material to apply
 
-A citation such as “this distinction follows X” tells you where a claim or explanation comes from. Use the material already given when it is sufficient; opening its source is not an automatic extra step. Inspect the source when its meaning, assumptions or evidence matter to a question about relying on it.
+A citation such as “this distinction follows X” identifies the source the writer credits. If your grounds depend on the cited passage, establish what it supports and whether its conditions hold here. If the question is how the author arrived at the distinction, look for the passage or operation they actually used and how it entered their work. Another source may now justify the same conclusion even if the author worked from the first. Use the material already available when it settles the question.
 
 An instruction such as “use X to compare these arrangements” asks for a contribution to the present work. Follow its conditions and distinguish a required move from one suggested way. Reuse an adequate result or an already understood Method when it fits; otherwise obtain and use the supplying explanation, then bring the result back to the work that needs it.
 
