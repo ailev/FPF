@@ -2557,7 +2557,7 @@ Start with the contribution each selected activity needs and who will use it. Id
 Establish the conditions that determine whether the support will be available.
 
 1. the person or defined learner class, participation basis, intended recipient, and the question or decision for which the arrangement is needed;
-2. the later work, practice or programme to be supported, including the selected method, tasks, required products, errors the work must prevent and what the resulting evidence will be used to establish;
+2. the later work, practice or programme to be supported, including the required products, which choices of task or Method the holder will make, what is already prescribed, consequential errors and what the evidence will be used to establish;
 3. the calendar, attempt and feedback timing, learner workload, provider windows, peak periods, and decision deadlines;
 4. material conditions on project access, sources, data, environments, tools, AI, privacy, confidentiality, accessibility, safety and authority; and
 5. the providers and decision holders on whose competence, results or authorizations the arrangement depends.
@@ -2566,7 +2566,7 @@ For a class design, state the audience assumptions and capacity range. Before an
 
 #### HCD.7:4.2 - Allocate Contributions, Not Labels
 
-Make the allocation detailed enough to connect each needed contribution to its recipient and time of use.
+Start with the work for which the person or group needs support. Establish what they can already accomplish with the help allowed there. Where a contributor can remove a barrier to that work, allocate the access, time or specialist service it requires. Where a capability still needs to develop, arrange practice in the holder’s part of the work. A group can divide that work among its members when its undertaking permits. Match the evidence to whichever holder and support conditions the claim concerns.
 
 Separate choosing the development aim from obtaining or developing the subject Method, designing learning activities, explaining or demonstrating, giving feedback, supporting participation and providing the necessary conditions. Identify whose development is concerned and who holds the relevant choices. A difficulty in the subject Method needs subject work; additional encouragement or practice cannot settle it. HCE.Reference:4 connects these professional contributions, and Library.Reference:9.2 explains their place in the common arrangement of help.
 

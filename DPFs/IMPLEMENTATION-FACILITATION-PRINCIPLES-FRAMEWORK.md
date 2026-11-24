@@ -254,7 +254,7 @@ Establish what the performer currently does, where the proposed contribution wou
 
 Compare the request with the evidence. Keep the proposed training when the recipient needs to learn the operation and the training can support that learning. If a capable performer lacks access to the source, repairing access can meet the immediate need. If the benefit is disputed, use an applicable target decision, seek a new decision from its holder if needed, or use IS.2 to investigate the disputed claim.
 
-Agree who will make the consequential choices. A recipient may ask for a ready answer, the design of a support service, or an opportunity to learn how to diagnose a difficulty. A designer can use a diagnosis already supplied by a specialist. If the undertaking also includes independent diagnosis, identify which explanations and checks the recipient will choose and what ordinary assistance they may use.
+Agree who will make the consequential choices. A recipient may ask for a ready answer, the design of a support service, or an opportunity to learn how to diagnose a difficulty. A designer can use a diagnosis already supplied by a specialist. If the facilitator is commissioned to diagnose the difficulty, the facilitator must establish the grounds for the finding. If a team is to learn to diagnose such difficulties, arrange for it to make the relevant judgements with the support available in its later work. Supplying the team with a well-founded diagnosis can help it act today. Its own diagnostic work can be assessed when that judgement is still open to it.
 
 #### IS.1:4.2 - Distinguish the promised result from the help
 
