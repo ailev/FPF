@@ -5,7 +5,7 @@
 > Use these research methods to frame a question, choose and conduct an inquiry, assess what its results support and communicate the answer. You can also use them to assess or improve a research method.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Original edition:** 24 October 2026. Revised 22 November 2026. For the version used, see [RMP.Sources:3](#rmpsources3---citation).
+- **Original edition:** 24 October 2026. Revised 24 November 2026. For the version used, see [RMP.Sources:3](#rmpsources3---citation).
 - **Status:** Eternal alpha. This working framework is open to correction as methods, sources and uses change. RMP.1–RMP.11 include ways to use an existing answer, stop an inquiry and improve a research method.
 - **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content. Third-party material retains its own terms.
 - **Publication:** [FPF Library repository](https://github.com/ailev/FPF)
@@ -106,11 +106,11 @@ The PatternIDs RMP.1–RMP.11 give the methods stable addresses. The six Parts p
 
 Start with the question that matters to the inquiry and the evidence you have. A design specifies what the observations must distinguish. The way you collect or recover material determines which comparisons you can make. Analysis, criticism and synthesis can support an answer, identify a limit or expose a premise of an earlier step that needs revision.
 
-If your task is to frame an inquiry yourself, begin here before reading a worked case. Take an unexplained observation or a decision someone faces in your own work. What would a different finding change for that person or for the explanation? Choose what to investigate, how far the evidence must reach and what it must distinguish. Work out how you could obtain or recover that evidence. Keep an earlier attempt if it shows those choices. Could the material you plan to collect be the same in two situations that require different answers? If you already have a proposed answer, consider what evidence could defeat it. Use the methods below to repair a missing connection or explain why the original design suffices. A supplied question, unit or comparison remains available when the work is to apply or criticize it.
+If your task is to frame an inquiry yourself, begin here before reading a worked case. Start from an observation to explain or a decision in your own work. What could a different finding change in the explanation, in the decision or in how a recipient uses the result? Choose what to investigate, how far the evidence must reach and what it must distinguish. Work out how you could obtain or recover that evidence. Keep an earlier attempt if it shows those choices. Could the material you plan to collect be the same in two situations that require different answers? If you already have a proposed answer, consider what evidence could defeat it. Use the methods below to repair a missing connection or explain why the original design suffices. A supplied question, unit or comparison remains available when the work is to apply or criticize it.
 
 If the available results leave part of the research question open, use FPF B.5, **Choose the Next Reasoning Contribution**, to identify what another contribution would add. [RMP.Reference:6](#rmpreference6---pattern-relations-do-not-prescribe-a-research-lifecycle) explains how to connect the research methods and when a change warrants revisiting earlier work.
 
-Choose the contribution whose result would answer your question or supply something it needs. Use inputs you already have when they support that use. The [Table of Contents](#table-of-contents) covers other questions. The [Architectural Reference](#research-method-practice-principles-framework-architectural-reference) explains why the methods belong here and what their combined use requires. When you seek help, ask for an explanation or a comment on your case in the language of your work.
+Choose the contribution whose result would answer your question or supply something it needs. Use inputs you already have when they support that use. The [Table of Contents](#table-of-contents) covers other questions. The [Architectural Reference](#research-method-practice-principles-framework-architectural-reference) explains why the methods belong here and what their combined use requires. When you seek help, describe the missing contribution in the language of your work. An explanation or a critic’s comment on your case may let you interpret a result yourself. If you need the result of a new measurement, check who can obtain it under the required conditions and use a standing arrangement if it covers the work. An existing measurement may already answer a request for the value.
 
 Use [RMP.1 — Decide Whether a Question Needs Research and When to Stop](#rmp1--decide-whether-a-question-needs-research-and-when-to-stop) to check whether an applicable source already answers the question. If it does, give the answer, its source and its relevant limits. If a knowledge question remains, explain what the inquiry seeks to establish, how another researcher can examine the connection from question to result, and the scope of the contribution. A suitable existing protocol can support an inquiry into a disputed claim. An established rule can also settle an ordinary case in its own practice.
 
@@ -197,6 +197,8 @@ Use the methods to answer the part of the inquiry that matters now. For a reques
 ## RMP.Reference:3 - Research membership is not institutional status
 
 A company, public body, university, archive, community, independent practitioner or citizen group can conduct research. Ask whether the knowledge question remains open under the relevant sources, whether the inquiry as a whole faces a non-routine task of establishing knowledge under genuine uncertainty, whether a critic can follow the evidence from question to result, and what bounded contribution can be communicated. A routine operation or a previously justified protocol can be part of such an inquiry. Affiliation, publication plans and tool choice do not settle membership.
+
+When it matters who conducted the inquiry, follow the work that produced the finding. In the stream study, residents may choose the comparison and interpret the result. A laboratory commissioned to measure their samples can contribute that part of the investigation. It might instead supply records from earlier monitoring. Those records can support the residents’ inference. Crediting the laboratory with choosing the comparison would require evidence of that choice. [RMP.4](#rmp4---preserve-a-criticism-ready-research-trace) helps recover who did what when the answer depends on it.
 
 The same operations can serve different tasks. A seal test can qualify a product or test the relation that makes acceleration informative. A fully specified replication can examine a disputed claim. In [RMP.1’s paired assay case](#rmp157---one-supplied-protocol-two-different-epistemic-tasks), an established procedure also supplies a routine lot verdict under an accepted rule. Stream samples may support monitoring or an inquiry into rival causes. Reading sources can provide the answer directly or furnish material for historical source criticism.
 
@@ -1322,7 +1324,7 @@ How can a practitioner make the design executable, preserve its criticism and al
 | Advance commitment | Prior choices can protect criticism, while some inquiry depends on learning what to ask or inspect during engagement. |
 | Feasibility | Access, timing, measurement and resources may each appear sufficient but fail in combination. |
 | Records and protection | Later criticism needs consequential choices preserved, while indiscriminate recording can expose protected information or add unusable volume. |
-| Supplied competence | A researcher can apply their own qualified procedure or use a suitable laboratory, statistical or archival contribution supplied by another practitioner or service. |
+| Obtaining a needed result | A team can apply a procedure it is equipped and permitted to use, or obtain a qualified result from a laboratory, statistical service or archive. For a protocol that requires the team to perform the work itself, establish whether it can do so with the support it will have. A conclusion about actual performance needs evidence of the team’s part in the work. |
 | Continuity | Most of a design may survive a local obstacle, while work depending on a defeated premise must stop or change. |
 
 ### RMP.3:4 - Solution
@@ -1603,7 +1605,7 @@ Distinguish how each part of the account is supported.
 | Basis for the account | How to report it |
 | --- | --- |
 | A contemporaneous record supports the event or choice. | Identify its scope and the particular claim it supports. Check the basis of recorded statements on which the examination depends. |
-| A person reports the event later. | Identify it as a later report and retain what supports or limits that account. |
+| A later account reports an event. | Identify who or what supplied the account, when and on what grounds. A participant may recall the event. A custodian or recording service may report it from a surviving entry. State what the account and any available underlying record establish. |
 | Surviving sources support a reconstruction. | Mark the reconstructed part, its sources, reasoning and uncertainty. |
 | The relevant conduct, reason or timing is unknown. | Say what is unknown and which examination depends on it. |
 
@@ -1617,7 +1619,7 @@ Follow a consequential reported result back to the observations, sources, encoun
 
 For observations, retain the identity of the specimen, case, participant, site or sample at the permitted level of detail and the conditions needed to interpret it. Distinguish instrument indications, qualified measurements and derived values. Use FPF C.16 when an examination depends on units, uncertainty or qualification that the recorded values alone leave unclear.
 
-For documentary sources, specify whether the investigator used a catalogue description or inspected the document. Preserve the edition, locator, dating, provenance, reasons for selection and any relevant transcription or translation. Identify contrary evidence and unexamined collections where they affect the answer.
+For documentary sources, identify what material supported the finding and, when the inquiry concerns conduct, who examined it. A catalogue description may answer the question directly. A custodian with access to the original may establish its date for a researcher who receives only the custodian’s report. To attribute direct inspection to the researcher, establish which source they examined. Preserve the edition, locator, dating, provenance, reasons for selection and any relevant transcription or translation. Identify contrary evidence and unexamined collections where they affect the answer.
 
 For transformations, show which operation produced the relevant output from which input. Record filtering, recoding, deduplication, aggregation, translation, corrections or computational steps that affect the examination, with versions and parameters where they matter. Use FPF A.10 when a claim needs its evidence and provenance made explicit.
 
@@ -1641,7 +1643,7 @@ Identify the people, teams, tools or services whose contributions affected the i
 
 - The model or service, its known version or configuration, and the time it was used.
 - The relevant input context and the output used, to the extent permitted by the applicable protection and access conditions.
-- What was checked against which source, who or what performed the check, what was accepted, rejected or revised, and how that affected the work. Where the applicable research guidance assigns responsibility to a human researcher, identify that researcher’s verification and decisions.
+- What was checked against which source, who or what performed the check, what was accepted, rejected or revised, and how that affected the work. Where applicable guidance assigns responsibility to a human researcher, distinguish what that researcher was required to verify or decide from what the available evidence establishes they did. Include delegated checks and how their results were used when that matters to the requirement.
 
 Preserve the wording of a prompt when it can change how a reader understands the research choice. Routine spelling assistance usually contributes nothing to that question. If a service withholds its internal state, describe what can be examined from the inputs and outputs that survive.
 
@@ -1719,6 +1721,8 @@ A researcher uses an AI service to suggest a preprocessing change for a model co
 
 The service also suggests a nonexistent article. The researcher checks the reference, rejects it and preserves the source actually used. This evidence can establish how the suggestion was handled. The scientific claim depends on what the source used supports.
 
+Suppose an automated service instead checked the reference and the only other surviving record is an authenticated approval of the code change. The records establish the service’s check and the approval. If the commission required the named researcher to inspect the reference personally, that inspection remains unestablished. A commission that permits reliance on the service’s check can be assessed on its own terms.
+
 When the original service version becomes unavailable, the retained suggestion, the researcher’s decision and the implemented change can still be inspected. A new run can test the retained implementation. Reproducing the original service response would need its own conditions and evidence.
 
 #### RMP.4:5.4 - Historical and interpretive records support different criticisms
@@ -1760,7 +1764,7 @@ When relying on the trace, follow a consequential use back to its source or use 
 | A repository link is treated as criticism-ready access. | The material may not survive, be accessible or contain the needed detail. | Establish the actual material and access for the named examination. |
 | A public summary is used for a claim that depends on redacted detail. | Its reader lacks the detail needed to examine that claim. | Identify what each view supports. Use an authorized source or a qualified inspection result if available, or report the limit. |
 | The number of files is offered as support for a scientific claim. | The decisive record might be absent from a large collection. | Identify the connection the claim needs and examine the evidence that bears on it. |
-| An AI suggestion or citation is used as evidence without establishing what supports it. | A saved output can show what was suggested. The source and the inference need their own grounds. | Identify the source, checks, decisions and responsible contributors. Where the applicable guidance assigns responsibility to a human researcher, record how the researcher exercised it. |
+| An AI suggestion or citation is used as evidence without establishing what supports it. | A saved output can show what was suggested. The source and the inference need their own grounds. | Identify the source, actual checks, decisions and responsible contributors. Where personal verification is required, record the evidence for it, a documented omission or the question left open. |
 | A run with substituted inputs is reported as a replay of the original computation. | It tests a different set of inputs. | Identify the inputs, decisions and service state that can be recovered for the original run, then state what the new run tested. |
 
 ### RMP.4:9 - Consequences
@@ -2620,7 +2624,7 @@ Trace the premise to the conclusions and outputs that use it. Identify those tha
 
 In a model, distinguish the target, structure, parameter, assumption, calculation and interpretation when their grounds differ. An arithmetically correct output may rely on a failed transfer assumption for its field interpretation. The same parameter can remain useful within its calibration conditions.
 
-If a conclusion’s warranted content or stated grounds change, revise the conclusion itself and correct any dependent outputs affected by that change. Preserve access to the earlier wording when a citation, correction or existing use requires it. An unused draft can often be edited in place with a source reference.
+If a conclusion’s warranted content or stated grounds change, give the corrected conclusion and identify the affected outputs. If the task is to assess the change, give its consequences and the grounds for them. Apply an amendment when it falls within your assignment or standing duties and you have authority over that output. To pass a correction to another holder or inform an affected user, follow [§4.4](#rmp844---return-evidence-to-the-actual-use). Establish whether the receiving output has changed when that fact is part of the commission. Preserve access to the earlier wording when a citation, correction or existing use requires it. An unused draft can often be edited in place with a source reference.
 
 A replacement explanation needs grounds of its own. If the evidence rules out only the earlier explanation, retain the alternatives still possible. Use RMP.1 or RMP.2 when an unresolved question or design choice warrants further research.
 
@@ -2917,7 +2921,7 @@ Use the standards of criticism appropriate to a qualitative, historical or mixed
 
 State what practitioners retain or change and the conditions that support that conclusion. Distinguish a revision of what the Method requires from a correction to its description or software and from a local deviation. For a changed Method, assess whether it forms a variant and which earlier evidence still applies.
 
-When introducing a selected change, supply the missing instructions, capability, tools or other support. Introduce it under the supported conditions and keep the provenance and means of recovery needed by users. Distinguish notification, actual use and observed effects.
+When introducing a selected change, establish who will carry out the revised work with what assistance. Provide the instructions, tools, access or preparation that the work needs, and introduce the change under the conditions its evidence supports. If the question is whether a holder has gained a capability, compare what that holder could do before and can do now under the conditions that matter. For joint work, establish how the participants’ contributions can be combined when required. Existing evidence can settle the question. [FPF A.2.2:3](../FPF-Spec.md#a223---positive-solution) gives the method for judging an ability at the intended scope. Keep the provenance and means of recovery needed by users. Distinguish notification, actual use and observed effects.
 
 A team with the necessary capability can make a small correction directly. A wider change may call for preparation or follow-up. Select a later observation when its attainable result could reveal an important failure, clarify an effect or affect a decision.
 
@@ -2968,6 +2972,8 @@ Clarify with the commissioner whether agreement was proposed as a way to improve
 #### RMP.9:5.4 - Correct source extraction without certifying a new tool
 
 An OCR tool repeatedly omits marginal dates from a historical collection. Compare the extraction with the available source images, correct the affected transcription and chronology, and retain the supporting source for the interpretation. The team can retain its historical Method while correcting the extraction.
+
+Suppose a contractor restored the missing dates. The archive can return the corrected chronology. For the next collection, the archive may rely on that service if the agreement covers the work and the service can supply it in time. If its own shift must recover the dates after the contract ends, examine what that shift can do with the images, tools and expertise it will retain. Earlier work under those conditions can establish the ability. Checking a date already marked by the contractor establishes a narrower contribution than finding the relevant marks across the new pages.
 
 For a replacement tool and a different handwriting collection, ask whether evidence of extraction fidelity already covers the intended use. If fidelity remains uncertain, compare the tools when access, expertise and effort justify the test. Speed measures throughput. When adequate evidence of the marginal dates is unavailable, qualify the affected part of the argument.
 
@@ -3857,7 +3863,7 @@ Enter the eleven-method repertoire where a contribution fits the question. Use d
 
 ## RMP.Sources:3 - Citation
 
-Levenchuk, Anatoly. *Research Method Practice Principles Framework — First Edition*. Original edition, 24 October 2026. Revised 22 November 2026. Developed and reviewed with AI assistance. [Publication](https://github.com/ailev/FPF).
+Levenchuk, Anatoly. *Research Method Practice Principles Framework — First Edition*. Original edition, 24 October 2026. Revised 24 November 2026. Developed and reviewed with AI assistance. [Publication](https://github.com/ailev/FPF).
 
 To identify the version you used, cite a permanent link to this file at the specific repository commit. For a particular method, include its PatternID and title.
 
