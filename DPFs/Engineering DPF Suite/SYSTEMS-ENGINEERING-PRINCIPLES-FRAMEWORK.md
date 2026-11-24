@@ -8706,7 +8706,7 @@ These tensions recur when choosing how to support future changes.
 - **Modularity and system performance.** Looser coupling can localize change, while added interfaces, indirection,
   mass, latency, or duplicated capability can damage current performance.
 - **Gain in the project system-of-interest and builder debt.** A shortcut in the project system-of-interest can deliver one increment quickly while making later
-  manufacturing, integration, evidence, or maintenance Work harder.
+  manufacturing, integration, evidence, or maintenance Work harder. To estimate this architectural debt, [trace a later change through the builder arrangement](#syse23412---trace-what-has-to-change-and-why). Establish which extra work that dependency causes and who bears it. When choosing an investment, include what it would cost to change the arrangement and keep it in service.
 - **Platform reuse and local difference.** A shared platform can reduce repeated Work, while forcing unlike
   profiles through one service can erase constraints that matter.
 - **Change speed and evidence continuity.** Small reversible changes shorten feedback, while assurance and
@@ -9048,9 +9048,7 @@ qualification.
 | Change the builder arrangement | Both improve. To reuse evidence while the four controller components remain coupled, this option parameterizes and qualifies their wider rig and evidence interactions. | The estimated committed adaptation and maintenance burden of that wider arrangement exceeds the mixed option's, including the latter's controller change. |
 | Mixed bounded change | Both improve for the next supplier. The compressor boundary confines the corresponding rig and evidence change to one slice. | Less committed adaptation and maintenance burden than the builder-only option; less controller redesign than the general redesign. Wider future variants remain outside this commitment. |
 
-These are comparison premises, not consequences of counting four coupled components. Without the estimated
-effect on evidence reuse and the comparative commitment burden, the earlier observations would not distinguish
-the mixed and builder-only options. Retain that unresolved comparison rather than claiming the same choice.
+The eleven hours tell the team what rewiring cost in effort on the earlier replacement. To estimate the added rig work, compare the effort of obtaining the same usable test configuration under both arrangements, including the preparation and checks each requires. There is no estimate for a comparable rig arrangement the team could have put in place before that replacement came due. The avoidable share remains unknown. For the next supplier change, the team can still compare the four arrangements using the stated estimates. If it lacks the comparison of evidence reuse and commitment, the four affected components and the eleven hours leave the mixed and builder-only options unresolved.
 
 The architecture choice follows from those observations and estimates:
 
