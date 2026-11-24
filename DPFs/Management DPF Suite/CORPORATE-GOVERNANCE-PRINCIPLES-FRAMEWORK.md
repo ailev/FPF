@@ -76,7 +76,7 @@ The framework belongs to the [Management DPF Suite](https://github.com/ailev/FPF
 
 These are selected examples of using the language. Bring the question from your work. If no example fits, search the Table of Contents by the difficulty, action or result and open the corresponding pattern.
 
-You can ask an assisting agent: “Explain this and give me your comments in ordinary language, without framework jargon.” Supply the facts and applicable rules needed for your question; the agent must preserve uncertainty where those inputs do not settle the answer.
+When involving a collaborator, commission the contribution your governance question requires. An assistant able to obtain and interpret the applicable rule and resolution can recover the recorded decision, work out whether the voting threshold was met or explain what remains unresolved. Acting on behalf of the corporation requires the authority for that act.
 
 ### CGOV-DELEGATION - Can this director sign the proposed commitment?
 
@@ -596,7 +596,7 @@ OCE.6 uses a corporate appointment or authority result when establishing an orga
 
 Use this pattern when a corporation's board and executive management cannot explain what they need from one another, when directors take over delegated work, or when the board receives a completed proposal too late to influence it.
 
-Begin with the matters the arrangement must handle, the people entitled to bring them, and the power or duty of each participant. A commission for one investment decision may finish with an allocation of its contributions. A standing arrangement must support the range of matters and combinations of requests those participants may bring. Determine which preparation, scrutiny, decision, action and review each requires and how their results reach the responsible parties. Reuse a sufficient existing arrangement.
+Begin with the matters the arrangement must handle. Identify the holder of the right to bring each matter and the power or duty of each participant. When another party submits on the holder’s behalf, establish its mandate to the extent the validity of the submission depends on it. A commission for one investment decision may finish with an allocation of its contributions. A standing arrangement must support the range of matters and combinations of requests those participants may bring. Determine which preparation, scrutiny, decision, action and review each requires and how their results reach the responsible parties. Reuse a sufficient existing arrangement.
 
 ### CGOV.4:2 - Problem
 
@@ -664,7 +664,7 @@ A familiar national or listed-company model can be mistaken for the corporation'
 
 ### CGOV.4:7 - Conformance Checklist
 
-Does the design allocate the contributions needed for the commissioned matter or range of matters, under the governing powers? Can the responsible people obtain their information and support in time, including when independently permitted calls occur together? What establishes the design, its introduction and its subsequent use respectively? Existing authority and sufficient support can sustain ordinary delegated action.
+Does the design allocate the contributions needed for the commissioned matter or range of matters, under the governing powers? Can the responsible participants obtain and use their information and support in time, including when independently permitted calls occur together? What establishes the design, its introduction and its subsequent use respectively? Existing authority and sufficient support can sustain ordinary delegated action.
 
 ### CGOV.4:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -1701,7 +1701,7 @@ A.2.8.PER distinguishes a permission result from exercise. Financial methods com
 
 Use this pattern when a board or another authorized corporate organ must follow implementation, performance or exposure and decide how those responsible should respond. A project may be reported as complete while promised services remain unavailable. An approved course may still be followed even though a condition for continuing it has failed. A loss may prompt blame before anyone asks what was reasonably knowable or controllable.
 
-Start from the corporate decision, duty or policy whose consequences matter now. Compare what was required with what has happened, ask the responsible participants for the explanation needed to choose a response, and act through the applicable authority.
+Start from the corporate decision, duty or policy whose consequences matter now. Compare what was required with what happened, using existing evidence where it answers the question. Obtain an account from the responsible participants when it is due or their contribution is needed to explain the discrepancy. Act through the applicable authority.
 
 The useful result is a governing response: continue under stated conditions, require a correction, limit an activity, seek an answer to a remaining question, or initiate a change that the current arrangement cannot supply. Identify who must do what and when the matter returns for attention. Where the response requires another corporate act, obtain that act through its proper procedure.
 
@@ -1743,7 +1743,7 @@ Use sufficient current observations. Obtain an additional comparison, explanatio
 
 #### CGOV.13:4.3 - Require the account needed for the response
 
-Use the information already available about the discrepancy. A confirmed threshold crossing and a standing instruction may be enough to take the required action now. When an explanation or a personal account is commissioned, establish what occurred, the information the responsible people could use, their choices and the effects they could influence. Ask them for their account where that contribution is due or the evidence leaves their part open.
+Use the information already available about the discrepancy. A confirmed threshold crossing and a standing instruction may be enough to take the required action now. For an explanation of a discrepancy, establish the sequence or mechanism that produced it. Operating records may suffice. A resolution that records the effective act may settle what the organ decided and when. If the question concerns its reasons, judgement or responsibility, establish which information and choices were available to the organ and which consequences it could influence. To attribute a choice or failure to an individual, examine that participant's circumstances and conduct. Obtain a response from the organ or officeholder when it owes the account or its contribution is needed to settle the question.
 
 Keep the findings distinct. A missed result can arise because necessary work was never assigned or was left undone, means were insufficient, execution was poor, an assumption was wrong, or an accepted uncertainty materialized. More than one can apply. An adverse outcome by itself does not establish misconduct, while a favourable outcome does not erase a violated condition.
 

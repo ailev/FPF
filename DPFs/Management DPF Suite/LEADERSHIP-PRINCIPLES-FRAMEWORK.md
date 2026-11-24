@@ -43,7 +43,7 @@ Framework text adapted from Anatoly Levenchuk's Organization Change Engineering 
 
 ## Practical entries
 
-Start with your question, a decision you face or a difficulty you want to explore. Who is to choose a direction, agree to a contribution or make something possible for someone else? Use the entry or the Table of Contents to find that work. Read the method for your question. When consulting a worked case, identify which choices its author has made and which choices are still yours. You can ask an assistant to explain, in the ordinary language of your work, what the method helps you understand or do and where its grounds run out.
+Start with your question, a decision you face or a difficulty you want to explore. Who is to choose a direction, agree to a contribution or make something possible for someone else? Use the entry or the Table of Contents to find that work. Read the method for your question. When consulting a worked case, identify what the case already fixes and which choices your situation leaves open. If you need help, ask for the contribution your joint work needs. An assistant with access to the rota might identify where agreed cover runs out. Arranging cover also requires someone able and authorized to secure it. Ask for an explanation in the language of the work when the grounds for that choice are unclear.
 
 ### OWN-ACTION — A chosen purpose is not becoming action
 
@@ -65,7 +65,7 @@ People agree that something matters, but interpret the situation differently or 
 
 - **Situation:** A customer accepts a date, a provider offers help and a manager promises time, but the full arrangement cannot yet be performed.
 - **Question:** What complete proposal can the affected parties accept and supply?
-- **First useful result or blocker:** The same feasible proposal accepted by the parties whose contributions it needs, or an explicit unresolved condition or refusal.
+- **First useful result or blocker:** A feasible joint arrangement covered by existing commitments and any further assent its terms require, or the particular missing contribution, decision or refusal.
 - **Start with:** [LDR.2](#ldr2---agree-feasible-joint-contributions).
 - **Stop or return:** Use an agreement that already covers the needed contributions. Reconsider the affected whole when a relied-on contribution changes.
 
@@ -125,7 +125,7 @@ Direction relates a worthwhile change to those who could undertake it and to the
 
 Leadership uses knowledge of the work and knowledge of how participants understand it and take part. Relevant grounds include a participant's account, an observed interaction, the consequences of a previous promise, an effective assignment, and research on comparable work. Their evidential uses differ. A person's explanation gives a reason to investigate or negotiate; it does not identify the sole cause of every missed contribution. An authorized instruction establishes what may be required, not whether it was understood or can be performed. An observed improvement after several changes does not isolate the effect of the conversation.
 
-Construct an explanation at the scale needed for the choice. If a contributor stops raising concerns, compare possible causes that imply different actions: the issue was resolved, the reporting route failed, reporting costs too much, earlier objections were punished, or the contributor no longer supports the work. Examine a relevant episode and the response to the concern. Seek the contributor’s account under conditions that allow disclosure. If the contributor cannot give an account, examine the available evidence, such as a trace of a failed transmission. Restore a known broken route directly. Where several explanations support the same warranted repair, act within that basis; a causal research programme is needed only for a stronger claim that depends on it.
+Construct an explanation at the scale needed for the choice. If a contributor stops raising concerns, compare possible causes that imply different actions: the issue was resolved, the reporting route failed, reporting costs too much, earlier objections were punished, or the contributor no longer supports the work. Examine a relevant episode and the response to the concern. A failed transmission can establish which route to restore. If the next decision turns on the contributor’s experience or reasons, seek their account under conditions that allow disclosure. Keep that question open when the evidence concerns only the transmission. Where several explanations support the same warranted repair, act within that basis; a causal research programme is needed only for a stronger claim that depends on it.
 
 Leadership theories can make an overlooked relation visible. The [CCL direction, alignment and commitment account](https://www.ccl.org/articles/leading-effectively-articles/make-leadership-happen-with-dac-framework/) directs attention to collective outcomes and the interactions producing them. Here it is a diagnostic comparison: agreement on direction, compatible work and personal willingness may fail separately. Examine what each participant would have to give up and whether they accept that cost.
 
@@ -259,7 +259,7 @@ Candour helps expose errors and consequences. Employment, status or dependence o
 
 #### LDR.1:4.1 - Find the contribution through the receiving work
 
-Recover a representative next task, the result it needs and what currently prevents it. When the participants cannot yet say what to undertake together, use LDR.5 to form the direction and participation needed for that next task. For an established task, ask the participants what help would change their next action. Useful answers include:
+Recover a representative next task, the result it needs and what currently prevents it. When the participants cannot yet say what to undertake together, use LDR.5 to form the direction and participation needed for that next task. For an established task, work out what help would change the participants’ next action. Use what the work already shows. Ask those affected when the remaining question concerns an unvoiced obstacle or the help they would accept. Possible contributions include:
 
 - making the intended result and its grounds understandable;
 - bringing an unvoiced concern into the decision;

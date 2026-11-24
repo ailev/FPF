@@ -537,7 +537,7 @@ Use the brief, an existing decision or other available evidence to establish wha
 
 Name who prepares the result and, when a choice is involved, who can make it. A strategy team may compare service, licensing and exit while the Board retains the direction decision. The Board may control internal preparation but lack the customer agreement, data permission or financing needed for execution. Keep each limitation at the action it governs; missing trial permission need not prevent a comparison from being completed.
 
-If a participant is commissioned to develop a direction, recover which choices and grounds belong to that participant and what an adviser or an earlier analysis can supply. An authorized signature establishes the decision under the applicable terms. To judge who constructed it, trace the proposed goal, the alternatives or the grounds to the person or team whose work is in question. A commission for advice can finish with a usable recommendation.
+If a participant is commissioned to develop a direction, recover which choices and grounds belong to that participant and what an adviser or an earlier analysis can supply. Establish what the signature did under the applicable rule. It may acknowledge receipt, attest a decision already taken or make the choice effective. To attribute construction of the direction, trace the proposed goal, alternatives or grounds to the contributor or contributors who supplied them. A commission for advice can finish with a usable recommendation.
 
 Reuse a sufficient decision-support engagement frame supplied through PSDA.11. STR.1 adds the strategic subject, contribution, direction and commitment horizon when the engagement also includes those strategic questions. A distinct adviser relationship may also need PSDA.19 guidance on competence, confidentiality and retained choice.
 
@@ -2632,7 +2632,7 @@ A single executive view can also hide separate holders of access, service, parti
 - The result identifies a recommendation or a decision and its holder where relevant. A reported choice has evidence that the authorized party made it.
 - The evidence and comparison basis concern the same options, configuration and horizon.
 - A retained alternative set, intended joint use and authorized commitments remain distinct.
-- A conclusion about which commitments exist is supported by the effective decisions of their holders. A promise that several commitments can be met together has a compatible joint arrangement. Where actual commitments conflict, identify the conflict and the holder who can address it.
+- To establish which commitments exist, check the authorized act or the standing terms and triggering event that made each commitment effective, including any required assent. A promise that several commitments can be met together has a compatible joint arrangement. Where actual commitments conflict, identify the conflict and the holder who can address it.
 - The selected scope states its resources, exclusions, displaced work and unmet conditions.
 - Material assumptions retain their support and use limits.
 - Reconsideration conditions identify the affected premise, conclusion or decision and the responsible holder where a new judgement is required.
@@ -3818,7 +3818,7 @@ Commercial visibility can make near-term sales appear to be the only result wort
 
 Keep each undertaking’s grounds of worth visible, compare the feasible arrangements, identify displaced work and establish who may accept the resulting trade-off. A fixed funding percentage would need a governing decision or a basis in the aims of this portfolio.
 
-The cases concern organizations making finite commitments. Participants without a common allocator can use the comparison to negotiate a proposal. For each commitment, recover the authorized act that established it and whose assent that act required. Community membership alone leaves a voluntary contribution open.
+The cases concern organizations making finite commitments. Participants without a common allocator can use the comparison to negotiate a proposal. For each commitment, recover the authorized act or the standing terms and event that made it effective. Establish whose assent the terms require and whether it has already been given. Seek a further decision when the terms call for one. Community membership alone leaves a voluntary contribution open.
 
 ### STR.16:7 - Conformance Checklist
 

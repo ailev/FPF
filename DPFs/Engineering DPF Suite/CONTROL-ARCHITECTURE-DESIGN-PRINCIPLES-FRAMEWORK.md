@@ -83,7 +83,7 @@ FPF C.43:4.5.1 also supplies the common construction of required temporal relati
 
 ## CAD.Reference:2 - The objects and independently useful contributions
 
-The plant, sensors, actuators and controller computers are systems. A dynamical model is a mathematical description of selected behavior. A feedback law prescribes how to choose an input; an implementation performs that calculation and applies an input. A design Method constructs or assesses an arrangement; one run of that Method is design work. The framework describes Methods and their relations. A model or feedback-law revision can change the required computation without requiring a different physical plant; changing a processor can change timing without changing the law.
+The plant, sensors, actuators and controller computers are systems. A dynamical model is a mathematical description of selected behavior. A feedback law prescribes how to choose an input. A controller can compute and issue the command while a separate actuator applies the plant input. One device may carry out both functions. A design Method constructs or assesses an arrangement; one run of that Method is design work. The framework describes Methods and their relations. A model or feedback-law revision can change the required computation without requiring a different physical plant; changing a processor can change timing without changing the law.
 
 In CAD.5, a *channel* is a realizable observation alternative with a measurement meaning, uncertainty, sample times, arrival conditions and resource demands. An *information state* retains what is needed to update the compatible possibilities and choose the next action. It can be a history, a sufficient recursive state or a conservative set representation; it is not necessarily another sensor or a physical control layer. The estimate $\hat x$, the true model state $x$, estimation error $\eta=x-\hat x$, nominal state $z$ and tracking error $e=x-Pz$ have different meanings.
 
@@ -232,7 +232,7 @@ When an existing loop tracks and rejects disturbances adequately, but abrupt or 
 
 For the basic held-command construction, use a model whose state includes the plant and controller. Obtain a set of state-command pairs from which holding the selected command satisfies the constraints at all claimed future instants. A scalar reference governor selects the largest admitted step along the line from the previous command toward the desired one; a command governor can optimize the command vector. The previous command supplies continuation only under the construction's admissibility and initialization conditions. Scalar search is smaller, while the restricted search direction can sacrifice response.
 
-As a control architecture option, a governor can preserve a qualified lower controller and avoid introducing a reduced planning model. Compare its reference distortion, progress and computation with the required task. If filtering makes the requested arrival time unattainable, constraint satisfaction alone has not solved that task. If the lower controller, sensor or timing changes, its governor model and admissible sets must change with it.
+As a control architecture option, a governor can preserve a qualified lower controller and avoid introducing a reduced planning model. Compare its reference distortion, progress and computation with the required task. If filtering makes the requested arrival time unattainable, constraint satisfaction alone has not solved that task. After a change to the lower controller, sensor or timing, check whether the governor model and its admissible sets still cover the realized behavior. Revise the model or sets wherever their premises no longer hold.
 
 Later constructions change different premises: observer-dependent domains in CAD.2–CAD.3, online cost adaptation in CAD.1, and inexact computation or controller switching in CAD.4. Use those developments only with their corresponding models and conditions.
 
@@ -332,7 +332,7 @@ Retain a simpler qualified arrangement when it works. A current complete observa
 
 ### CAD.5:2 - Problem
 
-An accurate observation of the past is not an accurate observation of the present. Between sampling and acting, the plant has evolved under known commands and unknown disturbances. Combining the latest values from several channels can therefore create a state that never existed. A point estimate can also hide alternatives that demand different actions.
+An accurate observation of the past is not an accurate observation of the present. Between sampling and acting, the plant has evolved under the inputs actually applied and the disturbances it experienced. A record of issued commands establishes the applied inputs only under an actuation model that warrants that inference. Combining the latest values from several channels can therefore create a state that never existed. A point estimate can also hide alternatives that demand different actions.
 
 The value of reducing estimation error depends on its effect on control. Error in a harmless direction may cost more to remove than error in a direction that exhausts an actuator margin. Conversely, a low average error can coexist with an unacceptable possible trajectory.
 
@@ -565,7 +565,7 @@ Return according to what failed:
 | --- | --- |
 | The whole set of histories compatible at this decision has no common admissible action | Check whether an earlier permitted action can avoid that information state. If the conflict is unavoidable, change the observations, their timing or the actuation, or seek an authorized change in the required behavior. |
 | A feasible set is too large only after coarse approximation | Retain a useful correlation or use a tighter representation; include its execution cost. |
-| Estimation uncertainty fits, but the given feedback violates an input limit | Change or requalify the feedback and its continuation, or change the physical limit or demand. Do not label this a sensor impossibility. |
+| Estimation uncertainty fits, but the given feedback violates an input limit | Evaluate another feedback and its continuation, a feasible physical redesign, or a revision of the demand by the party authorized to change it. Do not label this a sensor impossibility. |
 | A longer observation gap or shared-resource delay breaks the bound | Restore a qualified timing arrangement or recalculate the information and control sets for the changed timing. |
 | A stable unobserved component fits the task without intervention | Remove an unnecessary channel and its associated internal history. |
 | A mode switch changes the permitted error or invariant set | Prove that the actual state and information representation enter the new qualified set, or retain a common valid bound. |
@@ -576,7 +576,7 @@ For a feasible arrangement, return the channel meanings and timing, initializati
 
 Connect sample timestamps and identities, executed inputs and the estimator's update to the components that supply and use them in the implementation. Qualify computation and transport deadlines under the proposed shared load. Select an already qualified behavior for missing data, inconsistent data and late completion; “hold the last command” is not automatically safe.
 
-The engineer chooses which information the controller is to obtain and retain. The engineer can explain why a channel matters to an action, what must be remembered while waiting for another channel, and which changed condition invalidates the resulting control.
+For a specified arrangement, explain what the available observations and retained state permit and which changes would invalidate that conclusion. When commissioned to design the arrangement, identify the sensing and memory choices the designer made and how each supports the required action.
 
 ### CAD.5:5 - Archetypal Grounding
 
@@ -667,7 +667,7 @@ $$
 
 The same controller's next-state bound is $0.8r_2(4)+0.02=0.0688704$, which exceeds $0.06$. More decisively, four unobserved disturbances plus the next one yield the half-width $0.067232$ from :5.2 even if S's old measurement is exact. F still reveals nothing about the second coordinate. Thus a different filter or gain using the same available information cannot restore this hard bound.
 
-The engineer must change a consequential condition. Restore the qualified two-tick transport arrangement, obtain a timely observation of the second coordinate, or revise the task or physical dynamics. If the sensor budget becomes 3, H alone supports the same feedback with next-state bounds $0.046$ and $0.024$; its input bounds are $0.102$ and $0.052$. H needs no delayed-observation reconstruction. It is now a simpler sufficient choice.
+The required behaviour cannot be guaranteed with these channels and timing. For a redesign, consider restoring the qualified two-tick transport arrangement or obtaining a timely observation of the second coordinate. A change to the required behaviour or to the plant calls for the corresponding authority. If the sensor budget becomes 3, H alone supports the same feedback with next-state bounds $0.046$ and $0.024$; its input bounds are $0.102$ and $0.052$. H needs no delayed-observation reconstruction. It is now a simpler sufficient choice.
 
 A different task can also justify less information. If the allowed second-coordinate deviation becomes $0.12$, retain F and set $u_2=0$. The unobserved stable second coordinate has the invariant bound
 
@@ -1370,9 +1370,9 @@ $$
 
 where each C includes the elapsed time from release of a task to the required delivery. Passing these tests certifies timing for that arrangement. A 6 ms upper estimate for a 5 ms deadline leaves timing open if the estimate is loose. An admissible late job defeats the deadline guarantee. On a shared processor, derive response bounds with blocking, interference and communication included. If delivery may extend past the next release, compare each result with its own deadline and the sustained workload with available capacity. For example, two independent 4 ms pipeline stages can deliver one result every 5 ms with a latency of 8 ms. This arrangement needs a consumer that permits that latency and supports the intervening commands.
 
-If planning finishes one period after its observation, model that delay and the command that controls the intervening period. Preparing a future segment can make the delay harmless for a predetermined reference but not automatically for a newly observed obstacle. Increasing the processor speed changes the feasible architecture set.
+If planning finishes one period after its observation, model that delay and the command that controls the intervening period. Preparing a future segment can make the delay harmless for a predetermined reference but not automatically for a newly observed obstacle. A faster processor can make another arrangement feasible when computation limited timely delivery and the new arrangement satisfies the other control and execution conditions.
 
-Use the implementation to test unit conversions, numerical tolerances, update order, saturation and reset behavior. A numerical optimizer's constraint tolerance belongs in the margin analysis if it can consume physical clearance. Verify that the lower law executed is the law used in CAD.2.
+For a design, account for unit conversions, numerical tolerances, update order, saturation and reset behavior that can affect the required duty. For a realized controller, establish how it handles those effects and which lower law it executes. Use applicable evidence already available. Test an unresolved effect or perform a new test when the assignment requires it. Include the optimizer’s constraint tolerance in the margin analysis if it can consume physical clearance.
 
 If an online solver returns only a partial iterate, separate the time spent solving from the test that permits applying its output. A qualified acceptance rule may allow a feasible inexact result and otherwise keep an admissible prior command or plan. Include the cost of that test and the conditions for progress; a timeout says nothing about admissibility, and feasibility alone does not establish progress. The command-governor alternative in :11 is one developed construction, not a fallback rule for every optimizer.
 
@@ -1433,7 +1433,7 @@ A convenient cost model can favor the hardware at hand. A small parameter search
 - A convergence or optimality claim has its own applicable grounds.
 - A design conclusion states its execution, communication and timing premises. A conclusion about an installation establishes the premises that matter there.
 - Search limits and unresolved candidates are visible.
-- When conditions change or a fallback is used, the designer identifies any premises that have changed and rechecks the conclusions that depend on those premises.
+- When conditions change or a fallback is used, establish which qualified conditions hold. Refer any conclusion whose premises have changed to whoever is responsible for reassessing it.
 
 ### CAD.4:8 - Common Anti-Patterns and How to Avoid Them
 

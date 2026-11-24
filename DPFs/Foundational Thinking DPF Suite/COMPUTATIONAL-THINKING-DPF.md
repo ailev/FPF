@@ -89,7 +89,7 @@ The examples below show how one method's result makes another method usable, inc
 
 For example, [CMP.10 - Choose a Computational Representation for Its Access and Update Operations](#cmp10---choose-a-computational-representation-for-its-access-and-update-operations) can settle how to make one membership query in an existing unsorted list: a scan may suffice, with no new index to build. Many later queries or a different update workload can change that choice.
 
-You can ask an assisting agent, “Explain this and give me your comments in the language of my work, without framework jargon.” For a question about a run, ask it to follow the input through the operations and say what observation answers the question. For help designing the computation yourself, give it the recipient's use and the operations already available. Try your own choice of units and connections, then ask which allowed inputs or interactions might give a wrong result with that choice. If the agent is to design the computation, ask for the construction and its grounds over the commissioned cases.
+You can ask an assisting agent, “Explain this and give me your comments in the language of my work, without framework jargon.” For a question about a run, ask it to follow the input through the operations and say what observation answers the question. For help designing the computation yourself, give it the recipient's use and the operations already available. Try your own choice of units and connections, then ask which allowed inputs or interactions might give a wrong result with that choice. When entrusting design to a capable agent with the needed access, ask for the construction and its grounds over the commissioned cases.
 
 ### CP-DESCRIPTION-TO-BEHAVIOR - A notification rule becomes an ongoing service
 
@@ -351,7 +351,7 @@ Use the relevant body's checks where its operation enters; an unchanged supplier
 | A translation or composition is checked only by its final value | Include the intermediate observations, failures and progress on which its context relies. |
 | A model-specific limit is treated as an unrestricted impossibility | State the access and cost model, error and input promises, then examine which change escapes the bound. |
 
-To assess transfer, use evidence from a task with a changed input promise, required output or execution rule. If a new trial is needed, vary a condition that tests the contribution in question. Establish who recovered the affected construction and what assistance they used. Attribute the result to the performer whose contribution the changed task exposed. If the question concerns a learner’s own skill, identify what the learner did with the permitted help. For a population-risk claim, justify transfer under the data law, sampling conditions and rule family. A generalization bound can settle a threshold under its stated assumptions. Examine performance on a further sample when the commission calls for that observation or the bound leaves the decision open.
+To assess transfer, use evidence from a task with a changed input promise, required output or execution rule. If a new trial is needed, vary a condition that tests the contribution in question. Establish who recovered the affected construction and what assistance they used. Attribute the result to the performer whose contribution the changed task exposed. If the question concerns a learner’s own skill, identify what the learner did with the permitted help. To establish development, compare with the same learner's earlier work under comparable assistance. A team that can now use a new solver may have acquired a capability through that provision. To credit a teaching intervention, establish what change it explains. For a population-risk claim, justify transfer under the data law, sampling conditions and rule family. A generalization bound can settle a threshold under its stated assumptions. Examine performance on a further sample when the commission calls for that observation or the bound leaves the decision open.
 
 ## CMP.Reference:6 - Consequences and Architectural Rationale
 
@@ -2963,7 +2963,7 @@ Construct a repair from the failed premise. Common choices have different costs:
 | Intermediate state is observed inconsistently | Serialize the affected operation, protect its critical region or publish an immutable result. | Waiting, ownership or retained copies replace the former interference. |
 | A repeated message repeats an effect | Identify the logical request and combine effect application with remembering its result. | Identifier lifetime and failure recovery must preserve the relation. |
 | Components wait in a resource cycle | Impose a shared acquisition order or another cycle-breaking protocol. | All participating acquisitions must follow the rule; starvation remains a separate question. |
-| The cost of the proposed coordination threatens the intended use | Determine whether a cheaper implementation can still supply the promised observation. If the observation itself must change, take the proposed change to the person entitled to revise the commission. | Establish what the receiving algorithm can conclude under the agreed result specification. |
+| The cost of the proposed coordination threatens the intended use | Determine whether a cheaper implementation can still supply the promised observation. If the observation itself must change, establish what the existing commission already permits. For a change outside those terms, obtain the decision of whoever holds that right, including a joint decision when required. | Establish what the receiving algorithm can conclude under the agreed result specification. |
 
 For a repair, use the original failing trace to explain the changed behavior when that trace is available and informative. Justify the property over the interaction family the receiver needs. A new composition may admit a direct argument from its transition rules before any run has taken place.
 
@@ -3165,7 +3165,7 @@ Reuse adequate constructor meanings and operation rules. If these remain unclear
 
 #### CMP.15:4.2 - Assign and provide the joining contribution
 
-A data-extension author supplies the new variant and the operations that the extension promises. An operation-extension author supplies that operation for the variants it promises. For a required intersection unknown to both, one contributor who understands both agreements supplies the missing body. This can be either author or the application's integrator. The application must have a way to obtain that body; merely naming a future contributor leaves the combination unsupported.
+A data-extension author supplies the new variant and the operations that the extension promises. An operation-extension author supplies that operation for the variants it promises. For a required intersection unknown to both authors, obtain a body whose behaviour satisfies both agreements. Either author or an integrator can supply it. Several contributors can also produce it together when the meanings of the variant and the operation reach the implementation and its check. Establish how the application obtains the body and why its behaviour follows from those meanings.
 
 The joining contribution contains an implementation and the grounds for using it: the accepted variant, operation meaning, required context, dependent operations and a case that distinguishes it from a plausible wrong implementation. Place it in a module that can depend on both additions without making either old module depend on its future users. The original contributions remain independently usable on their established cases.
 
@@ -3510,7 +3510,7 @@ The method also makes integration work visible. Contributors who each test only 
 ### CMP.15:7 - Conformance Checklist
 
 - The data variants, operation meanings and admitted receiving uses determine the required combinations, including nested forms and dependent operations.
-- Every required new intersection has an obtainable body or an explicit unsupported-use boundary; its supplier understands both sides.
+- For each required new intersection, the application can obtain a body with grounds covering the variant and the operation, or its available uses explicitly exclude that combination.
 - Generic derivation is justified by the operation's meaning, with binding, control or identity distinctions retained where material.
 - The composition defines selection, reports missing support and rejects or resolves conflicts without accidental loading-order semantics.
 - Recursive and dependent calls reach the implementation selected for the composition.

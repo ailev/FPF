@@ -2431,7 +2431,7 @@ The practical gain is an expression that can be estimated from the available rec
 
 This is a method of mathematical modeling within causal reasoning. It constructs the connection from available laws to an intervention target. C.28.MR supplies the meaning and consequences of replacing a mechanism in a given causal model; here the model's relevant mechanisms may remain unknown. Subject methods must justify what the intervention changes, which influences may be shared, and which relations remain applicable. The method applies to physical, biological and computational systems and to the methods used to carry out work.
 
-Preparation requires conditional probability, expectation and the ability to follow a mathematical argument about assumed causal relations. For graphical derivations, the practitioner or an available specialist must be able to check which paths remain open under conditioning and intervention. Whether you derive the result or obtain it from a specialist, retain the target, assumptions, required observable quantities and derivation or obstruction. A software result that omits these grounds is insufficient.
+Preparation requires conditional probability, expectation and the ability to follow a mathematical argument about assumed causal relations. For a graphical derivation, establish which paths remain open under conditioning and intervention. An applicable derivation in a record, an inspectable tool result or a qualified collaborator may supply this step. Whether you derive it yourself or use a supplied result, retain the target, assumptions, required observable quantities and derivation or obstruction. A software result that omits these grounds is insufficient.
 
 Reuse an applicable identification result when it answers the unchanged question. Use MMP.13 for estimation under an already identified expression, and C.28.MR for a consequence inside a fully supplied causal model. Design another experiment only when the existing result is insufficient and further evidence is worth obtaining. For a question about the same observed case under another action, or a joint or nested comparison of its responses, MMP.19 constructs the common-case relation and determines what the available information fixes.
 
@@ -2863,7 +2863,7 @@ If every compatible answer supports the same sufficient action or explanation, u
 
 A revised recording rule changes the factual conditioning. A revised intervention changes the response functions. A changed criterion can make joint dependence irrelevant. Recalculate the affected contribution while retaining the rest.
 
-An investigator can build a counterfactual comparison by conditioning on the observed case and evaluating the changed mechanisms. The investigator or a subject specialist supplies the case and its causal interpretation. The investigator can perform the calculation or obtain it from a collaborator with the required mathematical skills. Obtain any missing contribution the investigation needs.
+An investigator can build a counterfactual comparison by conditioning on the observed case and evaluating the changed mechanisms. Use the case record and the applicable causal account to establish what is observed and what may change under intervention. A recorded route and a given equation may already determine the conditional result. Calculate it or use a qualified calculation. Obtain further subject evidence when the interpretation needed for the case remains open.
 
 ### MMP.19:5 - Archetypal Grounding
 
@@ -4001,7 +4001,7 @@ The mathematical object is a physical model whose active differential and algebr
 
 The result is a conditional continuation: a processed system for each used mode, a restart relation tied to the preceding state, and the conditions under which integration may resume. A missing impact law or a contradictory switch can instead be the useful result. A model with a justified reset and suitable numerical realization can be used directly.
 
-The reader needs the component laws, elementary differential equations, differentiation of constraints and linear algebra. The worked cases below need only small systems. Larger models need symbolic structural analysis and suitable numerical solvers. An engineer may obtain those operations from a specialist or tool, while retaining responsibility for the physical assumptions and requested outputs.
+The reader needs the component laws, elementary differential equations, differentiation of constraints and linear algebra. The worked cases below need only small systems. Larger models need symbolic structural analysis and suitable numerical solvers. Obtain the structural analysis and numerical continuation from a capable contributor or tool where needed. Establish which physical assumptions and requested outputs are given, which the commission leaves you to choose and whose evidence or decision is needed for a remaining question. A restart calculated under a supplied impact law gives a consequence of that law. Choosing the law for the actual contact takes further grounds.
 
 ### MMP.20:2 - Problem
 

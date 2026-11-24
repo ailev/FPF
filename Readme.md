@@ -43,7 +43,7 @@ Before applying a method, read [Using FPF Library](USING-FPF.md). It explains ho
 
 ## Keep connected reasoning in view
 
-**Long mantras** recall how answers to related questions depend on one another. [B.5.PI](https://fpf.tools/B.5.PI) explains how a suitable mantra can help find a consequential problem before it is felt: examine its connected questions in a case and investigate a consequential gap when one appears. For a systemic project question, **[A.1.STM](https://fpf.tools/A.1.STM)** begins with what should change when the system is used and how it functions within a larger whole. This gives grounds for examining the system's structure, the methods for obtaining it, and who can perform those methods. Keep the product's intended use in view when improving the people, AI systems and organizations that create it. Those improvements can have their own finite projects and acceptance conditions. Independent suppliers connect their product purposes through the receiving use and obligations. The full account explains how a noticed difficulty reaches those same grounds and what to revise when a premise changes.
+**Long mantras** recall how answers to related questions depend on one another. [B.5.PI](https://fpf.tools/B.5.PI) explains how a suitable mantra can help find a consequential problem before it is felt: examine its connected questions in a case and investigate a consequential gap when one appears. For a systemic project question, **[A.1.STM](https://fpf.tools/A.1.STM)** connects what should change in use to the system’s contribution. Examine how the parts of a larger whole function together when that relation determines the contribution. Direct evidence can settle a question confined to a particular use. Follow the dependencies the project actually needs into the system’s structure, the methods for obtaining it and who can perform them. Keep the product's intended use in view when improving the people, AI systems and organizations that create it. Those improvements can have their own finite projects and acceptance conditions. Independent suppliers connect their product purposes through the receiving use and obligations. The full account explains how a noticed difficulty reaches those same grounds and what to revise when a premise changes.
 
 The **[control mantra (FPF C.43)](https://fpf.tools/C.43)** connects assessment of the situation, possible continuations, comparison and choice, realization, examination of what happened and revision. Its full Method explains how observations can change later choices, how means and timing constrain them, and how an intervention can develop the capability to address further problems. Technical control, economic choices and developmental recommendation retain their particular mechanisms.
 
@@ -69,16 +69,16 @@ To judge the effect on the same tasks, compare results under conditions that mat
 
 ## What is available
 
-**FPF Core** contains 408 patterns in 19.168 million characters. It supplies transdisciplinary concepts and methods, including methodological work, architecture construction and comparison, and open-ended development. **36 Domain Principle Frameworks (DPFs)** supply subject-specific methods: 26 belong to four Suites, and ten have their own files directly in the DPF catalogue.
+**FPF Core** contains 408 patterns in 19.288 million characters. It supplies transdisciplinary concepts and methods, including methodological work, architecture construction and comparison, and open-ended development. **36 Domain Principle Frameworks (DPFs)** supply subject-specific methods: 26 belong to four Suites, and ten have their own files directly in the DPF catalogue.
 
 A DPF describes one field through a connected pattern language. A **Suite** describes a composite discipline through its constituent fields and their relations. An **Architectural Reference** explains how the relevant language is arranged and why: within a framework, across a Suite, or across the Library.
 
 | DPF Suite | Working subject | DPFs | Patterns | Text, M characters |
 | --- | --- | ---: | ---: | ---: |
-| [Engineering](DPFs/Engineering%20DPF%20Suite/) | Designing, realizing, changing and maintaining systems; knowledge access, semantic integration and control architecture design. | 5 | 99 | 2.986 |
-| [Management](DPFs/Management%20DPF%20Suite/) | Direction, goals, commitments, operations, resources, markets, communities and organizational change. | 14 | 201 | 5.757 |
-| [Foundational Thinking](DPFs/Foundational%20Thinking%20DPF%20Suite/) | Mathematical and physical accounts, models, algorithms and usable notation. | 5 | 71 | 2.065 |
-| [Human Capability Engineering](DPFs/Human%20Capability%20Engineering%20DPF%20Suite/) | Human learning and somatic change, connected to capability in later work. | 2 | 34 | 1.300 |
+| [Engineering](DPFs/Engineering%20DPF%20Suite/) | Designing, realizing, changing and maintaining systems; knowledge access, semantic integration and control architecture design. | 5 | 99 | 2.996 |
+| [Management](DPFs/Management%20DPF%20Suite/) | Direction, goals, commitments, operations, resources, markets, communities and organizational change. | 14 | 201 | 5.775 |
+| [Foundational Thinking](DPFs/Foundational%20Thinking%20DPF%20Suite/) | Mathematical and physical accounts, models, algorithms and usable notation. | 5 | 71 | 2.069 |
+| [Human Capability Engineering](DPFs/Human%20Capability%20Engineering%20DPF%20Suite/) | Human learning and somatic change, connected to capability in later work. | 2 | 34 | 1.301 |
 
 The [DPF catalogue](DPFs/) lists the ten further frameworks and opens each Suite's files. Suite totals sum their constituent framework texts; separate Suite References and README pages are excluded. Character counts include spaces and original line breaks.
 

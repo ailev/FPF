@@ -81,9 +81,9 @@ ADM helps administrators examine administrative requests, give justified refusal
 
 Organization Administration connects the condition a participant needs for its work with the rule that governs it and the provider able to supply it. For archive access, an eligibility result can support a grant. The grant specifies what the provider can enable. Use evidence of the effect to establish what the recipient obtained and, under the applicable terms, what the provider still owes. If provision fails or its conditions change, return to the question affected.
 
-The examples below show how to start from different questions and connect the needed contributions. An ordinary request with adequate inputs can use its existing instruction directly. For a small ambiguity, [ADM.1 - Frame the Administrative Condition Needed for the Work](#adm1---frame-the-administrative-condition-needed-for-the-work) may suffice: arranged transport and accommodation can be complete even when the traveller's negotiations fail. The next negotiating decision belongs to the person responsible for that work.
+The examples below show how to start from different questions and connect the needed contributions. An ordinary request with adequate inputs can use its existing instruction directly. For a small ambiguity, [ADM.1 - Frame the Administrative Condition Needed for the Work](#adm1---frame-the-administrative-condition-needed-for-the-work) may suffice: arranged transport and accommodation can be complete even when the traveller's negotiations fail. The mandate for the negotiations determines who can change the offer or end the talks.
 
-Use the Table of Contents for other questions. You can ask an assisting agent to explain a pattern or comment on your case in ordinary language. In `ADM.15:4.3`, `15` identifies the pattern and `4.3` its section; the Parts and `§` positions give publication order.
+Use the Table of Contents for other questions. If you involve an assisting agent, commission administrative work it can carry out under the applicable terms. A service with access to the records may recover an existing grant or arrange provision under it. Ask for an explanation in ordinary language when that is what the recipient needs. In `ADM.15:4.3`, `15` identifies the pattern and `4.3` its section; the Parts and `§` positions give publication order.
 
 ### ADM-E2 — A future appointment is being used for today's access request
 
@@ -330,7 +330,7 @@ That statement is sufficient to locate the next service or eligibility question.
 
 When the requested condition, recipient, provider and needed time are identified, and the applicable service instruction's prerequisites for the next handling action are established, the handler uses that instruction to obtain or verify provision. Reuse adequate supplied facts and decisions. If a required fact or decision is unresolved, identify the missing contribution. Use available evidence to settle a factual question or direct it to the appropriate source. Obtain decisions from the holder of the relevant authority.
 
-For a missing administrative condition, state what the participant still cannot use and why the local “done” evidence is insufficient. For a failed business result after the administrative condition was supplied, return the next business decision to whoever has responsibility for the business work. An administrative provider can still examine its own contribution if new evidence connects it to that failure.
+For a missing administrative condition, state what the participant still cannot use and why the local “done” evidence is insufficient. For a failed business result after the administrative condition was supplied, identify which decision about that work, if any, is now needed and who has authority to make it. An administrative provider can still examine its own contribution if new evidence connects it to that failure.
 
 Framing finishes when its recipient can use the statement of the needed condition or the identified gap. Completion of the enabled work is a separate question.
 
@@ -347,10 +347,10 @@ In this constructed case, an employee travels to negotiate a supply agreement. T
 | Subject | Stipulated result | Next action |
 | --- | --- | --- |
 | Journey and stay | The employee travelled and used the accommodation. | Retain the relevant provision evidence for its intended administrative use. |
-| Negotiating work | The parties reached no agreement. | The person responsible for the negotiating work decides whether to revise the offer, continue negotiations or stop. |
+| Negotiating work | The parties reached no agreement. | Use the negotiating mandate to determine who may revise the offer, continue talks or end them. The traveller may be authorized to pursue only some of those choices. |
 | Administrative handling | The stated travel conditions and required expense settlement were satisfied. | The handler may report that administrative result complete under the supplied rule. |
 
-Report the completed travel service and the failed negotiation separately. The negotiating decision returns to the party responsible for the agreement. If the accommodation had been unusable and the employee had arranged a replacement personally, the administrative account would instead retain that failure and the displaced effort even if the negotiations later succeeded.
+Report the completed travel service and the failed negotiation separately. The service can close even while the parties entitled to revise the offer or continue talks have yet to decide. If the accommodation had been unusable and the employee had arranged a replacement personally, the administrative account would instead retain that failure and the displaced effort even if the negotiations later succeeded.
 
 #### ADM.1:5.2 - An ordinary request that needs no reframing
 
@@ -967,7 +967,7 @@ The opposite response leaves all handling discretionary. Skilled staff may resol
 
 Name the condition to be supplied, its recipient, applicable time and supported request class. Recover the applicable policy and who is authorized to decide, perform and correct each action. Distinguish a supplied rule from an assumption that still needs its competent source.
 
-Keep the work enabled separate. A travel reimbursement service supplies an authorized reimbursement; it does not determine whether the traveller's negotiations succeeded. If the policy makes a particular business condition relevant, include that condition and the person or evidence that can establish it.
+Keep the work enabled separate. A travel reimbursement service supplies an authorized reimbursement; it does not determine whether the traveller's negotiations succeeded. If the policy makes a business condition relevant, identify evidence that would establish it. A decision reserved to a particular party requires its effective act, which a suitable existing record may establish.
 
 An unavailable policy, unassigned payment provider or missing qualified test is a design gap. State the exact missing contribution and who can supply it before promising the affected result.
 
@@ -1005,11 +1005,11 @@ For potentially duplicate actions, include recovery of the earlier attempt befor
 
 #### ADM.5:4.6 - Exercise and publish the usable instruction
 
-Judge the instruction against the service it is meant to cover. Derive from the governing terms which differences can change the required response, who may decide or when a result is due. For each request the service undertakes to handle under those terms, the handler needs a permitted, timely way to act or to obtain a decision from someone authorized to make it. One rule can cover many requests when its premises hold across them. If two requests look alike to the handler at the time of choice yet require incompatible responses, give the handler a way to distinguish them in time or revise what the instruction promises. Where requests can be made together, check whether the permitted responses can also be provided together.
+Judge the instruction against the service it is meant to cover. Derive from the governing terms which differences can change the required response, who may decide or when a result is due. For each request the service undertakes to handle under those terms, the handler needs a permitted, timely way to act or to obtain the decision from the authority the policy designates. One rule can cover many requests when its premises hold across them. If two requests look alike to the handler at the time of choice yet require incompatible responses, give the handler a way to distinguish them in time or revise what the instruction promises. Where requests can be made together, check whether the permitted responses can also be provided together.
 
 When a walkthrough is needed, use a representative case to check whether the instruction identifies each participant’s next action. A human handler can explain what they would do, and an automated handoff can be examined against its stated inputs and outputs. Repair missing handoffs and unnecessary requests. To establish that a person or service can perform the work and that the provider can deliver the promised condition, use applicable evidence of performance or a trial that covers the claimed result.
 
-Return the instruction with the class of requests covered, its governing policy and the conditions it relies on. An individual decision can remain open by design if the instruction takes it to the person who may decide in time. If a promised class has no supported response, identify who must resolve that gap and the cases that can already be handled. A commission for a draft may allow such a choice to be returned to the service owner. To put an instruction into use for the whole class, cover each response the terms require. Publish it where handlers look for service instructions. Reopen its design when conditions or evidence of actual handling change the answer.
+Return the instruction with the class of requests covered, its governing policy and the conditions it relies on. A decision on an individual case can remain open by design if the instruction reaches the party entitled to decide, with the means to reach a decision in time. For a panel, that can depend on whether the required members can examine the case and act under the applicable voting rule. If a promised class has no supported response, identify who must resolve that gap and the cases that can already be handled. A commission for a draft may allow such a choice to be returned to the service owner. To put an instruction into use for the whole class, cover each response the terms require. Publish it where handlers look for service instructions. Reopen its design when conditions or evidence of actual handling change the answer.
 
 ### ADM.5:5 - Archetypal Grounding
 
@@ -1985,7 +1985,7 @@ If the provider cannot recover the mapping, the service retains that precise gap
 
 #### ADM.11:5.2 - Shared provision does not establish shared capacity
 
-The provider has promised two separate two-hour performances by one specialist in the same two-hour window. They require four specialist-hours. If the agreement instead permits both recipients to use one common result and a single performance meets both needs, two hours can suffice. For a promise to serve either one, establish who may choose, whether both requests can become due and when the person making the first binding allocation will know which recipient needs service. If that person must commit a room before the requester is known, the booking must work for either eligible requester or allow a timely adjustment.
+The provider has promised two separate two-hour performances by one specialist in the same two-hour window. They require four specialist-hours. If the agreement instead permits both recipients to use one common result and a single performance meets both needs, two hours can suffice. For a promise to serve either one, establish who may choose, whether both requests can become due and what the party committing the first allocation can know when the booking becomes binding. If the room must be booked before the requester is known, the booking must work for either eligible requester or allow a timely adjustment.
 
 The responsible parties use the actual service priorities and commitments to resolve the resource question. They may change timing or obtain qualified additional provision where authorized. The administrative join account supplies the affected cases, needed specialist results and obligations. A claim that a new shared-service arrangement will solve the problem remains conditional until its actual capability and timing are established.
 

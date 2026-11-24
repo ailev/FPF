@@ -2582,11 +2582,11 @@ Before:
 
 > The generated outline sounds coherent and covers all important ideas, so it can be used as a DPF learning route.
 
-Here the seminar brief asks learners to choose a source pattern and use it on an unfamiliar case. Suppose the outline explains the relevant patterns but gives each exercise the heading of the pattern to apply. Inspecting the exercise already establishes who selected the pattern.
+Here the seminar brief asks learners to choose a source pattern and use it on an unfamiliar case. Suppose the outline explains the relevant patterns but gives each exercise the heading of the pattern to apply. The heading tells learners who see it which pattern to apply. The brief may have specified the choice, the generator may have made it, or an editor may have added it. To attribute it, examine the work that produced the heading. A learner who chose a pattern before seeing the heading may have evidence of that earlier choice.
 
 After:
 
-> Learners can use the named pattern to work on each case. The outline still supplies the choice they must make in their next job. Keep the explanations, then give learners another incident account, the next engineer’s question and the available records. Ask them to prepare the account that engineer needs. Make the patterns and ordinary references available. Let the learner select a pattern and use it before discussing the author’s choice. NSTD.8 helps arrange that practice. NSTD.6 can assess the revised route against both parts of the brief. To report what a learner actually chose and did, use that learner’s work with the help available.
+> Learners can use the named pattern to work on each case. The outline still supplies the choice they must make in their next job. Keep the explanations, then give learners another incident account, the next engineer’s question and the available records. Ask them to prepare the account that engineer needs. Make the patterns and ordinary references available. Let the learner select a pattern and use it before discussing the pattern named in the earlier exercise. NSTD.8 helps arrange that practice. NSTD.6 can assess the revised route against both parts of the brief. To report what a learner actually chose and did, use that learner’s work with the help available.
 
 
 
@@ -3165,7 +3165,7 @@ Return the supported account, any warranted alternatives or the precise question
 
 ### NSTD.9:2 - Problem
 
-To tell what happened, an interpreter groups occurrences, connects statements, selects a perspective and may supply assumptions. The resulting account can bring out a relation or obscure it. Compare the grouping with the original material. An outline extracted from the completed story already contains its author’s choices.
+To tell what happened, an interpreter groups occurrences, connects statements, selects a perspective and may supply assumptions. The resulting account can bring out a relation or obscure it. Compare the outline with the original material. Its maker may reproduce a division into episodes expressed in the story or introduce a connection the story leaves open. Trace what supports that reading. If the question concerns who first made the connection, look for evidence of the work that produced it.
 
 ### NSTD.9:3 - Forces
 

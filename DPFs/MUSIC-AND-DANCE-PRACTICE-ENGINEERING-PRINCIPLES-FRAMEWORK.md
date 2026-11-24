@@ -114,7 +114,7 @@ Search the Keywords & Search Queries column for the performance, teaching, pract
 
 Bring your question about performance, teaching or practice development. These selected examples show how one pattern's result changes what another method can do, where a useful branch can stop, and what changes when the conditions do. A case can feature the same music and serve another job. Compare the result its method gives you with the decision, explanation or design you owe. For work still open, use the [Table of Contents](#table-of-contents) to find the method by its question. Use a direct specialist method when it already supplies the needed result.
 
-The [Architectural Reference](#music-and-dance-practice-engineering-principles-framework-architectural-reference) explains the shared language and its Music and Dance profiles. You can ask an assisting agent: “Explain this and give me your comments in the language of my work, without framework jargon.”
+The [Architectural Reference](#music-and-dance-practice-engineering-principles-framework-architectural-reference) explains the shared language and its Music and Dance profiles. To compare a prescribed entrance with the one that sounded, use the score and a recording on which the entrance can be identified. You can make that comparison yourself or ask a collaborator who can interpret both. When you seek an explanation from a collaborator, ask for it in the performers’ own terms. A question about which cue a player actually followed requires evidence of that player's performance.
 
 ### MDPE-CARD-STYLE-DEVELOPMENT — Develop a new style without mistaking one showcase for a maintained practice
 
@@ -1092,8 +1092,7 @@ When recognition matters to the brief, specify who is expected to distinguish or
 and what could show whether they do so or the brief needs to change. A label, press notice, official listing or favourable response can document
 that particular occurrence. A claim about recognition by other participants needs evidence from the intended use.
 
-The brief is sufficient when the person using it can identify what is promised, what would satisfy it and any specific
-limit. An authorized decision-maker can then make or decline the commitment. Reconsider the affected part if representative
+The brief is usable when its intended recipients can identify what is proposed or promised, what would satisfy it and which limits apply. When a new commitment is needed, establish who can make or decline it. Reconsider the affected part if representative
 work, participant response, feasibility, authority, safety, recognition, cost or another relied-on condition changes.
 
 ### MDPE.1:3 - First Useful Result

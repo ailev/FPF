@@ -57,7 +57,7 @@ Search by the working question or required result. Use the MKT identifier to cit
 
 ## Practical entries
 
-Bring your working question. If none of these examples fits, search the Table of Contents or enter a pattern directly. Each body explains its situation, construction, limits, worked cases and source returns. You can ask an assisting agent: “Explain this and give me your comments in ordinary language, without framework jargon.”
+Bring your working question. If none of these examples fits, search the Table of Contents or enter a pattern directly. Each body explains its situation, construction, limits, worked cases and source returns. If you need assistance, ask for the work your decision requires. A service may compare supported offers or complete a purchase under terms the buyer has delegated. A customer whose choice is still open may instead need an explanation in the language of their work.
 
 ### MKT-ENTRY-QUESTION - Find out enough to make the next decision
 
@@ -111,7 +111,7 @@ Bring your working question. If none of these examples fits, search the Table of
 
 Use a body when its practical problem is present. MKT.12 can end an inquiry without a new campaign; MKT.4 can support a single choice without a customer programme. Read the Architectural Reference when deciding how several contributions fit. The applications develop five connected uses and return to the separate suppliers of engineering, organisation, operations, learning and community work.
 
-The patterns describe ways of working. A proposed arrangement may still need performers, tools, access, time or a receiving decision before the work can take place. An AI assistant can help recover evidence, compare alternatives and draft wording. For any permission, commitment or human contribution the work depends on, establish what its holder has already granted, agreed or supplied. Obtain what is still needed from the responsible party.
+The patterns describe ways of working. A proposed arrangement may still need performers, tools, access, time or a receiving decision before the work can take place. A capable service may investigate demand with authorized sources, recommend a supported variant or transact within its delegated terms. Where responsibility for a choice matters, distinguish who set the terms, who selected the offer and who completed the transaction. For any permission, commitment or human contribution the work depends on, establish what its holder has already granted, agreed or supplied. Obtain what is still needed from the responsible party.
 
 # Marketing Principles Framework Architectural Reference
 
@@ -833,7 +833,7 @@ Recover the live choices and what each requires. Help the customer understand an
 
 Ask what is being decided now: whether to investigate, compare alternatives, obtain permission, try, contract, pay, start use or continue an existing arrangement. Recover the relevant participants, what each can decide and what information or contribution they need. A sequence recorded in a CRM is a proposed or reported account; check the actual case before acting on it.
 
-Use a concrete recent event to establish where the decision stands. “We are ready” can mean that a user likes the demonstration while purchasing has not seen the terms. Preserve the user's interest and find out what purchasing still needs to review and decide. Do not invent a stage for an unknown condition.
+Establish which decision is still open and what the buyer has already done. For a first purchase, the current terms and an available approval may settle what can happen next. To report that an order was placed, look for evidence of that transaction. “We are ready” can mean that a user likes the demonstration while purchasing has not seen the terms. Preserve the user's interest and find out what purchasing still needs to review and decide. Do not invent a stage for an unknown condition.
 
 Define the attainable alternatives, including continuing the current way, another supplier, a narrower contribution and no action now. Investigate the reason for uncertainty when it can change the next move. [MKT.12](#mkt12---investigate-a-customer-or-market-question-for-a-decision) supplies a choice-history inquiry when the reported obstacle is not yet understood.
 
@@ -857,7 +857,7 @@ These conditions can coexist. Resolve one without claiming that the others have 
 
 Put the live options on a comparable basis: the useful contribution, prerequisites, total relevant consideration, customer effort, timing, support and important exposure. Explain what changes if an option is declined or deferred. Do not count an unsupported future function as part of today's available alternative.
 
-Establish what the participants understand about the option in their own situation: what they expect to receive, what they must provide, what could fail and which choice they can make. In a conversation, ask them to explain it in their own words. Correct a consequential misunderstanding before relying on the decision. A customer can understand the offer and still prefer an alternative.
+Establish what the participants understand about the option in their own situation: what they expect to receive, what they must provide, what could fail and which choice they can make. An existing decision and its stated grounds may already show how they understood a condition. Invite them to explain it in their own words when a material interpretation is still uncertain or their response is part of the assignment. Correct a consequential misunderstanding before relying on the decision. A customer can understand the offer and still prefer an alternative.
 
 Use [ECO.3](../ECONOMIC-REASONING-AND-COORDINATION-PRINCIPLES-FRAMEWORK.md#eco3---discover-an-exchange-between-different-plans) to construct who gives what to whom, when and under which conditions. Use [ECO.5](../ECONOMIC-REASONING-AND-COORDINATION-PRINCIPLES-FRAMEWORK.md#eco5---choose-exchange-terms-for-private-information-and-effort) for a consequential choice among terms such as a limited trial, staged consideration or supported warranty when information and later effort differ. Obtain a competent legal or other specialist result when the relied-on condition requires it. Marketing coordination does not create that authority.
 
@@ -873,7 +873,7 @@ Choose the work from what is missing:
 
 | Situation | Useful move and its result |
 | --- | --- |
-| A useful need has been established but is absent from the comparison. | Derive a criterion from that need: what would distinguish an adequate result, under which conditions, and how could the customer judge it? Confirm the criterion with the affected parties or their authorized representatives. |
+| A useful need has been established but is absent from the comparison. | Derive a criterion from that need: what would distinguish an adequate result, under which conditions, and how could the customer judge it? Use an applicable criterion already agreed. Seek the affected parties’ judgement where the need or its meaning remains open. To adopt a new criterion, follow the decision and consultation arrangements for that choice. |
 | An important criterion is understood and an option meets it. | Make its warranted importance and that option's fit inspectable. Carry the same meaning and evidence into the later decision; repetition of a product claim is insufficient. |
 | A potentially consequential difference receives little attention. | Find out whether it was never considered or deliberately set aside. Examine the relevant consequence and evidence. Restore its importance only if that changes a justified comparison; retain the customer's reason for setting it aside when that reason still holds. |
 | An important criterion is not met by the present offering. | Establish whether a different comparison or provision can meet the receiving need. Use the alternatives below; retain another provider, deferral and refusal as possible answers. |
@@ -1231,7 +1231,7 @@ State the receiving result so that the participants can recognize its achievemen
 
 For example, “the operator can prepare the agreed report from approved inputs without re-entering the same fields” identifies an activity and change. It does not guarantee that the report's underlying data are correct, that preparation time falls by a particular amount or that managers use it well. Add such claims only with the required contribution and evidence. A system login would establish much less than the proposed result.
 
-Agree the provider contribution, customer and partner work, necessary access and support, timing, costs or consideration, and what happens when a required condition is absent. Establish the agreement through the people authorized to make it. Where use depends on a particular person understanding or choosing an action, find out what that person understands or can do. One representative’s assent may bind the organization without establishing each operator’s understanding. Resolve incompatible interpretations before making the promise. [MKT.2](#mkt2---construct-and-test-an-offer-and-its-positioning) can then express the supported offer, and [MKT.4](#mkt4---make-choice-and-acquisition-meaningful-and-feasible) can arrange its feasible acquisition.
+Agree the provider contribution, customer and partner work, necessary access and support, timing, costs or consideration, and what happens when a required condition is absent. Establish which terms already bind the parties. For a new commitment use a decision or action that binds the party within its authority. Obtain a particular person’s participation when the agreement calls for it. Where use depends on a particular person understanding or choosing an action, find out what that person understands or can do. One representative’s assent may bind the organization without establishing each operator’s understanding. Resolve incompatible interpretations before making the promise. [MKT.2](#mkt2---construct-and-test-an-offer-and-its-positioning) can then express the supported offer, and [MKT.4](#mkt4---make-choice-and-acquisition-meaningful-and-feasible) can arrange its feasible acquisition.
 
 If the customer does not want this form of collaboration, offer a suitable narrower contribution with clear limits or end the proposal. Consent to a purchase does not authorize an open-ended programme of goal intervention. An ordinary well-specified purchase may already contain enough agreement for use.
 
@@ -2259,11 +2259,11 @@ Include a contrasting case when it can defeat the explanation: someone who staye
 
 #### MKT.12:4.5 - Match the observation window to the experience question
 
-For a specific transaction, collect information close enough to recover the relevant event and send an actionable failure to the operating recipient. For a continuing relationship, observe use and changes over a period that can reveal the issue; a pleasant purchase does not settle later usefulness. For a new possibility, use a bounded exploration whose observations can change the proposed contribution. These are different choices of cadence and recipient, not obligatory successive phases.
+For a specific transaction, collect information close enough to recover the relevant event and return the supported finding to the commissioned recipient within its permitted use. For a continuing relationship, observe use and changes over a period that can reveal the issue; a pleasant purchase does not settle later usefulness. For a new possibility, use a bounded exploration whose observations can change the proposed contribution. These are different choices of cadence and recipient, not obligatory successive phases.
 
 Select the combination of observation, conversation and measures from what each can expose. A log may show that an action stopped without showing why. A conversation may explain a perceived difficulty without measuring its frequency. A rating records a response under particular wording and conditions. State what each contributes before joining them.
 
-Schedule inquiry around the decision and the participant's burden. Combine requests when their meanings remain clear; stop repetitive questioning when it no longer changes the answer. Give urgent operational failures their own response rather than making them wait for a periodic research report.
+Schedule inquiry around the decision and the participant's burden. Combine requests when their meanings remain clear; stop repetitive questioning when it no longer changes the answer. If the assignment or an existing duty calls for urgent operational notice, alert the authorized recipient in time and disclose what that action requires.
 
 #### MKT.12:4.6 - Obtain and interpret enough evidence
 
@@ -2283,7 +2283,7 @@ The answer can support proceeding, changing the offer, repairing supply, retaini
 
 #### MKT.12:5.1 - Positive onboarding scores, little subsequent use
 
-Consider a stipulated supplier of a file-transfer service. The team wants to choose between simplifying its purchase form and changing the service. A support record already shows that one customer cannot obtain an access approval. That case goes to the responsible access and service participants; another satisfaction survey cannot supply the approval.
+Consider a stipulated supplier of a file-transfer service. The team wants to choose between simplifying its purchase form and changing the service. A support record already shows that one customer cannot obtain an access approval. Under the service agreement the support team can take that case to the party responsible for approval. The research comparison can use the permitted account of the failure without identifying the customer.
 
 For the remaining question, the investigator follows permitted reporting attempts with an operator and reconstructs two contrasting buying episodes. Operators in both cases want less repeated entry. One purchaser can approve a short trial; the other needs a purchasing window and is reluctant to replace a familiar review process. The first observation concerns execution, the second set concerns acquisition and transition. They do not support one undifferentiated “easy to use” score.
 
@@ -2307,7 +2307,7 @@ The team can now compare supplying source validation with retaining the existing
 
 Easy-to-reach customers, recent complaints and vivid successful transitions can dominate the account. Look for a missing case that could reverse the decision or narrow the conclusion. A supplier can also prefer the question its existing dashboard can answer. Begin with the decision before deciding which available measure to use.
 
-An AI-generated synthesis can help find passages or propose contrasts. Keep its claims connected to obtainable source material and inspect meaning, disagreement and omitted cases. Fluency supplies no missing observation.
+An investigator, including a service working with authorized material, can select a contrast, compare accounts and draw an inference. Keep the claims connected to the sources and inspect meaning, disagreement and omitted cases. A buyer’s account can support what that buyer experienced. If you need to credit the investigation, establish who selected the contrast, drew the inference or independently checked it.
 
 ### MKT.12:7 - Conformance Checklist
 
@@ -2775,7 +2775,7 @@ The initial arrangement is sufficient if those conditions hold. A different chan
 
 ### MKT.Application:2.2 - Obtain the intermediary's actual contribution
 
-Ask the media practitioner to establish who selects the audience or context, combines or generates material, controls its placement, receives payment, reports events and can change or stop the exposure. Obtain the supported formats, information uses, available restrictions and important limits for this account and region. Compare only routes capable of serving the intended occasion. A fixed paid placement, an auction and organic visibility can require different work and supply different observations.
+Use evidence for the particular media arrangement, obtaining specialist judgement where needed, to establish who selects the audience or context, combines or generates material, controls its placement, receives payment, reports events and can change or stop the exposure. Obtain the supported formats, information uses, available restrictions and important limits for this account and region. Compare only routes capable of serving the intended occasion. A fixed paid placement, an auction and organic visibility can require different work and supply different observations.
 
 The professional return must connect a proposed setting with what it permits. A selectable objective is not a guarantee of the customer's later result. A preview does not establish that every future rendering can be examined. If a needed fact is unavailable, retain its effect on the proposal instead of assuming control.
 
@@ -2791,7 +2791,7 @@ When material can be combined, judge the combinations the arrangement permits, n
 
 In the reporting case, a heading promising a ready report, an image of automatic synchronisation and an optional sentence explaining specialist assistance can each seem reasonable in their original setting. A rendering that omits the sentence can imply unattended work. Correct information on a later page does not undo the expectation already created by that rendering.
 
-Locate the condition where it can affect the initial interpretation. Revise an ambiguous element; separate incompatible material where the platform permits it; or use a format that keeps the necessary claim and condition together. Ask the operator to demonstrate that the constraint holds rather than write an instruction that the platform cannot enforce. Recheck the retained family's meaning after that change. Where ambiguity can change the proposal, obtain an intended recipient's interpretation without supplying the expected answer first.
+Locate the condition where it can affect the initial interpretation. Revise an ambiguous element; separate incompatible material where the platform permits it; or use a format that keeps the necessary claim and condition together. Establish that the selected format enforces the constraint. A qualification covering this format may suffice. Obtain a demonstration when the remaining question or the commission calls for it. Recheck the retained family's meaning after that change. Where ambiguity can change the proposal, obtain an intended recipient's interpretation without supplying the expected answer first.
 
 If generation or omission prevents a sufficient bound on the promise, choose a more controllable format or another route, narrow the supported claim where truthful, or decline that arrangement. Monitoring after exposure can reveal a failure, but cannot establish beforehand that uncontrolled expressions preserve the offer. The required assurance depends on the promise and consequences; this is not a demand to prove every possible human interpretation.
 
@@ -2959,7 +2959,7 @@ Establish how the shared resource is allocated before making the promise. If an 
 
 A wrong identifier can come from source data, an unavailable correction rule, missing access, a configuration defect or the way someone performs the operation. For a restoration order, an authorised correction that works across the remaining possible causes may restore use. When diagnosis is commissioned or different causes require different remedies, establish which cause applies. If the person needs to learn part of the operation, use HCD.3 to locate it and HCD.9 to practise it with feedback. Correct an error and retry when needed. Timely assistance can keep dispatch working. To establish independent performance, observe the person performing the operation under the intended conditions of help.
 
-Observe what the dispatch operation receives. A valid scan, an installed device, a confident operator and an on-time useful dispatch answer different questions. MKT.6 returns an inadequate contribution to its owner and preserves sufficient results. Early enthusiasm may justify keeping a conversation open; it does not establish a reliable reference case. Ask permission before using another customer's account or contact, and keep any reported benefit within its observed conditions.
+Observe what the dispatch operation receives. A valid scan, an installed device, a confident operator and an on-time useful dispatch answer different questions. MKT.6 returns an inadequate contribution to its owner and preserves sufficient results. Early enthusiasm may justify keeping a conversation open; it does not establish a reliable reference case. Use another customer's account or contact within the permission already granted. Obtain any permission required for a new use and keep the reported benefit within its observed conditions.
 
 
 

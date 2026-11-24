@@ -1390,7 +1390,7 @@ Use the following positions to describe a route to the extent its feasibility or
 | holder and use | Human holder, recipient, participation basis, later-Work family, configuration, horizon and receiving question or decision. Name the decision holder if there is a choice. |
 | current configuration | Supported current contributions, protected strengths, unavailable values, uncertainty, and evidence window. |
 | intended task closure | Complete tasks and outputs the programme is intended to make attainable, including protected errors and variants. Keep intended attainability separate from observed learning. |
-| contribution allocation | Human recognition and performance, reference use, controlled AI help and human checking, specialist returns, and other provider contributions. |
+| contribution allocation | Recognition and performance required of the learner, reference use, permitted AI assistance, the checks required and who can perform them, and other provider contributions. |
 | preparation and sequence | True prerequisites, simultaneous complements, dependency reasons, and any replaceable or optional ordering. Printed topic order is not a capability hierarchy. |
 | practice and evidence plan | The representative attempts, permitted help, feedback, correction and retries needed for the stated claims. Include changed-condition or delayed checks when the claim requires them, and say what each observation can establish. |
 | access and provider basis | Available and assumed sources, tools, AI, people, environments, permissions, capacity, peak load, and missing enablement. |
@@ -1530,7 +1530,7 @@ Suppose instead that A's next attempt reveals another correction requiring one l
 | “This programme covers more topics” | Topic count says nothing about task closure, displacement, support, or evidence. | Compare contributions to complete later-Work results and protected errors. |
 | “Scale 340 hours to 204” | Proportional cuts can remove the practice or feedback needed for the promised result. | Account for the changed blocks of work and show that the required attempts, help and returns fit the available hours together. A sufficient bound can settle feasibility. Itemize individual hours when the commission requires that accounting. |
 | “Teacher hours make it feasible” | A time calculation does not establish competence, access, scheduling, or operation at peak load. | Use a suitable HCD.7 or direct result. If support is missing, HCD.8 can compare obtaining or building it and identify the preparation and operating evidence the selected route needs. |
-| “AI support means the person knows it” | Assisted performance can differ from later unassisted performance. | Allocate the human checking contribution and preserve actual help in every observation. |
+| “AI support means the person knows it” | Assisted performance can differ from later unassisted performance. | Establish which choices, checks or actions the learner performed and what the tool supplied. Use observations under the assistance conditions the capability claim covers. |
 | “Every component is a prerequisite” | A printed sequence turns legitimate same-task references and specialists into unnecessary memorization or gates. | Separate before-practice prerequisites from simultaneous complements and supports. |
 | “One feasible candidate dominates” | Feasibility alone settles neither a comparison with an unevaluated rival nor the authority to choose. | Report what the feasible candidate establishes. When the permitted set is exhaustive and the other candidates are infeasible, identify the sole feasible candidate. Recover further grounds for a comparison only if the recipient still needs one. |
 | “HCD.2 chooses and launches” | Comparison is collapsed with preference, authority, commitment, and execution. | If a choice is requested, give the authorized decision holder the comparison needed to make it. |
@@ -2701,7 +2701,7 @@ Lenses: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. The comparison con
 | --- | --- | --- |
 | provider-label bias | “Teacher,” “mentor,” “community,” or “platform” is assumed to supply all functions. | Allocate contribution-specific competence, authority, timing, capacity, and constraints. |
 | aggregate-hours bias | A total or per-person quotient is treated as service availability. | Test feedback deadlines, concurrency, individual work, and peak periods. |
-| automation-free-capacity bias | AI assistance is counted without prompting, checking, correction, escalation, or fallback. | Put the human-check contribution and its workload in the allocation. |
+| automation-free-capacity bias | AI assistance is counted without preparing inputs, checking results or providing for failures. | Allocate the preparation, verification, correction and fallback the service needs. Count the person’s time when the required check or decision calls for their contribution. |
 | peer-substitution bias | Peer participation replaces independent or competent assessment. | State the peer's learning and support contributions and retain the required assessor result. |
 | access-by-account bias | A login, licence, or repository membership is treated as usable access. | Verify data, permissions, interface, timing, accessibility, and task compatibility. |
 | class-average bias | A class arrangement is assumed suitable for every participant. | Recheck personal task, participation, access, support, and accommodation conditions. |
@@ -2717,7 +2717,7 @@ Lenses: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. The comparison con
 - [ ] The capacity estimate includes the time needed for preparation, delivery, review, correction, coordination, resolving disagreements and fallback, together with competing demands.
 - [ ] Compare peak demand, concurrency, feedback deadlines and handoffs with provider availability in the relevant windows. Identify any demand the windows cannot cover.
 - [ ] Distinguish the functions needed from learners, providers, sources and tools, including who must make any independent judgement.
-- [ ] AI and tool contributions state permitted work, prohibited data or use, human checks, checking capacity, attribution, and fallback.
+- [ ] For AI or tool contributions, identify the permitted work, data restrictions, needed verification and its capacity, attribution and fallback. Establish who can perform any check reserved to a person.
 - [ ] Identify the help intended, permitted, available and received as needed for each claim about the arrangement or performance. For a performance claim, distinguish what the learner did jointly with another provider, what they did using permitted support and what they did independently.
 - [ ] A fallback satisfies the same relevant competence, access, capacity, timing, and authority conditions or is reported as unavailable.
 - [ ] A class-level arrangement retains personal-fit and participation questions for the named learner.
@@ -4534,7 +4534,7 @@ Enter directly from evidence that fits the person and work. If one local revisio
 
 Examine a successful episode when its explanation matters to the requested finding, a future action or a development choice. Select a consequential decision or operation. The successful outcome can depend on the person’s action, tools, help or favourable conditions. Where the relevant grounds and limits are already known and no worthwhile question remains, use them and finish the inquiry.
 
-**Recover what happened before explaining it.** Establish what counted as success under the work’s criteria. Use relevant plans, work products, logs or corrections to reconstruct the action, help and conditions that preceded the result. Consult a participant when their observation is needed. Distinguish what the person knew at the time from later information and from information they could have obtained but did not. A later recollection alone cannot establish a first independent attempt.
+**Recover what happened before explaining it.** Establish what counted as success under the work’s criteria. Use relevant plans, work products, logs or corrections to reconstruct the action, help and conditions that preceded the result. Consult a participant when their observation is needed. Distinguish what the person knew at the time from later information and from information they could have obtained but did not. A firsthand account can establish what the learner chose and whether a cue giving away that choice reached them beforehand, when the witness could observe both and the account meets the needs of the intended use. An aid available throughout may have remained unused. If the contribution of the aid remains uncertain, report that limit. A later independent attempt supplies evidence about its own occasion.
 
 **Form an explanation the episode can test.** When the person is learning from their own work, have them identify what they noticed, what they chose, why it could have mattered and under which conditions. Use an existing explanation if it already supplies this connection. Compare it with the records of the action and any help. For instance, the exception log can show whether its flagged mappings were compared with the source before acceptance.
 
@@ -6401,11 +6401,11 @@ HCD.23 develops mutual explanation and the personal return; HCD.24 develops peer
 
 #### HCD.22:4.7 - Observe the relevant result and return the next need
 
-Select a personal return that exposes the target under appropriate conditions: a revised explanation, an individual decision on changed data, a physical performance, or a contribution in another integrated task. Use the performed work directly when it supplies the needed observation.
+For a claim about a participant’s contribution, use the joint work when it establishes what they did. If a further observation is needed, choose a task that exposes the missing action under the relevant conditions, such as a revised explanation or a decision on changed data.
 
 A correction with feedback, an uncued choice on a new case and delayed performance support different interpretations. Use HCD.11–HCD.13 for the corresponding human-evidence question. The quality of the common answer, participant activity and material contribution remain separately reportable.
 
-Locate a failure at the connection it affects. An unused annotation may indicate a transfer or task problem. A correct answer from one participant leaves the others’ work open. An unfamiliar term can point to preparation or material repair, and a late answer can reveal a supply problem. Use HCD.20 when changed size, access or burden affects the arrangement comparison, and HCD.28 for the affected dependencies of the whole product.
+Locate a failure at the connection it affects. An unused annotation may indicate a transfer or task problem. One participant can report work done by several. Credit another participant with an action when that answer and the way it was produced establish their contribution. Where another performer could have supplied it, the common result alone leaves that attribution open. An unfamiliar term can point to preparation or material repair, and a late answer can reveal a supply problem. Use HCD.20 when changed size, access or burden affects the arrangement comparison, and HCD.28 for the affected dependencies of the whole product.
 
 ### HCD.22:5 - Archetypal Grounding
 

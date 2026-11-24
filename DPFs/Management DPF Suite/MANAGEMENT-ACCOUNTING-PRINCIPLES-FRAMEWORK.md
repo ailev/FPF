@@ -47,9 +47,9 @@ Management Accounting develops and uses economic knowledge of an organization's 
 
 Begin with the work that needs to become understandable or possible. You may need an explanation of cost, an outlook, an economically supportable product or service arrangement, or information that helps participants coordinate their decisions. These questions lead to different combinations of methods. Management Accounting connects the intended results, work, resource provision, monetary consequences and use of information; the responsible operating, engineering, financial and organizational practices contribute their own constructions and decisions.
 
-These are selected connected examples. Enter where the explanation is missing; reuse an adequate model or account. The [Table of Contents](#table-of-contents) gives direct access to the methods, and the [Architectural Reference](#management-accounting-principles-framework-architectural-reference) explains the repertoire. You can ask an assisting agent to explain a pattern or comment on your case in the language of your work, without framework jargon. In MA.4:5, 4 identifies the pattern and 5 its section.
+These are selected connected examples. Enter where the explanation is missing; reuse an adequate model or account. The [Table of Contents](#table-of-contents) gives direct access to the methods, and the [Architectural Reference](#management-accounting-principles-framework-architectural-reference) explains the repertoire. A service with the needed access and capability can reconcile accounts or apply an agreed charging rule. If the question concerns a proposed price or rule, distinguish the contribution of whoever devised it from the decision required to adopt it. Ask for an explanation of the calculation when its grounds are in doubt. In MA.4:5, 4 identifies the pattern and 5 its section.
 
-The calculations below are constructed cases under supplied operating, contractual and accounting premises. When applying them, obtain the applicable facts, reporting rules and decisions from the responsible practitioners.
+The calculations below are constructed cases under supplied operating, contractual and accounting premises. When applying them, use the applicable facts, reporting rules and decisions. Where evidence or a decision is missing, obtain it from a source competent to supply it.
 
 ### MA-E1 — An order is priced below reported average cost
 
@@ -197,7 +197,7 @@ The construction requires different intellectual operations. Select an abstracti
 
 This framework covers economic explanation and construction for managing organizational activity, including the design and examination of accounting information in use. It therefore reaches from operational work to products, customers and commitments over time, and from observed consequences to proposed changes. It does not take over every professional task performed by a management accountant.
 
-Investment valuation, financing and financial-risk treatment have their own financial methods. Tax, external reporting and legal duties require their applicable rules and competent practice. Engineering practitioners establish how the technical system and service can be realized. Marketing practitioners investigate the offer and its use. Those responsible for operations establish executable work and make operating choices. Management accounting practitioners develop the economic relationships and consequences needed in these constructions. Obtain usable results from collaborators, connect their conditions and return a changed premise to whoever can resolve it.
+Investment valuation, financing and financial-risk treatment have their own financial methods. Tax, external reporting and legal duties require their applicable rules and competent practice. Engineering practitioners establish how the technical system and service can be realized. Marketing practitioners investigate the offer and its use. Those responsible for operations establish executable work and make operating choices. Management accounting practitioners develop the economic relationships and consequences needed in these constructions. Use collaborators’ results under the conditions that support them. When a premise changes, identify which parts of the comparison still hold. Obtain the missing contribution when the receiving work needs it.
 
 This boundary permits both a small warranted calculation and a substantial joint redesign. The receiving work determines which construction must be made and when it is sufficient.
 
@@ -313,7 +313,7 @@ Grouping resources makes an account usable. It loses value when the group hides 
 
 #### MA.1:4.1 - Begin with the missing explanation
 
-State the work being considered, the relevant result and the period over which the model must answer. Inspect the existing account with its user. Ask what it cannot presently explain: the resources required for another order, the effect of a changed batch size, the cost of unused provision or some other concrete dependency.
+State the work being considered, the relevant result and the period over which the model must answer. Use the recipient’s question to examine the existing account. Recover their judgement where the use or an assumption is still open. Identify any dependency the account cannot presently explain: the resources required for another order, the effect of a changed batch size, the cost of unused provision or some other concrete dependency.
 
 Choose the resource evidence by the decision it must support. For a proposed order, begin with the available ways to do the work. If every authorized route needs at least six hours on a rig and only five are available before the deadline, that bound can exclude the order on those terms. To accept it, establish a route that works throughout the promised conditions, or show who can distinguish the conditions, choose an authorized route and finish the work in time. An upper bound within the rig hours available in the required windows can settle that capacity question once a means of delivery is known. A verified meter reading can establish actual consumption directly. When inferring consumption from routes whose use changes the answer, establish which route was taken. For a reusable product-cost account, obtain the routes and variation its users need. A ledger category identifies recorded money. The method, units and conditions of the work explain its resource use.
 
@@ -646,7 +646,7 @@ Retain joint or sustaining costs at the level their explanation supports when th
 
 When the receiving purpose requires distribution beyond supported tracing, select or obtain the rule appropriate to that purpose. State the basis and why it is usable here. An applicable agreement or reporting rule may determine it.
 
-When the task is to design the rule, start from the decisions the recipients of the account will make. Establish which resource use can be traced to particular work and which costs remain shared. Construct alternative ways of assigning the shared amount. Hold the total fixed and follow what each party could gain, lose or cease to report under each rule. Recover what the joint service needs from all of them. Use MA.9:4.0 for the operating consequences and return a proposed change in agreed terms to those who may adopt it. For a charge already governed by an applicable rule, the rule and facts can settle the amount.
+When the task is to design the rule, start from the decisions the recipients of the account will make. Establish which resource use can be traced to particular work and which costs remain shared. Construct alternative ways of assigning the shared amount. Hold the total fixed and follow what each party could gain, lose or cease to report under each rule. Recover what the joint service needs from all of them. Use MA.9:4.0 for the operating consequences. Give the proposal to the recipient of the design work and identify whose agreement would make the changed terms effective. Seek that agreement when it is due. For a charge already governed by an applicable rule, the rule and facts can settle the amount.
 
 Apply the rule consistently to the defined source total and recipients. Retain rounding, excluded items or residuals where they affect reconciliation. Distinguish a change in the total from a change in its assignment.
 
@@ -788,7 +788,7 @@ Show enough intermediate amounts to expose an omitted term and reconcile to the 
 
 #### MA.4:4.4 - Return the reconciled views and any discrepancy
 
-Preserve each account for its warranted use and return the explanation connecting them. If a source is wrong, return the correction to whoever maintains it. A statutory account must be corrected through the applicable reporting process.
+Preserve each account for its warranted use and return the explanation connecting them. When a source entry is wrong, identify the discrepancy for the commissioned recipient. Notify its maintainer or correct the source as the assignment or an applicable reporting duty requires. Use the prescribed process for a statutory correction.
 
 Supply the required monetary basis to the receiving operating or financial method. If funding is at issue, identify the payer and determine what that payer can use at each required date after other obligations. A group total answers a consolidated reporting question. For a payment by one member, establish the availability, authority and timing of any transfer it relies on.
 
@@ -1560,13 +1560,13 @@ Connect the account to work: who supplies and interprets the input, when it is a
 
 Examine responsibility and joint consequences. Participants should be able to distinguish an outcome they influence from a common provision cost or an external change. Keep uncontrollable consequences relevant to the whole result in the account. Provide the distinction needed for the decision or attribution, and make relevant effects on other units visible. A transfer charge that helps one unit decide can still need a companion account of shared consequences.
 
-Test the account against the decision it will serve. Could two situations that look the same in the account call for different action, or different grounds for the recommendation? Follow any such difference to the information, participant or timing needed to resolve it. One recommendation may already be warranted across the situations still possible. For a rule used on future decisions, establish why the rule will work under the changes the participants are entitled to make, including effects on other units and the opportunity to report an unfavorable expectation. Existing work, an argument covering those conditions or a trial that settles an open question can support the design. A proposed change to rights, rewards or authority goes to the responsible decision maker.
+Test the account against the decision it will serve. Could two situations that look the same in the account call for different action, or different grounds for the recommendation? Follow any such difference to the information, participant or timing needed to resolve it. One recommendation may already be warranted across the situations still possible. For a rule used on future decisions, establish why the rule will work under the changes the participants are entitled to make, including effects on other units and the opportunity to report an unfavorable expectation. Existing work, an argument covering those conditions or a trial that settles an open question can support the design. Identify whose decision a proposed change to rights, rewards or authority requires. Bring the proposal to that party when a decision is sought.
 
 When the arrangement is put into use, examine what happens. Whether information arrived, was understood, changed the choice and improved the intended result are different questions. Observations can justify retaining a simple arrangement, revising its model or timing, or investigating a behavioral explanation through the operations below. The constructed comparison provides an initial basis; it does not establish a later causal effect.
 
 #### MA.9:4.1 - Recover the account and how participants use it
 
-Identify the measured quantity, calculation, participant and decision or reward it affects. Establish with the affected participants what actions they can take and how the account enters the choice. Use their accounts or records of the decision as the situation allows.
+Identify the measured quantity, calculation, participant and decision or reward it affects. Use the applicable rules and records to establish the actions open to the affected participants and how the account enters their choice. Seek their own accounts where the explanation depends on a judgement or experience the records leave open.
 
 Recover the intended result and the relevant resource, monetary and service consequences. MA.1–MA.4 supply missing meanings; MA.6 distinguishes a forecast from a target or resource request.
 
@@ -1584,13 +1584,13 @@ Retain uncertainty about cause. If the contemplated change requires stronger evi
 
 #### MA.9:4.4 - Change the account or its use where warranted
 
-Choose the smallest change that addresses the established problem: clarify a denominator, separate meanings, change the performance interpretation or provide a missing consequence alongside the existing figure. Preserve information still needed for legitimate reporting and decisions.
+For an inquiry into the consequences of a measure, return the supported explanation to its recipient. When repair is commissioned, establish who may select it and who may put it into use. Choose the smallest change that addresses the established problem: clarify a denominator, separate meanings, change the performance interpretation or provide a missing consequence alongside the existing figure. Preserve information still needed for legitimate reporting and decisions.
 
 When performance interpretation is the missing contribution, [OPS.22](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops22---interpret-operating-performance-and-decide-the-response) develops the judgement from the aim, result, changed conditions, participants' actions and joint consequences. If the aim or comparison itself is unsound, [OPS.21](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops21---choose-operating-aims-targets-and-comparisons) reconstructs it. Use an adequate existing interpretation directly.
 
-If the repair changes reward or authority arrangements, use [OCE][OCE] to plan the necessary organizational work and have those responsible make the change effective.
+If the repair changes reward or authority arrangements, use [OCE][OCE] to plan the necessary organizational work and identify the decision that can make the change effective. Carry it into use when implementation is entrusted to you.
 
-Specify what observable consequence would indicate improvement or a new problem. Revisit the actual use after the change, keeping changes in demand and other conditions available for interpretation.
+For a proposed change, identify an observable consequence that would indicate improvement or a new problem. When assessing a change in use, revisit what actually happened, keeping changes in demand and other conditions available for interpretation.
 
 ### MA.9:5 - Archetypal Grounding
 
@@ -1672,7 +1672,7 @@ MA.1–MA.4 explain resource and account effects; MA.5–MA.6 clarify forecasts,
 
 Use this method when an intended product, service or other activity must satisfy an economic requirement, but no adequately supported arrangement yet does so. Examples include an offer that cannot earn the required return at an acceptable price, a service that exceeds available funding, or an improvement whose local savings leave the whole activity uneconomic.
 
-Develop the alternatives with those who design the offer, work and provision. The result is an economically explained design or set of alternatives, with the conditions needed for its use. If you establish that the available arrangements cannot deliver the required result under its conditions, return the incompatibility to whoever can reconsider the requirement, scope or provision. Launching a design or changing others’ work requires the applicable authority.
+Develop the alternatives from what the offer, work and provision actually require. Involve their designers where the alternatives depend on a contribution still to be made. The result is an economically explained design or set of alternatives, with the conditions needed for its use. If you establish that the available arrangements cannot deliver the required result under its conditions, report the incompatibility to the recipient of the assessment and identify who can reconsider the requirement, scope or provision. Seek a further decision when the commission or an existing obligation calls for it. Launching a design or changing others’ work requires the applicable authority.
 
 If adequate alternatives already exist and only their operating consequences need comparison, use OPS.14. Use MA.8 when the unresolved contribution is their product or customer account over time. A short supported calculation can finish this method; a cross-functional redesign is needed only where the actual dependencies require it.
 
@@ -1742,7 +1742,7 @@ An unresolved premise can leave a conditional alternative, a justified next expe
 
 #### MA.10:4.6 - Use the result and revise the economic knowledge
 
-Return the supported alternatives and remaining conditions to those who choose or authorize the work. Make clear which commitments the chosen arrangement needs and which conclusions would change if they are not obtained. MA.9 arranges the use of the account when participants otherwise lack a workable way to act on it.
+Give the supported comparison to the recipient of the accounting assignment. If the assignment includes a choice or new commitment within your authority, make it under the applicable terms. Where another party holds the decision, put the alternatives and their conditions before that party. Carry out any implementation entrusted to you. Make clear which commitments the chosen arrangement needs and which conclusions would change if they are not obtained. MA.9 arranges the use of the account when participants otherwise lack a workable way to act on it.
 
 If the commission is to assess feasibility, identify which arrangements the parties are allowed to change. A bound common to all of them can settle the question, as can a comparison that covers the whole permitted set. If only one design has been ruled out, return the finding about that design and identify the alternatives that could still change the decision. A commission to compare specified designs can finish when their comparison is complete.
 
@@ -1792,7 +1792,7 @@ A stated target can anchor attention on cost reduction and obscure a better resu
 - **Optimize one phase and retain the old whole.** Reconstruct later work, provision and obligations affected by the change.
 - **Preserve revenue after changing the offer by assumption.** Revisit the customer-use and demand grounds that support it.
 - **Call a transferred burden an eliminated one.** Show who now provides the work, bears the obligation and agrees to the terms.
-- **Treat a passed monetary condition as permission to act.** Return the candidate to the responsible decisions with its remaining conditions.
+- **Treat a passed monetary condition as permission to act.** Identify the decisions and commitments the proposal still needs before it can be put into use.
 
 ### MA.10:9 - Consequences
 

@@ -18,7 +18,7 @@ For a precise citation, we recommend naming the actual framework or pattern, its
 
 ## Your own DPF or LPF
 
-Authors choose the license for their own original DPFs and LPFs, including a different open license or a proprietary license. Applying FPF concepts or methods, referring to its PatternIDs, or following its publication form does not require licensing the resulting work under CC BY 4.0. Copyright licenses govern protected expression, not the underlying ideas or methods.
+The rights holder, or the party it authorizes, chooses the license for an original DPF or LPF, including a different open license or a proprietary license. Applying FPF concepts or methods, referring to its PatternIDs, or following its publication form does not require licensing the resulting work under CC BY 4.0. Copyright licenses govern protected expression, not the underlying ideas or methods.
 
 When you share copied or adapted expression under CC BY 4.0, comply with its terms for that material. Applicable copyright exceptions remain available. You may choose terms for your own contributions to an adaptation, provided those terms do not prevent recipients from complying with CC BY 4.0 for the reused material. Identify the reused material and its license separately when the surrounding publication has different terms. CC BY 4.0 has no ShareAlike requirement.
 

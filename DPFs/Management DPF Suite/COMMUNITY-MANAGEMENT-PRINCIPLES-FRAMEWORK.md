@@ -73,7 +73,7 @@ CB is this framework's reference code; its numeric local locators give CB.1–CB
 
 Use this framework when people need useful participation, relationships or joint contributions: help one another, take part in a valued activity, keep shared work feasible, or make their experience useful elsewhere. A community organiser, participant, practitioner, sponsor or assisting agent can enter at the difficulty already present. When the proposed community is meant to support a wider cultural purpose, CB.1 also helps decide whether that purpose needs a community contribution at all.
 
-Choose an entry or a method in the [Table of Contents](#table-of-contents) by the result you need. Read the Problem frame to check when the method fits and the Solution to work out how to apply it. Establish who must receive, perform or help develop the practice in question. A worked case can show how participants reached their result. Return to the roles, contributions and conditions that matter for yours. When asking an assistant for help, give it that question and ask how the method supports the answer, using the ordinary language of your work.
+Choose an entry or a method in the [Table of Contents](#table-of-contents) by the result you need. Read the Problem frame to check when the method fits and the Solution to work out how to apply it. Establish who must receive, perform or help develop the practice in question. A worked case can show how participants reached their result. Return to the roles, contributions and conditions that matter for yours. If you need assistance, commission the work it can supply. A membership service might recover the terms the chapters adopted or arrange a handover under those terms. To establish whether a volunteer wants another season, use that volunteer’s own decision.
 
 ### OFFER — Choose what would help
 
@@ -980,7 +980,7 @@ Establish the sharing and participation conditions that the material requires. E
 
 Open by making the purpose, current conditions and next action clear. Give an example when participants cannot cheaply infer how to contribute. Allow a person to pass or take another relevant form of participation where the activity permits it. Do not require personal disclosure or an emotional performance as proof of involvement.
 
-LDR.1 supplies a developed construction for a brief before work, a short reassessment when the situation changes and a debrief afterwards. Use its relevant contribution: confirm what people will do, make an obstacle or change intelligible, and return the needed adjustment to the person who can make it.
+LDR.1 supplies a developed construction for a brief before work, a short reassessment when the situation changes and a debrief afterwards. Use its relevant contribution: confirm what people will do, make an obstacle or change intelligible, and return the needed adjustment to whoever can authorize or make it.
 
 During the activity, address the difficulty participants encounter. Ask for the observation behind a conclusion, give a quieter contributor a usable entry, recover a lost question, clarify which configuration an answer concerns or separate clarification from advice. If the selected form is preventing the work, change it openly and preserve the intended result. Breaking a large discussion into smaller groups also requires a way to bring their relevant results back.
 
@@ -1368,7 +1368,7 @@ How can an organiser recognise a real contribution, choose a response that matte
 
 ### CB.6:4 - Solution
 
-Identify what the person contributed and what is known about its use. Choose a response suited to its purpose and the person’s circumstances. Deliver what you offer and find out how it was received. Correct a mistake, an unwanted burden or a failure to provide the promised benefit.
+Identify the contribution the recognition concerns and what is known about its use. A community may thank a service for keeping a joint undertaking. If the award concerns a particular member’s work, establish that member’s contribution. Choose a response suited to its purpose and recipient. Deliver what you offer and find out how it was received. Correct a mistake, an unwanted burden or a failure to provide the promised benefit.
 
 
 
@@ -1587,15 +1587,15 @@ The practical problem is to obtain the needed contribution and its continuation 
 
 ### CB.7:4 - Solution
 
-Construct the next organising contribution around those who can supply and receive it. Investigate relationships only far enough to choose a useful action; prepare performance around a representative episode; then arrange a sustainable next occasion.
+Construct the next organising contribution around those who can supply and receive it. Investigate relationships far enough to choose a useful action. Establish how the next occasion will be covered. Prepare or rehearse a representative episode where the organiser needs it.
 
 #### CB.7:4.1 - Name the contribution and the failure it should remedy
 
 Describe what participants need to receive. For example, a local session needs an attainable place and a prepared host; new members need an answer from someone who can help; a reference needs corrections returned to its maintainer. Recover what currently happens, including work performed before and after the visible event.
 
-Identify which part depends on a particular person and why. They may hold the only key, know the relevant specialist, settle a disputed responsibility or supply the explanation nobody else can give. These are different replacement problems. Reassigning the meeting chair will not replace an unavailable specialist. When capable organisers cannot notice or support several aspects of the activity at once, consider the variant for temporary participant groups in CB.7:4.7.
+Identify what the activity depends on and who could supply it. An association’s duty service may already be able to receive questions and return corrections throughout the season, choosing its own shifts. Where a particular person is needed, establish why. They may hold the only key, know the relevant specialist, settle a disputed responsibility or supply the explanation nobody else can give. These are different replacement problems. Reassigning the meeting chair will not replace an unavailable specialist. When capable organisers cannot notice or support several aspects of the activity at once, consider the variant for temporary participant groups in CB.7:4.7.
 
-Make the commitment small enough to understand and large enough to complete. Agree the intended result, next occasion, expected effort, relevant conditions, available support and a point at which the person can reconsider. Name any preparation, follow-up or emotionally demanding incident work; an hour hosting a meeting may require several hours beyond the meeting itself.
+Make the commitment small enough to understand and large enough to complete. Recover the terms already in force and settle what is still open about the result, next occasion, effort and support. Establish who can reconsider the commitment and when. A duty service may be committed for the season while assigning its own shifts. When inviting a volunteer, agree when they can reconsider their part. Name any preparation, follow-up or emotionally demanding incident work; an hour hosting a meeting may require several hours beyond the meeting itself.
 
 Separate the work from the authority it needs. A volunteer may arrange an event within an existing offer but need a venue owner to approve access and a community decision-maker to change membership conditions. Use the effective arrangements supplied by CB.13 or the relevant organisation. OCE.6 can obtain an assignment and enabling contributions where those need to be established.
 
@@ -1617,7 +1617,7 @@ Use the inquiry to choose an action:
 | Several people rely on one overburdened intermediary. | Prepare cover, give participants another usable route or seek an agreed reduction in what they can claim. |
 | People understand the proposal but find the practice unsuitable. | Return the substantive problem to its owner; changing the messenger will not repair the practice. |
 
-With a willing participant who understands the receiving group's work, prepare the explanation of the proposed change. Start from a familiar case: what could people do differently, what useful result is expected, and which conditions or commitments would change? Use language and examples the recipients can inspect. Return a substantive objection to the person who can change the practice or offer.
+With a willing participant who understands the receiving group's work, prepare the explanation of the proposed change. Start from a familiar case: what could people do differently, what useful result is expected, and which conditions or commitments would change? Use language and examples the recipients can inspect. Take a substantive objection to whoever can change the practice or offer, jointly where its terms require a joint decision.
 
 Ask a recipient to work through that case and explain what they would do next and where they would seek help. If the action or consequence is misunderstood, repair the explanation and try the affected part again. If it is understood but infeasible or unwanted, return that condition instead of repeating the message. Later use can show whether the explanation was sufficient for the actual circumstances; agreement with the organiser is not the test of understanding.
 
@@ -1627,7 +1627,7 @@ Distinguish evidence used to select an organiser from changes to the relationshi
 
 #### CB.7:4.3 - Invite and select for the actual work
 
-Make an individual, intelligible offer: the contribution, its recipient, available freedom, expected burden, support and way to leave or reduce it. Ask what the person wants from the work and which conditions would make it feasible. Declining the role can leave their existing participation valuable.
+For a service working under agreed terms, establish what it undertakes and which decisions about staffing and shifts belong to it. When inviting a volunteer, make an individual, intelligible offer: the contribution, its recipient, available freedom, expected burden, support and way to leave or reduce it. Ask what the person wants from the work and which conditions would make it feasible. Declining the role can leave their existing participation valuable.
 
 Use evidence appropriate to the contribution. A potential host can work through a representative session; a prospective moderator can explain how they would respond to a difficult case; a maintenance organiser can show how they obtain and return a correction. Assess the needed work, rather than using visible enthusiasm or friendship as its proxy.
 
@@ -1635,11 +1635,11 @@ Select preparation and support from the gaps revealed. One person may need the l
 
 Make selection understandable when several people seek a role. State the work criteria, who selects, how relevant conflicts are handled and how an unsuccessful applicant can obtain a useful explanation. Keep the inquiry proportionate: a small voluntary hosting task may need one working conversation, while a role with consequential decisions requires the relevant mandate and preparation.
 
-Recognise the contribution through CB.6 in a form the person values. Distinguish that acknowledgement from compensation, expenses, access and time needed to make the work possible. If the community needs dependable service beyond willing voluntary capacity, obtain dependable provision or establish which service the community is entitled and able to offer.
+Recognise the contribution through CB.6 in a form suited to its recipient. Distinguish that acknowledgement from compensation, expenses, access and time needed to make the work possible. If the community needs dependable service beyond willing voluntary capacity, obtain dependable provision or establish which service the community is entitled and able to offer.
 
 #### CB.7:4.4 - Prepare the first episode and make support obtainable
 
-Establish what already prepares the person for the assignment. Where further learning is needed, use LDR.1’s brief, practice and debrief around the next contribution. Explain the purpose and demonstrate the difficult part where that helps. Let the new organiser explain their own next actions and practise a representative difficulty. Return concrete feedback; if a person needs to develop or demonstrate a capability, obtain the corresponding HCD contribution.
+Establish whether the selected organiser can supply the promised work with the available help. For a duty service, check access for its shifts and the handover of outstanding questions. For a participant learning to organise the work, use LDR.1’s brief, practice and debrief around the next contribution. Explain or demonstrate a difficult part when that would help. During practice let the new organiser choose their next action and give feedback on what they do. HCD supplies further development or assessment of a person’s capability where needed.
 
 Make the working guidance useful at the point of action. A local host may need a room contact, an accessible invitation example, the session's purpose and shape, and a response to an interruption. Put a frequent action near its cue and a consequential exception near the decision it changes.
 
@@ -1678,11 +1678,11 @@ Select this variant when sharing attention or follow-up among participants could
 
 Invite willing participants to one bounded task for a meeting or an agreed period. Explain what they should help the community obtain, the effort and access it needs, and when the task ends. People may continue their ordinary participation without joining a support group. In a small community, combine compatible tasks or select fewer; one person need not carry several simultaneous observation duties.
 
-Agree the group's scope with the people who can authorise it. Distinguish an action it may take during the activity from a suggestion requiring someone else's decision. A group may offer an already permitted way to submit questions, signal an agreed time limit or maintain an authorised summary. Changing membership conditions or settling a complaint still needs its proper decision route. Use CB.13 when the required mandate does not exist.
+Determine the group's scope under its current mandate. Obtain any extension from the party or parties entitled to grant it. Distinguish an action it may take during the activity from a suggestion requiring someone else's decision. A group may offer an already permitted way to submit questions, signal an agreed time limit or maintain an authorised summary. Changing membership conditions or settling a complaint still needs its proper decision route. Use CB.13 when the required mandate does not exist.
 
 Provide time for members to confer before, during or just after the activity, or at a feasible interval for a longer task. Include that time when designing the activity through [CB.4](#cb4---design-a-space-and-shared-activity-for-its-purpose). Agree how they will obtain the relevant observations without collecting unnecessary personal information. Silence can mean wanted quiet participation; ask about an apparent obstacle before treating it as exclusion. Incident details belong in CB.8's handling route.
 
-At the agreed occasion, compare what members noticed and what it could mean for their task. Select a feasible response, act within the agreed scope and observe what the response enables. Where the change needs another person's decision, return a concrete proposal to that person and obtain a response. A group with no time to confer has not supplied this shared interpretation merely by collecting individual notes.
+At the agreed occasion, compare what members noticed and what it could mean for their task. Select a feasible response, act within the agreed scope and observe what the response enables. Where the change needs a further decision, take the proposal to its authorized holder. Use the resulting decision for any action it permits. A group with no time to confer has not supplied this shared interpretation merely by collecting individual notes.
 
 Return what happened to the participants or organisers who can use it. A proposed change to the next agenda or participation format goes to CB.4's activity construction; a question about what the activity helped people do goes to [CB.10](#cb10---understand-the-value-of-participation-and-cultural-work). Keep an observation, its interpretation and a claim of benefit distinct. For example, a newly used question route shows access to that exchange; whether it changed later practice needs the recipient's account and appropriate further observations.
 
@@ -2129,7 +2129,7 @@ Make sponsor influence legible. Agree who selects activities, who controls contr
 
 #### CB.9:4.5 - Make the arrangement operable and try a shortfall
 
-Obtain the allocations, access and practical support needed for the next activity. OCE.6 helps establish assignments and enabling relations; the receiving provider must accept work that depends on its resources. Check that each contributor can perform the part they have accepted.
+Obtain the allocations, access and practical support needed for the next activity. OCE.6 helps establish assignments and enabling relations; use a resource already allocated when the activity falls within the applicable terms and the resource is actually available. For a further commitment, obtain the decision that binds the provider. Check that the contributors can deliver together when the activity needs them.
 
 For a question about actual delivery, follow the relevant occurrence from preparation through the result the user receives. For a prospective service, trace who can claim each contribution, what can coincide or consume the same resources over time, and who can adjust the work. Establish that the allocation works with the information its decision-makers will have. Inspect an ordinary delivery when its performance can resolve an uncertainty.
 
@@ -2289,7 +2289,7 @@ Begin with the decision and what could settle it. A record or bound can answer a
 
 Recover the question with whoever will use the result. Continuing a monthly exchange, correcting an invitation, funding a guide and claiming reduced service cost require different evidence. Name the period and the change being considered, including leaving an adequate arrangement alone.
 
-Ask those affected what would count as useful and what would count as an unacceptable burden. Keep differences visible. A participant may value a dependable answer, an organiser a manageable workload, and a sponsor a competent workforce. A gain for one party can coexist with a loss for another.
+Establish whose benefit or burden the question concerns. An agreed service criterion and a complete register may settle how many members received a timely answer. Seek participants’ own accounts when their experience, judgement or preferences matter and the evidence leaves them open. Keep differences visible. A participant may value a dependable answer, an organiser a manageable workload, and a sponsor a competent workforce. A gain for one party can coexist with a loss for another.
 
 Distinguish the claims before selecting observations. Useful questions can concern experience and inclusion, relationships, access to a resource, ability to perform a practice, actual use, results in that use, or the provision and governance of the arrangement. Choose the question that matters to the receiving decision.
 
@@ -2561,7 +2561,7 @@ When the effect is uncertain and reversal is practical, try a bounded continuati
 
 #### CB.11:4.4 - Obtain the decision and prepare its practical consequences
 
-For each required decision, identify who has authority to make it. Establish which access rights, assignments and community decisions already take effect under the arrangement. Obtain any further decision from the people authorised to make it. Keep objections and accepted losses visible through CB.13. A departing volunteer may state the end of their own contribution while others decide how to replace it.
+For each required decision, identify who has authority to make it. Establish which access rights, assignments and community decisions already take effect under the arrangement. Obtain any further decision from its authorised holder under the applicable decision rule. Keep objections and accepted losses visible through CB.13. A departing volunteer may state the end of their own contribution while others decide how to replace it.
 
 Translate the chosen alternative into what affected people need to do. Name the ending and starting dates, the remaining activities, how to reach the new receiver, which promises cease and where unfinished matters will go. Explain a change before users continue relying on the old offer.
 
@@ -3190,7 +3190,7 @@ A small voluntary agreement can answer these questions briefly. A stronger insti
 | Give local groups autonomy while retaining every usable decision centrally. | Allocate specific subjects and provide the means to act on them. |
 | Adopt a vote rule without eligibility, notice or a way to handle no result. | Complete the procedure around a concrete ordinary case and a dispute. |
 | Extend a small team's decision protocol to everyone attending a community activity. | Obtain the actual adoption and mandate, or choose a procedure whose participation terms the affected people can accept. |
-| Let the deciding body be the sole judge of every challenge to its own mandate. | Establish an alternate or return to the people who can constitute the mandate. |
+| Let the deciding body be the sole judge of every challenge to its own mandate. | Establish an alternate or take the challenge to the holders entitled to constitute or review the mandate. |
 | Treat an attractive revision as effective after a term has expired. | Preserve the proposal and obtain a current authorised disposition. |
 | Require a governing council for all carriers of a practice. | Identify any decision the users need to make jointly; retain independent use where no such decision is needed. |
 

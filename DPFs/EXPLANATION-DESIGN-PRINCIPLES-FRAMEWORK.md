@@ -68,7 +68,7 @@ Use these methods in the language of the work. A practitioner or service can pro
 
 1. **Recover the relation the question needs.** In the [worked exchange](#exdreference4---a-worked-exchange-and-its-consequential-returns), an analyst asks why a report about people rejected an average computed over branches. To decide what to explain when the analyst replies, first establish what each calculation answers. Two people have mean 3 and six other people have mean 8. Their total is `2 × 3 + 6 × 8 = 54`. Dividing by eight people gives 6.75. Giving each branch equal weight gives 5.5.
 2. **Show that correspondence.** Use [EXD.2 - Build and Bound an Explanatory Example](#exd2---build-and-bound-an-explanatory-example) to connect each count and mean to its group sum. Use [EXD.3 - Coordinate the Expression of an Explanation](#exd3---coordinate-the-expression-of-an-explanation) when a table showing these quantities and the weighting condition would help. A single clear form suffices. Adding the missing relationship between count, mean and sum changes the content.
-3. **Use the reply.** If the recipient says “Each branch should have equal influence regardless of size,” EXD.1 helps distinguish a new question from a change to the report. Equal branch weights give 5.5. Use that figure for the report if its agreed purpose gives each branch equal influence or the person authorized to change the requirement adopts it. The result 6.75 still answers the individual-weighting question. If the target remains equal weight per individual but the recipient divides the sum of two branch means by two, EXD.4 helps locate the error. Explain how each group mean and count give its sum, then divide the total of those sums by the number of individuals. If the issue is which policy should govern the report, use the applicable policy or seek a choice from its holder when necessary.
+3. **Use the reply.** If the recipient says “Each branch should have equal influence regardless of size,” EXD.1 helps distinguish a new question from a change to the report. Equal branch weights give 5.5. Use that figure for the report if its agreed purpose gives each branch equal influence or the holder of that authority adopts it under the applicable decision rule. The result 6.75 still answers the individual-weighting question. If the target remains equal weight per individual but the recipient divides the sum of two branch means by two, EXD.4 helps locate the error. Explain how each group mean and count give its sum, then divide the total of those sums by the number of individuals. If the issue is which policy should govern the report, use the applicable policy or seek a choice from its holder when necessary.
 4. **Use the learner’s own explanation when that is the purpose.** With [EXD.5 - Guide a Recipient's Own Explanation](#exd5---guide-a-recipients-own-explanation), retain the learner’s initial answer and the help they received. If the distinction needs practice, give feedback on groups versus individuals and offer a changed case. Three values with mean 4 and nine with mean 8 give `(12 + 72)/12 = 7`. Equal branch weights give 6. An immediate correction shows performance under those conditions. Independent performance after a delay needs evidence from that condition.
 
 In advising, “Why does this assignment fit my present strengths?” and “Why would it develop a missing capability?” call for different grounds. A change to the second question requires the rationale for expected development. If the recipient understands that rationale and prefers another setting, respect their preference and identify its bearing on the choice they actually face.
@@ -643,7 +643,7 @@ Use [FPF C.37](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c37---select-a
 
 ### EXD.4:1 - Problem frame
 
-Use this pattern to prepare, conduct or examine an explanatory exchange when a participant’s contribution bears on the question, the account, the help needed or a further inference. A teacher, technical specialist, adviser or assisting agent may take part. Either participant can offer a relevant relation or a correction.
+Use this pattern to prepare, conduct or examine an explanatory exchange when a participant’s contribution bears on the question, the account, the help needed or a further inference. A teacher, technical specialist, adviser or assisting agent may take part. Any participant can offer a relevant relation or a correction.
 
 In a live exchange, offer a contribution that addresses the current question at a level the recipient can use and allow a response to change the explanation or complete it. In an existing exchange, identify what the response established under the conditions then available. The result may be a recovered relation, a revised question, a disagreement or an identified gap in the subject account.
 
@@ -693,19 +693,19 @@ Choose a further contribution when the exchange reveals a need for one.
 | A needed term, label or signal was inaccessible | Supply the same contribution through an accessible channel when it is still needed. Check the affected inference if that bears on the conclusion. |
 | A relation is missing or the recipient cannot follow it | Identify whether a subject ground is absent, a correspondence is unclear, or the expression is inaccessible. Report what the evidence establishes. Where a further explanation is needed, supply the missing contribution when available, or identify the open premise and retain its conditions. |
 | The recipient uses a wrong relation under the same question | Show the specific mismatch, give targeted support and invite the affected inference again when the use warrants it. |
-| A condition changed or the recipient seeks a different answer | With a changed condition, return to the question already being answered and establish what follows now. The same answer may still hold for a different reason. If the recipient raises a new question, answer it on its own grounds and establish what is still owed under the original commission. Follow a revised commission when the person entitled to change it has done so. |
+| A condition changed or the recipient seeks a different answer | With a changed condition, return to the question already being answered and establish what follows now. The same answer may still hold for a different reason. If the recipient raises a new question, answer it on its own grounds and establish what is still owed under the original commission. Follow a revised commission when its authorized holder has adopted the change. |
 | A subject claim is disputed or unsupported | Use available subject evidence, or identify what the supplying practice would still need to establish. Limit or withdraw a claim whose grounds prove insufficient. |
 | The recipient understands the grounds and disagrees with the choice | Identify the disputed preference, trade-off or decision. If a decision is required, the participant authorized to decide can make it or another participant can seek their decision. |
 
 When help affects interpretation, identify what was available, what was supplied or used, and what the recipient contributed at each response. If the recipient repeats a step the explainer supplied, that shows what happened with the step available. To claim later independent use, examine performance under the corresponding conditions.
 
-Either participant can supply a missing relation or correct a claim. Check the correction against the subject evidence and use it where warranted.
+Any participant can supply a missing relation or correct a claim. Check the contribution against the subject evidence. In a shared explanation, one participant may recover a record, another draw an inference and a third decide which account to issue. The completed account can settle the subject question. To establish who developed the reasoning or how the group produced it, follow those contributions through the exchange or other evidence of the work.
 
 #### EXD.4:4.4 - Close with the result the exchange supports
 
 State what the exchange supports about the question and the conditions of that conclusion. Give access to the relevant source passage where needed. Identify any unresolved choice or missing connection. Use another inference or action when the evidence is insufficient, its outcome could distinguish the live possibilities and obtaining it is feasible and worthwhile.
 
-Close the exchange when the receiving question is answered, including when the recipient understands the grounds and disagrees. For a learning task, select practice or a later independent case when the specific learning question and available evidence warrant it.
+Conclude the exchange when the participants have addressed the commissioned work, including when the recipient understands the grounds and disagrees. Earlier correspondence may settle the subject question. If today's handover calls for discussing it with the incoming team, use what is known in that discussion. To report the team’s response, establish how it actually responded. For a learning task, select practice or a later independent case when the specific learning question and available evidence warrant it.
 
 If the exchange ends with a gap, report the established part and the missing input. For example, “Both calculations are available. The report still needs a choice of which unit receives equal weight.”
 
@@ -858,7 +858,7 @@ Retain the original response if available and identify what the correction suppl
 
 #### EXD.5:4.4 - Ask for the affected use again
 
-When the learning purpose calls for a further attempt, choose one that can show whether the learner can use the corrected relation. For applying a known rule, a change of values may suffice. For choosing which rule fits, leave the decision open in the task and vary a condition that matters to it. State the help available. A completed earlier attempt can already supply the needed evidence. For a historical question, report what the available evidence of the response establishes and any limit on attribution.
+When the learning purpose calls for a further attempt, choose one that can show whether the learner can use the corrected relation. For applying a known rule, a change of values may suffice. For choosing which rule fits, leave the decision open in the task and vary a condition that matters to it. State the help available. A recorded attempt under the relevant conditions may settle the learning question. If the commission calls for the learner’s next attempt after this feedback, obtain that attempt or its record. A response given before the feedback can establish the learner’s starting point. For a historical question, report what the available evidence of the response establishes and any limit on attribution.
 
 If a difficulty persists and the learning task continues, reconsider its cause and the help needed. Stop immediate correction when the learner’s response meets the criterion. Use HCD and suitable evidence for a separate question about later retrieval, reduced help or transfer.
 
@@ -946,7 +946,7 @@ Identify the result in question. Correctness, recoverability, what was actually 
 | A possible improvement and its burden | Additional structure or support may help the use while increasing authoring, reading or maintenance cost. |
 | Comparable conditions and realistic use | Holding other conditions steady helps attribute a difference. A practical repair may change content, expression and help together. |
 | Immediate evidence and later outcomes | A response can show what the recipient inferred at the time. Independent later use requires evidence from that later condition. |
-| Value of further checking | An omitted claim, a wrong calculation, a sufficient existing explanation or an adequate previous observation can settle a question. A new observation is worthwhile when its attainable findings matter enough to the remaining use. |
+| Value of further checking | An omitted claim, a wrong calculation, a sufficient existing explanation or an adequate previous observation can settle a question. When deciding whether to seek further evidence, weigh what the findings could change. A commission to observe a particular occasion also calls for that observation. |
 
 ### EXD.6:4 - Solution
 
@@ -976,13 +976,17 @@ FPF C.11.CRC helps compare the contributions of alternative arrangements, and C.
 
 #### EXD.6:4.3 - Obtain only the evidence that can change the choice
 
-Inspect the subject grounds, the claims expressed and any contradiction that bears on the question. This can establish a missing relation or justify a repair before a new reader attempt. Use a qualified existing response or assessment within its scope. Seek a new reading or application probe when its possible results could resolve a consequential question and justify the work.
+Inspect the subject grounds, the claims expressed and any contradiction that bears on the question. This can establish a missing relation or justify a repair before a new reader attempt. Use a qualified existing response or assessment within its scope. When you can choose whether to commission another reading, seek one if its possible results could resolve a consequential question and justify the work. An assignment to observe a particular use has its own completion condition in EXD.6:4.3.1.
 
 When a comparison depends on what the recipient could do before corrective help, preserve or recover that initial response where possible. Identify which help was available, delivered or used and what the recipient contributed. A recipient who supplies a missing premise or corrects a false instruction can give a sound answer that the expression alone did not provide.
 
 Prior exposure or practice can affect a second response from the same person. Use a comparison suited to the conclusion or report the resulting attribution limit. A local observation can settle a question about one episode or justify a targeted repair for that use. A general or causal effect needs evidence for that stronger claim.
 
 If a needed observation is unavailable, report what can be established from the content and the stated access or assistance conditions. For a decision, retain a sufficient explanation or make a justified provisional choice that can be reversed, stating its intended gain as an expectation.
+
+##### EXD.6:4.3.1 - Observe the occasion specified in the commission
+
+If the recipient asks you to observe how the incoming team uses the revised explanation today, conduct the observation under the agreed conditions. Earlier readings may help you decide what to watch. Base your account of the handover on the team’s work at that handover. If you miss it, a recording may still support an account of what occurred. Be clear about what it establishes and about any personal observation you were commissioned to make.
 
 #### EXD.6:4.4 - Choose the result and its stopping condition
 

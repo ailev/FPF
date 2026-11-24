@@ -40,7 +40,7 @@ Search by the working question or required result. CUST identifiers are stable p
 
 ## Practical entries
 
-Bring the question you need to answer. These three entries are examples. If none fits, search the Table of Contents or enter a pattern directly. You can ask an assisting agent: “Explain this and give me your comments in ordinary language, without framework jargon.”
+Bring the question you need to answer. These three entries are examples. If none fits, search the Table of Contents or enter a pattern directly. An authorized configurator can select and apply a supported variant for a customer. An adviser can compare fit when the choice belongs to the customer. Ask for an explanation when you need to understand which provisions make the variant usable.
 
 ### CUST-ENTRY-DELIVERY - Turn a successful delivery into an obtainable method
 
@@ -381,7 +381,7 @@ Use [CUST.5](#cust5---run-field-learning-and-return-a-productization-candidate) 
 
 When sharing could help, build the family through [CUST.3](#cust3---develop-a-repeatable-offering-family): common result and conditions, invariants, allowed variations, forbidden combinations and the local residue. The same artifact can belong in one family and be unusable in another because support, permission or customer work differs.
 
-Make the customer choice through [CUST.4](#cust4---configure-a-customer-solution-and-place-differentiation) and trace what [CUST.6](#cust6---establish-repeatable-deployment-and-service-delivery) must provide for delivery. A qualified specialist whose time is secured can give a recurring service. If the promise also covers their absence, another team or a partner, establish what the intended performers can do with the materials, authority and help available there. A successful delivery by the original author can reveal the work that needs providing. Qualification of the next arrangement depends on its own conditions.
+Establish which choices the customer retains. Make the selection or recommendation entrusted to you through [CUST.4](#cust4---configure-a-customer-solution-and-place-differentiation) and trace what [CUST.6](#cust6---establish-repeatable-deployment-and-service-delivery) must provide for delivery. A qualified specialist whose time is secured can give a recurring service. If the promise also covers their absence, another team or a partner, establish what the intended performers can do with the materials, authority and help available there. A successful delivery by the original author can reveal the work that needs providing. Qualification of the next arrangement depends on its own conditions.
 
 A technical platform decision remains with its engineering method. Obtain the architecture, interface or supported-use result and use it to define the family and delivery conditions. If it supports only a narrower class, narrow the offering rather than treating technical approval as permission for every customer promise.
 
@@ -975,7 +975,7 @@ Protect the operating baseline: current service, support commitments, access con
 
 List the plausible explanations that imply different actions. For a deployment failure, candidates might include missing access, inadequate preparation, an incompatible interface, an unsuitable family assumption or insufficient support. Choose observations or small changes that can distinguish them.
 
-Use [MKT.12 — Investigate a Customer or Market Question for a Decision](MARKETING-PRINCIPLES-FRAMEWORK.md#mkt12---investigate-a-customer-or-market-question-for-a-decision) for a customer or market question and its evidence/permission conditions. Use the relevant engineering method for a technical trial. A live intervention is not necessary when an existing trace, safe simulation or qualified analysis answers the question adequately.
+Use [MKT.12 — Investigate a Customer or Market Question for a Decision](MARKETING-PRINCIPLES-FRAMEWORK.md#mkt12---investigate-a-customer-or-market-question-for-a-decision) for a customer or market question and its evidence/permission conditions. Use the relevant engineering method for a technical trial. For a question about feasibility or cause, an applicable trace, simulation or analysis may already give the answer. When the assignment calls for a new performance or an independent judgement, carry out the specified work under the applicable conditions. Use earlier material for what it establishes and preserve the choices entrusted to the performer.
 
 Preserve the conditions needed to interpret the result: relevant configuration, input meaning, performed actions, observed outcome, help supplied and significant deviations. Record enough to distinguish a product limitation from exceptional rescue. Do not accumulate personal or sensitive information merely because the setting makes it accessible.
 
@@ -1190,7 +1190,7 @@ In a public literacy programme, repeatable delivery may require prepared facilit
 
 What can be written is easier to package than tacit skill, trust, preparation or continuing support. Examine actual receiving work before deciding the carrier.
 
-The original expert can also overstate uniqueness. Try explaining and practising the operation before concluding that only the author can do it. Preserve specialist help when it is a suitable way to provide the needed contribution.
+If an operation appears to depend on the original expert, establish why. A skill can be taught, access can be granted and a decision may be reserved to its holder. Use an explanation or practice trial for an unresolved skill question. When the contract calls for approval by a named specialist, using a substitute requires whatever change those terms provide for. Preserve specialist help when it is a suitable way to provide the needed contribution.
 
 ### CUST.6:7 - Conformance Checklist
 
@@ -1453,7 +1453,7 @@ For an engineered platform migration or retirement, use the complete [SYSE.29 �
 
 Choose the next increment by dependencies and available resources. Several customers may need to move together because they share state or an operating window; others can move independently. The smallest useful increment preserves a complete receiving result, not necessarily one customer or one component.
 
-Agree the work with the parties who must perform it. Include customer preparation, permitted data or material transfer, training through actual use, acceptance, support and the disposition of local adaptations. Retain a qualified return path only where it restores the required result. Where effects are irreversible, use the supported forward repair, restoration with stated loss or authorized interruption; do not promise a generic rollback.
+Use assignments and commitments already in force. Obtain any new agreement from those entitled to bind each contribution. Establish that performers have the access and time to deliver and that any required personal participation is available. Include customer preparation, permitted data or material transfer, training through actual use, acceptance, support and the disposition of local adaptations. Retain a qualified return path only where it restores the required result. Where effects are irreversible, use the supported forward repair, restoration with stated loss or authorized interruption; do not promise a generic rollback.
 
 Compare ordinary service, transition, coexistence and later support together through CUST.7. A specialist cannot be counted as fully available for each at the same time. If the joint demand is infeasible, change the increment, obtain capacity, narrow the new promise or defer the change.
 

@@ -67,7 +67,7 @@ When you are to build the physical account, start with what the recipient will d
 
 Use the Table of Contents and each pattern's title and Problem frame for other questions or direct help. The bodies explain their methods, prerequisites, examples and return conditions. Each case states the physical theory and mathematics it uses.
 
-You can ask an assisting agent, “Explain this and give me your comments in the language of my work, without framework jargon.” For an assigned calculation, ask what the quantities and operations mean, where the physical premises enter, and what the result permits. To practise constructing the physical account, start from the actual question, available facts and permitted operations before looking at a completed model. Choose the boundaries, quantities and couplings yourself, then ask which admissible change would challenge that choice.
+You can ask an assisting agent, “Explain this and give me your comments in the language of my work, without framework jargon.” For an assigned calculation, use or obtain the calculation itself and establish its physical meaning. A capable assistant may derive how long a sensor takes to respond under a given heat-transfer law. If the missing work is to choose the appropriate law or measurement, entrust that choice to a contributor with the required physical grounds and access. To practise constructing the physical account, start from the actual question, available facts and permitted operations before looking at a completed model. Choose the boundaries, quantities and couplings yourself, then ask which admissible change would challenge that choice.
 
 ### PH-PREDICT-AND-DISTINGUISH - Develop a physical prediction and the test it needs
 
@@ -141,7 +141,7 @@ Physical Thinking supplies methods for constructing and changing those connectio
 
 The reader may conduct an investigation, design a system, interpret a result, or work with specialists and AI. Begin with the consequence that matters. A useful outcome can be a possible construction, a conditional prediction, a bound, a failed physical premise or a next question whose answer would change the work.
 
-You need to follow what the quantities represent and what the proposed physical laws assume, or obtain an explanation of the missing contribution. The mathematical preparation depends on the chosen method: a similarity calculation, a differential evolution and a quantum measurement use different constructions. Each pattern states the preparation for its own cases. Reading a worked solution can help acquire that capability; application in a changed situation can show which steps the learner carried out with the premises and help available. For a claim that the learner selected the premises, establish which choices the task left to them.
+You need to follow what the quantities represent and what the proposed physical laws assume, or obtain an explanation of the missing contribution. The mathematical preparation depends on the chosen method: a similarity calculation, a differential evolution and a quantum measurement use different constructions. Each pattern states the preparation for its own cases. A worked solution can help a learner acquire that capability. Their work in a changed situation can show which steps they performed with the premises and help available. For a claim that the learner selected the premises, establish which choices the task left to them.
 
 Use a familiar adequate law and procedure directly when they already answer the question. This language is useful when the physical account, its applicability or its connection with observation and computation still needs work.
 
@@ -234,7 +234,7 @@ Several failures recur in the bodies:
 | An unsuccessful experiment is assigned to the subject law alone | Inspect the preparation, interaction and readout premises that also produced the prediction. |
 | Every uncertainty launches another experiment | Use a sufficient bound or conditional result; compare further inquiry with what it can change. |
 
-When asking a learner to choose a physical account, give them the intended use and the physical facts and limits they would have at work. Leave them to decide which participants to include, which differences to resolve and how the conclusion reaches that use. A worked derivation with a specified boundary and law can show how to apply them. Credit an independent choice when the work shows which choice the learner actually made, including a choice visible in earlier work.
+When asking a learner to choose a physical account, give them the intended use and the physical facts and limits they would have at work. Leave them to decide which participants to include, which differences to resolve and how the conclusion reaches that use. A worked derivation with a specified boundary and law can show how to apply them. Credit the choice when the work shows that the learner made it, including in an earlier case. To establish a change in that learner’s capability, compare with what the learner could do previously under comparable conditions of assistance. A laboratory may now obtain results through a newly available service even if the technician’s skill is the same. For a claim about the effect of training, establish what change the training explains.
 
 ## PHY.Reference:6 - Consequences and Architectural Rationale
 
@@ -1974,7 +1974,7 @@ The first result is a proposed measuring interaction with a usable response: wha
 
 C.16.MR constructs the relation between a sought property and an indication. This method develops its physical realization when that realization is missing or inadequate. You can design the interaction before taking measurements or revise it after obtaining them. Changing a preparation or comparison can suffice with the existing instrument.
 
-You need to interpret the relevant physical theory and the conditions under which its effect occurs. Mathematical or experimental collaborators can supply calculations and implementation while you retain the wanted distinction. The examples supply their additional mechanical, fluid and quantum premises.
+You need to interpret the relevant physical theory and the conditions under which its effect occurs. For a measurement design, establish which physical distinction matters and what observation could reveal it under attainable conditions. Determine who can choose the distinction, design the interaction or make the observation when that contribution is entrusted or the feasibility of the design depends on its provider. A laboratory may be entrusted to decide which temperature matters for a reading and how the sensor response can establish it. If the commission calls for the learner’s own choice of the quantity, leave that choice to the learner with the agreed help. The examples supply their additional mechanical, fluid and quantum premises.
 
 Use an existing arrangement and calibration when they resolve the question. If the physical arrangement is suitable and only inference from its records remains, use C.16.IR or MMP.7.
 
@@ -2047,7 +2047,7 @@ Ask whether different target values can actually produce the same record under t
 
 Use the uncertainty or error model appropriate to the inference. Strongly nonlinear conversion can change both an estimate and its uncertainty; do not assume that converting an average is equivalent to averaging the converted quantity. Apply the necessary mathematical propagation or inference method, rather than treating a sensitivity coefficient as a complete answer.
 
-When the order asks for several results from one preparation, determine which observations can be made on that preparation and in what order. Trace any disturbance or shared uncertainty into the later readings. A relation or an earlier record can already establish one of the results. If separate preparations are allowed, establish why each answers its assigned use and, where the answer depends on a relation between them, what connects them. Compare feasible combinations under the available resources through C.16 and C.11.
+When the order asks for several results from one preparation, determine which observations can be made on that preparation and in what order. Trace any disturbance or shared uncertainty into the later readings. A relation or an earlier record can already determine a value within its conditions. If the order also calls for making the measurement on this preparation, obtain the reading from that preparation and keep the conditions under which it was made. If separate preparations are allowed, establish why each answers its assigned use and, where the answer depends on a relation between them, what connects them. Compare feasible combinations under the available resources through C.16 and C.11.
 
 #### PHY.9:4.6 - Obtain a first result and revise the physical arrangement
 
@@ -2206,7 +2206,7 @@ The first result is a proposed physical comparison, with the response each accou
 
 You need the physical meaning and applicable laws of the accounts being compared. Mathematical, computational and experimental collaborators can supply particular derivations and implementations. B.5.TC helps align the accounts when their questions or predicted quantities still differ. PHY.9 constructs a missing measuring interaction.
 
-Use an existing discriminating observation or sufficient comparison directly. Leave the difference unresolved when it does not change the intended use, or when acting with the remaining uncertainty is preferable to another test.
+For a choice between the accounts, use an existing discriminating observation or sufficient comparison directly. If a particular team is commissioned to repeat the test on this shift, that performance must take place for the team to report its own test. Leave the difference unresolved when it does not change the intended use, or when acting with the remaining uncertainty is preferable to another test.
 
 ### PHY.10:2 - Problem
 
@@ -2284,7 +2284,7 @@ Before performing the comparison, make its outcome interpretation clear enough t
 
 Work the proposed preparation through to the predicted indication before committing the apparatus. This can expose an uninformative design or missing physical contribution without a new experiment.
 
-When observations are obtained, interpret them under the stated recording and physical conditions. A response compatible with one supplied account and incompatible with another narrows this comparison. It does not exclude physical accounts that were never represented in the alternative set.
+Interpret the observations under their stated recording and physical conditions. To credit the design of the comparison, the conduct of a test or the interpretation of its outcome, use evidence of the corresponding work. These contributions can come from different performers. A response compatible with one supplied account and incompatible with another narrows this comparison. It does not exclude physical accounts that were never represented in the alternative set.
 
 If the result disagrees with both, inspect the consequential premise rather than forcing a winner. Separate a computational error, an incorrect readout relation, an unachieved preparation and a defeated physical account. Follow the dependence of the failed prediction to identify a useful return. A supplied bound on an apparatus effect can sometimes exclude that explanation; when it cannot, retain the competing interpretations.
 
@@ -2300,7 +2300,7 @@ Develop a subsequent test from what remains unresolved. One outcome can identify
 
 When a revision changes the physical account, propagate it to the mathematical formulation, computation and interpretation that depend on it. Use B.5.RR and B.5.MPC.R for the corresponding reasoning and cross-contribution revision.
 
-Stop when the obtained distinction suffices, or when no worthwhile available test changes the present use. Preserve a promising unresolved physical question when it opens a useful later construction or investigation.
+For a decision about the physical accounts, stop investigating when the obtained distinction suffices or another test has no worthwhile bearing on the decision. A separately commissioned test has its own completion conditions. Preserve a promising unresolved physical question when it opens a useful later construction or investigation.
 
 ### PHY.10:5 - Archetypal Grounding
 
