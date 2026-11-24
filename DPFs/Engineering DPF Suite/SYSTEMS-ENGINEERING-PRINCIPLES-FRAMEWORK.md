@@ -2319,9 +2319,7 @@ Choose among three EventStorming purposes. **Big Picture** locates important dis
 State the practical question and initial scope, the current or proposed situation, and the decision or learning
 that would make the session useful. Invite the people who know the consequential perspectives, including
 those handling exceptions or receiving the result. A representative cannot fill an unknown fact by agreement.
-Record the missing perspective and obtain it before relying on the affected claim. Arrange a shared surface
-that everyone can read and change. Physical notes and an accessible digital board are alternatives. Check
-that remote participants can add and correct the account themselves.
+Record the missing perspective and obtain it before relying on the affected claim. Arrange an account that everyone can follow and correct. A participant can edit the board directly or dictate an entry, hear or inspect what was recorded and correct it. Give remote participants the same opportunity to contribute and challenge the account. Provide direct editing when their task requires it.
 
 Use a simple visible legend. Introduce events first; add another notation only when the discussion needs its
 distinction. Labels as well as colour carry meaning. Agree how disagreements will be marked and revisited.
@@ -13187,9 +13185,9 @@ When a use is selected for migration, choose a representative affected use that 
 
 Specify what will stop expansion: an unusable result, an unqualified variant, unknown partial effects, a lost support commitment or a violated constraint. Retain the previous path only where its continuing risk and obligations allow it. If no safe return exists, make the forward-repair or outage condition explicit before the change.
 
-Explain the change where users rely on the provision. Give them the information they need to act, including any replacement entry, differences that affect their use, their required action and where to get support. A date alone cannot establish that a replacement works for their use or that they may move.
+Explain the change where users rely on the provision. Give them the information they need to act, including any replacement entry, differences that affect their use, their required action and where to get any support they will need or have been promised. A date alone cannot establish that a replacement works for their use or that they may move.
 
-Supply the means of moving as part of the increment. A migration tool needs a qualified input class, an intelligible result, partial-effect recovery and an actual support provider just as the ordinary path does. Supply the change its actual consumer needs. A program may need an updated adapter and a way to verify the resulting operation. When a person must learn a new action, demonstrate it and give them representative material on which to try it. Establish readiness from evidence of the required capability, including prior work where applicable.
+Supply the means of moving as part of the increment. Establish which inputs the migration tool can convert, how the operator can recognize a usable result and how to recover from material partial effects. If the transition depends on assistance or support has been promised, establish who can supply it when needed. Supply the change its actual consumer needs. A program may need an updated adapter and a way to verify the resulting operation. If a person needs to learn an action, arrange the practice or other help it requires. Demonstrate a specified action where that will help. When the person is to choose or develop the way of working, give them the conditions for their own attempt and feedback on what they do. Establish readiness from evidence of the required capability, including prior work where applicable.
 
 Arrange the increment with the users and providers who must perform it. Confirm the available window, preparation, access and resource demand together. If the same specialist must support ordinary use and the trial, reserve a feasible interval or change the increment. This is coordination of existing responsibilities; redesign assignments only when the existing ones cannot supply the work.
 

@@ -545,7 +545,7 @@ Keep the rule at the scale required by its next use. A legend and a worked const
 
 For an abbreviation, give the expansion or another way to establish its meaning. If several expansions are allowed, show why the difference does not affect the intended use. NOT.4 handles the corresponding preservation argument. Retain a visible distinction when no such argument is available and the choice matters.
 
-The method finishes with rules that permit the required construction and make its use recoverable, or with a specific unresolved formation or interpretation question. To judge learning, check whether the reader can use the rules. Learning and explanation methods can help when the work calls for teaching or for comparing reading costs.
+The method finishes with rules that permit the required construction and make its use recoverable, or with a specific unresolved formation or interpretation question. To judge present use, establish what the reader can recover or do with the conventions and aids available. A conclusion about learning also needs a basis for comparing what that reader could do before and afterwards under the relevant conditions. Learning and explanation methods can help when the work calls for teaching or for comparing reading costs.
 
 ### NOT.2:5 - Archetypal Grounding
 
@@ -1152,7 +1152,7 @@ For several translation stages, follow the information needed by the final opera
 
 #### NOT.5:4.5 - Repair the loss needed by the work
 
-Choose the least burdensome repair that restores the operation. Retain the original expression when an occasional return is enough. Add the missing distinction to the target when the recipient must work independently. Otherwise, carry supplementary information with a defined recovery rule.
+Choose the least burdensome repair that restores the operation. Retain the original expression when an occasional return is enough. Add the missing distinction to the target when that expression must support the operation on its own. When the performer can consult a permitted key or other supplement in time, give them the supplement and a usable recovery rule. A person working independently may use such a key.
 
 Call that supplementary information a *complement* when the target and the supplement together permit the required source recovery. State what it contains and how the return uses it. In :5.2 the position of a cue complements its count; in :5.3 a retained phase duration selects one backward update.
 
@@ -1219,7 +1219,7 @@ Conversely, fear of information loss can make every conversion retain a complete
 
 When the translation needs checking, use the questions relevant to its declared use.
 
-- Can the recipient construct the target from the source parts, connections and required context?
+- Can the target be constructed from the source parts, connections and required context? If the recipient is to construct it, can they do so with the agreed support?
 - Can a target result be returned as an answer to the source question at the stated strength?
 - For an exact value or verdict, could two source cases give the same target and require different answers? For a request to supply any one acceptable solution, does the offered solution work in every source case that the recipient cannot distinguish here?
 - Does a necessary supplement have a usable recovery rule and remain associated with the right source?

@@ -2027,7 +2027,7 @@ The proof establishes equality of the two list results. A claim that one impleme
 
 ### MATH.19:6 - Bias-Annotation
 
-A short final proof can hide the search that found its auxiliary claim. When helping another reader construct a proof, expose the expression or missing premise that motivated the lemma, as in :5.2.
+A short final proof can hide the search that found its auxiliary claim. To explain how the proof was found, show which expression or missing premise suggested the lemma, as in :5.2. If the reader is learning to find that connection, let them compare what they have with what the next step needs. Supplying the lemma can still leave its proof or application to the reader.
 
 Successful instances can guide that search. The universal conclusion still needs an argument covering its admitted objects; the noncommuting maps in :5.2 show why one successful calculation could miss the decisive premise.
 

@@ -523,7 +523,7 @@ Separate the authority to decide from the authority to communicate, sign or impl
 
 Apply the governing conditions to the act and its participants. If the recipient needs a route to authorization, identify who can perform each required act and which consents remain outstanding. For a question confined to one power, a decisive condition can establish its presence or absence. Distinguish a known act still to be performed from uncertainty over the applicable rule.
 
-Return the authority answer to the practitioner who will perform or arrange the corporate act. For a proposed appointment or delegation, the answer identifies who can make it and what governs its effect. It does not make the appointment or delegation; the authorized participants must perform that act under the applicable procedure.
+Return the supported answer to the person or body for whom the authority question was commissioned. A question about an earlier act can end with the authority effective at the time. For a proposed appointment or delegation, the answer identifies who can make it and what governs its effect. It does not make the appointment or delegation; the authorized participants must perform that act under the applicable procedure.
 
 For a routine matter, a short answer can suffice: “The existing purchasing delegation covers this purchase of 80; the limit is 100 and its stated conditions are met.” A disputed major transaction may need the provisions and reasoning retained so another practitioner can examine them. A new matrix or legal opinion is useful only when the receiving question needs it.
 
@@ -1215,9 +1215,9 @@ Reuse adequate observations and current results. Select another test only when i
 
 #### CGOV.9:4.5 - Correct and return the governing result
 
-Send a material deficiency to the participant able to correct it and to the governing recipient who needs it. Distinguish an implementation error, inadequate design, missing capability and an objective that is no longer attainable under the assumed conditions.
+Report a material deficiency and its consequences to the commissioned recipient and to anyone entitled to notice under the applicable duties. Distinguish an implementation error, inadequate design, missing capability and an objective that is no longer attainable under the assumed conditions.
 
-Apply a correction within existing authority when available. Use CGOV.11 for a corporate decision required for the correction, and CGOV.14 if the governance arrangement itself must change. Routine reassignment under adequate existing powers need not become a constitutional change.
+Carry out a correction when it is entrusted to you or required by duty, within your authority and means. For an assessment, explain what could be corrected and who can authorize or carry out the change. Use CGOV.11 for a corporate decision required for the correction, and CGOV.14 if the governance arrangement itself must change. Routine reassignment under adequate existing powers need not become a constitutional change.
 
 Return which controls are operating, the conditions under which they are relied on and the deficiencies that remain. Keep proposed corrections separate from completed changes. Choose follow-up by the failure and receiving decision.
 
@@ -1333,7 +1333,7 @@ When several providers contribute, identify their different coverage and any jus
 
 Recover the opinion’s subject, criteria, period and strength. Distinguish an adverse finding, a qualified conclusion, inability to conclude and a matter outside the engagement. When the board asks a different question, identify what the opinion contributes to it. If an issued opinion satisfies a renewal condition, the signed opinion can establish issuance. If the condition requires receipt by a named participant by a given date, establish that receipt. A copy bearing a sufficient receipt record may establish both events. A judgement about a different activity requires a premise that connects the opinion to that activity.
 
-Carry assumptions and limitations into the board paper or other receiving communication. Ask the provider to explain a material ambiguity. Neither a short summary nor a confidence label should enlarge the report's scope.
+Carry assumptions and limitations into the board paper or other receiving communication. Settle a material ambiguity from the engagement terms, report or competent explanation where those grounds suffice. Seek the provider’s clarification or amended opinion when the question or an applicable duty calls for that provider’s own act. Carry any unresolved limit into the receiving decision. Neither a short summary nor a confidence label should enlarge the report's scope.
 
 For example, an opinion on statements for a completed year may support the stated reporting use. A later process change needs its own applicability question. The historical conclusion does not become false merely because it cannot answer that later question.
 
@@ -2347,7 +2347,7 @@ C.32.MWA.PP compares materially different arrangements for performing and suppor
 
 Use this pattern when corporate participants need to preserve, transmit or change a shared way of governing. A board may retain its papers and procedure while newcomers cannot challenge a proposal's assumptions. A committee may know how to raise an exception but stop doing so when challenge is discouraged. A professional association may distribute guidance without knowing which practices recipients can use.
 
-Start with the corporate contribution that must remain obtainable and the participants who need it. Recover how participants perform it, locate a consequential gap, and choose how to sustain or renew the practice.
+Start with the corporate contribution that must remain obtainable and the participants who need it. Establish what the present arrangement supplies. When continuation or repair is due, identify which contributions must remain obtainable and what, if anything, needs to change.
 
 The first result can be a qualified account of the practice, a supported decision to continue it, or a proposed change. When implementation is assigned, establish which change must take effect. Restoring access can be complete when the recipient can use it in time. Restoring actual participation requires evidence of the participant’s contribution. Claims that a practice persists or improves governance need observations of those further consequences.
 
@@ -2369,7 +2369,7 @@ Several participants can supply the capabilities a practice needs. Allocate thei
 
 ### CGOV.17:4 - Solution
 
-Follow a needed corporate contribution through its performance, means of acquisition and conditions of continued use. Change the part that prevents participants from obtaining it.
+Follow the contribution far enough to answer the question about its use or availability. If a change is warranted, identify the obstruction and what would supply the missing contribution. Arrange it when implementation is entrusted to you or required by an applicable duty.
 
 #### CGOV.17:4.1 - Bound the practice and the question
 
@@ -2411,7 +2411,7 @@ C.11.DUA governs additional inquiry. Include the effort of access, confidentiali
 
 #### CGOV.17:4.5 - Carry the contribution into receiving work
 
-For an assignment to provide support, establish that the participants can obtain the appropriate help when they need it. For an assignment to put the practice into use, trace its use in the receiving matter. Give participants the information and participation conditions needed for that work.
+For an undertaking to make support available, establish that participants can obtain capable help when needed. For a requested contribution to a particular matter, establish that the agreed analysis, answer or other work reached the recipient as promised. For an assignment to put the practice into use, trace its use in the receiving matter. Give participants the information and participation conditions needed for that work.
 
 Observe the contribution relevant to the original difficulty. Can newcomers recover the assumption and use it in deliberation? Does an exception reach a participant able to respond? Does an eligible participant take part in the collective act? For a claim about the whole course of a matter, link the contributions to that matter. If an authenticated outcome already settles the commission, stop at that outcome.
 
@@ -2463,9 +2463,9 @@ Continuity can protect valuable practice or exclusionary habits. Compare whose c
 
 - The practice, participants, receiving work and relevant period are identified.
 - Does the account establish the team result, the connection between its component operations, or a participant’s own choice, according to the commission?
-- The repair answers a consequential gap in operation or its conditions.
+- When a repair is required, does it address the gap in the operation or its conditions?
 - Responsibility, decision power, information access and confidentiality remain respected under their applicable basis.
-- The selected learning, support or change reaches the result the assignment requires.
+- For an undertaking to provide learning, support or change, establish which result it requires and whether that result was obtained.
 - Any claim of persistence or improved consequences stays within its observations.
 
 ### CGOV.17:8 - Common Anti-Patterns and How to Avoid Them

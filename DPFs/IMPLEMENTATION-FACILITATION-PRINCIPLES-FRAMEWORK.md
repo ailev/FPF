@@ -421,7 +421,7 @@ Distinguish the explanations that matter to the requested finding, the grounds f
 
 ### IS.2:4 - Solution
 
-Establish which difficulty the recipient is trying to understand or resolve. Reconstruct the relevant performance, arrangement or range of work. Compare plausible explanations by what would differ in the evidence, in the grounds for an answer or in a warranted response. Report what they support and where uncertainty limits the conclusion. If the task requires further help, obtain the smallest contribution that makes the needed use possible.
+Establish which difficulty the recipient is trying to understand or resolve. Reconstruct the relevant performance, arrangement or range of work. Compare plausible explanations by what would differ in the evidence, in the grounds for an answer or in a warranted response. Report what they support and where uncertainty limits the conclusion. When further help is needed, obtain the contribution called for by the undertaking. Where the allocation is open, compare what each workable arrangement supplies and the work it leaves to the recipient and the provider.
 
 #### IS.2:4.1 - Trace the difficulty through the work that needs the result
 

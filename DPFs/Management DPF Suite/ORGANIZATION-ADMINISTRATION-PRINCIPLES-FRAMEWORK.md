@@ -1946,7 +1946,7 @@ Distinguish transferred work from transferred responsibility. A provider may fin
 
 #### ADM.11:4.4 - Arrange continuity and recovery where failure matters
 
-Identify the failure that can defeat the combined result: a missing specialist answer, invalid scope, delayed provider, lost correspondence or uncertain earlier effect. Identify the participant capable and authorized to resolve it, and the result the next action needs. Use the existing assignment or seek one from its holder where needed.
+Identify the failure that can defeat the combined result: a missing specialist answer, invalid scope, delayed provider, lost correspondence or uncertain earlier effect. Establish what the next action needs and who can supply it with the required competence, authority and timing. Several providers can resolve a failure together when each receives the contribution they need. Use existing assignments and obtain any missing one from its holder.
 
 Keep completed contributions available within the conditions they still meet. Independent work can proceed under its own permission, as when a price inquiry is ready while booking authority is pending.
 

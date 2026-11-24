@@ -29,8 +29,8 @@ Read the full conditions and cases, including the competence needed to provide t
 
 | Framework | What you can work on | Patterns | Text, M characters |
 | --- | --- | ---: | ---: |
-| [Human Capability Development (HCD)](https://fpf.tools/HCD) · [Markdown](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md) | Connect later work to capability demand, personal programmes, learning products, individual and shared practice, feedback, assessment, transfer and retention. | 29 | 1.221 |
-| [Somatic Movement Modeling (SOM)](https://fpf.tools/SOM) · [Markdown](SOMATIC-MOVEMENT-MODELING-PRINCIPLES-FRAMEWORK.md) | Connect bodily experience, regulated effort and coordinated movement; adapt within a familiar movement practice as support or load changes. | 5 | 0.080 |
+| [Human Capability Development (HCD)](https://fpf.tools/HCD) · [Markdown](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md) | Connect later work to capability demand, personal programmes, learning products, individual and shared practice, feedback, assessment, transfer and retention. | 29 | 1.222 |
+| [Somatic Movement Modeling (SOM)](https://fpf.tools/SOM) · [Markdown](SOMATIC-MOVEMENT-MODELING-PRINCIPLES-FRAMEWORK.md) | Connect bodily experience, regulated effort and coordinated movement; adapt within a familiar movement practice as support or load changes. | 5 | 0.081 |
 
 **Patterns** counts full pattern bodies. **Text, M characters** measures each complete Markdown framework, including its embedded Architectural Reference, in millions of Unicode characters with spaces and original line breaks, rounded to three decimals. These are scope indicators.
 
@@ -46,7 +46,7 @@ Successful work with external help may meet the immediate need without the perso
 
 Use [Core's connected development method (C.40.OD)](https://fpf.tools/C.40.OD) for that wider undertaking and this Suite for its human mechanisms. The Reference distinguishes [the different results (HCE.Reference:1)](HUMAN-CAPABILITY-ENGINEERING-DPF-SUITE-REFERENCE.md#hcereference1---what-is-being-changed-and-for-which-result).
 
-This is the human specialization of [Engineering](../Engineering%20DPF%20Suite/). Use [Management](../Management%20DPF%20Suite/) when the required change concerns an organization's capability, commitments, authority or resources. For decisions about how people learn their roles, [compare individual and group arrangements (HCD.20)](https://fpf.tools/HCD.20) and [form learning work groups (HCD.21)](https://fpf.tools/HCD.21).
+This is the human specialization of [Engineering](../Engineering%20DPF%20Suite/). Use [Management](../Management%20DPF%20Suite/) when the required change concerns an organization's capability, commitments, authority or resources. A person can use a suitable individual activity directly. When choosing how people will practise their roles, [compare individual and group arrangements (HCD.20)](https://fpf.tools/HCD.20) if the choice is open. When a shared activity calls for a group, [arrange its membership and contact (HCD.21)](https://fpf.tools/HCD.21).
 
 When their later work depends on how people respond to one another, [design practice for the required coordination (HCD.22:4.2.1)](https://fpf.tools/HCD.22:4.2.1). In designing the practice, establish what each role must receive and when it can still act on it. To assess an actual interaction, trace which contribution reached the recipient and how the recipient used it.
 

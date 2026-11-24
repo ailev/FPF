@@ -3415,7 +3415,7 @@ Return the observation, qualification, affected use and material limits needed b
 
 Finish when the follow-up question has a supported answer or identified limit and the recipient can use it within that scope. Continue any existing monitoring or professional service under its own mandate and end condition.
 
-When follow-up evidence can change the decision-support Method repertoire, supply the bounded case, conditions, failure or useful variation to `PSDA.16`. Its owner still compares the repertoire and obtains its own result. One successful delivery, revised diagram or favourable outcome proves neither general Method effectiveness nor cultural continuation.
+If follow-up also serves a commissioned or otherwise required review of decision-support Methods, give the repertoire owner the relevant case, conditions and findings for `PSDA.16`, within the applicable disclosure terms. Its owner still compares the repertoire and obtains its own result. One successful delivery, revised diagram or favourable outcome proves neither general Method effectiveness nor cultural continuation.
 
 ### PSDA.15:5 - Archetypal Grounding
 
@@ -5487,7 +5487,7 @@ A general aid can ask **“What grounds establish or could change this account?�
 
 Use [FPF C.41.TF](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c41tf---construct-a-checklist-template-that-preserves-its-questions) when the representation must preserve selected questions, answer meanings and references across views. Address a missing substantive question through the relevant practice. Preserve an adequate aid when a proposed revision adds work without improving the recipient’s use.
 
-For a learning task, preserve an interpretable first attempt before giving a decisive cue. Offer feedback or another case when the learner’s work calls for it. To establish independent performance, examine the learner’s action and permitted support under the relevant conditions. [HCD.9](Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd9---perform-deliberate-practice-with-feedback) supports practice with feedback and [HCD.10](Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd10---choose-whether-and-how-to-vary-space-interleave-or-progress-practice) helps vary the practice. A useful aid, a justified intervention, evidence of learning and evidence of an intervention’s effectiveness can answer different requests.
+If the question is what a learner can recognize or choose before a particular cue, obtain their attempt before giving it or use adequate evidence from an earlier attempt. For supported practice, provide the explanation or aid when the activity needs it. Offer feedback or another case when the learner’s work calls for it. To establish independent performance, examine the learner’s action and permitted support under the relevant conditions. [HCD.9](Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd9---perform-deliberate-practice-with-feedback) supports practice with feedback and [HCD.10](Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd10---choose-whether-and-how-to-vary-space-interleave-or-progress-practice) helps vary the practice. A useful aid, a justified intervention, evidence of learning and evidence of an intervention’s effectiveness can answer different requests.
 
 ## PSDA.Application:4 - APP-PSD-04 — Mira's development direction, programme comparison, and Guide
 
@@ -5574,7 +5574,7 @@ A reader may enter at an existing result or finish when the requested finding, p
 
 ### PSDA.Application:4.6 - A direct programme-level entry
 
-A learning-product author may already have a comparison of programme variants, as in the Foundations example. Use that comparison directly if it covers the author’s question, the intended audience and the proposed conditions. Audience assumptions can support a design before an individual is known. A personal programme comparison requires the learner’s later work, starting evidence, participation and support. Use the author’s applicable authority when selecting a programme for production. Claims about actual learning or effectiveness require evidence for those claims.
+A learning-product author may already have a comparison of programme variants, as in the Foundations example. Use that comparison directly if it covers the author’s question, the intended audience and the proposed conditions. Audience assumptions can support a design before an individual is known. For a personal comparison, use what matters to the difference between the options. An existing commitment can rule out one timetable. If suitability depends on the person’s intended work, current capability or access to help, establish those conditions. Where the decision is the learner’s, give them what they need to make it. Use the author’s applicable authority when selecting a programme for production. Claims about actual learning or effectiveness require evidence for those claims.
 
 
 ## PSDA.Application:5 - APP-PSD-05 — An engineering company's next development opportunities

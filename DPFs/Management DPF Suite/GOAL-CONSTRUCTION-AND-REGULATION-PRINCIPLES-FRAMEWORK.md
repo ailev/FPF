@@ -795,7 +795,7 @@ Personal purposes and role obligations can differ legitimately. Demanding aims c
 
 #### GOALS.6:4.1 - Relate the person's aim to the actual undertaking
 
-Ask what the person wants to obtain or protect through the work and what the assignment requires. Use their account; avoid inferring private purposes from a score. Distinguish voluntary adoption, an effective work obligation and a negotiated development opportunity. LDR.1:4.4.1 supplies the role conversation when that connection is unclear.
+Establish what the assignment requires and where the person has a choice. If the decision depends on their aims, willingness or experience, use their account or ask what is still open. A known loss of access to work already assigned can be addressed directly. Distinguish voluntary adoption, an effective work obligation and a negotiated development opportunity. LDR.1:4.4.1 supplies the role conversation when that connection is unclear.
 
 Work through a real next episode. What action is required, what discretion and help are available, what others rely on, and what other work competes? If the person legitimately declines a voluntary contribution, choose another contribution or revise the undertaking. If an obligation governs the work, use its actual decision and challenge route. Labelling an assignment “your aspiration” does not settle its participation conditions.
 
@@ -1002,9 +1002,9 @@ Recover the actual goal mode, evidence, starting conditions, allocation, changes
 
 #### GOALS.8:4.2 - Conduct a useful conversation and feedback exchange
 
-Use LDR.1's smallest sufficient working conversation. Begin with the concrete episode and the participant's account. Ask what happened, what they were trying to do, which conditions helped or hindered, and what next contribution would change the work. Supply a clear observation and its consequence rather than an unexplained personality label. The participant can correct factual mistakes or offer another supported explanation.
+Use a conversation when it is part of the undertaking or can settle something that matters. Start with the episode. Give the participant room to explain what they were trying to do, which conditions mattered and what contribution would help. A sufficient record may already support a decision to recognize their work. Supply a clear observation and its consequence rather than an unexplained personality label. The participant can correct factual mistakes or offer another supported explanation.
 
-Agree the next useful action, help and response occasion. The needed contribution may be a clearer assignment, resource decision, subject answer, changed method or learning opportunity. Assign it to someone able to provide it. A manager's advice cannot on its own change another team's commitment or supply a teacher's missing competence. If the conversation settles the work, end there.
+Identify who can take any further action. If that work needs help, establish what contribution is needed, who can provide it and when it will be useful. Agree a further response if the undertaking calls for one. A clearer assignment, a resource decision, a subject answer, a changed method or a learning opportunity can require different providers. A manager's advice cannot on its own change another team's commitment or supply a teacher's missing competence. If the conversation settles the work, end there.
 
 For development, distinguish supported practice from performance used for consequential appraisal. Use HCD when the person needs a new capability and agree the use of its observations. Feedback should let the learner change an operation and try again under suitable conditions. A conversation about learning is not evidence that learning occurred.
 
@@ -1101,11 +1101,11 @@ Inspect available results first. A skilled team with an adequate current practic
 
 Compare competent present practice, a capable internal or external provider, AI-supported performance, development of a human contribution and a different goal arrangement where those are feasible alternatives. Include preparation, participant work, coaching, data, tools, checking, correction, continuing support and displaced service. Keep any separately wanted human mastery or organizational independence in the result being compared.
 
-For human development, HCD.2 supplies the programme comparison. Choose complete representative tasks, identify missing operations, obtain capable teaching and feedback through HCD, and make time and access real. A learning provider needs the actual work criteria. For the organizational arrangement, OCE.9 supplies realization of the bounded contribution, including ordinary and exception paths. These can cooperate without making the organization and each person's capability the same claim.
+For human development, HCD.2 supplies the programme comparison. Identify the operations the learner needs to develop in representative tasks, how the learner can try them, and how to tell whether they worked. Provide the necessary time and access. If instruction or feedback from a specialist is needed, give that person the criteria of the actual work. For the organizational arrangement, OCE.9 supplies realization of the bounded contribution, including ordinary and exception paths. These can cooperate without making the organization and each person's capability the same claim.
 
 #### GOALS.9:4.3 - Learn and exercise the needed operations
 
-Give the participant access to the receiving work and let them exercise the choice being developed. If the aim is to choose a goal, give the participant the actual use and its conditions before suggesting an objective. If the objective is fixed and designing evidence is entrusted, let them decide what evidence would distinguish success and why. A supplied objective and test can still leave the participant a judgement about whether this case passed. Demonstrate a difficult operation with its reasons, give feedback on the participant's own attempt and allow a correction. HCD.9 supplies the practice episode. A comparable earlier attempt can also show a choice the participant made.
+Give the participant access to the receiving work and let them exercise the choice being developed. If the aim is to choose a goal, give the participant the actual use and its conditions before suggesting an objective. If the objective is fixed and designing evidence is entrusted, let them decide what evidence would distinguish success and why. A supplied objective and test can still leave the participant a judgement about whether this case passed. Let the participant use the consequences of the attempt or other accessible grounds to judge and revise it. Supply a demonstration, explanation or feedback when it contributes something the learner needs. HCD.9 supplies the practice episode. A comparable earlier attempt can also show a choice the participant made.
 
 Choose variation from the intended work. Varying only numbers will not show whether a person distinguishes research completion from delivery success or human mastery from agent output. HCD.10 supplies selection of variation, spacing and progression; HCD.11–12 qualify performance and transfer when those claims matter. Retain suitable guidance and tools if later work permits them. Observe independence only for the operation that later work requires the person to perform independently.
 
@@ -1141,7 +1141,7 @@ A successful enthusiastic team can conceal requirements absent elsewhere. State 
 
 - What use, scope and assistance define the target performance? If the claim extends to different work, what grounds the transfer?
 - Were adequate existing capability and alternative provision considered?
-- Does the selected development include needed practice, feedback, correction and real receiving work?
+- Can the learner practise the intended operation, judge its result and improve a later attempt, with the support needed in the receiving work?
 - For a forthcoming assignment, are routine and exception contributions available under the permitted workload and support? For a report of continuing use, what establishes the required work in the period claimed?
 - Does the comparison include transition, retained support and the work the change could displace? For a claim about realized savings, what work or spending actually ceased, and what replaced it?
 - Does replacing the practice preserve the functions and commitments still needed?

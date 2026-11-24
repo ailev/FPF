@@ -532,7 +532,7 @@ Agree how people ask for clarification, decline a question, signal uncertainty a
 
 #### CB.2:4.4 - Facilitate the exchange where support is actually needed
 
-At the start, restate the purpose, result and limits. For a help request, let the recipient establish the question. For a shared activity, confirm what the participants have come to do and give them the opportunity to do it. Make the relevant material available to everyone whose contribution needs it.
+At the start, restate the purpose, result and limits. Use the question the recipient already brings. They may ask a colleague to develop a diagnostic question from their account, or they may be learning to frame it themselves. In the latter case give them the opportunity and support to make that choice. For a shared activity, confirm what the participants have come to do and give them the opportunity to do it. Make the relevant material available to everyone whose contribution needs it.
 
 Use prompting to repair a specific obstacle. Invite a qualified person to address an unanswered question, ask a contributor to explain the observation behind a conclusion, or help the recipient distinguish two incompatible suggestions. Give enough time for a response and make declining permissible. Repeated unsolicited reminders are not a substitute for an agreed contribution.
 
@@ -1193,9 +1193,9 @@ These forms can be combined. A story can clarify a case, a demonstration can tes
 
 #### CB.5:4.5 - Prepare an external contribution without losing the question
 
-Invite an external expert or neighbouring practitioner when the group lacks a needed perspective or competence. Give the guest the question, relevant material, participant preparation and expected result. Check that the guest can address it and agrees to an interaction that lets participants clarify and examine the contribution.
+When the group needs outside expertise, start with what participants still need for their task. An accessible, qualified written answer may settle their question. When a further contribution is needed, give the expert the question, relevant material and intended use. Establish what they can supply and how the group can use it.
 
-A prepared presentation can be useful, but leave enough time for the community's questions and their application. The guest may need to observe the work first, respond to selected cases, or join a small group after a general explanation. Choose the arrangement with the guest rather than presuming that a familiar lecture supplies it.
+When participants need discussion or a promised opportunity to ask questions, arrange the exchange with the guest and allow time for it. The guest may need to observe the work first, respond to selected cases or join a small group after a general explanation. Give participants the material and opportunity to make any judgement entrusted to them.
 
 Connect preparation, shared work and continuation. Participants can submit questions in advance; the guest can identify missing context; afterwards, the recipient can return what was used or still needs clarification. Check which later uses of retained material and which forms of attribution the agreement covers. A recording can support a new question about an observable action. To recover the answer to an earlier question, identify that question from the recording or a connected source.
 
@@ -4009,7 +4009,7 @@ Through CB.5, the organiser prepares a short case clinic with a capable contribu
 
 Under CB.9, the provider assigns a qualified employee to the thirty-minute clinic every other week and supplies the moderator's preparation time. Volunteers choose whether to contribute examples. The provider obtains a separate agreement before treating an occasional contribution as scheduled production work.
 
-The customer then wants to construct these configurations independently. With the HCD methods, the learning provider supplies a changed task, practice and feedback. The provider supplies the changed project conditions and the receiving teams’ requirements. Before seeing a worked configuration, the learner determines how to select records, which recipients can receive them, when to resolve membership and what to do with a missing project. The provider assesses the learner’s choices and grounds against the promised digests. One attempt succeeds with a hint, so the provider arranges another attempt before judging independent performance. The earlier clinic answer remains useful help, while this work addresses the person's capability.
+The customer then wants to construct these configurations independently. The clinic showed that they could test and correct a supplied configuration. It left open whether they could choose the rule. Suitable earlier work could answer that question. In this case the learning provider offers a task with different project conditions and supplies the receiving teams’ requirements. Before seeing a worked configuration, the learner determines how to select records, which recipients can receive them, when to resolve membership and what to do with a missing project. The provider assesses the learner’s choices and grounds against the promised digests. One attempt succeeds with a hint, so the provider arranges another attempt before judging independent performance. The earlier clinic answer remains useful help, while this work addresses the person's capability.
 
 Using CB.10, the organiser follows the separate returns. The customer's report leads to a template that makes the project-specific field explicit. The learning provider uses the observed attempts for its bounded capability judgement. A later commercial inquiry would need suitable grounds to explain subscription retention; clinic activity and favourable stories alone do not settle that explanation.
 

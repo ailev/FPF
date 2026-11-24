@@ -449,7 +449,7 @@ For a first bounded undertaking, inspect what the existing organization can alre
 | Existing HR, line work and communities, with occasional specialist help; no new office | The necessary contributions are obtainable and their commitments fit together | Distributed work still needs visible time, preparation, feedback and support |
 | Local helpers with a small common development group | Recurring needs for Method construction, preparation of helpers, common means or cross-team coordination warrant a continuing shared contribution | Common queues, maintenance, coordination and dependence can exceed the saved duplication |
 | A central office performing difficult projects | Concentrated rare capability supplies an urgently needed work result | The delivered service may replace recipients' practice; their acquisition needs separately supported work |
-| An external development provider | Help is intermittent, specialized or not yet reproducible internally | Include adaptation, access, the intended learning and later use, and the cost of continued reliance |
+| An external development provider | The provider can deliver the contribution at the times and frequency the work requires, including as a continuing service | Compare adaptation, access, capacity, continuing terms and cost with internal or mixed provision. Preserve any learning or judgement entrusted to the recipient. |
 
 AI can supply selected operations in any of these arrangements. Compare what the actual configuration performs, what people must still supply, and how access, checking and recovery are provided. AI capability can change the useful division of work; its presence does not determine the organizational form or establish the person's mastery.
 
