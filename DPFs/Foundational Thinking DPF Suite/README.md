@@ -36,7 +36,7 @@ The [Foundational Thinking Architectural Reference](FOUNDATIONAL-THINKING-DPF-SU
 | Framework | What you can work on | Patterns | Text, M characters |
 | --- | --- | ---: | ---: |
 | [Mathematical Thinking (MATH)](https://fpf.tools/MATH) · [Markdown](MATHEMATICAL-PRACTICE-DPF.md) | Construct mathematical objects, operations and alternatives; derive consequences and meet proof obligations. | 20 | 0.487 |
-| [Mathematical Modeling (MMP)](https://fpf.tools/MMP) · [Markdown](MATHEMATICAL-MODELING-PRACTICE-DPF.md) | Relate a subject question to mathematics; infer, predict, compare interventions, design observations and revise or combine models. | 17 | 0.588 |
+| [Mathematical Modeling (MMP)](https://fpf.tools/MMP) · [Markdown](MATHEMATICAL-MODELING-PRACTICE-DPF.md) | Relate a subject question to mathematics; infer, predict, compare interventions, design observations and revise or combine models. | 17 | 0.590 |
 | [Physical Thinking (PHY)](https://fpf.tools/PHY) · [Markdown](PHYSICAL-THINKING-DPF.md) | Construct and test physical accounts; select interactions and idealizations, derive consequences and distinguish them by observation. | 10 | 0.310 |
 | [Computational Thinking (CMP)](https://fpf.tools/CMP) · [Markdown](COMPUTATIONAL-THINKING-DPF.md) | Construct algorithms that obtain the required answer within correctness, resource and interaction conditions. | 16 | 0.452 |
 | [Notational Engineering (NOT)](https://fpf.tools/NOT) · [Markdown](NOTATIONAL-ENGINEERING-DPF.md) | Design expressions, interpretations and transformations that make operations usable and changes recoverable. | 8 | 0.226 |
