@@ -575,14 +575,14 @@ Use available data at their actual age and scope. When information is delayed or
 
 #### GOALS.4:4.2 - Interpret what happened before selecting the repair
 
-Compare the actual result with the achievement basis and the relied-on explanation. A brief review can establish what changed, what is now expected, what explains the difference and which decision follows. Investigate rival explanations only when they lead to different useful responses. The following distinctions direct the investigation.
+Compare what happened with the achievement criterion and the explanation on which the goal relied. Establish whether the result settles the question the recipient asked. Examine competing explanations when a difference matters to the commissioned finding or could change a decision. A report of achievement may already be complete while the cause remains open.
 
 | What changed or failed | Receiving response |
 | --- | --- |
 | Evidence is missing, stale or refers to another population. | Repair or qualify the observation before making the dependent judgement. |
 | Suitable action was not performed because a needed condition was unavailable. | Obtain the condition, change allocation or revise the commitment through its holder. |
-| Performed action does not obtain the expected result. | Examine the method and causal assumption; select another way or a warranted inquiry. |
-| The goal is difficult but still valued, and useful means remain available. | Keep the aim and revise the next action, help or provision. |
+| The action was performed and the expected result did not follow. | Establish what that outcome shows about the goal and the method under the agreed conditions. Report it. If another decision remains, consider continuing, changing the method, investigating the cause or stopping on the grounds available. |
+| The goal remains difficult and worthwhile, and useful means are available. | Keep a justified next action or revise the action, help or provision where the evidence warrants a change. |
 | The recipient's need or governing priority changed. | Reconsider the goal with the authorized owner and affected participants. |
 | The result meets the achievement criteria for the specified population and period. | Close the finite goal or accept this period of service. Continue outstanding or recurring duties under their terms until their agreed ending or an authorized change. |
 
@@ -618,9 +618,9 @@ Visible targets can focus attention away from people who bear the cost or from o
 
 ### GOALS.4:7 - Conformance Checklist
 
-- Can the observation still affect a useful action in time?
-- Does the diagnosis distinguish the premise whose failure changes the response?
-- Were the continuations compared from present conditions, including other goals and remaining obligations?
+- Does the observation establish the commissioned result? Where action is still needed, can the person responsible receive and use the observation in time?
+- When an explanation is needed, does the evidence distinguish the grounds that matter to it or to the ensuing action?
+- Where a choice of continuation remains, what distinguishes the feasible courses under current conditions, other goals and outstanding commitments?
 - Is a pause, completion, cancellation or revised promise reported with its actual meaning?
 - Does the advice identify who is affected, what the existing terms already determine and who may make any decision still needed? If the change is reported as effective, did it take effect under those terms, including any required notice?
 
@@ -673,7 +673,7 @@ Focus competes with breadth of current responsibilities. Transparency aids coord
 
 #### GOALS.5:4.1 - Decide what the practice must improve
 
-Name the recurring difficulty in the present arrangement: unclear priorities, late cross-team dependencies, misleading completion, weak follow-through, or another concrete failure. Examine a recent episode and identify what a better practice would change. Compare competent present goal work with the proposed OKR arrangement over the same scope. Existing useful meetings, data and decisions belong in the comparison.
+Identify the recurring decision the participants need to make together and the result it must provide or preserve. When a joint practice is new, follow a forthcoming occasion. Which teams owe results, and which decision, evidence or resource must they share in time? In an existing practice, a recent episode can reveal a difficulty such as late discovery of dependencies or misleading completion reports. Compare the proposed OKR arrangement with the workable alternatives over the same scope, including meetings, data and decisions the participants can already use.
 
 Choose an initial scope that can perform a complete useful cycle of the required contributions. A team can be enough when its dependencies can be obtained; an isolated team is too narrow when the unresolved problem is a shared organizational priority. Determine who can choose direction, accept commitments, allocate means and change the practice. Capable performers can take on these contributions in existing positions. Use GOALS.9 to develop missing capability or establish the needed organizational arrangement.
 
@@ -681,7 +681,7 @@ Choose an initial scope that can perform a complete useful cycle of the required
 
 Start with the useful changes the organization seeks and the current conditions it must preserve. Invite proposals from people close to the work as well as those responsible for direction. Their knowledge can expose a missing opportunity, an infeasible demand or a needed alternative. Clarify the strategic ground through STR when it is unresolved; writing OKRs is not a substitute for that choice.
 
-Select objectives from the decisions that the improved work would make possible. Follow an actual use through any handovers to find what still prevents it. Compare the gains from changing that condition with what other recipients must retain, then use GOALS.1 to choose the beneficiaries, horizon and scope. A goal can concern an improvement, an inquiry, a capability or maintenance of an adequate condition. Keep continuing service and other obligations in the capacity account even when the published agenda highlights only change.
+Select objectives from the results the participants need to achieve or sustain. Follow an intended or observed use through its relevant handovers. What must be available at each handover, and can the existing or proposed arrangements supply it? When a change is needed, compare its gain with what other recipients must retain. Use GOALS.1 to choose beneficiaries, horizon and scope. A goal can concern an improvement, an inquiry, a capability or maintenance of an adequate condition. Keep continuing service and other obligations in the capacity account even when the published agenda highlights only change.
 
 Limit the active agenda through actual capacity, dependencies and the cost of attention. Decline or defer lower-value proposals with intelligible reasons. A small fixed count is an optional local convenience, not the basis of focus. A team with one unsupported objective is no more focused in practice than a team with five incompatible ones.
 
@@ -711,9 +711,9 @@ Use CFR—conversations, feedback and recognition—to make help, learning and c
 
 At the useful end or review horizon, interpret the results under the agreed criteria. Keep the mode, starting conditions, changes, assistance and remaining work visible. A numerical score may summarize a defined comparison. Use written interpretation when the score hides an important condition; do not average away a required failure. Self-assessment can recover context and explanations, while the claim still needs its evidence.
 
-Decide separately what was achieved, what was learned, how to continue and what people decisions are justified. Retire an obsolete goal, preserve a worthwhile unresolved one with a new arrangement, or select a new direction where warranted. Carryover is a decision, not the default consequence of a low score. Notify the affected recipients when a goal or commitment ends.
+State what the group achieved on the agreed basis. If the commission also asks what someone learned, how to continue or whether to make a personnel decision, establish each conclusion on its own grounds. A worthwhile unresolved goal can continue under a sufficient existing arrangement. Agree a change when the terms or the evidence call for it. Retire an obsolete goal or choose a new direction where warranted. A low score alone does not authorize carryover. Notify affected recipients when a goal or commitment ends.
 
-Examine the practice itself. Did it expose and resolve the chosen difficulty? What did it cost, including data production, preparation, participants' time and support? Which earlier reports or meetings actually ceased? Use GOALS.9 to repair missing capability or organizational conditions. A complete replacement is justified only when the alternative preserves the functions still needed. The useful result is a continuing practice suited to the work, not completion of a calendar cycle.
+Examine the practice itself. What recurring result did the participants need, and what shows whether they obtained it? If they meant to improve an existing arrangement, what changed in the difficulty that led to the redesign? Account for data production, preparation, participants’ time and support, including earlier reports or meetings that actually ceased. Use GOALS.9 when capability or organizational conditions need repair. A complete replacement is justified only when the alternative preserves the functions still needed.
 
 Recognition identifies where goal display has separated from joint action. Assurance requires the actual definitions, provider agreements, evidence and decisions behind the claimed results, with stronger inquiry only for stronger effect or reliability claims.
 
@@ -736,7 +736,7 @@ The practice can overrepresent participants who write persuasive objectives or c
 
 ### GOALS.5:7 - Conformance Checklist
 
-- Does the selected scope address a real recurring coordination or pursuit problem?
+- Does the scope include the participants and dependencies needed to make the recurring decision and deliver its result?
 - Do the objectives express worthwhile results and the KRs establish them under stated conditions?
 - Are committed and aspirational meanings understood by dependent parties?
 - Does the full workload, including service and acquisition of the practice, fit the available means?
@@ -764,7 +764,7 @@ OKR is treated as a whole organizational practice because its useful parts depen
 
 ### GOALS.5:11 - SoTA-Echoing
 
-Doerr's complete practitioner account supplies focus, alignment, tracking, stretch, CFR and acquisition, including the resource guide and difficult adoption cases. Contemporary software-team and organizational studies add formulation, data, discoverability and integration difficulties, with limits of setting and design. These studies identify questions to examine when introducing OKRs elsewhere. A claim that OKRs improve performance there needs evidence that applies to that setting. Compare the proposed practice with competent existing goal work; another local arrangement becomes preferable when it supplies the same useful results at lower total burden or better supported conditions.
+Doerr's complete practitioner account supplies focus, alignment, tracking, stretch, CFR and acquisition, including the resource guide and difficult adoption cases. Contemporary software-team and organizational studies add formulation, data, discoverability and integration difficulties, with limits of setting and design. These studies identify questions to examine when introducing OKRs elsewhere. A claim that OKRs improve performance there needs evidence that applies to that setting. Compare the proposed practice with competent goal work already in place or another feasible way to provide the recurring result. Consider another arrangement when it supplies the same benefits at lower total burden or under conditions the participants can better sustain.
 
 ### GOALS.5:12 - Relations
 
@@ -779,7 +779,7 @@ GOALS.1–4 construct and regulate the goal set. GOALS.8 supplies conversations 
 
 ### GOALS.6:1 - Problem frame
 
-**Use this when** a person wants or is expected to pursue a professional goal, yet adopting it, beginning, continuing or changing course remains difficult. The object is that person's goal pursuit under actual work and participation conditions. The result is an intelligible and feasible next action, support arrangement or revised aim.
+**Use this when** a person wants or is expected to pursue a professional goal, yet adopting it, beginning, continuing or changing course remains difficult. The object is that person's goal pursuit under actual work and participation conditions. The practical question may be whether to take on a voluntary contribution at all. For work the person will pursue, the result can be a feasible next action, support arrangement or revised aim.
 
 The method concerns professional and work-related learning aims. Clinical treatment and a general diagnosis of personality require other qualified practice. An established routine that works needs no additional personal-goal programme.
 
@@ -797,7 +797,7 @@ Personal purposes and role obligations can differ legitimately. Demanding aims c
 
 Establish what the assignment requires and where the person has a choice. If the decision depends on their aims, willingness or experience, use their account or ask what is still open. A known loss of access to work already assigned can be addressed directly. Distinguish voluntary adoption, an effective work obligation and a negotiated development opportunity. LDR.1:4.4.1 supplies the role conversation when that connection is unclear.
 
-Work through a real next episode. What action is required, what discretion and help are available, what others rely on, and what other work competes? If the person legitimately declines a voluntary contribution, choose another contribution or revise the undertaking. If an obligation governs the work, use its actual decision and challenge route. Labelling an assignment “your aspiration” does not settle its participation conditions.
+Work through a real next episode. What action is required, what discretion and help are available, what others rely on, and what other work competes? A person can decline a voluntary contribution. Establish what depended on it. If the current arrangement already provides what was promised, the joint undertaking can continue as agreed. If a necessary contribution is still missing, obtain it elsewhere or revise the undertaking with those who can agree to the change. If an obligation governs the work, use its actual decision and challenge route. Labelling an assignment “your aspiration” does not settle its participation conditions.
 
 #### GOALS.6:4.2 - Locate the difficulty that changes the remedy
 
@@ -817,7 +817,7 @@ Compare the relevant goals together, including current obligations, recovery and
 
 When pursuit becomes less worthwhile or feasible, consider a change of means, a narrower next contribution, a pause or relinquishing the goal. Distinguish the specific target from the wider purpose it serves. Ending one route can preserve another; persisting can remain justified when the purpose and available way still warrant it. Include the remaining opportunity costs and the person's values. Use GOALS.4 to make any affected commitments and continuation explicit.
 
-Return the next action and any help or decision it needs. When developing an ability, arrange feedback from the work in time to inform another attempt. For a decision about present capability, use sufficient evidence of the person's own work with the support permitted in the assignment. A claim that ability changed needs a comparable earlier basis. To credit a particular learning arrangement for the change, compare with what the person's ordinary work would have produced.
+Return the decision the person and the people relying on the work need. A decision about taking on optional work can settle the question. When further action is needed, state who can take it and what help or agreement it requires. When developing an ability, arrange feedback from the work in time to inform another attempt. For a decision about present capability, use sufficient evidence of the person's own work with the support permitted in the assignment. A claim that ability changed needs a comparable earlier basis. To credit a particular learning arrangement for the change, compare with what the person's ordinary work would have produced.
 
 ### GOALS.6:5 - Archetypal Grounding
 
@@ -849,7 +849,7 @@ People differ in purpose, constraints, available help and the cost of disclosure
 
 ### GOALS.6:9 - Consequences
 
-The person obtains a feasible way to proceed or a justified change in the undertaking. The arrangement can clarify what to do next and may involve assistance, learning or a different performer.
+The person can decide whether to take on voluntary work. For an undertaking that continues or changes, the participants know what they can now do and which contributions they can rely on. These can include assistance, learning or a different performer.
 
 ### GOALS.6:10 - Architectural Rationale
 
@@ -998,7 +998,7 @@ Candid reporting supports useful action while real consequence rules influence w
 
 Identify what this interaction must produce: clarify a result, understand an obstacle, supply help, learn from an episode, recognize a contribution, or inform a personnel decision. Tell participants the material purpose, audience and use of observations. Reuse established arrangements when they are sufficient. A later new use of private learning data needs its own grounds and permissions.
 
-Recover the actual goal mode, evidence, starting conditions, allocation, changes and material contributions. OPS.22 supplies an operating performance interpretation where needed. Distinguish the observed result from an explanation of it and from a judgement about a person. An unfavorable forecast should expose a response decision; if the actual consequence rule penalizes truthful reporting, obtain the relevant change or acknowledge the constraint rather than offering a false assurance of safety.
+Use the evidence that can settle the receiving question. Recover the goal mode, starting conditions, allocation, changes and particular contributions where they affect the finding or its permitted use. OPS.22 supplies an operating performance interpretation where needed. Distinguish the observed result from its explanation and from a judgement about a person. Where an unfavorable forecast calls for action, identify who can still respond. If the applicable consequence rule penalizes truthful reporting, seek a change through its owner or acknowledge the constraint.
 
 #### GOALS.8:4.2 - Conduct a useful conversation and feedback exchange
 
@@ -1014,7 +1014,7 @@ Start with what you can acknowledge about this person's work. A record of a time
 
 A shared result can identify individual acts. Ask what the result establishes under the arrangements that actually operated. If a release could proceed only with approval from each of two named people, the completed release establishes both approvals. If either could approve and the record says only “approved”, the identity of the approver remains open. Evidence of who devised the solution or performed the checks answers further questions. Recognize the team's achievement at its own scope and the particular work that the evidence supports for each participant. The owner of the goal may have coordinated work performed by several people.
 
-Choose recognition appropriate to the participant and setting, including preferences about publicity. Explain enough for colleagues to understand the practice worth retaining. Formulaic praise or a ranking detached from the contribution provides little guidance and can misattribute credit.
+Choose recognition appropriate to the participant and setting, including their preferences about publicity. When colleagues need to learn from the contribution and sharing it is appropriate, explain what they can reuse and under what conditions. Direct acknowledgement can serve the participant who requested it. A ranking detached from the contribution can misattribute credit.
 
 #### GOALS.8:4.4 - Return consequential people decisions to their complete grounds
 
@@ -1039,7 +1039,7 @@ Visible output can conceal helping, care, coordination and unequal opportunity. 
 ### GOALS.8:7 - Conformance Checklist
 
 - Is the purpose and material use of the conversation or evidence clear to participants?
-- Does feedback concern an observable, changeable contribution with usable help?
+- Does the feedback give the recipient the finding they need? If a change is sought, can they act on it with the means and help available?
 - Is recognition supported and appropriately attributed?
 - For a personnel conclusion, do the rule, evidence and authority establish what was asked, such as an entitlement, a discretionary decision or a payment already made?
 - Have changed data uses and applicable terms been handled through their actual grounds?

@@ -474,7 +474,7 @@ FIN.2–FIN.23 supply the selected financial answers. [FPF C.11][CHOICE] helps c
 
 ### FIN.2:0 - Use this when
 
-A payment is approaching and a bank balance, profit figure or unused credit limit does not yet tell you whether the corporation can pay. Start with the money and commitments at the relevant dates; obtain a dated funding requirement before selecting a response. A sufficient existing cash forecast can be used directly.
+Use this method to establish whether the named payer can meet an obligation by its due time, how much funding it needs, or whether a proposed arrangement covers the payments in the commission. Use an adequate dated account or bound directly. If a response is wanted, identify which dated condition it must change.
 
 ### FIN.2:1 - Problem frame
 
@@ -490,12 +490,12 @@ Protect payment continuity without keeping unnecessary idle cash. Retain decisio
 
 ### FIN.2:4 - Solution
 
-1. Choose the paying entity, currencies, payment dates and minimum usable cash required at each date. Include the whole baseline of other receipts and payments. Use daily or intraday intervals around tight dates, even when the remaining horizon is monthly.
+1. Fix the payer, currency, deadline and any required reserve. For example, suppose a payment of 100 is due and at most 80 can be available for it after other obligations and the reserve, even with every feasible combination of timely receipts and funding. The payment is uncovered by at least 20. This bound settles coverage. To determine the exact shortfall or compare arrangements, recover the material balances and flows at the times where they affect the answer. Use the following timeline where those details matter.
 2. Reconcile opening bank and cash balances to the usable amount: remove restricted, pledged, trapped or unsettled amounts as their terms require. Identify an intercompany transfer by its source, permitted route, cost and earliest usable time; common ownership alone supplies none of these.
-3. Place material operating payments, collections, taxes, debt service, investments and distributions on the timeline. Distinguish agreed dates from expectations. Keep alternative collection or draw assumptions as scenarios; do not add a hoped-for receipt to a committed one.
+3. Place material operating payments, collections, taxes, debt service, investments and distributions in the scenarios where they occur. Where a customer order, its invoice and settlement describe the same incoming amount, trace it to a single receipt at the time it becomes usable. Two possible settlement dates for the same amount are alternatives. Two distinct receipts can both enter the account if they can arrive together under the conditions assumed. A right to payment establishes what is due. Evidence of collection or of expected settlement supports its use in the corresponding account.
 4. For each facility, establish the remaining commitment, borrower, currency, expiry, draw conditions, notice period, cutoff, collateral and fees. Count a draw as available only on the scenario whose conditions support it. A revocable indicative line contributes a possible funding alternative, not current cash.
 5. Calculate each closing balance as opening usable cash plus usable inflows minus payments. For a required reserve, funding need at a date is the positive amount by which the pre-funding balance falls below that reserve. Solve for the gross draw when fees are withheld; include later interest and repayment.
-6. Recalculate the whole timeline with the proposed response. A draw that cures today's gap can create a larger maturity gap. Return the amounts, dates, conditions and affected commitments. Use FIN.3 for working-capital alternatives, FIN.10 for financing terms, or FIN.15 for a selected permitted treasury action.
+6. When a response is requested, recalculate the affected dates under its actual terms. For a series of payments, carry the balances forward through later requirements, fees and repayments. A draw that cures today’s gap can create a maturity gap. Return the amounts, dates and conditions that settle the question. Use FIN.3 for working-capital alternatives, FIN.10 for financing terms or FIN.15 for a selected permitted treasury action.
 
 Stop when the decision-maker can identify a funded path, an uncovered payment or the condition on which funding depends. If the right to money or the contract's event behavior is unclear, obtain that specific account through [FDM.1 through FDM.3][FDM]. If profit and cash disagree materially, use FIN.4 and the applicable [MA.4][MA] reconciliation.
 
@@ -552,7 +552,7 @@ Compare the cost of holding or arranging protection with the consequences it pre
 #### FIN.2:4.5 - Change the attainable plan and keep the return visible
 
 
-If the account fails, construct a remedy that changes a dated receipt, payment or available financing action. Accelerating a customer payment has a price and requires acceptance. Extending a supplier term changes an obligation only when the arrangement permits it. Reducing inventory may undermine delivery and hence later receipts. FIN.3 compares these operating terms; FIN.10 constructs or compares finance; FIN.12 identifies restrictions and remedies. When another entity's cash could help but no adequate transfer or support exists, FIN.23 constructs that financial relation and tests both entities' needs. Carry the resulting receipts, payments and availability conditions back to the same account before relying on the repair.
+If the commission is to remedy a shortfall, construct an obtainable change in a dated receipt, payment or financing action. For earlier collection, check the applicable terms. An existing agreement may give the corporation a right to call for earlier payment at a stated cost or free of charge. For newly negotiated terms, establish the customer’s agreement and any discount or fee. In either case the funding plan needs grounds for when usable cash will arrive. Extending a supplier term changes an obligation only when the arrangement permits it. Reducing inventory may undermine delivery and hence later receipts. FIN.3 compares these operating terms; FIN.10 constructs or compares finance; FIN.12 identifies restrictions and remedies. When another entity's cash could help but no adequate transfer or support exists, FIN.23 constructs that financial relation and tests both entities' needs. Carry the resulting receipts, payments and availability conditions back to the same account before relying on the repair.
 
 Allow for the time needed to execute each remedy. Check whether an asset sale can settle before payroll, a lender’s conditions can be met by the draw cutoff and any required consent has been granted. If authorized sources cannot cover an obligation at its due date, report the shortfall at the precision the decision requires. An upper bound on obtainable money below the payment due establishes insufficiency. FIN.22 becomes relevant when the commission includes finding a recovery route beyond ordinary adjustments.
 
@@ -627,7 +627,7 @@ Using profit as payment capacity hides noncash items and timing; recover the cas
 
 ### FIN.2:9 - Consequences
 
-The result identifies the amount and date that a response must cover and the conditions under which it works. Finer timing and conditional flows add forecasting effort, so retain only detail that can change payment, reserve or funding advice.
+The result can establish coverage, a bound on the shortfall or the amounts and dates a funding response must cover. Use the precision the conclusion requires. A series of payments can depend on an early draw and its later repayment.
 
 ### FIN.2:10 - Architectural Rationale
 

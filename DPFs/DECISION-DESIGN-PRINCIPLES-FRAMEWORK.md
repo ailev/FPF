@@ -3193,7 +3193,7 @@ A material objection about reachable assistance qualifies the investment advice 
 
 A committee asks a separate advisory team which direction to consider for ninety-day service reliability. The holder is the service organization; the committee is recipient and, by the assumed mandate, choice owner. Internal development, an external provider and a mixed human–AI arrangement are live directions. Critical-service continuity, a security boundary and a bounded budget are protected.
 
-An operations account, position/interface account and strategy priority are available, but none compares the arrangements as a whole. The first complete return retains the three directions for consideration and states that their whole-arrangement ranking is unsupported for this horizon and protected conditions. A published Method for obtaining a comparison is not the client-specific result. A comparison request follows only if its attainable contribution warrants the full acquisition burden; the unranked answer need not propose that work.
+An operations account, an account of responsibilities and interfaces, and a strategy priority are available. They leave the ranking of the three whole arrangements open for this horizon and these protected conditions. The advisory team can explain which directions the committee can still consider and what it could not establish about their relative merits. A published Method for obtaining a comparison supplies no client-specific ranking. If the committee has already commissioned that comparison, return the supported advice now and obtain the outstanding result under the agreement. For a discretionary request, weigh the decision it could change against the full cost of obtaining and using it.
 
 For a separate continuation, suppose qualified results now cover allocation and security for all three directions. They exclude the specified provider configuration and keep internal development feasible. The committee’s immediate question about the mixed arrangement concerns timely restoration after a critical incident. Its proposal explains what the trial can distinguish, its exposure, feasible cost and when to stop. Compared with committing now or obtaining the same information another way, the case supports the trial’s information value at its cost and delay. The adviser can therefore recommend considering the trial first while retaining internal development. Its outcome remains open. Even knowing how quickly the service recovers would leave its failure frequency and the effects on throughput to be assessed for a deployment decision.
 
@@ -3235,7 +3235,7 @@ An available numerical score may dominate attention while a consent, continuity 
 | Use and reconsideration | The recipient can find the next use and exact reason to reconsider; required observation is feasible or named as a limit. |
 | Result boundaries | Recommendation, communication, later choice, WorkPlan, implementation and effect have not been substituted for one another. |
 
-If one check fails, repair or narrow the affected claim or return the honest stop. Request a missing result only when its obtainable contribution warrants acquisition. Do not erase independently usable content to make the account look uniform.
+If a check fails, repair the affected claim or state its supported limits. Return advice that already has sufficient grounds. For a discretionary inquiry, request the missing result when its attainable contribution warrants the work of obtaining and using it. When the adviser has undertaken to obtain or return that result, fulfil the undertaking on its terms or report the specific obstacle to the responsible recipient.
 
 ### PSDA.14:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -3383,11 +3383,11 @@ State whether the requested result is a proposal with conditions, an arrangement
 
 #### PSDA.15:4.5 - Interpret actual observations before revising advice
 
-When evidence arrives, first establish its subject, configuration, interval, provenance, Method, uncertainty and allowed use. Use `A.10` when the source-to-use account remains implicit or a needed reproducible account is missing. An adequate existing interpretation may support the answer; a missing one may limit or block it. Select a further specialist result through `A.15.9` and `C.11.DUA` only when its attainable contribution warrants the whole burden within the receiving window.
+When evidence arrives, establish the subject, configuration, interval, provenance, Method, uncertainty and permitted use that matter to its interpretation. Use A.10 if the source-to-use grounds need reconstruction. An adequate existing interpretation can support the answer. If more is needed, identify what remains open. Obtain a separately commissioned specialist result under its agreed terms. For a discretionary inquiry, weigh its attainable contribution against the full burden within the receiving window under A.15.9 and C.11.DUA.
 
 Compare the qualified evidence with the exact condition it was meant to test. Distinguish a change in the world, a changed source claim, an expired reliance window, a changed value judgement, a revised model and a merely changed representation. A diary review date is not by itself an expired reliance window. When meaning, applicability and access remain compatible, a repaired reference may finish the source update without renewed advice, multi-use search or another result record. An expired qualification or missing required observation limits the use that depends on it.
 
-When the source changes from configuration A to B, check which grounds transfer to B. Preserve the earlier result for its earlier subject and conditions. State which conclusion about B the available evidence leaves unsupported. Seek further evidence when its attainable contribution to the question warrants the cost. Similarly, failure to observe a threshold crossing proves nothing unless the observation coverage and sensitivity support that inference.
+When the source changes from configuration A to B, check which grounds transfer to B. Preserve the earlier result for its earlier subject and conditions. State which conclusion about B the available evidence leaves unsupported. For additional evidence, apply the agreed undertaking or the discretionary inquiry decision above. Similarly, failure to observe a threshold crossing proves nothing unless the observation coverage and sensitivity support that inference.
 
 Keep the observations and their interpretation distinct from the next decision. To report a changed action decision, use evidence of what the authorized holder decided. If the adviser concludes that a different action should be considered, that is renewed advice, not implementation control.
 
@@ -3397,10 +3397,10 @@ Trace the changed premise into the particular claim or disposition that relies o
 
 | Current return | When it is warranted | What happens next |
 | --- | --- | --- |
-| Unchanged within stated conditions | Qualified evidence does not alter the relied-on premise, or the changed claim is outside the inspected use. | Retain that bounded advice and its current conditions. State the next observation when a follow-up use needs it. This is not authority to continue an intervention. |
+| Same recommendation for the stated use | The changed matter leaves the original grounds intact, or another sufficient basis now supports the same recommendation. | If a premise has failed, withdraw the obsolete supporting claim and check what the other basis must supply, including timing and authority where relevant. Report the advice on its current grounds. State the next observation when the follow-up use needs it. |
 | Narrowed | A useful portion still has an adequate basis, but the previous scope, configuration, window or strength is no longer supported. | Return the surviving claim and the withdrawn scope explicitly. Do not relabel the narrowed result as the original whole. |
 | Blocked for the affected use | A necessary premise, authority condition, observation or interpretation is unavailable or no longer adequate. | State what cannot responsibly be advised or relied on now, the missing basis and who can supply the missing result or direct the question where that is known. Preserve separate usable content. |
-| Reopen a named contributor | A needed stronger answer warrants an obtainable source, candidate, value, uncertainty, model, consequence, robustness or scope result, considering the complete acquisition burden. | Obtain the bounded result from the appropriate source or request it from a capable contributor when a request is needed. The present qualified limit can close the earlier answer; a pending request is not the refreshed result. |
+| Reopen a named contributor | A further result is owed under the undertaking, or its contribution to an open decision warrants the full cost of obtaining it. | Obtain the agreed or selected result from the appropriate source. A qualified limit can close the immediate question while a separately commissioned contribution remains due. Report a specific obstacle when the undertaking cannot be fulfilled. |
 | Compose a later recommendation | Changed qualified premises require a different disposition or a newly composed answer to the receiving question. | Use `PSDA.14` with the current premises and remaining gaps. Preserve the earlier recommendation occurrence and the separate later choice. |
 
 These are scoped conclusions. One event can leave an internal-development claim unchanged, narrow a mixed-arrangement claim to configuration A, block advice about B, and reopen its evaluation supplier. Only the affected combined recommendation needs recomposition.
@@ -3460,7 +3460,7 @@ The same locality works with a human development premise. If an employee's avail
 
 A recipient has one short, reversible comparison whose evidence remains valid until a named review date. An existing arrangement can obtain the observation that matters within its allowed window. Retain it.
 
-If the named observation is missed, the current answer is the scoped evidence gap and its effect on reliance, not “unchanged.” If the receiving decision has ended and no continuing evidence, service or protection obligation remains, close this follow-up use with its final qualified return.
+If the scheduled observation is missed, identify the decision that depended on it. A qualified independent record spanning the same interval may support the original advice through the review date. When that particular observation was promised, also report the omission to the recipient. If its window has passed, establish what later work can still serve the purpose and who can agree to a change. If an unknown change during the interval could alter the advice, report what remains open and how that affects reliance. When the receiving decision has ended and no continuing evidence, service or protection obligation remains, close this follow-up use with its final qualified return.
 
 A population without a population-local recipient or choice owner does not acquire either through a follow-up table. Preserve the abstention from that recommendation use. A research team's separately authorized intervention has its own decision, experimental Work and observation conditions.
 
@@ -3481,7 +3481,7 @@ Outcome bias can rewrite the earlier advice as obviously correct or wrong after 
 | Check | Sufficient answer |
 | --- | --- |
 | Distinct results | Recommendation, later authorized decision, intended work, implementation and observation are distinguished wherever the finding relies on them. A missing fact is reported as a limit on the claim it affects. |
-| Material observation | Each selected observation can change a named premise, claim, alternative, condition or boundary; any threshold has a qualified meaning. |
+| Observation and its purpose | Each selected observation has a basis in a named decision or in an explicit undertaking to obtain it. Identify the premise, alternative or condition it could resolve, or the promised work for which the observation itself is due. Give any threshold its qualified meaning. |
 | Design choice | The proposed arrangement covers the required uses within available time and resources. A comparison, where requested or needed for the choice, addresses the material differences in coverage, delay and burden. Any PSDA.17 constraints apply to the work that has to run together. |
 | Viability | Any observation, interpretation and return relied on here have the necessary performers, access, resources, timing, protection and failure route. |
 | Current evidence | The evidence fits the subject, configuration, interval and use. A claim based on an event’s absence accounts for observation coverage and sensitivity. |
@@ -3550,7 +3550,7 @@ The practice question is **how to keep decision support useful under change with
 
 **Use this when** a practice needs to assess how its problem-structuring and decision-support Methods fit recurring work, or decide which offerings to retain, change or withdraw. A familiar workshop no longer covers a recurring participation difficulty. A new analytical technique seems promising, but its input assumptions differ from those of the existing repertoire. Follow-up exposes a repeatedly broken join between a material correction and the recommendation that should use it.
 
-Start with the recurring difficulty and the result the practice needs. Which way fits which situation? What change could help, what would justify a trial, and where might the current offering need a limit? A better source or evidence of a recurring failure may support one local change.
+Start with the recurring work, the result its users need and the question about the practice's offering. Which way fits which situation? A recorded difficulty or a prospective engagement can reveal a condition worth examining. Establish what supports retaining the present way, changing it, trying another or qualifying what the practice can offer.
 
 This method concerns the reusable ways a practice structures problems and supports decisions. Describe each Method and any candidate under consideration, the work it can serve and the grounds and limits for that use. A catalogue of schools, tools or courses does not by itself give a practitioner those grounds.
 
@@ -3638,13 +3638,13 @@ The [2019 Smith and Shaw review](https://doi.org/10.1016/j.ejor.2018.05.003) pro
 
 A recent decision-analysis synthesis such as [Borgonovo et al. (2026)](https://doi.org/10.1016/j.ejor.2025.05.023) can identify developments in value-focused thinking, graphical modelling, uncertainty, sensitivity and information acquisition. For a particular Method, consult the source needed for its meaning and scope.
 
-Use a qualified existing interpretation, domain result or representative evaluation when it answers the question. For a missing contribution, use `A.15.9` to assess whether obtaining it is worthwhile and respect the supplier’s authority where applicable. Use `A.10` when the source-to-use account is implicit or a reproducible account needed for this use is missing. If a decisive source remains unavailable, qualify the offering or identify the dependent gap.
+Reuse an adequate existing interpretation, domain result or representative evaluation. When a contribution is owed, recover the undertaking and its conditions under A.15.9. For a discretionary inquiry, weigh what the result could establish against the cost of obtaining and using it. Respect the supplier's authority. Use A.10 where the basis for reliance needs reconstruction. If the decisive contribution remains unavailable, identify what that limits in the offering.
 
 #### PSDA.16:4.5 - Trial the claimed improvement in representative engagements
 
 For a selected trial, turn the proposed improvement into a question that can fail. Specify the Method or status-preserved candidate, the situation represented, participant and power conditions, required capability and support, a serious comparator when the claim is comparative, the expected result, the burden accepted, and the observation that would retain, narrow or reject the proposal.
 
-Select evidence proportionate to the claim. A walkthrough can expose an impossible join. A constructed exercise can test whether practitioners preserve an objection through a calculation. An authorized field trial can test feasibility and use in a real engagement. Broader transfer or causal-effectiveness claims need stronger and appropriately designed evidence.
+Select evidence for the claim at hand. A walkthrough can expose an impossible connection. A constructed exercise can test whether practitioners preserve an objection through a calculation. For another engagement, identify the operation and conditions on which the result depends. Establish whether the receiving engagement supplies them or an adequate counterpart. A rule covering those conditions can establish fit or rule a proposal out. Obtain further grounds where a consequential condition remains open. Actual use and improved decisions require evidence of those outcomes and, for a causal claim, of what produced the improvement.
 
 For a claim about how the Method works, examine the relevant actions alongside the output. For example, establish who could contribute or challenge; which material statement entered the model; where meaning changed; what was withheld; how uncertainty and protected conditions reached the recommendation; and whether the receiver could use it. The distinction between technically valid models and what people do with them is central to [Franco et al.'s behavioural OR review (2021)](https://doi.org/10.1016/j.ejor.2020.11.031). It supports attention to intervention configuration and interaction, not one universal trial design.
 
@@ -3664,7 +3664,7 @@ For each entry that matters to the task, make the relevant conditions and ground
 
 | Repertoire position | Content needed for use |
 | --- | --- |
-| Recurring situation and receiving result | Who uses the offering, what difficulty it addresses, which result it provides, and the conditions that matter. |
+| Recurring situation and receiving result | Who uses the offering, the work or difficulty it serves, the result it provides and the conditions that affect its use. |
 | Method or candidate | Exact reusable action and status; entry, joins, allowed variation and stop; where the full description can be obtained. |
 | Reason for the assessment | Grounds for retaining, limiting or changing the offering. For a comparison, the relevant alternative, gain, effort and other losses. |
 | Evidence and source basis | Sources or trials that support the claim, their conditions and limits, any contrary evidence and any question still open. |
@@ -3716,7 +3716,7 @@ The third proposal changes a reusable join and closing condition by allowing a r
 
 In the constructed case, the practice tests the two rules in an exercise. The investment decision remains with its holder. Both the incumbent and proposed rule are examined on the same two realistic situations: all required inputs available at the meeting, and a material access correction arriving afterward. Participants' access, analyst time and the receiving deadline are made explicit. The test is whether the correction changes the exact affected comparison while preserving dissent and independent usable claims.
 
-In the illustration, the incumbent gives an adequate bounded return in the first situation but leaves the second correction outside its closed result. The proposed rule preserves the correction and exposes its unresolved consequence in the second situation, at the cost of a further qualified return and analyst/facilitator time. This exercise supports the proposed join's feasibility under those conditions. A claim about better public decisions or transfer to other engagements would require further evidence.
+In the illustration, the incumbent gives an adequate bounded return when the inputs are available at the meeting. Its closing rule excludes a material correction received later even if the investment decision still lies ahead. That exclusion follows wherever the same rule closes the only permitted intake before a required correction arrives. The proposed rule can preserve the correction and its unresolved consequence where someone can receive and qualify it and return its effect in time to inform the decision. The additional work needs analyst and facilitator capacity. If the decision was already made, the recipient faces a different question about reconsidering it. The exercise establishes feasibility in its stated conditions. Actual adoption elsewhere and any effect on public decisions remain separate empirical questions.
 
 The practice reaches the following conclusions for this service.
 
@@ -3821,7 +3821,7 @@ The practice question is **how to develop a usable professional repertoire under
 - `PSDA.13`, `PSDA.5`, `PSDA.6`, `PSDA.7`, `PSDA.8`, `PSDA.9`, `PSDA.14`, `PSDA.15` and `PSDA.17` expose participation, alternative, comparison, recommendation, follow-up and arrangement requirements that a Method offering may need to preserve.
 - `A.3.1` governs Method identification; `A.3.1.DR` recovers documentary contributions when their source meaning or status is unclear; `A.3.1.MR` recovers candidate ways from performance evidence. `A.3.2` governs a MethodDescription rather than admitting every multi-Method package.
 - `A.3.1.MV` can supply qualified generic variant, derivation and non-variant maintenance guidance. Resemblance or shared repertoire vocabulary does not by itself establish a formal Method-specialization relation.
-- Use `A.15.9` to reuse or, where worthwhile, obtain a qualified source or specialist contribution. Use `A.10` when the source-to-use account remains implicit or a reproducible account needed for this use is missing. Use `A.10.1` for the applicable affected-use question and `G.11` for currentness or refresh. The repertoire judgement uses the subject evidence.
+- Use A.15.9 to recover the undertaking for an owed source or specialist contribution. For a discretionary inquiry, compare its value and burden and reuse adequate existing results. Use A.10 when the basis for use needs reconstruction, A.10.1 for the affected-use question, and G.11 for currentness or refresh. The repertoire judgement uses the subject evidence.
 - `G.5` declares a selector-facing result when that claim is live over identified members and grounds; it supplies neither a universal Method-family classification nor professional fit.
 - For cultural relations, use `C.36`. A repertoire entry or local observation can supply evidence for `PSDA.18` when the question concerns generation, transmission, receiving enactment, recognition, selection, retention or loss. State what remains unobserved.
 - An unavailable, stale, out-of-scope or incompatible input calls for a qualified direct source or the exact gap.
@@ -5326,7 +5326,7 @@ A notice identifies configuration B. An observation from B is available, while t
 
 If the candidate generator, its archive or its open-ended search changes, establish what changed in its operators, descriptors, retained candidates or governing policy and which use depends on it.
 
-If an expected observation is missed, report which use now lacks evidence. Close the follow-up when the decision has ended and there is no continuing service or protection duty.
+If an expected observation is missed, establish whether other evidence supports the affected use and report any remaining gap. Account separately for an observation owed under the agreement. Close follow-up when the decision has ended and applicable observation, service and protection undertakings have been fulfilled or otherwise settled on their terms.
 
 
 

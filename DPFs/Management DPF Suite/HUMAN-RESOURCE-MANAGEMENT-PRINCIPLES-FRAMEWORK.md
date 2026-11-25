@@ -31,7 +31,7 @@ Anatoly Levenchuk, with AI-assisted development. Original framework text: [CC BY
 
 ## Practical entries
 
-If one of these situations fits, follow its starting link. If your question does not fit an example, use the [Table of Contents](#table-of-contents), search the complete text, or follow [Using FPF Library](../../USING-FPF.md) to find the relevant contribution.
+Choose the starting link by what the recipient needs from you in the situation described. More than one question can arise about the same appointment or pay decision. For other questions, use the [Table of Contents](#table-of-contents), search the complete text, or follow [Using FPF Library](../../USING-FPF.md) to find the relevant contribution.
 
 ### Connected conditions — One personnel change defeats another commitment
 
@@ -47,11 +47,11 @@ If one of these situations fits, follow its starting link. If your question does
 
 ### Selection — An assessment must support a consequential choice
 
-**Situation.** You must recruit, promote or allocate a person, and a course result, work history, interview or AI score is offered as evidence.
+**Situation.** You must judge a person's suitability for a post or choose people who can do a job together. Work histories, interviews, work samples or AI scores may be offered as evidence.
 
 **Question.** What does that evidence warrant for the actual work and decision?
 
-**First useful result.** A supported judgement about the person’s contribution to the specified work, a comparison or recommendation when required for the appointment, or a consequential evidence gap.
+**First useful result.** A supported finding about the person's contribution or about the work a proposed group can cover with the support available. Give a comparison or recommendation when the appointment calls for one. Identify any gap that affects it.
 
 **Start with.** [HRM.2](#hrm2---substantiate-a-personnel-assessment-and-selection).
 
@@ -59,15 +59,15 @@ If one of these situations fits, follow its starting link. If your question does
 
 ### Reward — The basis of a pay difference is unclear
 
-**Situation.** Jobs change, market rates diverge, a progression promise is disputed, or individual targets penalize the help the organization requests.
+**Situation.** An employee asks what they earned last quarter, changed work makes the basis of a pay difference unclear, or individual targets penalize the help the organization requests.
 
-**Question.** Which job, market, contribution and obligation grounds should determine the terms?
+**Question.** What do the terms in force entitle the person to for the work and period in question? If revised terms are needed, on what grounds should they change?
 
-**First useful result.** An explained reward arrangement with an implementable transition.
+**First useful result.** An answer about the entitlement and its grounds, or a supported proposal for new terms and how they could take effect.
 
 **Start with.** [HRM.3](#hrm3---design-and-revise-remuneration-and-progression).
 
-**Stop or return.** If the existing rule and entitlement are clear, use Organization Administration to correct provision. A contested rule or valuation can need HRM.4.
+**Stop or return.** An explanation can settle the employee's question. If the payment falls short and correction is due, use Organization Administration to obtain and verify the correction. A contested rule or valuation can call for HRM.4.
 
 ### Voice — A person needs to influence or challenge a personnel decision
 
@@ -128,8 +128,8 @@ This is a plural professional discipline. No single theory of motivation, econom
 | Method | Its own result | What it supplies to another Method |
 | --- | --- | --- |
 | HRM.1, coherent arrangement | A compatible combination of workforce practices, work, terms and provision, or an identified unresolved dependency | Relevant work and participation conditions for HRM.2–HRM.5; receives their findings when a combination must change |
-| HRM.2, assessment and selection | A warranted finding about a person's contribution under the conditions of the proposed work, with a comparison or recommendation when the commission calls for one | The supported capability and suitability inference; not an appointment, entitlement or clinical conclusion |
-| HRM.3, remuneration and progression | Explained reward terms and their transition | Obligations and incentives affecting selection, participation and helping work; receives changed job demands and qualified contribution findings |
+| HRM.2, assessment and selection | A warranted finding about a person's contribution or a group's ability to cover the proposed work, with a comparison or recommendation when commissioned | Grounds for assessment, including the support the selected people would rely on. Appointment requires the applicable decision. |
+| HRM.3, remuneration and progression | An explanation of what a person or group is entitled to under the terms applicable to the work and period, or proposed terms and a practicable transition | The amount or condition to apply in provision, or the obligations and incentives to account for when arranging work. Changed duties or contribution findings can reopen the relevant basis. |
 | HRM.4, voice and contested decisions | Obtainable influence, a qualified determination or a remedy | Participant knowledge, negotiated terms or a decision that can require any affected practice to change |
 | HRM.5, participation and transitions | A particular continuation, absence, return, movement or exit with actual work, support and effective terms | Individual conditions and consequences; returns recurring incompatibilities to HRM.1 |
 
@@ -533,7 +533,7 @@ HRM.1 supplies the connected work and terms; HRM.3 supplies reward terms; HRM.4 
 
 ### HRM.3:1 - Problem frame
 
-**Use this when** remuneration, benefits or progression need a justified design or revision: job demands have changed, external rates differ, pay relationships are unexplained, or reward undermines the contribution being requested. Begin by identifying the actual terms and which ground is unsettled. The first useful result is an explained, affordable and institutionally supportable reward arrangement with a usable transition.
+**Use this when** an entitlement or pay difference needs explaining, or remuneration, benefits or progression need design or revision. Start with the question. For an earlier period, use the terms then in force and the facts on which the entitlement depends. To propose new terms, establish which job demands, participation needs or obligations the present arrangement fails to meet, or which new opportunity it should support. Develop an affordable, supportable proposal and show how the transition could take effect.
 
 The object is the reward arrangement and its grounds. If a current entitlement is clear and only payment is wrong, use ADM directly. An operating appraisal alone does not determine a wage obligation.
 
@@ -554,9 +554,9 @@ Different questions hide under “fair pay.” Job value concerns the demands of
 
 #### HRM.3:4.1 - Recover the reward question and existing commitments
 
-Identify the affected jobs, people and time periods; the current terms; applicable agreements, minimums, equality and consultation requirements; the authority to alter them; and the available budget and payment capacity. Obtain qualified interpretation where an act depends on uncertain institutional grounds. Separate an owed amount from a prospective design choice.
+Identify the jobs, people, period and terms that matter to the question. For an entitlement, apply the governing agreements and requirements to the facts of that period. An owed amount can be established even when payment capacity is uncertain. For a proposed change, establish the continuing obligations, budget, payment capacity, applicable equality and consultation requirements, and who may give the change effect. Obtain qualified interpretation where the answer depends on disputed or uncertain grounds.
 
-State what work or participation the arrangement should support and who is expected to provide it. Identify who can receive or use the proposed rewards. An employer may seek scarce capability, predictable service, progression, shared learning or some combination. Employees can value money, time, security, flexibility and opportunities differently. Obtain their relevant responses instead of assuming a universal preference ranking. Non-financial conditions can matter to an offer, but do not erase an existing monetary or protective obligation.
+When designing an arrangement, state what work or participation the arrangement should support and who is expected to provide it. Identify who can receive or use the proposed rewards. An employer may seek scarce capability, predictable service, progression, shared learning or some combination. Employees can value money, time, security, flexibility and opportunities differently. Obtain their relevant responses instead of assuming a universal preference ranking. Non-financial conditions can matter to an offer, but do not erase an existing monetary or protective obligation.
 
 #### HRM.3:4.2 - Establish the different bases of comparison
 
@@ -614,7 +614,7 @@ Where a difference raises an equality or other institutional question, obtain th
 
 For a proposal, specify who would be affected, when the change would apply, which commitments continue and whose decision or agreement would give it effect. If payment or implementation is due, establish the effective act or existing obligation. Make the entitlement, effective date and payment instruction usable through ADM and reconcile actual provision with the terms. A correct policy file and a payroll implementation can diverge.
 
-Observe whether the arrangement obtains the intended participation and contribution under its conditions. Distinguish recruitment response, retention, helping behavior, burden, pay distribution and fulfillment of obligations. Reopen the relevant basis when jobs, markets, rules or consequences change. Do not infer that a person lacks motivation because an offer is unattractive, or change a progression rule retrospectively because its authorized result is inconvenient.
+To assess an arrangement in use, observe whether it obtains the intended participation and contribution under its conditions. Distinguish recruitment response, retention, helping behavior, burden, pay distribution and fulfillment of obligations. Reopen the relevant basis when jobs, markets, rules or consequences change. Do not infer that a person lacks motivation because an offer is unattractive, or change a progression rule retrospectively because its authorized result is inconvenient.
 
 ### HRM.3:5 - Archetypal Grounding
 
@@ -641,6 +641,8 @@ The earlier 600-point result still describes the earlier job. The work change su
 Job descriptions and market categories can omit work disproportionately performed by particular groups. Past pay is not an independent valuation of present work. Include appropriate participant information and professionally warranted comparisons. A favorable average can conceal unequal access to a benefit or a progression opportunity.
 
 ### HRM.3:7 - Conformance Checklist
+
+Choose the questions that bear on the result being delivered. For an explanation of entitlement, can the recipient trace the answer to the governing terms and the relevant facts for that period? For proposed or implemented terms, examine the decisions and effects that the work covers.
 
 - Can each material pay difference be traced to an applicable obligation or an explained job, market, progression or variable-reward ground?
 - Do actual job profiles and comparison populations support those grounds, with an applicable evaluation scheme and unresolved judgements made visible?

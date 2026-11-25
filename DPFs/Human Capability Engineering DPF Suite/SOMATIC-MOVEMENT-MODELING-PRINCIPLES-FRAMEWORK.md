@@ -99,9 +99,9 @@ The writer uses SOM.1 to locate the break and relate the change of forearm suppo
 
 Suppose a small familiar adjustment seems relevant but cannot be distinguished at the support change. Use SOM.2 to find a suitable contrast there. If the writer notices the adjustment but cannot regulate how it develops, use SOM.3 to practise it in discernible increments while retaining pen contact and guidance.
 
-With SOM.5, the writer keeps the support transition inside a shorter stroke. The writer begins from an available portion, extends towards the difficulty and learns a workable adjustment over a little more of the transition. SOM.4 supports recalling the combined development and joining overlapping portions in motion. A cue that precedes the loss can be connected to the response once that response is available.
+The writer chooses a shorter stroke that still crosses the change of support. With SOM.5 the writer tries a familiar adjustment at two recognizable points on that stroke. One leaves time to make it while the pen keeps moving. SOM.4 helps the writer recall how contact and guidance work together and join that portion to the longer stroke. The worked comparison in [SOM.5:5](#som55---archetypal-grounding) shows how to select a cue from what happens during the transition.
 
-For the longer stroke, restore the required speed and other receiving conditions. Judge whether the line remains continuous through the transition. A familiar sensation can accompany another break. A shorter successful portion remains useful preparation. If a cue or adjustment is still missing, identify what observation or instruction would help.
+Restore the required speed and support for the longer stroke. If the client needs an unbroken line, inspect the drawing. If the writer also undertook to make it in one uninterrupted movement, observe that stroke through the transition with enough detail to distinguish a pause. The pen can stop on the paper and resume at the same point. A familiar sensation or a good short stroke gives the writer something to try in the longer one.
 
 If an earlier comparison had shown that changing paper restored the line without relearning the hold, the route would have ended differently. The writer could use that condition if the work permits it. When the original paper is mandatory, the writer still needs a way to produce the line on that surface.
 
@@ -538,7 +538,7 @@ When familiar recall yields an unsuitable result, locate the discrepancy. The mi
 
 ### SOM.4:5 - Archetypal Grounding
 
-A writer can hold a pen securely and guide a stroke but pauses to check grip, wrist and forearm in turn. The writer starts with a familiar short mark in which hold and guidance work together, attends to how the combination develops and tries to recall it for another mark. Across attempts the writer and any observer can examine different details. The written line provides evidence about whether the repeated stroke remained continuous.
+A writer can hold a pen securely and guide a stroke but pauses to check grip, wrist and forearm in turn. The writer starts with a familiar short mark in which hold and guidance work together, attends to how the combination develops and tries to recall it for another mark. Across attempts the writer and an observer can examine different details. The finished mark shows whether the ink line is unbroken. The writer could have paused with the pen on the paper and resumed from the same point. To judge whether this stroke kept moving, use an observation of its progress through the interval where the pause could occur.
 
 If the stroke requires a transition in forearm support, successful short marks under fixed support leave that transition untested. Use SOM.5 to construct it when learning the transition is the task. Shortening the movement helps only if the reduced task retains the relation that matters.
 
@@ -643,9 +643,9 @@ If the transition fails, retain what the preparation established, including the 
 
 An experienced writer draws a continuous line in two familiar forearm positions, but the line breaks during the support transition. Sequentially checking grip, wrist and forearm also stops the stroke. The pen and paper have been checked.
 
-Across attempts, the writer relates the point where the line breaks to the change of forearm support. The writer selects a shorter stroke that retains the transition. Starting from the portion where contact and guidance work together, the writer compares small familiar adjustments near the point of failure. The writer learns how a workable portion develops, then joins overlapping portions in motion.
+The writer relates the break to the change of forearm support and chooses a shorter stroke that still crosses it. In one trial the writer waits until the support reaches its edge to begin a familiar adjustment. The pause is already visible. In another trial at the same speed, an earlier visible point on the path cues the same adjustment. An observer sees the pen keep moving across the edge while maintaining the line. That earlier cue gives the writer a workable way through this short transition.
 
-The writer can use a visible point on the drawing path to time an adjustment already learned. Once the transition works on the short stroke, the writer tries it over the longer stroke at the required speed. If the appropriate response is still unknown, the result identifies where the relation between contact and support is lost. That finding can guide another familiar variation or a request for instruction.
+The writer then joins this portion to the longer stroke and tries the adjustment at the required speed and support. If the earlier visible point disappears on a different drawing, find another cue the performer can use in time, or establish that the transition already works there. A later cue may still help someone asked to recover after a stop. If the adjustment is still unavailable, the point where contact or guidance is lost can guide another familiar variation or a request for instruction.
 
 For a salsa turn, use dance technique to identify the transfer of support, steps and partner interaction. A reduced task must preserve the support change during which the failure occurred. Static positions can show what the dancer does at the endpoints. To assess the turn at the required tempo, use observations in motion at that tempo.
 

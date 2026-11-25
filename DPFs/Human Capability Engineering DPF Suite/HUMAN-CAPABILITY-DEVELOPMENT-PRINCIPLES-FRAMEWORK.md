@@ -5365,17 +5365,17 @@ Check any available specification against the material, audience, required tasks
 
 Start from the work the audience should be able to perform or practise. Recover its required distinctions, prerequisite operations, acceptable variants, and consequential errors from the problem and a qualified subject basis. If the promise is to construct a model or a method, identify which choices belong to the learner. They may have to decide whose work to include, where to stop following its parts or prerequisites, and which differences the model must retain for the recipient. A correct answer in a table which already selects those parts and differences can demonstrate use of that table. Use the work promised to the learner to judge coverage.
 
-For each promised task, ask what a successful contribution would contain and which plausible wrong contribution an apparently adequate explanation might also produce. Choose a case on which the alternatives differ. In the time example, an uninterrupted interval cannot distinguish active effort from elapsed turnaround; an interruption can.
+For each promised task, establish what would count as a warranted contribution. When a plausible competing account matters, choose grounds that distinguish what the accounts predict, permit or explain. An interruption can distinguish active effort from elapsed turnaround in a time record. Two procedures can also give the same answer to the particular question. If the learner must establish which procedure was authorized or used, evidence about its authority or use can settle the issue. A direct argument covering the required conditions can also suffice.
 
 Compare those requirements with the explanations, examples, practice and help the audience can use. Include an external contribution when the audience can reach and use it at the point where it is needed.
 
-For a new or changed specification, use three kinds of contrast. Reuse suitable cases when available.
+For a new or changed specification, identify which of the following distinctions its declared use requires. Exercise them on attainable cases. Reuse applicable cases and calibration when revising an existing specification.
 
-- an in-scope material that supplies the needed contribution;
-- an in-scope material with a consequential deficiency;
-- a nearby object or use for which this specification would answer the wrong question.
+- Material in the declared domain can supply the required contribution. Establish what supports that finding.
+- An in-scope deficiency can prevent the intended use. Show how the evaluation detects it when that outcome is attainable.
+- A nearby object or use can fall outside the specification. Establish how the evaluator can recognize that boundary and handle such a submission.
 
-These contrasts test fit as well as quality. A personal capability judgement is outside a material specification even when the same learner task appears in both.
+These distinctions test fit as well as quality. If the domain or its conditions exclude an outcome, show why the exclusion covers the domain. An outcome for which no case has yet been found remains open. A personal capability judgement, for instance, falls outside a material specification even when the same learner task appears in both.
 
 Distinguish the subject basis from manufacturing history. For a judgement about an existing book, inspect the contribution it makes in the intended use. If fidelity to a transcript, prescribed edition, or earlier rendering was promised, evaluate that source-to-material relation on its own evidence.
 
@@ -5393,17 +5393,17 @@ Select all properties needed for the declared conclusion. Two profile questions 
 
 #### HCD.18:4.4 - Bind values, evidence, and decisions without collapsing them
 
-For each selected characteristic, define its value domain, scale type, polarity, anchors, and conditions of applicability. A numerical scale needs an interpretation: a count, a measured duration, and an ordinal repair judgement support different operations.
+For each selected characteristic, define the values it can take, the scale type and the conditions under which it applies. State a preferred direction, target range or anchors where they have meaning for the decision. A category identifies a kind, a count gives a number of qualifying units, a duration measures elapsed time, and an ordinal judgement can place a needed repair among ordered alternatives.
 
 For structural amount, a description of recovered and missing relations can suffice. For a count, define the semantic units and what qualifies for the selection. Establish the number from membership or from grounds that settle it across the possible selections. You can know how many relations were recovered while their identities remain open. A known empty selection has count zero. A recovery fraction uses the selected count as its denominator and requires it to be positive. If every selected relation was recovered, the fraction is one for any positive count. If none was recovered from a nonempty selection, it is zero. Where the remaining possibilities give different answers, report the supported range or the missing basis. Use C.2.8 for another scale. Distinguish observed recovery, a conditional design estimate and a mapped formal estimate. Identify any particular relation required for use, since recovering other relations cannot supply it.
 
 The profile’s optional 0–5 scale orders material conditions by use and repair. Its anchors distinguish absence of usable support, limited support, a connected central repair, a bounded repair, adequacy, and additional useful resilience. Use these ranks for ordinal judgements. Equal numerical spacing, arithmetic averages or an amount of recovered structure would require a different basis. Set a floor when the intended decision requires one and justify it for that use. State where each non-compensable requirement applies.
 
-Make adjacent values distinguishable in the domain. For explanatory sufficiency, distinguish rebuilding the central explanation–task chain from repairing one missing transition. Distinguish adequacy for the selected cases from an evidenced advantage across consequential variations. Assign 5 when the evidence shows this advantage over 4.
+For ordered ratings with adjacent values, make the neighbouring ratings distinguishable in the domain. On the profile's optional scale, rebuilding an explanation–task chain calls for a different rating from repairing one missing transition. A rating of 5 requires evidence of a useful advantage over adequacy at 4. For a category, state its membership criterion and what the evidence distinguishes. For a continuous measure, justify the value or interval at the resolution and uncertainty relevant to the decision.
 
 Define what evidence supports each value. Inspection can establish a false unit relation. A claim about a learner’s experience requires evidence of that experience. When audience fit depends on reader performance, specify what contribution to observe and the assistance conditions. Report any missing evidence separately from an observed material value of 0.
 
-For each characteristic, define how to report the value or reason it cannot be assigned, the evidence and limiting case, and the grounds for distinguishing adjacent values. Include implications for the intended use and the smallest worthwhile repair where one is needed. Refer to a shared observation wherever it supports a property and count it once as an observation.
+Specify the evidence that warrants a value on the chosen scale and what to report if that value cannot be determined. Give the limits that matter to the intended use and the smallest worthwhile repair when one is needed. A shared observation can support several properties while counting once as an observation.
 
 When judgements differ, investigate the criterion that separates them. For 2 versus 3, determine whether the defect calls for rebuilding a connected central chain or for a bounded repair. If the evidence leaves that distinction open, report the disagreement. Revise a scale distinction that repeatedly fails to distinguish the findings or responses it was designed for.
 
@@ -5414,10 +5414,10 @@ An evaluator using an A.19.ECS specification needs the following information.
 | Specification content | What the evaluator must be able to recover |
 | --- | --- |
 | Object, use, and qualification | Exact material or material family, evaluation grain, audience prerequisites, tasks, assistance, subject/source state, question or decision, and window in which the basis remains valid. |
-| Fit and contrasts | In-scope adequate and deficient examples, outside-kind or outside-use example, entry decision, and the disposition of a forced invocation on an incompatible object. |
-| Characteristics and scales | Selected properties, their applicability, value domains and scale types, polarity, anchors, any floor or exceptional-value condition, and protected trade-offs. |
+| Fit and contrasts | The attainable differences between adequate and deficient material that affect the use, grounds for excluded outcomes, and the domain boundary and disposition of an incompatible submission. |
+| Characteristics and scales | Selected properties and applicability, value domains and scale types, and the anchors, preferred direction, target range, floors or exceptional conditions that apply. Identify trade-offs the decision must protect. |
 | Evidence and calibration | Coordinate-specific evidence minima, qualified subject criteria, tasks and relevant competing answers, admissible inference, missingness, known contrasts, and the needed reader or evaluator calibration. |
-| Result and evidence | Value or reason for missingness for every selected property. Give the relevant material, task or observation, available and received help, grounds for distinguishing the value from its neighbours, a limiting case, any needed repair and the claim’s scope. Preserve the task, criterion, first answer and assistance used when they affect the inference. |
+| Result and evidence | For each selected property, its value or reason for missingness, with the grounds appropriate to its scale, material or observation, relevant help, limits of reliance and any needed repair. Preserve the task, criterion, first answer and assistance used when they affect the inference. |
 | Decisions and continuation | Supported-use, repair-needed, insufficient-evidence, disputed-criterion, and fit-defect meanings as needed; stop, reopen, and next-evidence conditions; the starting result for E.23 if improvement is needed. |
 | Neighbouring claims and comparisons | Exact exits for human performance, transfer, retention, source fidelity, or production history. If selection among alternatives is live, the common comparison basis and E.22 use, including incomparable cases. |
 
@@ -5427,7 +5427,7 @@ An incompatible object normally stops before invocation. If an invocation is nev
 
 #### HCD.18:4.6 - Try the specification on contrasts and establish its continuation
 
-Check how an evaluator applies the specification to its adequate, deficient and outside-use contrasts. Use existing applicable calibration evidence or conduct the missing checks. Examine the judgements and repairs: can an ambiguous example hide a central defect, does the key reject a correct alternative, or does a missing observation receive a low material score?
+Check how an evaluator distinguishes attainable findings and recognizes the limits of the specification. Reuse applicable calibration evidence or conduct the missing checks. Where an outcome has been excluded, check the grounds. Examine whether an ambiguous case can conceal a central defect, whether the key rejects a correct alternative, or whether missing evidence has been given a low material score.
 
 Where an AI reader or evaluator is used, qualify the contribution it makes using applicable evidence. Subject-grounded counterexamples can calibrate defect diagnosis; simulated novice behaviour cannot establish human learning. A fresh reader is useful when private knowledge of the intended defect or answer would defeat the selected inference.
 
@@ -5494,11 +5494,11 @@ Use these criteria to check a constructed specification.
 
 - **HCD18-CC1.** The specification SHALL identify the material, grain, audience, tasks, prerequisites, assistance, subject basis, intended question or decision, and qualification conditions.
 - **HCD18-CC2.** The constructor SHALL check the compatibility of any available specification and derive the task denominator from the promised work rather than the present headings alone.
-- **HCD18-CC3.** The specification SHALL provide adequate, deficient, and outside-use contrasts and preserve the distinction between fit, material value, and evidence.
-- **HCD18-CC4.** Each selected characteristic SHALL distinguish conditions that affect the requested judgement, action, repair, evidence needs or protection of another contribution. Specify its applicability, scale, anchors and evidence requirements, and how to report a value or missing evidence.
+- **HCD18-CC3.** The specification SHALL distinguish attainable outcomes that affect the declared use, give grounds for any excluded outcome, and state how an outside-use submission is handled. Fit, material value and missing evidence remain distinct.
+- **HCD18-CC4.** Each selected characteristic SHALL distinguish conditions that affect the requested judgement, action, repair, evidence needs or protection of another contribution. Specify applicability, scale, evidence requirements and any meaningful anchors, including how to report a value or missing evidence.
 - **HCD18-CC5.** An ordinal numeric rendering SHALL NOT be treated as equal intervals or silently averaged. Any floor, exceptional value, comparison, or non-compensable condition SHALL be justified for the consuming use.
-- **HCD18-CC6.** The result requirements SHALL preserve the evidence and adjacent-value grounds needed to recover the judgement, including first response and assistance received or used when they change the inference.
-- **HCD18-CC7.** Calibration SHALL test discriminating contrasts and preserve criterion or evidence disagreements. Constructed cases SHALL be distinguished from observed reader work.
+- **HCD18-CC6.** The result requirements SHALL preserve the grounds appropriate to the scale for recovering the judgement, including the first response and assistance received or used when they affect the inference.
+- **HCD18-CC7.** Calibration SHALL check the attainable distinctions and any grounds for exclusion, and preserve criterion or evidence disagreements. Constructed cases SHALL be distinguished from observed reader work.
 - **HCD18-CC8.** The specification SHALL state supported conclusions, stops, reopens, neighbouring-claim exits, and the E.23 starting result when repair is needed.
 
 ### HCD.18:8 - Common Anti-Patterns and How to Avoid Them
@@ -5528,7 +5528,7 @@ Use the profile’s property meanings and comparison cautions for the tasks the 
 
 ### HCD.18:11 - SoTA-Echoing
 
-Evaluate the material for its intended use. Compare rules on tasks where their answers differ, examine what the feedback enables, and calibrate the interpretation of reader work. These checks can identify the explanation, task or support to repair, or the observation still needed, where a heading count or an expert’s correct answer leaves the defect undetected. Constructing discriminating cases takes work.
+Evaluate the material for its intended use. Distinguish competing rules when the evaluation depends on what they predict, permit or explain. Examine what the feedback enables and calibrate the interpretation of reader work. These checks can identify the explanation, task or support to repair, or the observation still needed, where a heading count or an expert's answer leaves the defect undetected. Construct a discriminating case when it supplies grounds the judgement needs.
 
 | Practice choice | Adopt, adapt, or reject; effect on this pattern | Source contribution, limit, and reopen condition |
 | --- | --- | --- |
@@ -5652,7 +5652,7 @@ Trace the material’s part in the outcome. Different explanations can warrant d
 | Observation | What to distinguish | Discriminating next move |
 | --- | --- | --- |
 | The reader cannot justify the next operation | Missing explanation, missing prerequisite, or a question the material never promised to answer | Inspect the promise and the preceding relation. Use existing evidence about help or try the least additional declared aid capable of distinguishing these explanations, when that inquiry is warranted. Preserve what the reader answered before it. |
-| A correct-looking example supports a wrong rule | A non-discriminating example versus a false or absent subject relation | Use a case on which the intended and rival rules produce different results; inspect both rules explicitly. |
+| A correct-looking example supports a wrong rule | What the observed result shows and which grounds would distinguish the rules | Recover the reader’s assigned judgement. Compare what the rules predict, permit or explain under its conditions. A direct argument, a discriminating case or evidence of how the result arose can distinguish their grounds. If both support the requested conclusion, say what the example already establishes. |
 | The key rejects a valid response | Criterion defect versus reader error | Check the domain criterion and preserve the response. If the key rejects a valid alternative, correct the key where a repair is requested. If the criterion is still disputed, state the limit. |
 | Separated concepts can be repeated but not combined | Missing relation, lost attachment, or unavailable prefix support | Inspect the two endpoints and the exact point of use; identify the missing relation or access and repair it where required. |
 | Success begins after the teacher names the decisive condition | Effective supported continuation versus independent recognition | Retain the helped result; use applicable evidence from an uncued response, or a fresh task or reader if warranted, for a claim about independent recognition. |
@@ -5662,7 +5662,7 @@ Trace the material’s part in the outcome. Different explanations can warrant d
 
 Interpret success or failure against the criterion, the material, prerequisites and available help. These can explain the same response in different ways.
 
-Apply the specification’s anchors to the material condition the evidence establishes. In a full evaluation, return each selected property with its value or the reason it is undetermined. A narrower diagnostic identifies the task and properties it covers. For adjacent values, check the meaning of the anchors and the reach of any repair. Report unresolved disagreement without averaging ordinal ranks.
+Apply the specification's evidence rule for each scale. In a full evaluation, return each selected property with its value or the reason it is undetermined. For a discrete ordered rating, use its anchors to distinguish neighbouring values, including the reach of a repair when that determines the rating. Report unresolved disagreement. A narrower diagnostic identifies the task and properties it covers.
 
 #### HCD.19:4.5 - Diagnose the smallest complete repair
 
@@ -5680,7 +5680,7 @@ If promised teaching support is unavailable, identify the missing service or con
 
 For a claim about a completed repair, check the changed relation at its task and point of use, using applicable existing evidence where it is sufficient. Reuse observations and values whose premises remain unchanged. Moving an explanation can reopen its former and new attachment and next-use prefix even when its words are identical.
 
-Use a meaningfully changed condition when the question concerns the reach of the repair. Choose a case with a different population, relevant condition, boundary or use so that a plausible overgeneralization would now fail. Preserve the same reader when studying supported continuation; choose a fresh task or reader when prior answer exposure would defeat the needed inference.
+When the reach of the repair matters, use a sufficient argument over the promised conditions or examine a relevant change. Determine whether the same answer remains justified, another answer is needed, or the claim exceeds its basis. The justification can change even if the action stays the same. Preserve the same reader when studying supported continuation. Choose a fresh task or reader when prior answer exposure would defeat the needed inference.
 
 A preparatory failed attempt may be retained when subsequent instruction examines and resolves the attempted alternatives. If that resolution is absent, labelling the difficulty “productive” supplies no evidence. Similarly, immediate ease is not the target when the task deliberately asks the learner to construct a new relation with adequate support.
 
@@ -5774,7 +5774,7 @@ Use these criteria for the requested evaluation.
 - **HCD19-CC3.** For a new test of independent recognition, the evaluator SHALL preserve the first response before supplying answer-bearing help. For existing work, establish what evidence of that response survives and which conclusion it supports. Where assistance affects the inference, distinguish what was promised, available, received and used.
 - **HCD19-CC4.** Assurance that the complete route works SHALL account for its consequential connections. A decision to withhold a use MAY rest on a demonstrated failure of a necessary condition across its allowed routes and help. A separately requested full evaluation SHALL retain its complete scope.
 - **HCD19-CC5.** The result SHALL distinguish the observed contribution, source-inspected material condition, prior knowledge, support, criterion defects, and missing evidence when they change the inference.
-- **HCD19-CC6.** A complete invocation SHALL return every selected coordinate with its value or lawful missingness, evidence, adjacent-value grounds, and limits. A bounded diagnostic SHALL declare its narrower scope.
+- **HCD19-CC6.** A complete invocation SHALL return every selected coordinate with its value or reason it cannot be determined, the evidence and grounds appropriate to the scale, and the limits of reliance. A bounded diagnostic SHALL declare its narrower scope.
 - **HCD19-CC7.** A repair return SHALL identify the defect, complete affected reach, proposed change, protected contributions, and discriminating next use for E.23.
 - **HCD19-CC8.** A repeated use SHALL preserve assistance and exposure conditions, reuse unaffected evidence, and distinguish supported continuation from stronger human performance, transfer, retention, or causal claims.
 
@@ -5941,7 +5941,7 @@ When scaling the cohort, recompute the number of task groups and the relevant re
 
 #### HCD.20:4.6 - Preserve interpretable observations and revise the right object
 
-For a design, specify what would show whether the planned actions occurred and what each learner performed with the permitted help. For a report on past use, check the available observations. A common report, observation note or explanation can be useful evidence for a bounded question. It does not automatically establish the same contribution for silent members.
+A design can establish that the material, time for an individual attempt and agreed help will be available. Where the agreement calls for observations, determine what would establish the result it specifies. A count of learners meeting a criterion can be supported by an aggregate when its basis shows which learners and attempts it covers. To report a named learner's performance, establish what that person did and what help bears on the claim. For a claim about provision to that learner, establish the promised access or help at the required time. For a report on past use, check what the available observations establish about the commissioned result.
 
 Use HCD.11–HCD.13 for the relevant personal performance, changed-condition or delayed-use question. For team capability, use appropriate evidence of integrated team work. For missing evidence, use a qualified source or identify what remains unknown. If a decision is needed, act within your authority or put the question to the decision holder. For a material or provider finding, use the appropriate material or operating evidence. Distinguish dissatisfaction, absence, inaccessible help and unsuccessful learning before attributing the result to motivation.
 
@@ -6026,7 +6026,7 @@ The Noerholk et al. study provides a concrete example of active observer possibi
 | Likely drift | Repair |
 | --- | --- |
 | Favourite-size bias | Derive the size of each action from its contribution and constraint; compare a plausible alternative where one could improve the answer. |
-| Visible-output bias | For a design, identify whose contribution the proposed observation could show and with what help. For a claim about performed work, establish who acted and under what assistance, or state what the observation leaves open. |
+| Visible-output bias | Where the arrangement includes observation, establish which individual or group contribution the observation can show and under what assistance. Use evidence of a named person's work for a personal performance claim. |
 | Diversity-as-score bias | Identify the task-relevant difference and where its contribution could be used. For a claim about use, identify what happened. |
 | Hidden-labour bias | Count reading, explaining, correction and coordination carried by participants. |
 | Stable-group inertia | Compare the benefit and burden of continuing the relationship with those of changing it, including transition costs and any contribution an existing membership excludes. |
@@ -6051,7 +6051,7 @@ These design values permit a bounded comparison. Reliance on actual contact, ope
 | Anti-pattern | Failure | Repair |
 | --- | --- | --- |
 | Cohort equals group | An enrolment number dictates every interaction. | Separate scales and derive each action's capacity. |
-| Division of labour equals learning | One member supplies the operation the others were meant to learn. | Allocate the personal contribution and a suitable later attempt. |
+| Division of labour equals learning | One member supplies the operation the others were meant to learn. | Give each learner the promised opportunity to perform the operation with the agreed help. Preserve the learner's own choice or justification when the target requires it. Use an adequate existing observation of later work. Arrange a further attempt when required to provide a missed opportunity, make a correction, establish later performance or carry out a newly commissioned attempt. |
 | Mandatory private attempt | A novice must invent an unavailable method before useful modelling. | Choose visibility and help for the learning purpose. |
 | Observer equals spectator | A useful observer action may be overlooked or assumed from attendance. | Identify the observer’s intended contribution and use evidence of it for claims about performed work. Provide a personal turn where the target requires manipulating the instrument. |
 | Weekly-hours illusion | Adequate totals hide simultaneous demand. | Compare the live window with qualified available capacity. |
