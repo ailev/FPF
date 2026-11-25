@@ -3218,7 +3218,7 @@ The colleague's local note is part of the working composition, but need not rewr
 | Local operation | Effect on the consuming use |
 | --- | --- |
 | Annotation | Adds an observation or question beside A1. It makes no replacement claim and does not change A1's requirements. |
-| Refinement | Narrows or specializes A1 for declared conditions. Qualify that narrower use and retain the unchanged upstream scope. |
+| Refinement | Compare the local instruction with A1 for the intended use. Identify a feasible local execution and show why every execution the local instruction admits still meets A1. To claim a narrower answer, identify a previously permitted answer to the same question that is now excluded. Naming the workshop that adopted A1 can leave the permitted procedure there unchanged. |
 | Replacement | Proposes using Y where the upstream account required X. Recover the changed dependencies, meaning and authority before relying on the substitution. |
 | Alternative | Offers a separate account for comparison. Keep the choice between accounts explicit; neither silently overwrites the other. |
 

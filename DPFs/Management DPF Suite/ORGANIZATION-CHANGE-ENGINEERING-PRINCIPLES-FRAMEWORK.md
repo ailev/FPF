@@ -695,7 +695,7 @@ Use OCE.3 for concepts and the responsible design or assignment method when new 
 | position description | An episteme describing a position, its expected contributions, eligibility, and applicability. A description does not establish the position or an assignment. |
 | system-role kind | A local classification usable by a declared assignment species. Support any assignment, capability, responsibility, authority or performed-Work claim separately. |
 | assignment | An obtaining occurrence of a declared species under `U.SystemRoleAssignment`. Its holder, assigned system-role kind, scope, window, and any real position participant remain recoverable. Identify the actual performer separately. |
-| authority | A direct relation under which a named System may issue a named decision result within a scope, window, and basis. Establish the rule, delegation or decision that actually grants that authority. |
+| authority | A direct relation under which a System may issue a specified decision result within a scope, window and basis. Establish the rule, delegation or decision that grants the relevant authority. To attribute it to a particular participant, identify who held it under those terms. |
 | resource-access relation | The relation by which Work or a System can use a named resource under stated conditions. Resource presence, budget, and licence are different claims. |
 | boundary relations | Named contribution, information-use, material-transfer, decision, service-provision, access, or coordination relations across a selected organization boundary. “Interface” may be retained as ordinary shorthand only after the boundary, selected structure, members, and direct relations are stated. |
 | formal/observed claim pair | Two separately sourced claims about what should obtain and what evidence says obtains. Their difference is a finding, not automatic failure. |
@@ -775,7 +775,7 @@ The result can be a few linked claims with a stated missing path. It need not be
 | actual Work | Supported occurrences, performers and their A.13 basis, enacted Methods, time intervals, conditions, containing Systems, associated results and limits; otherwise the observations and unresolved occurrence claim. |
 | supplied results and boundary relations | Participants, direct predicate, result/content/resource, conditions, carrier/support distinction, evidence, and status. |
 | position-related claims and assignments | Position establishment/continuation basis when available; otherwise separate description, expected-contribution, eligibility, holder, and assignment facts plus the missing establishment or identity basis. |
-| authority, responsibility, resources | Direct relations, subjects, scopes, windows, bases, evidence, and blockers. |
+| authority, responsibility, resources | The relations the receiving decision requires, with their scope, applicable times, grounds and any unresolved distinctions. Identify particular participants when the finding concerns them. |
 | formal/observed comparison | Matched claims with `agree`, `contradict`, `unknown`, or `changed-window`; the reasoning resolving an apparent difference; surviving explanations and any consequence for the requested finding or decision. |
 | participation/consequences | Any consequential omissions, hidden burdens, affected-System questions, protection needs or specialist contributions still required. |
 | return | Grounded account, any unresolved gaps, conditions for a dependent use of `OCE.3` or `OCE.11`, stopping point and grounds for reopening. |
@@ -828,7 +828,7 @@ The account records sampled occurrences and source windows. Organization capabil
 - [ ] Contribution supply, information use, material transfer, decision, service provision, access, and coordination remain distinct.
 - [ ] A position claim has an establishment/continuation basis, or only its separately supported neighboring facts are recorded.
 - [ ] Job title, position, system-role kind, holder, assignment, capability, responsibility, participation, and authority remain distinct.
-- [ ] Every authority and access relation names its participants, scope, window, basis, and evidence.
+- [ ] The grounds establish the authority or access that the decision relies on at the relevant place and time. Evidence that a qualified duty officer was available can settle an availability question while leaving the officer's identity open. Identify the participant when assigning a particular action or adjudicating that person's authority.
 - [ ] Formal/observed differences have explicit status and are not judged by mismatch alone.
 - [ ] An unresolved difference is retained with its competing explanations or missing basis; further inquiry is justified by what it could add to the finding or decision.
 - [ ] The account answers its question or states the consequential gap. Where a design depends on the account, it identifies the applicable constraints.
@@ -1841,7 +1841,7 @@ The result supplied to `OCE.9` contains one effective assignment, one effective 
 ### OCE.6:7 - Conformance Checklist
 
 - [ ] The contribution, question, Work or decision served, position when current, scope, horizon, and first consumer are explicit.
-- [ ] Every assignment uses one directly declared `A.2.1` species with exact participants, predicate, applicability, identity, and interval.
+- [ ] For a claim about a particular assignment, establish its directly declared `A.2.1` species, participants, predicate, applicability, identity and relevant interval. For a claim that a suitable assignment existed at a given time, establish that existence and retain any uncertainty about which assignment it was.
 - [ ] The position participates only when it changes the direct assignment species.
 - [ ] Proposed, decided-not-effective, effective, contradicted, expired, suspended, and missing branches remain distinguishable.
 - [ ] Authority, responsibility, permission, resource, access, membership, commitment, provider, equipment, and compensation relations use direct predicates.

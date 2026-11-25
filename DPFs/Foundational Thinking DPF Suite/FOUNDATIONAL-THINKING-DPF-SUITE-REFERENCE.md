@@ -374,7 +374,7 @@ Knowing addition and knowing the experiment's purpose can leave the intermediate
 
 A proposed faster constituent goes through [FPF B.1.5.RS](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#b15rs---evaluate-a-method-replacement-in-its-encompassing-uses): check what each relevant encompassing use needs, what survives and what adaptation is required. This vertical complements the longer result-to-use routes above. It does not prescribe a fixed number of levels or turn the five DPFs into five successive stages.
 
-If a changed model is claimed to be a strict refinement, keep the receiving question and its interpretation fixed. Show that at least one case remains possible, that all answers still admitted satisfy the earlier conditions, and that at least one previously admissible answer to that same question is now excluded. A new display may preserve every answer. Asking about a physical crossing in place of a sampled exceedance changes the question and calls for a link from the records to the process. [B.5.MR](https://fpf.tools/B.5.MR:4.2)
+If a changed model is claimed to be a strict refinement, keep the receiving question and its interpretation fixed. Show one case the changed model admits. Explain why every case it admits satisfies the earlier assertions when read in the original terms. Then identify an answer the earlier model allowed that none of the remaining cases yields. A new display may preserve every answer. Asking about a physical crossing in place of a sampled exceedance changes the question and calls for a link from the records to the process. [B.5.MR](https://fpf.tools/B.5.MR:4.2)
 
 
 

@@ -4723,7 +4723,7 @@ For a preservation claim, compare the original and transformed constructions ove
 R(new(x)) = R(old(x)) for every admitted x.
 ~~~
 
-The equality concerns that result. Expand R or the compared behavior when intermediate responses, errors or resource interactions also matter. For a bounded approximation, derive the bound and the inputs on which it holds. For a new capability, establish what the new construction can produce and which old requirements it still satisfies.
+The equality concerns that result. Expand R or the compared behavior when intermediate responses, errors or resource interactions also matter. For one-way refinement, establish that the changed construction has a feasible execution and that each execution it admits satisfies the earlier requirements under the intended interpretation. For a strict change in the answer, identify one previously possible result that no such execution yields. For a bounded approximation, derive the bound and the inputs on which it holds. For a new family that is claimed to include the old one, establish how the old executions remain available and what the new members can produce.
 
 Derive the gain separately. A reduction in the number of operations can imply less work under a supplied cost model. It may leave elapsed time unchanged, or increase storage and communication. Use the existing characterization and comparison methods when those trade-offs affect the choice.
 

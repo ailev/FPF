@@ -1441,12 +1441,12 @@ The opposite failure stores every record and overwhelms users. Important gaps, c
 
 ### OPS.4:4 - Solution
 
-Maintain the smallest decision-specific account that lets named participants recover exact subjects, current qualified claims, commitments, evidence, uncertainty, permissions, disagreements, next decisions, and refresh conditions. Present several views when needed, but keep claim and subject correspondence explicit.
+Maintain the account each participant needs for the decision at hand. Identify what each claim is about, its scope and the grounds for acting on it. Recover individual commitments, permissions, uncertainties, disagreements and refresh conditions wherever these affect the work. Several views can serve different participants when the correspondences required between them are clear.
 
 #### OPS.4:4.1 - Pattern-Use Unfolding
 
 1. **Name participants and decisions.** State who must resume, coordinate, hold, release, escalate, or perform next Work; name the horizon and useful stop for each action.
-2. **Import exact subjects and relations.** Use the OPS.3 operating-subject account. Do not let a dashboard row, case file, queue position, or control diagram replace the subject or obtaining relation.
+2. **Identify the operating subjects the decision concerns.** Use OPS.3 to establish what a row, file, queue position or diagram represents. A reliable count of people waiting in the agreed queue at opening time can settle whether to open another desk. To call the next person, the clerk also needs the relevant order and identity. Equip each participant for the work assigned to them.
 3. **Select claims that matter to the receiving work.** For each subject or commitment, state the claim, its effective scheme, conditions, time or horizon, and what decision or conclusion depends on it.
 4. **Attach evidence and provenance.** Preserve the source and support needed for the claim and receiving use, including the observation or result, carrier, transformation, version, reach and uncertainty where they affect reliance. Reuse that basis from the current account. Keep prediction, plan, observation and decision claims distinct.
 5. **Show material disagreements and gaps.** Where claims conflict, preserve their grounds and the decision they affect. Identify any missing observation or specialist result, stale evidence or uncertainty about authority that limits the decision.
@@ -1516,7 +1516,7 @@ The next coordinator cannot open the raw field source. The handoff therefore inc
 ### OPS.4:7 - Conformance Checklist
 
 - [ ] The account begins from named participants, decisions/actions, horizons, and useful stops.
-- [ ] Exact OPS.3 subjects, commitments, and direct relations remain recoverable in every relied-on view.
+- [ ] Each relied-on view identifies the subject and meaning of its claims. For a claim about a whole, its population, time and construction support the conclusion. Individual subjects, commitments and relations are recoverable by the people whose decisions depend on them.
 - [ ] Each current claim states content, scheme, time/horizon, conditions, evidence/provenance, uncertainty, and receiving action.
 - [ ] Observation, prediction, plan, record, decision, and world-state claims remain distinct.
 - [ ] Disagreements, missing observations, stale evidence, and specialist returns remain visible with their decision reach.
@@ -3994,7 +3994,7 @@ Start from the smallest available account that addresses the question. Open a lo
 
 A service block described by a fixed delay can be adequate for a question that leaves its load and resources unchanged. If the proposed release creates congestion inside that block, replace the fixed delay with the load-sensitive account needed for the comparison. Keep unaffected neighboring blocks at their sufficient level of detail.
 
-Ask two different questions about a proposed model change. Which participants, operations and assignments did each model represent, and what changed in the work itself? For the same operating question, which previously possible answers, configurations or histories can the revised model distinguish or exclude? For example, a subcontractor’s test may already appear as an external operation. Identifying its performer and their available dates can constrain the existing operation. If a new test is commissioned, it may add an operation to the work. If an accepted earlier report suffices, the current work may only need to obtain or use it. A model of batching and a model of acceptance can describe different dependencies at the same composition scale. Link them when the decision needs both.
+Ask two different questions about a proposed model change. Which participants, operations and assignments did each model represent, and what changed in the work itself? For the same operating question, what answers can each model still give? Several histories can yield the same answer. Excluding an earlier completion time may matter for choosing a collection slot while leaving open both meeting and missing the delivery deadline. For example, a subcontractor’s test may already appear as an external operation. Identifying its performer and their available dates can constrain the existing operation. If a new test is commissioned, it may add an operation to the work. If an accepted earlier report suffices, the current work may only need to obtain or use it. A model of batching and a model of acceptance can describe different dependencies at the same composition scale. Link them when the decision needs both.
 
 Identify uncertainty separately from a deliberate simplification. “The loading time is unknown” calls for an estimate, range or observation if the answer depends on it. “We combine identical loading steps” is a modeling choice whose effect can be compared. C.11.DUA governs whether resolving an uncertainty is worth more than a restricted answer or a different action.
 
@@ -4124,7 +4124,7 @@ The method also favors consequential detail. That can miss an effect outside the
 - Shared participants remain shared across local accounts.
 - Product dependencies, resource use, enabling conditions and authority relations retain their meanings; a proposed change identifies which of them changes.
 - Each aggregate or cross-scale relationship has an operation and conditions appropriate to its receiving use.
-- A change in modeled scope identifies the subjects or constituent work added or removed. To call one model a strict refinement for the same question and interpretation, show that at least one case remains possible, every case it permits meets the earlier conditions and at least one formerly permitted case is excluded. For models answering complementary questions, explain how their results connect. [B.5.MR:4.2](https://fpf.tools/B.5.MR:4.2)
+- A change in modeled scope identifies the subjects or constituent work added or removed. To call one model a strict refinement for the same question and interpretation, show that at least one case remains possible, every case it permits meets the earlier conditions and at least one answer the earlier model allowed can no longer be obtained from any case the new model permits. For models answering complementary questions, explain how their results connect. [B.5.MR:4.2](https://fpf.tools/B.5.MR:4.2)
 - The returned result distinguishes the computed consequence from the assumptions about the operation that support it.
 - A changed premise identifies the affected account and receiving consequences.
 

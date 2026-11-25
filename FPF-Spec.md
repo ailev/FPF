@@ -8206,7 +8206,7 @@ For substitution and residual qualification, one occurrence begins when fixed or
 
 When a declaration, scheme, `KindSignature`, Bridge or other cited semantic-basis edition changes, compare the rule, orientation or set semantics, applicability, system-role-kind identities and meaning-bearing semantic basis. If these identity-bearing values remain unchanged, predicate identity is preserved. If a value changes, identify the changed predicate and establish whether it obtains for its participants; a new relation occurrence begins only when it does. If the comparison is unresolved, leave predicate continuity unresolved. Equal displayed labels establish no continuity.
 
-An affirmative assertion or occurrence description may state the known `systemRoleKindRelationExtent` only after current facts or accepted constituting history satisfy the predicate and the identity rule recovers the occurrence. Closing an open extent refines the same occurrence when obtaining was uninterrupted. A demonstrated predicate-false gap ends it; later truth begins another. Missing evidence leaves reliance unresolved and does not demonstrate a truth gap.
+An affirmative assertion or occurrence description may state the known `systemRoleKindRelationExtent` only after current facts or accepted constituting history satisfy the predicate and the identity rule recovers the occurrence. Evidence that fixes a previously unknown endpoint can refine the description of an uninterrupted occurrence. If the evidence contradicts an interval that the description already asserted, correct that assertion. A demonstrated predicate-false gap ends it; later truth begins another. Missing evidence leaves reliance unresolved and does not demonstrate a truth gap.
 
 `systemRoleKindRelationExtent` is content of an affirmative assertion or occurrence description, not a temporal SlotSpec. A target `declaredSystemRoleKindRelationEvaluationWindow` belongs to the receiving assertion or check and is not part of the direct relation signature or occurrence identity.
 
@@ -13263,7 +13263,7 @@ Reconsider the construction if another one retains the same consequential contin
 
 Use this pattern when a description of the present leaves a future result unresolved, or when you want to simplify a predictive account without losing an answer that matters. A total can hide components that change at different rates. A current readout can merge situations whose next outcomes have different probabilities. A summary adequate for the next output can lose information needed two steps later.
 
-**First useful move.** Find two admitted situations that the proposed description treats as the same. Apply the supplied change rule under the same inputs and compare the future result needed by the question. If one kilogram of substance A becomes half a kilogram after treatment, while one kilogram of substance B becomes a quarter, the description “one kilogram remains” cannot determine the next total. It can still supply the range from a quarter to half a kilogram.
+**First useful move.** Fix the future question, the inputs and the horizon. Try to derive the requested result or a sufficient bound from the retained information. To exhibit a loss, find two admitted situations with the same description and compare their futures under the supplied change rule. If one kilogram of substance A becomes half a kilogram after treatment, while one kilogram of substance B becomes a quarter, the description “one kilogram remains” cannot determine the next total. It can still supply the range from a quarter to half a kilogram.
 
 The Method constructs information sufficient for a stated prediction: additional state values, a usable history, a distribution over possible states or a bound that settles the question. Its result can also identify which missing distinction would change the answer. It connects the state, transition and observation contributions recognized by A.3.3.
 
@@ -13304,7 +13304,7 @@ State what the proposed description retains: present readings, model coordinates
 
 #### A.3.3.PI:4.2 - Compare situations merged by the description
 
-Construct two admitted states or histories with the same retained description. Keep the rule, input conditions and future question fixed. Derive their relevant continuations. A difference in the requested result identifies information lost by that description.
+When investigating a possible loss, look for two admitted states or histories with the same retained description. Keep the rule, input conditions and future question fixed. Derive their relevant continuations. A difference in the requested result identifies information lost by that description.
 
 For a deterministic discrete model, let x be its state, u its input, F(x,u) the next state and z = r(x) the retained description. An update z' = G(z,u) is well-defined when r(F(x,u)) has the same value for every admitted x having the same z, for each input covered by the claim. This condition says how to construct G: choose any compatible x, apply F and retain r of the result. All compatible choices must give the same answer. C.29.1 supplies the general comparison of operations under a representation change.
 
@@ -17766,6 +17766,8 @@ State a mechanism-declaration comparison only when its predicate is defined and 
 
 These rows test declaration content; they do not admit a relation kind or occurrence.
 
+If the declarations serve as models of possible applications, a strengthened condition can leave no admissible application at all. For model refinement, establish a feasible application of the later declaration and why each application it admits satisfies the earlier assertions under the selected interpretation. Which answer to the practitioner's question does the changed condition exclude? It may exclude a binding while leaving all answers to that question available. The distinction matters when deciding what the declared mechanism can still be used for. See B.5.MR:4.2.
+
 If the corpus already admits the comparison relation, use its direct pattern. If one case-specific comparison claim is enough, use A.6.RCD disposition 2 only after its claim subject, constructor, endpoint facts, and preservation facts are recoverable; otherwise preserve the applicable A.6.RCD result, distinguishing missing case information from a missing governor or derivation substrate and from a factually unsupported claim.
 
 When the same predicate must be reused across cases, apply A.6.RCD's reusable predicate-definition branch.
@@ -18813,7 +18815,7 @@ For a new account, name the present reader and use, locate the source, select th
 
 The ordinary result is the shorter candidate and its directly reachable source; the surrounding text may already make the use, loss, and return clear. Use §4.1 only when a separate comparison record helps the receiving use.
 
-The ordinary result is provisional: it can support the named local, reversible use while the source remains adjacent or directly linked, but it does not yet assert an exact CSC relation or make the candidate independently transferable.
+With the source adjacent or directly linked, the ordinary comparison can justify the named use when the retained claims, their grounds and the applicable rules suffice for the decision. If reliance depends on which exact source, candidate or coarsening was used, follow the exact branch below. Independent transfer also requires establishing what its recipient can recover without the adjacent source.
 
 When endpoint or construction identity changes interpretation, comparison, migration, conflict, publication, reuse, or reliance, identify A.6.3 construction `c : X -> Y`. `X` and `Y` are then independently constituted C.2.1 epistemes about the same EntityOfConcern. State the claim-content rule from `X` and any named additional source epistemes to `Y`, the relation between their effective reference schemes, preserved claims, controlled loss, prohibited strengthening, applicability, narrower admissible use, and return.
 
@@ -18963,7 +18965,7 @@ Neighboring guidance may cite CSC when controlled loss, narrower use, and source
 
 A variant that keeps all three conditions but adds `therefore release is approved` is rejected at the same comparison: the source states preconditions and an exception rule, not current approval status.
 
-The faithful candidate remains with its linked source, and the invented-status variant is discarded; the local comparison needs no separate card or C.2.1 dossier. If the faithful candidate will be cited in a release decision, the exact branch identifies `X`, `Y`, and `c` and adds only the source, work, evidence, gate, or assurance relations that decision needs.
+Keep the faithful candidate with its linked source and discard the invented approval. The local comparison gives the team the release conditions. If the decision also requires a trace to the exact source edition, identify `X`, `Y`, and `c` and add the source, work, evidence, gate, or assurance relations required for that decision.
 
 **Manager orientation summary.** Source episteme `IR-42-X` states trace, confidence-band, alternative-branch, and incident claims about incident `IR-42` under its effective incident-analysis scheme. Coarsened episteme `IR-42-Manager-Y` states the narrower cache-failover orientation claim about the same incident under its effective briefing scheme. `ManagerCoarsening : X -> Y` preserves the leading-concern claim, drops confidence bands and alternatives, and returns to `X`. A dashboard tile and its carrier expose `Y`.
 
@@ -39082,7 +39084,7 @@ The two primary specifications are source models and a comparator; the choice fo
 **Key outputs.**
 - `NCV` (NormalizedCharacteristicValue) values for coordinates.
 - When requested for a function `n:D→N`, the equality-of-output relation `x ≡_UNM y` iff `n(x)=n(y)` on its domain D. Its classes form a set quotient; preserving further operations or answers needs the additional tests below.
-- An inverse only on the stated image of an invertible transformation; an operational quotient only for compatible operations and recoverable queries; a `NormalizationFixSpec` only when a representative of an established class is needed.
+- An inverse only on the stated image of an invertible transformation; operations on classes where those operations are compatible, and answers to queries that are constant on each class; a `NormalizationFixSpec` only when a representative of an established class is needed.
 
 **Declaration and configured-method identifiers.**
 - `UNM_id?` identifies the selected UNM declaration episteme and its edition under A.6.1; it is distinct from the configured method and from an operation application.
@@ -39168,7 +39170,7 @@ Select the configured method and apply the declaration below:
 
 **`≡_UNM` (equality of normalization outputs).** For one fixed function `n:D→N`, define `x ≡_UNM y` iff `n(x)=n(y)`. Equality in N gives reflexivity, symmetry and transitivity on D. Thus the fibers form the set quotient `D/≡_UNM`. Inputs outside D have neither an n-value nor membership in this partition. This relation is distinct from the directed transformation graph.
 
-**Operational quotient.** To inherit a total operation on classes, equivalent argument tuples must produce equivalent outputs. For a partial operation, its availability must also agree across equivalent tuples. Use the relevant equivalence on each input and output sort. A receiving query q is recoverable only when `x ≡_UNM y` implies `q(x)=q(y)`. Only after these tests may the equivalence be called a congruence for the named operations. A set quotient alone supplies no such result.
+**Operational quotient.** To inherit a total operation on classes, equivalent argument tuples must produce equivalent outputs. For a partial operation, its availability must also agree across equivalent tuples. Use the relevant equivalence on each input and output sort. These conditions establish congruence for the named operations. For a receiving query q, an exact answer on classes is well-defined when `x ≡_UNM y` implies `q(x)=q(y)` for every admitted pair. A query can fail this test even when an operation is well-defined on the classes. If the query itself is among the operations to be inherited, include it in the compatibility test.
 
 **Reversible chart change.** A declared inverse recovers the input on the transformation's stated image. A strictly monotone encoding on a totally ordered domain is injective and invertible on that image, even if the declared target contains other values. A merely monotone LUT may merge inputs. Repeated normalization or idempotence requires its own composable domain and law; it does not follow from the fibers.
 
@@ -41700,7 +41702,7 @@ An optional application affects the aggregate only when the cited profile rule s
 Compose check sets only through the profile applications that cover the decision subject and scope. A more specific application may add, replace, or remove a check only when its policy rule and applicability fact say so. Preserve parameterized identities such as regulator X and its rule edition.
 
 `lane`, `locus`, `subflow`, and `profile` may be used as scope values only when the selected structure or policy defines the corresponding boundary for this application. A scope label alone neither selects a profile nor merges check applications.
-Recompute the result when the decision subject, bounded action, profile application, required set, check application identity or result, scope, or window changes. A refresh, edition bump, expired evidence window, changed crossing, or changed path slice matters only when it changes one of those inputs under its own pattern.
+When the decision subject, bounded action, profile application, required set, check application identity or result, scope, or window changes, establish what the effective profile implies for the current action. A decisive condition can determine that disposition across all still possible outcomes of the other checks. Retain their actual states, including deferred checks. Perform a new gate application when the profile or commission requires one. A refresh, edition bump, expired evidence window, changed crossing, or changed path slice matters here when it changes an input under its own pattern.
 
 #### A.21:4.7 - Optional LaunchGate use
 
@@ -54134,7 +54136,7 @@ Applying the declaration rule in 4.2.1, `EpistemeEmpiricalGroundingRelationSigna
 
 `EpistemeEmpiricalGroundingRelation` over participants `(E,H)`, with `covered=C`, obtains exactly while exact covered claim subgraph `C` contains at least one empirical claim and every empirical claim in `C` has a current claim-to-world mapping to the required independently governed direct observation, intervention, measurement, or test relation structure involving `H` under E's effective ReferenceScheme. Every mapped relation required by that coverage must obtain. An exact direct evaluation relation counts as part of the empirical test only when the mapping states its concrete use in that test; otherwise evaluation and evidence can support or challenge an assertion about grounding but are not its world-side base.
 
-One occurrence is identified by `<episteme, exact covered claim subgraph, grounding holon, maximal continuous interval during which the complete coverage predicate is true>`. Closing the open end of that interval refines the description of the same occurrence. Demonstrated failure of any required mapping followed by restored complete coverage yields another occurrence.
+One occurrence is identified by `<episteme, exact covered claim subgraph, grounding holon, maximal continuous interval during which the complete coverage predicate is true>`. Evidence of when coverage ended can refine a description that left its end open. If the earlier description asserted coverage beyond that date, revise the assertion. Demonstrated failure of any required mapping followed by restored complete coverage yields another occurrence.
 
 Evidence or evaluation availability alone establishes neither obtaining nor nonobtaining and proves no temporal gap.
 
@@ -62028,7 +62030,7 @@ To establish that the readings leave two answers possible, find two cases that s
 
 Separate a proved empty compatible set from a search that has not found a case. An empty set shows that the combined readings, model and conditions are inconsistent. Locate a consequential conflict; the cause may be a recording error, a changed subject, an unsuitable error bound or an inadequate measurement relation. A failed search instead limits the computational result.
 
-A point result under ideal data can broaden when input uncertainty is restored. Recompute the relevant range when a reading, calibration coefficient or domain changes. Numerical sensitivity and branch ambiguity can require different remedies.
+A point result under ideal data can broaden when input uncertainty is restored. After a reading, calibration coefficient or domain changes, compare the revised compatible cases with the grounds for the earlier answer. If the revised cases form a nonempty subset of the earlier admissible cases, the earlier bound still holds throughout that subset and may settle the same threshold question. If additional cases are admitted, establish the required conclusion for those cases too. Recalculate when the change affects the needed conclusion or the commission requires the revised range itself. Numerical sensitivity and branch ambiguity can require different remedies.
 
 #### C.16.IR:4.5 - Choose the useful return
 
@@ -78219,7 +78221,7 @@ What this buys: the practitioner can keep conflict or frustration language as an
 
 `Interlevel conflict` and `frustration` may appear in ordinary project descriptions, but the conforming record describes the residual through declared holon levels or declared scopes, the selected structure that carries them, and a residual-bearing locus. The pattern does not create a generic level scale or `U.Frustration`.
 
-It asks which declared holon level, declared scope, aggregation scope, control layer, organizational scope, work scope, evidence scope, system scope, environment scope, scale window, interface grammar, allocation boundary, publication section, or source-return condition bears the residual. A system level or episteme level is a special case of a declared holon level.
+It asks which declared holon level, declared scope, aggregation scope, control layer, organizational scope, work scope, evidence scope, system scope, environment scope, scale window, interface grammar, allocation boundary, publication section, or source-return condition bears the residual. When a level concerns holon composition, identify the kind of whole involved, its constituents and the relation the residual depends on. A system, a body of knowledge or an occurrence of Work can each have relevant constituents. Comparing a service model with a less detailed model of the same service raises a different question. Which relevant distinctions does the second model still carry? Use B.5.MR if the comparison is one of refinement.
 
 Use the subject pattern when the issue under repair is only ethical value framing, interlevel ethical conflict structure, ethical mediation or decision use, measurement, scale relation, coarse-graining relation, mathematical-lens validation, candidate generation, residual-reducing candidate-set work, final selection, causal outcome, evidence, or assurance. Use C.30.ILC only for the architecture residual-bearing locus.
 
@@ -78310,7 +78312,7 @@ CrossScopeArchitectureResidualTriageRecord@Context ::= {
 }
 ```
 
-**Layer, level, tier, stack, and declared-scope labels.** `Declared holon level` is the general level-bearing recovery field for this pattern; system level and episteme level are special cases when the described holon or selected structure makes them relevant to the claim. `System level` may remain as ordinary recognition language when a practitioner would naturally use it, but the record recovers the project-side scope references through `declaredHolonLevelRefs` or `declaredScopeRefs`; a system level is not the default architecture level.
+**Layer, level, tier, stack, and declared-scope labels.** Use `declaredHolonLevelRefs` for levels in the established composition of the holon kind at issue. A mismatch between a particular work occurrence and its constituent actions, for instance, can matter to a handover. For control functions, ranges of operation and other scopes, recover the relation the claim actually uses (C.30.STRAT:4.2). `System level` may remain as ordinary recognition language when a practitioner would naturally use it, but the record recovers the project-side scope references through `declaredHolonLevelRefs` or `declaredScopeRefs`; a system level is not the default architecture level.
 
 When the source says layer, level, tier, or stack, recover one or more of: `declaredHolonLevelRef`, `controlLayerRef`, `declaredSystemLevelRef`, `aggregationScopeRef`, `rateBandRef`, `organizationLevelRef`, `workEvidenceScopeRef`, `scaleWindowRef`, or `publicationSectionRef` when the wording only names a document layer.
 
@@ -85319,7 +85321,7 @@ C.34 makes the preservation claim explicit before the result is used.
 | Formal rigor vs practitioner action | Formal mapping modes help only when preserved and lost structure are named in architecture terms. |
 | Shape vs semantics | Two graphs, views, or diagrams can have the same shape while their relation types differ. |
 | Compression and loss | Identify which relation the receiving work has to recover through a projection, model or narrative. Test the links used in its derivation. A supported end-to-end correspondence can resolve an end-to-end question. Establish the individual links when the answer relies on them or the commission asks about them. |
-| Cross-context reach | A mapping across teams, source traditions, tool models, or holon levels needs the Bridge predicate and conformance test when substitution or transfer is claimed. |
+| Cross-context reach | A change of team, tool or composition scale can preserve the relevant meanings or change them. Establish the structural correspondence needed in the claimed direction. A transfer between different local senses also needs its semantic Bridge. |
 
 ### C.34:4 - Solution
 
@@ -85390,7 +85392,7 @@ The narrative order is not exact equivalence and does not license implementation
 | Formal vocabulary mistaken for adequacy | Keep graph isomorphism, morphism, functor, entropy, or simulation wording as lens or mapping support until the architecture use, preserved structure, and loss are declared. |
 | Symmetric-equivalence overclaim | Require directionality and scope. A projection, abstraction, simulation relation, or coarsening often licenses one direction only. |
 | Semantic-loss hiding | Make lost control authority, allocation, bearer semantics, placement, timing, confidence, or source-tradition meaning explicit before the mapping is reused. |
-| Bridge-bypass bias | Handle cross-context substitution, source-tradition transfer, and later conformance strengthening under `F.9` or `F.15` instead of letting C.34 authorize the transfer alone. |
+| Bridge-bypass bias | When the transferred result depends on a correspondence between different local senses, establish it under `F.9`. Apply `F.15` where the receiving use requires a conformance test. |
 
 ### C.34:7 - Conformance checklist
 
@@ -85453,7 +85455,7 @@ The source families explain the safeguards. Structural-equivalence research show
 - **Builds on:** `A.22`, `C.30`, `C.30.ASV`, `C.30.AD`, `C.29`, and `F.9`.
 - **Uses:** `C.16`, `C.25`, and `C.32.ACE` when a preservation, similarity, distance, entropy, loss, or compression claim is recorded as a reading or eval result.
 - **Coordinates with:** `C.32`, `C.32.PAD`, `C.32.ADR`, `C.30.TFS-REL`, `C.30.STRAT`, `A.6.M`, `A.6.3.NAR`, `C.31`, `C.31.ASAP`, `E.18`, and `F.15`.
-- **Boundary:** C.34 tests declared preservation adequacy for an architecture use. It does not make a formalism ontology, select a candidate, decide a project, establish evidence or assurance, or authorize substitution across contexts; that substitution requires the Bridge predicate and conformance rule.
+- **Boundary.** C.34 tests declared structural preservation for the architecture use. Where substitution or transfer relies on a Bridge between local senses, use F.9. Apply F.15 when the receiving use requires its conformance test. Candidate selection, project decisions, formalism interpretation, evidence and assurance retain their own grounds.
 
 ### C.34:End
 
@@ -102867,7 +102869,7 @@ A published grammar makes formal conventions easy to inspect. In a workplace, pe
 
 ### E.5.2.L:8 - Common Anti-Patterns and How to Avoid Them
 
-Routing a job because the printed code matches can send it to the wrong equipment. Resolve the designation under the applicable assignment. Treating a more formal wording as a stricter rule can also change a decision without warrant. Apply B.5.MR:4.2 to the rules as models of the same inquiry. Establish that the revision has a feasible answer, preserves the earlier conditions for every answer it permits and excludes a formerly possible answer.
+Routing a job because the printed code matches can send it to the wrong equipment. Resolve the designation under the applicable assignment. Treating a more formal wording as a stricter rule can also change a decision without warrant. Apply B.5.MR:4.2 to the rules as models of the same inquiry. Show that at least one performance satisfies the revised rule, that every performance it permits meets the earlier requirements under the same interpretation, and that a formerly possible answer to the question is now excluded.
 
 ### E.5.2.L:9 - Consequences
 
@@ -111741,7 +111743,7 @@ E.8:4.2.1.3 governs the choice and continuation of examples: a connected account
 
 At a narrower scope, state what changes in the situation, contribution, combination, evidence, result, or boundary. When an answer is missing, say which question remains open, which promised use it limits, and what remains usable.
 
-Distinguish a shorter account of the same Method, an account of a constituent method and a more abstract model that admits additional ways to do the work. A profile may make any of these moves. Show what the practitioner can still decide and which relationships or distinctions the promised use requires.
+A profile can shorten the account of a Method, describe one of its constituents, or leave open some of the choices about how to carry it out. For the third move, which new answer does the less constrained model allow for the practitioner's question? Allowing a second report format, for instance, changes the answer about formats. It may leave intact both the required check and the answer about when it has passed. Keep the relationships and distinctions the promised use requires.
 
 Develop a missing instruction in the underlying account through E.8:4.2.1.1 before choosing how to present it. Then follow the promised use through the resulting publication, including any return to a supplying explanation. The reader must still obtain the input meanings, necessary operation, intermediate result and action-changing conditions that make the continuation possible.
 
@@ -111782,7 +111784,7 @@ A reader can start from the general treatment of Methods, enter the Method-devel
 
 Explain the relation at each move: a profile is a bounded-use projection; specialization carries inherited content plus a delta; composition connects Method contributions; reuse makes one contribution available in several settings; a chapter or Part groups publication text. A substantive narrowing must pass `E.8:4.1.3`'s same-situation usefulness comparison.
 
-When two entries compare models of the same subject for the same inquiry, use B.5.MR. A stricter model has at least one admissible completion, preserves everything the earlier model required of its completions, and excludes at least one earlier possibility for that inquiry. Selecting another member of a family, restricting the audience of a profile or starting a different task can be useful while leaving that modelling question unchanged.
+When two entries compare models of the same subject for the same inquiry, use B.5.MR. A stricter model has at least one admissible completion, preserves everything the earlier model required of its completions, and excludes an answer to that inquiry that the earlier model allowed. Selecting another member of a family, restricting the audience of a profile or starting a different task can be useful while leaving that modelling question unchanged.
 
 A pattern can participate in several profiles, and a profile can draw on several contributions. Describe this structure through the relations that hold.
 
@@ -115677,7 +115679,7 @@ A conformance check is kept only if it changes the next bounded use of the publi
 4. **Face presented as a view without conformance.**
     *Fix:* Resolve the viewpoint episteme and apply E.17.0 to the candidate episteme; redesign or re-emit the face only after the semantic repair.
 5. **`InteropCard` equivalent to `TechCard` duplication.**
-    *Fix:* `InteropCard` can refine typing or shape but cannot contradict `TechCard` (reindexing monotone).
+    *Fix:* When `InteropCard` adds a type or shape to `TechCard`, check which source values, claims and answers the consuming interface must carry. An integer field can represent counts exactly. If the source admits fractional measurements, establish a conversion that preserves the required answer, change the field, or tell the recipient which use the projection can support.
 
 ### E.17:11 - Consequences
 
@@ -142302,7 +142304,7 @@ G.12 counters screen-first, “latest”-by-default, scalar-winner, and publicat
 
 ### G.12:11 — Worked Micro-examples
 
-**Decision-making dashboard.** A local view shows exact `ReproducibilityRate`, `FormalRecognitionStatus`, `PracticeAdoptionRate`, `AlignmentDensity`, `TraditionShareEntropy`, and `TraditionShareConcentration` result refs. A row showing 60% adoption among respondents gives the number who replied, the number eligible and the period. The portfolio owner asks whether at least half of all eligible units adopted the practice. Show the C.21 result for that population. If every admissible count reaches the threshold, it is met. If every count falls short, it is missed. Two admissible counts on opposite sides leave the answer open. If only an outer bound crosses the threshold, report the limit of that calculation. A tighter calculation with the existing observations may settle the question. The owner decides what to do. Entropy and HHI occupy separate rows with their directions visible. A portfolio panel preserves the G.5 selected set. No audience publication is claimed.
+**Decision-making dashboard.** A local view shows exact `ReproducibilityRate`, `FormalRecognitionStatus`, `PracticeAdoptionRate`, `AlignmentDensity`, `TraditionShareEntropy`, and `TraditionShareConcentration` result refs. A row showing 60% adoption among respondents gives the number who replied, the number eligible and the period. The portfolio owner asks whether at least half of all eligible units adopted the practice. Use an established C.21 result for that population. When deriving the verdict from incomplete counts, first establish that at least one assignment of statuses fits the population and the evidence used. If the records are jointly inconsistent, report that conflict. If feasibility is unresolved, say what the records still establish. For a nonempty set of admissible counts, if every count reaches the threshold, it is met. If every count falls short, it is missed. Two admissible counts on opposite sides leave the answer open. If only an outer bound crosses the threshold, report the limit of that calculation. A tighter calculation with the existing observations may settle the question. The owner decides what to do. Entropy and HHI occupy separate rows with their directions visible. A portfolio panel preserves the G.5 selected set. No audience publication is claimed.
 
 **Evolutionary architecture dashboard.** A `DHCSeries` episteme orders exact reproducibility and DisruptionBalance results over declared windows. An optional open-ended panel shows transfer events as telemetry. A later E.24.PUB occurrence makes the selected series edition available to a named audience in dashboard form; that occurrence neither changes the series content nor turns the rendering Work into the health result.
 
